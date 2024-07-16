@@ -1,10 +1,10 @@
 /obj/item/book/manual/solaris
 	name = "Solaris"
 	icon_state ="book_Solaris"
-	author = "Stanislaw Lem"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
-	title = "Solaris"
+	starting_author = "Stanislaw Lem"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
+	starting_title = "Solaris"
 	desc = "An old tattered book left in the zone. This one has a picture of a brain with orbiting planetary bodies."
-	dat = {"<html>
+	starting_content = {"<html>
 				<head>
 				<style>
 				h1 {font-size: 18px; margin: 15px 0px 5px;}
@@ -247,10 +247,10 @@
 /obj/item/book/manual/allquietonthewesternfront
 	name = "All Quiet on the Western Front"
 	icon_state ="book_AllQuietOnTheWesternFront"
-	author = "Erich Maria Remarque"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
-	title = "All Quiet on the Western Front"
+	starting_author = "Erich Maria Remarque"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
+	starting_title = "All Quiet on the Western Front"
 	desc = "An old tattered book left in the zone. This one features a close up of a soldiers face, with two soldiers arming a machine gun on the left."
-	dat = {"<html>
+	starting_content = {"<html>
 				<head>
 				<style>
 				h1 {font-size: 18px; margin: 15px 0px 5px;}
@@ -668,10 +668,10 @@ none of us more than twenty years old. But young? Youth? That is long ago. We ar
 /obj/item/book/manual/crimeandpunishment
 	name = "Crime and Punishment"
 	icon_state ="book_CrimeAndPunishment"
-	author = "Fyodor Dostoevsky"
-	title = "Crime and Punishment"
+	starting_author = "Fyodor Dostoevsky"
+	starting_title = "Crime and Punishment"
 	desc = "An old tattered book left in the zone. This one has a picture of an axe being poised to strike!"
-	dat = {"<html>
+	starting_content = {"<html>
 				<head>
 				<style>
 				h1 {font-size: 18px; margin: 15px 0px 5px;}
@@ -1038,10 +1038,10 @@ agitation.</p>
 /obj/item/book/manual/roadsidepicnic
 	name = "Roadside Picnic"
 	icon_state ="book_RoadsidePicnic"
-	author = "Boris Strugatsky"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
-	title = "Roadside Picnic"
+	starting_author = "Boris Strugatsky"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
+	starting_title = "Roadside Picnic"
 	desc = "An old tattered book left in the zone. This one has a picture of a man with his arms out towards a sphere in an urban environment.."
-	dat = {"<html>
+	starting_content = {"<html>
 				<head>
 				<style>
 				h1 {font-size: 18px; margin: 15px 0px 5px;}
@@ -1438,12 +1438,12 @@ the stars and can't see your own two hands.
 /obj/item/book/manual/metro2033
 	name = "Metro 2033"
 	icon_state ="book_Metro2033"
-	author = "Dmitry Glukhovsky"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
-	title = "Metro 2033"
+	starting_author = "Dmitry Glukhovsky"		 // Who wrote the thing, can be changed by pen or PC. It is not automatically assigned
+	starting_title = "Metro 2033"
 	desc = "An old tattered book left in the zone. This one looks to have a person in a gas mask on it."
 //big pile of shit below.
 
-	dat = {"<html>
+	starting_content = {"<html>
 				<head>
 				<style>
 				h1 {font-size: 18px; margin: 15px 0px 5px;}
@@ -1786,10 +1786,10 @@ check your documents a hundred times. I had dealings there at the time and there
 /obj/item/book/manual/theprophetpain
 	name = "The Prophet: Pain"
 	icon_state = "book_TheProphet"
-	author = "Khalil Gibran"
-	title = "The Prophet: Pain"
+	starting_author = "Khalil Gibran"
+	starting_title = "The Prophet: Pain"
 	desc = "An old tattered book left in the zone. This one has a picture of a mans face on it."
-	dat = {"<html>
+	starting_content = {"<html>
 		<head>
 		<style>
 		h1 {font-size: 18px; margin: 15px 0px 5px;}
@@ -1836,10 +1836,10 @@ check your documents a hundred times. I had dealings there at the time and there
 /obj/item/book/manual/theprophetfriendship
 	name = "The Prophet: Friendship"
 	icon_state = "book_TheProphet"
-	author = "Khalil Gibran"
-	title = "The Prophet: Friendship"
+	starting_author = "Khalil Gibran"
+	starting_title = "The Prophet: Friendship"
 	desc = "An old tattered book left in the zone. This one has a picture of a mans face on it."
-	dat = {"<html>
+	starting_content = {"<html>
 				<head>
 				<style>
 				h1 {font-size: 18px; margin: 15px 0px 5px;}
@@ -1901,10 +1901,10 @@ check your documents a hundred times. I had dealings there at the time and there
 /obj/item/book/manual/theprophetdeath
 	name = "The Prophet: Death"
 	icon_state = "book_TheProphet"
-	author = "Khalil Gibran"
-	title = "The Prophet: Death"
+	starting_author = "Khalil Gibran"
+	starting_title = "The Prophet: Death"
 	desc = "An old tattered book left in the zone. This one has a picture of a mans face on it."
-	dat = {"<html>
+	starting_content = {"<html>
 				<head>
 				<style>
 				h1 {font-size: 21px; margin: 15px 0px 5px;}
