@@ -40,7 +40,7 @@
 	M.do_attack_animation(src)
 	return
 
-/obj/structure/grille/stalker/bullet_act(var/obj/item/projectile/Proj)
+/obj/structure/grille/stalker/bullet_act(var/obj/projectile/Proj)
 	if(!Proj)
 		return
 	..()
@@ -78,7 +78,7 @@ obj/structure/grille/stalker/beton/CanPass(atom/movable/mover, turf/target, heig
 	if(istype(mover) && (mover.pass_flags == PASSGRILLE))
 		return 1
 	else
-		if(istype(mover, /obj/item/projectile) && density)
+		if(istype(mover, /obj/projectile) && density)
 			return prob(0)
 		else
 			return !density

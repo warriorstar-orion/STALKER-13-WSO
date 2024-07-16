@@ -106,7 +106,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	if(lasttime + (cooldown * 10) > world.time)
 		return
 
-	if(istype(A,/obj/item/projectile) || istype(A,/obj/item/artifact))
+	if(istype(A,/obj/projectile) || istype(A,/obj/item/artifact))
 		return
 
 	if(istype(A,/obj/item))

@@ -10,7 +10,7 @@
 	var/turf/startloc = get_turf(src)
 	for(var/T in RANGE_TURFS(12, startloc) - startloc)
 		if(prob(3))
-			var/obj/item/projectile/P = new /obj/item/projectile/bullet/fragment(startloc)
+			var/obj/projectile/P = new /obj/projectile/bullet/fragment(startloc)
 			P.preparePixelProjectile(T, startloc)
 			P.firer = src
 			P.fire(T)
