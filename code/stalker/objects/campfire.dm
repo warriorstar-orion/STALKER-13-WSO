@@ -24,7 +24,7 @@
 	//spawn(10)
 	//	set_light(0, 1, firecolor)
 	spawn(10)
-		GLOB.machines -= src
+		SSmachines.unregister_machine(src)
 
 /obj/machinery/campfire/Destroy()
 	/*for (var/client/C in campers)
@@ -32,7 +32,7 @@
 		C.mob.ambient_campfire = null
 		campers -= C*/
 	QDEL_NULL(soundloop)
-	GLOB.machines -= src
+	SSmachines.unregister_machine(src)
 	..()
 
 obj/machinery/campfire/barrel
@@ -65,13 +65,16 @@ obj/machinery/campfire/barrel
 
 	soundloop.stop()
 
-	GLOB.machines -= src
+	SSmachines.unregister_machine(src)
+
 
 /obj/machinery/campfire/update_icon()
+	. = ..()
 	icon_state = "campfire[active]"
 	return
 
 /obj/machinery/campfire/barrel/update_icon()
+	. = ..()
 	icon_state = "barrel[active]"
 	return
 
@@ -97,9 +100,9 @@ obj/machinery/campfire/barrel
 			H.adjustToxLoss(-0.5)
 			H.adjustPsyLoss(-2)
 
-obj/machinery/campfire/process()
+/obj/machinery/campfire/process()
 	if(!active)
-		GLOB.machines -= src
+		SSmachines.unregister_machine(src)
 		return
 	src.RefreshSound()
 
@@ -117,7 +120,7 @@ obj/machinery/campfire/process()
 				spawn(10)
 					set_light(0, 1, firecolor)
 					set_light(4, 1, firecolor)
-				GLOB.machines |= src
+				SSmachines.register_machine(src)
 			else
 				if(M.lit == 0 && active)
 					M.fire_act()
@@ -135,7 +138,7 @@ obj/machinery/campfire/process()
 				spawn(10)
 					set_light(0, 1, firecolor)
 					set_light(4, 1, firecolor)
-				GLOB.machines |= src
+				SSmachines.register_machine(src)
 			return
 
 		if(active)
