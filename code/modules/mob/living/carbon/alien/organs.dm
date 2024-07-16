@@ -268,7 +268,7 @@
 		var/list/attack_verbs = pokie.attack_verb_continuous
 		impact = rand(round(dmg / 4), dmg)
 		attack_name = pokie.name
-		attack_verb = length(attack_verbs) ? "[pick(attack_verbs)]" : "attacks"
+		attack_verb_continuous = length(attack_verbs) ? "[pick(attack_verbs)]" : "attacks"
 
 	if(!impact)
 		return
