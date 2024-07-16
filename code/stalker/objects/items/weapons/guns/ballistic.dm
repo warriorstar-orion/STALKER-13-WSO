@@ -261,7 +261,6 @@
 	fire_sound = 'stalker/sound/weapons/pm_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18aps
 	force = 10
-	automatic = 1
 	burst_size = 5
 	fire_delay = 1.7
 	can_suppress = 1
@@ -283,7 +282,6 @@
 	fire_sound = 'stalker/sound/weapons/pm_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18aps
 	force = 10
-	automatic = 1
 	burst_size = 5
 	fire_delay = 1.5
 	can_suppress = 1
@@ -515,7 +513,6 @@
 	recoil = 1.4
 	damagelose = 0.05
 	can_scope = 0
-	automatic = 1
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
 	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
@@ -538,7 +535,6 @@
 	recoil = 1.7
 	damagelose = 0.05
 	can_scope = 0
-	automatic = 1
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
 	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
@@ -562,7 +558,6 @@
 	recoil = 1
 	damagelose = 0.2
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/abakan_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/abakan_load.ogg'
@@ -587,7 +582,6 @@
 	recoil = 1
 	damagelose = 0.2
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/abakan_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/abakan_load.ogg'
@@ -612,7 +606,6 @@
 	recoil = 1
 	damagelose = 0.2
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/abakan_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/abakan_load.ogg'
@@ -637,7 +630,6 @@
 	recoil = 1
 	damagelose = 0.2
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/tpc301_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/tpc301_load.ogg'
@@ -662,7 +654,6 @@
 	recoil = 1
 	damagelose = 0.2
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/tpc301_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/tpc301_load.ogg'
@@ -686,7 +677,6 @@
 	recoil = 0.35
 	damagelose = 0.25
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
@@ -710,7 +700,6 @@
 	recoil = 0.35
 	damagelose = 0.25
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
@@ -733,7 +722,6 @@
 	recoil = 0.15
 	damagelose = 0.25
 	can_scope = 0
-	automatic = 1
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
 	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
@@ -757,7 +745,6 @@
 	recoil = 1
 	damagelose = 0.2
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/abakan_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/abakan_load.ogg'
@@ -780,7 +767,6 @@
 	recoil = 0.8
 	damagelose = 0.25
 	can_scope = 0
-	automatic = 1
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
 	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
@@ -831,7 +817,6 @@
 	recoil = 0.5
 	damagelose = 0.25
 	can_scope = 1
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/ak74_draw.ogg'
 // Work in Progress
@@ -899,7 +884,6 @@
 	recoil = 0.7
 	damagelose = 0.5
 	can_scope = 1
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/ak74u_draw.ogg'
 
@@ -924,7 +908,6 @@
 	recoil = 0.3
 	damagelose = 0.5
 	can_scope = 1
-	automatic = 1
 	unique = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/ak74u_draw.ogg'
@@ -951,7 +934,6 @@
 	recoil = 1
 	damagelose = 0.25
 	can_scope = 1
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/ak74_draw.ogg'
 
@@ -977,7 +959,6 @@
 	recoil = 1
 	damagelose = 0.25
 	can_scope = 1
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/ak74_draw.ogg'
 
@@ -1001,7 +982,6 @@
 	recoil = 0.4
 	damagelose = 0.1
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/l85_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/groza_load.ogg'
@@ -1028,7 +1008,6 @@
 	zoom_amt = 5
 	zoom_out_amt = 5
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/fnf2000_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/fnf2000_load.ogg'
@@ -1159,7 +1138,6 @@
 	slowdown = 0.15
 	damagelose = 0.15
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/berettam38_load.ogg'
@@ -1232,7 +1210,6 @@
 	randomspread = 6
 	damagelose = 0.25
 	can_scope = 0
-	automatic = 1
 	draw_sound = 'stalker/sound/weapons/draw/ak74_draw.ogg'
 
 /obj/item/gun/ballistic/automatic/mp5  // MP5
@@ -1252,7 +1229,6 @@
 	recoil = 0.2
 	damagelose = 0.4
 	can_scope = 1
-	automatic = 1
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
 	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
@@ -1275,7 +1251,6 @@
 	recoil = 0.15
 	damagelose = 0.25
 	can_scope = 0
-	automatic = 1
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
 	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
@@ -1297,7 +1272,6 @@
 	recoil = 0.25
 	damagelose = 0.5
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
@@ -1320,7 +1294,6 @@
 	recoil = 0.3
 	damagelose = 0.45
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/berettam38_load.ogg'
@@ -1337,7 +1310,6 @@
 	burst_size = 3
 	spread = 15
 	recoil = 0.2
-	automatic = 1
 	can_scope = 1
 	tac_reloads = TRUE//tacticool
 	weapon_weight = WEAPON_MEDIUM
@@ -1371,7 +1343,6 @@
 	recoil = 0.4
 	damagelose = 0.2
 	can_scope = 1
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/tpc301_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/tpc301_load.ogg'
@@ -1397,7 +1368,6 @@
 	recoil = 0.4
 	damagelose = 0.2
 	can_scope = 1
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/abakan_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/abakan_load.ogg'
@@ -1426,7 +1396,6 @@
 	recoil = 0.4
 	damagelose = 0.1
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/l85_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/groza_load.ogg'
@@ -1450,7 +1419,6 @@
 	recoil = 0.3
 	damagelose = 0.2
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/fnf2000_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/fnf2000_load.ogg'
@@ -1479,7 +1447,6 @@
 	recoil = 0.35
 	damagelose = 0.1
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/l85_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/groza_load.ogg'
@@ -1505,7 +1472,6 @@
 	recoil = 0.35
 	damagelose = 0.15
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/fnf2000_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/fnf2000_load.ogg'
@@ -1534,7 +1500,6 @@
 	recoil = 0.35
 	damagelose = 0.15
 	can_scope = 0
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/fnf2000_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/fnf2000_load.ogg'
@@ -1554,7 +1519,6 @@
 	can_suppress = 0
 	slowdown = 0.40
 	can_scope = 0
-	automatic = 1
 	burst_size = 5
 	fire_delay = 1.8
 	spread = 18
@@ -1594,7 +1558,6 @@
 	recoil = 0.3
 	damagelose = 0.1
 	can_scope = 1
-	automatic = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'stalker/sound/weapons/draw/val_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/val_load.ogg'
@@ -1679,7 +1642,6 @@
 	recoil = 0.4
 	damagelose = 0.35
 	can_scope = 0
-	automatic = 1
 	zoomable = TRUE
 	zoom_amt = 4
 	zoom_out_amt = 4
