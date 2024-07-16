@@ -1,5 +1,5 @@
 /obj/structure/table/stalker
-	smooth = SMOOTH_TRUE
+	smoothing_flags = SMOOTH_TRUE
 	canSmoothWith = list(/obj/structure/table/stalker)
 	pass_flags = LETPASSTHROW
 
@@ -7,14 +7,14 @@
 	desc = "A simple table."
 	icon = 'icons/stalker/structure/stol_stalker.dmi'
 	icon_state = "stol"
-	smooth = SMOOTH_TRUE
+	smoothing_flags = SMOOTH_TRUE
 	canSmoothWith = list(/obj/structure/table/stalker/wood)
 
 /obj/structure/table/stalker/wood/bar
 	desc = "A homemade bar counter."
 	icon = 'icons/stalker/structure/stol_stalker_bar.dmi'
 	icon_state = "bar"
-	smooth = SMOOTH_TRUE
+	smoothing_flags = SMOOTH_TRUE
 	canSmoothWith = list(/obj/structure/table/stalker/wood/bar)
 
 /obj/structure/table/stalker/wood/bar100rentgen
@@ -22,7 +22,7 @@
 	icon = 'icons/stalker/structure/bartables.dmi'
 	icon_state = "table"
 	climbable = FALSE
-	smooth = SMOOTH_FALSE
+	smoothing_flags = SMOOTH_FALSE
 
 /*
 /obj/structure/table/stalker/wood/bar100rentgen/Crossed(atom/movable/AM)
