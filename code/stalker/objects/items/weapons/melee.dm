@@ -54,7 +54,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/knifeswing.ogg'
+	hitsound = 'sound/stalker/weapons/knifeswing.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
@@ -71,7 +71,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/knifeswing.ogg'
+	hitsound = 'sound/stalker/weapons/knifeswing.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
@@ -88,7 +88,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/knifeswing.ogg'
+	hitsound = 'sound/stalker/weapons/knifeswing.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
@@ -105,7 +105,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/knifeswing.ogg'
+	hitsound = 'sound/stalker/weapons/knifeswing.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
@@ -122,7 +122,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/knifeswing.ogg'
+	hitsound = 'sound/stalker/weapons/knifeswing.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
@@ -139,7 +139,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/knifeswing.ogg'
+	hitsound = 'sound/stalker/weapons/knifeswing.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "penetrated", "pierced")
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
@@ -156,7 +156,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/knifeswing.ogg'
+	hitsound = 'sound/stalker/weapons/knifeswing.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "penetrated", "pierced")
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
@@ -263,7 +263,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	lefthand_file = 'icons/mob/inhands/equipment/hydroponics_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/hydroponics_righthand.dmi'
-	hitsound = 'sound/weapons/knifeswing.ogg'
+	hitsound = 'sound/stalker/weapons/knifeswing.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
@@ -280,7 +280,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	lefthand_file = 'icons/mob/inhands/equipment/hydroponics_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/hydroponics_righthand.dmi'
-	hitsound = 'sound/weapons/knifeswing.ogg'
+	hitsound = 'sound/stalker/weapons/knifeswing.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25

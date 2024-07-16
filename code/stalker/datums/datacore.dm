@@ -120,30 +120,30 @@ var/sid_generator = 0
 		var/name = t.fields["name"]
 		var/rank = t.fields["rank"]
 		var/department = 0
-		if(rank in GLOB.command_positions)
-			heads[name] = rank
-			department = 1
-		if(rank in GLOB.security_positions)
-			sec[name] = rank
-			department = 1
-		if(rank in GLOB.engineering_positions)
-			eng[name] = rank
-			department = 1
-		if(rank in GLOB.medical_positions)
-			med[name] = rank
-			department = 1
-		if(rank in GLOB.science_positions)
-			sci[name] = rank
-			department = 1
-		if(rank in GLOB.supply_positions)
-			sup[name] = rank
-			department = 1
-		if(rank in GLOB.civilian_positions)
-			civ[name] = rank
-			department = 1
-		if(rank in GLOB.nonhuman_positions)
-			bot[name] = rank
-			department = 1
+		// if(rank in GLOB.command_positions)
+		// 	heads[name] = rank
+		// 	department = 1
+		// if(rank in GLOB.security_positions)
+		// 	sec[name] = rank
+		// 	department = 1
+		// if(rank in GLOB.engineering_positions)
+		// 	eng[name] = rank
+		// 	department = 1
+		// if(rank in GLOB.medical_positions)
+		// 	med[name] = rank
+		// 	department = 1
+		// if(rank in GLOB.science_positions)
+		// 	sci[name] = rank
+		// 	department = 1
+		// if(rank in GLOB.supply_positions)
+		// 	sup[name] = rank
+		// 	department = 1
+		// if(rank in GLOB.civilian_positions)
+		// 	civ[name] = rank
+		// 	department = 1
+		// if(rank in GLOB.nonhuman_positions)
+		// 	bot[name] = rank
+		// 	department = 1
 		if(!department && !(name in heads))
 			misc[name] = rank
 	if(heads.len > 0)
