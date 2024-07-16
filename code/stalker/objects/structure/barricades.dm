@@ -145,6 +145,7 @@
 	icon_state = "block5l"
 
 /obj/structure/stalker/blocks/vanish/CanPass(atom/movable/mover, turf/target, height=0)//So bullets will fly over and stuff.
+	. = ..()
 	if(height==0)
 		return 1
 	if(istype(mover, /obj/projectile))

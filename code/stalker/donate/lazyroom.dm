@@ -8,6 +8,8 @@
 	var/static/list/vip_users = list()
 
 /obj/effect/forcefield/lazyvip/CanPass(atom/movable/mover, turf/target)
+	..()
+
 	if(mover in vip_users)
 		return TRUE
 

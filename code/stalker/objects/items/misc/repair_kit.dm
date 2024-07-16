@@ -25,7 +25,7 @@
 			user << "<span class='warning'>[src] durability is too low. You can't repair it with kit of this type.</span>"
 			return 0
 
-		playsound(user.loc, 'stalker/sound/inv_repair_spray_oil.ogg', 50, 1)
+		playsound(user.loc, 'sound/stalker/inv_repair_spray_oil.ogg', 50, 1)
 		user.visible_message("<span class='notice'>[user] starts repairing [src]...</span>", "<span class='notice'>You start repairing [src]...</span>")
 		if(!do_after(user, 50, target = src))
 			playsound(src.loc, null, 50, 0)
@@ -63,7 +63,7 @@
 			user << "<span class='warning'>[src]'s durability is too low. You can't repair it with kit of this type.</span>"
 			return 0
 
-		playsound(user.loc, 'stalker/sound/inv_repair_spray_oil.ogg', 50, 1)
+		playsound(user.loc, 'sound/stalker/inv_repair_spray_oil.ogg', 50, 1)
 		user.visible_message("<span class='notice'>[user] starts repairing [src]...</span>", "<span class='notice'>You start repairing [src]...</span>")
 		if(!do_after(user, 50, target = src))
 			playsound(src.loc, null, 50, 0)
@@ -100,7 +100,7 @@
 			user << "<span class='warning'>[src]'s durability is too low. You can't repair it with kit of this type.</span>"
 			return 0
 
-		playsound(user.loc, 'stalker/sound/inv_repair_spray_oil.ogg', 50, 1)
+		playsound(user.loc, 'sound/stalker/inv_repair_spray_oil.ogg', 50, 1)
 		user.visible_message("<span class='notice'>[user] starts cleaning [src]...</span>", "<span class='notice'>You start cleaning [src]...</span>")
 
 		if(!do_after(user, 50, target = src))

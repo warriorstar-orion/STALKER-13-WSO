@@ -101,7 +101,7 @@
 		return
 
 	if(src.psyloss >= 25 && (!client.psy || (world.time >= client.psy.last_time + client.psy.real_cooldown)))
-		client.psy = new/sound/ambient(file = 'stalker/sound/ambience/psy_amb.ogg')
+		client.psy = new/sound/ambient(file = 'sound/stalker/ambience/psy_amb.ogg')
 		////////////////////////
 		client.psy.last_time = world.time
 		client.psy.real_cooldown = 110

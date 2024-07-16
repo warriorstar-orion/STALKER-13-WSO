@@ -60,6 +60,7 @@
 	icon_state = "okno4"
 
 /obj/structure/stalker/okno/CanPass(atom/movable/mover, turf/target, height=0)//So bullets will fly over and stuff.
+	. = ..()
 	if(height==0)
 		return 1
 	if(istype(mover, /obj/projectile))

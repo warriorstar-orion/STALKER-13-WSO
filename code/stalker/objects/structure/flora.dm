@@ -94,6 +94,7 @@
 		update_icon()
 
 /obj/structure/flora/ausbushes/wildplant/update_icon()
+	. = ..()
 	if(has_plod)
 		icon_state = "[initial(icon_state)]"
 	else

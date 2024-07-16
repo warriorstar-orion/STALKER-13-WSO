@@ -142,7 +142,7 @@
 /area/stalker/buildings/backwater/ironforest
 	name = "Backwater - Iron Forest \[NB\]"
 	icon_state = "ironforest"
-	ambient_background = list('stalker/sound/ambience/ugrnd/howled_4.ogg')
+	ambient_background = list('sound/stalker/ambience/ugrnd/howled_4.ogg')
 	ambient_background_cooldown = list(270)
 	ambient_environment = DEFAULT_AMBIENT_ENVIRONMENT_UNDERGROUND
 	ambient_environment_night = list()
@@ -163,7 +163,7 @@
 	name = "Backwater - Krug Antenna Complex \[NB\]"
 	icon_state = "krug"
 	environment = 5
-	ambient_background = list('stalker/sound/ambience/ugrnd/howled_4.ogg')
+	ambient_background = list('sound/stalker/ambience/ugrnd/howled_4.ogg')
 	ambient_background_cooldown = list(270)
 	ambient_environment = DEFAULT_AMBIENT_ENVIRONMENT_UNDERGROUND
 	ambient_environment_night = list()
@@ -256,7 +256,7 @@
 /area/stalker/buildings/backwater/plateau
 	name = "Backwater - Southern Plateau \[NB\]"
 	icon_state = "plateau"
-	ambient_background = list('stalker/sound/ambience/ugrnd/howled_4.ogg')
+	ambient_background = list('sound/stalker/ambience/ugrnd/howled_4.ogg')
 	ambient_background_cooldown = list(270)
 	ambient_environment = DEFAULT_AMBIENT_ENVIRONMENT_UNDERGROUND
 	ambient_environment_night = list()
@@ -366,7 +366,7 @@
 	icon_state = "caves"
 	requires_power = 1
 	ambient_music = null
-	ambient_background = list('stalker/sound/ambience/ugrnd/howled_4.ogg')
+	ambient_background = list('sound/stalker/ambience/ugrnd/howled_4.ogg')
 	ambient_background_cooldown = list(270)
 	ambient_environment = DEFAULT_AMBIENT_ENVIRONMENT_UNDERGROUND
 	ambient_environment_night = list()

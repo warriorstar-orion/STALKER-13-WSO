@@ -51,28 +51,28 @@ SUBSYSTEM_DEF(blowout)
 	var/cooldownreal = 10000
 	var/lasttime = 0
 	var/starttime = 0
-	var/list/ambient = list('stalker/sound/blowout/blowout_amb_01.ogg', 'stalker/sound/blowout/blowout_amb_02.ogg',
-						'stalker/sound/blowout/blowout_amb_03.ogg', 'stalker/sound/blowout/blowout_amb_04.ogg',
-						'stalker/sound/blowout/blowout_amb_05.ogg', 'stalker/sound/blowout/blowout_amb_06.ogg',
-						'stalker/sound/blowout/blowout_amb_07.ogg', 'stalker/sound/blowout/blowout_amb_08.ogg')
+	var/list/ambient = list('sound/stalker/blowout/blowout_amb_01.ogg', 'sound/stalker/blowout/blowout_amb_02.ogg',
+						'sound/stalker/blowout/blowout_amb_03.ogg', 'sound/stalker/blowout/blowout_amb_04.ogg',
+						'sound/stalker/blowout/blowout_amb_05.ogg', 'sound/stalker/blowout/blowout_amb_06.ogg',
+						'sound/stalker/blowout/blowout_amb_07.ogg', 'sound/stalker/blowout/blowout_amb_08.ogg')
 
-	var/list/rumble = list('stalker/sound/blowout/blowout_ambient_rumble_01.ogg', 'stalker/sound/blowout/blowout_ambient_rumble_02.ogg',
-							'stalker/sound/blowout/blowout_ambient_rumble_03.ogg', 'stalker/sound/blowout/blowout_ambient_rumble_04.ogg')
+	var/list/rumble = list('sound/stalker/blowout/blowout_ambient_rumble_01.ogg', 'sound/stalker/blowout/blowout_ambient_rumble_02.ogg',
+							'sound/stalker/blowout/blowout_ambient_rumble_03.ogg', 'sound/stalker/blowout/blowout_ambient_rumble_04.ogg')
 
-	var/list/wave = list('stalker/sound/blowout/blowout_wave_01.ogg', 'stalker/sound/blowout/blowout_wave_02.ogg',
-						'stalker/sound/blowout/blowout_wave_03.ogg')
+	var/list/wave = list('sound/stalker/blowout/blowout_wave_01.ogg', 'sound/stalker/blowout/blowout_wave_02.ogg',
+						'sound/stalker/blowout/blowout_wave_03.ogg')
 
-	var/list/boom = list('stalker/sound/blowout/blowout_boom_01.ogg', 'stalker/sound/blowout/blowout_boom_02.ogg',
-						'stalker/sound/blowout/blowout_boom_03.ogg')
+	var/list/boom = list('sound/stalker/blowout/blowout_boom_01.ogg', 'sound/stalker/blowout/blowout_boom_02.ogg',
+						'sound/stalker/blowout/blowout_boom_03.ogg')
 
-	var/list/lightning = list('stalker/sound/blowout/blowout_lightning_01.ogg', 'stalker/sound/blowout/blowout_lightning_02.ogg',
-								'stalker/sound/blowout/blowout_lightning_03.ogg', 'stalker/sound/blowout/blowout_lightning_04.ogg',
-								'stalker/sound/blowout/blowout_lightning_05.ogg', 'stalker/sound/blowout/blowout_flare_01.ogg',
-								'stalker/sound/blowout/blowout_flare_02.ogg', 'stalker/sound/blowout/blowout_flare_03.ogg',
-								'stalker/sound/blowout/blowout_flare_04.ogg')
+	var/list/lightning = list('sound/stalker/blowout/blowout_lightning_01.ogg', 'sound/stalker/blowout/blowout_lightning_02.ogg',
+								'sound/stalker/blowout/blowout_lightning_03.ogg', 'sound/stalker/blowout/blowout_lightning_04.ogg',
+								'sound/stalker/blowout/blowout_lightning_05.ogg', 'sound/stalker/blowout/blowout_flare_01.ogg',
+								'sound/stalker/blowout/blowout_flare_02.ogg', 'sound/stalker/blowout/blowout_flare_03.ogg',
+								'sound/stalker/blowout/blowout_flare_04.ogg')
 
-	var/list/wind = list('stalker/sound/blowout/blowout_wind_01.ogg', 'stalker/sound/blowout/blowout_wind_02.ogg',
-							'stalker/sound/blowout/blowout_wind_03.ogg')
+	var/list/wind = list('sound/stalker/blowout/blowout_wind_01.ogg', 'sound/stalker/blowout/blowout_wind_02.ogg',
+							'sound/stalker/blowout/blowout_wind_03.ogg')
 
 /datum/controller/subsystem/blowout/fire()
 	if(world.time <= lasttime + cooldownreal)
@@ -119,8 +119,8 @@ SUBSYSTEM_DEF(blowout)
 	//SSnightcycle.updateLight("BLOWOUT")
 
 	add_lenta_message(null, "0", "Sidorovich", "Loners", "ATTENTION STALKERS! Blowout is coming! Look for the nearest hideout!")
-	world << sound('stalker/sound/blowout/blowout_begin_02.ogg', wait = 0, channel = 201, volume = 50)
-	world << sound('stalker/sound/blowout/blowout_siren.ogg', wait = 0, channel = 202, volume = 60)
+	world << sound('sound/stalker/blowout/blowout_begin_02.ogg', wait = 0, channel = 201, volume = 50)
+	world << sound('sound/stalker/blowout/blowout_siren.ogg', wait = 0, channel = 202, volume = 60)
 
 	for(var/mob/living/carbon/C in GLOB.player_list)
 		if(!C.inshelter)
@@ -132,7 +132,7 @@ SUBSYSTEM_DEF(blowout)
 
 /datum/controller/subsystem/blowout/proc/PreStopBlowout()
 	blowoutphase = 2
-	world << sound('stalker/sound/blowout/blowout_particle_wave.ogg', wait = 0, channel = 201, volume = 70)
+	world << sound('sound/stalker/blowout/blowout_particle_wave.ogg', wait = 0, channel = 201, volume = 70)
 
 /datum/controller/subsystem/blowout/proc/BlowoutClean()
 	for(var/obj/item/ammo_casing/ammo_casing as anything in GLOB.ammo_casings)
@@ -166,8 +166,8 @@ SUBSYSTEM_DEF(blowout)
 */
 /datum/controller/subsystem/blowout/proc/StopBlowout()
 	if(blowoutphase == 2)
-		world << sound('stalker/sound/blowout/blowout_impact_02.ogg', wait = 0, channel = 201, volume = 70)
-		world << sound('stalker/sound/blowout/blowout_outro.ogg', wait = 0, channel = 202, volume = 70)
+		world << sound('sound/stalker/blowout/blowout_impact_02.ogg', wait = 0, channel = 201, volume = 70)
+		world << sound('sound/stalker/blowout/blowout_outro.ogg', wait = 0, channel = 202, volume = 70)
 
 	blowoutphase = 3
 

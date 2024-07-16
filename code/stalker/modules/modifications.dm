@@ -520,7 +520,7 @@ var/id_ = 0
 //Some suit internal slots
 
 /datum/component/storage/concrete/pockets/internal_slot
-	var/touch_sound = 'stalker/sound/objects/internal_slot_toggle.ogg'
+	var/touch_sound = 'sound/stalker/objects/internal_slot_toggle.ogg'
 	var/radiation_protection = 0
 	max_combined_w_class = 2
 	max_items = 1

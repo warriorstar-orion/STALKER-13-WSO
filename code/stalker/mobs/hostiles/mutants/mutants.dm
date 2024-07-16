@@ -71,14 +71,14 @@
 	speak_emote = list("whines", "roars")
 	emote_see = list("barks!")
 	faction = list("stalker_mutants1")
-	attack_sound = list('stalker/sound/mobs/mutants/attack/dog_attack.ogg',
-						'stalker/sound/mobs/mutants/attack/dog_attack2.ogg',
-						'stalker/sound/mobs/mutants/attack/dog_attack3.ogg')
-	idle_sounds = list('stalker/sound/mobs/mutants/idle/bdog_idle_1.ogg',
-						'stalker/sound/mobs/mutants/idle/bdog_idle_2.ogg',
-						'stalker/sound/mobs/mutants/idle/bdog_idle_3.ogg',
-						'stalker/sound/mobs/mutants/idle/bdog_idle_4.ogg')
-	deathsound = 'stalker/sound/mobs/mutants/death/dog_death.ogg'
+	attack_sound = list('sound/stalker/mobs/mutants/attack/dog_attack.ogg',
+						'sound/stalker/mobs/mutants/attack/dog_attack2.ogg',
+						'sound/stalker/mobs/mutants/attack/dog_attack3.ogg')
+	idle_sounds = list('sound/stalker/mobs/mutants/idle/bdog_idle_1.ogg',
+						'sound/stalker/mobs/mutants/idle/bdog_idle_2.ogg',
+						'sound/stalker/mobs/mutants/idle/bdog_idle_3.ogg',
+						'sound/stalker/mobs/mutants/idle/bdog_idle_4.ogg')
+	deathsound = 'sound/stalker/mobs/mutants/death/dog_death.ogg'
 	melee_damage_lower = 10
 	melee_damage_upper = 15
 	maxHealth = 25
@@ -133,14 +133,14 @@
 	maxHealth = 120
 	healable = 1
 	melee_damage_lower = 20
-	attack_sound = list('stalker/sound/mobs/mutants/attack/snork_attack.ogg',
-						'stalker/sound/mobs/mutants/attack/snork_attack1.ogg',
-						'stalker/sound/mobs/mutants/attack/snork_attack2.ogg'
+	attack_sound = list('sound/stalker/mobs/mutants/attack/snork_attack.ogg',
+						'sound/stalker/mobs/mutants/attack/snork_attack1.ogg',
+						'sound/stalker/mobs/mutants/attack/snork_attack2.ogg'
 						)
-	idle_sounds = list('stalker/sound/mobs/mutants/idle/snork_idle_1.ogg',
-						'stalker/sound/mobs/mutants/idle/snork_idle_2.ogg',
-						'stalker/sound/mobs/mutants/idle/snork_idle_3.ogg')
-	deathsound = 'stalker/sound/mobs/mutants/death/snork_death.ogg'
+	idle_sounds = list('sound/stalker/mobs/mutants/idle/snork_idle_1.ogg',
+						'sound/stalker/mobs/mutants/idle/snork_idle_2.ogg',
+						'sound/stalker/mobs/mutants/idle/snork_idle_3.ogg')
+	deathsound = 'sound/stalker/mobs/mutants/death/snork_death.ogg'
 	melee_damage_upper = 30
 	fearborder = 10
 	see_invisible = SEE_INVISIBLE_MINIMUM
@@ -226,13 +226,13 @@
 	maxHealth = 60
 	healable = 5
 	melee_damage_lower = 10
-	attack_sound = list('stalker/sound/mobs/mutants/attack/flesh_attack.ogg',
-						'stalker/sound/mobs/mutants/attack/flesh_attack1.ogg',
-						'stalker/sound/mobs/mutants/attack/flesh_attack2.ogg',
-						'stalker/sound/mobs/mutants/attack/flesh_attack3.ogg')
-	idle_sounds = list('stalker/sound/mobs/mutants/idle/flesh_idle_1.ogg',
-						'stalker/sound/mobs/mutants/idle/flesh_idle_2.ogg')
-	deathsound = 'stalker/sound/mobs/mutants/death/flesh_death.ogg'
+	attack_sound = list('sound/stalker/mobs/mutants/attack/flesh_attack.ogg',
+						'sound/stalker/mobs/mutants/attack/flesh_attack1.ogg',
+						'sound/stalker/mobs/mutants/attack/flesh_attack2.ogg',
+						'sound/stalker/mobs/mutants/attack/flesh_attack3.ogg')
+	idle_sounds = list('sound/stalker/mobs/mutants/idle/flesh_idle_1.ogg',
+						'sound/stalker/mobs/mutants/idle/flesh_idle_2.ogg')
+	deathsound = 'sound/stalker/mobs/mutants/death/flesh_death.ogg'
 	melee_damage_upper = 25
 	fearborder = 18
 	see_invisible = SEE_INVISIBLE_MINIMUM
@@ -271,11 +271,11 @@
 	maxHealth = 180
 	healable = 1
 	melee_damage_lower = 25
-	attack_sound = 'stalker/sound/mobs/mutants/attack/boar_attack.ogg'
-	idle_sounds = list('stalker/sound/mobs/mutants/idle/boar_idle_1.ogg',
-						'stalker/sound/mobs/mutants/idle/boar_idle_2.ogg',
-						'stalker/sound/mobs/mutants/idle/boar_idle_3.ogg')
-	deathsound = 'stalker/sound/mobs/mutants/death/boar_death.ogg'
+	attack_sound = 'sound/stalker/mobs/mutants/attack/boar_attack.ogg'
+	idle_sounds = list('sound/stalker/mobs/mutants/idle/boar_idle_1.ogg',
+						'sound/stalker/mobs/mutants/idle/boar_idle_2.ogg',
+						'sound/stalker/mobs/mutants/idle/boar_idle_3.ogg')
+	deathsound = 'sound/stalker/mobs/mutants/death/boar_death.ogg'
 	melee_damage_upper = 40
 	fearborder = 18
 	see_invisible = SEE_INVISIBLE_MINIMUM
@@ -322,14 +322,14 @@
 	maxHealth = 300
 	healable = 1
 	melee_damage_lower = 30
-	attack_sound = list('stalker/sound/mobs/mutants/attack/bloodsucker_attack.ogg',
-						'stalker/sound/mobs/mutants/attack/bloodsucker_attack1.ogg',
-						'stalker/sound/mobs/mutants/attack/bloodsucker_attack2.ogg',
-						'stalker/sound/mobs/mutants/attack/bloodsucker_attack3.ogg'
+	attack_sound = list('sound/stalker/mobs/mutants/attack/bloodsucker_attack.ogg',
+						'sound/stalker/mobs/mutants/attack/bloodsucker_attack1.ogg',
+						'sound/stalker/mobs/mutants/attack/bloodsucker_attack2.ogg',
+						'sound/stalker/mobs/mutants/attack/bloodsucker_attack3.ogg'
 						)
-	idle_sounds =	list('stalker/sound/mobs/mutants/idle/bloodsucker_idle_1.ogg'
+	idle_sounds =	list('sound/stalker/mobs/mutants/idle/bloodsucker_idle_1.ogg'
 						)
-	deathsound = 'stalker/sound/mobs/mutants/death/bloodsucker_death.ogg'
+	deathsound = 'sound/stalker/mobs/mutants/death/bloodsucker_death.ogg'
 	melee_damage_upper = 35
 	fearborder = 0
 	see_invisible = SEE_INVISIBLE_MINIMUM
@@ -360,7 +360,7 @@
 
 /mob/living/simple_animal/hostile/mutant/bloodsucker/proc/handle_invisibility()
 	if(target)
-		playsound(src, 'stalker/sound/mobs/mutants/idle/bloodsucker_breath.ogg', 40, 0)
+		playsound(src, 'sound/stalker/mobs/mutants/idle/bloodsucker_breath.ogg', 40, 0)
 		switch(get_dist(src, target))
 			if(0 to 2)
 				icon_state = "bloodsucker"
@@ -404,17 +404,17 @@
 	maxHealth = 80
 	healable = 1
 	melee_damage_lower = 15
-	attack_sound = list('stalker/sound/mobs/mutants/attack/pdog_attack.ogg',
-							'stalker/sound/mobs/mutants/attack/pdog_attack1.ogg',
-							'stalker/sound/mobs/mutants/attack/pdog_attack2.ogg',
-							'stalker/sound/mobs/mutants/attack/pdog_attack3.ogg',
+	attack_sound = list('sound/stalker/mobs/mutants/attack/pdog_attack.ogg',
+							'sound/stalker/mobs/mutants/attack/pdog_attack1.ogg',
+							'sound/stalker/mobs/mutants/attack/pdog_attack2.ogg',
+							'sound/stalker/mobs/mutants/attack/pdog_attack3.ogg',
 						)
-	idle_sounds =	list('stalker/sound/mobs/mutants/idle/pdog_idle_1.ogg',
-						'stalker/sound/mobs/mutants/idle/pdog_idle_2.ogg',
-						'stalker/sound/mobs/mutants/idle/pdog_idle_3.ogg',
-						'stalker/sound/mobs/mutants/idle/pdog_idle_4.ogg'
+	idle_sounds =	list('sound/stalker/mobs/mutants/idle/pdog_idle_1.ogg',
+						'sound/stalker/mobs/mutants/idle/pdog_idle_2.ogg',
+						'sound/stalker/mobs/mutants/idle/pdog_idle_3.ogg',
+						'sound/stalker/mobs/mutants/idle/pdog_idle_4.ogg'
 						)
-	deathsound = 'stalker/sound/mobs/mutants/death/pdog_death.ogg'
+	deathsound = 'sound/stalker/mobs/mutants/death/pdog_death.ogg'
 	melee_damage_upper = 20
 	fearborder = 0
 	see_invisible = SEE_INVISIBLE_MINIMUM
@@ -453,11 +453,11 @@
 	maxHealth = 200
 	healable = 1
 	melee_damage_lower = 25
-	attack_sound = 'stalker/sound/mobs/mutants/attack/controller_attack.ogg'
-	idle_sounds =	list('stalker/sound/mobs/mutants/idle/controller_idle_1.ogg',
-						'stalker/sound/mobs/mutants/idle/controller_idle_2.ogg'
+	attack_sound = 'sound/stalker/mobs/mutants/attack/controller_attack.ogg'
+	idle_sounds =	list('sound/stalker/mobs/mutants/idle/controller_idle_1.ogg',
+						'sound/stalker/mobs/mutants/idle/controller_idle_2.ogg'
 						)
-	deathsound = 'stalker/sound/mobs/mutants/death/controller_death.ogg'
+	deathsound = 'sound/stalker/mobs/mutants/death/controller_death.ogg'
 	melee_damage_upper = 30
 	fearborder = 0
 	see_invisible = SEE_INVISIBLE_MINIMUM
@@ -532,7 +532,7 @@
 			last_attack_time = world.time
 
 			if(H in view(15, src))
-				H << sound('stalker/sound/mobs/mutants/attack/controller_tube_prepare.ogg', wait = 0, channel = 47, volume = 50)
+				H << sound('sound/stalker/mobs/mutants/attack/controller_tube_prepare.ogg', wait = 0, channel = 47, volume = 50)
 				attack_stage++
 			else
 				ranged_cooldown = max(0, ranged_cooldown_time - attack_stage)
@@ -549,7 +549,7 @@
 		if(2)
 			if(H in view(15, src))
 				last_attack_time = world.time
-				H << sound('stalker/sound/mobs/mutants/attack/controller_whoosh.ogg', wait = 0, channel = 47, volume = 50)
+				H << sound('sound/stalker/mobs/mutants/attack/controller_whoosh.ogg', wait = 0, channel = 47, volume = 50)
 				visible_message("<span class='danger'><b>[src]</b> stares right into [A] eyes!</span>")
 				H.apply_damage(200, PSY, null, blocked = getarmor("head", "psy", 0))
 				//if(H.psyloss >= 200)
@@ -581,24 +581,24 @@
 	melee_damage_upper = 25
 	melee_damage_lower = 15
 	loot = list(/obj/item/stalker/loot/mutantparts/poltergeist_skin)
-	attack_sound = 	list('stalker/sound/mobs/mutants/special/poltergeist/attack_0.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/attack_1.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/attack_2.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/attack_3.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/attack_4.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/attack_5.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/attack_6.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/attack_7.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/attack_8.ogg'
+	attack_sound = 	list('sound/stalker/mobs/mutants/special/poltergeist/attack_0.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/attack_1.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/attack_2.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/attack_3.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/attack_4.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/attack_5.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/attack_6.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/attack_7.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/attack_8.ogg'
 						)
-	idle_sounds =	list('stalker/sound/mobs/mutants/special/poltergeist/tele_idle_0.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/idle_0.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/idle_1.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/idle_2.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/idle_3.ogg'
+	idle_sounds =	list('sound/stalker/mobs/mutants/special/poltergeist/tele_idle_0.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/idle_0.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/idle_1.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/idle_2.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/idle_3.ogg'
 						)
-	deathsound =	list('stalker/sound/mobs/mutants/special/poltergeist/death_0.ogg',
-						'stalker/sound/mobs/mutants/special/poltergeist/death_1.ogg'
+	deathsound =	list('sound/stalker/mobs/mutants/special/poltergeist/death_0.ogg',
+						'sound/stalker/mobs/mutants/special/poltergeist/death_1.ogg'
 						)
 
 	var/timer = 0
@@ -635,8 +635,8 @@
 					most_violent = I.throwforce
 					throwing = I
 			if(throwing)
-				playsound(src, pick('stalker/sound/mobs/mutants/special/poltergeist/tele_damage_0.ogg',
-							'stalker/sound/mobs/mutants/special/poltergeist/tele_damage_1.ogg'))
+				playsound(src, pick('sound/stalker/mobs/mutants/special/poltergeist/tele_damage_0.ogg',
+							'sound/stalker/mobs/mutants/special/poltergeist/tele_damage_1.ogg'))
 				throwing.throw_at(H, 8, 2)
 /*
 /mob/living/simple_animal/hostile/mutant/poltergeist/adjustHealth(amount, updating_health = TRUE, forced = FALSE)
@@ -720,34 +720,34 @@
 	melee_damage_upper = 15
 	attacktext = "claws"
 	attack_sound = 'sound/weapons/punch1.ogg'
-	idle_sounds =	list('stalker/sound/mobs/mutants/idle/zombie_idle_1.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_2.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_3.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_4.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_5.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_6.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_7.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_8.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_9.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_10.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_11.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_12.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_13.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_14.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_15.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_16.ogg',
-						'stalker/sound/mobs/mutants/idle/zombie_idle_17.ogg'
+	idle_sounds =	list('sound/stalker/mobs/mutants/idle/zombie_idle_1.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_2.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_3.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_4.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_5.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_6.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_7.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_8.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_9.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_10.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_11.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_12.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_13.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_14.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_15.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_16.ogg',
+						'sound/stalker/mobs/mutants/idle/zombie_idle_17.ogg'
 						)
-	deathsound = list('stalker/sound/mobs/mutants/death/zombie_die_0.ogg',
-						'stalker/sound/mobs/mutants/death/zombie_die_1.ogg',
-						'stalker/sound/mobs/mutants/death/zombie_die_2.ogg',
-						'stalker/sound/mobs/mutants/death/zombie_die_3.ogg',
-						'stalker/sound/mobs/mutants/death/zombie_die_4.ogg',
-						'stalker/sound/mobs/mutants/death/zombie_die_5.ogg',
-						'stalker/sound/mobs/mutants/death/zombie_die_6.ogg',
-						'stalker/sound/mobs/mutants/death/zombie_die_7.ogg',
-						'stalker/sound/mobs/mutants/death/zombie_die_8.ogg',
-						'stalker/sound/mobs/mutants/death/zombie_die_9.ogg'
+	deathsound = list('sound/stalker/mobs/mutants/death/zombie_die_0.ogg',
+						'sound/stalker/mobs/mutants/death/zombie_die_1.ogg',
+						'sound/stalker/mobs/mutants/death/zombie_die_2.ogg',
+						'sound/stalker/mobs/mutants/death/zombie_die_3.ogg',
+						'sound/stalker/mobs/mutants/death/zombie_die_4.ogg',
+						'sound/stalker/mobs/mutants/death/zombie_die_5.ogg',
+						'sound/stalker/mobs/mutants/death/zombie_die_6.ogg',
+						'sound/stalker/mobs/mutants/death/zombie_die_7.ogg',
+						'sound/stalker/mobs/mutants/death/zombie_die_8.ogg',
+						'sound/stalker/mobs/mutants/death/zombie_die_9.ogg'
 						)
 	a_intent = INTENT_HARM
 	faction = list("stalker_mutants1", "monolith_forces")
@@ -884,7 +884,7 @@
 	ranged_cooldown = 1
 	ranged_cooldown_time = 2
 	casingtype = /obj/item/ammo_casing/c9x18/zombie
-	projectilesound = 'stalker/sound/weapons/pm_shot.ogg'
+	projectilesound = 'sound/stalker/weapons/pm_shot.ogg'
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged/New()
 	..()
@@ -1010,7 +1010,7 @@
 	ranged_cooldown = 1
 	ranged_cooldown_time = 40
 	casingtype = /obj/item/ammo_casing/c556x45/zombie
-	projectilesound = 'stalker/sound/weapons/tpc301_shoot.ogg'
+	projectilesound = 'sound/stalker/weapons/tpc301_shoot.ogg'
 	rating_add = 100
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged/merc/New()
@@ -1053,7 +1053,7 @@
 	ranged_cooldown = 1
 	ranged_cooldown_time = 40
 	casingtype = /obj/item/ammo_casing/shotgun/c12x70/zombie
-	projectilesound = 'stalker/sound/weapons/ak74u_shot.ogg'
+	projectilesound = 'sound/stalker/weapons/ak74u_shot.ogg'
 	rating_add = 80
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged/duty/New()
@@ -1096,7 +1096,7 @@
 	ranged_cooldown = 1
 	ranged_cooldown_time = 40
 	casingtype = /obj/item/ammo_casing/c762x39/zombie
-	projectilesound = 'stalker/sound/weapons/akm_shot.ogg'
+	projectilesound = 'sound/stalker/weapons/akm_shot.ogg'
 	rating_add = 100
 
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged/military/New()

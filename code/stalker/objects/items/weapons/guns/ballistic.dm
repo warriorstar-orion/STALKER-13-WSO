@@ -9,7 +9,7 @@
 	desc = "This Soviet legacy is the most common pistol in the Zone and is one of the best compact self-defense handguns available. It is small, highly reliable, easy to use and maintain in working order. It also suffers from several drawbacks, including its short range, low firing accuracy and poor stopping power, while also losing out to modern pistols in its class in terms of weight and magazine size."
 	icon_state = "pm"
 	w_class = 2
-	fire_sound = 'stalker/sound/weapons/pm_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/pm_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18pm
 	force = 10
 	can_suppress = 1
@@ -18,16 +18,16 @@
 	spread = 30
 	recoil = 0.2
 	damagelose = 0.2
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/tt   // ТТ
 	name = "TT-33"
 	desc = "An old soviet pistol made for similiarly old soviet ammo. Extremely widespread because of large numbers of those pistols left in USSR army stashes around Pripyat. Isn't very powerful, but bullets penetrate armor well enough."
 	icon_state = "tt"
 	w_class = 2
-	fire_sound = 'stalker/sound/weapons/tt33_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/tt33_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/tt
 	force = 10
 	can_suppress = 0
@@ -37,16 +37,16 @@
 	spread = 24
 	recoil = 0.15
 	damagelose = 0.1
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/sip  // Sig-Sauer
 	name = "SIG-Sauer P220"
 	desc = "The only remaining mass produced model of a globally renowned pistol, this weapon has earned a reputation for its excellent ergonomics and accuracy, and while its magazine is relatively small, it benefits from powerful ammo and a mechanism that functions like a Swiss watch. Some believe the P220 to be the best mass produced .45 ACP caliber handgun there and it has certainly got a following among experienced stalkers and mercenaries."
 	icon_state = "sip"
 	w_class = 2
-	fire_sound = 'stalker/sound/weapons/sig220_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/sig220_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sc45
 	force = 10
 	can_suppress = 1
@@ -55,16 +55,16 @@
 	spread = 18
 	recoil = 0.4
 	damagelose = 0.2
-	draw_sound = 'stalker/sound/weapons/draw/sig220_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/sig220_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/cora  // Colt1911A
 	name = "Colt M1911"
 	desc = "An improved version of a classic automatic pistol, which passed all the major armed conflicts of the 20th century with flying colors and entered the new millennium with confidence. Produced by dozens if not hundreds of arms manufacturers around the world in both standard and modified configurations. The weapon's only drawback, its mediocre magazine capacity, is largely compensated by the hard-hitting ammo it uses."
 	icon_state = "cora"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/colt1911_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/colt1911_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sc45
 	force = 10
 	can_suppress = 1
@@ -73,9 +73,9 @@
 	recoil = 0.5
 	durability = 100
 	damagelose = 0.15
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/marta  // Beretta92FS
 	name = "Beretta 92FS"
@@ -83,7 +83,7 @@
 	icon_state = "marta"
 	inhand_icon_state = "marta"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/marta_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/marta_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19marta
 	force = 10
 	can_suppress = 1
@@ -92,15 +92,15 @@
 	recoil = 0.25
 	damagelose = 0.2
 	durability = 75
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/fort12  // Фора12
 	name = "Fort-12"
 	desc = "An Ukranian-made pistol predominantly used by law enforcement organizations. Provides higher accuracy, better ergonomics and has a larger magazine than the PM. These pistols make it into the Zone in large numbers thanks to the sale of defective weapons, which suffer from technical miscalculations in early design models. Despite this, the pistol is in demand among stalkers thanks to its good combat characteristics."
 	icon_state = "fort12"
-	fire_sound = 'stalker/sound/weapons/fort_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/fort_shot.ogg'
 	w_class = 2
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18fort
 	force = 10
@@ -110,9 +110,9 @@
 	recoil = 0.25
 	durability = 50
 	damagelose = 0.2
-	draw_sound = 'stalker/sound/weapons/draw/fort_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/fort_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/fort12/unique  // Фора12 - расширенный магазин
 	desc = "Experimental prototype of the Fort pistol. A single copy."
@@ -124,7 +124,7 @@
 	desc = "This pistol was developed in the second half of the 20th century on the basis of the PM for use by special forces and scouting units. The front of the pistol's barrel is covered with an integrated silencer, while the bolt mechanism is short, which prevents a back-moving spring from being located inside it, and it is therefore situated in the weapon's handle. Morally obsolete, the weapon is still effective in the right hands."
 	icon_state = "pb1s"
 	w_class = 2
-	fire_sound = 'stalker/sound/weapons/pb_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/pb_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18pm
 	force = 10
 	suppressed = 1
@@ -134,9 +134,9 @@
 	recoil = 0.25
 	durability = 50
 	damagelose = 0.2
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/usp_match  // USP Match
 	name = "H&K USP Match"
@@ -151,16 +151,16 @@
 	recoil = 0.35
 	durability = 60
 	damagelose = 0.25
-	draw_sound = 'stalker/sound/weapons/draw/usp_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/usp_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/desert  // Desert Eagle
 	name = "Desert Eagle .44"
 	desc = "An extremely powerful gun, featured in many Hollywood movies and popularised by criminals. Truly a killing machine for close-range combat."
 	icon_state = "desert"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/desert_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/desert_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/desert
 	force = 10
 	can_suppress = 0
@@ -170,16 +170,16 @@
 	durability = 50
 	damagelose = 0.15
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/usp_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/usp_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/revolver/anaconda // Colt Anaconda .44
 	name = "Colt Anaconda .44"
 	desc = "You feeling lucky today, gopnik?"
 	icon_state = "anaconda"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/desert_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/desert_shot.ogg'
 	fire_delay = 1.5
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/anaconda
 	force = 10
@@ -190,16 +190,16 @@
 	durability = 500
 	damagelose = 0.1
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/usp_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/obrez_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/obrez_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/usp_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/obrez_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/obrez_open.ogg'
 
 /obj/item/gun/ballistic/revolver/c500revolver // .500 Bull
 	name = ".500 Bull"
 	desc = "Three bullets and enough recoil to move train tracks stapled to the ground, compacted snugly enough to fit on your belt. Will fetch a heavy price when sold."
 	icon_state = "c500revolver"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/desert_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/desert_shot.ogg'
 	fire_delay = 2
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/c500revolver
 	force = 10
@@ -210,9 +210,9 @@
 	durability = 500
 	damagelose = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/usp_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/obrez_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/obrez_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/usp_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/obrez_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/obrez_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/luger  // Luger P08 pistol
 	name = "luger P08 pistol"
@@ -220,7 +220,7 @@
 	icon_state = "luger"
 	inhand_icon_state = "marta-silenced"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/luger_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/luger_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19luger
 	force = 10
 	can_suppress = 1
@@ -229,9 +229,9 @@
 	recoil = 0.25
 	damagelose = 0.2
 	durability = 75
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/groza_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/luger_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/groza_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/luger_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/walther  // Walther P38
 	name = "walther P38"
@@ -239,7 +239,7 @@
 	icon_state = "waltherp38"
 	inhand_icon_state = "marta-silenced"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/pistol_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/pistol_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19waltherp38
 	force = 10
 	can_suppress = 1
@@ -248,9 +248,9 @@
 	recoil = 0.25
 	damagelose = 0.2
 	durability = 75
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/berettam38_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/val_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/berettam38_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/val_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/aps  // Stechkin APS
 	name = "stechkin automatic pistol"
@@ -258,7 +258,7 @@
 	icon_state = "aps"
 	inhand_icon_state = "cora"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/pm_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/pm_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18aps
 	force = 10
 	burst_size = 5
@@ -269,9 +269,9 @@
 	recoil = 5
 	damagelose = 0.2
 	durability = 75
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/pernach  // OTs-33 Pernach
 	name = "OTs-33 Pernach"
@@ -279,7 +279,7 @@
 	icon_state = "pernach"
 	inhand_icon_state = "cora"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/pm_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/pm_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18aps
 	force = 10
 	burst_size = 5
@@ -290,9 +290,9 @@
 	recoil = 3.5
 	damagelose = 0.2
 	durability = 75
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/mauser  // Mauser C96
 	name = "mauser C96"
@@ -300,7 +300,7 @@
 	icon_state = "mauser"
 	inhand_icon_state = "mauser"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/mauser_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/mauser_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/mauser
 	force = 10
 	vary_fire_sound = 1
@@ -312,9 +312,9 @@
 	recoil = 3
 	damagelose = 0.2
 	durability = 75
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mauser_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mauser_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mauser_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mauser_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/glock  // Glock 17
 	name = "glock G17"
@@ -322,7 +322,7 @@
 	icon_state = "glock"
 	inhand_icon_state = "marta"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/pistol_shot2.ogg'
+	fire_sound = 'sound/stalker/weapons/pistol_shot2.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19glock
 	force = 10
 	can_suppress = 1
@@ -331,9 +331,9 @@
 	spread = 18
 	recoil = 0.4
 	damagelose = 0.2
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/tpc301_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/tpc301_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/tt30   // TT-30
 	name = "TT-30"
@@ -341,7 +341,7 @@
 	icon_state = "tt30"
 	inhand_icon_state = "sip"
 	w_class = 2
-	fire_sound = 'stalker/sound/weapons/tt33_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/tt33_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/tt
 	force = 10
 	can_suppress = 0
@@ -351,15 +351,15 @@
 	spread = 24
 	recoil = 0.15
 	damagelose = 0.1
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/fiveseven // Five Seven
 	name = "FN Five-Seven"
 	desc = "The Five Seven Pistol was designed by the FN company (Belgium) as a complimentary sidearm for the P90 submachine gun. The P90 and Five Seven share the same ammunition, the 5.7x28mm SS190 cartridge."
 	icon_state = "fiveseven"
-	fire_sound = 'stalker/sound/weapons/fort_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/fort_shot.ogg'
 	w_class = 2
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m57x28fiveseven
 	force = 10
@@ -369,9 +369,9 @@
 	recoil = 0.50
 	durability = 100
 	damagelose = 0.2
-	draw_sound = 'stalker/sound/weapons/draw/fort_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/fort_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/waltherpp  // Walther PP
 	name = "walther PP"
@@ -379,7 +379,7 @@
 	icon_state = "waltherpp"
 	inhand_icon_state = "marta"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/pistol_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/pistol_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19waltherpp
 	force = 10
 	can_suppress = 1
@@ -388,9 +388,9 @@
 	recoil = 0.25
 	damagelose = 0.2
 	durability = 75
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/berettam38_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/val_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/berettam38_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/val_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/cz83  // CZ 83
 	name = "CZ 83"
@@ -398,16 +398,16 @@
 	icon_state = "cz83"
 	inhand_icon_state = "marta"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/pistol_shot2.ogg'
+	fire_sound = 'sound/stalker/weapons/pistol_shot2.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18cz83
 	force = 10
 	durability = 85
 	spread = 18
 	recoil = 0.4
 	damagelose = 0.2
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/tpc301_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/tpc301_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pistol/silvermarta  // Silver Beretta92FS
 	name = "silver beretta 92FS"
@@ -415,7 +415,7 @@
 	icon_state = "martasilver"
 	inhand_icon_state = "marta"
 	w_class = 3
-	fire_sound = 'stalker/sound/weapons/marta_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/marta_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19marta
 	force = 10
 	can_suppress = 1
@@ -424,9 +424,9 @@
 	recoil = 0.25
 	damagelose = 0.2
 	durability = 75
-	draw_sound = 'stalker/sound/weapons/draw/pm_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/pm_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/pm_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/pm_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/pm_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/pm_open.ogg'
 
 
 ///////////////////////////// ARs,SMGs //////////////////////////////////////////
@@ -501,7 +501,7 @@
 	desc = "The STEN (or Sten gun) is a family of British submachine guns chambered in 9×19mm which were used extensively by British and Commonwealth forces throughout World War II and the Korean War. They had a simple design and very low production cost, making them effective insurgency weapons for resistance groups, and they continue to see usage to this day by irregular military forces."
 	icon_state = "sten"
 	inhand_icon_state = "sterling"
-	fire_sound = 'stalker/sound/weapons/mac10_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/mac10_shoot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sten
 	can_suppress = 1
 	burst_size = 4
@@ -513,9 +513,9 @@
 	recoil = 1.4
 	damagelose = 0.05
 	can_scope = 0
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 
 
 /obj/item/gun/ballistic/automatic/sterling  // Sterling Submachine Gun
@@ -523,7 +523,7 @@
 	desc = "The Sterling submachine gun is a British submachine gun. It was tested with the British Army in 1944-1945 as a replacement for the Sten but it did not start to replace it until 1953."
 	icon_state = "sterling"
 	inhand_icon_state = "sterling"
-	fire_sound = 'stalker/sound/weapons/mac10_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/mac10_shoot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sterling
 	can_suppress = 1
 	burst_size = 4
@@ -535,9 +535,9 @@
 	recoil = 1.7
 	damagelose = 0.05
 	can_scope = 0
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 
 /obj/item/gun/ballistic/automatic/m3a1  // M3A1 Grease Gun
 	name = "M3A1 Grease Gun"
@@ -547,7 +547,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m3a1
-	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/abakan_shoot.ogg'
 	can_suppress = 0
 	burst_size = 5
 	fire_delay = 2.5
@@ -559,9 +559,9 @@
 	damagelose = 0.2
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/abakan_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/abakan_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/abakan_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/abakan_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/abakan_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/abakan_open.ogg'
 
 /obj/item/gun/ballistic/automatic/reising  // Reising Model 55
 	name = "Reising Model 55"
@@ -571,7 +571,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/reising
-	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/abakan_shoot.ogg'
 	can_suppress = 0
 	burst_size = 5
 	fire_delay = 2.5
@@ -583,9 +583,9 @@
 	damagelose = 0.2
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/abakan_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/abakan_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/abakan_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/abakan_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/abakan_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/abakan_open.ogg'
 
 /obj/item/gun/ballistic/automatic/m76  // Smith & Wesson M76
 	name = "smith & wesson M76"
@@ -595,7 +595,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19m76
-	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/abakan_shoot.ogg'
 	can_suppress = 0
 	burst_size = 3
 	fire_delay = 2
@@ -607,9 +607,9 @@
 	damagelose = 0.2
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/abakan_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/abakan_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/abakan_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/abakan_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/abakan_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/abakan_open.ogg'
 
 /obj/item/gun/ballistic/automatic/mp40  // MP-40
 	name = "MP-40"
@@ -619,7 +619,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/mp40
-	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/tpc301_shoot.ogg'
 	can_suppress = 1
 	burst_size = 3
 	fire_delay = 1.4
@@ -631,9 +631,9 @@
 	damagelose = 0.2
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/tpc301_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/tpc301_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/tpc301_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/tpc301_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/tpc301_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/tpc301_open.ogg'
 
 /obj/item/gun/ballistic/automatic/mp3008  // MP 3008
 	name = "MP 3008"
@@ -643,7 +643,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/mp40
-	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/tpc301_shoot.ogg'
 	can_suppress = 1
 	burst_size = 4
 	fire_delay = 2
@@ -655,16 +655,16 @@
 	damagelose = 0.2
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/tpc301_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/tpc301_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/tpc301_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/tpc301_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/tpc301_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/tpc301_open.ogg'
 
 /obj/item/gun/ballistic/automatic/pps43  // PPS-43
 	name = "PPS-43"
 	desc = "A Soviet submachine gun chambered in 7.62×25mm Tokarev, developed by Alexei Sudayev as a low-cost personal defense weapon for reconnaissance units, vehicle crews and support service personnel. It was highly cost effective and easy to manufacture due to its efficient and simple, largely sheet metal design. It was produced from 1942-1946 and they gave an output of approximately two million."
 	icon_state = "pps43"
 	inhand_icon_state = "pps"
-	fire_sound = 'stalker/sound/weapons/ppsh_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/ppsh_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/pps43
 	can_suppress = 0
 	slowdown = 0.15
@@ -678,16 +678,16 @@
 	damagelose = 0.25
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 
 /obj/item/gun/ballistic/automatic/bizon  // PP-19 Bizon
 	name = "PP-19 bizon"
 	desc = "The Bizon was developed at the request of the Russian Ministry of Internal Affairs and is primarily intended for counter-terrorist and law enforcement units that need fast and accurate fire at close ranges. The Bizon is issued to armed response units of the Federal Security Service (FSB) and Ministry of Justice in Russia."
 	icon_state = "bizon"
 	inhand_icon_state = "vz58"
-	fire_sound = 'stalker/sound/weapons/ppsh_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/ppsh_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18bizon
 	can_suppress = 0
 	slowdown = 0.15
@@ -701,16 +701,16 @@
 	damagelose = 0.25
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 
 /obj/item/gun/ballistic/automatic/skorpion  // Skorpion
 	name = "skorpion vz. 61"
 	desc = "A Czechoslovak machine pistol developed in 1959 by Miroslav Rybá. Although it was developed for use with security forces, the weapon was also accepted into service with the Czechoslovak Army as a personal sidearm for lower-ranking army staff, vehicle drivers, armoured vehicle personnel and special forces."
 	icon_state = "skorpion"
 	inhand_icon_state = "arg"
-	fire_sound = 'stalker/sound/weapons/fort_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/fort_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19skorpion
 	can_suppress = 0
 	burst_size = 3
@@ -722,9 +722,9 @@
 	recoil = 0.15
 	damagelose = 0.25
 	can_scope = 0
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 
 /obj/item/gun/ballistic/automatic/mat49  // MAT-49
 	name = "MAT-49"
@@ -734,7 +734,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19mat49
-	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/abakan_shoot.ogg'
 	can_suppress = 0
 	burst_size = 3
 	fire_delay = 1
@@ -746,16 +746,16 @@
 	damagelose = 0.2
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/abakan_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/abakan_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/abakan_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/abakan_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/abakan_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/abakan_open.ogg'
 
 /obj/item/gun/ballistic/automatic/mac10  // MAC10
 	name = "MAC10 Ingram"
 	desc = "An american submachinegun developed in the 70s of the previous century, notable for its high rate of fire and reliability. Chambered in 9x19."
 	icon_state = "mac10"
 	inhand_icon_state = "mac10"
-	fire_sound = 'stalker/sound/weapons/mac10_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/mac10_shoot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/mac10
 	can_suppress = 1
 	burst_size = 4
@@ -767,16 +767,16 @@
 	recoil = 0.8
 	damagelose = 0.25
 	can_scope = 0
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 
 /obj/item/gun/ballistic/rifle/semiautobolt/sks // SKS
 	name = "SKS"
 	desc = "The SKS is a Soviet semi-automatic carbine chambered for the 7.62x39mm round, designed in 1943 by Sergei Gavrilovich Simonov. The SKS-45 was manufactured at Tula Arsenal from 1949 to 1958 and at Izhevsk Arsenal in just 1953 and 1954, resulting in a total Soviet production of about 2.7 million carbines. In the early 1950s, the Soviets took the SKS carbine out of front-line service and replaced it with the AK-47; however, the SKS remained in second-line service for decades."
 	icon_state = "sks"
 	inhand_icon_state = "sks"
-	fire_sound = 'stalker/sound/weapons/sks_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/sks_shot.ogg'
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/semiautobolt/sks
@@ -792,8 +792,8 @@
 	spread = 6
 	damagelose = 0.1
 	can_scope = 1
-	load_sound = 'stalker/sound/weapons/load/bolt_load.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/bolt_load.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 
 /obj/item/gun/ballistic/automatic/ak74  // AK-74
 	name = "AK 74"
@@ -804,7 +804,7 @@
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m545
-	fire_sound = 'stalker/sound/weapons/ak74_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/ak74_shot.ogg'
 	can_suppress = 1
 	can_unsuppress = 1
 	slowdown = 0.15
@@ -818,7 +818,7 @@
 	damagelose = 0.25
 	can_scope = 1
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/ak74_draw.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
 // Work in Progress
 /*	var/overlay_state
 	var/overlay_list = list(
@@ -872,7 +872,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m545
-	fire_sound = 'stalker/sound/weapons/ak74u_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/ak74u_shot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
 	burst_size = 3
@@ -885,7 +885,7 @@
 	damagelose = 0.5
 	can_scope = 1
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/ak74u_draw.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/ak74u_draw.ogg'
 
 /obj/item/gun/ballistic/automatic/strelok_ak  // АКС74У
 	name = "Fast-Firing AK 74S"
@@ -896,7 +896,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m545
-	fire_sound = 'stalker/sound/weapons/ak74u_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/ak74u_shot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
 	burst_size = 5
@@ -910,7 +910,7 @@
 	can_scope = 1
 	unique = 1
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/ak74u_draw.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/ak74u_draw.ogg'
 
 /obj/item/gun/ballistic/automatic/fnfal  // FN FAL
 	name = "FN FAL"
@@ -921,7 +921,7 @@
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/fnfal
-	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/berettam38_shot.ogg'
 	can_suppress = 1
 	can_unsuppress = 1
 	slowdown = 0.15
@@ -935,7 +935,7 @@
 	damagelose = 0.25
 	can_scope = 1
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/ak74_draw.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
 
 /obj/item/gun/ballistic/automatic/woodfnfal  // FN FAL with wooden furniture
 	name = "FN FAL"
@@ -946,7 +946,7 @@
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/fnfal
-	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/berettam38_shot.ogg'
 	can_suppress = 1
 	can_unsuppress = 1
 	slowdown = 0.15
@@ -960,7 +960,7 @@
 	damagelose = 0.25
 	can_scope = 1
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/ak74_draw.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
 
 /obj/item/gun/ballistic/automatic/famas  // FAMAS
 	name = "FAMAS"
@@ -970,7 +970,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
-	fire_sound = 'stalker/sound/weapons/il86_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/il86_shoot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
 	burst_size = 3
@@ -983,9 +983,9 @@
 	damagelose = 0.1
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/l85_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/groza_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/groza_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/l85_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/groza_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/groza_open.ogg'
 
 /obj/item/gun/ballistic/automatic/aug // Steyr AUG
 	name = "Steyr AUG"
@@ -993,7 +993,7 @@
 	icon_state = "aug"
 	inhand_icon_state = "aug"
 	slot_flags = ITEM_SLOT_BACK
-	fire_sound = 'stalker/sound/weapons/sigsg550_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/sigsg550_shoot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	can_suppress = 0
 	slowdown = 0.15
@@ -1009,9 +1009,9 @@
 	zoom_out_amt = 5
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/fnf2000_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/fnf2000_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/fnf2000_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/fnf2000_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/fnf2000_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/fnf2000_open.ogg'
 
 /obj/item/gun/ballistic/automatic/akm // AKM
 	name = "AKM"
@@ -1021,7 +1021,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/akm
-	fire_sound = 'stalker/sound/weapons/akm_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/akm_shot.ogg'
 	can_suppress = 0
 	burst_size = 3
 	fire_delay = 1.7
@@ -1032,7 +1032,7 @@
 	recoil = 0.9
 	damagelose = 0.25
 	can_scope = 1
-	draw_sound = 'stalker/sound/weapons/draw/ak74u_draw.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/ak74u_draw.ogg'
 
 /obj/item/gun/ballistic/automatic/vz58 // vz. 58
 	name = "vz. 58"
@@ -1042,7 +1042,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/vz58
-	fire_sound = 'stalker/sound/weapons/vz58_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/vz58_shot.ogg'
 	can_suppress = 0
 	burst_size = 3
 	fire_delay = 1.5
@@ -1053,7 +1053,7 @@
 	recoil = 0.9
 	damagelose = 0.25
 	can_scope = 0
-	draw_sound = 'stalker/sound/weapons/draw/ak74u_draw.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/ak74u_draw.ogg'
 
 /obj/item/gun/ballistic/automatic/m16  //M16A1
 	name = "M16A1"
@@ -1063,7 +1063,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
-	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/tpc301_shoot.ogg'
 	can_suppress = 1
 	burst_size = 3
 	fire_delay = 1.7
@@ -1074,9 +1074,9 @@
 	recoil = 0.6
 	damagelose = 0.2
 	can_scope = 0
-	draw_sound = 'stalker/sound/weapons/draw/tpc301_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/tpc301_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/tpc301_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/tpc301_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/tpc301_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/tpc301_open.ogg'
 
 /obj/item/gun/ballistic/automatic/m16a4 //M16A4
 	name = "M16A4"
@@ -1086,7 +1086,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
-	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/tpc301_shoot.ogg'
 	can_suppress = 1
 	burst_size = 3
 	fire_delay = 1.7
@@ -1097,16 +1097,16 @@
 	recoil = 0.6
 	damagelose = 0.2
 	can_scope = 0
-	draw_sound = 'stalker/sound/weapons/draw/tpc301_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/tpc301_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/tpc301_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/tpc301_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/tpc301_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/tpc301_open.ogg'
 
 /obj/item/gun/ballistic/automatic/m14  // M14 Carbine
 	name = "M14"
 	desc = "The M14 Carbine was designed and developed the US military during WWII and has seen widespread distribution throughout the world. Now it is in the Zone!"
 	icon_state = "m14"
 	inhand_icon_state = "m14"
-	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/berettam38_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m14
 	can_suppress = 0
 	slot_flags = ITEM_SLOT_BACK
@@ -1118,16 +1118,16 @@
 	damagelose = 0.15
 	can_scope = 1
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/berettam38_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/berettam38_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/berettam38_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/berettam38_open.ogg'
 
 /obj/item/gun/ballistic/automatic/m4  // M4 Carbine
 	name = "M4 carbine"
 	desc = "The M4 Carbine is a 5.56×45mm NATO, air-cooled, gas-operated, direct impingement, magazine-fed, select fire carbine. It has a 14.5 in (370 mm) barrel and a telescoping stock. It is essentially a lighter and shorter variant of the M16A2 assault rifle."
 	icon_state = "m4"
 	inhand_icon_state = "m4"
-	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/berettam38_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	can_suppress = 1
 	slot_flags = ITEM_SLOT_BACK
@@ -1139,9 +1139,9 @@
 	damagelose = 0.15
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/berettam38_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/berettam38_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/berettam38_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/berettam38_open.ogg'
 
 /obj/item/gun/ballistic/automatic/ar15 // ArmaLite AR-15
 	name = "AR-15"
@@ -1151,7 +1151,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
-	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/tpc301_shoot.ogg'
 	can_suppress = 0
 	burst_size = 3
 	fire_delay = 1.7
@@ -1162,19 +1162,19 @@
 	recoil = 0.6
 	damagelose = 0.2
 	can_scope = 0
-	draw_sound = 'stalker/sound/weapons/draw/tpc301_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/tpc301_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/tpc301_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/tpc301_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/tpc301_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/tpc301_open.ogg'
 
 /obj/item/gun/ballistic/automatic/scarh // FN SCAR-H
 	name = "FN SCAR-H"
 	icon_state = "scarh"
 	inhand_icon_state = "scarh"
 	desc = "A Belgian-designed automatic rifle, chambered in 7.62x51mm."
-	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	fire_sound = 'sound/stalker/weapons/berettam38_shot.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/scarh
 	slowdown = 0.15
 	force = 15
@@ -1198,7 +1198,7 @@
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m545
-	fire_sound = 'stalker/sound/weapons/ak74_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/ak74_shot.ogg'
 	slowdown = 0.15
 	burst_size = 3
 	fire_delay = 1.8
@@ -1210,14 +1210,14 @@
 	randomspread = 6
 	damagelose = 0.25
 	can_scope = 0
-	draw_sound = 'stalker/sound/weapons/draw/ak74_draw.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
 
 /obj/item/gun/ballistic/automatic/mp5  // MP5
 	name = "MP-5"
 	desc = "This submachine gun has gained popularity around the world thanks to its reliability, ease of use and accuracy. Over the last few decades the MP5 was in service with special armed forces and police units worldwide. Not surprisingly, having flooded the global black markets, it eventually made its way to the Zone."
 	icon_state = "mp5"
 	inhand_icon_state = "arg"
-	fire_sound = 'stalker/sound/weapons/mp5_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/mp5_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19mp5
 	can_suppress = 1
 	burst_size = 3
@@ -1229,9 +1229,9 @@
 	recoil = 0.2
 	damagelose = 0.4
 	can_scope = 1
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 
 
 /obj/item/gun/ballistic/automatic/kiparis  // Кипарис
@@ -1239,7 +1239,7 @@
 	desc = "A small, light submachine gun firing a low-powered bullet, was designed by USSR Defense Ministry in the year 1972. Wasn't adopted by army, but found use and popularity amongst different modern russian government military forces and police."
 	icon_state = "kiparis"
 	inhand_icon_state = "arg"
-	fire_sound = 'stalker/sound/weapons/fort_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/fort_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/kiparis
 	can_suppress = 1
 	burst_size = 2
@@ -1251,16 +1251,16 @@
 	recoil = 0.15
 	damagelose = 0.25
 	can_scope = 0
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 
 /obj/item/gun/ballistic/automatic/ppsh  // ППШ
 	name = "PPSh"
 	desc = "The PPSh saw extensive combat use during World War II and the Korean War. It was one of the major infantry weapons of the Soviet Armed Forces during World War II. Around six million PPSh-41s were manufactured. In the form of the Chinese Type 50 (licensed copy), it was still being used by the Viet Cong as late as 1970. According to the 2002 edition of the Encyclopedia of Weapons of World War II the PPSh was still in use with irregular militaries."
 	icon_state = "ppsh"
 	inhand_icon_state = "arg"
-	fire_sound = 'stalker/sound/weapons/ppsh_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/ppsh_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/ppsh
 	can_suppress = 0
 	burst_size = 5
@@ -1273,16 +1273,16 @@
 	damagelose = 0.5
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 
 /obj/item/gun/ballistic/automatic/berettam38  // Моделло 38
 	name = "Beretta M38"
 	desc = "Modello 38, or Model 38 and its variants were a series of official submachine guns of the Royal Italian Army introduced in 1938 and used during World War II."
 	icon_state = "berettam38"
 	inhand_icon_state = "berettam38"
-	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/berettam38_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/berettam38
 	can_suppress = 0
 	burst_size = 3
@@ -1295,9 +1295,9 @@
 	damagelose = 0.45
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/berettam38_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/berettam38_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/berettam38_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/berettam38_open.ogg'
 
 /obj/item/gun/ballistic/automatic/p90
 	name = "\improper FN P90"
@@ -1313,9 +1313,9 @@
 	can_scope = 1
 	tac_reloads = TRUE//tacticool
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/mp5_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/mp5_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/mp5_open.ogg'
 /*	mag_display = TRUE
 
 
@@ -1332,7 +1332,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
-	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/tpc301_shoot.ogg'
 	can_suppress = 1
 	burst_size = 3
 	fire_delay = 1.4
@@ -1344,9 +1344,9 @@
 	damagelose = 0.2
 	can_scope = 1
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/tpc301_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/tpc301_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/tpc301_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/tpc301_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/tpc301_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/tpc301_open.ogg'
 
 /obj/item/gun/ballistic/automatic/abakan  // Абакан
 	name = "AN-94"
@@ -1356,7 +1356,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m545
-	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/abakan_shoot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
 	burst_size = 2
@@ -1369,9 +1369,9 @@
 	damagelose = 0.2
 	can_scope = 1
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/abakan_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/abakan_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/abakan_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/abakan_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/abakan_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/abakan_open.ogg'
 
 /obj/item/gun/ballistic/automatic/il86  // ИЛ86
 	name = "L85"
@@ -1381,7 +1381,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
-	fire_sound = 'stalker/sound/weapons/il86_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/il86_shoot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
 	zoomable = TRUE
@@ -1397,9 +1397,9 @@
 	damagelose = 0.1
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/l85_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/groza_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/groza_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/l85_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/groza_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/groza_open.ogg'
 
 /obj/item/gun/ballistic/automatic/sigsg550
 	name = "SIG SG 550"
@@ -1407,7 +1407,7 @@
 	icon_state = "sigsg550"
 	inhand_icon_state = "sigsg550"
 	slot_flags = ITEM_SLOT_BACK
-	fire_sound = 'stalker/sound/weapons/sigsg550_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/sigsg550_shoot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	can_suppress = 0
 	slowdown = 0.15
@@ -1420,9 +1420,9 @@
 	damagelose = 0.2
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/fnf2000_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/fnf2000_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/fnf2000_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/fnf2000_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/fnf2000_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/fnf2000_open.ogg'
 
 /obj/item/gun/ballistic/automatic/gp37  // GP37
 	name = "GP37"
@@ -1432,7 +1432,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
-	fire_sound = 'stalker/sound/weapons/il86_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/il86_shoot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
 	zoomable = TRUE
@@ -1448,9 +1448,9 @@
 	damagelose = 0.1
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/l85_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/groza_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/groza_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/l85_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/groza_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/groza_open.ogg'
 
 /obj/item/gun/ballistic/automatic/fnf2000  // fnf2000
 	name = "FN-F2000"
@@ -1460,7 +1460,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
-	fire_sound = 'stalker/sound/weapons/fnf2000_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/fnf2000_shoot.ogg'
 	can_suppress = 0
 	slowdown = 0.15
 	burst_size = 3
@@ -1473,9 +1473,9 @@
 	damagelose = 0.15
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/fnf2000_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/fnf2000_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/fnf2000_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/fnf2000_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/fnf2000_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/fnf2000_open.ogg'
 
 /obj/item/gun/ballistic/automatic/fnf2000s  // fnf2000
 	name = "FN-F2000-OTBS"
@@ -1485,7 +1485,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
-	fire_sound = 'stalker/sound/weapons/fnf2000_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/fnf2000_shoot.ogg'
 	can_suppress = 0
 	slowdown = 0.15
 	burst_size = 3
@@ -1501,9 +1501,9 @@
 	damagelose = 0.15
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/fnf2000_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/fnf2000_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/fnf2000_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/fnf2000_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/fnf2000_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/fnf2000_open.ogg'
 
 
 /obj/item/gun/ballistic/automatic/l6_saw/pkm
@@ -1515,7 +1515,7 @@
 	slot_flags = ITEM_SLOT_BACK
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/pkm
 	weapon_weight = WEAPON_HEAVY
-	fire_sound = 'stalker/sound/weapons/pkm_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/pkm_shot.ogg'
 	can_suppress = 0
 	slowdown = 0.40
 	can_scope = 0
@@ -1528,6 +1528,7 @@
 	durability = 500
 
 /obj/item/gun/ballistic/automatic/l6_saw/pkm/update_icon()
+	. = ..()
 	icon_state = "PKM[cover_open ? "open" : "closed"][magazine ? 200 : "-empty"]"
 
 /obj/item/gun/ballistic/automatic/l6_saw/pkm/shottie
@@ -1541,7 +1542,7 @@
 	desc = "A modified version of the silent Vintorez sniper rifle, the assault rifle was designed as a special forces weapon. The rifle's primary purpose is effective fire against enemies employing modern personal protection equipment without disclosing the shooter's location. Thanks to its integrated silencer and 9x39mm caliber round with a heavy subsonic bullet, the weapon's noise and muzzle flash have been reduced to a minimum."
 	icon_state = "val"
 	inhand_icon_state = "val"
-	fire_sound = 'stalker/sound/weapons/vintorez_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/vintorez_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sp9x39val
 	suppressed = 1
 	can_suppress = 0
@@ -1559,16 +1560,16 @@
 	damagelose = 0.1
 	can_scope = 1
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/val_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/val_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/val_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/val_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/val_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/val_open.ogg'
 
 /obj/item/gun/ballistic/automatic/vintorez  // ВСС Винторез
 	name = "VSS Vintorez"
 	desc = "A special military sniper rifle purpose-built for silent, flashless sniping during special operations where early detection of the shooter may be critical. The Vintorez provides high armor-piercing capability and stopping power, as well as being equipped with an integrated sniper and optical scope. Highly rated by many stalkers despite its small magazine."
 	icon_state = "vintorez"
 	inhand_icon_state = "vintorez"
-	fire_sound = 'stalker/sound/weapons/vintorez_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/vintorez_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sp9x39vint
 	suppressed = 1
 	can_suppress = 0
@@ -1590,16 +1591,16 @@
 	damagelose = 0
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/val_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/val_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/val_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/val_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/val_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/val_open.ogg'
 
 /obj/item/gun/ballistic/semiauto/svd  // SVD
 	name = "SVD"
 	desc = "Snaiperskaya Vintovka Dragunova, abbreviated as the SVD is a high-caiber, anti-personell sniper rifle developed and deployed originally in 1963. Comes with a high-grade inbuilt scope for long-range scopeouts, and unlike its smaller-caliber cousin (the VSS), is incapable of burst fire due to the aforementioned higher caliber."
 	icon_state = "svd"
 	inhand_icon_state = "svd"
-	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/abakan_shoot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/svd
 	can_suppress = 0
 	can_unsuppress = 0
@@ -1618,16 +1619,16 @@
 	damagelose = 0
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/val_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/val_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/val_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/val_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/val_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/val_open.ogg'
 
 /obj/item/gun/ballistic/automatic/groza  // ОЦ-14 Гроза
 	name = "Groza OTs-14"
 	desc = "This assault rifle combined with a grenade launcher, which is similar to the AKM series, was specifically developed for rapid response units. The main differences are its 9x39mm caliber ammunition, bullpup layout and extensive configuration options. This weapon is highly valued by military stalkers due to its ability to kill enemies wearing body armor behind improvised cover at a distance during urban combat."
 	icon_state = "groza"
 	inhand_icon_state = "groza"
-	fire_sound = 'stalker/sound/weapons/groza_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/groza_shot.ogg'
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sp9x39groza
 	can_suppress = 0
 	slowdown = 0.15
@@ -1646,9 +1647,9 @@
 	zoom_amt = 4
 	zoom_out_amt = 4
 	weapon_weight = WEAPON_MEDIUM
-	draw_sound = 'stalker/sound/weapons/draw/groza_draw.ogg'
-	load_sound = 'stalker/sound/weapons/load/groza_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/groza_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/groza_draw.ogg'
+	load_sound = 'sound/stalker/weapons/load/groza_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/groza_open.ogg'
 
 ///////////////////////////// ETC //////////////////////////////////////////
 
@@ -1661,7 +1662,7 @@
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
 	force = 15
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/gaussbattery
-	fire_sound = 'stalker/sound/weapons/gauss_shoot.ogg'
+	fire_sound = 'sound/stalker/weapons/gauss_shoot.ogg'
 	can_suppress = 0
 	can_unsuppress = 0
 	slowdown = 0.15
@@ -1681,7 +1682,7 @@
 	empty_alarm = TRUE
 	casing_ejector = FALSE
 	magazine_wording = "battery"
-	draw_sound = 'stalker/sound/weapons/draw/ak74_draw.ogg'
-	load_sound = 'stalker/sound/weapons/gauss_reload.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/abakan_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
+	load_sound = 'sound/stalker/weapons/gauss_reload.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/abakan_open.ogg'
 

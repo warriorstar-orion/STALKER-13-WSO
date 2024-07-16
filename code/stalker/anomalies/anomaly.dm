@@ -267,7 +267,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	name = "electro"
 	damage_amount = 40
 	cooldown = 2
-	sound = 'stalker/sound/anomalies/electra_blast1.ogg'
+	sound = 'sound/stalker/anomalies/electra_blast1.ogg'
 	idle_luminosity = 1
 	activated_luminosity = 3
 	anomaly_color = "#7ac8e2"
@@ -295,7 +295,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	damage_amount = 30
 	cooldown = 2
 	delay = 1
-	sound = 'stalker/sound/anomalies/gravi_blowout1.ogg'
+	sound = 'sound/stalker/anomalies/gravi_blowout1.ogg'
 	idle_luminosity = 0
 	activated_luminosity = 0
 	inactive_icon_state = "karusel0"
@@ -330,7 +330,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	damage_amount = 15
 	cooldown = 2
 	delay = 0.5
-	sound = 'stalker/sound/anomalies/gravi_blowout1.ogg'
+	sound = 'sound/stalker/anomalies/gravi_blowout1.ogg'
 	idle_luminosity = 0
 	activated_luminosity = 0
 	inactive_icon_state = "tramplin0"
@@ -348,7 +348,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 /obj/anomaly/jarka
 	name = "burner"
 	cooldown = 2
-	sound = 'stalker/sound/anomalies/zharka1.ogg'
+	sound = 'sound/stalker/anomalies/zharka1.ogg'
 	luminosity = 3
 	idle_luminosity = 3
 	activated_luminosity = 4
@@ -439,7 +439,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	idle_luminosity = 3
 	activated_luminosity = 4
 	anomaly_color = "#70cc33"
-	sound = 'stalker/sound/anomalies/buzz_hit.ogg'
+	sound = 'sound/stalker/anomalies/buzz_hit.ogg'
 	damage_type = DMG_TYPE_LASTER
 	damage_amount = 60
 	icon = 'icons/stalker/anomalies.dmi'
@@ -529,6 +529,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	return
 
 /obj/anomaly/holodec/splash/Initialize()
+	. = ..()
 	stage = BIRTH_STAGE
 	SSobj.processing.Add(src)
 	flick("holodec_splash_creation", src)
@@ -550,7 +551,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 /obj/anomaly/puh
 	name = "burnt fuzz"
 	cooldown = 2
-	sound = 'stalker/sound/anomalies/buzz_hit.ogg'
+	sound = 'sound/stalker/anomalies/buzz_hit.ogg'
 	damage_type = DMG_TYPE_BIO
 	damage_amount = 65
 	icon = 'icons/stalker/anomalies.dmi'
@@ -621,17 +622,17 @@ GLOBAL_LIST_EMPTY(anomalies)
 
 /obj/rad/rad_low
 	damage_amount = 15
-	sound = 'stalker/sound/pda/geiger_1.ogg'
+	sound = 'sound/stalker/pda/geiger_1.ogg'
 	icon_state = "rad_low"
 
 /obj/rad/rad_medium
 	damage_amount = 25
-	sound = 'stalker/sound/pda/geiger_4.ogg'
+	sound = 'sound/stalker/pda/geiger_4.ogg'
 	icon_state = "rad_medium"
 
 /obj/rad/rad_high
 	damage_amount = 40
-	sound = 'stalker/sound/pda/geiger_6.ogg'
+	sound = 'sound/stalker/pda/geiger_6.ogg'
 	icon_state = "rad_high"
 
 /obj/rad/Initialize()

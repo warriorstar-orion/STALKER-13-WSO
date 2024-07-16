@@ -1124,10 +1124,10 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 
 	if(KPK_owner)
 		if((KPK != KPK_owner || selfsound) && KPK.switches & FEED_SOUND)
-			C << sound('stalker/sound/pda/sms.ogg', volume = 30)
+			C << sound('sound/stalker/pda/sms.ogg', volume = 30)
 	else
 		if(KPK.switches & FEED_SOUND)
-			C << sound('stalker/sound/pda/sms.ogg', volume = 30)
+			C << sound('sound/stalker/pda/sms.ogg', volume = 30)
 
 /proc/show_dead_lenta_message(var/obj/item/stalker_pda/KPK_owner, var/name_owner, var/faction_owner, var/msg, var/isfactionchat = 0)
 	var/factioncolor	= get_faction_color(faction_owner)

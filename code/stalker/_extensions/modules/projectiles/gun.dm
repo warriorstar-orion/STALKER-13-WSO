@@ -11,7 +11,7 @@
 	///////////////////////STALKER////////////////////////////////
 
 	var/can_scope = 0        //scopeable? (will still have to clarify which guns mod fit on in the scope's filepath)
-	var/draw_sound = 'stalker/sound/weapons/draw/ak74_draw.ogg'
+	var/draw_sound = 'sound/stalker/weapons/draw/ak74_draw.ogg'
 	var/damagelose = 0		 //1 урона за 1 тайл = 0.33 ед
 	var/distro = 0			 //gap between shotgun shot
 	var/durability = 100     //durability of a gun
@@ -19,11 +19,11 @@
 	var/list/obj/item/attachment/addons = list()
 	var/obj/item/attachment/gl = null
 
-	var/list/l_sounds_shots = list('stalker/sound/weapons/fading/rnd_shooting_1.ogg','stalker/sound/weapons/fading/rnd_shooting_2.ogg',
-								'stalker/sound/weapons/fading/rnd_shooting_4.ogg','stalker/sound/weapons/fading/rnd_shooting_5.ogg',
-								'stalker/sound/weapons/fading/rnd_shooting_6.ogg','stalker/sound/weapons/fading/rnd_shooting_7.ogg',
-								'stalker/sound/weapons/fading/rnd_shooting_9.ogg','stalker/sound/weapons/fading/rnd_shooting_10.ogg',
-								'stalker/sound/weapons/fading/rnd_shooting_11.ogg')
+	var/list/l_sounds_shots = list('sound/stalker/weapons/fading/rnd_shooting_1.ogg','sound/stalker/weapons/fading/rnd_shooting_2.ogg',
+								'sound/stalker/weapons/fading/rnd_shooting_4.ogg','sound/stalker/weapons/fading/rnd_shooting_5.ogg',
+								'sound/stalker/weapons/fading/rnd_shooting_6.ogg','sound/stalker/weapons/fading/rnd_shooting_7.ogg',
+								'sound/stalker/weapons/fading/rnd_shooting_9.ogg','sound/stalker/weapons/fading/rnd_shooting_10.ogg',
+								'sound/stalker/weapons/fading/rnd_shooting_11.ogg')
 
 /datum/action/toggle_scope_zoom
 	name = "Toggle Scope"

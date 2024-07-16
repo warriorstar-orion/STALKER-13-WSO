@@ -73,7 +73,8 @@
 	desc = "Green fence. Better than gray."
 	icon_state = "1"
 
-obj/structure/grille/stalker/beton/CanPass(atom/movable/mover, turf/target, height=0)
+/obj/structure/grille/stalker/beton/CanPass(atom/movable/mover, turf/target, height=0)
+	. = ..()
 	if(height==0) return 1
 	if(istype(mover) && (mover.pass_flags == PASSGRILLE))
 		return 1

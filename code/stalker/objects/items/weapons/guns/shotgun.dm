@@ -23,10 +23,10 @@
 	weapon_weight = WEAPON_MEDIUM
 	semi_auto = TRUE
 	bolt_type = BOLT_TYPE_NO_BOLT
-	fire_sound = 'stalker/sound/weapons/bm16_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/obrez_load.ogg'
-	eject_sound = 'stalker/sound/weapons/unload/obrez_open.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	fire_sound = 'sound/stalker/weapons/bm16_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/obrez_load.ogg'
+	eject_sound = 'sound/stalker/weapons/unload/obrez_open.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 
 /obj/item/gun/ballistic/shotgun/bm16/attackby(obj/item/A, mob/user, params)
 	..()
@@ -85,10 +85,10 @@
 	distro = 25
 	can_scope = 0
 	weapon_weight = WEAPON_MEDIUM
-	//fire_sound = 'stalker/sound/weapons/winchester1300_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/chaser_load.ogg'
-	rack_sound = 'stalker/sound/weapons/pump/ithacam37_pump.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	//fire_sound = 'sound/stalker/weapons/winchester1300_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/chaser_load.ogg'
+	rack_sound = 'sound/stalker/weapons/pump/ithacam37_pump.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 
 /obj/item/gun/ballistic/shotgun/chaser  //  Winchester 1300
 	name = "Chaser-13"
@@ -107,10 +107,10 @@
 	damagelose = 0.3
 	distro = 16
 	weapon_weight = WEAPON_MEDIUM
-	//fire_sound = 'stalker/sound/weapons/winchester1300_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/chaser_load.ogg'
-	rack_sound = 'stalker/sound/weapons/pump/chaser_pump.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	//fire_sound = 'sound/stalker/weapons/winchester1300_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/chaser_load.ogg'
+	rack_sound = 'sound/stalker/weapons/pump/chaser_pump.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 
 /obj/item/gun/ballistic/shotgun/bm16/sawnoff
 	name = "sawed-off BM-16"
@@ -148,10 +148,10 @@
 	damagelose = 0.35
 	distro = 12
 	weapon_weight = WEAPON_MEDIUM
-	fire_sound = 'stalker/sound/weapons/spsa_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/spsa_load.ogg'
-	rack_sound = 'stalker/sound/weapons/pump/spsa_pump.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	fire_sound = 'sound/stalker/weapons/spsa_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/spsa_load.ogg'
+	rack_sound = 'sound/stalker/weapons/pump/spsa_pump.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 
 ///////////////////////////// Bolt-actions //////////////////////////////////////////
 
@@ -171,9 +171,9 @@
 	force = 15
 	damagelose = 0.1
 	weapon_weight = WEAPON_MEDIUM
-	fire_sound = 'stalker/sound/weapons/enfield_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/bolt_load.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	fire_sound = 'sound/stalker/weapons/enfield_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/bolt_load.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 	can_scope = 1
 
 /obj/item/gun/ballistic/rifle/boltaction/mosin
@@ -192,9 +192,9 @@
 	force = 15
 	damagelose = 0.1
 	weapon_weight = WEAPON_MEDIUM
-	fire_sound = 'stalker/sound/weapons/enfield_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/bolt_load.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	fire_sound = 'sound/stalker/weapons/enfield_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/bolt_load.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 	can_scope = 1
 
 obj/item/gun/ballistic/rifle/boltaction/mosinobrez
@@ -211,9 +211,9 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	force = 10
 	damagelose = 0.3
 	weapon_weight = WEAPON_MEDIUM
-	fire_sound = 'stalker/sound/weapons/enfield_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/bolt_load.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	fire_sound = 'sound/stalker/weapons/enfield_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/bolt_load.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 	can_scope = 0
 
 /obj/item/gun/ballistic/rifle/boltaction/arisaka
@@ -232,9 +232,9 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	force = 15
 	damagelose = 0.1
 	weapon_weight = WEAPON_MEDIUM
-	fire_sound = 'stalker/sound/weapons/enfield_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/bolt_load.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	fire_sound = 'sound/stalker/weapons/enfield_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/bolt_load.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 	can_scope = 1
 
 /obj/item/gun/ballistic/rifle/boltaction/karabiner
@@ -253,9 +253,9 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	force = 15
 	damagelose = 0.1
 	weapon_weight = WEAPON_MEDIUM
-	fire_sound = 'stalker/sound/weapons/enfield_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/bolt_load.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	fire_sound = 'sound/stalker/weapons/enfield_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/bolt_load.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 	can_scope = 1
 
 /obj/item/gun/ballistic/rifle/boltaction/springfield
@@ -274,9 +274,9 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	force = 15
 	damagelose = 0.1
 	weapon_weight = WEAPON_MEDIUM
-	fire_sound = 'stalker/sound/weapons/enfield_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/bolt_load.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	fire_sound = 'sound/stalker/weapons/enfield_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/bolt_load.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 	can_scope = 1
 
 /obj/item/gun/ballistic/rifle/boltaction/makeshiftbolt
@@ -295,9 +295,9 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	force = 15
 	damagelose = 0.1
 	weapon_weight = WEAPON_MEDIUM
-	fire_sound = 'stalker/sound/weapons/enfield_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/bolt_load.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	fire_sound = 'sound/stalker/weapons/enfield_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/bolt_load.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 	can_scope = 1
 
 
@@ -325,9 +325,9 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	semi_auto = FALSE
 	casing_ejector = FALSE
 	bolt_wording = "bolt"
-	fire_sound = 'stalker/sound/weapons/awp_shot.ogg'
-	load_sound = 'stalker/sound/weapons/load/awp_reload.ogg'
-	draw_sound = 'stalker/sound/weapons/draw/shotgun_draw.ogg'
+	fire_sound = 'sound/stalker/weapons/awp_shot.ogg'
+	load_sound = 'sound/stalker/weapons/load/awp_reload.ogg'
+	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 	zoomable = TRUE
 	zoom_amt = 8
 	zoom_out_amt = 10
