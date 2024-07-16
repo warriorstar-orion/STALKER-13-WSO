@@ -4,7 +4,7 @@
 /obj/machinery/door/poddoor/gate
 	name = "checkpoint gate"
 	desc = "A heavy gate that opens mechanically, designed to keep the checkpoint safe from wildlife and Stalkers alike."
-	icon = 'stalker/icons/structure/military_gate.dmi'
+	icon = 'icons/stalker/structure/military_gate.dmi'
 	icon_state = "closed"
 	id = 333
 	bound_width = 96

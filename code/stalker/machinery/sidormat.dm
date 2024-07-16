@@ -494,7 +494,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 
 /obj/machinery/stalker
 	obj_integrity = 1000000
-	icon = 'stalker/icons/decor.dmi'
+	icon = 'icons/stalker/decor.dmi'
 
 /obj/machinery/stalker/sidormat
 	name = "SYCHEMAT"

@@ -56,7 +56,7 @@
 /obj/machinery/party/turntable
 	name = "Jukebox"
 	desc = "A jukebox is a partially automated music-playing device that will play a patron's selection from self-contained media. This one is modeled after a radio and takes payment."
-	icon = 'stalker/icons/lasers2.dmi'
+	icon = 'icons/stalker/lasers2.dmi'
 	icon_state = "radio1"
 	//var/timer_id = 0
 	var/transition = 0
@@ -513,7 +513,7 @@
 /obj/machinery/party/mixer
 	name = "mixer"
 	desc = "A mixing board for mixing music"
-	icon = 'stalker/icons/lasers2.dmi'
+	icon = 'icons/stalker/lasers2.dmi'
 	icon_state = "mixer"
 	density = 0
 	anchored = 1
@@ -521,7 +521,7 @@
 /obj/machinery/party/lasermachine
 	name = "laser machine"
 	desc = "A laser machine that shoots lasers."
-	icon = 'stalker/icons/lasers2.dmi'
+	icon = 'icons/stalker/lasers2.dmi'
 	icon_state = "lasermachine"
 	dir = 4
 	anchored = 1
@@ -530,7 +530,7 @@
 /obj/effect/laser2
 	name = "laser"
 	desc = "A laser..."
-	icon = 'stalker/icons/lasers2.dmi'
+	icon = 'icons/stalker/lasers2.dmi'
 	icon_state = "laserred1"
 	anchored = 1
 	layer = 4

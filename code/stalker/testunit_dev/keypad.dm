@@ -1,7 +1,7 @@
 /obj/machinery/button/door/keypad
 	name = "door keypad"
 	desc = "A door remote control keypad."
-	icon = 'stalker/icons/buttons.dmi'
+	icon = 'icons/stalker/buttons.dmi'
 	icon_state = "doorctrl"
 	normaldoorcontrol = 0
 	specialfunctions = OPEN // Bitflag, see assembly file

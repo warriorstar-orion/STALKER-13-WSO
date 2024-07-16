@@ -378,6 +378,74 @@
 	name = "worn permit"
 	icon_state = "wornpermit"
 
+/obj/item/trash/metalparts/metaljunk
+	name = "metal junk"
+	icon_state = "metaljunk"
+
+/obj/item/trash/metalparts/metaljunk/one
+	name = "metal junk"
+	icon_state = "metaljunkone"
+
+/obj/item/trash/metalparts/metaljunk/two
+	name = "metal junk"
+	icon_state = "metaljunktwo"
+
+/obj/item/trash/metalparts/metaljunk/three
+	name = "metal junk"
+	icon_state = "metaljunkthree"
+
+/obj/item/trash/metalparts/metaljunk/four
+	name = "metal junk"
+	icon_state = "metaljunkfour"
+
+/obj/item/trash/metalparts/metaljunk/five
+	name = "metal junk"
+	icon_state = "metaljunkfive"
+
+/obj/item/trash/metalparts/metaljunk/six
+	name = "metal junk"
+	icon_state = "metaljunksix"
+
+/obj/item/trash/metalparts/metaljunk/seven
+	name = "metal junk"
+	icon_state = "metaljunkseven"
+
+/obj/item/trash/oldcircuitboard
+	name = "circuit board"
+	icon_state = "circuitboard"
+
+/obj/item/trash/oldcircuitboard/alt
+	name = "circuit board"
+	icon_state = "circuitboard0"
+
+/obj/item/trash/oldcircuitboard/two
+	name = "circuit board"
+	icon_state = "circuitboard2"
+
+/obj/item/trash/oldcircuitboard/three
+	name = "circuit board"
+	icon_state = "circuitboard3"
+
+/obj/item/trash/oldcircuitboard/four
+	name = "circuit board"
+	icon_state = "circuitboard4"
+
+/obj/item/trash/oldcircuitboard/five
+	name = "circuit board"
+	icon_state = "circuitboard5"
+
+/obj/item/trash/oldcircuitboard/six
+	name = "circuit board"
+	icon_state = "circuitboard6"
+
+/obj/item/trash/oldcircuitboard/seven
+	name = "circuit board"
+	icon_state = "circuitboard7"
+
+/obj/item/trash/oldchembottle
+	name = "chemical bottle"
+	icon_state = "chembottle"
+
 /obj/item/trash/brokephone
 	name = "broken phone"
 	icon_state = "brokephone"
@@ -397,7 +465,7 @@
 /obj/item/trash/fermentingjar
 	name = "fermenting jar"
 	desc = "An empty jar used for fermentation."
-	icon = 'stalker/icons/food.dmi'
+	icon = 'icons/stalker/food.dmi'
 	icon_state = "fermentingjar"
 
 /obj/item/trash/pornmagazine
@@ -424,3 +492,87 @@
 	name = "porn magazine"
 	desc = "An old ukrainian playboy magazine. The pictures inside are still intact...somewhat."
 	icon_state = "mag5"
+
+/obj/item/trash/cigs_trash
+	name = "cigarettes"
+	icon_state = "cigs_trash"
+
+/obj/item/trash/cigs_trash2
+	name = "cigarettes"
+	icon_state = "cigs_trash2"
+
+/obj/item/trash/cigs_trash3
+	name = "cigarettes"
+	icon_state = "cigs_trash3"
+
+/obj/item/trash/cigs_trash4
+	name = "cigarettes"
+	icon_state = "cigs_trash4"
+
+/obj/item/trash/cigs_trash5
+	name = "cigarettes"
+	icon_state = "cigs_trash5"
+
+/obj/item/trash/ashtray1
+	name = "cigarettes"
+	icon_state = "ashtray1"
+
+/obj/item/trash/ashtray2
+	name = "broken ashtray"
+	icon_state = "ashtray2"
+
+/obj/item/trash/ashtray3
+	name = "ashtray"
+	icon_state = "ashtray3"
+
+/obj/item/trash/ashtray4
+	name = "broken ashtray"
+	icon_state = "ashtray4"
+
+/obj/item/trash/paintcan
+	name = "can of paint"
+	icon_state = "paintcan"
+
+/obj/item/trash/teapot
+	name = "old teapot"
+	icon_state = "teapot"
+
+/obj/item/trash/pincers
+	name = "rusty pincers"
+	icon_state = "artifactholder"
+
+/obj/item/trash/oldkey
+	name = "old key"
+	icon_state = "oldkey"
+
+/obj/item/trash/modernkey
+	name = "car key"
+	icon_state = "modernkey"
+
+/obj/item/trash/crossnecklace
+	name = "cross necklace"
+	icon_state = "chetki"
+
+/obj/item/trash/oldphoto
+	name = "old photo"
+	icon_state = "oldphoto"
+
+/obj/item/trash/oldvials
+	name = "old vials"
+	icon_state = "vials"
+
+/obj/item/trash/binding_material/steelwire
+	name = "steel wire"
+	icon_state = "steelwire"
+
+/obj/item/trash/binding_material/wire
+	name = "wire"
+	icon_state = "wire"
+
+/obj/item/trash/binding_material/duct_tape
+	name = "duct tape"
+	icon_state = "duct_tape"
+
+/obj/item/trash/binding_material/steelwire1
+	name = "steel wire"
+	icon_state = "steelwire1"

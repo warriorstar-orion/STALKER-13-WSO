@@ -4,7 +4,7 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 /obj/item/stalker_pda
 	name = "PDA"
 	desc = "A portable device, used to communicate with other stalkers."
-	icon = 'stalker/icons/device_new.dmi'
+	icon = 'icons/stalker/device_new.dmi'
 	icon_state = "kpk_off"
 	inhand_icon_state = "kpk"
 	w_class = 1
@@ -71,16 +71,16 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 /datum/asset/simple/encyclopedia
 	assets = list(
 		//Фото для энциклопедии
-		"zone"					= 'stalker/icons/images/zone.png',
-		"backwater"				= 'stalker/icons/images/backwater.jpg',
-		"nodata.gif"			= 'stalker/icons/images/nodata.gif'
+		"zone"					= 'icons/stalker/images/zone.png',
+		"backwater"				= 'icons/stalker/images/backwater.jpg',
+		"nodata.gif"			= 'icons/stalker/images/nodata.gif'
 	)
 
 /datum/asset/simple/basics
 	assets = list(
-		"kpk_background.png"	= 'stalker/icons/images/kpk.png',
-		"nodata.png"			= 'stalker/icons/images/nodata.png',
-		"photo_0"				= 'stalker/icons/images/sidor.png'
+		"kpk_background.png"	= 'icons/stalker/images/kpk.png',
+		"nodata.png"			= 'icons/stalker/images/nodata.png',
+		"photo_0"				= 'icons/stalker/images/sidor.png'
 		//Курсоры
 	)
 

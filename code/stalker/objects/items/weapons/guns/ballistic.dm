@@ -442,16 +442,16 @@
 /obj/item/gun/ballistic/New()
 	..()
 	if(!istype(src, /obj/item/gun/ballistic/automatic/pistol))
-		mag_overlay = image('stalker/icons/projectile_overlays32x32.dmi', "[initial(icon_state)]-mag", layer = FLOAT_LAYER)
+		mag_overlay = image('icons/stalker/projectile_overlays32x32.dmi', "[initial(icon_state)]-mag", layer = FLOAT_LAYER)
 
 	if(can_suppress)
-		silencer_overlay = image('stalker/icons/projectile_overlays48x48.dmi', "[initial(icon_state)]-silencer", layer = FLOAT_LAYER)
+		silencer_overlay = image('icons/stalker/projectile_overlays48x48.dmi', "[initial(icon_state)]-silencer", layer = FLOAT_LAYER)
 
 	if(can_scope)
-		scope_overlay = image('stalker/icons/projectile_overlays32x32.dmi', "[initial(icon_state)]-scope", layer = FLOAT_LAYER)
+		scope_overlay = image('icons/stalker/projectile_overlays32x32.dmi', "[initial(icon_state)]-scope", layer = FLOAT_LAYER)
 
 	if(colored)
-		colored_overlay = image('stalker/icons/projectile_overlays32x32.dmi', "[initial(icon_state)]-[colored]", layer = FLOAT_LAYER)
+		colored_overlay = image('icons/stalker/projectile_overlays32x32.dmi', "[initial(icon_state)]-[colored]", layer = FLOAT_LAYER)
 		overlays += colored_overlay
 
 	update_icon()
@@ -473,7 +473,7 @@
 		overlays += scope_overlay
 
 	if(unique)
-		overlays += image('stalker/icons/projectile_overlays32x32.dmi', "unique", layer = FLOAT_LAYER)
+		overlays += image('icons/stalker/projectile_overlays32x32.dmi', "unique", layer = FLOAT_LAYER)
 
 	if(istype(src, /obj/item/gun/ballistic/automatic/pistol))
 		icon_state = "[initial(icon_state)][chambered ? "" : "-e"]"
@@ -890,7 +890,7 @@
 /obj/item/gun/ballistic/automatic/strelok_ak  // АКС74У
 	name = "Fast-Firing AK 74S"
 	desc = "Looks like this has seen incredible modifications. It has reduced recoil, a faster firing rate and better durability."
-	icon = 'stalker/icons/weapons.dmi'
+	icon = 'icons/stalker/weapons.dmi'
 	icon_state = "ak74-green"
 	inhand_icon_state = "ak74-green"
 	slot_flags = ITEM_SLOT_BACK

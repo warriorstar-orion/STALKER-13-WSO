@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/pill/stalker
-	icon = 'stalker/icons/items.dmi'
+	icon = 'icons/stalker/items.dmi'
 	w_class = 2
 	possible_transfer_amounts = list()
 	volume = 60

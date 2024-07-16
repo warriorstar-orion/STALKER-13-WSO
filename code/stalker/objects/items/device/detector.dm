@@ -1,7 +1,7 @@
 /obj/item/detector
 	name = "detector"
 	desc = "The cheapest and least effective detector."
-	icon = 'stalker/icons/device_new.dmi'
+	icon = 'icons/stalker/device_new.dmi'
 	icon_state = "echo_off"
 	var/icon_state_inactive = "echo_off"
 	var/icon_state_active = "echo_on"

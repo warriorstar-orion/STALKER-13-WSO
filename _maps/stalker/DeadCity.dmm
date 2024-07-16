@@ -108,7 +108,7 @@
 "aX" = (
 /obj/effect/turf_decal/stripes/full{
 	density = 1;
-	icon = 'stalker/icons/warning_stripes.dmi';
+	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border1";
 	tag = "icon-border1"
 	},

@@ -29,7 +29,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	var/list/loot = list()
 	var/anomaly_color = null
 	var/loot_count = 1
-	icon = 'stalker/icons/anomalies.dmi'
+	icon = 'icons/stalker/anomalies.dmi'
 	resistance_flags = UNACIDABLE
 	anchored = 1
 	layer = ABOVE_LYING_MOB_LAYER
@@ -354,7 +354,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	activated_luminosity = 4
 	anomaly_color = "#FFAA33"
 	damage_type = DMG_TYPE_IGNITION
-	icon = 'stalker/icons/anomalies.dmi'
+	icon = 'icons/stalker/anomalies.dmi'
 	inactive_icon_state = "jarka0"
 	active_icon_state = "jarka1"
 	active_invisibility = 0
@@ -442,7 +442,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	sound = 'stalker/sound/anomalies/buzz_hit.ogg'
 	damage_type = DMG_TYPE_LASTER
 	damage_amount = 60
-	icon = 'stalker/icons/anomalies.dmi'
+	icon = 'icons/stalker/anomalies.dmi'
 	inactive_icon_state = "holodec"
 	active_icon_state = "holodec" //needs activation icon
 	active_invisibility = 0
@@ -553,7 +553,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	sound = 'stalker/sound/anomalies/buzz_hit.ogg'
 	damage_type = DMG_TYPE_BIO
 	damage_amount = 65
-	icon = 'stalker/icons/anomalies.dmi'
+	icon = 'icons/stalker/anomalies.dmi'
 	inactive_icon_state = "puh"
 	active_icon_state = "puh" //needs activation icon
 	active_invisibility = 0
@@ -597,7 +597,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 
 /obj/rad 	//Only does rad damage
 	name = "radiation"
-	icon = 'stalker/icons/anomalies.dmi'
+	icon = 'icons/stalker/anomalies.dmi'
 	icon_state = "rad_low"
 	var/damage_amount = 0 				//How much damage
 	var/damage_type = DMG_TYPE_RADIATION	//Damage type
@@ -614,7 +614,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	var/inactive_icon_state = null
 	var/rt = 0
 	invisibility = 101
-	icon = 'stalker/icons/anomalies.dmi'
+	icon = 'icons/stalker/anomalies.dmi'
 	resistance_flags = UNACIDABLE
 	anchored = 1
 	pass_flags = PASSTABLE | PASSGRILLE

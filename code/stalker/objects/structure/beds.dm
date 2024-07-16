@@ -1,5 +1,5 @@
 /obj/structure/bed/stalker
-	icon = 'stalker/icons/decor.dmi'
+	icon = 'icons/stalker/decor.dmi'
 
 /obj/structure/bed/stalker/metal
 	name = "bed"
@@ -87,7 +87,7 @@
 	icon_state = "krovat_s"
 
 /obj/structure/chair/stalker
-	icon = 'stalker/icons/decor.dmi'
+	icon = 'icons/stalker/decor.dmi'
 
 /obj/structure/chair/stalker/divan
 	name = "sofa"

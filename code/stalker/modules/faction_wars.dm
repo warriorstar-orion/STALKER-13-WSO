@@ -3,7 +3,7 @@ GLOBAL_LIST_EMPTY(cps)
 /obj/machinery/stalker/sidorpoint
 	name = "SIDORPOINT - null"
 	desc = "Control point."
-	icon = 'stalker/icons/device_new.dmi'
+	icon = 'icons/stalker/device_new.dmi'
 	icon_state = "radio_free"
 	density = 1
 	anchored = 1

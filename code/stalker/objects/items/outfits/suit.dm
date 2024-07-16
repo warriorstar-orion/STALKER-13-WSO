@@ -54,7 +54,7 @@
 	overlays.Cut()
 
 	if(unique)
-		overlays += image('stalker/icons/projectile_overlays32x32.dmi', "unique", layer = FLOAT_LAYER)
+		overlays += image('icons/stalker/projectile_overlays32x32.dmi', "unique", layer = FLOAT_LAYER)
 
 /obj/item/clothing/New()
 	..()

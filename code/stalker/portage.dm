@@ -3,9 +3,9 @@
 		remove_overlay(BODY_FRONT_LAYER)
 		var/icon/I
 		if(lying != 0)
-			I = turn(icon('stalker/icons/water.dmi', "human_overlay_turned"), - lying)
+			I = turn(icon('icons/stalker/water.dmi', "human_overlay_turned"), - lying)
 		else
-			I = icon('stalker/icons/water.dmi', "human_overlay")
+			I = icon('icons/stalker/water.dmi', "human_overlay")
 
 		overlays_standing[BODY_FRONT_LAYER] = mutable_appearance(I, "", -BODY_FRONT_LAYER)
 		apply_overlay(BODY_FRONT_LAYER)
@@ -19,12 +19,12 @@
 
 	if(src.loc && istype(src.loc, /turf/open/stalker/floor/water))
 
-		var/image/standing //= image('stalker/icons/water.dmi', "water_overlay")
+		var/image/standing //= image('icons/stalker/water.dmi', "water_overlay")
 		var/icon/I
 		if(lying != 0)
-			I = turn(icon('stalker/icons/water.dmi', "water_overlay_turned"), - lying)
+			I = turn(icon('icons/stalker/water.dmi', "water_overlay_turned"), - lying)
 		else
-			I = icon('stalker/icons/water.dmi', "water_overlay")
+			I = icon('icons/stalker/water.dmi', "water_overlay")
 
 		var/icon/mask
 		mask = getIconMask(src)
@@ -41,7 +41,7 @@
 
 /obj/structure/flora/stalker
 	name = "bulrush"
-	icon = 'stalker/icons/fallout/flora.dmi'
+	icon = 'icons/stalker/fallout/flora.dmi'
 
 /obj/structure/flora/stalker/smallbush
 	icon_state = "tall_grass_8"
@@ -98,7 +98,7 @@
 /turf/closed/wall/stalker/beton
 	name = "wall"
 	desc = "A huge chunk of wall"
-	icon = 'stalker/icons/walls/beton_tg.dmi'
+	icon = 'icons/stalker/walls/beton_tg.dmi'
 	icon_state = "beton"
 	canSmoothWith = list(
 	/turf/closed/wall/stalker/beton,
@@ -108,7 +108,7 @@
 /turf/closed/wall/stalker/bricks
 	name = "wall"
 	desc = "A huge chunk of wall"
-	icon = 'stalker/icons/walls/bricks_tg.dmi'
+	icon = 'icons/stalker/walls/bricks_tg.dmi'
 	icon_state = "bricks"
 	canSmoothWith = list(
 	/turf/closed/wall/stalker/bricks
@@ -117,7 +117,7 @@
 /turf/closed/wall/stalker/bricks_yellow
 	name = "wall"
 	desc = "A huge chunk of wall"
-	icon = 'stalker/icons/walls/bricks_tg_yellow.dmi'
+	icon = 'icons/stalker/walls/bricks_tg_yellow.dmi'
 	icon_state = "bricks"
 	canSmoothWith = list(
 	/turf/closed/wall/stalker/bricks_yellow
@@ -126,7 +126,7 @@
 /turf/closed/wall/stalker/bricks_white
 	name = "wall"
 	desc = "A huge chunk of wall"
-	icon = 'stalker/icons/walls/bricks_tg_white.dmi'
+	icon = 'icons/stalker/walls/bricks_tg_white.dmi'
 	icon_state = "bricks"
 	canSmoothWith = list(
 	/turf/closed/wall/stalker/bricks_white
@@ -135,7 +135,7 @@
 /turf/closed/wall/stalker/beton_agro
 	name = "wall"
 	desc = "A huge chunk of wall"
-	icon = 'stalker/icons/walls/beton_w_tg.dmi'
+	icon = 'icons/stalker/walls/beton_w_tg.dmi'
 	icon_state = "beton"
 	canSmoothWith = list(
 	/turf/closed/wall/stalker/beton_agro
@@ -151,7 +151,7 @@
 /turf/closed/wall/stalker/ship
 	name = "hull"
 	desc = "A huge chunk of hull"
-	icon = 'stalker/icons/barzha.dmi'
+	icon = 'icons/stalker/barzha.dmi'
 	icon_state = "hull"
 	canSmoothWith = list(/turf/closed/wall/stalker/ship)
 
@@ -193,7 +193,7 @@
 /obj/structure/chair/brevno
 	name = "log"
 	desc = "A simple log."
-	icon = 'stalker/icons/decor.dmi'
+	icon = 'icons/stalker/decor.dmi'
 	icon_state = "log1"
 
 /obj/structure/chair/brevno/log2
@@ -272,19 +272,19 @@
 	name = "JoinLateRenegade"
 
 /turf/open/floor/plasteel/stairs/stalker
-	icon = 'stalker/icons/floor.dmi'
+	icon = 'icons/stalker/floor.dmi'
 	icon_state = "ladder"
 
 /turf/open/floor/plasteel/stairs/left/stalker
-	icon = 'stalker/icons/floor.dmi'
+	icon = 'icons/stalker/floor.dmi'
 	icon_state = "ladder_left"
 
 /turf/open/floor/plasteel/stairs/medium/stalker
-	icon = 'stalker/icons/floor.dmi'
+	icon = 'icons/stalker/floor.dmi'
 	icon_state = "ladder_middle"
 
 /turf/open/floor/plasteel/stairs/right/stalker
-	icon = 'stalker/icons/floor.dmi'
+	icon = 'icons/stalker/floor.dmi'
 	icon_state = "ladder_right"
 
 /*
@@ -293,7 +293,7 @@ var/list/sidorRooms = list()
 /obj/sidor_enter
 	var/roomtype = "sidor"
 	invisibility = INVISIBILITY_LIGHTING
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "transfer_zone"
 	anchored = TRUE
 
@@ -321,7 +321,7 @@ var/list/sidorRooms = list()
 	var/roomtype = "sidor"
 	var/mob/living/occupant = null
 	invisibility = INVISIBILITY_LIGHTING
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "transfer_zone"
 	anchored = TRUE
 

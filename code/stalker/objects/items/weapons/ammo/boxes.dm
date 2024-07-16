@@ -3,7 +3,7 @@
 /obj/item/ammo_box/stalker
 	name = "ammo box (5.45x39mm)"
 	desc = "It shouldn't be here"
-	icon = 'stalker/icons/ammo.dmi'
+	icon = 'icons/stalker/ammo.dmi'
 	icon_state = "545x39"
 	multiple_sprites = 2
 

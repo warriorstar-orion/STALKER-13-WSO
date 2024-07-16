@@ -1,6 +1,6 @@
 /obj/item/food/stalker
 	var/wrapped = 0
-	icon = 'stalker/icons/food.dmi'
+	icon = 'icons/stalker/food.dmi'
 
 /obj/item/food/stalker/konserva
 	name = "tourist delight"
@@ -10,7 +10,7 @@
 	wrapped = 1
 	trash = /obj/item/trash/konserva
 	list_reagents = list("nutriment" = 13, "vitamin" = 2, "omnizine" = 0.5)
-	icon = 'stalker/icons/food.dmi'
+	icon = 'icons/stalker/food.dmi'
 	var/icon_state_opened = "konserva_open"
 	var/desc_opened = "Tourist's delight, also known as tourist breakfast is a staple food of The Zone. Legend says these cans of konserva are from a raid against an army warehouse! This one is opened."
 	tastes = list("almost unedibly salty meat" = 1)
@@ -33,7 +33,7 @@
 /obj/item/trash/konserva
 	name = "empty can"
 	desc = "An empty delight can. Trash!"
-	icon = 'stalker/icons/food.dmi'
+	icon = 'icons/stalker/food.dmi'
 	icon_state = "konserva_empty"
 	w_class = 2
 
@@ -159,7 +159,7 @@
 	name = "MRE"
 	desc = "Ukrainian standard issue twenty-four hour ration pack. Filled with everything a Stalker will need in a day!"
 	var/desc_opened = "Ukrainian standard issue twenty-four hour ration pack. Filled with everything a Stalker will need in a day! This one is opened."
-	icon = 'stalker/icons/food.dmi'
+	icon = 'icons/stalker/food.dmi'
 	icon_state = "box1"
 	var/icon_state_opened = "box3"
 	var/wrapped = 1
@@ -387,7 +387,7 @@
 /obj/item/food/stalker/okroshkasoup
 	name = "okroshka soup"
 	desc = "Okróshka is a cold soup of Russian origin and probably originated in the Volga region. The classic soup is a mix of mostly raw vegetables, boiled potatoes, eggs, and a cooked meat such as beef, veal, sausages, or ham with kvass, which is a non-alcoholic beverage made from fermented black or rye bread."
-	icon = 'stalker/icons/food.dmi'
+	icon = 'icons/stalker/food.dmi'
 	icon_state = "lowgrade_goulash"
 	w_class = 2
 	list_reagents = list("nutriment" = 35, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)

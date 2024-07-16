@@ -1,5 +1,5 @@
 /obj/structure/closet/crate/stalker
-	icon = 'stalker/icons/crates.dmi'
+	icon = 'icons/stalker/crates.dmi'
 	anchored = 1
 
 /obj/structure/closet/crate/stalker/blue
@@ -81,7 +81,7 @@
 	return 1
 
 /obj/structure/closet/stalker
-	icon = 'stalker/icons/crates.dmi'
+	icon = 'icons/stalker/crates.dmi'
 	anchored = 1
 
 /obj/structure/closet/stalker/shkaf

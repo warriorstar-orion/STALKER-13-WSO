@@ -1,7 +1,7 @@
 /obj/item/stalker/bolt
 	name = "bolt"
 	desc = "Old Soviet bolt affected by corrosion."
-	icon = 'stalker/icons/bolt.dmi'
+	icon = 'icons/stalker/bolt.dmi'
 	icon_state = "bolt"
 	w_class = 6//from 1. >:(
 	throwforce = 1//:)
@@ -13,7 +13,7 @@
 /obj/item/stalker/bolts
 	name = "bolts"
 	desc = "A pile of bolts. Throw them into anomalies to see where the anomalies are."
-	icon = 'stalker/icons/bolt.dmi'
+	icon = 'icons/stalker/bolt.dmi'
 	icon_state = "kucha"
 	w_class = 6//from 2. >:(
 

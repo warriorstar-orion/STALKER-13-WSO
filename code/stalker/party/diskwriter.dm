@@ -1,5 +1,5 @@
 /obj/item/disk/music
-	icon = 'stalker/icons/cloning.dmi'
+	icon = 'icons/stalker/cloning.dmi'
 	icon_state = "datadisk2"
 	inhand_icon_state = "card-id"
 	w_class = 1.0

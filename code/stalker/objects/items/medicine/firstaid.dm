@@ -1,6 +1,6 @@
 /obj/item/stack/medical/gauze/bint
 	desc = "A common gauze bandage. It'll work extremely well for stopping any bleeding!"
-	icon = 'stalker/icons/items.dmi'
+	icon = 'icons/stalker/items.dmi'
 	icon_state = "bint"
 	amount = 2
 	max_amount = 2
@@ -12,7 +12,7 @@
 /obj/item/storage/firstaid/ifak
 	name = "infantry first-aid kit"
 	desc = "An infantry first-aid kit containing all a STALKER needs to stabilize their wounds!"
-	icon = 'stalker/icons/items.dmi'
+	icon = 'icons/stalker/items.dmi'
 	icon_state = "ifak"
 	w_class = WEIGHT_CLASS_NORMAL
 
@@ -107,7 +107,7 @@
 /obj/item/storage/firstaid/ecologists
 	name = "scientific medical kit"
 	desc = "An advanced doctor's bag filled to the brim with everything a STALKER would every need, want or desire with in the Zone!"
-	icon = 'stalker/icons/items.dmi'
+	icon = 'icons/stalker/items.dmi'
 	icon_state = "scikit"
 	w_class = WEIGHT_CLASS_BULKY
 	throw_speed = 1
@@ -144,7 +144,7 @@
 /obj/item/storage/firstaid/ai2
 	name = "AI-2 Medkit"
 	desc = "A first aid kit designed originally for radiological disaster. A common and affordable medical staple in the Zone!"
-	icon = 'stalker/icons/items.dmi'
+	icon = 'icons/stalker/items.dmi'
 	icon_state = "aptechkar"
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -169,7 +169,7 @@
 /obj/item/storage/firstaid/armymedkit
 	name = "Army Medkit"
 	desc = "A first aid kit designed for combat situations. It contains superior relief to the AI-2, but contains no radiological medication."
-	icon = 'stalker/icons/items.dmi'
+	icon = 'icons/stalker/items.dmi'
 	icon_state = "aptechkab"
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -194,7 +194,7 @@
 /obj/item/storage/firstaid/sciencemedkit
 	name = "Scientific Medkit"
 	desc = "A first aid kit designed by a company intandem with the Ecologists. This state of the art kit contains everything to save a Stalkers Life!"
-	icon = 'stalker/icons/items.dmi'
+	icon = 'icons/stalker/items.dmi'
 	icon_state = "aptechkay"
 	w_class = WEIGHT_CLASS_SMALL
 

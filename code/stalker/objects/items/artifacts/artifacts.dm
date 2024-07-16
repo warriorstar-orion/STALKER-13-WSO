@@ -5,7 +5,7 @@
 GLOBAL_LIST_EMPTY(all_artifacts)
 
 /obj/item/artifact
-	icon = 'stalker/icons/artifacts.dmi'
+	icon = 'icons/stalker/artifacts.dmi'
 	desc = "Simple Artifact"
 	var/capacity = 0
 	var/charge = 0

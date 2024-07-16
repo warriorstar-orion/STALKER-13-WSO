@@ -1,6 +1,6 @@
 /obj/structure/stalker/tree
 	name = "tree"
-	icon = 'stalker/icons/derevya.dmi'
+	icon = 'icons/stalker/derevya.dmi'
 	icon_state = "derevo1"
 	density = 0
 	opacity = 0
@@ -28,7 +28,7 @@
 
 /obj/structure/stalker/tree/leafless/
 	name = "dead tree"
-	icon = 'stalker/icons/derevya.dmi'
+	icon = 'icons/stalker/derevya.dmi'
 	icon_state = "derevo1l"
 	density = 0
 	opacity = 0
@@ -53,7 +53,7 @@
 
 /obj/structure/stalker/tree/leaflessred/
 	name = "dead tree"
-	icon = 'stalker/icons/derevya.dmi'
+	icon = 'icons/stalker/derevya.dmi'
 	icon_state = "derevored1l"
 	density = 0
 	opacity = 1

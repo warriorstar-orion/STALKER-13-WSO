@@ -4,7 +4,7 @@
 	stat_attack = 2
 	stat_exclusive = 0
 	fearless = 0
-	icon = 'stalker/icons/stalker.dmi'
+	icon = 'icons/stalker/stalker.dmi'
 	speak_chance = 1.5
 	rating_add = 10
 	loot = list()
@@ -312,7 +312,7 @@
 	speed = 3
 	a_intent = "harm"
 	search_objects = 0
-	icon = 'stalker/icons/bloodsucker.dmi'
+	icon = 'icons/stalker/bloodsucker.dmi'
 	icon_state = "bloodsucker"
 	icon_living = "bloodsucker"
 	icon_dead = "bloodsucker_dead"
@@ -566,7 +566,7 @@
 	name = "poltergeist"
 	real_name = "poltergeist"
 	faction = list("stalker_mutants1", "monolith_forces")
-	icon = 'stalker/icons/anomalies.dmi'
+	icon = 'icons/stalker/anomalies.dmi'
 	density = TRUE
 	anchored = TRUE
 	maxHealth = 500

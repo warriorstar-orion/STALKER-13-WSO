@@ -1,5 +1,5 @@
 /area/stalker
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	name = "Strange Location"
 	icon_state = "away"
 	has_gravity = STANDARD_GRAVITY
@@ -11,14 +11,14 @@
 
 /area/stalker/blowout/outdoor
 	name = "Outdoor"
-	icon = 'stalker/icons/areas_outdoor_blowout.dmi'
+	icon = 'icons/stalker/areas_outdoor_blowout.dmi'
 	icon_state = "outdoor"
 	open_space = TRUE
 	environment = 15
 
 /area/stalker/sidor
 	name = "Sidorovich Basement"
-	icon = 'stalker/icons/areas_buildings.dmi'
+	icon = 'icons/stalker/areas_buildings.dmi'
 	icon_state = "sidor"
 	requires_power = 1
 	environment = 5
@@ -26,21 +26,21 @@
 
 /area/stalker/blowout/buildings
 	name = "Buildings"
-	icon = 'stalker/icons/areas_buildings_blowout.dmi'
+	icon = 'icons/stalker/areas_buildings_blowout.dmi'
 	icon_state = "buildings"
 	requires_power = 1
 	environment = 2
 
 /area/stalker/buildings
 	name = "Buildings"
-	icon = 'stalker/icons/areas_buildings.dmi'
+	icon = 'icons/stalker/areas_buildings.dmi'
 	icon_state = "buildings"
 	requires_power = 1
 	environment = 5
 
 /area/stalker/adminspace
 	name = "Admin Space"
-	icon = 'stalker/icons/areas_buildings.dmi'
+	icon = 'icons/stalker/areas_buildings.dmi'
 	icon_state = "admin_space"
 	requires_power = 1
 
@@ -400,7 +400,7 @@
 	icon_state = "buildings_s"
 
 /area/stalker/blowout/outdoor/bar
-	icon = 'stalker/icons/areas_outdoor_blowout.dmi'
+	icon = 'icons/stalker/areas_outdoor_blowout.dmi'
 	icon_state = "outdoor"
 
 /area/stalker/buildings/bar/city
@@ -409,67 +409,67 @@
 
 /area/stalker/buildings/bar/rentgen
 	name = "Bar 100RENTGEN"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "realbar"
 	safezone = 1
 
 /area/stalker/buildings/monolith
 	name = "Monolith Safezone"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "monolith"
 	monolithsafezone = 1
 
 /area/stalker/buildings/duty
 	name = "Duty Safezone"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "duty"
 	dutysafezone = 1
 
 /area/stalker/buildings/freedom
 	name = "Freedom Safezone"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "freedom"
 	freedomsafezone = 1
 
 /area/stalker/buildings/clearsky
 	name = "Clear Sky Safezone"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "clearsky"
 	cssafezone = 1
 
 /area/stalker/buildings/bandit
 	name = "Bandit Safezone"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "bandit"
 	banditsafezone = 1
 
 /area/stalker/buildings/military
 	name = "Military Safezone"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "military"
 	militarysafezone = 1
 
 /area/stalker/buildings/renegade
 	name = "Renegade Safezone"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "renegades"
 	renegadesafezone = 1
 
 /area/stalker/buildings/mercenary
 	name = "Mercenary Safezone"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "mercenary"
 	mercenarysafezone = 1
 
 /area/stalker/buildings/ecologist
 	name = "ecologist safezone"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "ecologist"
 	ecosafezone = 1
 
 /area/stalker/buildings/ecologist_entrance
 	name = "ecologist"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "ecologist entrance"
 	safezone = 1
 
@@ -483,7 +483,7 @@
 	icon_state = "buildings_s"
 
 /area/stalker/blowout/outdoor/kordon
-	icon = 'stalker/icons/areas_outdoor_blowout.dmi'
+	icon = 'icons/stalker/areas_outdoor_blowout.dmi'
 	icon_state = "outdoor"
 
 /area/stalker/buildings/kordon/domik
@@ -492,7 +492,7 @@
 
 /area/stalker/buildings/kordon/banditbar
 	name = "Bandit Bar"
-	icon = 'stalker/icons/areas.dmi'
+	icon = 'icons/stalker/areas.dmi'
 	icon_state = "bandit_bar"
 //	banditsafezone = 1
 

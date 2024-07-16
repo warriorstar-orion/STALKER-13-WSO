@@ -1,5 +1,5 @@
 /obj/item/stalker/loot
-	icon = 'stalker/icons/loot.dmi'
+	icon = 'icons/stalker/loot.dmi'
 
 /obj/item/stalker/loot/mutantparts
 	name = "mutant parts"

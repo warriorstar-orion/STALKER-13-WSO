@@ -1,5 +1,5 @@
 /obj/structure/barricade/stalker
-	icon = 'stalker/icons/decor.dmi'
+	icon = 'icons/stalker/decor.dmi'
 	var/debriss_type
 	var/loot = list()
 	var/lootcount = 0
@@ -44,7 +44,7 @@
 /obj/structure/barricade/stalker/box
 	name = "wooden box"
 	desc = "Boarded up wooden box. Who knows what might be inside."
-	icon = 'stalker/icons/decor.dmi'
+	icon = 'icons/stalker/decor.dmi'
 	icon_state = "yashik_b"
 	debriss_type = /obj/structure/stalker/doski/doski2
 	anchored = 1
@@ -74,7 +74,7 @@
 
 /obj/structure/stalker/blocks
 	name = "blocks"
-	icon = 'stalker/icons/decor2.dmi'
+	icon = 'icons/stalker/decor2.dmi'
 	desc = "An ordinary concrete block."
 	density = 1
 	opacity = 1
@@ -161,13 +161,13 @@
 
 /obj/structure/stalker/blocks/vanish/wframe2nowalk
 	name =  "metal window frame"
-	icon = 'stalker/icons/wframe.dmi'
+	icon = 'icons/stalker/wframe.dmi'
 	icon_state = "wframe"
 
 /obj/structure/stalker/blocks/vanish/pipe
 	name = "Pipe"
 	desc = "A large pipe."
-	icon = 'stalker/icons/decor2.dmi'
+	icon = 'icons/stalker/decor2.dmi'
 	icon_state = "truba1"
 
 /obj/structure/stalker/blocks/vanish/pipe/pipe2
@@ -179,7 +179,7 @@
 	name = "Pipe"
 
 /obj/structure/stalker/blocks/vanish/shlagbaum1
-	icon = 'stalker/icons/decor.dmi'
+	icon = 'icons/stalker/decor.dmi'
 	icon_state = "shlagbaum1"
 
 /obj/structure/stalker/blocks/vanish/shlagbaum1/shlagbaum2
@@ -188,5 +188,5 @@
 /obj/structure/stalker/blocks/vanish/sandbags
 	name = "sandbags"
 	desc = "A stack of sandbags."
-	icon = 'stalker/icons/structure/sandbags.dmi'
+	icon = 'icons/stalker/structure/sandbags.dmi'
 	icon_state = "solo"

@@ -3,7 +3,7 @@ var/id_ = 0
 /obj/structure/stalker/modification_table
 	name = "modification table"
 	desc = "A table that allows you to invest money and time into bettering your gear."
-	icon = 'stalker/icons/weapon_mods.dmi'
+	icon = 'icons/stalker/weapon_mods.dmi'
 	icon_state = "modification_table"
 	layer = 2.8
 	var/datum/browser/popup = null

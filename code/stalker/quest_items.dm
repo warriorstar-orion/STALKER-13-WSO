@@ -1,5 +1,5 @@
 /obj/item/stalker
-	icon = 'stalker/icons/quest.dmi'
+	icon = 'icons/stalker/quest.dmi'
 	desc = "Quest items."
 	w_class = 1
 
