@@ -20,7 +20,7 @@
 	melee_damage_lower = 25
 	melee_damage_upper = 25
 	attack_sound = 'sound/weapons/punch1.ogg'
-	attack_verb_continuous = "pulverizes"
+	attack_verb_continuous = list("pulverizes")
 	attack_verb_simple = "pulverize"
 	throw_blocked_message = "does nothing to the tough hide of"
 	move_force = MOVE_FORCE_VERY_STRONG

@@ -30,7 +30,7 @@
 	attack_sound = 'sound/weapons/punch1.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE
 	melee_attack_cooldown = 2.5 SECONDS
-	attack_verb_continuous = "chomps"
+	attack_verb_continuous = list("chomps")
 	attack_verb_simple = "chomp"
 	friendly_verb_continuous = "floats near"
 	friendly_verb_simple = "float near"

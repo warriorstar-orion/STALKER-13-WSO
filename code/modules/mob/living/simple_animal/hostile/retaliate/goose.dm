@@ -23,7 +23,7 @@
 	harm_intent_damage = 5
 	melee_damage_lower = 5
 	melee_damage_upper = 5
-	attack_verb_continuous = "pecks"
+	attack_verb_continuous = list("pecks")
 	attack_verb_simple = "peck"
 	attack_sound = "goose"
 	attack_vis_effect = ATTACK_EFFECT_BITE

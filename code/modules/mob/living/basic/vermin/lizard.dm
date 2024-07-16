@@ -15,7 +15,7 @@
 	health = 10
 	maxHealth = 10
 	faction = list(FACTION_LIZARD)
-	attack_verb_continuous = "bites"
+	attack_verb_continuous = list("bites")
 	attack_verb_simple = "bite"
 	melee_damage_lower = 1
 	melee_damage_upper = 2

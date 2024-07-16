@@ -32,7 +32,7 @@
 	response_harm_continuous = "punches"
 	response_harm_simple = "punch"
 	attack_sound = 'sound/weapons/punch1.ogg'
-	attack_verb_continuous = "punches"
+	attack_verb_continuous = list("punches")
 	attack_verb_simple = "punch"
 	combat_mode = TRUE
 	obj_damage = 40

@@ -10,7 +10,7 @@
 	melee_damage_lower = 2
 	melee_damage_upper = 6
 	speed = 1
-	attack_verb_continuous = "punches"
+	attack_verb_continuous = list("punches")
 	attack_verb_simple = "punch"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH

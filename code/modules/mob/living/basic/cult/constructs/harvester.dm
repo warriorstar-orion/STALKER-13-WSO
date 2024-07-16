@@ -9,7 +9,7 @@
 	sight = SEE_MOBS
 	melee_damage_lower = 15
 	melee_damage_upper = 20
-	attack_verb_continuous = "butchers"
+	attack_verb_continuous = list("butchers")
 	attack_verb_simple = "butcher"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH

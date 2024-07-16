@@ -35,7 +35,7 @@
 	//Messages
 
 	attack_verb_simple = "glomp"
-	attack_verb_continuous = "glomps"
+	attack_verb_continuous = list("glomps")
 
 	response_help_continuous = "pets"
 	response_help_simple = "pet"

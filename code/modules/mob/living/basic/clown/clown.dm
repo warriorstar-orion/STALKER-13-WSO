@@ -98,7 +98,7 @@
 	speed = 1.1
 	melee_damage_lower = 1
 	melee_damage_upper = 1
-	attack_verb_continuous = "cheers up"
+	attack_verb_continuous = list("cheers up")
 	attack_verb_simple = "cheer up"
 	loot = list(
 		/obj/item/clothing/mask/gas/clown_hat,
@@ -134,7 +134,7 @@
 	health = 140
 	speed = 1
 	melee_damage_upper = 15
-	attack_verb_continuous = "limply slaps"
+	attack_verb_continuous = list("limply slaps")
 	attack_verb_simple = "limply slap"
 	obj_damage = 5
 	loot = list(
@@ -213,7 +213,7 @@
 	speed = 2
 	melee_damage_lower = 15
 	melee_damage_upper = 20
-	attack_verb_continuous = "pummels"
+	attack_verb_continuous = list("pummels")
 	attack_verb_simple = "pummel"
 	obj_damage = 30
 	environment_smash = ENVIRONMENT_SMASH_WALLS
@@ -245,7 +245,7 @@
 	health = 500
 	speed = -2 //ridicilously fast but i dont even know what this is used for
 	armour_penetration = 20
-	attack_verb_continuous = "steals the girlfriend of"
+	attack_verb_continuous = list("steals the girlfriend of")
 	attack_verb_simple = "steal the girlfriend of"
 	attack_sound = 'sound/items/airhorn2.ogg'
 	loot = list(
@@ -274,7 +274,7 @@
 	speed = 1
 	melee_damage_lower = 5
 	melee_damage_upper = 10
-	attack_verb_continuous = "ferociously mauls"
+	attack_verb_continuous = list("ferociously mauls")
 	attack_verb_simple = "ferociously maul"
 	environment_smash = ENVIRONMENT_SMASH_NONE
 	loot = list(
@@ -313,7 +313,7 @@
 	melee_damage_lower = 20
 	melee_damage_upper = 40
 	armour_penetration = 30
-	attack_verb_continuous = "acts out divine vengeance on"
+	attack_verb_continuous = list("acts out divine vengeance on")
 	attack_verb_simple = "act out divine vengeance on"
 	obj_damage = 50
 	environment_smash = ENVIRONMENT_SMASH_RWALLS
@@ -350,7 +350,7 @@
 	speed = -5
 	melee_damage_lower = 10
 	melee_damage_upper = 20
-	attack_verb_continuous = "awkwardly flails at"
+	attack_verb_continuous = list("awkwardly flails at")
 	attack_verb_simple = "awkwardly flail at"
 	loot = list(
 		/obj/effect/gibspawner/generic,
@@ -381,7 +381,7 @@
 	melee_damage_lower = 10
 	melee_damage_upper = 15
 	damage_coeff = list(BRUTE = 1, BURN = 1, TOX = 1, STAMINA = 0, OXY = 1)
-	attack_verb_continuous = "slams"
+	attack_verb_continuous = list("slams")
 	attack_verb_simple = "slam"
 	loot = list(
 		/obj/effect/gibspawner/generic,

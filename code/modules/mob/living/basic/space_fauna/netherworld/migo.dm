@@ -10,7 +10,7 @@
 	melee_damage_lower = 25
 	melee_damage_upper = 50
 	speed = 1
-	attack_verb_continuous = "lacerates"
+	attack_verb_continuous = list("lacerates")
 	attack_verb_simple = "lacerate"
 	melee_attack_cooldown = 1 SECONDS
 	gold_core_spawnable = HOSTILE_SPAWN

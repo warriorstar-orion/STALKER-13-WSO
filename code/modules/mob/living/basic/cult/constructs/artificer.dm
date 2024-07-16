@@ -11,7 +11,7 @@
 	obj_damage = 60
 	melee_damage_lower = 5
 	melee_damage_upper = 5
-	attack_verb_continuous = "rams"
+	attack_verb_continuous = list("rams")
 	attack_verb_simple = "ram"
 	attack_sound = 'sound/weapons/punch2.ogg'
 	construct_spells = list(

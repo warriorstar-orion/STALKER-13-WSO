@@ -13,7 +13,7 @@
 	obj_damage = 5
 	melee_damage_lower = 5
 	melee_damage_upper = 10
-	attack_verb_continuous = "bites"
+	attack_verb_continuous = list("bites")
 	attack_verb_simple = "bite"
 	attack_sound = 'sound/weapons/bite.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE

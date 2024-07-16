@@ -29,7 +29,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	response_harm_continuous = "swats"
 	response_harm_simple = "swat"
 	combat_mode = TRUE //parrots now start "aggressive" since only player parrots will nuzzle.
-	attack_verb_continuous = "chomps"
+	attack_verb_continuous = list("chomps")
 	attack_verb_simple = "chomp"
 	attack_vis_effect = ATTACK_EFFECT_BITE
 	friendly_verb_continuous = "grooms"

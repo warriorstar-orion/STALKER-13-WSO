@@ -28,7 +28,7 @@
 	lighting_cutoff_green = 35
 	lighting_cutoff_blue = 15
 
-	attack_verb_continuous = "glomps"
+	attack_verb_continuous = list("glomps")
 	attack_verb_simple = "glomp"
 	attack_sound = 'sound/effects/blobattack.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE //nom nom nom

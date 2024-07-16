@@ -12,7 +12,7 @@
 	melee_damage_lower = 25
 	melee_damage_upper = 25
 	obj_damage = 35
-	attack_verb_continuous = "telekinetically rams its moonihorn into"
+	attack_verb_continuous = list("telekinetically rams its moonihorn into")
 	attack_verb_simple = "telekinetically ram your moonihorn into"
 	gold_core_spawnable = NO_SPAWN
 	attack_sound = 'sound/weapons/bladeslice.ogg'

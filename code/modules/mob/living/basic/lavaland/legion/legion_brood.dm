@@ -22,7 +22,7 @@
 	melee_damage_lower = 12
 	melee_damage_upper = 12
 	obj_damage = 0
-	attack_verb_continuous = "bites"
+	attack_verb_continuous = list("bites")
 	attack_verb_simple = "bite"
 	attack_vis_effect = ATTACK_EFFECT_BITE
 	speak_emote = list("echoes") // who the fuck speaking as this mob it dies 10 seconds after it spawns

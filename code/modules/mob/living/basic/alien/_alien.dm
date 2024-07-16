@@ -32,7 +32,7 @@
 	speak_emote = list("hisses")
 	melee_damage_lower = 25
 	melee_damage_upper = 25
-	attack_verb_continuous = "slashes"
+	attack_verb_continuous = list("slashes")
 	attack_verb_simple = "slash"
 
 	attack_sound = 'sound/weapons/bladeslice.ogg'

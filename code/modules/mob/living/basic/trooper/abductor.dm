@@ -10,7 +10,7 @@
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	loot = list(/obj/effect/gibspawner/human)
-	attack_verb_continuous = "beats"
+	attack_verb_continuous = list("beats")
 	attack_verb_simple = "beat"
 	attack_sound = 'sound/weapons/egloves.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH

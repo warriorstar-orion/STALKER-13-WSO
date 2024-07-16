@@ -15,7 +15,7 @@
 	obj_damage = 50
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attack_verb_continuous = "grips"
+	attack_verb_continuous = list("grips")
 	attack_verb_simple = "grip"
 	attack_sound = 'sound/hallucinations/growl1.ogg'
 	melee_attack_cooldown = 1 SECONDS

@@ -29,7 +29,7 @@
 	can_be_held = TRUE
 	ai_controller = /datum/ai_controller/basic_controller/cat
 	held_state = "cat2"
-	attack_verb_continuous = "claws"
+	attack_verb_continuous = list("claws")
 	attack_verb_simple = "claw"
 	attack_sound = 'sound/weapons/slash.ogg'
 	attack_vis_effect = ATTACK_EFFECT_CLAW

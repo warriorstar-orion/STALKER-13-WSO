@@ -17,7 +17,7 @@
 	melee_damage_lower = BLOBMOB_SPORE_DMG_LOWER
 	melee_damage_upper = BLOBMOB_SPORE_DMG_UPPER
 	obj_damage = 0
-	attack_verb_continuous = "batters"
+	attack_verb_continuous = list("batters")
 	attack_verb_simple = "batter"
 	attack_sound = 'sound/weapons/genhit1.ogg'
 	death_message = "explodes into a cloud of gas!"

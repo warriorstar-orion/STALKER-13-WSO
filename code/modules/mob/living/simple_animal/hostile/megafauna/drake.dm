@@ -34,7 +34,7 @@
 	desc = "Guardians of the necropolis."
 	health = 2500
 	maxHealth = 2500
-	attack_verb_continuous = "chomps"
+	attack_verb_continuous = list("chomps")
 	attack_verb_simple = "chomp"
 	attack_sound = 'sound/magic/demon_attack1.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE

@@ -24,7 +24,7 @@
 	response_harm_simple = "smack"
 	melee_damage_lower = 8
 	melee_damage_upper = 12
-	attack_verb_continuous = "slams"
+	attack_verb_continuous = list("slams")
 	attack_verb_simple = "slam"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	faction = list(FACTION_PLANTS)

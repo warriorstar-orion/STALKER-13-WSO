@@ -138,7 +138,7 @@
 	name = "hauberoach"
 	desc = "Is that cockroach wearing a tiny yet immaculate replica 19th century Prussian spiked helmet? ...Is that a bad thing?"
 	icon_state = "hauberoach"
-	attack_verb_continuous = "rams its spike into"
+	attack_verb_continuous = list("rams its spike into")
 	attack_verb_simple = "ram your spike into"
 	melee_damage_lower = 2.5
 	melee_damage_upper = 10

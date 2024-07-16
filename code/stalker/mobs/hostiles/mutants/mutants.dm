@@ -66,7 +66,7 @@
 	icon_state = "stalker_dog"
 	icon_living = "stalker_dog"
 	icon_dead = "stalker_dog_dead"
-	attacktext = "bites"
+	attack_verb_continuous = list("bites")
 	search_objects = 1
 	speak_emote = list("whines", "roars")
 	emote_see = list("barks!")
@@ -127,7 +127,7 @@
 	icon_state = "snork"
 	icon_living = "snork"
 	icon_dead = "snork_dead"
-	attacktext = "claws at"
+	attack_verb_continuous = list("claws at")
 	speak_emote = list("growls", "roars", "sneers")
 	emote_see = list("growls!", "roars!", "sneers")
 	maxHealth = 120
@@ -220,7 +220,7 @@
 	icon_state = "plot"
 	icon_living = "plot"
 	icon_dead = "plot_dead"
-	attacktext = "crashes into"
+	attack_verb_continuous = list("crashes into")
 	speak_emote = list("grunts")
 	emote_see = list("shrieks aggressively!")
 	maxHealth = 60
@@ -265,7 +265,7 @@
 	icon_state = "boar"
 	icon_living = "boar"
 	icon_dead = "boar_dead"
-	attacktext = "crashes into"
+	attack_verb_continuous = list("crashes into")
 	speak_emote = list("grunts")
 	emote_see = list("grunts aggressively!")
 	maxHealth = 180
@@ -316,7 +316,7 @@
 	icon_state = "bloodsucker"
 	icon_living = "bloodsucker"
 	icon_dead = "bloodsucker_dead"
-	attacktext = "slashes"
+	attack_verb_continuous = list("slashes")
 	speak_emote = list("growls", "roars")
 	emote_see = list("growls!", "roars!")
 	maxHealth = 300
@@ -398,7 +398,7 @@
 	icon_state = "psydog"
 	icon_living = "psydog"
 	icon_dead = "psydog_dead"
-	attacktext = "bites"
+	attack_verb_continuous = list("bites")
 	speak_emote = list("growls", "roars")
 	emote_see = list("growls!", "roars!")
 	maxHealth = 80
@@ -447,7 +447,7 @@
 	icon_state = "controller"
 	icon_living = "controller"
 	icon_dead = "controller_dead"
-	attacktext = "slashes"
+	attack_verb_continuous = list("slashes")
 	speak_emote = list("growls", "roars")
 	emote_see = list("growls!", "roars!")
 	maxHealth = 200
@@ -659,7 +659,7 @@
 	icon_state = "rat"
 	icon_living = "rat"
 	icon_dead = "rat_dead"
-	attacktext = "chomps"
+	attack_verb_continuous = list("chomps")
 	search_objects = 1
 	speak_emote = list("squeaks", "SQUEAKS")
 	emote_see = list("squeaks!","SQUEAKS!")
@@ -718,7 +718,7 @@
 	harm_intent_damage = 10
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attacktext = "claws"
+	attack_verb_continuous = list("claws")
 	attack_sound = 'sound/weapons/punch1.ogg'
 	idle_sounds =	list('sound/stalker/mobs/mutants/idle/zombie_idle_1.ogg',
 						'sound/stalker/mobs/mutants/idle/zombie_idle_2.ogg',
@@ -872,7 +872,7 @@
 	harm_intent_damage = 5
 	melee_damage_lower = 5
 	melee_damage_upper = 10
-	attacktext = "claws"
+	attack_verb_continuous = list("claws")
 	attack_sound = 'sound/weapons/punch1.ogg'
 	a_intent = INTENT_HARM
 	faction = list("stalker_mutants1", "monolith_forces")
@@ -998,7 +998,7 @@
 	harm_intent_damage = 10
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attacktext = "claws"
+	attack_verb_continuous = list("claws")
 	attack_sound = 'sound/weapons/punch1.ogg'
 	a_intent = INTENT_HARM
 	faction = list("stalker_mutants1", "monolith_forces")
@@ -1041,7 +1041,7 @@
 	harm_intent_damage = 10
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attacktext = "claws"
+	attack_verb_continuous = list("claws")
 	attack_sound = 'sound/weapons/punch1.ogg'
 	a_intent = INTENT_HARM
 	faction = list("stalker_mutants1", "monolith_forces")
@@ -1084,7 +1084,7 @@
 	harm_intent_damage = 10
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attacktext = "claws"
+	attack_verb_continuous = list("claws")
 	attack_sound = 'sound/weapons/punch1.ogg'
 	a_intent = INTENT_HARM
 	faction = list("stalker_mutants1", "monolith_forces")

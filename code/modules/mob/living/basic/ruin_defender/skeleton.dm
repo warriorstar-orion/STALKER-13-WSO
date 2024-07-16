@@ -13,7 +13,7 @@
 	unsuitable_atmos_damage = 0
 	unsuitable_cold_damage = 0
 	unsuitable_heat_damage = 0
-	attack_verb_continuous = "slashes"
+	attack_verb_continuous = list("slashes")
 	attack_verb_simple = "slash"
 	attack_sound = 'sound/weapons/slash.ogg'
 	attack_vis_effect = ATTACK_EFFECT_CLAW
@@ -61,7 +61,7 @@
 	health = 55
 	melee_damage_lower = 17
 	melee_damage_upper = 20
-	attack_verb_continuous = "jabs"
+	attack_verb_continuous = list("jabs")
 	attack_verb_simple = "jab"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH
@@ -90,7 +90,7 @@
 	obj_damage = 50
 	melee_damage_lower = 25
 	melee_damage_upper = 30
-	attack_verb_continuous = "slices"
+	attack_verb_continuous = list("slices")
 	attack_verb_simple = "slice"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH
@@ -144,7 +144,7 @@
 	health = 185
 	melee_damage_lower = 20
 	melee_damage_upper = 25
-	attack_verb_continuous = "blasts"
+	attack_verb_continuous = list("blasts")
 	attack_verb_simple = "blast"
 	attack_sound = 'sound/weapons/sonic_jackhammer.ogg'
 	attack_vis_effect = null

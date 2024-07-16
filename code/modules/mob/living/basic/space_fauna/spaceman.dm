@@ -19,7 +19,7 @@
 	speed = 0
 	melee_damage_lower = 10
 	melee_damage_upper = 10
-	attack_verb_continuous = "hits"
+	attack_verb_continuous = list("hits")
 	attack_verb_simple = "hit"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	obj_damage = 0

@@ -123,7 +123,7 @@
 	desc = "A large, adorable creature covered in armor with pink bows."
 	speak_emote = list("giggles", "titters", "chuckles", "guffaws", "laughs")
 	response_help_continuous = "hugs"
-	attack_verb_continuous = "wildly tickles"
+	attack_verb_continuous = list("wildly tickles")
 	attack_verb_simple = "wildly tickle"
 
 	attack_sound = 'sound/items/bikehorn.ogg'

@@ -13,7 +13,7 @@
 	obj_damage = 60
 	melee_damage_lower = 12
 	melee_damage_upper = 12
-	attack_verb_continuous = "bites into"
+	attack_verb_continuous = list("bites into")
 	attack_verb_simple = "bite into"
 	throw_blocked_message = "bounces off the shell of"
 	attack_sound = 'sound/weapons/bladeslice.ogg'

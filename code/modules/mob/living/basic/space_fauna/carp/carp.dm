@@ -29,7 +29,7 @@
 	melee_damage_upper = 20
 	attack_sound = 'sound/weapons/bite.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE
-	attack_verb_continuous = "bites"
+	attack_verb_continuous = list("bites")
 	attack_verb_simple = "bite"
 	melee_attack_cooldown = 1.5 SECONDS
 	response_help_continuous = "pets"
@@ -275,7 +275,7 @@
 	icon_dead = "base_friend_dead"
 	greyscale_config = /datum/greyscale_config/carp_friend
 
-	attack_verb_continuous = "suckers"
+	attack_verb_continuous = list("suckers")
 	attack_verb_simple = "suck"
 
 	melee_damage_lower = 4

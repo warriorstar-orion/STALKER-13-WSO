@@ -15,7 +15,7 @@
 	response_help_simple = "brush aside"
 	response_disarm_continuous = "flails at"
 	response_disarm_simple = "flail at"
-	attack_verb_continuous = "bites"
+	attack_verb_continuous = list("bites")
 	attack_verb_simple = "bite"
 	verb_say = "squeaks"
 

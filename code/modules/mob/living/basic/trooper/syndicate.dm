@@ -30,7 +30,7 @@
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	loot = list(/obj/effect/gibspawner/human)
-	attack_verb_continuous = "slashes"
+	attack_verb_continuous = list("slashes")
 	attack_verb_simple = "slash"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH
@@ -65,7 +65,7 @@
 /mob/living/basic/trooper/syndicate/melee/sword
 	melee_damage_lower = 30
 	melee_damage_upper = 30
-	attack_verb_continuous = "slashes"
+	attack_verb_continuous = list("slashes")
 	attack_verb_simple = "slash"
 	attack_sound = 'sound/weapons/blade1.ogg'
 	armour_penetration = 35
@@ -234,7 +234,7 @@
 	bare_wound_bonus = 20
 	sharpness = SHARP_EDGED
 	obj_damage = 0
-	attack_verb_continuous = "cuts"
+	attack_verb_continuous = list("cuts")
 	attack_verb_simple = "cut"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH

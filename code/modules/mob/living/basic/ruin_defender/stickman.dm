@@ -9,7 +9,7 @@
 	health = 100
 	maxHealth = 100
 	speed = 0.5
-	attack_verb_continuous = "punches"
+	attack_verb_continuous = list("punches")
 	attack_verb_simple = "punch"
 	melee_damage_lower = 10
 	melee_damage_upper = 10
@@ -49,7 +49,7 @@
 	icon_state = "stickdog"
 	icon_living = "stickdog"
 	icon_dead = "stickdog_dead"
-	attack_verb_continuous = "bites"
+	attack_verb_continuous = list("bites")
 	attack_verb_simple = "bite"
 	attack_vis_effect = ATTACK_EFFECT_BITE
 	sharpness = SHARP_POINTY
@@ -61,7 +61,7 @@
 	desc = "How do 2 dimensional guns even work??"
 	icon_state = "stickmanranged"
 	icon_living = "stickmanranged"
-	attack_verb_continuous = "whacks"
+	attack_verb_continuous = list("whacks")
 	attack_verb_simple = "whack"
 	melee_damage_lower = 5
 	melee_damage_upper = 5

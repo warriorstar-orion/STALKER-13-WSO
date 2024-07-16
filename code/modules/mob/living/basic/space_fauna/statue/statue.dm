@@ -23,7 +23,7 @@
 	obj_damage = 100
 	melee_damage_lower = 68
 	melee_damage_upper = 83
-	attack_verb_continuous = "claws"
+	attack_verb_continuous = list("claws")
 	attack_verb_simple = "claw"
 	attack_sound = 'sound/hallucinations/growl1.ogg'
 	attack_vis_effect = ATTACK_EFFECT_CLAW

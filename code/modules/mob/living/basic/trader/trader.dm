@@ -7,7 +7,7 @@
 	health = 200
 	melee_damage_lower = 10
 	melee_damage_upper = 10
-	attack_verb_continuous = "punches"
+	attack_verb_continuous = list("punches")
 	attack_verb_simple = "punch"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	basic_mob_flags = DEL_ON_DEATH

@@ -9,7 +9,7 @@
 	health = 40
 	melee_damage_lower = 10
 	melee_damage_upper = 10
-	attack_verb_continuous = "mauls"
+	attack_verb_continuous = list("mauls")
 	attack_verb_simple = "maul"
 	attack_vis_effect = ATTACK_EFFECT_BITE
 	attack_sound = 'sound/weapons/bite.ogg'

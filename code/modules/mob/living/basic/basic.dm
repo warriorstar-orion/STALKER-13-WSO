@@ -63,7 +63,7 @@
 
 	///Basic mob's own attacks verbs,
 	///Attacking verb in present continuous tense.
-	var/attack_verb_continuous = "attacks"
+	var/attack_verb_continuous = list("attacks")
 	///Attacking verb in present simple tense.
 	var/attack_verb_simple = "attack"
 	///Attacking, but without damage, verb in present continuous tense.

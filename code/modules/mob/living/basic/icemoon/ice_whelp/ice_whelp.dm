@@ -23,7 +23,7 @@
 	melee_damage_lower = 20
 	melee_damage_upper = 20
 
-	attack_verb_continuous = "chomps"
+	attack_verb_continuous = list("chomps")
 	attack_verb_simple = "chomp"
 	death_message = "collapses on its side."
 	death_sound = 'sound/magic/demon_dies.ogg'

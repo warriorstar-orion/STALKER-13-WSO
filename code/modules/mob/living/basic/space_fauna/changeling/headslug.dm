@@ -14,7 +14,7 @@
 	maxHealth = 50
 	melee_damage_lower = 5
 	melee_damage_upper = 5
-	attack_verb_continuous = "chomps"
+	attack_verb_continuous = list("chomps")
 	attack_verb_simple = "chomp"
 	attack_sound = 'sound/weapons/bite.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE

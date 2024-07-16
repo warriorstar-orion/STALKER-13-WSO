@@ -19,7 +19,7 @@
 	melee_damage_upper = 10
 	health = 200
 	maxHealth = 200
-	attack_verb_continuous = "slimes"
+	attack_verb_continuous = list("slimes")
 	attack_verb_simple = "slime"
 	attack_sound = 'sound/effects/blobattack.ogg'
 	combat_mode = TRUE

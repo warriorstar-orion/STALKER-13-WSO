@@ -30,7 +30,7 @@
 	attack_vis_effect = ATTACK_EFFECT_KICK
 	response_harm_continuous = "kicks"
 	response_harm_simple = "kick"
-	attack_verb_continuous = "kicks"
+	attack_verb_continuous = list("kicks")
 	attack_verb_simple = "kick"
 	butcher_results = list(/obj/item/food/meat/slab/grassfed = 1)
 	unsuitable_cold_damage = 0.5 // Cold damage is 0.5 here to account for low health on the rabbit.

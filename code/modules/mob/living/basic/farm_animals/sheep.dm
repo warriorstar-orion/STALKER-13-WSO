@@ -16,7 +16,7 @@
 	response_disarm_simple = "gently push aside"
 	response_harm_continuous = "kicks"
 	response_harm_simple = "kick"
-	attack_verb_continuous = "kicks"
+	attack_verb_continuous = list("kicks")
 	attack_verb_simple = "kick"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	attack_vis_effect = ATTACK_EFFECT_KICK

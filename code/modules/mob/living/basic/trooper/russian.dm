@@ -8,7 +8,7 @@
 	unsuitable_cold_damage = 1
 	unsuitable_heat_damage = 1
 	faction = list(FACTION_RUSSIAN)
-	attack_verb_continuous = "slashes"
+	attack_verb_continuous = list("slashes")
 	attack_verb_simple = "slash"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH

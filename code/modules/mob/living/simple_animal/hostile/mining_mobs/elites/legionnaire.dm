@@ -29,7 +29,7 @@
 	health = 1000
 	melee_damage_lower = 35
 	melee_damage_upper = 35
-	attack_verb_continuous = "slashes its arms at"
+	attack_verb_continuous = list("slashes its arms at")
 	attack_verb_simple = "slash your arms at"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH
@@ -247,7 +247,7 @@
 	health = 200
 	melee_damage_lower = 20
 	melee_damage_upper = 20
-	attack_verb_continuous = "bites at"
+	attack_verb_continuous = list("bites at")
 	attack_verb_simple = "bite at"
 	attack_sound = 'sound/effects/curse1.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE
