@@ -21,13 +21,12 @@
 	w_class = WEIGHT_CLASS_HUGE
 	slot_flags = ITEM_SLOT_BACK
 
-/obj/item/storage/backpack/stalker/ComponentInitialize()
+/obj/item/storage/backpack/stalker/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_combined_w_class = 30
-	STR.max_w_class = WEIGHT_CLASS_BULKY
-	STR.max_items = 21
-	STR.display_numerical_stacking = TRUE
+	atom_storage.max_total_storage = 30
+	atom_storage.max_specific_storage = WEIGHT_CLASS_BULKY
+	atom_storage.max_slots = 21
+	atom_storage.numerical_stacking = TRUE
 
 /obj/item/storage/backpack/stalker/civilian
 	name = "civilian backpack"
@@ -35,11 +34,10 @@
 	icon_state = "backpack-civilian"
 	inhand_icon_state = "backpack-civilian"
 
-/obj/item/storage/backpack/stalker/civilian/ComponentInitialize()
+/obj/item/storage/backpack/stalker/civilian/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_combined_w_class = 20
-	STR.max_w_class = WEIGHT_CLASS_NORMAL
+	atom_storage.max_total_storage = 20
+	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL
 
 /obj/item/storage/backpack/stalker/tourist
 	name = "tourist bag"
@@ -47,11 +45,10 @@
 	icon_state = "backpack-tourist"
 	inhand_icon_state = "backpack-tourist"
 
-/obj/item/storage/backpack/stalker/tourist/ComponentInitialize()
+/obj/item/storage/backpack/stalker/tourist/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_combined_w_class = 35
-	STR.max_w_class = WEIGHT_CLASS_BULKY
+	atom_storage.max_total_storage = 35
+	atom_storage.max_specific_storage = WEIGHT_CLASS_BULKY
 
 /obj/item/storage/backpack/stalker/professional
 	name = "professional backpack"
@@ -60,11 +57,10 @@
 	inhand_icon_state = "backpack-professional"
 	slowdown = 0.1
 
-/obj/item/storage/backpack/stalker/professional/ComponentInitialize()
+/obj/item/storage/backpack/stalker/professional/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_combined_w_class = 55
-	STR.max_w_class = WEIGHT_CLASS_BULKY
+	atom_storage.max_total_storage = 55
+	atom_storage.max_specific_storage = WEIGHT_CLASS_BULKY
 
 /obj/item/storage/backpack/stalker/rucksack
 	name = "rucksack"
@@ -73,13 +69,11 @@
 	inhand_icon_state = "backpack-rucksack"
 	slowdown = 0.3
 
-/obj/item/storage/backpack/stalker/rucksack/ComponentInitialize()
+/obj/item/storage/backpack/stalker/rucksack/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_combined_w_class = 60
-	STR.max_items = 30
-	STR.max_w_class = WEIGHT_CLASS_BULKY
-
+	atom_storage.max_total_storage = 60
+	atom_storage.max_slots = 30
+	atom_storage.max_specific_storage = WEIGHT_CLASS_BULKY
 
 /obj/item/storage/backpack/satchel/stalker
 	name = "satchel"
@@ -88,13 +82,12 @@
 	w_class = WEIGHT_CLASS_HUGE
 	slot_flags = ITEM_SLOT_BACK
 
-/obj/item/storage/backpack/satchel/stalker/ComponentInitialize()
+/obj/item/storage/backpack/satchel/stalker/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_combined_w_class = 30
-	STR.max_w_class = WEIGHT_CLASS_BULKY
-	STR.max_items = 21
-	STR.display_numerical_stacking = TRUE
+	atom_storage.max_total_storage = 30
+	atom_storage.max_specific_storage = WEIGHT_CLASS_BULKY
+	atom_storage.max_slots = 21
+	atom_storage.numerical_stacking = TRUE
 
 /obj/item/storage/backpack/satchel/stalker/civilian
 	name = "civilian satchel"
@@ -102,11 +95,10 @@
 	icon_state = "satchel-civilian"
 	inhand_icon_state = "satchel-civilian"
 
-/obj/item/storage/backpack/satchel/stalker/ComponentInitialize()
+/obj/item/storage/backpack/satchel/stalker/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_combined_w_class = 18
-	STR.max_w_class = WEIGHT_CLASS_NORMAL
+	atom_storage.max_total_storage = 18
+	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL
 
 ///obj/item/storage/backpack/stalker/stalker
 //	name = "backpack"

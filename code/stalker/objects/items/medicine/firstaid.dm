@@ -6,6 +6,9 @@
 	max_amount = 2
 	self_delay = 10
 
+/obj/item/storage/firstaid
+	var/empty = FALSE
+
 /obj/item/storage/firstaid/ifak
 	name = "infantry first-aid kit"
 	desc = "An infantry first-aid kit containing all a STALKER needs to stabilize their wounds!"
@@ -13,13 +16,12 @@
 	icon_state = "ifak"
 	w_class = WEIGHT_CLASS_NORMAL
 
-/obj/item/storage/firstaid/ifak/ComponentInitialize()
+/obj/item/storage/firstaid/ifak/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_w_class = WEIGHT_CLASS_SMALL
-	STR.max_items = 7
-	STR.can_hold = typecacheof(list(/obj/item/stack/medical,
-									/obj/item/reagent_containers/pill))
+	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
+	atom_storage.max_slots = 7
+	atom_storage.set_holdable(list(/obj/item/stack/medical,
+								/obj/item/reagent_containers/pill))
 
 /obj/item/storage/firstaid/ifak/PopulateContents()
 	if(empty)
@@ -111,12 +113,11 @@
 	throw_speed = 1
 	throw_range = 4
 
-/obj/item/storage/firstaid/ai2/ComponentInitialize()
+/obj/item/storage/firstaid/ai2/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_w_class = WEIGHT_CLASS_SMALL
-	STR.max_items = 12
-	STR.can_hold = typecacheof(list(/obj/item/stack/medical,
+	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
+	atom_storage.max_slots = 12
+	atom_storage.set_holdable(list(/obj/item/stack/medical,
 									/obj/item/reagent_containers/pill,
 									/obj/item/reagent_containers/pill/stalker/injector,
 									/obj/item/storage/pill_bottle))
@@ -147,12 +148,11 @@
 	icon_state = "aptechkar"
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/storage/firstaid/ai2/ComponentInitialize()
+/obj/item/storage/firstaid/ai2/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_w_class = WEIGHT_CLASS_SMALL
-	STR.max_items = 3
-	STR.can_hold = typecacheof(list(/obj/item/reagent_containers/pill/stalker/injector,
+	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
+	atom_storage.max_slots = 3
+	atom_storage.set_holdable(list(/obj/item/reagent_containers/pill/stalker/injector,
 									/obj/item/reagent_containers/pill/stalker/pillbottle))
 
 /obj/item/storage/firstaid/ai2/PopulateContents()
@@ -173,12 +173,11 @@
 	icon_state = "aptechkab"
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/storage/firstaid/armymedkit/ComponentInitialize()
+/obj/item/storage/firstaid/armymedkit/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_w_class = WEIGHT_CLASS_SMALL
-	STR.max_items = 3
-	STR.can_hold = typecacheof(list(/obj/item/reagent_containers/pill/stalker/injector,
+	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
+	atom_storage.max_slots = 3
+	atom_storage.set_holdable(list(/obj/item/reagent_containers/pill/stalker/injector,
 									/obj/item/reagent_containers/pill/stalker/pillbottle))
 
 /obj/item/storage/firstaid/armymedkit/PopulateContents()
@@ -199,12 +198,11 @@
 	icon_state = "aptechkay"
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/storage/firstaid/sciencemedkit/ComponentInitialize()
+/obj/item/storage/firstaid/sciencemedkit/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_w_class = WEIGHT_CLASS_SMALL
-	STR.max_items = 3
-	STR.can_hold = typecacheof(list(/obj/item/reagent_containers/pill/stalker/injector,
+	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
+	atom_storage.max_slots = 3
+	atom_storage.set_holdable(list(/obj/item/reagent_containers/pill/stalker/injector,
 									/obj/item/reagent_containers/pill/stalker/pillbottle))
 
 /obj/item/storage/firstaid/sciencemedkit/PopulateContents()

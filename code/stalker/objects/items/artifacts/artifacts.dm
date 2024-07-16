@@ -257,11 +257,10 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	icon_state = "artifactbelt"
 	inhand_icon_state = "utility"
 
-/obj/item/storage/belt/stalker/ComponentInitialize()
+/obj/item/storage/belt/stalker/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_items = 5
-	STR.can_hold = typecacheof(list(/obj/item/artifact))
+	atom_storage.max_slots = 5
+	atom_storage.set_holdable(list(/obj/item/artifact))
 
 /obj/item/storage/belt/stalker/artifact_belt
 	var/thinkrate = 100
