@@ -130,7 +130,7 @@
 	. = 1
 
 /datum/reagent/drug/cocaine/addiction_act_stage4(mob/living/M)
-	M.adjustBrainLoss(3*REM)
+	M.adjustOrganLoss(ORGAN_SLOT_BRAIN, 3 * REM)
 	M.adjustToxLoss(5*REM, 0)
 	M.adjustBruteLoss(5*REM, 0)
 	..()
@@ -164,7 +164,7 @@
 		var/obj/item/I = M.get_active_held_item()
 		if(I && M.dropItemToGround(I))
 			to_chat(M, "<span class ='notice'>Your hands spaz out and you drop what you were holding!</span>")
-			M.Jitter(10)
+			M.set_timed_status_effect(1 SECONDS, /datum/status_effect/jitter, only_if_higher = TRUE)
 
 	M.AdjustAllImmobility(-20, FALSE)
 	M.adjustStaminaLoss(-1*REM, FALSE)
@@ -182,8 +182,8 @@
 /datum/reagent/medicine/analgesic/overdose_process(mob/living/M)
 	if(prob(33))
 		M.drop_all_held_items()
-		M.Dizzy(2)
-		M.Jitter(2)
+		M.set_timed_status_effect(0.2 SECONDS, /datum/status_effect/dizziness, only_if_higher = TRUE)
+		M.set_timed_status_effect(0.2 SECONDS, /datum/status_effect/jitter, only_if_higher = TRUE)
 	..()
 
 // An extraordinarily powerful drug that heals all wounds, cures all ailments, and purges all radiation. The user will be in a coma as the drugs acts, healing all their wounds. Very, very, very rare.
@@ -204,7 +204,7 @@
 	M.heal_bodypart_damage(5,5)
 	M.adjustToxLoss(-5, 0, TRUE)
 	M.hallucination = 0
-	M.setBrainLoss(0)
+	M.setOrganLoss(ORGAN_SLOT_BRAIN, 0)
 	M.remove_all_traits()
 	M.set_blurriness(0)
 	M.set_blindness(0)
