@@ -85,7 +85,7 @@
 	///obj/structure/stalker/okno/redbrick/double1,
 	///obj/structure/stalker/okno/redbrick/double2)
 	)
-	smoothing_flags = SMOOTH_TRUE
+	smoothing_flags = SMOOTH_CORNERS
 	var/resistance_flags = INDESTRUCTIBLE
 	flags_1 = CHECK_RICOCHET_1
 

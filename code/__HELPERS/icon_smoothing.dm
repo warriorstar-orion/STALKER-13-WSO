@@ -11,7 +11,7 @@
 
 	DIAGONAL SMOOTHING INSTRUCTIONS
 	To make your atom smooth diagonally you need all the proper icon states (see 'smooth_wall.dmi' for a template) and
-	to add the 'SMOOTH_DIAGONAL_CORNERS' flag to the atom's smoothing_flags var (in addition to either SMOOTH_TRUE or SMOOTH_MORE).
+	to add the 'SMOOTH_DIAGONAL_CORNERS' flag to the atom's smoothing_flags var (in addition to either SMOOTH_CORNERS or SMOOTH_MORE).
 
 	For turfs, what appears under the diagonal corners depends on the turf that was in the same position previously: if you make a wall on
 	a plating floor, you will see plating under the diagonal wall corner, if it was space, you will see space.

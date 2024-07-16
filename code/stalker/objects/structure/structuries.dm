@@ -1,5 +1,5 @@
 /obj/structure/table/stalker
-	smoothing_flags = SMOOTH_TRUE
+	smoothing_flags = SMOOTH_CORNERS
 	canSmoothWith = list(/obj/structure/table/stalker)
 	pass_flags = LETPASSTHROW
 
@@ -7,14 +7,14 @@
 	desc = "A simple table."
 	icon = 'icons/stalker/structure/stol_stalker.dmi'
 	icon_state = "stol"
-	smoothing_flags = SMOOTH_TRUE
+	smoothing_flags = SMOOTH_CORNERS
 	canSmoothWith = list(/obj/structure/table/stalker/wood)
 
 /obj/structure/table/stalker/wood/bar
 	desc = "A homemade bar counter."
 	icon = 'icons/stalker/structure/stol_stalker_bar.dmi'
 	icon_state = "bar"
-	smoothing_flags = SMOOTH_TRUE
+	smoothing_flags = SMOOTH_CORNERS
 	canSmoothWith = list(/obj/structure/table/stalker/wood/bar)
 
 /obj/structure/table/stalker/wood/bar100rentgen
