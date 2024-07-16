@@ -57,7 +57,7 @@ Assistant
 	id = /obj/item/stalker_pda
 	suit_store = /obj/item/gun/ballistic/automatic/ak74
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m545 = 2,/obj/item/reagent_containers/food/snacks/stalker/konserva/fish,/obj/item/storage/firstaid/ifak,/obj/item/flashlight/seclite,/obj/item/clothing/accessory/patch/military)
+	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m545 = 2,/obj/item/food/stalker/konserva/fish,/obj/item/storage/firstaid/ifak,/obj/item/flashlight/seclite,/obj/item/clothing/accessory/patch/military)
 	r_pocket = /obj/item/radio
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
@@ -87,7 +87,7 @@ Assistant
 	id = /obj/item/stalker_pda
 	suit_store = /obj/item/gun/ballistic/automatic/aksu74
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m545 = 2,/obj/item/reagent_containers/food/snacks/stalker/konserva/fish,/obj/item/storage/firstaid/ifak,/obj/item/flashlight/seclite,/obj/item/clothing/accessory/patch/military)
+	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/m545 = 2,/obj/item/food/stalker/konserva/fish,/obj/item/storage/firstaid/ifak,/obj/item/flashlight/seclite,/obj/item/clothing/accessory/patch/military)
 	r_pocket = /obj/item/radio
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
@@ -129,7 +129,7 @@ Assistant
 	id = /obj/item/stalker_pda
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/desert
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/desert = 2,/obj/item/reagent_containers/food/snacks/stalker/konserva/fish,/obj/item/storage/firstaid/ifak,/obj/item/flashlight/seclite,/obj/item/clothing/accessory/patch/military)
+	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/desert = 2,/obj/item/food/stalker/konserva/fish,/obj/item/storage/firstaid/ifak,/obj/item/flashlight/seclite,/obj/item/clothing/accessory/patch/military)
 	r_pocket = /obj/item/radio
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
@@ -168,7 +168,7 @@ Assistant
 	..()
 	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/army
-	l_pocket = pick(/obj/item/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/reagent_containers/food/snacks/stalker/baton)
+	l_pocket = pick(/obj/item/food/stalker/kolbasa,/obj/item/food/stalker/baton)
 	r_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)

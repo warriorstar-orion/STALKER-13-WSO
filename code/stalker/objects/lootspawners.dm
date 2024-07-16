@@ -22,8 +22,8 @@
 				/obj/item/ammo_box/stalker/b9x19P = 10,
 				/obj/item/clothing/suit/army = 1,
 				/obj/item/clothing/mask/gas/stalker = 4,
-				/obj/item/reagent_containers/food/snacks/stalker/fermented/tomaty = 28,
-				/obj/item/reagent_containers/food/snacks/stalker/stew = 18,
+				/obj/item/food/stalker/fermented/tomaty = 28,
+				/obj/item/food/stalker/stew = 18,
 				/obj/item/detector/blink = 4,
 				/obj/item/seeds/potato = 30,
 				/obj/item/seeds/cabbage = 30,
@@ -559,10 +559,10 @@
 	name = "stalker food"
 	icon_state = "food_loot"
 	lootcount = 1
-	loot = list(/obj/item/reagent_containers/food/snacks/stalker/baton = 50,
-				/obj/item/reagent_containers/food/snacks/stalker/kolbasa = 30,
-				/obj/item/reagent_containers/food/snacks/stalker/kolbasa/doctorsausage = 40,
-				/obj/item/reagent_containers/food/snacks/stalker/konserva = 20,
+	loot = list(/obj/item/food/stalker/baton = 50,
+				/obj/item/food/stalker/kolbasa = 30,
+				/obj/item/food/stalker/kolbasa/doctorsausage = 40,
+				/obj/item/food/stalker/konserva = 20,
 				/obj/nothing = 15)
 
 
@@ -570,9 +570,9 @@
 	name = "stalker food"
 	icon_state = "stew_loot"
 	lootcount = 1
-	loot = list(/obj/item/reagent_containers/food/snacks/stalker/lowgradestew = 50,
-				/obj/item/reagent_containers/food/snacks/stalker/shroomstew = 25,
-				/obj/item/reagent_containers/food/snacks/stalker/meatstew = 25,
+	loot = list(/obj/item/food/stalker/lowgradestew = 50,
+				/obj/item/food/stalker/shroomstew = 25,
+				/obj/item/food/stalker/meatstew = 25,
 				/obj/nothing = 15)
 
 

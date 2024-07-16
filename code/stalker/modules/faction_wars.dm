@@ -161,6 +161,8 @@ GLOBAL_LIST_EMPTY(cps)
 
 	//if(controlled_by && last_respawn_income)
 
+	var/area/A = get_area(src)
+
 	if(!check_invader())
 		capturing_faction = null
 		return
@@ -175,8 +177,8 @@ GLOBAL_LIST_EMPTY(cps)
 		if(control_percent >= 100)
 
 			control_percent = 100
-			add_lenta_message(null, "0", "Sidorovich", "Loners", "[controlled_by] captured [get_area(src).name].")
-			say("[get_area(src).name] is captured  by [controlled_by]!")
+			add_lenta_message(null, "0", "Sidorovich", "Loners", "[controlled_by] captured [A.name].")
+			say("[A.name] is captured  by [controlled_by]!")
 			capturing_faction = null
 
 		return
@@ -193,8 +195,8 @@ GLOBAL_LIST_EMPTY(cps)
 			if(control_percent <= 0)
 
 				control_percent = 0
-				add_lenta_message(null, "0", "Sidorovich", "Loners", "[controlled_by] lost control of [get_area(src).name].")
-				say("[controlled_by] lost control of [get_area(src).name]!")
+				add_lenta_message(null, "0", "Sidorovich", "Loners", "[controlled_by] lost control of [A.name].")
+				say("[controlled_by] lost control of [A.name]!")
 				controlled_by = capturing_faction
 
 /obj/machinery/stalker/sidorpoint/ex_act(severity, target)

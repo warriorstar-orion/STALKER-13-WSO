@@ -95,7 +95,7 @@
 	environment_smash = 0
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/dog_tail = 1,
-							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/dog_meat = 1)
+							/obj/item/food/meat/slab/mutantmeat/dog_meat = 1)
 	attack_type = "bite"
 	move_to_delay = 1.2 //Real speed of a mob
 	rating_add = 25
@@ -154,7 +154,7 @@
 	deathmessage = "seizes up and falls limp!"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/snork_leg = 1,
-							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/snork_meat = 1)
+							/obj/item/food/meat/slab/mutantmeat/snork_meat = 1)
 	//random_butcher_results = 1
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	ranged = 1
@@ -246,7 +246,7 @@
 	deathmessage = "stops dead and falls over itself!"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/flesh_eye = 1,
-							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/flesh_meat = 1)
+							/obj/item/food/meat/slab/mutantmeat/flesh_meat = 1)
 	//random_butcher_results = 1
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	attack_type = "smash"
@@ -289,7 +289,7 @@
 	deathmessage = "collapses to the ground!"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/boar_leg = 1,
-							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/boar_meat = 1)
+							/obj/item/food/meat/slab/mutantmeat/boar_meat = 1)
 	//random_butcher_results = 1
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	attack_type = "smash"
@@ -342,7 +342,7 @@
 	deathmessage = "chokes up blood and falls to the ground!"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/bloodsucker = 1,
-							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/bloodsucker_meat = 1)
+							/obj/item/food/meat/slab/mutantmeat/bloodsucker_meat = 1)
 	//random_butcher_results = 1
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	attack_type = "claw"
@@ -427,7 +427,7 @@
 	deathmessage = "makes a sinister howl before falling on its side!"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/pseudo_tail = 1,
-							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/pseudo_meat = 1)
+							/obj/item/food/meat/slab/mutantmeat/pseudo_meat = 1)
 	//random_butcher_results = 1
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	attack_type = "bite"
@@ -470,7 +470,7 @@
 	deathmessage = "screams in agony, straining your mind with its last breath!"
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/controller_brain = 1,
-							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/controller_meat = 1)
+							/obj/item/food/meat/slab/mutantmeat/controller_meat = 1)
 	//random_butcher_results = 1
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	attack_type = "claw"
@@ -683,7 +683,7 @@
 	environment_smash = 0
 	layer = MOB_LAYER - 0.1
 	butcher_results = list(/obj/item/stalker/loot/mutantparts/rat_tail = 1,
-							/obj/item/reagent_containers/food/snacks/meat/slab/mutantmeat/rat_meat = 1)
+							/obj/item/food/meat/slab/mutantmeat/rat_meat = 1)
 	//random_butcher_results = 1
 	attack_type = "bite"
 	move_to_delay = 1.2 //Real speed of a mob

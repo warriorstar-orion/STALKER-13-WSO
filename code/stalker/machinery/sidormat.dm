@@ -241,13 +241,13 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 
 	"Food" = list(
 		/////////////////////////////////	Еда	///////////////////////////////////////////
-		new /datum/data/stalker_equipment("Canned stew",				"Canned stew",				/obj/item/reagent_containers/food/snacks/stalker/konserva,				550,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Canned fish",				"Canned fish",				/obj/item/reagent_containers/food/snacks/stalker/konserva/shproti,		750,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Canned stew",				"Canned stew",				/obj/item/food/stalker/konserva,				550,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Canned fish",				"Canned fish",				/obj/item/food/stalker/konserva/shproti,		750,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Vodka \"Kazaki\"",			"Vodka \"Kazaki\"",			/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,			1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Energy drink \"NonStop\"",	"Energy drink \"NonStop\"",	/obj/item/reagent_containers/food/drinks/soda_cans/energetic,			500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Snickers",					"Snickers",					/obj/item/reagent_containers/food/snacks/stalker/konserva/snack/snikers,300,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Salami",						"Salami",					/obj/item/reagent_containers/food/snacks/stalker/kolbasa,				500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Bread",						"Bread",					/obj/item/reagent_containers/food/snacks/stalker/baton,					400,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Snickers",					"Snickers",					/obj/item/food/stalker/konserva/snack/snikers,300,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Salami",						"Salami",					/obj/item/food/stalker/kolbasa,				500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Bread",						"Bread",					/obj/item/food/stalker/baton,					400,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("MRE",						"MRE",						/obj/item/storage/box/MRE,												2500,	EXPERIENCED,initial_stock = PISTOL_AMOUNT)
 		),
 
@@ -339,18 +339,18 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 
 
 	"Unbuyable" = list(
-		new /datum/data/stalker_equipment("Canned soup",					"Canned soup",					/obj/item/reagent_containers/food/snacks/stalker/konserva/soup,				900,	ROOKIE),
-		new /datum/data/stalker_equipment("Canned beans",					"Canned beans",					/obj/item/reagent_containers/food/snacks/stalker/konserva/bobi,				750,	ROOKIE),
-		new /datum/data/stalker_equipment("Canned stew",					"Canned stew",					/obj/item/reagent_containers/food/snacks/stalker/konserva/govyadina2,		900,	ROOKIE),
-		new /datum/data/stalker_equipment("Canned fish",					"Canned fish",					/obj/item/reagent_containers/food/snacks/stalker/konserva/fish,				750,	ROOKIE),
-		new /datum/data/stalker_equipment("Cream cheese",					"Cream cheese",					/obj/item/reagent_containers/food/snacks/stalker/konserva/snack/sirok,		400,	ROOKIE),
-		new /datum/data/stalker_equipment("Chocolate bar",					"Chocolate bar",				/obj/item/reagent_containers/food/snacks/stalker/konserva/snack/chocolate,	600,	ROOKIE),
-		new /datum/data/stalker_equipment("Biscuits",						"Biscuits",						/obj/item/reagent_containers/food/snacks/stalker/konserva/galets,			400,	ROOKIE),
-		new /datum/data/stalker_equipment("Cereal",						"Cereal",						/obj/item/reagent_containers/food/snacks/stalker/konserva/kasha,			550,	ROOKIE),
-		new /datum/data/stalker_equipment("Canned meat",					"Canned meat",					/obj/item/reagent_containers/food/snacks/stalker/konserva/MREkonserva1,		700,	ROOKIE),
-		new /datum/data/stalker_equipment("Canned meat",					"Canned meat",					/obj/item/reagent_containers/food/snacks/stalker/konserva/MREkonserva2,		700,	ROOKIE),
-		new /datum/data/stalker_equipment("Canned meat with vegetables",	"Canned meat with vegetables",	/obj/item/reagent_containers/food/snacks/stalker/konserva/MREkonserva3,		850,	ROOKIE),
-		new /datum/data/stalker_equipment("Biscuits",						"Biscuits",						/obj/item/reagent_containers/food/snacks/stalker/konserva/galets,			400,	ROOKIE),
+		new /datum/data/stalker_equipment("Canned soup",					"Canned soup",					/obj/item/food/stalker/konserva/soup,				900,	ROOKIE),
+		new /datum/data/stalker_equipment("Canned beans",					"Canned beans",					/obj/item/food/stalker/konserva/bobi,				750,	ROOKIE),
+		new /datum/data/stalker_equipment("Canned stew",					"Canned stew",					/obj/item/food/stalker/konserva/govyadina2,		900,	ROOKIE),
+		new /datum/data/stalker_equipment("Canned fish",					"Canned fish",					/obj/item/food/stalker/konserva/fish,				750,	ROOKIE),
+		new /datum/data/stalker_equipment("Cream cheese",					"Cream cheese",					/obj/item/food/stalker/konserva/snack/sirok,		400,	ROOKIE),
+		new /datum/data/stalker_equipment("Chocolate bar",					"Chocolate bar",				/obj/item/food/stalker/konserva/snack/chocolate,	600,	ROOKIE),
+		new /datum/data/stalker_equipment("Biscuits",						"Biscuits",						/obj/item/food/stalker/konserva/galets,			400,	ROOKIE),
+		new /datum/data/stalker_equipment("Cereal",						"Cereal",						/obj/item/food/stalker/konserva/kasha,			550,	ROOKIE),
+		new /datum/data/stalker_equipment("Canned meat",					"Canned meat",					/obj/item/food/stalker/konserva/MREkonserva1,		700,	ROOKIE),
+		new /datum/data/stalker_equipment("Canned meat",					"Canned meat",					/obj/item/food/stalker/konserva/MREkonserva2,		700,	ROOKIE),
+		new /datum/data/stalker_equipment("Canned meat with vegetables",	"Canned meat with vegetables",	/obj/item/food/stalker/konserva/MREkonserva3,		850,	ROOKIE),
+		new /datum/data/stalker_equipment("Biscuits",						"Biscuits",						/obj/item/food/stalker/konserva/galets,			400,	ROOKIE),
 		/////////////////////////////////	Лут с мутантов	///////////////////////////////////////////
 
 

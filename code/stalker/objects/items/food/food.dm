@@ -1,8 +1,8 @@
-/obj/item/reagent_containers/food/snacks/stalker
+/obj/item/food/stalker
 	var/wrapped = 0
 	icon = 'stalker/icons/food.dmi'
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva
+/obj/item/food/stalker/konserva
 	name = "tourist delight"
 	desc = "Tourist's delight, also known as tourist breakfast, is a staple food of The Zone. Legend says these cans of conserva are from a raid against an army warehouse!"
 	icon_state = "konserva"
@@ -15,13 +15,13 @@
 	var/desc_opened = "Tourist's delight, also known as tourist breakfast is a staple food of The Zone. Legend says these cans of konserva are from a raid against an army warehouse! This one is opened."
 	tastes = list("almost unedibly salty meat" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/attack_self(mob/user)
+/obj/item/food/stalker/konserva/attack_self(mob/user)
 	if(wrapped)
 		Unwrap(user)
 	else
 		..()
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/proc/Unwrap(mob/user)
+/obj/item/food/stalker/konserva/proc/Unwrap(mob/user)
 	icon_state = icon_state_opened
 	desc = desc_opened
 	if(user.client && (user.client.prefs.chat_toggles & CHAT_LANGUAGE))
@@ -37,7 +37,7 @@
 	icon_state = "konserva_empty"
 	w_class = 2
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/shproti
+/obj/item/food/stalker/konserva/shproti
 	name = "anchovies"
 	desc = "European sprats originating from the Latvian portcity of Riga. They've been preserved in a thick sunflower oil."
 	icon_state = "shproti0"
@@ -52,7 +52,7 @@
 	icon_state = "shproti2"
 	desc = "An empty can that smells of fish. Trash!"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/soup
+/obj/item/food/stalker/konserva/soup
 	name = "soup"
 	desc = "Condensed soup that usually would be thinned with water. A staple of tourists within the zone."
 	icon_state = "soup0"
@@ -66,7 +66,7 @@
 	name = "empty can"
 	icon_state = "soup2"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/bobi
+/obj/item/food/stalker/konserva/bobi
 	name = "canned meal (bobi)"
 	desc = "A can of 'Bean Surprise'. A melody of cheap flavourless nibbles of meat and watery beans."
 	icon_state = "bobi0"
@@ -80,7 +80,7 @@
 	name = "empty can"
 	icon_state = "bobi2"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/govyadina2
+/obj/item/food/stalker/konserva/govyadina2
 	name = "canned meal (stew)"
 	desc = "A can of beef-stew! An avidly loved staple of those who scour around old ruins in search for loot!"
 	//weight = 0.7
@@ -95,7 +95,7 @@
 	name = "empty can"
 	icon_state = "govyadina2"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/fish
+/obj/item/food/stalker/konserva/fish
 	name = "canned meal (fish)"
 	desc = "Canned fish. Simple, easy to digest and generally well-liked by most in the Zone."
 	icon_state = "fish0"
@@ -109,7 +109,7 @@
 	name = "empty can"
 	icon_state = "fish2"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/snack/sirok
+/obj/item/food/stalker/konserva/snack/sirok
 	name = "canned snack (cream cheese)"
 	desc = "A can of creamed cheese commonly seen in UAF mountaineer rations. It... might be in date."
 	icon_state = "sirok"
@@ -124,7 +124,7 @@
 	//weight = 0.01
 	icon_state = "sirok2"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/snack/snikers
+/obj/item/food/stalker/konserva/snack/snikers
 	name = "snikers"
 	desc = "Snickers. A reminder of home for western-tourists, a oddly sweet snack for locals."
 	icon_state = "snikers"
@@ -140,7 +140,7 @@
 	icon_state = "snikers2"
 	desc = "An empty Snickers wrapper. Trash!"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/snack/chocolate
+/obj/item/food/stalker/konserva/snack/chocolate
 	name = "chocolate"
 	desc = "A bar of chocolate. A reminder of home in this harsh place."
 	icon_state = "Choco1"
@@ -166,22 +166,22 @@
 
 /obj/item/storage/box/MRE/New()
 	..()
-	new /obj/item/reagent_containers/food/snacks/stalker/konserva/galets(src)
-	new /obj/item/reagent_containers/food/snacks/stalker/konserva/galets(src)
-	new /obj/item/reagent_containers/food/snacks/stalker/konserva/galets(src)
-	new /obj/item/reagent_containers/food/snacks/stalker/konserva/galets(src)
-	new /obj/item/reagent_containers/food/snacks/stalker/konserva/kasha(src)
-	new /obj/item/reagent_containers/food/snacks/stalker/konserva/MREkonserva1(src)
-	new /obj/item/reagent_containers/food/snacks/stalker/konserva/MREkonserva2(src)
-	new /obj/item/reagent_containers/food/snacks/stalker/konserva/MREkonserva3(src)
-	new /obj/item/reagent_containers/food/snacks/stalker/konserva/snack/chocolate(src)
+	new /obj/item/food/stalker/konserva/galets(src)
+	new /obj/item/food/stalker/konserva/galets(src)
+	new /obj/item/food/stalker/konserva/galets(src)
+	new /obj/item/food/stalker/konserva/galets(src)
+	new /obj/item/food/stalker/konserva/kasha(src)
+	new /obj/item/food/stalker/konserva/MREkonserva1(src)
+	new /obj/item/food/stalker/konserva/MREkonserva2(src)
+	new /obj/item/food/stalker/konserva/MREkonserva3(src)
+	new /obj/item/food/stalker/konserva/snack/chocolate(src)
 	new /obj/item/reagent_containers/food/drinks/soda_cans/voda(src)
 
 /obj/item/storage/box/MRE/ComponentInitialize()
 	. = ..()
 	GET_COMPONENT(STR, /datum/component/storage)
 	STR.max_items = 10
-	STR.can_hold = typecacheof(list(/obj/item/reagent_containers/food/snacks/stalker/konserva, /obj/item/trash/konserva, /obj/item/reagent_containers/food/drinks))
+	STR.can_hold = typecacheof(list(/obj/item/food/stalker/konserva, /obj/item/trash/konserva, /obj/item/reagent_containers/food/drinks))
 
 /obj/item/storage/box/MRE/attack_self(mob/user)
 	if(wrapped)
@@ -196,7 +196,7 @@
 		user << "<span class='notice'>You unwrap the package</span>"
 	wrapped = 0
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/galets
+/obj/item/food/stalker/konserva/galets
 	name = "galets"
 	desc = "Dry crackers that'd chip the tooth of anyone thinking this was a buttery biscuit!"
 	desc_opened = "Dry crackers that'd chip the tooth of anyone thinking this was a buttery biscuit! This one is opened."
@@ -210,7 +210,7 @@
 	name = "trash"
 	icon_state = "GAL3"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/kasha
+/obj/item/food/stalker/konserva/kasha
 	name = "canned meal (porridge)"
 	desc = "Vacuum-sealed can of boiled buckwheat porridge. Isn't this traditionally baked?"
 	desc_opened = "Vacuum-sealed can of boiled buckwheat porridge. Isn't this traditionally baked? This one is opened."
@@ -224,7 +224,7 @@
 	name = "trash"
 	icon_state = "Kasha3"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/MREkonserva1
+/obj/item/food/stalker/konserva/MREkonserva1
 	name = "canned meal (pork)"
 	desc = "Canned pork, salt n' spices. Doesn't get much simpler or wholesome in the zone!"
 	desc_opened = "Canned pork, salt n' spices. Doesn't get much simpler or wholesome in the zone! This one is opened."
@@ -238,7 +238,7 @@
 	name = "trash"
 	icon_state = "TushenkaRed3"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/MREkonserva2
+/obj/item/food/stalker/konserva/MREkonserva2
 	name = "canned meal (chicken)"
 	desc = "Canned chicken with an assortment of vegetables. A hearty meal in The Zone."
 	desc_opened = "Canned chicken with an assortment of vegetables. A hearty meal in The Zone. This one is opened."
@@ -252,7 +252,7 @@
 	name = "trash"
 	icon_state = "TushenkaGreen3"
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/MREkonserva3
+/obj/item/food/stalker/konserva/MREkonserva3
 	name = "canned meal (veggies)"
 	desc = "Canned meat with an assortment of vegetables. A healthy and substantial meal within The Zone!"
 	desc_opened = "Canned meat with an assortment of vegetables. A healthy and substantial meal within The Zone! This one is opened."
@@ -266,7 +266,7 @@
 	name = "trash"
 	icon_state = "TushenkaBlue3"
 
-/obj/item/reagent_containers/food/snacks/stalker/kolbasa
+/obj/item/food/stalker/kolbasa
 	name = "diet sausage"
 	desc = "Made from a mixture of chicken and soya, the \"diet\" sausage is often, for lack of other options, a Stalker's breakfast, lunch and dinner in one."
 	icon_state = "kolbasa"
@@ -274,7 +274,7 @@
 	list_reagents = list("nutriment" = 11, "vitamin" = 1, "omnizine" = 0.3)
 	tastes = list("a distinct cardamom kick over a classic ukrainian sausage" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/baton
+/obj/item/food/stalker/baton
 	name = "bread"
 	desc = "A loaf of bread of completely questionable origin. Nobody has complained of off-flavours or issues with it in all the years it has been apart of a Stalkers diet!"
 	icon_state = "baton_stalker"
@@ -282,7 +282,7 @@
 	list_reagents = list("nutriment" = 8, "omnizine" = 0.2)
 	tastes = list("dry but pleasant bread" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/fermented/tomaty
+/obj/item/food/stalker/fermented/tomaty
 	name = "pickled tomatoes"
 	desc = "Pickled tomatoes of unknown age. Try at your own peril."
 	icon_state = "tomaty"
@@ -290,7 +290,7 @@
 	list_reagents = list("nutriment" = 16, "omnizine" = 5, "vitamin" = 10)
 	tastes = list("tart, tangy tomatoes. They are a little mushy" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/fermented/sauerkraut
+/obj/item/food/stalker/fermented/sauerkraut
 	name = "sauerkraut"
 	desc = "Pickled cabbage of unknown age. Try at your own peril."
 	icon_state = "sauerkraut"
@@ -298,7 +298,7 @@
 	list_reagents = list("nutriment" = 16, "omnizine" = 5, "vitamin" = 10)
 	tastes = list("tart, tangy sauerkraut. They are a little mushy" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/stew
+/obj/item/food/stalker/stew
 	name = "meat and veggie stew"
 	desc = "Pieces of meat with vegetables in a bowl. It doesn't look very edible."
 	icon_state = "stew"
@@ -306,7 +306,7 @@
 	list_reagents = list("nutriment" = 25, "omnizine" = 1, "vitamin" = 5)
 	tastes = list("bland meat and vegetables. It's barely food" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/veggiestew
+/obj/item/food/stalker/veggiestew
 	name = "veggie stew"
 	desc = "Pieces of vegetables in a bowl. It doesn't look very edible."
 	icon_state = "stew"
@@ -314,7 +314,7 @@
 	list_reagents = list("nutriment" = 25, "omnizine" = 1, "vitamin" = 5)
 	tastes = list("bland vegetables. It's barely food" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/kolbasa/doctorsausage
+/obj/item/food/stalker/kolbasa/doctorsausage
 	name = "doctor sausage"
 	desc = "A boiled, pale pink sausage made out of heavily processed beef. Produced in the USSR, the sausage was intended to be a dietary supplement for people exhibiting signs of prolonged starvation."
 	icon_state = "sausage"
@@ -327,7 +327,7 @@
 
 // Goulash
 
-/obj/item/reagent_containers/food/snacks/stalker/putridstew
+/obj/item/food/stalker/putridstew
 	name = "putrid goulash"
 	desc = "Pieces of scrap meat cooked in a thick-gruel made of mutant tato stock. It isn't very tasty, to say the least!"
 	icon_state = "stew"
@@ -335,7 +335,7 @@
 	list_reagents = list("nutriment" = 17, "omnizine" = 1, "sodiumchloride" = 2)
 	tastes = list("gritty and chewy meat with a overly bitter broth. This is absolutely putrid.." = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/putrescentstew
+/obj/item/food/stalker/putrescentstew
 	name = "putrescent goulash"
 	desc = "Pieces of diet sausage meat cooked in a thick-gruel made of pickled tomato stock. It isn't very tasty, to say the least!"
 	icon_state = "stew"
@@ -343,7 +343,7 @@
 	list_reagents = list("nutriment" = 25, "omnizine" = 5, "sodiumchloride" = 2)
 	tastes = list("gritty and chewy meat with a overly vinegar-tomato broth. This is absolutely putrid.." = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/lowgradestew
+/obj/item/food/stalker/lowgradestew
 	name = "low-grade goulash"
 	desc = "Pieces of scrap meat cooked in a thin-gruel made of mushroom stock. It isn't very tasty, but it'll keep you from starving to death!"
 	icon_state = "lowgrade_goulash"
@@ -351,7 +351,7 @@
 	list_reagents = list("nutriment" = 20, "omnizine" = 5, "sodiumchloride" = 2)
 	tastes = list("gritty and chewy meat with a overly earthy broth. This isn't very enjoyable.." = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/shroomstew
+/obj/item/food/stalker/shroomstew
 	name = "mushroom goulash"
 	desc = "A grueling meal offered by barkeeps for those down on their luck. Consisting of whatever crap just barely fits for human-consumption."
 	icon_state = "stew"
@@ -361,7 +361,7 @@
 
 /// BORSCHT
 
-/obj/item/reagent_containers/food/snacks/stalker/borscht/poor
+/obj/item/food/stalker/borscht/poor
 	name = "poor mans borscht"
 	desc = "A sour soup common in Eastern Europe and Northern Asia. In English, the word 'borscht' is most often associated with the soup's variant of Ukrainian origin, made with beetroots as one of the main ingredients, which give the dish its distinctive red color."
 	icon_state = "beetsoup"
@@ -369,7 +369,7 @@
 	list_reagents = list("nutriment" = 20, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("sand-textured grit with a overbearing earthy flavour. This is horrible.." = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/borscht
+/obj/item/food/stalker/borscht
 	name = "plain borscht"
 	desc = "A sour soup common in Eastern Europe and Northern Asia. In English, the word 'borscht' is most often associated with the soup's variant of Ukrainian origin, made with beetroots as one of the main ingredients, which give the dish its distinctive red color."
 	icon_state = "beetsoup"
@@ -377,7 +377,7 @@
 	list_reagents = list("nutriment" = 25, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("root-textured grit with a overbearing earthy flavour. This is palatable..." = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/borscht/luxury
+/obj/item/food/stalker/borscht/luxury
 	name = "luxury borscht"
 	desc = "A sour soup common in Eastern Europe and Northern Asia. In English, the word 'borscht' is most often associated with the soup's variant of Ukrainian origin, made with beetroots as one of the main ingredients, which give the dish its distinctive red color."
 	icon_state = "beetsoup"
@@ -385,7 +385,7 @@
 	list_reagents = list("nutriment" = 30, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("flavorful seasoned veggies with a slight earthy flavour. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/okroshkasoup
+/obj/item/food/stalker/okroshkasoup
 	name = "okroshka soup"
 	desc = "Okróshka is a cold soup of Russian origin and probably originated in the Volga region. The classic soup is a mix of mostly raw vegetables, boiled potatoes, eggs, and a cooked meat such as beef, veal, sausages, or ham with kvass, which is a non-alcoholic beverage made from fermented black or rye bread."
 	icon = 'stalker/icons/food.dmi'
@@ -394,7 +394,7 @@
 	list_reagents = list("nutriment" = 35, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("flavourful chunks of chewy flesh meat in a broth of thick creamy broth. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/ukha
+/obj/item/food/stalker/ukha
 	name = "ukha soup"
 	desc = "Ukha started to be used as a term for fish broth in Russian cuisine in the late 17th to early 18th centuries. In earlier times, this term referred to thick meat broths, and then later chicken. Beginning in the 15th century, fish was more and more often used to prepare ukha, thus creating a dish that had a distinctive taste among soups. In the 19th century, many travellers visiting Russia claimed ukha to be one of the best dishes in Russian cuisine."
 	icon_state = "stew"
@@ -402,7 +402,7 @@
 	list_reagents = list("nutriment" = 35, "omnizine" = 10, "vitamin" = 10, "sodiumchloride" = 2)
 	tastes = list("flavourful chunks of chewy fish meat in a broth of thin clear broth. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/meatstew/rat
+/obj/item/food/stalker/meatstew/rat
 	name = "rat meat goulash"
 	desc = "Pieces of braised rat meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "lowgrade_goulash"
@@ -410,7 +410,7 @@
 	list_reagents = list("nutriment" = 30, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("flavourful chunks of chewy rat-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/meatstew/flesh
+/obj/item/food/stalker/meatstew/flesh
 	name = "flesh meat goulash"
 	desc = "Pieces of braised Flesh meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
@@ -418,7 +418,7 @@
 	list_reagents = list("nutriment" = 30, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("flavourful chunks of chewy pork-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/meatstew/dog
+/obj/item/food/stalker/meatstew/dog
 	name = "dog meat goulash"
 	desc = "Pieces of braised mutant dog meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
@@ -426,7 +426,7 @@
 	list_reagents = list("nutriment" = 30, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("flavourful chunks of chewy dog-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/meatstew/boar
+/obj/item/food/stalker/meatstew/boar
 	name = "boar meat goulash"
 	desc = "Pieces of braised mutant boar meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
@@ -434,7 +434,7 @@
 	list_reagents = list("nutriment" = 30, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("flavourful chunks of chewy boar-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/meatstew/snork
+/obj/item/food/stalker/meatstew/snork
 	name = "snork meat goulash"
 	desc = "Pieces of braised snork meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
@@ -442,7 +442,7 @@
 	list_reagents = list("nutriment" = 30, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("flavourful chunks of chewy snork-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/meatstew/pseudo
+/obj/item/food/stalker/meatstew/pseudo
 	name = "pseudodog meat goulash"
 	desc = "Pieces of braised psuedodog meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
@@ -450,7 +450,7 @@
 	list_reagents = list("nutriment" = 30, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("flavourful chunks of chewy dog-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/meatstew/bloodsucker
+/obj/item/food/stalker/meatstew/bloodsucker
 	name = "bloodsucker meat goulash"
 	desc = "Pieces of braised bloodsucker meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
@@ -458,7 +458,7 @@
 	list_reagents = list("nutriment" = 30, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("flavourful chunks of chewy bloodsucker-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/meatstew/controller
+/obj/item/food/stalker/meatstew/controller
 	name = "controller meat goulash"
 	desc = "Pieces of braised controller meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
@@ -466,7 +466,7 @@
 	list_reagents = list("nutriment" = 30, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 2)
 	tastes = list("flavourful chunks of chewy controller-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/meatstew/mutantdelight
+/obj/item/food/stalker/meatstew/mutantdelight
 	name = "mutant delight goulash"
 	desc = "A variety of braised mutant meat cooked with tons of pepper n' salt with quality cultured mushrooms and all sorts of veggies! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
@@ -476,7 +476,7 @@
 
 // Candy-Bars and King-Ass Rippers Snack
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/snack/thebar
+/obj/item/food/stalker/konserva/snack/thebar
 	name = "sugar-free candy bar"
 	desc = "Brought in during the later years by Stalkers who clearly understood what a diet of bread, meat and vodka does to ones stomach. It'll make you... 'Clear-Sky' your bowels!"
 	icon_state = "thebar"
@@ -486,7 +486,7 @@
 	desc_opened = "Brought in during the later years by Stalkers who clearly understood what a diet of bread, meat and vodka does to ones stomach. It'll make you... 'Clear-Sky' your bowels! This one has been opened!"
 	tastes = list("Oddly satisfactory chocolate that seems to make your... Stomach.. Grumble.. Oh No..." = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/konserva/snack/thebar
+/obj/item/food/stalker/konserva/snack/thebar
 	name = "russian chocolate bar"
 	desc = "A reminder of the life abandoned on the outside world by the locals.. This chocolate bar is rich with both flavour and homely vibes!"
 	icon_state = "choco1"
@@ -498,7 +498,7 @@
 
 /// KEBABS ///
 
-/obj/item/reagent_containers/food/snacks/stalker/kebab/mutantmeat
+/obj/item/food/stalker/kebab/mutantmeat
 	name = "mutant meat kebab"
 	desc = "Pieces of braised mutant meat cooked with tons of pepper n' salt on a rod! Nothing warms a Stalkers belly better!"
 	icon_state = "meatkebab"
@@ -506,7 +506,7 @@
 	list_reagents = list("nutriment" = 30, "omnizine" = 10, "vitamin" = 5, "sodiumchloride" = 5)
 	tastes = list("flavourful chunks of chewy mutant-meat right off of a stick. This is wonderful!" = 1)
 
-/obj/item/reagent_containers/food/snacks/stalker/kebab/mutantonionmeat
+/obj/item/food/stalker/kebab/mutantonionmeat
 	name = "mutant meat and onion kebab"
 	desc = "Pieces of braised mutant meat and onions cooked with tons of pepper n' salt on arod! Nothing warms a Stalkers belly better!"
 	icon_state = "onionmeatkebab"
@@ -516,7 +516,7 @@
 
 // JERKY
 
-/obj/item/reagent_containers/food/snacks/sosjerky/mutant
+/obj/item/food/sosjerky/mutant
 	name = "homemade mutant jerky"
 	desc = "Homemade mutant jerky made from the finest in the Zone."
 	list_reagents = list("nutriment" = 25, "vitamin" = 5, "omnizine" = 5, "sugar" = 3, "sodiumchloride" = 2)
@@ -524,13 +524,13 @@
 
 // PASHTET
 
-/obj/item/reagent_containers/food/snacks/pashtet/mutantmix
+/obj/item/food/pashtet/mutantmix
 	name = "homemade mutant pashtet"
 	desc = "Homemade mutant meat pashtet made from all different parts of several kinds of mutants."
 	list_reagents = list("nutriment" = 25, "vitamin" = 5, "omnizine" = 5, "sugar" = 3, "sodiumchloride" = 2)
 	junkiness = 0
 
-/obj/item/reagent_containers/food/snacks/pashtet/mutantmeatmix
+/obj/item/food/pashtet/mutantmeatmix
 	name = "homemade mutant pashtet"
 	desc = "Homemade mutant meat pashtet made from the finest in the Zone."
 	list_reagents = list("nutriment" = 35, "vitamin" = 5, "omnizine" = 5, "sugar" = 3, "sodiumchloride" = 2)

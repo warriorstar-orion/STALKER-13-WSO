@@ -491,6 +491,7 @@
 		C.music_juke.status = SOUND_STREAM
 
 /obj/machinery/party/turntable/proc/create_sound(client/C)
+	var/area/A = get_area(src)
 	if(!C.music_juke || C.music_juke.file != track.path)
 		var/sound/S = new/sound/ambient(track.path)
 		S.repeat = 0
@@ -499,7 +500,7 @@
 		S.wait = 0
 		S.volume = 0
 		S.status = SOUND_STREAM //SOUND_STREAM
-		S.environment = get_area(src).environment
+		S.environment = A.environment
 		C.music_juke = S
 		C.mob << S
 		//SEND_SOUND(C.mob, S)

@@ -67,7 +67,7 @@
 	..()
 	uniform = UNIFORMPICK
 	ears = null
-	l_pocket = pick(/obj/item/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/reagent_containers/food/snacks/stalker/baton,/obj/item/storage/firstaid/ai2)
+	l_pocket = pick(/obj/item/food/stalker/kolbasa,/obj/item/food/stalker/baton,/obj/item/storage/firstaid/ai2)
 	r_pocket = pick(/obj/item/flashlight/lantern,
 				/obj/item/flashlight/seclite,
 				/obj/item/flashlight,
@@ -109,7 +109,7 @@
 	r_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
-	l_pocket = pick(/obj/item/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/reagent_containers/food/snacks/stalker/baton)
+	l_pocket = pick(/obj/item/food/stalker/kolbasa,/obj/item/food/stalker/baton)
 
 /datum/outfit/job/monolith_hegumen/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()

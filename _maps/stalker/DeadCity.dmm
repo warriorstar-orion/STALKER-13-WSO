@@ -287,7 +287,7 @@
 /area/stalker/blowout/outdoor)
 "cG" = (
 /obj/effect/decal/cleanable/blood,
-/obj/item/reagent_containers/food/snacks/meat/slab/meatproduct,
+/obj/item/food/meat/slab/meatproduct,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plating/dirt/dark,
 /area/stalker/buildings/mercenary)
@@ -315,7 +315,7 @@
 "da" = (
 /obj/structure/stalker/cacheable/polka,
 /obj/structure/stalker/cacheable/polka,
-/obj/item/reagent_containers/food/snacks/stalker/kolbasa,
+/obj/item/food/stalker/kolbasa,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "dc" = (
@@ -732,7 +732,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "fR" = (
-/obj/item/reagent_containers/food/snacks/stalker/baton,
+/obj/item/food/stalker/baton,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "fS" = (
@@ -1334,7 +1334,7 @@
 /area/stalker/buildings/mercenary)
 "lb" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/item/reagent_containers/food/snacks/stalker/baton,
+/obj/item/food/stalker/baton,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "lc" = (
@@ -3430,7 +3430,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "Bh" = (
-/obj/item/reagent_containers/food/snacks/stalker/kolbasa,
+/obj/item/food/stalker/kolbasa,
 /turf/open/stalker/floor/wood/grey,
 /area/stalker/buildings/mercenary)
 "Bk" = (
@@ -4532,7 +4532,7 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "JL" = (
-/obj/item/reagent_containers/food/snacks/stalker/kolbasa,
+/obj/item/food/stalker/kolbasa,
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -4807,7 +4807,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Mp" = (
-/obj/item/reagent_containers/food/snacks/stalker/baton,
+/obj/item/food/stalker/baton,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/mercenary)
 "Mq" = (
@@ -5457,7 +5457,7 @@
 /turf/closed/wall/stalker/beton,
 /area/stalker/blowout/buildings)
 "QZ" = (
-/obj/item/reagent_containers/food/snacks/stalker/kolbasa,
+/obj/item/food/stalker/kolbasa,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "Ra" = (
@@ -5947,7 +5947,7 @@
 /area/stalker/blowout/buildings)
 "UO" = (
 /obj/structure/chair/brevno/log2,
-/obj/item/reagent_containers/food/snacks/stalker/kolbasa,
+/obj/item/food/stalker/kolbasa,
 /obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
@@ -5978,7 +5978,7 @@
 /area/stalker/blowout/outdoor)
 "UW" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/item/reagent_containers/food/snacks/stalker/kolbasa,
+/obj/item/food/stalker/kolbasa,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "UZ" = (
@@ -5990,7 +5990,7 @@
 /area/stalker/buildings/mercenary)
 "Ve" = (
 /obj/effect/decal/cleanable/blood,
-/obj/item/reagent_containers/food/snacks/meat/slab/meatproduct,
+/obj/item/food/meat/slab/meatproduct,
 /turf/open/floor/plating/dirt/dark,
 /area/stalker/buildings/mercenary)
 "Vh" = (

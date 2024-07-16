@@ -10,4 +10,4 @@
 	backpack_contents = null
 	back = null
 	l_pocket = null
-	r_pocket = /obj/item/reagent_containers/food/snacks/stalker/kolbasa
+	r_pocket = /obj/item/food/stalker/kolbasa
