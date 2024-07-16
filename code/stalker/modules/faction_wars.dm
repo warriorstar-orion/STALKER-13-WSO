@@ -24,7 +24,8 @@ GLOBAL_LIST_EMPTY(cps)
 
 /obj/machinery/stalker/sidorpoint/New()
 	..()
-	name = "SIDORPOINT ([get_area(src).name])"
+	var/area/A = get_area(src)
+	name = "SIDORPOINT ([A.name])"
 	GLOB.cps += src
 	outdoor_area = locate(text2path("/area/stalker/blowout/outdoor/backwater/[path_ending]"))
 	buildings_area = locate(text2path("/area/stalker/blowout/buildings/backwater/[path_ending]"))
@@ -42,6 +43,7 @@ GLOBAL_LIST_EMPTY(cps)
 		connected_sidormat.GetSidorPoint(src)
 
 /obj/machinery/stalker/sidorpoint/proc/update_desc()
+	. = ..()
 	if(controlled_by)
 
 		desc = "The point is under the control of the group [get_rus_faction(controlled_by)] on [control_percent]%"
@@ -115,21 +117,22 @@ GLOBAL_LIST_EMPTY(cps)
 	//if(sk.fields["faction_s"] == "Loners" || sk.fields["faction_s"] == "Bandits")
 	//	say("No access.")
 	//	return
+	var/area/A = get_area(src)
 
 	if(control_percent == 100 && controlled_by == sk.fields["faction_s"])
-		say("[get_area(src).name] is already captured!")
+		say("[A.name] is already captured!")
 		return
 
 	if(capturing_faction && capturing_faction == sk.fields["faction_s"])
-		say("[get_area(src).name] is already being captured!")
+		say("[A.name] is already being captured!")
 		return
 
 	if(!do_after(user, 10, 1, src))
 		return
 
 	capturing_faction = sk.fields["faction_s"]
-	add_lenta_message(null, "0", "Sidorovich", "Loners", "[capturing_faction] started capturing [get_area(src).name].")
-	say("[capturing_faction] started capturing [get_area(src).name]!")
+	add_lenta_message(null, "0", "Sidorovich", "Loners", "[capturing_faction] started capturing [A.name].")
+	say("[capturing_faction] started capturing [A.name]!")
 
 	return
 

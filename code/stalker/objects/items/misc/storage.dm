@@ -17,7 +17,7 @@
 	name = "backpack"
 	desc = "A regular tourist backpack that will provide you with inventory. Can hold 21 items."
 	icon_state = "backpack-tourist"
-	item_state = "backpack-tourist"
+	inhand_icon_state = "backpack-tourist"
 	w_class = WEIGHT_CLASS_HUGE
 	slot_flags = ITEM_SLOT_BACK
 
@@ -33,7 +33,7 @@
 	name = "civilian backpack"
 	desc = "A regular camping backpack popular among those who just arrived in the Zone. Can hold small amounts of items."
 	icon_state = "backpack-civilian"
-	item_state = "backpack-civilian"
+	inhand_icon_state = "backpack-civilian"
 
 /obj/item/storage/backpack/stalker/civilian/ComponentInitialize()
 	. = ..()
@@ -45,7 +45,7 @@
 	name = "tourist bag"
 	desc = "A tourist-targeted duffel bag with enough space to hold a few days of supplies.Can hold a bit more than civlian backpack."
 	icon_state = "backpack-tourist"
-	item_state = "backpack-tourist"
+	inhand_icon_state = "backpack-tourist"
 
 /obj/item/storage/backpack/stalker/tourist/ComponentInitialize()
 	. = ..()
@@ -57,7 +57,7 @@
 	name = "professional backpack"
 	desc = "A heavy-duty military surplus backpack. You can carry a small supply-room in this. Holds a serious amounts of items. Due to its bulkiness, slows the user down a bit."
 	icon_state = "backpack-professional"
-	item_state = "backpack-professional"
+	inhand_icon_state = "backpack-professional"
 	slowdown = 0.1
 
 /obj/item/storage/backpack/stalker/professional/ComponentInitialize()
@@ -70,7 +70,7 @@
 	name = "rucksack"
 	desc = "A practical bag for military use in harsh conditions. Due to no defined contours this bag is very useful for carrying just about anything. Can carry the largest volume out of all backpacks, but comes with slowing down the user substantially."
 	icon_state = "backpack-rucksack"
-	item_state = "backpack-rucksack"
+	inhand_icon_state = "backpack-rucksack"
 	slowdown = 0.3
 
 /obj/item/storage/backpack/stalker/rucksack/ComponentInitialize()
@@ -84,7 +84,7 @@
 /obj/item/storage/backpack/satchel/stalker
 	name = "satchel"
 	icon_state = "satchel"
-	item_state = "satchel"
+	inhand_icon_state = "satchel"
 	w_class = WEIGHT_CLASS_HUGE
 	slot_flags = ITEM_SLOT_BACK
 
@@ -100,7 +100,7 @@
 	name = "civilian satchel"
 	desc = "A small bag, used by messengers, lackeys and couriers. Very portable when compared to other bags."
 	icon_state = "satchel-civilian"
-	item_state = "satchel-civilian"
+	inhand_icon_state = "satchel-civilian"
 
 /obj/item/storage/backpack/satchel/stalker/ComponentInitialize()
 	. = ..()
@@ -112,7 +112,7 @@
 //	name = "backpack"
 //	desc = "You wear this on your back and put items into it."
 //	icon_state = "backpack-stalker"
-//	item_state = "backpack-stalker"
+//	inhand_icon_state = "backpack-stalker"
 //	w_class = WEIGHT_CLASS_HUGE
 //	slot_flags = ITEM_SLOT_BACK
 
@@ -128,7 +128,7 @@
 //	name = "duffelbag"
 //	desc = "You wear this over your back and put items into it."
 //	icon_state = "duffelbag-stalker"
-//	item_state = "duffelbag-stalker"
+//	inhand_icon_state = "duffelbag-stalker"
 //	w_class = WEIGHT_CLASS_HUGE
 //	slot_flags = ITEM_SLOT_BACK
 
@@ -144,7 +144,7 @@
 //	name = "rucksack"
 //	desc = "You wear this over your back and put items into it."
 //	icon_state = "backpack-rucksack"
-//	item_state = "backpack-rucksack"
+//	inhand_icon_state = "backpack-rucksack"
 //	w_class = WEIGHT_CLASS_HUGE
 //	slot_flags = ITEM_SLOT_BACK
 

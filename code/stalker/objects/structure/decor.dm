@@ -1379,7 +1379,7 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 /obj/structure/stalker/cacheable/Destroy()
 	. = ..()
 	GLOB.stalker_caches -= src
-	
+
 /obj/structure/stalker/cacheable/proc/RefreshContents()
 	if(ispath(internal_cache))
 		LoadComponent(internal_cache)
@@ -1414,7 +1414,9 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 		//internal_cache = null
 		return
 
-	if(get_area(src).controlled_by && get_area(src))
+	var/area/A = get_area(src)
+
+	if(A && A.controlled_by)
 		return
 
 	switch(cache_size)

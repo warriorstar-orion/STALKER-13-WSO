@@ -5,7 +5,7 @@
 	name = "BM-16"
 	desc = "The original BM16 rifle. Heavy and dangerous two barrel rifle, and it's effective in high range too."
 	icon_state = "bm16"
-	item_state = "bm16"
+	inhand_icon_state = "bm16"
 	w_class = 4
 	force = 15
 	flags_1 = CONDUCT_1
@@ -53,7 +53,7 @@
 	name = "TOZ-34"
 	desc = "This extremely common over-and-under hunting shotgun can offer better protection against mutants than a pistol, thanks to its accuracy and stopping power. Used mostly by rookies on the outskirts of the Zone."
 	icon_state = "toz34"
-	item_state = "toz34"
+	inhand_icon_state = "toz34"
 	recoil = 0.6
 	force = 15
 	durability = 150
@@ -71,7 +71,7 @@
 	name = "Ithaca M37"
 	desc = " Pump-action shotgun made in large numbers for the civilian, military, and police markets. It utilizes a novel combination ejection/loading port on the bottom of the gun which leaves the sides closed to the elements. Since shotshells load and eject from the bottom, operation of the gun is equally convenient for both right and left hand shooters. This makes the gun popular with left-handed shooters. The model 37 is considered one of the most durable and reliable shotguns ever produced."
 	icon_state = "ithacam37"
-	item_state = "ithacam37"
+	inhand_icon_state = "ithacam37"
 	durability = 100
 	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/stalker/ithaca
@@ -94,7 +94,7 @@
 	name = "Chaser-13"
 	desc = "A Western smoothbore shotgun that is extremely popular around the world thanks to its amazing reliability and faster reloading speed. Particularly valued for its functionality by the Zone's hunters. All of its parts are coated with an anticorrosion compound."
 	icon_state = "chaser"
-	item_state = "chaser"
+	inhand_icon_state = "chaser"
 	durability = 100
 	slot_flags = ITEM_SLOT_BELT|ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/chaser
@@ -117,7 +117,7 @@
 	desc = "A sawed-off hunting shotgun with two side-by-side barrels, making it lighter and more compact than a full shotgun. One of the most popular weapons among bandits due to its combination of ease of concealment and extreme effectiveness in close combat."
 	sawn_off = TRUE
 	weapon_weight = WEAPON_LIGHT
-	item_state = "gun"
+	inhand_icon_state = "gun"
 	slot_flags = ITEM_SLOT_BELT|ITEM_SLOT_BACK
 	w_class = 3
 	durability = 75
@@ -135,7 +135,7 @@
 	name = "SPAS-12"
 	desc = "This special purpose smoothbore automatic shotgun was designed in the second half of the 20th century and comes with pump-action and self-cocking firing modes. Used as an all-purpose weapon by the police and assault troops. Notable for its reliability and tactical flexibility. Despite its large weight, complex mechanism and considerable cost it is in demand in the Zone due to its effectiveness against mutants."
 	icon_state = "spsa"	//Нужно добавить
-	item_state = "spsa" //Нужно добавить
+	inhand_icon_state = "spsa" //Нужно добавить
 	durability = 150
 	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/spsa
@@ -159,7 +159,7 @@
 	name = "Lee Enfield"
 	desc = "A heavy and versatile rifle, rechambered in the powerful 7.62x51mm cartridge."
 	icon_state = "enfield"
-	item_state = "enfield"
+	inhand_icon_state = "enfield"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/enfield
@@ -180,7 +180,7 @@
 	name = "mosin-nagant"
 	desc = "A heavy and versatile rifle which has served the Soviet Union for over a century, chambered in 7.62×54mm cartridge."
 	icon_state = "mosin"
-	item_state = "mosin"
+	inhand_icon_state = "mosin"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
@@ -201,7 +201,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	name = "mosin-nagant sawnoff"
 	desc = "Possibly one of the worst engineering ideas ever to stumble into someone's head. If you manage to kill someone with this (except yourself), then you're beyond robust."
 	icon_state = "mosin-obrez"
-	item_state = "mosin-obrez"
+	inhand_icon_state = "mosin-obrez"
 	durability = 160
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
 	recoil = 6
@@ -220,7 +220,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	name = "arisaka"
 	desc = "A versatile bolt-action service rifle that was used by the Empire of Japan predominantly during the Second Sino-Japanese War and Second World War."
 	icon_state = "arisaka"
-	item_state = "rifle"
+	inhand_icon_state = "rifle"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
@@ -241,7 +241,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	name = "karabiner 98K"
 	desc = "A versatile bolt-action service rifle that was used by Germany predominantly during the Second World War."
 	icon_state = "karabiner"
-	item_state = "rifle"
+	inhand_icon_state = "rifle"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
@@ -262,7 +262,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	name = "M1903 springfield"
 	desc = "The M1903 Springfield, officially the United States Rifle, Caliber .30-06, Model 1903, is an American five-round magazine-fed, bolt-action service repeating rifle, used primarily during the first half of the 20th century. The M1903 was first used in combat during the Philippine American War, and it was officially adopted by the United States as the standard infantry rifle on June 19, 1903, where it saw service in World War I, and was replaced by the faster-firing semi-automatic eight-round M1 Garand starting in 1936."
 	icon_state = "springfield"
-	item_state = "rifle"
+	inhand_icon_state = "rifle"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
@@ -283,7 +283,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	name = "makeshift bolt action rifle"
 	desc = "A cobbled together bolt action rifle made out of junk. Maybe this wasn't such a good idea..."
 	icon_state = "makeshiftbolt"
-	item_state = "rifle"
+	inhand_icon_state = "rifle"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
@@ -310,7 +310,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	name = "AWSM"
 	desc = "A heavy and versatile rifle, rechambered in the massive .338 Lapua cartridge. One of the most formidable weapons in the zone."
 	icon_state = "awp"//temp??? shut cho bitchass up figass
-	item_state = "awp"
+	inhand_icon_state = "awp"
 	durability = 50//Heavily increases chance of jamming or explosion of round in chamber. Required due to power of rifle.
 	slot_flags = ITEM_SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/awp

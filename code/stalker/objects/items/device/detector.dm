@@ -6,7 +6,7 @@
 	var/icon_state_inactive = "echo_off"
 	var/icon_state_active = "echo_on"
 	var/icon_state_null = "echo_null"
-	item_state = "electronic"
+	inhand_icon_state = "electronic"
 	w_class = 1
 	var/atom/target = null
 	var/min_dist = 8

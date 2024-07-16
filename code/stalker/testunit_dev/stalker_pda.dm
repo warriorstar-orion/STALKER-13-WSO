@@ -6,7 +6,7 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 	desc = "A portable device, used to communicate with other stalkers."
 	icon = 'stalker/icons/device_new.dmi'
 	icon_state = "kpk_off"
-	item_state = "kpk"
+	inhand_icon_state = "kpk"
 	w_class = 1
 
 	var/mode = 1

@@ -30,7 +30,7 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	phantom = null
 
 /obj/item/artifact/proc/Think(mob/user)
-	if(!charge) 
+	if(!charge)
 		return 0
 	if(istype(user, /mob/living/carbon))
 		var/mob/living/carbon/mob = user
@@ -255,7 +255,7 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	desc = "Specialised belt that can only house artifacts from the zone. The belt applies the effects on the user directly. Works only if its equipped on the belt."
 	icon = 'icons/obj/clothing/belts.dmi'
 	icon_state = "artifactbelt"
-	item_state = "utility"
+	inhand_icon_state = "utility"
 
 /obj/item/storage/belt/stalker/ComponentInitialize()
 	. = ..()
@@ -271,7 +271,7 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	desc = "Specialised belt that can only house artifacts from the zone, a more compact version of the regular artifact belt. The belt applies the effects on the user directly. Works only if its equipped on the belt."
 	icon = 'icons/obj/clothing/belts.dmi'
 	icon_state = "artifactbeltsmall"
-	item_state = "artifacts"
+	inhand_icon_state = "artifacts"
 
 /obj/item/storage/belt/stalker/artifact_belt/small/ComponentInitialize()
 	. = ..()

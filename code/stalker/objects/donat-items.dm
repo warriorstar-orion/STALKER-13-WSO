@@ -12,7 +12,7 @@
 	name = "strange jacket"
 	desc = "The tight leather jacket has quite interesting coloring. The fabric is reinforced with very light Kevlar plates, which provides slightly increased protection, but does not slow down the wearer. Ineffective against anomalies and radiation."
 	icon_state = "kozhanka_mono_wh"
-	item_state = "labcoat"
+	inhand_icon_state = "labcoat"
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/kozhanka_wh/monolith
 	armor = list(melee = 15, bullet = 15, laser = 15,burn = 15, bomb = 0, bio = 15, rad = 0, electro = 15)
 

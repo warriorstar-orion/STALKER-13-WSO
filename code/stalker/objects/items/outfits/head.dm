@@ -12,7 +12,7 @@
 	name = "Steel Helmet"
 	desc = "A desperately outdated steel army helmet without any additions. Provides no protection against anomalies or radiation, but can deflect bullets. This helmet was never particularly popular in the Zone, except for use in brief armed conflicts between factions."
 	icon_state = "steelhelmet"
-	item_state = "steelhelmet"
+	inhand_icon_state = "steelhelmet"
 	slowdown = 0.15
 	armor = list("melee" = 25, "bullet" = 30, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "psy" = 10)
 	flags_inv = HIDEHAIR
@@ -25,7 +25,7 @@
 	name = "SSH-68"
 	desc = "The SSh-68 replaced the general-army SSh-60 helmet. It differs from its predecessor in greater durability, a large inclination of the front part and short side boards."
 	icon_state = "ssh-68"
-	item_state = "ssh-68"
+	inhand_icon_state = "ssh-68"
 	slowdown = 0.025
 	armor = list("melee" = 25, "bullet" = 35, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "psy" = 10)
 	flags_inv = HIDEHAIR
@@ -38,7 +38,7 @@
 	name = "TSH-4M"
 	desc = "This helmet is designed to provide two-way radiotelephone communication in objects with a high level of noise, to protect it from climatic factors and from impacts on structural elements of objects. It has poor protection for the zone's needs, but is very warm."
 	icon_state = "TSH-4M"
-	item_state = "TSH-4M"
+	inhand_icon_state = "TSH-4M"
 	gas_transfer_coefficient = 0.01
 	permeability_coefficient = 0.01
 	slowdown = 0.025
@@ -68,7 +68,7 @@
 	name = "Tactical helmet"
 	desc = "French SPECTRA tactical helmet that lacks camouflage. It is not known how it made its way into the Zone. The helmet is designed to provide a squad leader with strategic superiority over the enemy via its many scanners and satellite communications devices, which have not been installed in this particular helmet. Comes with multi-layered Kevlar protection and armored elements to protect electronic components. Includes a respirator and a nightvision device."
 	icon_state = "hardhat0_tactical"
-	item_state = "hardhat0_tactical"
+	inhand_icon_state = "hardhat0_tactical"
 	item_color = "tactical"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
 	dynamic_hair_suffix = ""
@@ -87,7 +87,7 @@
 	name = "Light tactical helmet"
 	desc = "A British MK VI model of a tactical helmet that lacks camouflage. It is not known how it made its way into the Zone. Comes with multi-layered Kevlar protection and armored elements to protect electronic components."
 	icon_state = "hardhat0_lighttactical"
-	item_state = "hardhat0_lighttactical"
+	inhand_icon_state = "hardhat0_lighttactical"
 	item_color = "lighttactical"
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR
 	dynamic_hair_suffix = ""
@@ -107,7 +107,7 @@
 	name = "Guardian of Freedom helmet"
 	desc = "A British MK VI model of a tactical helmet modified by the Freedom faction. It is not known how it made its way into the Zone. Comes with multi-layered Kevlar protection and armored elements to protect electronic components."
 	icon_state = "hardhat0_gof"
-	item_state = "hardhat0_gof"
+	inhand_icon_state = "hardhat0_gof"
 	item_color = "gof"
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR
 	dynamic_hair_suffix = ""
@@ -127,7 +127,7 @@
 	name = "Mercenary helmet"
 	desc = "Schutzhelm 04 made in Switzerland used by the Mercenaries of the Dead City. A high quality model worn mostly by mercenaries. Provides a dependable protection."
 	icon_state = "assaultmerc"
-	item_state = "assaultmerc"
+	inhand_icon_state = "assaultmerc"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
 	dynamic_hair_suffix = ""
 	slowdown = 0.25
@@ -141,7 +141,7 @@
 	name = "cap"
 	desc = "Put a fucking bullet in his forehead!"
 	icon_state = "gopcap"
-	item_state = "gopcap"
+	inhand_icon_state = "gopcap"
 	flags_inv = HIDEHAIR
 
 /obj/item/clothing/head/soft/jacknoircap
@@ -149,7 +149,7 @@
 	desc = "Who knows how the British made it to Chernobyl?"
 	icon_state = "jacknoirsoft"
 	item_color = "jacknoir"
-	item_state = "greysoft"
+	inhand_icon_state = "greysoft"
 
 /obj/item/clothing/head/spheram
 	name = "Sphera M12"
@@ -221,7 +221,7 @@
 	name = "MASKA-1 SCH Helmet"
 	desc = "The Maska 1 helmet was in use by the Russian MVD until being largely replaced by the aluminum ZSh-1-2. Now it is more commonly seen being worn by Clear Sky stalkers."
 	icon_state = "maska_1"
-	item_state = "maska_1"
+	inhand_icon_state = "maska_1"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
 	dynamic_hair_suffix = ""
 	slowdown = 0.12
@@ -235,7 +235,7 @@
 	name = "gas mask"
 	desc = "A regular plastic and rubber gas mask, used for filtering air for radioactive particles and poisonous substances. Widely used by rookies and veterans of all factions due to its universal functionality. Does not provide any physical protection."
 	icon_state = "gasmasknew"
-	item_state = "gasmasknew"
+	inhand_icon_state = "gasmasknew"
 	gas_transfer_coefficient = 0.01
 	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
@@ -250,7 +250,7 @@
 	name = "gp-4 gas mask"
 	desc = "The Soviet GP-4 is another mask in the Soviet GP series. It was made to be issued to civilians due to the rising panic about the Cold War. This model is extremely common in the Zone and is favored by many stalkers due to its relative reliability and light weight."
 	icon_state = "gp4"
-	item_state = "gp4"
+	inhand_icon_state = "gp4"
 	gas_transfer_coefficient = 0.01
 	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
@@ -265,7 +265,7 @@
 	name = "gp-5 gas mask"
 	desc = "Similar to the GP-4, this mask incudes an ShM-62 filter. Unforunately, this filter is dosed with asbestos and the casing is known to degrade lead into the filter. If it's your only option, look for a filter using activated charcoal."
 	icon_state = "gp5"
-	item_state = "gp5"
+	inhand_icon_state = "gp5"
 	gas_transfer_coefficient = 0.01
 	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
@@ -280,7 +280,7 @@
 	name = "gas mask"
 	desc = "A western plastic and rubber gas mask, filters out air from radioactive particles and poisonous substances. Used by mercenaries by standard. Does not provide any physical protection whatsoever."
 	icon_state = "mercenary_gasmask"
-	item_state = "mercenary_gasmask"
+	inhand_icon_state = "mercenary_gasmask"
 	gas_transfer_coefficient = 0.01
 	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
@@ -294,7 +294,7 @@
 	name = "respirator"
 	desc = "A very old and outdated respiration that still functions somehow. Can provide basic protection, but wont do wonders. Its better than nothing"
 	icon_state = "respirator"
-	item_state = "respirator"
+	inhand_icon_state = "respirator"
 	gas_transfer_coefficient = 0.01
 	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
@@ -308,7 +308,7 @@
 	name = "Bucket Helmet"
 	desc = "A bucket with two holes to see through. Protects the head from impacts at the cost of looking like an idiot. Come to think of it, maybe this is not the best choice for protection."
 	icon_state = "bucket_helmet"
-	item_state = "bucket_helmet"
+	inhand_icon_state = "bucket_helmet"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
 	armor = list("melee" = 15, "bullet" = 1, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "psy" = 10)
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
@@ -319,7 +319,7 @@
 	name = "renegade ballistic mask"
 	desc = "A mask of lightweight but durable material that gives you a chance to survive a stray bullet to the face. It has two non-bullet holes. The mask looks intimidating, and very solid."
 	icon_state = "renegade_mask"
-	item_state = "renegade_mask"
+	inhand_icon_state = "renegade_mask"
 	gas_transfer_coefficient = 0.01
 	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
