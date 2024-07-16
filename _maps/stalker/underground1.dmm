@@ -142,9 +142,9 @@
 /area/stalker/rostok/bar)
 "aC" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/weapon/gun/projectile/automatic/ak74,
-/obj/item/weapon/gun/projectile/automatic/ak74,
-/obj/item/weapon/gun/projectile/automatic/ak74,
+/obj/item/gun/automatic/ak74,
+/obj/item/gun/automatic/ak74,
+/obj/item/gun/automatic/ak74,
 /turf/stalker/floor/plasteel/plitka,
 /area/stalker/rostok/bar)
 "aD" = (
@@ -926,7 +926,7 @@
 /area/stalker/sidor)
 "cc" = (
 /obj/structure/table,
-/obj/item/weapon/gun/projectile/automatic/ak74,
+/obj/item/gun/automatic/ak74,
 /obj/structure/table/stalker/steeltable,
 /obj/machinery/light{
 	tag = "icon-tube1 (EAST)";
@@ -1064,7 +1064,7 @@
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/rostok/bar)
 "cv" = (
-/obj/item/weapon/gun/projectile/automatic/vintorez,
+/obj/item/gun/automatic/vintorez,
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/rostok/bar)
 "cw" = (
@@ -1779,7 +1779,7 @@
 /turf/indestructible/rock,
 /area/stalker/cordon/tunnel)
 "dU" = (
-/obj/effect/spawner/lootdrop/stalker/mobspawner/bloodsucker_spawner,
+/obj/effect/spawner/random/stalker/mobspawner/bloodsucker_spawner,
 /turf/stalker/floor/gryaz,
 /area/stalker/agroprom/caves)
 "dV" = (
@@ -1808,7 +1808,7 @@
 /turf/stalker/floor/tropa,
 /area/stalker/cordon/tunnel)
 "ea" = (
-/obj/effect/spawner/lootdrop/stalker/mobspawner/bloodsucker_spawner,
+/obj/effect/spawner/random/stalker/mobspawner/bloodsucker_spawner,
 /turf/stalker/floor/agroprom/gryaz,
 /area/stalker/agroprom/caves)
 "eb" = (
@@ -1824,7 +1824,7 @@
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/cordon/buildings)
 "ee" = (
-/obj/effect/spawner/lootdrop/stalker/mobspawner/bloodsucker_spawner,
+/obj/effect/spawner/random/stalker/mobspawner/bloodsucker_spawner,
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "ef" = (
@@ -1990,7 +1990,7 @@
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "eB" = (
-/obj/effect/spawner/lootdrop/stalker/mobspawner/snork_spawner,
+/obj/effect/spawner/random/stalker/mobspawner/snork_spawner,
 /turf/stalker/floor/gryaz,
 /area/stalker/agroprom/caves)
 "eC" = (
@@ -2429,7 +2429,7 @@
 /turf/stalker/floor/agroprom/gryaz,
 /area/stalker/agroprom/caves)
 "fE" = (
-/obj/effect/spawner/lootdrop/stalker/mobspawner/snork_spawner,
+/obj/effect/spawner/random/stalker/mobspawner/snork_spawner,
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "fF" = (
@@ -2600,7 +2600,7 @@
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "gf" = (
-/obj/effect/spawner/lootdrop/stalker/mobspawner/snork_spawner,
+/obj/effect/spawner/random/stalker/mobspawner/snork_spawner,
 /turf/stalker/floor/agroprom/gryaz,
 /area/stalker/agroprom/caves)
 "gg" = (
@@ -4541,7 +4541,7 @@
 /area/stalker/cordon/buildings)
 "lk" = (
 /obj/structure/table/stalker/wood,
-/obj/item/weapon/gun/projectile/revolver/bm16/toz34,
+/obj/item/gun/revolver/bm16/toz34,
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/cordon/buildings)
 "ll" = (
@@ -4639,7 +4639,7 @@
 /area/stalker/agroprom/warehouses)
 "ly" = (
 /obj/structure/bed/chair/stalker/divan/divan2,
-/obj/effect/spawner/lootdrop/stalker/junk,
+/obj/effect/spawner/random/stalker/junk,
 /turf/stalker/floor/plasteel/plitochkared,
 /area/stalker/agroprom/warehouses)
 "lz" = (
@@ -4903,8 +4903,8 @@
 /area/stalker/agroprom/warehouses)
 "mj" = (
 /obj/structure/table,
-/obj/item/weapon/gun/projectile/shotgun/chaser,
-/obj/item/weapon/gun/projectile/shotgun/chaser,
+/obj/item/gun/shotgun/chaser,
+/obj/item/gun/shotgun/chaser,
 /obj/structure/table/stalker/steeltable,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/sidor)
@@ -5040,7 +5040,7 @@
 /area/stalker/cordon/buildings)
 "ms" = (
 /obj/structure/table,
-/obj/item/weapon/gun/projectile/automatic/pistol/fort12/unique,
+/obj/item/gun/automatic/pistol/fort12/unique,
 /obj/structure/table/stalker/steeltable,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/sidor)
@@ -5196,7 +5196,7 @@
 /area/stalker/blowout/agroprom/buildings)
 "mK" = (
 /obj/structure/table/stalker/wood,
-/obj/item/weapon/gun/projectile/automatic/mp5,
+/obj/item/gun/automatic/mp5,
 /obj/item/ammo_box/magazine/stalker/m9x19mp5,
 /turf/stalker/floor/plasteel/plita,
 /area/stalker/buildings)
@@ -5227,7 +5227,7 @@
 /area/stalker/buildings)
 "mQ" = (
 /obj/structure/table/stalker/wood,
-/obj/item/weapon/gun/projectile/automatic/aksu74,
+/obj/item/gun/automatic/aksu74,
 /turf/stalker/floor/plasteel/plita,
 /area/stalker/buildings)
 "mR" = (
@@ -5785,7 +5785,7 @@
 /area/stalker/cordon/buildings)
 "ou" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/lootdrop/stalker/pornmag,
+/obj/effect/spawner/random/stalker/pornmag,
 /obj/structure/stalker/lampa_small{
 	pixel_x = 7;
 	pixel_y = 14

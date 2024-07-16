@@ -8458,7 +8458,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "aEe" = (
-/obj/effect/spawner/lootdrop/stalker/food,
+/obj/effect/spawner/random/stalker/food,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/kordon/buildings)
 "aEf" = (
@@ -8701,7 +8701,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/kordon/buildings)
 "aEX" = (
-/obj/effect/spawner/lootdrop/stalker/medicine,
+/obj/effect/spawner/random/stalker/medicine,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/kordon/buildings)
 "aEY" = (
@@ -11608,7 +11608,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/kordon/buildings)
 "aNN" = (
-/obj/effect/spawner/lootdrop/khabar_low,
+/obj/effect/spawner/random/khabar_low,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/kordon/buildings)
 "aNO" = (
@@ -16833,7 +16833,7 @@
 /obj/structure/closet/stalker/shkaf,
 /obj/item/flashlight/seclite,
 /obj/item/gun/ballistic/automatic/pistol/sip,
-/obj/effect/spawner/lootdrop/stalker/food,
+/obj/effect/spawner/random/stalker/food,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor)
 "bdG" = (

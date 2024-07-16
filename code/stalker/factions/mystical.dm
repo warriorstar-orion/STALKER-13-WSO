@@ -76,6 +76,6 @@
 	back = /obj/item/weapon/storage/backpack/stalker
 	backpack_contents = list(/obj/item/stack/spacecash/c1000 = 1, /obj/item/ammo_box/magazine/stalker/m9x18pm = 2)
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/stack/medical/gauze/bint,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
-	r_pocket = /obj/item/weapon/gun/projectile/automatic/pistol/pm
+	r_pocket = /obj/item/gun/automatic/pistol/pm
 
 */

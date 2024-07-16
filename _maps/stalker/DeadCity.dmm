@@ -27,7 +27,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "ai" = (
-/obj/structure/flora/ausbushes/reedbush,
+/obj/structure/flora/bush/reed/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "aj" = (
@@ -77,7 +77,7 @@
 /area/stalker/blowout/buildings)
 "aA" = (
 /obj/rad/rad_medium,
-/obj/effect/spawner/lootdrop/stalker/junk,
+/obj/effect/spawner/random/stalker/junk,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "aC" = (
@@ -91,8 +91,8 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "aM" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "aP" = (
@@ -146,8 +146,8 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/mercenary)
 "bj" = (
-/obj/structure/flora/ausbushes/leafybush,
-/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/bush/leavy/style_random,
+/obj/structure/flora/bush/leavy/style_random,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -177,9 +177,9 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "bF" = (
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
+/obj/structure/flora/bush/grassy/style_random,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "bL" = (
@@ -193,7 +193,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/mercenary)
 "bT" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /obj/rad/rad_low,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/digable/gryaz_rocky,
@@ -203,12 +203,12 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/mercenary)
 "bV" = (
-/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/flora/bush/sunny/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "bX" = (
 /obj/rad/rad_medium,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "bY" = (
@@ -305,7 +305,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "cU" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)
 "cZ" = (
@@ -448,7 +448,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "dT" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/awaymission)
 "ea" = (
@@ -556,7 +556,7 @@
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/buildings/backwater/skadovsk)
 "eQ" = (
-/obj/effect/spawner/lootdrop/stalker/junk,
+/obj/effect/spawner/random/stalker/junk,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "eT" = (
@@ -683,7 +683,7 @@
 /area/stalker/blowout/buildings)
 "fy" = (
 /obj/rad/rad_low,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "fz" = (
@@ -768,7 +768,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "gk" = (
-/obj/effect/spawner/lootdrop/stalker/junk,
+/obj/effect/spawner/random/stalker/junk,
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
 	},
@@ -934,7 +934,7 @@
 /turf/open/floor/plasteel/stairs/medium/stalker,
 /area/stalker/blowout/outdoor)
 "hK" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/rad/rad_medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -965,7 +965,7 @@
 	},
 /area/stalker/blowout/buildings)
 "hV" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/fence,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -1055,7 +1055,7 @@
 /area/stalker/blowout/buildings)
 "iI" = (
 /obj/rad/rad_low,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "iJ" = (
@@ -1068,7 +1068,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "iP" = (
-/obj/effect/spawner/lootdrop/stalker/weapon/rareboltaction,
+/obj/effect/spawner/random/stalker/weapon/rareboltaction,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "iQ" = (
@@ -1121,7 +1121,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/mercenary)
 "jl" = (
-/obj/effect/spawner/lootdrop/stalker/weapon/rarepistols,
+/obj/effect/spawner/random/stalker/weapon/rarepistols,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "jm" = (
@@ -1525,12 +1525,12 @@
 /turf/closed/wall/stalker/store,
 /area/stalker/blowout/buildings)
 "mk" = (
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ml" = (
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
 "mu" = (
@@ -1583,7 +1583,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "mO" = (
-/obj/effect/spawner/lootdrop/stalker/weapon/rarepistols,
+/obj/effect/spawner/random/stalker/weapon/rarepistols,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/buildings)
 "mQ" = (
@@ -1984,7 +1984,7 @@
 	},
 /area/stalker/blowout/buildings)
 "pT" = (
-/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/bush/leavy/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "pU" = (
@@ -1992,7 +1992,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "pV" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -2121,8 +2121,8 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "qV" = (
-/obj/structure/flora/ausbushes/grassybush,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "qX" = (
@@ -2207,7 +2207,7 @@
 	icon_state = "4,4"
 	},
 /obj/rad/rad_medium,
-/obj/effect/spawner/lootdrop/stalker/junk,
+/obj/effect/spawner/random/stalker/junk,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "rM" = (
@@ -2228,7 +2228,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "rU" = (
-/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/flora/bush/sunny/style_random,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -2341,7 +2341,7 @@
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)
 "sN" = (
-/obj/effect/spawner/lootdrop/stalker/weapon/rarerifles,
+/obj/effect/spawner/random/stalker/weapon/rarerifles,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "sO" = (
@@ -2447,7 +2447,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "tx" = (
-/obj/effect/spawner/lootdrop/stalker/weapon/rifles_and_shotgunstier4,
+/obj/effect/spawner/random/stalker/weapon/rifles_and_shotgunstier4,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "ty" = (
@@ -2619,7 +2619,7 @@
 	},
 /area/stalker/blowout/outdoor)
 "uP" = (
-/obj/effect/spawner/lootdrop/stalker/brokedevice,
+/obj/effect/spawner/random/stalker/brokedevice,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "uR" = (
@@ -2735,7 +2735,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "vy" = (
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "vA" = (
@@ -2819,7 +2819,7 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "ws" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/flora/rock,
 /obj/rad/rad_low,
 /obj/rad/rad_medium,
@@ -2862,7 +2862,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "wN" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -2947,7 +2947,7 @@
 	},
 /obj/structure/stalker/cacheable/shina3,
 /obj/rad/rad_medium,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "xB" = (
@@ -2973,7 +2973,7 @@
 /area/stalker/buildings/mercenary)
 "xN" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/effect/spawner/lootdrop/stalker/rarefirearms,
+/obj/effect/spawner/random/stalker/rarefirearms,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "xR" = (
@@ -3069,7 +3069,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "yx" = (
-/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/flora/bush/stalky/style_random,
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)
 "yz" = (
@@ -3150,7 +3150,7 @@
 /area/stalker/blowout/buildings)
 "yY" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/effect/spawner/lootdrop/stalker/rarefirearms,
+/obj/effect/spawner/random/stalker/rarefirearms,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "yZ" = (
@@ -3231,7 +3231,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "zE" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/rad/rad_low,
 /obj/rad/rad_medium,
 /turf/open/stalker/floor/digable/grass/dump,
@@ -3267,15 +3267,15 @@
 /area/stalker/buildings/mercenary)
 "zT" = (
 /obj/anomaly/electro,
-/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/flora/bush/stalky/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "zX" = (
-/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/bush/leavy/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "zY" = (
-/obj/effect/spawner/lootdrop/stalker/rarefirearms,
+/obj/effect/spawner/random/stalker/rarefirearms,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "Ab" = (
@@ -3450,7 +3450,7 @@
 /area/stalker/blowout/outdoor)
 "Bo" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/lootdrop/stalker/weapon/rarerifles,
+/obj/effect/spawner/random/stalker/weapon/rarerifles,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "Bp" = (
@@ -3522,7 +3522,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/mercenary)
 "BK" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
@@ -3580,11 +3580,11 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Cn" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Cv" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Cy" = (
@@ -3779,7 +3779,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
 "DQ" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/closed/indestructible/rock,
 /area/stalker/blowout/outdoor)
 "DT" = (
@@ -3814,7 +3814,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "Ec" = (
-/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/flora/bush/ferny/style_random,
 /obj/anomaly/karusel,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -3888,7 +3888,7 @@
 	},
 /area/stalker/blowout/buildings)
 "EP" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "EQ" = (
@@ -3931,7 +3931,7 @@
 /area/stalker/blowout/outdoor)
 "Ff" = (
 /obj/structure/flora/tree/jungle,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Fm" = (
@@ -3952,7 +3952,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Fq" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Fu" = (
@@ -4076,7 +4076,7 @@
 /area/stalker/buildings/mercenary)
 "Gu" = (
 /obj/rad/rad_medium,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
 	},
@@ -4089,7 +4089,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "Gx" = (
-/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/bush/leavy/style_random,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -4132,7 +4132,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "GR" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/fence{
 	dir = 4
 	},
@@ -4208,7 +4208,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "Hp" = (
-/obj/effect/spawner/lootdrop/stalker/cigs_trash,
+/obj/effect/spawner/random/stalker/cigs_trash,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Hr" = (
@@ -4533,11 +4533,11 @@
 /area/stalker/blowout/buildings)
 "JL" = (
 /obj/item/food/stalker/kolbasa,
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "JM" = (
-/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/flora/bush/ferny/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "JN" = (
@@ -4800,7 +4800,7 @@
 "Ml" = (
 /obj/machinery/light,
 /obj/structure/closet/stalker/shkaf,
-/obj/effect/spawner/lootdrop/stalker/rarefirearms,
+/obj/effect/spawner/random/stalker/rarefirearms,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "Mm" = (
@@ -4877,7 +4877,7 @@
 /area/stalker/blowout/outdoor)
 "MM" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/lootdrop/stalker/books,
+/obj/effect/spawner/random/stalker/books,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "MN" = (
@@ -4961,7 +4961,7 @@
 	},
 /area/stalker/blowout/buildings)
 "Nr" = (
-/obj/effect/spawner/lootdrop/stalker/rarefirearms,
+/obj/effect/spawner/random/stalker/rarefirearms,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "Ns" = (
@@ -5025,7 +5025,7 @@
 /area/stalker/blowout/outdoor)
 "NR" = (
 /obj/rad/rad_low,
-/obj/effect/spawner/lootdrop/stalker/rarefirearms,
+/obj/effect/spawner/random/stalker/rarefirearms,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "NU" = (
@@ -5097,7 +5097,7 @@
 /area/stalker/blowout/outdoor)
 "Oq" = (
 /obj/structure/stalker/tree,
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/barricade/stalker/box,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -5279,7 +5279,7 @@
 /area/stalker/blowout/buildings)
 "Px" = (
 /obj/structure/flora/tree/jungle,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Pz" = (
@@ -5310,7 +5310,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "PO" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /obj/rad/rad_low,
 /obj/rad/rad_low,
 /obj/rad/rad_low,
@@ -5428,7 +5428,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "QN" = (
-/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/bush/leavy/style_random,
 /obj/anomaly/karusel,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -5453,7 +5453,7 @@
 /area/stalker/blowout/outdoor)
 "QY" = (
 /obj/rad/rad_low,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/closed/wall/stalker/beton,
 /area/stalker/blowout/buildings)
 "QZ" = (
@@ -5710,7 +5710,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "SL" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -5866,7 +5866,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "TZ" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Ud" = (
@@ -6050,7 +6050,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/mercenary)
 "VA" = (
-/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/flora/bush/stalky/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "VB" = (
@@ -6169,8 +6169,8 @@
 /area/stalker/blowout/outdoor)
 "Wv" = (
 /obj/rad/rad_low,
-/obj/effect/spawner/lootdrop/stalker/rarefirearms,
-/obj/effect/spawner/lootdrop/stalker/rarefirearms,
+/obj/effect/spawner/random/stalker/rarefirearms,
+/obj/effect/spawner/random/stalker/rarefirearms,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "Ww" = (
@@ -6182,7 +6182,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "WB" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
@@ -6191,12 +6191,12 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "WF" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/rad/rad_low,
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/blowout/buildings)
 "WG" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "WL" = (
@@ -6209,11 +6209,11 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "WO" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "WP" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
 "WR" = (
@@ -6394,7 +6394,7 @@
 /area/stalker/blowout/outdoor)
 "Yt" = (
 /obj/structure/stalker/tree,
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Yy" = (
@@ -6453,7 +6453,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "YN" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
 	},
@@ -6468,7 +6468,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "YV" = (
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Za" = (
@@ -6522,11 +6522,11 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Zw" = (
-/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "Zz" = (
-/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/bush/leavy/style_random,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -6568,7 +6568,7 @@
 /area/stalker/blowout/outdoor)
 "ZK" = (
 /obj/rad/rad_low,
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "ZL" = (
@@ -6587,11 +6587,11 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ZO" = (
-/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "ZQ" = (
-/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/flora/bush/ferny/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "ZS" = (

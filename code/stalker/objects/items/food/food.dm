@@ -8,7 +8,7 @@
 	icon_state = "konserva"
 	w_class = 2
 	wrapped = 1
-	trash = /obj/item/trash/konserva
+	trash_type = /obj/item/trash/konserva
 	list_reagents = list("nutriment" = 13, "vitamin" = 2, "omnizine" = 0.5)
 	icon = 'icons/stalker/food.dmi'
 	var/icon_state_opened = "konserva_open"
@@ -43,7 +43,7 @@
 	icon_state = "shproti0"
 	icon_state_opened = "shproti1"
 	list_reagents = list("nutriment" = 17, "vitamin" = 3, "omnizine" = 0.75)
-	trash = /obj/item/trash/konserva/shproti
+	trash_type = /obj/item/trash/konserva/shproti
 	desc_opened = "European sprats originating from the Latvian port-city of Riga. They've been preserved in a thick sunflower oil. This one is opened."
 	tastes = list("oily, salted fish" = 1)
 
@@ -58,7 +58,7 @@
 	icon_state = "soup0"
 	icon_state_opened = "soup1"
 	list_reagents = list("nutriment" = 20, "vitamin" = 4, "omnizine" = 1)
-	trash = /obj/item/trash/konserva/soup
+	trash_type = /obj/item/trash/konserva/soup
 	desc_opened = "Condensed soup that usually would be thinned with water. A staple of tourists within the zone. This one is opened."
 	tastes = list("dry beets and sausage" = 1)
 
@@ -72,7 +72,7 @@
 	icon_state = "bobi0"
 	icon_state_opened = "bobi1"
 	list_reagents = list("nutriment" = 17, "vitamin" = 3, "omnizine" = 0.75)
-	trash = /obj/item/trash/konserva/bobi
+	trash_type = /obj/item/trash/konserva/bobi
 	desc_opened = "Looks appetizing."
 	tastes = list("a vague earthy flavor with tasteless meat" = 1)
 
@@ -87,7 +87,7 @@
 	icon_state = "govyadina0"
 	icon_state_opened = "govyadina1"
 	list_reagents = list("nutriment" = 20, "vitamin" = 4, "omnizine" = 1)
-	trash = /obj/item/trash/konserva/govyadina
+	trash_type = /obj/item/trash/konserva/govyadina
 	desc_opened = "A can of beef-stew! An avidly loved staple of those who scour around old ruins in search for loot! This one is opened."
 	tastes = list("flavorful gravy over meat and potatoes" = 1)
 
@@ -101,7 +101,7 @@
 	icon_state = "fish0"
 	icon_state_opened = "fish1"
 	list_reagents = list("nutriment" = 17, "vitamin" = 3, "omnizine" = 0.75)
-	trash = /obj/item/trash/konserva/fish
+	trash_type = /obj/item/trash/konserva/fish
 	desc_opened = "Canned fish. Simple, easy to digest and generally well-liked by most in the Zone. This one is opened."
 	tastes = list("dry beets and sausage" = 1)
 
@@ -115,7 +115,7 @@
 	icon_state = "sirok"
 	icon_state_opened = "sirok1"
 	list_reagents = list("nutriment" = 11, "vitamin" = 1, "omnizine" = 0.3)
-	trash = /obj/item/trash/konserva/sirok
+	trash_type = /obj/item/trash/konserva/sirok
 	desc_opened = "A can of creamed cheese commonly seen in UAF mountaineer rations. This one is opened and looks in date."
 	tastes = list("sweetened curd with a vanilla kick" = 1)
 
@@ -130,7 +130,7 @@
 	icon_state = "snikers"
 	icon_state_opened = "snikers1"
 	list_reagents = list("nutriment" = 8, "sugar" = 6, "omnizine" = 0.2)
-	trash = /obj/item/trash/konserva/snikers
+	trash_type = /obj/item/trash/konserva/snikers
 	desc_opened = "Snickers. A reminder of home for western-tourists, a oddly sweet snack for locals. This one is unwrapped."
 	tastes = list("rich chocolate and peanut-butter with nuts" = 1)
 
@@ -146,7 +146,7 @@
 	icon_state = "Choco1"
 	icon_state_opened = "Choco2"
 	list_reagents = list("nutriment" = 9, "sugar" = 1, "omnizine" = 0.1, "energetic" = 5)
-	trash = /obj/item/trash/konserva/chocolate
+	trash_type = /obj/item/trash/konserva/chocolate
 	desc_opened = "A bar of chocolate. A reminder of home in this harsh place. This one is opened."
 	tastes = list("artisinal chocolate. It isn't as sweet as processed chocolate, but still very good" = 1)
 
@@ -202,7 +202,7 @@
 	icon_state = "GAL1"
 	icon_state_opened = "GAL2"
 	list_reagents = list("nutriment" = 10, "omnizine" = 0.1)
-	trash = /obj/item/trash/konserva/galets
+	trash_type = /obj/item/trash/konserva/galets
 	tastes = list("dry, stale crackers. Better than starving" = 1)
 
 /obj/item/trash/konserva/galets
@@ -216,7 +216,7 @@
 	icon_state = "Kasha1"
 	icon_state_opened = "Kasha2"
 	list_reagents = list("nutriment" = 15, "omnizine" = 0.2)
-	trash = /obj/item/trash/konserva/kasha
+	trash_type = /obj/item/trash/konserva/kasha
 	tastes = list("a strong, nutty flavor of buckwheat" = 1)
 
 /obj/item/trash/konserva/kasha
@@ -230,7 +230,7 @@
 	icon_state = "TushenkaRed1"
 	icon_state_opened = "TushenkaRed2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2)
-	trash = /obj/item/trash/konserva/MREkonserva1
+	trash_type = /obj/item/trash/konserva/MREkonserva1
 	tastes = list("spiced meat and salt" = 1)
 
 /obj/item/trash/konserva/MREkonserva1
@@ -244,7 +244,7 @@
 	icon_state = "TushenkaGreen1"
 	icon_state_opened = "TushenkaGreen2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2)
-	trash = /obj/item/trash/konserva/MREkonserva2
+	trash_type = /obj/item/trash/konserva/MREkonserva2
 	tastes = list("poultry and various vegetables" = 1)
 
 /obj/item/trash/konserva/MREkonserva2
@@ -258,7 +258,7 @@
 	icon_state = "TushenkaBlue1"
 	icon_state_opened = "TushenkaBlue2"
 	list_reagents = list("nutriment" = 17, "omnizine" = 0.2, "vitamin" = 10)
-	trash = /obj/item/trash/konserva/MREkonserva3
+	trash_type = /obj/item/trash/konserva/MREkonserva3
 	tastes = list("a wide variety of vegetables" = 1)
 
 /obj/item/trash/konserva/MREkonserva3
@@ -481,7 +481,7 @@
 	icon_state = "thebar"
 	icon_state_opened = "thebar1"
 	list_reagents = list("lipolicide" = 10, "omnizine" = 1)
-	trash = /obj/item/trash/konserva/snikers
+	trash_type = /obj/item/trash/konserva/snikers
 	desc_opened = "Brought in during the later years by Stalkers who clearly understood what a diet of bread, meat and vodka does to ones stomach. It'll make you... 'Clear-Sky' your bowels! This one has been opened!"
 	tastes = list("Oddly satisfactory chocolate that seems to make your... Stomach.. Grumble.. Oh No..." = 1)
 
@@ -491,7 +491,7 @@
 	icon_state = "choco1"
 	icon_state_opened = "choco2"
 	list_reagents = list("nutriment" = 5, "omnizine" = 1, "psicodine" = 1)
-	trash = /obj/item/trash/konserva/snikers
+	trash_type = /obj/item/trash/konserva/snikers
 	desc_opened =  "A reminder of the life abandoned on the outside world by the locals.. This chocolate bar is rich with both flavour and homely vibes! This one has been opened."
 	tastes = list("Delicious chocolate and a reminder of a more peaceful life.." = 1)
 

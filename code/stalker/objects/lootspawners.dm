@@ -1,9 +1,9 @@
 ///////////////////////////////////////////////Одноразовый лутспавнер////////////////////////////////////////////////////////////////////////////////
 
-/obj/effect/spawner/lootdrop/khabar_low
+/obj/effect/spawner/random/khabar_low
 	name = "khabar loot spawner"
 	lootdoubles = 1
-	lootcount = 5
+	spawn_loot_count = 5
 	loot = list(
 				/obj/item/reagent_containers/hypospray/medipen/stalker/antirad = 20,
 				/obj/item/storage/firstaid/ai2 = 20,
@@ -186,20 +186,20 @@
 				/obj/nothing = 10
 				)
 
-/obj/effect/spawner/lootdrop/khabar_medium
+/obj/effect/spawner/random/khabar_medium
 	name = "khabar loot spawner"
 	lootdoubles = 1
-	lootcount = 4
+	spawn_loot_count = 4
 
 	loot = list(
 				/obj/structure/closet/crate/stalker/blue = 1,
 				/obj/nothing = 11
 				)
 
-/obj/effect/spawner/lootdrop/khabar_high
+/obj/effect/spawner/random/khabar_high
 	name = "khabar loot spawner"
 	lootdoubles = 1
-	lootcount = 3
+	spawn_loot_count = 3
 
 	loot = list(
 				/obj/structure/closet/crate/stalker/blue = 1,
@@ -208,10 +208,10 @@
 
 ///////////////////////////////////////////////Лутспавнер с кулдауном и бесконечным сроком работы////////////////////////////////////////////////////
 
-/obj/effect/spawner/lootdrop/stalker
+/obj/effect/spawner/random/stalker
 	name = "stalker lootspawner"
 	invisibility = 101
-	lootcount = 2
+	spawn_loot_count = 2
 	var/max_spawned = 3
 	var/radius = 10 //Радиус разброса лута
 	var/cooldown = 10000 //Кол-во минут * 1000 кд шитспавна
@@ -219,15 +219,15 @@
 	loot = list(/obj/item/stack/medical/gauze/bint = 75,
 				/obj/item/trash/can = 25)
 
-/obj/effect/spawner/lootdrop/stalker/weapon
-	lootcount = 1
+/obj/effect/spawner/random/stalker/weapon
+	spawn_loot_count = 1
 	loot = list(/obj/item/gun/ballistic/automatic/pistol/pm = 85,
 				/obj/item/trash/can = 15)
 /*
-/obj/effect/spawner/lootdrop/stalker/New()
+/obj/effect/spawner/random/stalker/New()
 	SpawnLoot()
 
-/obj/effect/spawner/lootdrop/stalker/proc/SpawnLoot(enable_cooldown = 1)
+/obj/effect/spawner/random/stalker/proc/SpawnLoot(enable_cooldown = 1)
 	if(!loot || !loot.len)
 		return
 
@@ -253,7 +253,7 @@
 	SpawnLoot()
 	return
 */
-/obj/effect/spawner/lootdrop/stalker/proc/CanSpawn()
+/obj/effect/spawner/random/stalker/proc/CanSpawn()
 	var/count = 0
 
 	for(var/I in spawned_loot)
@@ -268,7 +268,7 @@
 	return CLAMP(lootcount - count, 0, lootcount)
 
 
-/obj/effect/spawner/lootdrop/stalker/proc/RandomMove(spawned)
+/obj/effect/spawner/random/stalker/proc/RandomMove(spawned)
 	if(spawned)
 		var/turf/T = get_turf(src)
 		var/obj/O = spawned
@@ -278,7 +278,7 @@
 
 	return spawned
 
-/obj/effect/spawner/lootdrop/stalker/weapon/pistols
+/obj/effect/spawner/random/stalker/weapon/pistols
 	name = "stalker pistols tier 1"
 	icon = 'icons/effects/landmarks_static.dmi'
 	icon_state = "pistol_loot"
@@ -288,7 +288,7 @@
 				/obj/item/gun/ballistic/automatic/pistol/tt = 20,
 				/obj/nothing = 30)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/pistolstier2
+/obj/effect/spawner/random/stalker/weapon/pistolstier2
 	name = "stalker pistols tier 2"
 	icon_state = "pistol2_loot"
 	loot = list(/obj/item/gun/ballistic/automatic/pistol/fort12/unique = 10,
@@ -297,7 +297,7 @@
 				/obj/item/gun/ballistic/automatic/pistol/marta = 20,
 				/obj/nothing = 30)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/pistolstier3
+/obj/effect/spawner/random/stalker/weapon/pistolstier3
 	name = "stalker pistols tier 3"
 	icon_state = "pistol3_loot"
 	loot = list(/obj/item/gun/ballistic/automatic/pistol/usp_match = 35,
@@ -306,7 +306,7 @@
 				/obj/item/gun/ballistic/automatic/mac10 = 5,
 				/obj/nothing = 30)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/rifles_and_shotguns
+/obj/effect/spawner/random/stalker/weapon/rifles_and_shotguns
 	name = "stalker rifles_and_shotguns tier 1"
 	icon_state = "rifle_shotgun_loot"
 	loot = list(/obj/item/gun/ballistic/shotgun/bm16 = 15,
@@ -315,7 +315,7 @@
 				/obj/item/gun/ballistic/automatic/berettam38 = 10,
 				/obj/nothing = 50)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/rifles_and_shotgunstier2
+/obj/effect/spawner/random/stalker/weapon/rifles_and_shotgunstier2
 	name = "stalker rifles_and_shotguns tier 2"
 	icon_state = "rifle_shotgun2_loot"
 	loot = list(/obj/item/gun/ballistic/shotgun/bm16/toz34 = 15,
@@ -324,7 +324,7 @@
 				/obj/item/gun/ballistic/automatic/abakan = 10,
 				/obj/nothing = 50)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/rifles_and_shotgunstier3
+/obj/effect/spawner/random/stalker/weapon/rifles_and_shotgunstier3
 	name = "stalker rifles_and_shotguns tier 3"
 	icon_state = "rifle_shotgun3_loot"
 	loot = list(/obj/item/gun/ballistic/shotgun/ithaca = 15,
@@ -333,7 +333,7 @@
 				/obj/item/gun/ballistic/shotgun/chaser = 10,
 				/obj/nothing = 50)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/rifles_and_shotgunstier4
+/obj/effect/spawner/random/stalker/weapon/rifles_and_shotgunstier4
 	name = "stalker rifles_and_shotguns tier 4"
 	icon_state = "rifle_shotgun4_loot"
 	loot = list(/obj/item/gun/ballistic/automatic/groza = 15,
@@ -342,7 +342,7 @@
 				/obj/item/gun/ballistic/shotgun/spsa = 10,
 				/obj/nothing = 50)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/rifles
+/obj/effect/spawner/random/stalker/weapon/rifles
 	name = "stalker rifles tier 1"
 	icon_state = "rifle_loot"
 	loot = list(/obj/item/gun/ballistic/rifle/boltaction/enfield = 15,
@@ -350,7 +350,7 @@
 				/obj/item/gun/ballistic/automatic/berettam38 = 15,
 				/obj/nothing = 55)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/riflestier2
+/obj/effect/spawner/random/stalker/weapon/riflestier2
 	name = "stalker rifles tier 2"
 	icon_state = "rifle2_loot"
 	loot = list(/obj/item/gun/ballistic/automatic/ppsh = 15,
@@ -358,7 +358,7 @@
 				/obj/item/gun/ballistic/automatic/abakan = 15,
 				/obj/nothing = 55)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/riflestier3
+/obj/effect/spawner/random/stalker/weapon/riflestier3
 	name = "stalker rifles tier 3"
 	icon_state = "rifle3_loot"
 	loot = list(/obj/item/gun/ballistic/automatic/groza = 15,
@@ -366,7 +366,7 @@
 				/obj/item/gun/ballistic/automatic/il86 = 15,
 				/obj/nothing = 55)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/riflestier4
+/obj/effect/spawner/random/stalker/weapon/riflestier4
 	name = "stalker rifles tier 4"
 	icon_state = "rifle4_loot"
 	loot = list(/obj/item/gun/ballistic/automatic/gp37 = 15,
@@ -374,7 +374,7 @@
 				/obj/item/gun/ballistic/automatic/vintorez = 15,
 				/obj/nothing = 55)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/smgs
+/obj/effect/spawner/random/stalker/weapon/smgs
 	name = "stalker smgs"
 	icon_state = "smg_loot"
 	loot = list(/obj/item/gun/ballistic/automatic/mp5 = 20,
@@ -382,7 +382,7 @@
 				/obj/item/gun/ballistic/automatic/kiparis = 10,
 				/obj/nothing = 60)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/ak74
+/obj/effect/spawner/random/stalker/weapon/ak74
 	name = "stalker ak74"
 	icon_state = "ak74_loot"
 	loot = list(/obj/item/gun/ballistic/automatic/ak74 = 20,
@@ -391,7 +391,7 @@
 				/obj/item/gun/ballistic/automatic/ak74/camo = 20,
 				/obj/nothing = 35)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/rarerifles
+/obj/effect/spawner/random/stalker/weapon/rarerifles
 	name = "stalker rare rifles"
 	icon_state = "rifle_rare_loot"
 	loot = list(/obj/item/gun/ballistic/rifle/semiautobolt/sks = 10,
@@ -412,7 +412,7 @@
 				/obj/item/gun/ballistic/automatic/ak74/camo = 20,
 				/obj/nothing = 90)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/rarepistols
+/obj/effect/spawner/random/stalker/weapon/rarepistols
 	name = "stalker rare pistols"
 	icon_state = "pistol_rare_loot"
 	loot = list(/obj/item/gun/ballistic/automatic/pistol/luger = 10,
@@ -428,7 +428,7 @@
 				/obj/item/gun/ballistic/automatic/pistol/silvermarta = 10,
 				/obj/nothing = 90)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/raresmgs
+/obj/effect/spawner/random/stalker/weapon/raresmgs
 	name = "stalker rare smgs"
 	icon_state = "smg_rare_loot"
 	loot = list(/obj/item/gun/ballistic/automatic/sten = 10,
@@ -443,7 +443,7 @@
 				/obj/item/gun/ballistic/automatic/skorpion = 10,
 				/obj/nothing = 90)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/rareboltaction
+/obj/effect/spawner/random/stalker/weapon/rareboltaction
 	name = "stalker rare boltactions"
 	icon_state = "bolt_rare_loot"
 	loot = list(/obj/item/gun/ballistic/rifle/boltaction/mosin = 10,
@@ -452,7 +452,7 @@
 				/obj/item/gun/ballistic/rifle/boltaction/springfield = 10,
 				/obj/nothing = 90)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/melee
+/obj/effect/spawner/random/stalker/weapon/melee
 	name = "stalker melee"
 	icon_state = "melee_loot"
 	loot = list(/obj/item/kitchen/knife = 20,
@@ -465,7 +465,7 @@
 				/obj/item/melee/pipe2 = 10,
 				/obj/nothing = 20)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/meleetier2
+/obj/effect/spawner/random/stalker/weapon/meleetier2
 	name = "stalker melee"
 	icon_state = "melee2_loot"
 	loot = list(/obj/item/kitchen/knife/bayonet = 20,
@@ -477,7 +477,7 @@
 				/obj/item/melee/redwrench = 10,
 				/obj/nothing = 20)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/meleetier3
+/obj/effect/spawner/random/stalker/weapon/meleetier3
 	name = "stalker melee"
 	icon_state = "melee3_loot"
 	loot = list(/obj/item/kitchen/knife/machete	 = 20,
@@ -487,7 +487,7 @@
 				/obj/item/weapon/kitchen/knife/m9 = 5,
 				/obj/nothing = 20)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/meleetierrare
+/obj/effect/spawner/random/stalker/weapon/meleetierrare
 	name = "stalker melee rare"
 	icon_state = "melee_rare_loot"
 	loot = list(/obj/item/kitchen/knife/kukri = 15,
@@ -502,7 +502,7 @@
 				/obj/item/kitchen/knife/machete3 = 15,
 				/obj/nothing = 20)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/meleetwohand
+/obj/effect/spawner/random/stalker/weapon/meleetwohand
 	name = "stalker melee tier 2"
 	icon_state = "melee_2hand_loot"
 	loot = list(/obj/item/twohanded/oldaxe = 20,
@@ -514,27 +514,27 @@
 				/obj/item/twohanded/required/chainsaw = 5,
 				/obj/nothing = 20)
 
-/obj/effect/spawner/lootdrop/stalker/medicine
+/obj/effect/spawner/random/stalker/medicine
 	name = "stalker medicine"
 	icon_state = "med_loot"
-	lootcount = 1
+	spawn_loot_count = 1
 	loot = list(/obj/item/storage/firstaid/ai2 = 30,
 				/obj/item/storage/firstaid/ifak = 20,
 				/obj/item/storage/firstaid/ecologists = 2.5,
 				/obj/nothing = 40)
 
-/obj/effect/spawner/lootdrop/stalker/medicineguarentee
+/obj/effect/spawner/random/stalker/medicineguarentee
 	name = "stalker medicine"
 	icon_state = "med_guarantee_loot"
-	lootcount = 1
+	spawn_loot_count = 1
 	loot = list(/obj/item/storage/firstaid/ai2 = 50,
 				/obj/item/storage/firstaid/ifak = 30,
 				/obj/item/storage/firstaid/ecologists = 5)
 
-/obj/effect/spawner/lootdrop/stalker/medicine/pills
+/obj/effect/spawner/random/stalker/medicine/pills
 	name = "stalker medicine"
 	icon_state = "med_pill_loot"
-	lootcount = 1
+	spawn_loot_count = 1
 	loot = list(/obj/item/reagent_containers/pill/potassium_iodide = 20,
 /obj/item/reagent_containers/pill/radioprotectant = 20,
 /obj/item/reagent_containers/pill/vinca = 5,
@@ -544,10 +544,10 @@
 /obj/item/reagent_containers/pill/caffeine = 10,
 				/obj/nothing = 20)
 
-/obj/effect/spawner/lootdrop/stalker/medicine/hypospray
+/obj/effect/spawner/random/stalker/medicine/hypospray
 	name = "stalker medicine"
 	icon_state = "med_hypo_loot"
-	lootcount = 1
+	spawn_loot_count = 1
 	loot = list(/obj/item/reagent_containers/hypospray/medipen/stalker/anabiotic = 5,
 	/obj/item/reagent_containers/hypospray/medipen/stalker/hercules = 5,
 	/obj/item/reagent_containers/hypospray/medipen/stalker/metamizole = 30,
@@ -555,10 +555,10 @@
 	/obj/item/reagent_containers/hypospray/medipen/stalker/axyltallisal = 5,
 	/obj/nothing = 25)
 
-/obj/effect/spawner/lootdrop/stalker/food
+/obj/effect/spawner/random/stalker/food
 	name = "stalker food"
 	icon_state = "food_loot"
-	lootcount = 1
+	spawn_loot_count = 1
 	loot = list(/obj/item/food/stalker/baton = 50,
 				/obj/item/food/stalker/kolbasa = 30,
 				/obj/item/food/stalker/kolbasa/doctorsausage = 40,
@@ -566,20 +566,20 @@
 				/obj/nothing = 15)
 
 
-/obj/effect/spawner/lootdrop/stalker/stews
+/obj/effect/spawner/random/stalker/stews
 	name = "stalker food"
 	icon_state = "stew_loot"
-	lootcount = 1
+	spawn_loot_count = 1
 	loot = list(/obj/item/food/stalker/lowgradestew = 50,
 				/obj/item/food/stalker/shroomstew = 25,
 				/obj/item/food/stalker/meatstew = 25,
 				/obj/nothing = 15)
 
 
-/obj/effect/spawner/lootdrop/stalker/gravy
+/obj/effect/spawner/random/stalker/gravy
 	name = "stalker gravity"
 	radius = 3
-	lootcount = 1
+	spawn_loot_count = 1
 	cooldown = 4500
 	loot = list(/obj/item/artifact/meduza = 12,
 				/obj/item/artifact/stoneflower_depleted = 6,
@@ -587,10 +587,10 @@
 				/obj/item/artifact/maminibusi = 1,
 				/obj/nothing = 80)
 
-/obj/effect/spawner/lootdrop/stalker/electra
+/obj/effect/spawner/random/stalker/electra
 	name = "stalker electra"
 	radius = 3
-	lootcount = 1
+	spawn_loot_count = 1
 	cooldown =4500
 	loot = list(/obj/item/artifact/flash = 12,
 				/obj/item/artifact/moonlight = 6,
@@ -598,10 +598,10 @@
 				/obj/item/artifact/pustishka = 1,
 				/obj/nothing = 80)
 
-/obj/effect/spawner/lootdrop/stalker/fire
+/obj/effect/spawner/random/stalker/fire
 	name = "stalker fire"
 	radius = 3
-	lootcount = 1
+	spawn_loot_count = 1
 	cooldown = 4500
 	loot = list(/obj/item/artifact/droplet = 13,
 				/obj/item/artifact/fireball = 6,
@@ -621,9 +621,9 @@ obj/nothing/New()
 	qdel(src)
 */
 
-/obj/effect/spawner/lootdrop/stalker/pornmag
+/obj/effect/spawner/random/stalker/pornmag
 	name = "stalker porn mags"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/trash/pornmagazine = 30,
 				/obj/item/trash/pornmagazine/two = 30,
@@ -632,9 +632,9 @@ obj/nothing/New()
 				/obj/item/trash/pornmagazine/five = 30,
 				/obj/nothing = 70)
 
-/obj/effect/spawner/lootdrop/stalker/binding_materials
+/obj/effect/spawner/random/stalker/binding_materials
 	name = "stalker binding materials"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/trash/binding_material/steelwire = 10,
 				/obj/item/trash/binding_material/steelwire1 = 10,
@@ -652,9 +652,9 @@ obj/nothing/New()
 				/obj/item/trash/binding_material/chain = 10,
 				/obj/nothing = 70)
 
-/obj/effect/spawner/lootdrop/stalker/nail
+/obj/effect/spawner/random/stalker/nail
 	name = "stalker nails"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/trash/nail = 5,
 				/obj/item/trash/nail/alt = 5,
@@ -662,9 +662,9 @@ obj/nothing/New()
 				/obj/item/trash/nail/largerustynail = 5,
 				/obj/nothing = 70)
 
-/obj/effect/spawner/lootdrop/stalker/oldcircuitboard
+/obj/effect/spawner/random/stalker/oldcircuitboard
 	name = "stalker old circuit boards"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/trash/oldcircuitboard = 5,
 				/obj/item/trash/oldcircuitboard/alt = 5,
@@ -676,9 +676,9 @@ obj/nothing/New()
 				/obj/item/trash/oldcircuitboard/seven = 5,
 				/obj/nothing = 70)
 
-/obj/effect/spawner/lootdrop/stalker/cigs_trash
+/obj/effect/spawner/random/stalker/cigs_trash
 	name = "stalker cigs trash"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/trash/cigs_trash = 5,
 				/obj/item/trash/cigs_trash2 = 5,
@@ -687,9 +687,9 @@ obj/nothing/New()
 				/obj/item/trash/cigs_trash5 = 5,
 				/obj/nothing = 70)
 
-/obj/effect/spawner/lootdrop/stalker/brokedevice
+/obj/effect/spawner/random/stalker/brokedevice
 	name = "stalker broken devices"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/trash/brokedevice/pdabroke/one = 5,
 				/obj/item/trash/brokedevice/pdabroke/two = 5,
@@ -704,9 +704,9 @@ obj/nothing/New()
 				/obj/item/trash/brokedevice/brokencellphone/three = 5,
 				/obj/nothing = 70)
 
-/obj/effect/spawner/lootdrop/stalker/metalparts
+/obj/effect/spawner/random/stalker/metalparts
 	name = "stalker metal parts"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/trash/metalparts/metaljunk = 5,
 				/obj/item/trash/metalparts/metaljunk/one = 5,
@@ -727,9 +727,9 @@ obj/nothing/New()
 				/obj/item/trash/metalparts/auto_shaft = 5,
 				/obj/nothing = 70)
 
-/obj/effect/spawner/lootdrop/stalker/junk
+/obj/effect/spawner/random/stalker/junk
 	name = "any stalker junk items"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/trash/paintcan = 5,
 				/obj/item/trash/teapot = 5,
@@ -873,9 +873,9 @@ obj/nothing/New()
 				/obj/item/trash/fermentingjar = 5,
 				/obj/nothing = 80)
 
-/obj/effect/spawner/lootdrop/stalker/flasks
+/obj/effect/spawner/random/stalker/flasks
 	name = "stalker flasks"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/reagent_containers/food/drinks/flask/cylinder = 10,
 				/obj/item/reagent_containers/food/drinks/flask/face = 10,
@@ -884,9 +884,9 @@ obj/nothing/New()
 				/obj/item/reagent_containers/food/drinks/flask/commie = 5,
 				/obj/nothing = 80)
 
-/obj/effect/spawner/lootdrop/stalker/cigarettes
+/obj/effect/spawner/random/stalker/cigarettes
 	name = "stalker cigarettes"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/storage/fancy/cigarettes/cigpack_belomorkanal = 10,
 					/obj/item/storage/fancy/cigarettes/cigpack_marlboro = 10,
@@ -899,10 +899,10 @@ obj/nothing/New()
 					/obj/item/storage/fancy/cigarettes/cigpack_newports = 10,
 				/obj/nothing = 20)
 
-/obj/effect/spawner/lootdrop/stalker/vodka
+/obj/effect/spawner/random/stalker/vodka
 	name = "stalker vodka"
 	icon_state = "vodka_loot"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/reagent_containers/food/drinks/bottle/vodka/stolichnaya = 10,
 				/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki = 30,
@@ -913,9 +913,9 @@ obj/nothing/New()
 				/obj/item/reagent_containers/food/drinks/bottle/vodka/stalkervodka = 10,
 				/obj/nothing = 20)
 
-/obj/effect/spawner/lootdrop/stalker/seeds
+/obj/effect/spawner/random/stalker/seeds
 	name = "stalker seeds"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/seeds/potato = 30,
 					/obj/item/seeds/cabbage = 30,
@@ -938,9 +938,9 @@ obj/nothing/New()
 					/obj/item/seeds/tobacco/strong = 10,
 					/obj/nothing = 20)
 
-/obj/effect/spawner/lootdrop/stalker/bureaucracy
+/obj/effect/spawner/random/stalker/bureaucracy
 	name = "stalker bureaucracy"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/camera = 10,
 					/obj/item/taperecorder = 10,
@@ -951,9 +951,9 @@ obj/nothing/New()
 					/obj/item/modular_computer/tablet/preset/cheap = 10,
 					/obj/nothing = 30)
 
-/obj/effect/spawner/lootdrop/stalker/books
+/obj/effect/spawner/random/stalker/books
 	name = "stalker books"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/book/manual/allquietonthewesternfront = 10,
 				/obj/item/book/manual/roadsidepicnic = 10,
@@ -965,9 +965,9 @@ obj/nothing/New()
 				/obj/item/book/manual/theprophetfriendship = 10,
 				/obj/nothing = 80)
 
-/obj/effect/spawner/lootdrop/stalker/camera
+/obj/effect/spawner/random/stalker/camera
 	name = "stalker camera"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/camera/old = 20,
 				/obj/item/camera/ww2 = 20,
@@ -976,9 +976,9 @@ obj/nothing/New()
 				/obj/nothing = 30)
 
 
-/obj/effect/spawner/lootdrop/stalker/equipment
+/obj/effect/spawner/random/stalker/equipment
 	name = "stalker equipment"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/flashlight/flare/torch = 10,
 				/obj/item/flashlight/flare = 10,
@@ -989,9 +989,9 @@ obj/nothing/New()
 				/obj/item/flashlight/lantern = 10,
 				/obj/nothing = 80)
 
-/obj/effect/spawner/lootdrop/stalker/kitchencondiments
+/obj/effect/spawner/random/stalker/kitchencondiments
 	name = "stalker kitchen condiments"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/reagent_containers/food/condiment/sugar = 10,
 				/obj/item/reagent_containers/food/condiment/milk = 5,
@@ -1008,7 +1008,7 @@ obj/nothing/New()
 				/obj/nothing = 15
 				)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/armor
+/obj/effect/spawner/random/stalker/weapon/armor
 	name = "stalker armor"
 	icon_state = "armor_loot"
 	loot = list(/obj/item/clothing/suit/sixb2 = 15,
@@ -1016,7 +1016,7 @@ obj/nothing/New()
 				/obj/item/clothing/suit/hooded/kozhanka/tancoat = 10,
 				/obj/nothing = 35)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/armortier2
+/obj/effect/spawner/random/stalker/weapon/armortier2
 	name = "stalker armor tier 2"
 	icon_state = "armor2_loot"
 	loot = list(/obj/item/clothing/suit/hooded/kozhanka/ghillie = 15,
@@ -1024,7 +1024,7 @@ obj/nothing/New()
 				/obj/item/clothing/suit/d2 = 10,
 				/obj/nothing = 35)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/helmet
+/obj/effect/spawner/random/stalker/weapon/helmet
 	name = "stalker helmet"
 	icon_state = "helmet_loot"
 	loot = list(/obj/item/clothing/head/ssh = 20,
@@ -1034,7 +1034,7 @@ obj/nothing/New()
 				/obj/item/clothing/head/skathelmet = 5,
 				/obj/nothing = 35)
 
-/obj/effect/spawner/lootdrop/stalker/weapon/stockparts
+/obj/effect/spawner/random/stalker/weapon/stockparts
 	name = "stalker stock parts"
 	loot = list(/obj/item/stock_parts/manipulator = 15,
 				/obj/item/stock_parts/micro_laser = 15,
@@ -1049,9 +1049,9 @@ obj/nothing/New()
 				/obj/item/stock_parts/scanning_module = 15,
 				/obj/nothing = 10)
 
-/obj/effect/spawner/lootdrop/stalker/rarefirearms
+/obj/effect/spawner/random/stalker/rarefirearms
 	name = "stalker rare firearms"
-	lootcount = 1
+	spawn_loot_count = 1
 	max_spawned = 1
 	loot = list(/obj/item/gun/ballistic/automatic/sten = 10,
 				/obj/item/gun/ballistic/automatic/sterling = 10,

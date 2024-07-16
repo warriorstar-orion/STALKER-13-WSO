@@ -9,7 +9,7 @@
 /turf/closed/mineral,
 /area/stalker/blowout/outdoor)
 "ad" = (
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "ae" = (
@@ -353,14 +353,14 @@
 	},
 /area/stalker/blowout/outdoor)
 "bf" = (
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/asphalt{
 	icon_state = "road92461";
 	tag = "icon-road92461"
 	},
 /area/stalker/blowout/outdoor)
 "bg" = (
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/asphalt{
 	icon_state = "road93245";
 	tag = "icon-road93245"
@@ -380,7 +380,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "bj" = (
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/asphalt{
 	icon_state = "road105362";
 	tag = "icon-road105362"
@@ -391,7 +391,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "bl" = (
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/stalker/tree,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -420,14 +420,14 @@
 	},
 /area/stalker/blowout/outdoor)
 "bq" = (
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/asphalt{
 	icon_state = "road10";
 	tag = "icon-road10"
 	},
 /area/stalker/blowout/outdoor)
 "br" = (
-/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/stalker/floor/asphalt{
 	icon_state = "road12";
 	tag = "icon-road12"

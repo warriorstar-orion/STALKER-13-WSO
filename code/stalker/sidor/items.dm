@@ -8,25 +8,25 @@
 
 /sidoritem/ak74
     name = "Akm74/2"
-    itemtype = /obj/item/weapon/gun/projectile/automatic/ak74
+    itemtype = /obj/item/gun/automatic/ak74
     cost = 14000
     words = list("Kalash" = 5, "Kalash" = 5, "ak74" = 5, "ak74" = 5, "automatic" = 5, "Automatic" = 5, "Kalashnikov" = 5, "Kalashnikov" = 5, "Kalashnikov" = 5, "Kalashnikov" = 10)
 
 /sidoritem/aksu74
     name = "Akm74/2y"
-    itemtype = /obj/item/weapon/gun/projectile/automatic/aksu74
+    itemtype = /obj/item/gun/automatic/aksu74
     cost = 17000
     words = list("shortened" = 5, "Shortened" = 5, "Kalash" = 5, "Kalash" = 5, "ak74" = 5, "ak74" = 5, "automatic" = 5, "Automatic" = 5, "Kalashnikov" = 5, "Kalashnikov" = 5, "Kalashnikov" = 5, "Kalashnikov" = 10)
 
 /sidoritem/mp5
     name = "Viper"
-    itemtype = /obj/item/weapon/gun/projectile/automatic/mp5
+    itemtype = /obj/item/gun/automatic/mp5
     cost = 12000
     words = list("viper" = 5, "mp10" = 5, "mp10" = 5, "viper" = 5, "viper" = 5, "emku" = 5, "emochka" = 5, "Viper" = 10)
 
 /sidoritem/groza
     name = "Grom C14"
-    itemtype = /obj/item/weapon/gun/projectile/automatic/groza
+    itemtype = /obj/item/gun/automatic/groza
     cost = 32000
     words = list("thunder" = 5, "thunderstorm" = 5, "thunderstorm" = 5, "Thunder" = 5, "thunder" = 5, "C14" = 5, "C14" = 10)
 
@@ -34,13 +34,13 @@
 
 /sidoritem/vintorez
     name = "Vintar VS"
-    itemtype = /obj/item/weapon/gun/projectile/automatic/vintorez
+    itemtype = /obj/item/gun/automatic/vintorez
     cost = 27000
     words = list("vintorez" = 5, "vintar" = 5, "vintar" = 10)
 
 /sidoritem/val
     name = "Specgun VLA"
-    itemtype = /obj/item/weapon/gun/projectile/automatic/val
+    itemtype = /obj/item/gun/automatic/val
     cost = 23000
     words = list("shaft" = 5, "spetsavtomat shaft" = 5, "vla" = 5, "spetsavtomat vla" = 5, "specgun vla" = 5, "vla" = 5, "Shaft" = 5, "Vla" = 10)
 
@@ -48,19 +48,19 @@
 
 /sidoritem/bm16
     name = "Doublebarrel"
-    itemtype = /obj/item/weapon/gun/projectile/revolver/bm16
+    itemtype = /obj/item/gun/revolver/bm16
     cost = 12000
     words = list("Double-barreled" = 5, "double-barreled" = 5, "gun" = 5, "Gun" = 10)
 
 /sidoritem/toz34
     name = "Tost-34"
-    itemtype = /obj/item/weapon/gun/projectile/revolver/bm16/toz34
+    itemtype = /obj/item/gun/revolver/bm16/toz34
     cost = 15000
     words = list("toast" = 5, "Toast" = 5, "34" = 10)
 
 /sidoritem/chaser
     name = "Chaser-13"
-    itemtype = /obj/item/weapon/gun/projectile/shotgun/chaser
+    itemtype = /obj/item/gun/shotgun/chaser
     cost = 20000
     words = list("Chaser" = 5, "chaser" = 5, "13" = 10)
 
@@ -68,43 +68,43 @@
 
 /sidoritem/pm
     name = "PM"
-    itemtype = /obj/item/weapon/gun/projectile/automatic/pistol/pm
+    itemtype = /obj/item/gun/automatic/pistol/pm
     cost = 2500
     words = list("pm" = 5, "PM" = 5, "Makarov pistol" = 5, "Makarov pistol" = 5, "Makarov pistol" = 10)
 
 /sidoritem/sip
     name = "Sip-t M200"
-    itemtype = /obj/item/weapon/gun/projectile/automatic/pistol/sip
+    itemtype = /obj/item/gun/automatic/pistol/sip
     cost = 7500
     words = list("Epa" = 5, "epa" = 5, "Epa-t M200" = 15, "Sip-t" = 5, "epa-t m200" = 15, "epa-t" = 10)
 
 /sidoritem/cora
     name = "Cora 919"
-    itemtype = /obj/item/weapon/gun/projectile/automatic/pistol/cora
+    itemtype = /obj/item/gun/automatic/pistol/cora
     cost = 8000
     words = list("Crust" = 5, "bark" = 5, "Koru" = 5, "bark" = 5, "Crust 919" = 5, "bark 919" = 5, "Crust 919" = 5, "bark 919" = 10)
 
 /sidoritem/marta
     name = "Marta"
-    itemtype = /obj/item/weapon/gun/projectile/automatic/pistol/marta
+    itemtype = /obj/item/gun/automatic/pistol/marta
     cost = 10000
     words = list("Marta" = 5, "Marta" = 5, "Marta" = 5, "March" = 10)
 
 /sidoritem/fort12
 	name = "Fora-12 Mk2"
-	itemtype = /obj/item/weapon/gun/projectile/automatic/pistol/fort12
+	itemtype = /obj/item/gun/automatic/pistol/fort12
 	cost = 5000
 	words = list("Fort" = 5, "fort" = 5, "Fort 12" = 5, "fort 12" = 5, "Fort12" = 5, "12 Mk2" = 5, "12 MK2" = 5, "12Mk2" = 5, "12Mk2" = 5, "12Mk2" = 10)
 
 /sidoritem/pb1s
 	name = "PB1s"
-	itemtype = /obj/item/weapon/gun/projectile/automatic/pistol/pb1s
+	itemtype = /obj/item/gun/automatic/pistol/pb1s
 	cost = 4000
 	words = list("PB1s" = 5, "pb1s" = 5, "Pb1s" = 5, "PB1C" = 5, "pB1s" = 5, "pb1C" = 10)
 
 /sidoritem/usp_match
 	name = "Usip"
-	itemtype = /obj/item/weapon/gun/projectile/automatic/pistol/usp_match
+	itemtype = /obj/item/gun/automatic/pistol/usp_match
 	cost = 9000
 	words = list("Usp" = 5, "yusp" = 5, "Yusip" = 5, "yusip" = 10)
 
