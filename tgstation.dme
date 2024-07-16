@@ -6375,6 +6375,7 @@
 #include "code\stalker\modules\shade.dm"
 #include "code\stalker\modules\client\client_colour.dm"
 #include "code\stalker\modules\hydroponics\grown\spices.dm"
+#include "code\stalker\modules\reagents\drinks\alcohol_reagents.dm"
 #include "code\stalker\objects\campfire.dm"
 #include "code\stalker\objects\donat-items.dm"
 #include "code\stalker\objects\items\manuals.dm"

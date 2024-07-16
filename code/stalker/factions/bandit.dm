@@ -153,13 +153,13 @@ Assistant
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
-	r_pocket = pick(/obj/item/reagent_containers/food/drinks/bottle/vodka/stolichnaya,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka/blacklabelvodka,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka/badminka,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka/bluegoose,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka/stalkervodka)
+	r_pocket = pick(/obj/item/reagent_containers/cup/glass/bottle/vodka/stolichnaya,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka/blacklabelvodka,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka/bluegoose,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka/stalkervodka)
 
 /datum/outfit/job/bandit_barman/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()

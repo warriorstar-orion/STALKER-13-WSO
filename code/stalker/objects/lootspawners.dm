@@ -904,13 +904,13 @@ obj/nothing/New()
 	icon_state = "vodka_loot"
 	spawn_loot_count = 1
 	max_spawned = 1
-	loot = list(/obj/item/reagent_containers/food/drinks/bottle/vodka/stolichnaya = 10,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki = 30,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka/blacklabelvodka = 10,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka = 20,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka/badminka = 10,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka/bluegoose = 10,
-				/obj/item/reagent_containers/food/drinks/bottle/vodka/stalkervodka = 10,
+	loot = list(/obj/item/reagent_containers/cup/glass/bottle/vodka/stolichnaya = 10,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki = 30,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka/blacklabelvodka = 10,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka = 20,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka = 10,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka/bluegoose = 10,
+				/obj/item/reagent_containers/cup/glass/bottle/vodka/stalkervodka = 10,
 				/obj/nothing = 20)
 
 /obj/effect/spawner/random/stalker/seeds

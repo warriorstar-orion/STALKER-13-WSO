@@ -190,7 +190,7 @@ Assistant
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545ap = 1,
 							/obj/item/ammo_box/magazine/stalker/m545 = 2,
 							/obj/item/storage/firstaid/ifak = 1,
-							/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki = 1)
+							/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki = 1)
 	r_pocket = /obj/item/radio
 	l_pocket = /obj/item/storage/wallet/stalker
 	faction_s = "State Security Service"

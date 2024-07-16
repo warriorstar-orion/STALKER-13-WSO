@@ -59,7 +59,7 @@
 					/obj/item/food/stalker/konserva/soup = 50,
 					/obj/item/food/stalker/kolbasa = 60,
 					/obj/item/food/stalker/baton = 75,
-					/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki = 35,
+					/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki = 35,
 					/obj/item/stack/medical/gauze/bint = 80,
 					/obj/item/reagent_containers/hypospray/medipen/stalker/antirad = 10,
 					/obj/item/clothing/suit/hooded/kozhanka/banditka = 1,
