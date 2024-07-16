@@ -76,9 +76,9 @@ Assistant
 	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka
 	ears = null
 	mask = pick(
-		/obj/item/clothing/mask/cigarette/cigar/cohiba,
+		/obj/item/cigarette/cigar/cohiba,
 		/obj/item/clothing/mask/bandana/skull,
-		/obj/item/clothing/mask/cigarette/rollie/cannabis,
+		/obj/item/cigarette/rollie/cannabis,
 		/obj/item/clothing/mask/bandana/black,
 		/obj/item/clothing/mask/pig,
 		/obj/item/clothing/mask/balaclava)
@@ -107,9 +107,9 @@ Assistant
 	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka/unique
 	ears = null
 	mask = pick(
-		/obj/item/clothing/mask/cigarette/cigar/cohiba,
-		/obj/item/clothing/mask/cigarette/cigar/havana,
-		/obj/item/clothing/mask/cigarette/rollie/cannabis,
+		/obj/item/cigarette/cigar/cohiba,
+		/obj/item/cigarette/cigar/havana,
+		/obj/item/cigarette/rollie/cannabis,
 		/obj/item/clothing/mask/balaclava)
 	id = /obj/item/stalker_pda
 	belt = pick(

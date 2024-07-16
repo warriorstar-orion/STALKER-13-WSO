@@ -25,9 +25,9 @@
 //	suit = /obj/item/clothing/suit/hooded/kozhanka/renegadecoat
 //	ears = null
 //	mask = pick(
-//		/obj/item/clothing/mask/cigarette/cigar/cohiba,
+//		/obj/item/cigarette/cigar/cohiba,
 //		/obj/item/clothing/mask/balaclava,
-//		/obj/item/clothing/mask/cigarette/rollie/cannabis,
+//		/obj/item/cigarette/rollie/cannabis,
 //		)
 //	id = /obj/item/stalker_pda
 //	belt = pick(

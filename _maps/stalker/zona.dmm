@@ -11325,7 +11325,7 @@
 /area/stalker/blowout/outdoor)
 "aMZ" = (
 /obj/structure/table/stalker/wood,
-/obj/item/clothing/mask/cigarette,
+/obj/item/cigarette,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/kordon/buildings)
 "aNa" = (

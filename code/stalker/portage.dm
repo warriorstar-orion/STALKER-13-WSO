@@ -145,7 +145,7 @@
 	name = "wall"
 	icon = 'icons/turf/shuttle.dmi'
 	icon_state = "wall1"
-	smooth = SMOOTH_FALSE
+	smoothing_flags = SMOOTH_FALSE
 	flags_1 = CHECK_RICOCHET_1
 
 /turf/closed/wall/stalker/ship

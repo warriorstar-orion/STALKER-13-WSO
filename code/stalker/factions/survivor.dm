@@ -80,9 +80,9 @@ Assistant
 		/obj/item/clothing/head/beanie/black)
 	mask = pick(
 		/obj/item/clothing/mask/bandana/black,
-		/obj/item/clothing/mask/cigarette/cigar,
-		/obj/item/clothing/mask/cigarette/marlborogold,
-		/obj/item/clothing/mask/cigarette/rollie/cannabis)
+		/obj/item/cigarette/cigar,
+		/obj/item/cigarette/marlborogold,
+		/obj/item/cigarette/rollie/cannabis)
 	ears = null
 	id = /obj/item/stalker_pda
 	belt = /obj/item/gun/ballistic/automatic/pistol/tt
@@ -135,10 +135,10 @@ Assistant
 	suit = /obj/item/clothing/suit/hooded/kombez
 	ears = null
 	mask = pick(
-		/obj/item/clothing/mask/cigarette/cigar,
+		/obj/item/cigarette/cigar,
 		/obj/item/clothing/mask/gas/stalker,
-		/obj/item/clothing/mask/cigarette/marlborogold,
-		/obj/item/clothing/mask/cigarette/rollie/cannabis)
+		/obj/item/cigarette/marlborogold,
+		/obj/item/cigarette/rollie/cannabis)
 	head = pick(/obj/item/clothing/head/ssh,
 				/obj/item/clothing/head/steel,
 				/obj/item/clothing/head/tsh)

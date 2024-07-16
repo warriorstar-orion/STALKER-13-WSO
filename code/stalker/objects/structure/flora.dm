@@ -123,13 +123,13 @@
 	produce = /obj/item/food/grown/onion/zona
 	icon_state = "wild_root1"
 
-obj/structure/flora/ausbushes/wildplant/root/wild_redbeet
+/obj/structure/flora/ausbushes/wildplant/root/wild_redbeet
 	name = "wild beet"
 	desc = "Nothing beats beets."
 	produce = /obj/item/food/grown/beet/red/zona
 	icon_state = "wild_root1"
 
-obj/structure/flora/ausbushes/wildplant/root/wild_whitebeet
+/obj/structure/flora/ausbushes/wildplant/root/wild_whitebeet
 	name = "wild beet"
 	desc = "Nothing beats beets."
 	produce = /obj/item/food/grown/beet/white/zona

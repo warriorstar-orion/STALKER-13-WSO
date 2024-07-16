@@ -4610,12 +4610,12 @@
 	pixel_x = -9;
 	pixel_y = 13
 	},
-/obj/item/clothing/mask/cigarette/rollie/trippy,
-/obj/item/clothing/mask/cigarette/rollie/trippy{
+/obj/item/cigarette/rollie/trippy,
+/obj/item/cigarette/rollie/trippy{
 	pixel_x = -3;
 	pixel_y = 7
 	},
-/obj/item/clothing/mask/cigarette/rollie/trippy{
+/obj/item/cigarette/rollie/trippy{
 	pixel_x = 9;
 	pixel_y = 5
 	},

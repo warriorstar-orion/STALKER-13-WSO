@@ -3272,7 +3272,7 @@
 /area/stalker/buildings/bandit)
 "NS" = (
 /obj/structure/table/stalker/wood,
-/obj/item/clothing/mask/cigarette/rollie/cannabis,
+/obj/item/cigarette/rollie/cannabis,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "NT" = (
@@ -3843,7 +3843,7 @@
 /area/stalker/buildings/bandit)
 "UP" = (
 /obj/structure/table/stalker/wood,
-/obj/item/clothing/mask/cigarette/pipe/cobpipe,
+/obj/item/cigarette/pipe/cobpipe,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "UU" = (

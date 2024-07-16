@@ -49,7 +49,7 @@ Assistant
 		/obj/item/flashlight,
 		/obj/item/flashlight/flare/torch,
 		/obj/item/lighter/greyscale,
-		/obj/item/clothing/mask/cigarette/marlboro,
+		/obj/item/cigarette/marlboro,
 		/obj/item/storage/box/matches)
 
 /datum/outfit/clearsky/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -102,7 +102,7 @@ Assistant
 	r_pocket = pick(
 		/obj/item/flashlight/flare,
 		/obj/item/lighter/greyscale,
-		/obj/item/clothing/mask/cigarette/marlboro,
+		/obj/item/cigarette/marlboro,
 		/obj/item/storage/box/matches,
 		/obj/item/restraints/handcuffs)
 	r_hand = pick(/obj/item/flashlight/lantern,

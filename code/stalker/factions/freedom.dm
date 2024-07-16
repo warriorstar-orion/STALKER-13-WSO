@@ -29,7 +29,7 @@
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/hooded/kombez/veter
 	mask = pick(
-		/obj/item/clothing/mask/cigarette/rollie/cannabis,
+		/obj/item/cigarette/rollie/cannabis,
 		/obj/item/clothing/mask/gas,
 		/obj/item/clothing/mask/bandana/green)
 	ears = null
@@ -48,7 +48,7 @@
 		/obj/item/flashlight/seclite,
 		/obj/item/flashlight,
 		/obj/item/flashlight/flare/torch,
-		/obj/item/clothing/mask/cigarette/rollie/cannabis,
+		/obj/item/cigarette/rollie/cannabis,
 		/obj/item/lighter/greyscale,
 	/obj/item/storage/box/matches)
 	faction_s = "Freedom"
@@ -103,7 +103,7 @@
 	uniform = /obj/item/clothing/under/color/switer
 	suit = /obj/item/clothing/suit/hooded/strazh
 	mask = pick(
-		/obj/item/clothing/mask/cigarette/rollie/cannabis,
+		/obj/item/cigarette/rollie/cannabis,
 		/obj/item/clothing/mask/gas,
 		/obj/item/clothing/mask/bandana/green)
 	ears = null
@@ -120,7 +120,7 @@
 	r_pocket = pick(
 		/obj/item/flashlight/flare,
 		/obj/item/lighter/greyscale,
-		/obj/item/clothing/mask/cigarette/rollie/cannabis,
+		/obj/item/cigarette/rollie/cannabis,
 		/obj/item/storage/box/matches,)
 	r_hand = pick(/obj/item/flashlight/lantern,
 				/obj/item/flashlight/seclite,

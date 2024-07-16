@@ -46,9 +46,9 @@ Assistant
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/hooded/kombez/ps5m
 	mask = pick(
-		/obj/item/clothing/mask/cigarette/cigar/havana,
+		/obj/item/cigarette/cigar/havana,
 		/obj/item/clothing/mask/bandana/black,
-		/obj/item/clothing/mask/cigarette/marlboro)
+		/obj/item/cigarette/marlboro)
 	ears = null
 	belt = /obj/item/kitchen/knife/bayonet
 	gloves = /obj/item/clothing/gloves/color/black
@@ -66,7 +66,7 @@ Assistant
 		/obj/item/flashlight/flare/torch,
 		/obj/item/flashlight/flare,
 		/obj/item/lighter/greyscale,
-		/obj/item/clothing/mask/cigarette/marlboro,
+		/obj/item/cigarette/marlboro,
 		/obj/item/storage/box/matches,
 		/obj/item/restraints/handcuffs)
 
@@ -142,7 +142,7 @@ Assistant
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/psz9d
 	mask = pick(
-		/obj/item/clothing/mask/cigarette/cigar/havana,
+		/obj/item/cigarette/cigar/havana,
 		/obj/item/clothing/mask/bandana/black)
 	ears = null
 	belt = /obj/item/weapon/kitchen/knife/hunting
@@ -158,7 +158,7 @@ Assistant
 	r_pocket = pick(
 		/obj/item/flashlight/flare,
 		/obj/item/lighter/greyscale,
-		/obj/item/clothing/mask/cigarette/marlboro,
+		/obj/item/cigarette/marlboro,
 		/obj/item/storage/box/matches,
 		/obj/item/restraints/handcuffs)
 	r_hand = pick(/obj/item/flashlight/lantern,
