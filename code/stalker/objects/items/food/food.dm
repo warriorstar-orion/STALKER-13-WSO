@@ -177,11 +177,10 @@
 	new /obj/item/food/stalker/konserva/snack/chocolate(src)
 	new /obj/item/reagent_containers/food/drinks/soda_cans/voda(src)
 
-/obj/item/storage/box/MRE/ComponentInitialize()
+/obj/item/storage/box/MRE/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_items = 10
-	STR.can_hold = typecacheof(list(/obj/item/food/stalker/konserva, /obj/item/trash/konserva, /obj/item/reagent_containers/food/drinks))
+	atom_storage.max_slots = 10
+	atom_storage.set_holdable(list(/obj/item/food/stalker/konserva, /obj/item/trash/konserva, /obj/item/reagent_containers/food/drinks))
 
 /obj/item/storage/box/MRE/attack_self(mob/user)
 	if(wrapped)
