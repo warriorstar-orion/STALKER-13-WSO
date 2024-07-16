@@ -3360,12 +3360,12 @@
 "amg" = (
 /obj/structure/closet,
 /obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/reagent_containers/food/condiment/milk,
+/obj/item/reagent_containers/condiment/milk,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "amh" = (
 /obj/structure/closet/crate/freezer,
-/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/condiment/flour,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "ami" = (
@@ -3416,8 +3416,8 @@
 /area/stalker/blowout/buildings/backwater/ironforest)
 "amo" = (
 /obj/structure/table/stalker,
-/obj/item/reagent_containers/food/condiment/saltshaker,
-/obj/item/reagent_containers/food/condiment/peppermill,
+/obj/item/reagent_containers/condiment/saltshaker,
+/obj/item/reagent_containers/condiment/peppermill,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "amp" = (

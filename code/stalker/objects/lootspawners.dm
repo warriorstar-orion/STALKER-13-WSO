@@ -993,17 +993,17 @@ obj/nothing/New()
 	name = "stalker kitchen condiments"
 	spawn_loot_count = 1
 	max_spawned = 1
-	loot = list(/obj/item/reagent_containers/food/condiment/sugar = 10,
-				/obj/item/reagent_containers/food/condiment/milk = 5,
-				/obj/item/reagent_containers/food/condiment/pack/ketchup = 10,
-				/obj/item/reagent_containers/food/condiment/rice = 10,
-				/obj/item/reagent_containers/food/condiment/flour = 10,
-				/obj/item/reagent_containers/food/condiment/saltshaker = 10,
-				/obj/item/reagent_containers/food/condiment/peppermill = 10,
-				/obj/item/reagent_containers/food/condiment/enzyme = 10,
-				/obj/item/reagent_containers/food/condiment/soysauce = 5,
-				/obj/item/reagent_containers/food/condiment/mayonnaise = 10,
-				/obj/item/reagent_containers/food/condiment/pack/hotsauce = 10,
+	loot = list(/obj/item/reagent_containers/condiment/sugar = 10,
+				/obj/item/reagent_containers/condiment/milk = 5,
+				/obj/item/reagent_containers/condiment/pack/ketchup = 10,
+				/obj/item/reagent_containers/condiment/rice = 10,
+				/obj/item/reagent_containers/condiment/flour = 10,
+				/obj/item/reagent_containers/condiment/saltshaker = 10,
+				/obj/item/reagent_containers/condiment/peppermill = 10,
+				/obj/item/reagent_containers/condiment/enzyme = 10,
+				/obj/item/reagent_containers/condiment/soysauce = 5,
+				/obj/item/reagent_containers/condiment/mayonnaise = 10,
+				/obj/item/reagent_containers/condiment/pack/hotsauce = 10,
 				/obj/item/trash/fermentingjar = 1,
 				/obj/nothing = 15
 				)
