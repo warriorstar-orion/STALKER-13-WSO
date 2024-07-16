@@ -820,7 +820,7 @@
 	desc = "An old big wooden crate."
 	opacity = 1
 	density = 1
-	layer = MASSIVE_OBJ_LAYER
+	plane = MASSIVE_OBJ_PLANE
 	cache_size = 3
 
 /obj/structure/stalker/propane
@@ -835,7 +835,7 @@
 	icon = 'icons/stalker/decorations_32x64.dmi'
 	icon_state = "stolb"
 	desc = "An old pillar."
-	layer = MASSIVE_OBJ_LAYER
+	plane = MASSIVE_OBJ_PLANE
 	density = 0
 
 /obj/structure/stalker/stolb_alt
@@ -843,7 +843,7 @@
 	icon = 'icons/stalker/decorations_32x64.dmi'
 	icon_state = "stolb_alt"
 	desc = "An old pillar."
-	layer = MASSIVE_OBJ_LAYER
+	plane = MASSIVE_OBJ_PLANE
 	density = 0
 
 /obj/structure/stalker/stolb2
@@ -851,7 +851,7 @@
 	icon = 'icons/stalker/decorations_32x64.dmi'
 	icon_state = "stolb2"
 	desc = "An old pillar."
-	layer = MASSIVE_OBJ_LAYER
+	plane = MASSIVE_OBJ_PLANE
 	density = 0
 
 /obj/structure/stalker/stolb_double
@@ -859,7 +859,7 @@
 	icon = 'icons/stalker/decorations_32x64.dmi'
 	icon_state = "stolb_double"
 	desc = "An old pillar."
-	layer = MASSIVE_OBJ_LAYER
+	plane = MASSIVE_OBJ_PLANE
 	density = 0
 
 /obj/structure/stalker/lampa_big
