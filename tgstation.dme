@@ -6372,6 +6372,7 @@
 #include "code\stalker\modules\psi_zombie.dm"
 #include "code\stalker\modules\roofs.dm"
 #include "code\stalker\modules\shade.dm"
+#include "code\stalker\modules\client\client_colour.dm"
 #include "code\stalker\modules\hydroponics\grown\spices.dm"
 #include "code\stalker\objects\campfire.dm"
 #include "code\stalker\objects\donat-items.dm"
