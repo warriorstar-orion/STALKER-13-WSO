@@ -10,7 +10,7 @@
 	force = 15
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/shot/stalker/bm16
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/stalker/bm16
 	recoil = 1
 	durability = 150
 	sawn_desc = "Much more compact and lighter than the new double-barreled gun, but effective only in close combat."
@@ -74,7 +74,7 @@
 	inhand_icon_state = "ithacam37"
 	durability = 100
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/shot/stalker/ithaca
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/stalker/ithaca
 	recoil = 1
 	w_class = 4
 	slowdown = 0.15
@@ -97,7 +97,7 @@
 	inhand_icon_state = "chaser"
 	durability = 100
 	slot_flags = ITEM_SLOT_BELT|ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/shot/chaser
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/chaser
 	recoil = 0.8
 	w_class = 4
 	slowdown = 0.15
@@ -138,7 +138,7 @@
 	inhand_icon_state = "spsa" //Нужно добавить
 	durability = 150
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/shot/spsa
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/spsa
 	recoil = 0.8
 	w_class = 4
 	slowdown = 0.15
@@ -162,7 +162,7 @@
 	inhand_icon_state = "enfield"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/enfield
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/enfield
 	recoil = 1
 	w_class = 4
 	slowdown = 0.15
@@ -183,7 +183,7 @@
 	inhand_icon_state = "mosin"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
 	recoil = 1
 	w_class = 4
 	slowdown = 0.15
@@ -203,7 +203,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	icon_state = "mosin-obrez"
 	inhand_icon_state = "mosin-obrez"
 	durability = 160
-	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
 	recoil = 6
 	w_class = 2
 	randomspread = 3
@@ -223,7 +223,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	inhand_icon_state = "rifle"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
 	recoil = 1
 	w_class = 4
 	randomspread = 1
@@ -244,7 +244,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	inhand_icon_state = "rifle"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
 	recoil = 1
 	w_class = 4
 	randomspread = 1
@@ -265,7 +265,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	inhand_icon_state = "rifle"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
 	recoil = 1
 	w_class = 4
 	randomspread = 1
@@ -286,7 +286,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	inhand_icon_state = "rifle"
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/boltaction/mosin
 	recoil = 3
 	w_class = 4
 	randomspread = 6
@@ -313,7 +313,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	inhand_icon_state = "awp"
 	durability = 50//Heavily increases chance of jamming or explosion of round in chamber. Required due to power of rifle.
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/awp
+	accepted_magazine_type = /obj/item/ammo_box/magazine/awp
 	recoil = 3
 	w_class = 4
 	randomspread = 0

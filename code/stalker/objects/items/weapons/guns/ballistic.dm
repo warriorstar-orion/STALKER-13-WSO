@@ -10,7 +10,7 @@
 	icon_state = "pm"
 	w_class = 2
 	fire_sound = 'stalker/sound/weapons/pm_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x18pm
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18pm
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
@@ -28,7 +28,7 @@
 	icon_state = "tt"
 	w_class = 2
 	fire_sound = 'stalker/sound/weapons/tt33_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/tt
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/tt
 	force = 10
 	can_suppress = 0
 	can_unsuppress = 0
@@ -47,7 +47,7 @@
 	icon_state = "sip"
 	w_class = 2
 	fire_sound = 'stalker/sound/weapons/sig220_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/sc45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sc45
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
@@ -65,7 +65,7 @@
 	icon_state = "cora"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/colt1911_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/sc45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sc45
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
@@ -84,7 +84,7 @@
 	inhand_icon_state = "marta"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/marta_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x19marta
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19marta
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
@@ -102,7 +102,7 @@
 	icon_state = "fort12"
 	fire_sound = 'stalker/sound/weapons/fort_shot.ogg'
 	w_class = 2
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x18fort
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18fort
 	force = 10
 	can_suppress = 0
 	can_unsuppress = 0
@@ -117,7 +117,7 @@
 /obj/item/gun/ballistic/automatic/pistol/fort12/unique  // Фора12 - расширенный магазин
 	desc = "Experimental prototype of the Fort pistol. A single copy."
 	unique = 1
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x18fort_u
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18fort_u
 
 /obj/item/gun/ballistic/automatic/pistol/pb1s  //ПБ1С
 	name = "PB1s"
@@ -125,7 +125,7 @@
 	icon_state = "pb1s"
 	w_class = 2
 	fire_sound = 'stalker/sound/weapons/pb_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x18pm
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18pm
 	force = 10
 	suppressed = 1
 	can_suppress = 0
@@ -143,7 +143,7 @@
 	desc = "Impeccable reliability and durability combined with excellent accuracy are the main noteworthy features of this weapon. Its minor drawbacks include its considerable size, relatively high center of gravity and massive bolt, which make it difficult to conceal but do not outweigh the weapon's positive features. The weapon is especially popular with the Zone's veterans."
 	icon_state = "usp-match"
 	w_class = 2
-	mag_type = /obj/item/ammo_box/magazine/stalker/usp45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/usp45
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
@@ -161,7 +161,7 @@
 	icon_state = "desert"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/desert_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/desert
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/desert
 	force = 10
 	can_suppress = 0
 	can_unsuppress = 0
@@ -181,7 +181,7 @@
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/desert_shot.ogg'
 	fire_delay = 1.5
-	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/anaconda
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/anaconda
 	force = 10
 	can_suppress = 0
 	can_unsuppress = 0
@@ -201,7 +201,7 @@
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/desert_shot.ogg'
 	fire_delay = 2
-	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/c500revolver
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/c500revolver
 	force = 10
 	can_suppress = 0
 	can_unsuppress = 0
@@ -221,7 +221,7 @@
 	inhand_icon_state = "marta-silenced"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/luger_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x19luger
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19luger
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
@@ -240,7 +240,7 @@
 	inhand_icon_state = "marta-silenced"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/pistol_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x19waltherp38
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19waltherp38
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
@@ -259,7 +259,7 @@
 	inhand_icon_state = "cora"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/pm_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x18aps
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18aps
 	force = 10
 	automatic = 1
 	burst_size = 5
@@ -281,7 +281,7 @@
 	inhand_icon_state = "cora"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/pm_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x18aps
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18aps
 	force = 10
 	automatic = 1
 	burst_size = 5
@@ -303,7 +303,7 @@
 	inhand_icon_state = "mauser"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/mauser_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/mauser
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/mauser
 	force = 10
 	vary_fire_sound = 1
 	can_suppress = 1
@@ -325,7 +325,7 @@
 	inhand_icon_state = "marta"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/pistol_shot2.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x19glock
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19glock
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
@@ -344,7 +344,7 @@
 	inhand_icon_state = "sip"
 	w_class = 2
 	fire_sound = 'stalker/sound/weapons/tt33_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/tt
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/tt
 	force = 10
 	can_suppress = 0
 	can_unsuppress = 0
@@ -363,7 +363,7 @@
 	icon_state = "fiveseven"
 	fire_sound = 'stalker/sound/weapons/fort_shot.ogg'
 	w_class = 2
-	mag_type = /obj/item/ammo_box/magazine/stalker/m57x28fiveseven
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m57x28fiveseven
 	force = 10
 	can_suppress = 0
 	can_unsuppress = 0
@@ -382,7 +382,7 @@
 	inhand_icon_state = "marta"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/pistol_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x19waltherpp
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19waltherpp
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
@@ -401,7 +401,7 @@
 	inhand_icon_state = "marta"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/pistol_shot2.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x18cz83
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18cz83
 	force = 10
 	durability = 85
 	spread = 18
@@ -418,7 +418,7 @@
 	inhand_icon_state = "marta"
 	w_class = 3
 	fire_sound = 'stalker/sound/weapons/marta_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x19marta
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19marta
 	force = 10
 	can_suppress = 1
 	can_unsuppress = 1
@@ -504,7 +504,7 @@
 	icon_state = "sten"
 	inhand_icon_state = "sterling"
 	fire_sound = 'stalker/sound/weapons/mac10_shoot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/sten
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sten
 	can_suppress = 1
 	burst_size = 4
 	fire_delay = 1.8
@@ -527,7 +527,7 @@
 	icon_state = "sterling"
 	inhand_icon_state = "sterling"
 	fire_sound = 'stalker/sound/weapons/mac10_shoot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/sterling
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sterling
 	can_suppress = 1
 	burst_size = 4
 	fire_delay = 1.8
@@ -550,7 +550,7 @@
 	inhand_icon_state = "greasegun"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m3a1
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m3a1
 	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
 	can_suppress = 0
 	burst_size = 5
@@ -575,7 +575,7 @@
 	inhand_icon_state = "mat49"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/reising
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/reising
 	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
 	can_suppress = 0
 	burst_size = 5
@@ -600,7 +600,7 @@
 	inhand_icon_state = "mat49"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x19m76
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19m76
 	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
 	can_suppress = 0
 	burst_size = 3
@@ -625,7 +625,7 @@
 	inhand_icon_state = "mp40"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/mp40
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/mp40
 	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
 	can_suppress = 1
 	burst_size = 3
@@ -650,7 +650,7 @@
 	inhand_icon_state = "mat49"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/mp40
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/mp40
 	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
 	can_suppress = 1
 	burst_size = 4
@@ -674,7 +674,7 @@
 	icon_state = "pps43"
 	inhand_icon_state = "pps"
 	fire_sound = 'stalker/sound/weapons/ppsh_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/pps43
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/pps43
 	can_suppress = 0
 	slowdown = 0.15
 	burst_size = 5
@@ -698,7 +698,7 @@
 	icon_state = "bizon"
 	inhand_icon_state = "vz58"
 	fire_sound = 'stalker/sound/weapons/ppsh_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x18bizon
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18bizon
 	can_suppress = 0
 	slowdown = 0.15
 	burst_size = 3
@@ -722,7 +722,7 @@
 	icon_state = "skorpion"
 	inhand_icon_state = "arg"
 	fire_sound = 'stalker/sound/weapons/fort_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x19skorpion
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19skorpion
 	can_suppress = 0
 	burst_size = 3
 	fire_delay = 1
@@ -745,7 +745,7 @@
 	inhand_icon_state = "mat49"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x19mat49
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19mat49
 	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
 	can_suppress = 0
 	burst_size = 3
@@ -769,7 +769,7 @@
 	icon_state = "mac10"
 	inhand_icon_state = "mac10"
 	fire_sound = 'stalker/sound/weapons/mac10_shoot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/mac10
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/mac10
 	can_suppress = 1
 	burst_size = 4
 	fire_delay = 0.8
@@ -793,7 +793,7 @@
 	fire_sound = 'stalker/sound/weapons/sks_shot.ogg'
 	durability = 200
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/internal/semiautobolt/sks
+	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/semiautobolt/sks
 	can_suppress = 0
 	slowdown = 0.15
 	fire_delay = 1.2
@@ -817,7 +817,7 @@
 	colored = 0//"normal"
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m545
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m545
 	fire_sound = 'stalker/sound/weapons/ak74_shot.ogg'
 	can_suppress = 1
 	can_unsuppress = 1
@@ -886,7 +886,7 @@
 	inhand_icon_state = "aksu74"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m545
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m545
 	fire_sound = 'stalker/sound/weapons/ak74u_shot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
@@ -911,7 +911,7 @@
 	inhand_icon_state = "ak74-green"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m545
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m545
 	fire_sound = 'stalker/sound/weapons/ak74u_shot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
@@ -937,7 +937,7 @@
 	colored = 0//"normal"
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/fnfal
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/fnfal
 	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
 	can_suppress = 1
 	can_unsuppress = 1
@@ -963,7 +963,7 @@
 	colored = 0//"normal"
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/fnfal
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/fnfal
 	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
 	can_suppress = 1
 	can_unsuppress = 1
@@ -988,7 +988,7 @@
 	inhand_icon_state = "famas"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	fire_sound = 'stalker/sound/weapons/il86_shoot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
@@ -1014,7 +1014,7 @@
 	inhand_icon_state = "aug"
 	slot_flags = ITEM_SLOT_BACK
 	fire_sound = 'stalker/sound/weapons/sigsg550_shoot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	can_suppress = 0
 	slowdown = 0.15
 	durability = 125
@@ -1041,7 +1041,7 @@
 	inhand_icon_state = "akm"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/akm
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/akm
 	fire_sound = 'stalker/sound/weapons/akm_shot.ogg'
 	can_suppress = 0
 	burst_size = 3
@@ -1062,7 +1062,7 @@
 	inhand_icon_state = "vz58"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/vz58
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/vz58
 	fire_sound = 'stalker/sound/weapons/vz58_shot.ogg'
 	can_suppress = 0
 	burst_size = 3
@@ -1083,7 +1083,7 @@
 	inhand_icon_state = "m16"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
 	can_suppress = 1
 	burst_size = 3
@@ -1106,7 +1106,7 @@
 	inhand_icon_state = "m16a4"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
 	can_suppress = 1
 	burst_size = 3
@@ -1128,7 +1128,7 @@
 	icon_state = "m14"
 	inhand_icon_state = "m14"
 	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m14
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m14
 	can_suppress = 0
 	slot_flags = ITEM_SLOT_BACK
 	durability = 75
@@ -1149,7 +1149,7 @@
 	icon_state = "m4"
 	inhand_icon_state = "m4"
 	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	can_suppress = 1
 	slot_flags = ITEM_SLOT_BACK
 	durability = 75
@@ -1172,7 +1172,7 @@
 	inhand_icon_state = "m16"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
 	can_suppress = 0
 	burst_size = 3
@@ -1197,7 +1197,7 @@
 	draw_sound = 'stalker/sound/weapons/draw/mp5_draw.ogg'
 	load_sound = 'stalker/sound/weapons/load/mp5_load.ogg'
 	eject_sound = 'stalker/sound/weapons/unload/mp5_open.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/scarh
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/scarh
 	slowdown = 0.15
 	force = 15
 	can_suppress = 1
@@ -1219,7 +1219,7 @@
 	inhand_icon_state = "ak74"
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m545
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m545
 	fire_sound = 'stalker/sound/weapons/ak74_shot.ogg'
 	slowdown = 0.15
 	burst_size = 3
@@ -1241,7 +1241,7 @@
 	icon_state = "mp5"
 	inhand_icon_state = "arg"
 	fire_sound = 'stalker/sound/weapons/mp5_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m9x19mp5
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x19mp5
 	can_suppress = 1
 	burst_size = 3
 	fire_delay = 1.25
@@ -1264,7 +1264,7 @@
 	icon_state = "kiparis"
 	inhand_icon_state = "arg"
 	fire_sound = 'stalker/sound/weapons/fort_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/kiparis
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/kiparis
 	can_suppress = 1
 	burst_size = 2
 	fire_delay = 1
@@ -1286,7 +1286,7 @@
 	icon_state = "ppsh"
 	inhand_icon_state = "arg"
 	fire_sound = 'stalker/sound/weapons/ppsh_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/ppsh
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/ppsh
 	can_suppress = 0
 	burst_size = 5
 	fire_delay = 1.2
@@ -1309,7 +1309,7 @@
 	icon_state = "berettam38"
 	inhand_icon_state = "berettam38"
 	fire_sound = 'stalker/sound/weapons/berettam38_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/berettam38
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/berettam38
 	can_suppress = 0
 	burst_size = 3
 	fire_delay = 1.7
@@ -1331,7 +1331,7 @@
 	desc = "An incredibly odd, albeit effecient, submachine gun. Chambered in FN 5.7×28mm."
 	icon_state = "p90"
 	inhand_icon_state = "arg"
-	mag_type = /obj/item/ammo_box/magazine/smg57
+	accepted_magazine_type = /obj/item/ammo_box/magazine/smg57
 	fire_delay = 0.8
 	can_suppress = 1
 	burst_size = 3
@@ -1359,7 +1359,7 @@
 	inhand_icon_state = "tpc301"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	fire_sound = 'stalker/sound/weapons/tpc301_shoot.ogg'
 	can_suppress = 1
 	burst_size = 3
@@ -1384,7 +1384,7 @@
 	inhand_icon_state = "abakan"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m545
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m545
 	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
@@ -1410,7 +1410,7 @@
 	inhand_icon_state = "il86"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	fire_sound = 'stalker/sound/weapons/il86_shoot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
@@ -1439,7 +1439,7 @@
 	inhand_icon_state = "sigsg550"
 	slot_flags = ITEM_SLOT_BACK
 	fire_sound = 'stalker/sound/weapons/sigsg550_shoot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	can_suppress = 0
 	slowdown = 0.15
 	durability = 125
@@ -1463,7 +1463,7 @@
 	inhand_icon_state = "gp37"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	fire_sound = 'stalker/sound/weapons/il86_shoot.ogg'
 	can_suppress = 1
 	slowdown = 0.15
@@ -1492,7 +1492,7 @@
 	inhand_icon_state = "fnf2000"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	fire_sound = 'stalker/sound/weapons/fnf2000_shoot.ogg'
 	can_suppress = 0
 	slowdown = 0.15
@@ -1518,7 +1518,7 @@
 	inhand_icon_state = "fnf2000s"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/m556x45
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m556x45
 	fire_sound = 'stalker/sound/weapons/fnf2000_shoot.ogg'
 	can_suppress = 0
 	slowdown = 0.15
@@ -1548,7 +1548,7 @@
 	inhand_icon_state = "l6closedmag"
 	w_class = 5
 	slot_flags = ITEM_SLOT_BACK
-	mag_type = /obj/item/ammo_box/magazine/stalker/pkm
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/pkm
 	weapon_weight = WEAPON_HEAVY
 	fire_sound = 'stalker/sound/weapons/pkm_shot.ogg'
 	can_suppress = 0
@@ -1569,7 +1569,7 @@
 /obj/item/gun/ballistic/automatic/l6_saw/pkm/shottie
    name = "PTV M-777"
    desc = "Petrovich's personal weapon. Huyarit is like a zalupa."
-   mag_type = /obj/item/ammo_box/magazine/stalker/pkm/shottie
+   accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/pkm/shottie
 
 ///////////////////////////// Sniper Rifles //////////////////////////////////////////
 /obj/item/gun/ballistic/automatic/val  // Вал
@@ -1578,7 +1578,7 @@
 	icon_state = "val"
 	inhand_icon_state = "val"
 	fire_sound = 'stalker/sound/weapons/vintorez_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/sp9x39val
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sp9x39val
 	suppressed = 1
 	can_suppress = 0
 	can_unsuppress = 0
@@ -1606,7 +1606,7 @@
 	icon_state = "vintorez"
 	inhand_icon_state = "vintorez"
 	fire_sound = 'stalker/sound/weapons/vintorez_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/sp9x39vint
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sp9x39vint
 	suppressed = 1
 	can_suppress = 0
 	can_unsuppress = 0
@@ -1637,7 +1637,7 @@
 	icon_state = "svd"
 	inhand_icon_state = "svd"
 	fire_sound = 'stalker/sound/weapons/abakan_shoot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/svd
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/svd
 	can_suppress = 0
 	can_unsuppress = 0
 	slowdown = 0.15
@@ -1665,7 +1665,7 @@
 	icon_state = "groza"
 	inhand_icon_state = "groza"
 	fire_sound = 'stalker/sound/weapons/groza_shot.ogg'
-	mag_type = /obj/item/ammo_box/magazine/stalker/sp9x39groza
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/sp9x39groza
 	can_suppress = 0
 	slowdown = 0.15
 	durability = 125
@@ -1698,7 +1698,7 @@
 	colored = 0//"normal"
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
 	force = 15
-	mag_type = /obj/item/ammo_box/magazine/stalker/gaussbattery
+	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/gaussbattery
 	fire_sound = 'stalker/sound/weapons/gauss_shoot.ogg'
 	can_suppress = 0
 	can_unsuppress = 0
