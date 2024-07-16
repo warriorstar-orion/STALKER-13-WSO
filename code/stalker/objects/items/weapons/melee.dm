@@ -9,7 +9,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	//butcher_speed = 1
 
 /obj/item/kitchen/knife/bayonet
@@ -23,7 +23,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	bayonet = TRUE
 	//butcher_speed = 1.25
 
@@ -40,7 +40,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb = list("penetrated", "stabbed", "skewered", "pierced")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 
 /obj/item/kitchen/knife/machete
 	name = "machete"
@@ -56,7 +56,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/machete2
@@ -73,7 +73,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/machete3
@@ -90,7 +90,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/machete4
@@ -107,7 +107,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/foreignsabre
@@ -124,7 +124,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/rapier0
@@ -141,7 +141,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
 	attack_verb = list("attacked", "stabbed", "penetrated", "pierced")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/sickle
@@ -158,7 +158,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
 	attack_verb = list("attacked", "stabbed", "penetrated", "pierced")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
 /obj/item/kitchen/knife/trench
@@ -175,7 +175,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
@@ -193,7 +193,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
@@ -211,7 +211,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
@@ -229,7 +229,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
@@ -247,7 +247,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 //	bayonet = TRUE
 
 
@@ -265,7 +265,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/hydroponics_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
 /obj/item/hatchet/woodhatchet
@@ -282,7 +282,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/hydroponics_righthand.dmi'
 	hitsound = 'sound/weapons/knifeswing.ogg'
 	attack_verb = list("attacked", "stabbed", "torn", "ripped")
-	sharpness = IS_SHARP_ACCURATE
+	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
 /obj/item/melee/halliganbar
@@ -299,7 +299,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
 	attack_verb = list("attacked", "smacked", "beat", "bludgened")
-	sharpness = IS_BLUNT
+	sharpness = NONE
 
 /obj/item/melee/largewrench
 	name = "large wrench"
@@ -315,7 +315,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
 	attack_verb = list("attacked", "smacked", "beat", "bludgened")
-	sharpness = IS_BLUNT
+	sharpness = NONE
 
 /obj/item/melee/redwrench
 	name = "large wrench"
@@ -331,7 +331,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
 	attack_verb = list("attacked", "smacked", "beat", "bludgened")
-	sharpness = IS_BLUNT
+	sharpness = NONE
 
 /obj/item/melee/tireiron
 	name = "tire iron"
@@ -347,7 +347,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
 	attack_verb = list("attacked", "smacked", "beat", "bludgened")
-	sharpness = IS_BLUNT
+	sharpness = NONE
 
 /obj/item/melee/tireiron2
 	name = "tire iron"
@@ -363,7 +363,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
 	attack_verb = list("attacked", "smacked", "beat", "bludgened")
-	sharpness = IS_BLUNT
+	sharpness = NONE
 
 /obj/item/melee/pipe
 	name = "metal pipe"
@@ -379,7 +379,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
 	attack_verb = list("attacked", "smacked", "beat", "bludgened")
-	sharpness = IS_BLUNT
+	sharpness = NONE
 
 /obj/item/melee/pipe2
 	name = "metal pipe"
@@ -394,7 +394,7 @@
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
 	hitsound = 'sound/weapons/bluntswing.ogg'
 	attack_verb = list("attacked", "smacked", "beat", "bludgened")
-	sharpness = IS_BLUNT
+	sharpness = NONE
 
 /obj/item/melee/baseball_bat/nail
 	name = "nail bat"
