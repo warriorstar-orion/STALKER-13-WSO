@@ -124,7 +124,7 @@ Assistant
 	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/army
 	ears = null
-	belt = /obj/item/weapon/kitchen/knife/hunting
+	belt = /obj/item/knife/hunting
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/desert

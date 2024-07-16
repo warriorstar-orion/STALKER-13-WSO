@@ -167,7 +167,7 @@ Assistant
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
 	r_pocket = /obj/item/twohanded/binoculars
-	r_hand = /obj/item/weapon/kitchen/knife/hunting
+	r_hand = /obj/item/knife/hunting
 	l_hand = pick(/obj/item/flashlight/lantern,
 				/obj/item/flashlight/seclite,
 				/obj/item/flashlight,
@@ -188,7 +188,7 @@ Assistant
 	suit = /obj/item/clothing/suit/hooded/kombez
 	ears = null
 	id = /obj/item/stalker_pda
-	belt = /obj/item/weapon/kitchen/knife/hunting
+	belt = /obj/item/knife/hunting
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/ammo_box/stalker/b545 = 1, /obj/item/ammo_box/magazine/stalker/m545 = 2, /obj/item/storage/firstaid/ai2 = 1, /obj/item/stack/spacecash/c5000 = 1, /obj/item/flashlight/seclite = 1,/obj/item/storage/firstaid/ai2)

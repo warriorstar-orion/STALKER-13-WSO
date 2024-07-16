@@ -80,12 +80,12 @@ Assistant
 		/obj/item/clothing/mask/bandana/skull,
 		/obj/item/cigarette/rollie/cannabis,
 		/obj/item/clothing/mask/bandana/black,
-		/obj/item/clothing/mask/pig,
+		/obj/item/clothing/mask/animal/pig,
 		/obj/item/clothing/mask/balaclava)
 	id = /obj/item/stalker_pda
 	belt = pick(
 		/obj/item/kitchen/knife/tourist,
-		/obj/item/kitchen/knife/butcher,
+		/obj/item/knife/butcher,
 		/obj/item/crowbar/large)
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
@@ -113,7 +113,7 @@ Assistant
 		/obj/item/clothing/mask/balaclava)
 	id = /obj/item/stalker_pda
 	belt = pick(
-		/obj/item/kitchen/knife/butcher,
+		/obj/item/knife/butcher,
 		/obj/item/crowbar/large)
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm

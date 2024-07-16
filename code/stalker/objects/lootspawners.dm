@@ -456,7 +456,7 @@
 	name = "stalker melee"
 	icon_state = "melee_loot"
 	loot = list(/obj/item/kitchen/knife = 20,
-				/obj/item/kitchen/knife/butcher = 10,
+				/obj/item/knife/butcher = 10,
 				/obj/item/kitchen/knife/tourist = 10,
 				/obj/item/melee/tireiron = 10,
 				/obj/item/melee/tireiron2 = 10,
@@ -483,7 +483,7 @@
 	loot = list(/obj/item/kitchen/knife/machete	 = 20,
 				/obj/item/kitchen/knife/throwing = 20,
 				/obj/item/kitchen/knife/machete2 = 15,
-				/obj/item/weapon/kitchen/knife/hunting = 15,
+				/obj/item/knife/hunting = 15,
 				/obj/item/weapon/kitchen/knife/m9 = 5,
 				/obj/nothing = 20)
 

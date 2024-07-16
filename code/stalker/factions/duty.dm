@@ -145,7 +145,7 @@ Assistant
 		/obj/item/cigarette/cigar/havana,
 		/obj/item/clothing/mask/bandana/black)
 	ears = null
-	belt = /obj/item/weapon/kitchen/knife/hunting
+	belt = /obj/item/knife/hunting
 	gloves = /obj/item/clothing/gloves/color/black
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/duty

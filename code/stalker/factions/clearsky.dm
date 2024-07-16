@@ -90,7 +90,7 @@ Assistant
 	suit = /obj/item/clothing/suit/cs_heavy
 	suit_store = /obj/item/gun/ballistic/automatic/mp5
 	ears = null
-	belt = /obj/item/weapon/kitchen/knife/hunting
+	belt = /obj/item/knife/hunting
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/stalker/tourist

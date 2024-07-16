@@ -107,7 +107,7 @@
 		/obj/item/clothing/mask/gas,
 		/obj/item/clothing/mask/bandana/green)
 	ears = null
-	belt = /obj/item/weapon/kitchen/knife/hunting
+	belt = /obj/item/knife/hunting
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/stalker/civilian

@@ -91,8 +91,8 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		new /datum/data/stalker_equipment("Kitchen Knife",		"Kitchen Knife",			/obj/item/kitchen/knife,												1500,	ROOKIE, initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Tourist Knife",		"Tourist Knife",			/obj/item/kitchen/knife/tourist,										4000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Bayonet",			"Bayonet",					/obj/item/kitchen/knife/bayonet,										7000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Butcher's Cleaver",	"Butcher's Cleaver",		/obj/item/kitchen/knife/butcher,										10000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Hunting Knife",		"Hunting Knife",			/obj/item/weapon/kitchen/knife/hunting,									15000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Butcher's Cleaver",	"Butcher's Cleaver",		/obj/item/knife/butcher,										10000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Hunting Knife",		"Hunting Knife",			/obj/item/knife/hunting,									15000,	ROOKIE, initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("M9 Bayonet",			"M9 Bayonet",				/obj/item/weapon/kitchen/knife/m9,										25000,	ROOKIE, initial_stock = SMG_AMOUNT)
 		),
 

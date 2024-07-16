@@ -32,7 +32,7 @@
 //	id = /obj/item/stalker_pda
 //	belt = pick(
 //		/obj/item/kitchen/knife/tourist,
-//		/obj/item/kitchen/knife/butcher,
+//		/obj/item/knife/butcher,
 //		/obj/item/crowbar/large)
 //	gloves = /obj/item/clothing/gloves/fingerless
 //	shoes = /obj/item/clothing/shoes/jackboots/warm

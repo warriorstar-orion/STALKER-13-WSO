@@ -1616,7 +1616,7 @@
 /area/stalker/blowout/outdoor/backwater)
 "agc" = (
 /obj/structure/table/stalker,
-/obj/item/kitchen/knife/butcher,
+/obj/item/knife/butcher,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/shevchenko)
 "agd" = (
@@ -3405,7 +3405,7 @@
 /area/stalker/blowout/buildings/backwater/ironforest)
 "amm" = (
 /obj/structure/table/stalker,
-/obj/item/kitchen/knife/butcher,
+/obj/item/knife/butcher,
 /obj/machinery/light/small/broken,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
