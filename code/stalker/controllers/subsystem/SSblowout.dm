@@ -148,7 +148,7 @@ SUBSYSTEM_DEF(blowout)
 		if(!zomboid.inshelter)
 			zomboid.apply_damage(200, PSY)
 		*/
-		if(zomboid.has_trait(TRAIT_BLOWOUT_IMMUNE))
+		if(HAS_TRAIT(zomboid, TRAIT_BLOWOUT_IMMUNE))
 			continue
 		to_chat(zomboid, "<big><span class='warning'>You have succumbed to the zone!</big></span>")
 		new /mob/living/simple_animal/hostile/mutant/zombiesimp(zomboid.loc)

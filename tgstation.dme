@@ -6337,6 +6337,7 @@
 #include "code\stalker\_extensions\game\area\areas.dm"
 #include "code\stalker\_extensions\game\objs\objs.dm"
 #include "code\stalker\_extensions\modules\jobs\job_types\_job.dm"
+#include "code\stalker\_extensions\modules\mob\mob_defines.dm"
 #include "code\stalker\_extensions\modules\mob\living\carbon\carbon_defines.dm"
 #include "code\stalker\_extensions\modules\mob\living\simple_animal\simple_animal.dm"
 #include "code\stalker\_extensions\modules\projectiles\gun.dm"

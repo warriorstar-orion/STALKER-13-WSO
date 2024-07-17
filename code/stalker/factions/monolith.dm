@@ -42,7 +42,7 @@
 
 /datum/outfit/job/monolith/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
-	H.add_trait(TRAIT_BLOWOUT_IMMUNE, TRAIT_GENERIC)
+	ADD_TRAIT(H, TRAIT_BLOWOUT_IMMUNE, TRAIT_GENERIC)
 	H.grant_language(/datum/language/german, body = FALSE)
 	H.grant_language(/datum/language/english, body = FALSE)
 	H.grant_language(/datum/language/russian, body = FALSE)
@@ -113,7 +113,7 @@
 
 /datum/outfit/job/monolith_hegumen/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
-	H.add_trait(TRAIT_BLOWOUT_IMMUNE, ROUNDSTART_TRAIT)
+	ADD_TRAIT(H, TRAIT_BLOWOUT_IMMUNE, ROUNDSTART_TRAIT)
 	H.grant_language(/datum/language/german, body = FALSE)
 	H.grant_language(/datum/language/english, body = FALSE)
 	H.grant_language(/datum/language/russian, body = FALSE)

@@ -3,7 +3,9 @@
 	name = "Strange Location"
 	icon_state = "away"
 	has_gravity = STANDARD_GRAVITY
-	dynamic_lighting = DYNAMIC_LIGHTING_FORCED
+	static_lighting = FALSE
+	base_lighting_alpha = 255
+	base_lighting_color = COLOR_WHITE
 
 /area/stalker/blowout
 	ambient_environment = DEFAULT_AMBIENT_ENVIRONMENT_DAY
@@ -305,7 +307,7 @@
 /area/stalker/cave
 	name = "Cave"
 	icon_state = "tunnel"
-	dynamic_lighting = DYNAMIC_LIGHTING_ENABLED
+	static_lighting = FALSE
 	requires_power = 1
 	environment = 8
 

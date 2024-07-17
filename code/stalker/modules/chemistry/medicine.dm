@@ -15,16 +15,16 @@
 /datum/reagent/medicine/anabiotic/on_mob_add(mob/living/L)
 	..()
 	if(SSblowout.isblowout)
-		L.add_trait(TRAIT_DEATHCOMA, id)
-		L.add_trait(TRAIT_BLOWOUT_IMMUNE, id)
+		ADD_TRAIT(L, TRAIT_DEATHCOMA, id)
+		ADD_TRAIT(L, TRAIT_BLOWOUT_IMMUNE, id)
 	else
 		to_chat(L, "<span class = 'notice'>You don't feel any effect.</span>")
 		return FALSE
 
 /datum/reagent/medicine/anabiotic/on_mob_delete(mob/living/L)
-	if(L.has_trait(TRAIT_DEATHCOMA) && L.has_trait(TRAIT_BLOWOUT_IMMUNE))
-		L.remove_trait(TRAIT_DEATHCOMA, id)
-		L.remove_trait(TRAIT_BLOWOUT_IMMUNE, id)
+	if(HAS_TRAIT(L, TRAIT_DEATHCOMA) && HAS_TRAIT(L, TRAIT_BLOWOUT_IMMUNE))
+		REMOVE_TRAIT(L, TRAIT_DEATHCOMA, id)
+		REMOVE_TRAIT(L, TRAIT_BLOWOUT_IMMUNE, id)
 	..()
 
 // Indraline (Radioprotectant) offers a signifiant amount of radiation protection to players. Unlike anti-rad, it does not purge radiation.
@@ -38,10 +38,10 @@
 
 /datum/reagent/medicine/indraline/on_mob_add(mob/living/L)
 	..()
-	L.add_trait(TRAIT_RADIMMUNE, id)
+	ADD_TRAIT(L, TRAIT_RADIMMUNE, id)
 
 /datum/reagent/medicine/indraline/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_RADIMMUNE, id)
+	REMOVE_TRAIT(L, TRAIT_RADIMMUNE, id)
 	..()
 
 // Viksolum is a powerful alternative to bandages. Although rare, it offers superior bleeding suppression.
@@ -322,10 +322,10 @@
 
 /datum/reagent/medicine/ai2radioprotectant/on_mob_add(mob/living/L)
 	..()
-	L.add_trait(TRAIT_RADIMMUNE, id)
+	ADD_TRAIT(L, TRAIT_RADIMMUNE, id)
 
 /datum/reagent/medicine/ai2radioprotectant/on_mob_delete(mob/living/L)
-	L.remove_trait(TRAIT_RADIMMUNE, id)
+	REMOVE_TRAIT(L, TRAIT_RADIMMUNE, id)
 	..()
 
 // AI-2 Strawberry Bottle | Anti-Rad | Does the job poorly
