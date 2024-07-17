@@ -265,7 +265,7 @@
 		else
 			spawned_loot.Remove(I)
 
-	return clamp(lootcount - count, 0, lootcount)
+	return clamp(spawn_loot_count - count, 0, spawn_loot_count)
 
 
 /obj/effect/spawner/random/stalker/proc/RandomMove(spawned)
