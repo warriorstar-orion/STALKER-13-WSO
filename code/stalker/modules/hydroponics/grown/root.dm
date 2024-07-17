@@ -46,3 +46,40 @@
 	bite_consumption_mod = 2
 	foodtypes = VEGETABLES
 	wine_power = 40
+
+/obj/item/seeds/carrot/zona
+	name = "pack of mutant carrot seeds"
+	desc = "These seeds grow into carrots."
+	icon_state = "seed-carrot"
+	species = "zona carrot"
+	plantname = "Carrots"
+	product = /obj/item/food/grown/carrot/zona
+	maturation = 10
+	production = 1
+	yield = 5
+	growthstages = 3
+	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
+	mutatelist = list(/obj/item/seeds/carrot/parsnip)
+	reagents_add = list("oculine" = 0.25, "vitamin" = 0.04, "nutriment" = 0.05, "uranium" = 0.25)
+
+/obj/item/food/grown/carrot/zona
+	seed = /obj/item/seeds/carrot/zona
+	name = "decrepit carrot"
+	desc = "It's good for the eyes! This one seems sickly."
+	icon_state = "zonacarrot"
+	filling_color = "#FFA500"
+	bitesize_mod = 2
+	foodtype = VEGETABLES
+	juice_results = list("carrotjuice" = 0)
+	wine_power = 30
+
+// TODO(wso): Sorry, carrot shivs will come later
+// /obj/item/food/grown/carrot/zona/attackby(obj/item/I, mob/user, params)
+// 	if(I.is_sharp())
+// 		to_chat(user, "<span class='notice'>You sharpen the carrot into a shiv with [I].</span>")
+// 		var/obj/item/kitchen/knife/carrotshiv/Shiv = new /obj/item/kitchen/knife/carrotshiv
+// 		remove_item_from_storage(user)
+// 		qdel(src)
+// 		user.put_in_hands(Shiv)
+// 	else
+// 		return ..()

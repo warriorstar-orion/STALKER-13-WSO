@@ -39,3 +39,8 @@
 	desc = "The pack is a white and red with the brand name in the middle. It seems quite stale and smells old."
 	icon_state = "luckystrikes"
 	spawn_type = /obj/item/cigarette/luckystrikes
+
+/obj/item/storage/fancy/cigarettes/cigpack_maxim
+	name = "\improper Ancient Soviet cigarette packet"
+	desc = "An absolutely decrepid box of ancient cigarettes."
+	icon_state = "cig"

@@ -539,7 +539,7 @@
 
 /sidoritem/cigars
 	name = "cigars"
-	itemtype = /obj/item/weapon/storage/fancy/cigarettes/cigpack/maxim
+	itemtype = /obj/item/weapon/storage/fancy/cigarettes/cigpack_maxim
 	cost = 200
 	words = list("Cigarettes" = 5, "cigarettes" = 5, "Cigarettes" = 5, "cigarettes" = 5)
 

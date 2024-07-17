@@ -122,29 +122,29 @@
 	if (prob(15))
 		new /obj/structure/flora/bush/sunny/style_random(get_turf(src))
 	if (prob(15))
-		new /obj/structure/flora/ausbushes/wildplant/root(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_potato(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_potato(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_tato(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_tato(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/wild_fungus(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/wild_fungus(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/wild_berries(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/wild_berries(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/wild_bayleaf(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/wild_bayleaf(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_carrot(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_carrot(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_parsnip(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_parsnip(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_whitebeet(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_whitebeet(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_redbeet(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_redbeet(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_onion(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_onion(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_garlic(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_garlic(get_turf(src))
 
 /turf/open/stalker/floor/digable/grass/dump
 	icon = 'icons/stalker/zemlya.dmi'
@@ -220,29 +220,29 @@
 	if (prob(15))
 		new /obj/structure/flora/bush/leavy/style_random(get_turf(src))
 	if (prob(15))
-		new /obj/structure/flora/ausbushes/wildplant/root(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_potato(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_potato(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_tato(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_tato(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/wild_fungus(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/wild_fungus(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/wild_berries(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/wild_berries(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/wild_bayleaf(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/wild_bayleaf(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_carrot(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_carrot(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_parsnip(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_parsnip(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_whitebeet(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_whitebeet(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_redbeet(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_redbeet(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_onion(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_onion(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/root/wild_garlic(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root/wild_garlic(get_turf(src))
 
 var/global/list/AsphaltEdgeCache
 
@@ -271,7 +271,8 @@ var/global/list/AsphaltEdgeCache
 	name = "road"
 	icon = 'icons/stalker/tropa.dmi'
 	icon_state = "tropa"
-	layer = ABOVE_MID_TURF_LAYER
+	// TODO(wso): Double check this
+	layer = ABOVE_NORMAL_TURF_LAYER
 	//overlay_priority = 2
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
@@ -339,7 +340,8 @@ var/global/list/WhiteRoadCache
 	name = "dirt"
 	icon = 'icons/stalker/zemlya.dmi'
 	icon_state = "gryaz1"
-	layer = ABOVE_ABOVE_MID_TURF_LAYER
+	// TODO(wso): Double check this
+	layer = ABOVE_NORMAL_TURF_LAYER
 	//overlay_priority = 4
 	footstep = FOOTSTEP_GRASS
 	barefootstep = FOOTSTEP_GRASS
@@ -370,11 +372,11 @@ var/global/list/GryazEdgeCache
 /turf/open/stalker/floor/gryaz/Initialize()
 	..()
 	if (prob(15))
-		new /obj/structure/flora/ausbushes/wildplant/root(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/root(get_turf(src))
 	if (prob(15))
 		new /obj/structure/flora/bush/sparsegrass/style_random(get_turf(src))
 	if (prob(1))
-		new /obj/structure/flora/ausbushes/wildplant/wild_fungus(get_turf(src))
+		new /obj/structure/flora/bush/wildplant/wild_fungus(get_turf(src))
 
 /turf/open/stalker/floor/gryaz/gryaz2
 	icon_state = "gryaz2"
