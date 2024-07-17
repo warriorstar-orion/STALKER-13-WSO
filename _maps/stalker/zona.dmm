@@ -5695,7 +5695,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "auu" = (
-/obj/structure/bookcase/manuals/medical,
+/obj/structure/bookcase,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "auv" = (

@@ -5400,7 +5400,7 @@
 /turf/open/floor/plating/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "vg" = (
-/obj/structure/bookcase/manuals/medical,
+/obj/structure/bookcase,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/ironforest)
 "vh" = (

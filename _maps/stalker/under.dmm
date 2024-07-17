@@ -868,7 +868,7 @@
 /turf/open/floor/carpet,
 /area/stalker/buildings/clearsky)
 "dr" = (
-/obj/structure/bookcase/manuals/medical,
+/obj/structure/bookcase,
 /turf/open/floor/carpet,
 /area/stalker/buildings/clearsky)
 "ds" = (
@@ -2543,7 +2543,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "jc" = (
-/obj/structure/bookcase/manuals/medical,
+/obj/structure/bookcase,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "jd" = (
