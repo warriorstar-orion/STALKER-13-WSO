@@ -102,10 +102,8 @@ var/id_ = 0
 	desc = "You shouldn't see this."
 
 /datum/data/modification/clothing/AffectEquipment(var/obj/item/I)
-	//I.armor = getArmor(arglist(I.armor))
-	add_armor = getArmor(arglist(add_armor))
-	I.armor = I.armor.attachArmor(add_armor)
-	//I.modifications += src.id
+	add_armor = I.get_armor(arglist(add_armor))
+	I.set_armor(add_armor)
 	return ..(I)
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////МОДИФИКАЦИИ ШЛЕМОВ (и масок)///////////////////////////////////////////
