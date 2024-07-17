@@ -7535,8 +7535,8 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "DV" = (
-/obj/item/throwing_star/ninja,
-/obj/item/throwing_star/ninja,
+/obj/item/throwing_star,
+/obj/item/throwing_star,
 /obj/structure/stalker/cacheable/body,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
@@ -7658,7 +7658,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "Go" = (
 /obj/structure/chair/sofa,
-/obj/item/throwing_star/ninja,
+/obj/item/throwing_star,
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
 "Gs" = (
@@ -7846,7 +7846,7 @@
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
 "IF" = (
-/obj/item/throwing_star/ninja,
+/obj/item/throwing_star,
 /obj/structure/stalker/cacheable/body,
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
@@ -8242,7 +8242,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
 "MZ" = (
-/obj/item/throwing_star/ninja,
+/obj/item/throwing_star,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
 "Nd" = (
@@ -8451,7 +8451,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
 "PY" = (
-/obj/item/throwing_star/ninja,
+/obj/item/throwing_star,
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
 "Qg" = (
@@ -8543,8 +8543,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker)
 "Rk" = (
-/obj/item/throwing_star/ninja,
-/obj/item/throwing_star/ninja,
+/obj/item/throwing_star,
+/obj/item/throwing_star,
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
 "Rp" = (
@@ -8636,8 +8636,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker)
 "Sf" = (
-/obj/item/throwing_star/ninja,
-/obj/item/throwing_star/ninja,
+/obj/item/throwing_star,
+/obj/item/throwing_star,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
 "Sm" = (
@@ -8666,7 +8666,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
 "SI" = (
-/obj/item/throwing_star/ninja,
+/obj/item/throwing_star,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "SL" = (
@@ -8979,8 +8979,8 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
 "Xd" = (
-/obj/item/throwing_star/ninja,
-/obj/item/throwing_star/ninja,
+/obj/item/throwing_star,
+/obj/item/throwing_star,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "Xe" = (
