@@ -71,7 +71,7 @@
 /area/stalker/buildings/mercenary)
 "ay" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
@@ -736,7 +736,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "fS" = (
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/mercenary)
 "fU" = (
@@ -1130,7 +1130,7 @@
 /area/stalker/buildings/mercenary)
 "jp" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/mercenary)
 "jr" = (
@@ -2815,7 +2815,7 @@
 /area/stalker/blowout/outdoor)
 "wq" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "ws" = (
@@ -5948,7 +5948,7 @@
 "UO" = (
 /obj/structure/chair/brevno/log2,
 /obj/item/food/stalker/kolbasa,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "UP" = (

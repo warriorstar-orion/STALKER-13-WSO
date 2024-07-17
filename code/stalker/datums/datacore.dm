@@ -12,9 +12,6 @@ var/sid_generator = 0
 	var/locked[] = list()
 	var/stalkers[] = list()
 
-/datum/data
-	var/name = "data"
-
 /datum/data/record
 	name = "record"
 	var/list/fields = list()

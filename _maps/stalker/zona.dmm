@@ -1337,7 +1337,7 @@
 /area/stalker/blowout/buildings/backwater)
 "afp" = (
 /obj/structure/closet,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/item/stalker/bolts,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ranger)
@@ -1841,7 +1841,7 @@
 /area/stalker/buildings/backwater/skadovsk)
 "agJ" = (
 /obj/structure/closet,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/shevchenko)
 "agK" = (
@@ -3359,7 +3359,7 @@
 /area/stalker/blowout/buildings/backwater/ironforest)
 "amg" = (
 /obj/structure/closet,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/item/reagent_containers/condiment/milk,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
@@ -4875,7 +4875,7 @@
 /area/stalker/blowout/buildings/backwater)
 "arH" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /turf/open/stalker/floor/wood/oldvert,
@@ -12127,7 +12127,7 @@
 /area/stalker)
 "aQf" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker)
 "aQg" = (
@@ -12167,7 +12167,7 @@
 "aQm" = (
 /obj/structure/table/stalker/wood,
 /obj/item/food/stalker/baton,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker)
 "aQn" = (
@@ -13257,7 +13257,7 @@
 "aSM" = (
 /obj/structure/chair/brevno/log2,
 /obj/item/food/stalker/kolbasa,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "aSN" = (
@@ -13988,7 +13988,7 @@
 "aUS" = (
 /obj/structure/table/stalker/wood,
 /obj/item/food/stalker/kolbasa,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "aUT" = (
@@ -14852,9 +14852,9 @@
 /obj/item/food/stalker/kolbasa,
 /obj/item/food/stalker/kolbasa,
 /obj/item/food/stalker/kolbasa,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/structure/closet,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings/kordon/banditbar)
@@ -15204,7 +15204,7 @@
 "aXH" = (
 /obj/structure/table/stalker/wood,
 /obj/item/instrument/guitar,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "aXI" = (
@@ -15273,8 +15273,8 @@
 "aXT" = (
 /obj/structure/table/stalker/wood,
 /obj/item/food/stalker/baton,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "aXU" = (
@@ -15304,7 +15304,7 @@
 "aXY" = (
 /obj/structure/chair/brevno/log2,
 /obj/item/food/stalker/kolbasa,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/svalka/buildings)
 "aXZ" = (
@@ -15509,7 +15509,7 @@
 "aYF" = (
 /obj/structure/table/stalker/wood,
 /obj/item/shovel,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/svalka/buildings)
 "aYG" = (
@@ -19702,7 +19702,7 @@
 /area/stalker/blowout/buildings)
 "bmm" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "bmn" = (
@@ -20193,8 +20193,8 @@
 /area/stalker/buildings/bar/city)
 "bnJ" = (
 /obj/structure/closet,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
@@ -21644,7 +21644,7 @@
 /area/stalker/buildings/backwater/skadovsk)
 "brZ" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/vodka/badminka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
 /obj/item/food/fishandchips,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)

@@ -576,3 +576,8 @@
 /obj/item/trash/binding_material/steelwire1
 	name = "steel wire"
 	icon_state = "steelwire1"
+
+/obj/item/trash/brokenpocketwatch
+	name = "broken pocket watch"
+	icon_state = "brokenpocketwatch"
+

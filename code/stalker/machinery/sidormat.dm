@@ -590,7 +590,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 /datum/data/stalker_equipment/stalker_pda/GetCost(var/obj/item/stalker_pda/KPK)
 	var/cost_ = src.sale_price
 	if(KPK.owner && (KPK.owner.stat == DEAD))
-		var/rank_ = CLAMP(KPK.profile.fields["rating"], ROOKIE, ZONE_LEGEND)
+		var/rank_ = clamp(KPK.profile.fields["rating"], ROOKIE, ZONE_LEGEND)
 		cost_ += GetCostBasedOnReputation(KPK.profile.fields["reputation"])
 		cost_ += rank_*2
 	return cost_

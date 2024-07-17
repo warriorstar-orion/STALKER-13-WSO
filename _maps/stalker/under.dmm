@@ -17,7 +17,7 @@
 "au" = (/obj/structure/chair/wood/normal,/turf/open/stalker/floor/wood/oldgor,/area/stalker/buildings/backwater/burntfarm)
 "av" = (/obj/structure/chair/wood/normal,/obj/structure/stalker/cacheable/cover{pixel_y = 32},/turf/open/stalker/floor/gryaz,/area/stalker/buildings/backwater/burntfarm)
 "aw" = (/turf/open/stalker/floor/gryaz,/area/stalker/buildings/backwater/burntfarm)
-"ax" = (/obj/structure/closet,/obj/item/reagent_containers/food/drinks/bottle/vodka/kazaki,/turf/open/stalker/floor/gryaz,/area/stalker/buildings/backwater/burntfarm)
+"ax" = (/obj/structure/closet,/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,/turf/open/stalker/floor/gryaz,/area/stalker/buildings/backwater/burntfarm)
 "ay" = (/obj/effect/step_trigger/teleporter{icon_state = "up"; teleport_x = 108; teleport_y = 189; teleport_z = 8},/turf/open/floor/plasteel/stairs/medium/stalker,/area/stalker/buildings/backwater/burntfarm)
 "az" = (/turf/open/stalker/floor/plasteel/plitka,/area/stalker/buildings/backwater/ranger)
 "aA" = (/turf/open/floor/plasteel/stairs/left/stalker{dir = 8},/area/stalker/buildings/clearsky)
