@@ -16,3 +16,15 @@
 
 /obj/item/cigarette/laika
 	desc = "A Laika brand cigarette."
+
+/obj/item/cigarette/belomorkanal
+	desc = "An Belomorkanal brand cigarette."
+	list_reagents = list("nicotine" = 13, "menthol" = 5)
+
+/obj/item/cigarette/newports
+	desc = "A Newports brand cigarette."
+	list_reagents = list("nicotine" = 15, "menthol" = 5)
+
+/obj/item/cigarette/soviet_cigarette
+	desc = "An Old Soviet Cigarette brand cigarette."
+	list_reagents = list("nicotine" = 12)

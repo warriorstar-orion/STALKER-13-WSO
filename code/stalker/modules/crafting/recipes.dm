@@ -476,7 +476,7 @@
 /datum/crafting_recipe/food/corned/mutantmeat
 	name = "corned mutant meat"
 	reqs = list(
-		/obj/item/reagent_containers/food/condiment/saltshaker,
+		/obj/item/reagent_containers/condiment/saltshaker,
 		/obj/item/food/meat/steak/mutant = 1,
 		/obj/item/food/grown/cabbage = 2
 	)
@@ -487,7 +487,7 @@
 /datum/crafting_recipe/food/corned/sausage
 	name = "corned sausage"
 	reqs = list(
-		/obj/item/reagent_containers/food/condiment/saltshaker,
+		/obj/item/reagent_containers/condiment/saltshaker,
 		/obj/item/food/stalker/kolbasa = 1,
 		/obj/item/food/grown/cabbage = 2
 	)
@@ -498,7 +498,7 @@
 /datum/crafting_recipe/food/corned/cannedpork
 	name = "corned canned pork"
 	reqs = list(
-		/obj/item/reagent_containers/food/condiment/saltshaker,
+		/obj/item/reagent_containers/condiment/saltshaker,
 		/obj/item/food/stalker/konserva/MREkonserva1 = 1,
 		/obj/item/food/grown/cabbage = 2
 	)
@@ -512,7 +512,7 @@
 /datum/crafting_recipe/food/fermented/sauerkraut
 	name = "jar of sauerkraut"
 	reqs = list(
-		/obj/item/reagent_containers/food/condiment/saltshaker,
+		/obj/item/reagent_containers/condiment/saltshaker,
 		/obj/item/trash/fermentingjar = 1,
 		/obj/item/food/grown/cabbage = 3
 	)
@@ -536,7 +536,7 @@
 /datum/crafting_recipe/food/pashtet/mutantmix
 	name = "mutant mix pashtet"
 	reqs = list(
-		/obj/item/reagent_containers/food/condiment/saltshaker,
+		/obj/item/reagent_containers/condiment/saltshaker,
 		/obj/item/trash/konserva,
 		/obj/item/stalker/loot/mutantparts = 2,
 		/obj/item/food/meat/steak/mutant = 1
@@ -548,7 +548,7 @@
 /datum/crafting_recipe/food/pashtet/mutantmix
 	name = "mutant meat pashtet"
 	reqs = list(
-		/obj/item/reagent_containers/food/condiment/saltshaker,
+		/obj/item/reagent_containers/condiment/saltshaker,
 		/obj/item/trash/konserva,
 		/obj/item/food/meat/steak/mutant = 3
 	)

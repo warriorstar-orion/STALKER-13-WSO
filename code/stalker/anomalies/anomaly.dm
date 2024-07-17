@@ -48,7 +48,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 		if(!loot)
 			return
 
-		var/lootspawn = pickweight(loot)
+		var/lootspawn = pick_weight(loot)
 
 		if(!lootspawn || lootspawn == /obj/nothing)
 			return

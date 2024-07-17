@@ -236,7 +236,7 @@
 		if(!loot.len)
 			return
 
-		var/lootspawn = pickweight(loot)
+		var/lootspawn = pick_weight(loot)
 
 		if(!lootspawn || lootspawn == /obj/nothing)
 			continue
@@ -506,7 +506,7 @@
 	name = "stalker melee tier 2"
 	icon_state = "melee_2hand_loot"
 	loot = list(/obj/item/twohanded/oldaxe = 20,
-				/obj/item/twohanded/fireaxe = 20,
+				/obj/item/fireaxe = 20,
 				/obj/item/twohanded/pitchfork = 20,
 				/obj/item/twohanded/bostaff = 20,
 				/obj/item/twohanded/rake = 20,

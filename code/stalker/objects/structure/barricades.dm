@@ -22,9 +22,9 @@
 
 	if(loot)
 		for(var/i = 0, i < lootcount, i++)
-			var/lootspawn = pickweight(loot)
+			var/lootspawn = pick_weight(loot)
 			new lootspawn(get_turf(src))
-			lootspawn = pickweight(loot)
+			lootspawn = pick_weight(loot)
 
 	qdel(src)
 
