@@ -2301,8 +2301,8 @@
 /area/stalker/buildings)
 "hj" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/clothing/under/suit_jacket/red,
-/obj/item/clothing/under/suit_jacket/burgundy,
+/obj/item/clothing/under/suit/red,
+/obj/item/clothing/under/suit/burgundy,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
@@ -2513,8 +2513,8 @@
 /area/stalker/blowout/outdoor)
 "hQ" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/clothing/under/suit_jacket/tan,
-/obj/item/clothing/under/suit_jacket/female,
+/obj/item/clothing/under/suit/tan,
+/obj/item/clothing/under/suit/black/skirt,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "hR" = (
@@ -9765,8 +9765,8 @@
 /area/stalker/buildings)
 "Fz" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/clothing/under/suit_jacket/navy,
-/obj/item/clothing/under/suit_jacket/white,
+/obj/item/clothing/under/suit/navy,
+/obj/item/clothing/under/suit/white,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
