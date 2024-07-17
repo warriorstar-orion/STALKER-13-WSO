@@ -250,7 +250,8 @@ Assistant
 		/obj/item/clothing/accessory/pocketprotector/full ,
 		/obj/item/clipboard, /obj/item/binoculars,
 		/obj/item/flashlight/pen, /obj/item/hand_labeler,
-		/obj/item/modular_computer/tablet/preset/cheap,
+		// TODO(wso): Who knows if this is actually what they need
+		/obj/item/modular_computer/pda,
 		/obj/item/megaphone,
 		/obj/item/instrument/saxophone,
 		/obj/item/lighter,

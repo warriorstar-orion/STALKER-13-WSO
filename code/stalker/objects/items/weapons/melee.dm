@@ -24,7 +24,8 @@
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
-	bayonet = TRUE
+	// TODO(wso): /datum/component/bayonet_attachable should be enough
+	// bayonet = TRUE
 	//butcher_speed = 1.25
 
 /obj/item/knife/throwing

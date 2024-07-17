@@ -99,7 +99,7 @@
 			return
 
 		if(!Zombo_Gun.magazine || !Zombo_Gun.magazine.stored_ammo.len)
-			if(!ReloadGun() && !istype(target, Zombo_Gun.mag_type))
+			if(!ReloadGun() && !istype(target, Zombo_Gun.accepted_magazine_type))
 				dropItemToGround(Zombo_Gun)
 				FindGun()
 	return
@@ -184,7 +184,7 @@
 			return 1
 	if(isobj(the_target))
 		if(Zombo_Gun)
-			if(the_target.type == Zombo_Gun.mag_type)
+			if(the_target.type == Zombo_Gun.accepted_magazine_type)
 				return 1
 		else
 			for(var/t in wanted_objects)
@@ -298,11 +298,11 @@
 /mob/living/carbon/human/proc/FindGun()
 	var/obj/item/gun/ZG = null
 	for(var/obj/item/gun/_ZG in src.contents)
-		if(!ZG || (CountAmmo(_ZG.mag_type) > CountAmmo(ZG.mag_type)))
+		if(!ZG || (CountAmmo(_ZG.accepted_magazine_type) > CountAmmo(ZG.accepted_magazine_type)))
 			ZG = _ZG
 
-	if(src.back && istype(src.back, /obj/item/weapon/storage) && src.back.contents.len)
-		for(var/obj/item/gun/_ZG in src.back.contents)
+	if(src.back && src.back.atom_storage)
+		for(var/obj/item/gun/ballistic/_ZG in src.back.atom_storage.real_location)
 			if(!ZG || (CountAmmo(_ZG.mag_type) > CountAmmo(ZG.mag_type)))
 				ZG = _ZG
 
@@ -321,7 +321,7 @@
 			mag = _mag
 			break
 
-	if(!mag && src.back && istype(src.back, /obj/item/weapon/storage) && src.back.contents.len)
+	if(!mag && src.back && istype(src.back, /obj/item/storage) && src.back.contents.len)
 		for(var/obj/item/ammo_box/magazine/_mag in src.back.contents)
 			if(istype(_mag, Zombo_Gun.mag_type) && _mag.contents.len)
 				mag = _mag
@@ -348,17 +348,18 @@
 	if(!Zombo_Gun)
 		return count
 	for(var/obj/item/ammo_box/magazine/_mag in src.contents)
-		if(istype(_mag, Zombo_Gun.mag_type) && _mag.contents.len)
+		if(istype(_mag, Zombo_Gun.accepted_magazine_type) && _mag.contents.len)
 			count += _mag.stored_ammo.len
-	if(src.back && istype(src.back, /obj/item/weapon/storage) && src.back.contents.len)
-		for(var/obj/item/ammo_box/magazine/_mag in src.back.contents)
-			if(istype(_mag, Zombo_Gun.mag_type) && _mag.contents.len)
+	if(src.back && src.back.atom_storage)
+		for(var/obj/item/ammo_box/magazine/_mag in src.back.atom_storage.real_location)
+			if(istype(_mag, Zombo_Gun.accepted_magazine_type) && _mag.contents.len)
 				count += _mag.stored_ammo.len
 	return count
 
 /mob/living/carbon/human/proc/ManageInventory()
-	if(istype(get_active_hand(), /obj/item/ammo_box/magazine))
-		get_active_hand().equip_to_best_slot(src)
+	var/obj/item/ammo_box/magazine/active_mag = get_active_held_item()
+	if(istype(active_mag))
+		active_mag.equip_to_best_slot(src)
 
 ////// AI Status ///////
 /mob/living/carbon/human/proc/AICanContinue(var/list/possible_targets)

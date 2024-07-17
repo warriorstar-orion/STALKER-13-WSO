@@ -3,9 +3,9 @@ GLOBAL_LIST_EMPTY(blowout_spawners)
 /obj/effect/landmark/blowout_spawner
 	name = "blowout spawner"
 	var/spawn_range = 3
-	var/mob_types = list(/mob/living/simple_animal/hostile/carp)
+	var/mob_types = list()
 	var/max_mobs = 5
-	var/list/faction = list("mining")
+	faction = list("mining")
 	var/list/spawned_mobs = list()
 
 /obj/effect/landmark/blowout_spawner/Initialize()

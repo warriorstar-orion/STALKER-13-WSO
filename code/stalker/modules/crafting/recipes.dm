@@ -175,7 +175,7 @@
 	name = "poor mans borscht"
 	reqs = list(/obj/item/food/grown/beet/red = 2,
 				/obj/item/food/grown/potato = 1,
-				/obj/item/reagent_containers/food/condiment/pack/ketchup = 1
+				/obj/item/reagent_containers/condiment/pack/ketchup = 1
 				)
 	result = /obj/item/food/stalker/borscht/poor
 	category = CAT_FOOD

@@ -1554,7 +1554,7 @@
 /turf/stalker/floor/gryaz,
 /area/stalker/cordon/tunnel)
 "dz" = (
-/obj/item/weapon/storage/box/matches,
+/obj/item/storage/box/matches,
 /turf/stalker/floor/gryaz,
 /area/stalker/cordon/tunnel)
 "dA" = (
@@ -2579,7 +2579,7 @@
 /area/stalker/agroprom/caves)
 "gc" = (
 /obj/structure/table/stalker/wood,
-/obj/item/weapon/storage/firstaid/stalker/military,
+/obj/item/storage/firstaid/stalker/military,
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "gd" = (
@@ -3651,7 +3651,7 @@
 /obj/structure/bed/chair/stalker/divan/divan2{
 	pixel_y = 4
 	},
-/obj/item/weapon/storage/box/matches,
+/obj/item/storage/box/matches,
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/cordon/buildings)
 "iS" = (
@@ -3663,8 +3663,8 @@
 /area/stalker/agroprom/caves)
 "iT" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/storage/box/MRE,
-/obj/item/weapon/storage/box/MRE,
+/obj/item/storage/box/MRE,
+/obj/item/storage/box/MRE,
 /obj/anomaly/puh,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
@@ -3975,7 +3975,7 @@
 /turf/simulated/wall/stalker/bricks_white,
 /area/stalker/agroprom/caves)
 "jW" = (
-/obj/item/weapon/storage/box/matches,
+/obj/item/storage/box/matches,
 /turf/stalker/floor/gryaz,
 /area/stalker/agroprom/caves)
 "jX" = (
@@ -5659,8 +5659,8 @@
 /area/stalker/cordon/buildings)
 "oe" = (
 /obj/structure/table/stalker/wood,
-/obj/item/weapon/storage/fancy/cigarettes/cigpack_maxim,
-/obj/item/weapon/storage/box/matches,
+/obj/item/storage/fancy/cigarettes/cigpack_maxim,
+/obj/item/storage/box/matches,
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/cordon/buildings)
 "of" = (

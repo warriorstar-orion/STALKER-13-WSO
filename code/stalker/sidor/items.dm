@@ -521,7 +521,7 @@
 
 /sidoritem/artifactbelt
 	name = "artbelt"
-	itemtype = /obj/item/weapon/storage/belt/stalker
+	itemtype = /obj/item/storage/belt/stalker
 	cost = 500
 	words = list("Belt" = 5, "belt" = 5, "Artifacts" = 5, "artifacts" = 5)
 
@@ -533,18 +533,18 @@
 
 /sidoritem/mathes
 	name = "match"
-	itemtype = /obj/item/weapon/storage/box/matches
+	itemtype = /obj/item/storage/box/matches
 	cost = 50
 	words = list("Matches" = 5, "matches" = 5, "Matches" = 5, "matches" = 5)
 
 /sidoritem/cigars
 	name = "cigars"
-	itemtype = /obj/item/weapon/storage/fancy/cigarettes/cigpack_maxim
+	itemtype = /obj/item/storage/fancy/cigarettes/cigpack_maxim
 	cost = 200
 	words = list("Cigarettes" = 5, "cigarettes" = 5, "Cigarettes" = 5, "cigarettes" = 5)
 
 /sidoritem/cigarsup
 	name = "cigars"
-	itemtype = /obj/item/weapon/storage/fancy/cigarettes/cigars
+	itemtype = /obj/item/storage/fancy/cigarettes/cigars
 	cost = 5000
 	words = list("Cigars" = 5, "cigars" = 5, "Cigars" = 5, "cigars" = 5)

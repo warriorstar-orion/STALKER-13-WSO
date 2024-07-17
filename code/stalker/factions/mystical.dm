@@ -69,11 +69,11 @@
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka
 	ears = null
-	id = /obj/item/weapon/storage/wallet/stalker
+	id = /obj/item/storage/wallet/stalker
 	belt = /obj/item/knife/tourist
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	mask = /obj/item/clothing/mask/balaclava
-	back = /obj/item/weapon/storage/backpack/stalker
+	back = /obj/item/storage/backpack/stalker
 	backpack_contents = list(/obj/item/stack/spacecash/c1000 = 1, /obj/item/ammo_box/magazine/stalker/m9x18pm = 2)
 	l_pocket = pick(/obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,/obj/item/stack/medical/gauze/bint,/obj/item/weapon/reagent_containers/food/snacks/stalker/baton)
 	r_pocket = /obj/item/gun/automatic/pistol/pm

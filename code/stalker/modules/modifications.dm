@@ -276,17 +276,17 @@ var/id_ = 0
 /datum/data/modification/clothing/suit/accessory
 	name = "Accessory Modification"
 	id = "accessory_slot"
-	var/int_slot = /datum/component/storage/concrete/pockets/internal_slot
+	var/int_slot =  /datum/storage/pockets/internal
 
 /datum/data/modification/clothing/suit/accessory/AffectEquipment(var/obj/item/clothing/suit/Gear)
 	//if(Gear.pocket_storage_component_path)
 		//if(Gear.pocket_storage_component_path.contents.len)
 		//	return 0
 	//	qdel(Gear.pocket_storage_component_path)
-	Gear.pocket_storage_component_path = new int_slot()
+	Gear.create_storage(storage_type = int_slot)
 	//if(ispath(Gear.pocket_storage_component_path))
 	//	LoadComponent(Gear.pocket_storage_component_path)
-	Gear.RefreshPockets()
+	// Gear.RefreshPockets()
 	return ..(Gear)
 
 

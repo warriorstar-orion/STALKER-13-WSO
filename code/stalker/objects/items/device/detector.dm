@@ -64,14 +64,14 @@
 /obj/item/detector/attack_self(mob/user)
 	if(!on)
 		if(world.time > cooldown + 5)
-			playsound(user, "stalker/sound/detector/detector_draw.ogg", 50, 0)
+			playsound(user, "sound/stalker/detector/detector_draw.ogg", 50, 0)
 			on = 1
 			icon_state = icon_state_null
 			timer_detector = 0
 			if(!kostil)
 				scan()
 	else
-		playsound(user, "stalker/sound/detector/detector_draw.ogg", 50, 0)
+		playsound(user, "sound/stalker/detector/detector_draw.ogg", 50, 0)
 		on = 0
 		cooldown = world.time
 		stop()
@@ -140,7 +140,7 @@
 		return
 
 	dir = get_dir(user, target)
-	playsound(user, "stalker/sound/detector/contact_1.ogg", 50, 0)
+	playsound(user, "sound/stalker/detector/contact_1.ogg", 50, 0)
 	icon_state = icon_state_active
 
 	sleep(1)
