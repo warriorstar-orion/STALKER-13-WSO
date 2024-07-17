@@ -1524,7 +1524,7 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 		if(combined_cost > max_cost)
 			break
 
-		var/datum/data/stalker_equipment/SE = safepick(lootspawn)
+		var/datum/data/stalker_equipment/SE = pick(lootspawn)
 
 		if(!SE)
 			continue

@@ -313,7 +313,7 @@ obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	inhand_icon_state = "awp"
 	durability = 50//Heavily increases chance of jamming or explosion of round in chamber. Required due to power of rifle.
 	slot_flags = ITEM_SLOT_BACK
-	accepted_magazine_type = /obj/item/ammo_box/magazine/awp
+	accepted_magazine_type = /obj/item/ammo_box/magazine/sniper_rounds/awp
 	recoil = 3
 	w_class = 4
 	randomspread = 0

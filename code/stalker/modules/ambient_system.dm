@@ -42,7 +42,7 @@
 			if(client.music)
 				client.music.Transition(src)
 
-			client.music = new/sound/ambient(file = safepick(A.ambient_music))
+			client.music = new/sound/ambient(file = pick(A.ambient_music))
 			////////////////////////
 			client.music.real_cooldown = rand(A.ambient_music_cooldown * 0.8, A.ambient_music_cooldown * 1.4)
 			client.music.last_time = world.time
@@ -67,7 +67,7 @@
 				environment_ambience = A.ambient_environment
 
 		if(environment_ambience != null && environment_ambience.len > 0)
-			client.environment = new/sound/ambient(file = safepick(environment_ambience))
+			client.environment = new/sound/ambient(file = pick(environment_ambience))
 
 			////////////////////////
 			client.environment.last_time = world.time
@@ -79,7 +79,7 @@
 	if(!client.background || (!client.background.transition && (world.time >= client.background.last_time + client.background.real_cooldown)))
 
 		if(A.ambient_background)
-			var/file = safepick(A.ambient_background)
+			var/file = pick(A.ambient_background)
 			client.background = new/sound/ambient(file)
 			client.background.real_cooldown = A.ambient_background[file]
 			if(!isnum(client.background.real_cooldown))

@@ -28,3 +28,7 @@
 /obj/item/cigarette/soviet_cigarette
 	desc = "An Old Soviet Cigarette brand cigarette."
 	list_reagents = list("nicotine" = 12)
+
+/obj/item/cigarette/luckystrikesg
+	desc = "An Lucky Strikes Green brand cigarette. It appears to be a spliff."
+	list_reagents = list("nicotine" = 7, "lsd" = 8, "lipolicide" = 15, "menthol" = 6)

@@ -78,7 +78,7 @@
 /mob/living/carbon/human/proc/handle_automated_speech()
 	if(rand(0,200) < 20)
 		if(say_log.len)
-			say(safepick(say_log))
+			say(pick(say_log))
 
 /mob/living/carbon/human/proc/handle_equipment()
 	if(!Zombo_Gun)

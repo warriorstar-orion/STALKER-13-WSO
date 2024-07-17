@@ -13581,7 +13581,7 @@
 /area/stalker/buildings)
 "Sl" = (
 /obj/structure/table/stalker/wood,
-/obj/item/trash/plate,
+/obj/item/plate,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings)
 "Sm" = (

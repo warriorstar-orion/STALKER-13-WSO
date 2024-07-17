@@ -5529,7 +5529,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "vH" = (
 /obj/structure/table/stalker/wood,
-/obj/item/trash/plate,
+/obj/item/plate,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -5537,7 +5537,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "vI" = (
 /obj/structure/table/stalker/wood,
-/obj/item/trash/plate,
+/obj/item/plate,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
 "vJ" = (
@@ -5780,7 +5780,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "wy" = (
 /obj/structure/table/stalker,
-/obj/item/trash/plate,
+/obj/item/plate,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
 "wz" = (
@@ -6000,7 +6000,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "xl" = (
 /obj/structure/table/stalker,
-/obj/item/trash/plate,
+/obj/item/plate,
 /obj/item/reagent_containers/food/drinks/drinkingglass,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
@@ -6085,9 +6085,9 @@
 /area/stalker/buildings/backwater/ironforest)
 "xz" = (
 /obj/structure/table/stalker,
-/obj/item/trash/plate,
-/obj/item/trash/plate,
-/obj/item/trash/plate,
+/obj/item/plate,
+/obj/item/plate,
+/obj/item/plate,
 /obj/machinery/light/small/broken,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)

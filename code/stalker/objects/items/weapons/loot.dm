@@ -108,72 +108,96 @@
 /obj/item/food/meat/slab/mutantmeat/rat_meat/make_grillable()
 	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/mutant/rat, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE) //Add medium rare later maybe?
 
-
 /obj/item/food/meat/slab/mutantmeat/flesh_meat
 	name = "Flesh meat"
 	desc = "Meat from a flesh; it has a strong rotten and putrescent odor. It can still be cooked and eaten."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 5, "unknownsubstancetwo" = 5, "nutriment" = 10, "blood" = 10)
-	cooked_type = /obj/item/food/meat/steak/mutant/flesh
-	slice_type = /obj/item/food/meat/rawcutlet/mutant/flesh
 	tastes = list("meat" = 1)
 	foodtypes = MEAT | RAW
 	bite_consumption = 3
+
+/obj/item/food/meat/slab/mutantmeat/flesh_meat/make_processable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/meat/rawcutlet/mutant/flesh, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Cut")
+
+/obj/item/food/meat/slab/mutantmeat/flesh_meat/make_grillable()
+	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/mutant/flesh, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE) //Add medium rare later maybe?
 
 /obj/item/food/meat/slab/mutantmeat/boar_meat
 	name = "Boar meat"
 	desc = "The meat of a wild mutated boar; it seems thick and hard to bend. It can be cooked and eaten."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 5, "unknownsubstancetwo" = 5, "nutriment" = 10, "blood" = 10)
-	cooked_type = /obj/item/food/meat/steak/mutant/boar
-	slice_type = /obj/item/food/meat/rawcutlet/mutant/boar
 	tastes = list("meat" = 1)
 	foodtypes = MEAT | RAW
 	bite_consumption = 3
+
+/obj/item/food/meat/slab/mutantmeat/boar_meat/make_processable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/meat/rawcutlet/mutant/boar, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Cut")
+
+/obj/item/food/meat/slab/mutantmeat/boar_meat/make_grillable()
+	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/mutant/boar, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE) //Add medium rare later maybe?
 
 /obj/item/food/meat/slab/mutantmeat/snork_meat
 	name = "Snork meat"
 	desc = "Snork meat, it is extremely lean and tough, but it can be cooked and eaten for small nutrition gain."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 5, "nutriment" = 10, "blood" = 10)
-	cooked_type = /obj/item/food/meat/steak/mutant/snork
-	slice_type = /obj/item/food/meat/rawcutlet/mutant/snork
 	tastes = list("meat" = 1)
 	foodtypes = MEAT | RAW
 	bite_consumption = 3
+
+/obj/item/food/meat/slab/mutantmeat/snork_meat/make_processable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/meat/rawcutlet/mutant/snork, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Cut")
+
+/obj/item/food/meat/slab/mutantmeat/snork_meat/make_grillable()
+	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/mutant/snork, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE) //Add medium rare later maybe?
 
 /obj/item/food/meat/slab/mutantmeat/pseudo_meat
 	name = "pseudodog meat"
 	desc = "Stringy, gamey meat from a pseudodog. An odd resource, but can be cooked for food purposes."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstance" = 5, "nutriment" = 10, "blood" = 10)
-	cooked_type = /obj/item/food/meat/steak/mutant/pseudo
-	slice_type = /obj/item/food/meat/rawcutlet/mutant/pseudo
 	tastes = list("meat" = 1)
 	foodtypes = MEAT | RAW
 	bite_consumption = 3
+
+/obj/item/food/meat/slab/mutantmeat/pseudo_meat/make_processable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/meat/rawcutlet/mutant/pseudo, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Cut")
+
+/obj/item/food/meat/slab/mutantmeat/pseudo_meat/make_grillable()
+	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/mutant/pseudo, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE) //Add medium rare later maybe?
 
 /obj/item/food/meat/slab/mutantmeat/bloodsucker_meat
 	name = "bloodsucker meat"
 	desc = "Bloodsucker meat, it smells putrescent and seems to twitch every once and a while. Can be cooked and eaten for surpisingly good nutrition value."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 7.5, "nutriment" = 10, "blood" = 10)
-	cooked_type = /obj/item/food/meat/steak/mutant/bloodsucker
-	slice_type = /obj/item/food/meat/rawcutlet/mutant/bloodsucker
 	tastes = list("meat" = 1)
 	foodtypes = MEAT | RAW
 	bite_consumption = 3
+
+/obj/item/food/meat/slab/mutantmeat/bloodsucker_meat/make_processable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/meat/rawcutlet/mutant/bloodsucker, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Cut")
+
+/obj/item/food/meat/slab/mutantmeat/bloodsucker_meat/make_grillable()
+	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/mutant/bloodsucker, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE) //Add medium rare later maybe?
 
 /obj/item/food/meat/slab/mutantmeat/controller_meat
 	name = "controller meat"
 	desc = "Mutant meat from a controller. You can feel pulsating coming from this sticky slab of flesh. Can be cooked and eaten for surpisingly good nutrition value."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 7.5, "nutriment" = 10, "blood" = 10)
-	cooked_type = /obj/item/food/meat/steak/mutant/controller
-	slice_type = /obj/item/food/meat/rawcutlet/mutant/controller
 	tastes = list("meat" = 1)
 	foodtypes = MEAT | RAW
 	bite_consumption = 3
+
+/obj/item/food/meat/slab/mutantmeat/controller_meat/make_processable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/meat/rawcutlet/mutant/controller, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Cut")
+
+/obj/item/food/meat/slab/mutantmeat/controller_meat/make_grillable()
+	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/mutant/controller, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE) //Add medium rare later maybe?
+
 
 	/// Cooked Meat ///
 

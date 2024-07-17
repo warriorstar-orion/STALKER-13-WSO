@@ -3141,7 +3141,7 @@
 /area/stalker/buildings/backwater/skadovsk)
 "alx" = (
 /obj/structure/table/stalker/wood,
-/obj/item/trash/plate,
+/obj/item/plate,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "aly" = (
@@ -3261,7 +3261,7 @@
 /area/stalker/blowout/buildings/backwater/ironforest)
 "alR" = (
 /obj/structure/table/stalker,
-/obj/item/trash/plate,
+/obj/item/plate,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "alS" = (
@@ -3376,7 +3376,7 @@
 /area/stalker/blowout/buildings/backwater/ironforest)
 "amj" = (
 /obj/structure/table/stalker,
-/obj/item/trash/plate,
+/obj/item/plate,
 /obj/item/reagent_containers/food/drinks/drinkingglass,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
@@ -3422,9 +3422,9 @@
 /area/stalker/blowout/buildings/backwater/ironforest)
 "amp" = (
 /obj/structure/table/stalker,
-/obj/item/trash/plate,
-/obj/item/trash/plate,
-/obj/item/trash/plate,
+/obj/item/plate,
+/obj/item/plate,
+/obj/item/plate,
 /obj/machinery/light/small/broken,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
@@ -4400,7 +4400,7 @@
 /area/stalker/blowout/buildings/backwater/shevchenko)
 "apU" = (
 /obj/structure/table/stalker/wood,
-/obj/item/trash/plate,
+/obj/item/plate,
 /obj/machinery/light{
 	dir = 1;
 	icon_state = "tube"

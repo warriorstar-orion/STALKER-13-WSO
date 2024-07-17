@@ -17,6 +17,10 @@
 	var/attack_type = "claw"
 	var/deletable = TRUE //Self-deletable dead bodies
 	var/gib_targets = TRUE //Гибать
+
+/mob/living/simple_animal/hostile/mutant/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/footstep, footstep_type = FOOTSTEP_MOB_BAREFOOT)
 /*
 /mob/living/simple_animal/hostile/mutant/death(gibbed)
 	..()
@@ -378,7 +382,7 @@
 /mob/living/simple_animal/hostile/mutant/bloodsucker/handle_automated_sounds()
 	if(idle_sounds)
 		if(rand(0,200) < speak_chance)
-			var/s = safepick(idle_sounds)
+			var/s = pick(idle_sounds)
 			playsound(src, s, 65, 1, 15, 7)
 
 /mob/living/simple_animal/hostile/mutant/bloodsucker/AttackingTarget()
@@ -707,9 +711,9 @@
 	mob_biotypes = list(MOB_ORGANIC, MOB_HUMANOID)
 	speak_chance = 1
 	turns_per_move = 5
-	response_help = "pokes"
-	response_disarm = "shoves"
-	response_harm = "hits"
+	response_help_continuous = "pokes"
+	response_disarm_continuous = "shoves"
+	response_harm_continuous = "hits"
 	speed = 0
 	stat_attack = UNCONSCIOUS
 	robust_searching = 1
@@ -759,7 +763,6 @@
 	status_flags = CANPUSH
 	dodging = TRUE
 	rapid_melee = 2
-	do_footstep = TRUE
 	butcher_results = list(/obj/item/stack/spacecash/c100 = 1)
 	rating_add = 50
 
@@ -865,9 +868,9 @@
 	speak_chance = 80
 	turns_per_move = 5
 	ranged = 1
-	response_help = "pokes"
-	response_disarm = "shoves"
-	response_harm = "hits"
+	response_help_continuous = "pokes"
+	response_disarm_continuous = "shoves"
+	response_harm_continuous = "hits"
 	speed = 0
 	stat_attack = UNCONSCIOUS
 	robust_searching = 1
@@ -991,9 +994,9 @@
 	speak_chance = 80
 	turns_per_move = 5
 	ranged = 1
-	response_help = "pokes"
-	response_disarm = "shoves"
-	response_harm = "hits"
+	response_help_continuous = "pokes"
+	response_disarm_continuous = "shoves"
+	response_harm_continuous = "hits"
 	speed = 0
 	stat_attack = UNCONSCIOUS
 	robust_searching = 1
@@ -1010,7 +1013,6 @@
 	status_flags = CANPUSH
 	dodging = TRUE
 	rapid_melee = 2
-	do_footstep = TRUE
 	ranged_cooldown = 1
 	ranged_cooldown_time = 40
 	casingtype = /obj/item/ammo_casing/c556x45/zombie
@@ -1034,9 +1036,9 @@
 	speak_chance = 80
 	turns_per_move = 5
 	ranged = 1
-	response_help = "pokes"
-	response_disarm = "shoves"
-	response_harm = "hits"
+	response_help_continuous = "pokes"
+	response_disarm_continuous = "shoves"
+	response_harm_continuous = "hits"
 	speed = 0
 	stat_attack = UNCONSCIOUS
 	robust_searching = 1
@@ -1053,7 +1055,6 @@
 	status_flags = CANPUSH
 	dodging = TRUE
 	rapid_melee = 2
-	do_footstep = TRUE
 	ranged_cooldown = 1
 	ranged_cooldown_time = 40
 	casingtype = /obj/item/ammo_casing/shotgun/c12x70/zombie
@@ -1077,9 +1078,9 @@
 	speak_chance = 80
 	turns_per_move = 5
 	ranged = 1
-	response_help = "pokes"
-	response_disarm = "shoves"
-	response_harm = "hits"
+	response_help_continuous = "pokes"
+	response_disarm_continuous = "shoves"
+	response_harm_continuous = "hits"
 	speed = 0
 	stat_attack = UNCONSCIOUS
 	robust_searching = 1
@@ -1096,7 +1097,6 @@
 	status_flags = CANPUSH
 	dodging = TRUE
 	rapid_melee = 2
-	do_footstep = TRUE
 	ranged_cooldown = 1
 	ranged_cooldown_time = 40
 	casingtype = /obj/item/ammo_casing/c762x39/zombie

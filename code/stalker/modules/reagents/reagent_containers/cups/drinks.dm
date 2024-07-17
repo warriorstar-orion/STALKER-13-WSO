@@ -2,7 +2,7 @@
 	name = "commie flask"
 	desc = "A golden flask wrapped with black leather, embroidened with a red star. A holdover from the old world."
 	icon_state = "commie_flask"
-	materials = list(MAT_SILVER=500)
+	custom_materials = list(/datum/material/silver = SMALL_MATERIAL_AMOUNT * 5)
 	volume = 60
 	list_reagents = list("vodka" = 35, "kahlua" = 25)
 
@@ -10,7 +10,7 @@
 	name = "russian flask"
 	desc = "A cheap plastic canteen-like flask meant for stowing away alcohol for long journeys in the motherland."
 	icon_state = "russian_flask"
-	materials = list(MAT_METAL=500)
+	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 5)
 	volume = 60
 	list_reagents = list("vodka" = 40, "tonic" = 20)
 
@@ -18,7 +18,7 @@
 	name = "metal flask"
 	desc = "A sturdy metal flask with a chain attached to the cap, and a face engraved on it. They look very solemn."
 	icon_state = "face_flask"
-	materials = list(MAT_METAL=500)
+	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 5)
 	volume = 60
 	list_reagents = list("vodka" = 40, "water" = 20)
 
@@ -26,6 +26,6 @@
 	name = "metal flask"
 	desc = "A cylindrical metal flask with a chain attached to the cap. Relatively larger than most flasks."
 	icon_state = "cylinder_flask"
-	materials = list(MAT_METAL=500)
+	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 5)
 	volume = 80
 	list_reagents = list("vodka" = 60, "water" = 20)

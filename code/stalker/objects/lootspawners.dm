@@ -2,7 +2,7 @@
 
 /obj/effect/spawner/random/khabar_low
 	name = "khabar loot spawner"
-	lootdoubles = 1
+	spawn_loot_double = TRUE
 	spawn_loot_count = 5
 	loot = list(
 				/obj/item/reagent_containers/hypospray/medipen/stalker/antirad = 20,
@@ -188,7 +188,7 @@
 
 /obj/effect/spawner/random/khabar_medium
 	name = "khabar loot spawner"
-	lootdoubles = 1
+	spawn_loot_double = TRUE
 	spawn_loot_count = 4
 
 	loot = list(
@@ -198,7 +198,7 @@
 
 /obj/effect/spawner/random/khabar_high
 	name = "khabar loot spawner"
-	lootdoubles = 1
+	spawn_loot_double = TRUE
 	spawn_loot_count = 3
 
 	loot = list(

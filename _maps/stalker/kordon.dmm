@@ -4082,10 +4082,10 @@
 /area/stalker/buildings/military)
 "nq" = (
 /obj/structure/table/stalker/wood,
-/obj/item/trash/plate{
+/obj/item/plate{
 	pixel_x = -7
 	},
-/obj/item/trash/plate{
+/obj/item/plate{
 	pixel_x = 7;
 	pixel_y = 11
 	},
@@ -7286,10 +7286,10 @@
 /area/stalker/blowout/outdoor)
 "Pe" = (
 /obj/structure/table/stalker/wood,
-/obj/item/trash/plate{
+/obj/item/plate{
 	pixel_x = -5
 	},
-/obj/item/trash/plate{
+/obj/item/plate{
 	pixel_x = 7;
 	pixel_y = 9
 	},
