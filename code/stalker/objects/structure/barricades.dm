@@ -6,9 +6,9 @@
 	var/list/hit_sounds = list('sound/weapons/genhit1.ogg', 'sound/weapons/genhit2.ogg', 'sound/weapons/genhit3.ogg')
 
 /obj/structure/barricade/stalker/take_damage(damage, leave_debris=1, message)
-	obj_integrity -= damage
+	atom_integrity -= damage
 	playsound(loc, pick(hit_sounds), 25, 1, -1)
-	if(obj_integrity > 0)
+	if(atom_integrity > 0)
 		return
 
 	//if(message)
@@ -49,7 +49,7 @@
 	debriss_type = /obj/structure/stalker/doski/doski2
 	anchored = 1
 	proj_pass_rate = 0
-	obj_integrity = 30
+	atom_integrity = 30
 	max_integrity = 30
 	lootcount = 2
 	loot = list(/obj/item/storage/firstaid/ai2 = 30,

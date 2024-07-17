@@ -12696,14 +12696,14 @@
 /obj/structure/window{
 	dir = 4;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (EAST)"
 	},
 /obj/structure/window{
 	dir = 8;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (WEST)"
 	},
@@ -12738,14 +12738,14 @@
 /obj/structure/window{
 	dir = 4;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (EAST)"
 	},
 /obj/structure/window{
 	dir = 8;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (WEST)"
 	},
@@ -12759,14 +12759,14 @@
 /obj/structure/window{
 	dir = 4;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (EAST)"
 	},
 /obj/structure/window{
 	dir = 8;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (WEST)"
 	},
@@ -12859,14 +12859,14 @@
 /obj/structure/window{
 	dir = 4;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (EAST)"
 	},
 /obj/structure/window{
 	dir = 8;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (WEST)"
 	},
@@ -12901,14 +12901,14 @@
 /obj/structure/window{
 	dir = 4;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (EAST)"
 	},
 /obj/structure/window{
 	dir = 8;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (WEST)"
 	},
@@ -13129,7 +13129,7 @@
 	dir = 1;
 	icon_state = "clear";
 	layer = 3.2;
-	obj_integrity = 1e+009;
+	atom_integrity = 1e+009;
 	name = "";
 	tag = "icon-window (NORTH)"
 	},
@@ -13140,14 +13140,14 @@
 	dir = 1;
 	icon_state = "clear";
 	layer = 3.2;
-	obj_integrity = 1e+009;
+	atom_integrity = 1e+009;
 	name = "";
 	tag = "icon-window (NORTH)"
 	},
 /obj/structure/window{
 	dir = 4;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (EAST)"
 	},
@@ -13229,7 +13229,7 @@
 	dir = 1;
 	icon_state = "clear";
 	layer = 3.2;
-	obj_integrity = 1e+009;
+	atom_integrity = 1e+009;
 	name = "";
 	tag = "icon-window (NORTH)"
 	},
@@ -14158,14 +14158,14 @@
 /obj/structure/window{
 	dir = 4;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (EAST)"
 	},
 /obj/structure/window{
 	dir = 8;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (WEST)"
 	},
@@ -14228,14 +14228,14 @@
 /obj/structure/window{
 	dir = 8;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (WEST)"
 	},
 /obj/structure/window{
 	dir = 4;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (EAST)"
 	},
@@ -14411,14 +14411,14 @@
 /obj/structure/window{
 	dir = 8;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (WEST)"
 	},
 /obj/structure/window{
 	dir = 4;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (EAST)"
 	},
@@ -14504,14 +14504,14 @@
 /obj/structure/window{
 	dir = 4;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (EAST)"
 	},
 /obj/structure/window{
 	dir = 8;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (WEST)"
 	},
@@ -18648,7 +18648,7 @@
 	dir = 1;
 	icon_state = "clear";
 	layer = 3.2;
-	obj_integrity = 1e+009;
+	atom_integrity = 1e+009;
 	name = "";
 	tag = "icon-window (NORTH)"
 	},
@@ -19538,7 +19538,7 @@
 /obj/structure/window{
 	dir = 8;
 	icon_state = "clear";
-	obj_integrity = 1e+006;
+	atom_integrity = 1e+006;
 	name = "";
 	tag = "icon-window (WEST)"
 	},

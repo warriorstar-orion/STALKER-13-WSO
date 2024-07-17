@@ -4,12 +4,6 @@
 	icon_state = "bluegoose"
 	list_reagents = list("vodka" = 100)
 
-/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka
-	name = "badminka vodka"
-	desc = "The label's written in Cyrillic. All you can make out is the name and a word that looks vaguely like 'Vodka'."
-	icon_state = "badminka"
-	list_reagents = list("vodka" = 100)
-
 /obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki
 	name = "Cossacks vodka"
 	desc = "Vodka by ukrainian company GSC. Easy to drink. Can reduce radiation from human's body."
@@ -32,3 +26,10 @@
 	icon_state = "blacklabel_vodka"
 	list_reagents = list("vodka" = 70, "potass_iodide" = 20, "energetic" = 10)
 	w_class = 2
+
+/obj/item/reagent_containers/cup/glass/bottle/vodka/stalkervodka
+	name = "Zone-Produced vodka"
+	desc = "Vodka produced by the desperation of some 'ingenious' stalkers using local mushrooms and wild-grasses. It tastes and smells like filthy piss, but it'll do the job cheap!"
+	icon = 'icons/obj/drinks.dmi'
+	icon_state = "stalker_vodka"
+	list_reagents = list("stalkervodka" = 100)
