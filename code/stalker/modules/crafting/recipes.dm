@@ -1,6 +1,3 @@
-/datum/crafting_recipe
-	var/name = ""
-
 /// DEVICES ///
 
 /datum/crafting_recipe/echo
