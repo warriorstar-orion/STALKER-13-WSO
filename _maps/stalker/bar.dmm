@@ -483,26 +483,26 @@
 /area/stalker/buildings/bar/rentgen)
 "cq" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = 8
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = 8
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = 8
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = 8
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = 8
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -619,7 +619,7 @@
 /area/stalker/blowout/outdoor)
 "cN" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic,
+/obj/item/reagent_containers/cup/soda_cans/energetic,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
 "cO" = (
@@ -720,8 +720,8 @@
 /area/stalker/buildings/bar/rentgen)
 "df" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/shaker,
-/obj/item/reagent_containers/glass/rag,
+/obj/item/reagent_containers/cup/glass/shaker,
+/obj/item/reagent_containers/cup/rag,
 /obj/machinery/button/door{
 	id = "rentgenbarman";
 	pixel_x = -26;
@@ -1070,7 +1070,7 @@
 /area/stalker/buildings/bar/rentgen)
 "gb" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = 8
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -2107,7 +2107,7 @@
 "qI" = (
 /obj/structure/table/stalker/wood,
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic,
+/obj/item/reagent_containers/cup/soda_cans/energetic,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "qU" = (
@@ -3117,13 +3117,13 @@
 /area/stalker/blowout/outdoor)
 "II" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic,
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic,
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic,
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic,
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic,
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic,
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic,
+/obj/item/reagent_containers/cup/soda_cans/energetic,
+/obj/item/reagent_containers/cup/soda_cans/energetic,
+/obj/item/reagent_containers/cup/soda_cans/energetic,
+/obj/item/reagent_containers/cup/soda_cans/energetic,
+/obj/item/reagent_containers/cup/soda_cans/energetic,
+/obj/item/reagent_containers/cup/soda_cans/energetic,
+/obj/item/reagent_containers/cup/soda_cans/energetic,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/bar/rentgen)
 "IN" = (
@@ -3755,7 +3755,7 @@
 /area/stalker/buildings/duty)
 "Vh" = (
 /obj/structure/table/stalker/wood/bar,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = -6;
 	pixel_y = 15
 	},

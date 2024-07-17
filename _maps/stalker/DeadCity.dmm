@@ -2216,7 +2216,7 @@
 /area/stalker/buildings/mercenary)
 "rR" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/item/reagent_containers/food/drinks/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "rS" = (
@@ -3262,7 +3262,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "zS" = (
-/obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/obj/item/reagent_containers/cup/glass/bottle/whiskey,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/mercenary)
 "zT" = (
@@ -6289,7 +6289,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "Xw" = (
-/obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/obj/item/reagent_containers/cup/glass/bottle/whiskey,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "XA" = (

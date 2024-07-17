@@ -2452,7 +2452,7 @@
 /area/stalker/kordon/buildings)
 "hA" = (
 /obj/structure/table/stalker/wood/bar100rentgen,
-/obj/item/reagent_containers/glass/rag{
+/obj/item/reagent_containers/cup/rag{
 	pixel_y = 12
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -2499,16 +2499,16 @@
 "hI" = (
 /obj/structure/closet,
 /obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
 /obj/item/reagent_containers/condiment/flour,
 /obj/item/reagent_containers/condiment/flour,
 /obj/item/food/grown/potato,
@@ -3784,7 +3784,7 @@
 	},
 /obj/structure/table/stalker/wood,
 /obj/item/toy/cards/deck,
-/obj/item/reagent_containers/food/drinks/mug{
+/obj/item/reagent_containers/cup/glass/mug{
 	pixel_x = 13;
 	pixel_y = 11
 	},
@@ -3939,7 +3939,7 @@
 	pixel_x = -3;
 	pixel_y = 12
 	},
-/obj/item/reagent_containers/food/drinks/mug{
+/obj/item/reagent_containers/cup/glass/mug{
 	pixel_x = -7;
 	pixel_y = 13
 	},
@@ -4089,10 +4089,10 @@
 	pixel_x = 7;
 	pixel_y = 11
 	},
-/obj/item/reagent_containers/food/drinks/mug{
+/obj/item/reagent_containers/cup/glass/mug{
 	pixel_x = 12
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass{
 	pixel_x = -8;
 	pixel_y = 12
 	},
@@ -4457,11 +4457,11 @@
 	pixel_x = -9;
 	pixel_y = 7
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = 11;
 	pixel_y = 16
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = 12
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -5534,7 +5534,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor)
 "AI" = (
-/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/cup/bucket,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "AJ" = (
@@ -7179,7 +7179,7 @@
 "Oc" = (
 /obj/structure/table/stalker/wood,
 /obj/item/binoculars,
-/obj/item/reagent_containers/food/drinks/mug{
+/obj/item/reagent_containers/cup/glass/mug{
 	pixel_x = -4;
 	pixel_y = 13
 	},
@@ -7293,11 +7293,11 @@
 	pixel_x = 7;
 	pixel_y = 9
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = -6;
 	pixel_y = 15
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass{
+/obj/item/reagent_containers/cup/glass/drinkingglass{
 	pixel_x = 11
 	},
 /turf/open/stalker/floor/wood/oldgor,

@@ -2027,10 +2027,10 @@
 "nB" = (
 /obj/item/trash/konserva/MREkonserva2,
 /obj/structure/reagent_dispensers/beerkeg,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "nC" = (
@@ -6400,7 +6400,7 @@
 /obj/structure/table/stalker/wood,
 /obj/item/food/stalker/kolbasa,
 /obj/item/food/stalker/kolbasa/doctorsausage,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "Vb" = (
@@ -6860,7 +6860,7 @@
 /area/stalker/blowout/outdoor)
 "YK" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "YL" = (
@@ -6869,7 +6869,7 @@
 /area/stalker/blowout/outdoor)
 "YO" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
 /obj/item/cigarette/rollie/cannabis,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)

@@ -409,7 +409,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "bE" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/gloves,
+/obj/effect/spawner/random/clothing/gloves,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
 "bF" = (
@@ -2097,7 +2097,7 @@
 "iW" = (
 /obj/structure/table/stalker,
 /obj/item/kitchen/rollingpin,
-/obj/item/reagent_containers/food/drinks/beer,
+/obj/item/reagent_containers/cup/glass/beer,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/shevchenko)
 "iX" = (
@@ -3279,7 +3279,7 @@
 /area/stalker/buildings/backwater/skadovsk)
 "nK" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk)
 "nL" = (
@@ -3646,44 +3646,44 @@
 /area/stalker/buildings/backwater/skadovsk)
 "pb" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/ale,
+/obj/item/reagent_containers/cup/glass/ale,
 /obj/item/food/jelliedtoast/cherry,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "pc" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/beer,
-/obj/item/food/jellysandwich/cherry,
+/obj/item/reagent_containers/cup/glass/beer,
+/obj/item/food/sandwich/jelly/cherry,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "pd" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/absinthe/premium,
+/obj/item/reagent_containers/cup/glass/bottle/absinthe/premium,
 /obj/item/food/fries,
 /obj/item/food/kebab/rat/double,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "pe" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/cognac,
+/obj/item/reagent_containers/cup/glass/bottle/cognac,
 /obj/item/food/sundae,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "pf" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/cream,
+/obj/item/reagent_containers/cup/glass/bottle/juice/cream,
 /obj/item/food/rofflewaffles,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "pg" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/fernet,
+/obj/item/reagent_containers/cup/glass/bottle/fernet,
 /obj/item/food/melonfruitbowl,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "ph" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/gin,
+/obj/item/reagent_containers/cup/glass/bottle/gin,
 /obj/item/food/hotdog,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
@@ -3911,37 +3911,37 @@
 /area/stalker/buildings/backwater/skadovsk)
 "pQ" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/patron,
+/obj/item/reagent_containers/cup/glass/bottle/patron,
 /obj/item/food/khinkali,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "pR" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/kahlua,
+/obj/item/reagent_containers/cup/glass/bottle/kahlua,
 /obj/item/food/khachapuri,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "pS" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/hcider,
+/obj/item/reagent_containers/cup/glass/bottle/hcider,
 /obj/item/food/loadedbakedpotato,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "pT" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/grenadine,
+/obj/item/reagent_containers/cup/glass/bottle/grenadine,
 /obj/item/food/meat/steak/bear,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "pU" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/grappa,
+/obj/item/reagent_containers/cup/glass/bottle/grappa,
 /obj/item/food/fortunecookie,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "pV" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/food/drinks/bottle/goldschlager,
+/obj/item/reagent_containers/cup/glass/bottle/goldschlager,
 /obj/item/food/meatbun,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
@@ -4093,14 +4093,14 @@
 "qt" = (
 /obj/structure/closet/stalker/shkaf,
 /obj/item/storage/box/drinkingglasses,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk)
 "qu" = (
@@ -4261,7 +4261,7 @@
 /area/stalker/buildings/backwater/skadovsk)
 "qU" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
 	},
@@ -5529,7 +5529,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "vH" = (
 /obj/structure/table/stalker/wood,
-/obj/item/plate,
+/obj/item/trash/plate,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -5537,7 +5537,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "vI" = (
 /obj/structure/table/stalker/wood,
-/obj/item/plate,
+/obj/item/trash/plate,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
 "vJ" = (
@@ -5767,20 +5767,20 @@
 /area/stalker/buildings/backwater/ironforest)
 "ww" = (
 /obj/structure/table/stalker,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
 "wx" = (
 /obj/structure/table/stalker,
-/obj/item/reagent_containers/food/drinks/soda_cans/voda,
+/obj/item/reagent_containers/cup/soda_cans/voda,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
 "wy" = (
 /obj/structure/table/stalker,
-/obj/item/plate,
+/obj/item/trash/plate,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
 "wz" = (
@@ -6000,8 +6000,8 @@
 /area/stalker/buildings/backwater/ironforest)
 "xl" = (
 /obj/structure/table/stalker,
-/obj/item/plate,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/trash/plate,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
 "xm" = (
@@ -6085,9 +6085,9 @@
 /area/stalker/buildings/backwater/ironforest)
 "xz" = (
 /obj/structure/table/stalker,
-/obj/item/plate,
-/obj/item/plate,
-/obj/item/plate,
+/obj/item/trash/plate,
+/obj/item/trash/plate,
+/obj/item/trash/plate,
 /obj/machinery/light/small/broken,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
@@ -6600,8 +6600,8 @@
 "zs" = (
 /obj/structure/closet/stalker/shkaf,
 /obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/backwater/ironforest)
 "zt" = (
@@ -8150,7 +8150,7 @@
 /obj/structure/table/stalker/wood,
 /obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/item/storage/box/matches,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
 "LS" = (
@@ -8167,19 +8167,19 @@
 /area/stalker)
 "Ma" = (
 /obj/structure/closet/crate/freezer,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
 /obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
@@ -8250,7 +8250,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "Nk" = (
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass,
 /obj/structure/table/stalker/wood/bar100rentgen{
 	dir = 8
 	},

@@ -12602,7 +12602,7 @@
 /obj/structure/closet/secure_closet/freezer/money,
 /obj/item/food/stalker/konserva/MREkonserva2,
 /obj/item/food/stalker/konserva/MREkonserva1,
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic,
+/obj/item/reagent_containers/cup/soda_cans/energetic,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings)
@@ -14457,11 +14457,11 @@
 	pixel_x = -7;
 	pixel_y = -9
 	},
-/obj/item/reagent_containers/glass/beaker/waterbottle/large{
+/obj/item/reagent_containers/cup/beaker/waterbottle/large{
 	pixel_x = 6;
 	pixel_y = 7
 	},
-/obj/item/reagent_containers/glass/beaker/waterbottle/large{
+/obj/item/reagent_containers/cup/beaker/waterbottle/large{
 	pixel_x = -8;
 	pixel_y = 11
 	},
