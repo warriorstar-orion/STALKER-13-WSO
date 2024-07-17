@@ -451,7 +451,7 @@ var/id_ = 0
 /datum/data/modification/clothing/suit/accessory/webbing/advanced/SpecialCheck(var/obj/item/I)
 	if(!istype(I, /obj/item/clothing/suit))
 		return 0
-	var/obj/item/clothing/suit/S = I
+	if(!I.atom_storage || !istype(I.atom_storage, /datum/))
 	if(!S.pocket_storage_component_path || !istype(S.pocket_storage_component_path, /datum/component/storage/concrete/pockets/internal_slot/webbing))
 		return 0
 	return 1
@@ -517,61 +517,60 @@ var/id_ = 0
 	tier = 1
 	int_slot = /datum/component/storage/concrete/pockets/internal_slot/gun_case
 
+
 //Some suit internal slots
-
-/datum/component/storage/concrete/pockets/internal_slot
-	var/touch_sound = 'sound/stalker/objects/internal_slot_toggle.ogg'
-	var/radiation_protection = 0
-	max_combined_w_class = 2
-	max_items = 1
-	max_w_class = WEIGHT_CLASS_SMALL
+/datum/storage/pockets/internal
+	max_total_storage = 2
+	max_slots = 1
+	max_specific_storage = WEIGHT_CLASS_SMALL
 	attack_hand_interact = TRUE
-
-/datum/component/storage/concrete/pockets/internal_slot/show_to(mob/user)
-	..()
-	playsound(user, touch_sound, 50, 1, -5)
 
 //Artifact container//
 
-/datum/component/storage/concrete/pockets/internal_slot/container
+/datum/storage/artifact_container
+	open_sound = 'sound/stalker/objects/internal_slot_toggle.ogg'
+	max_total_storage = 2
 	max_items = 1
 
-/datum/component/storage/concrete/pockets/internal_slot/container/Initialize()
-	can_hold = typecacheof(list(/obj/item/artifact))
+/datum/storage/artifact_container/Initialize()
+	. = ..()
+	set_holdable(list(/obj/item/artifact))
 
-/datum/component/storage/concrete/pockets/internal_slot/container/advanced
-	max_combined_w_class = 4
-	max_items = 2
 
-/datum/component/storage/concrete/pockets/internal_slot/container/modern
-	max_combined_w_class = 4
-	max_items = 2
+/datum/storage/artifact_container/advanced
+	max_total_storage = 4
+	max_slots = 2
+
+/datum/storage/artifact_container/advanced
+	max_total_storage = 4
+	max_slots = 2
 	radiation_protection = 1
 
+
 //Item slots//
+/datum/storage/pockets/webbing
+	max_total_storage = 4
+	max_slots = 2
 
-/datum/component/storage/concrete/pockets/internal_slot/webbing
-	max_combined_w_class = 4
-	max_items = 2
+/datum/storage/pockets/webbing/advanced
+	max_total_storage = 6
+	max_slots = 3
 
-/datum/component/storage/concrete/pockets/internal_slot/webbing/advanced
-	max_combined_w_class = 6
-	max_items = 3
-
-/datum/component/storage/concrete/pockets/internal_slot/webbing/modern
-	max_w_class = WEIGHT_CLASS_NORMAL
-	max_combined_w_class = 6
-	max_items = 4
+/datum/storage/pockets/webbing/modern
+	max_specific_storage = WEIGHT_CLASS_NORMAL
+	max_total_storage = 6
+	max_slots = 4
 
 //Gun slot//
 
-/datum/component/storage/concrete/pockets/internal_slot/gun_case
-	max_w_class = WEIGHT_CLASS_GIGANTIC
-	max_combined_w_class = 6
-	max_items = 1
+/datum/storage/pockets/gun_case
+	max_specific_storage = WEIGHT_CLASS_GIGANTIC
+	max_total_storage = 6
+	max_slots = 1
 
-/datum/component/storage/concrete/pockets/internal_slot/gun_case/Initialize()
-	can_hold = typecacheof(list(/obj/item/gun))
+/datum/storage/pockets/gun_case/Initialize()
+	. = ..()
+	set_holdable(list(/obj/item/gun))
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
