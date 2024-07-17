@@ -878,7 +878,7 @@
 
 /obj/structure/stalker/deskclutter
 	name =  "desk clutter"
-	icon = 'icons/obj/stationobjs.dmi'
+	icon = 'icons/stalker/obj/decor.dmi'
 	icon_state = "deskclutter"
 	density = 0
 
@@ -1369,7 +1369,7 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	var/cache_quality = -1	//from 0 to 3, -1 for random
 	var/cache_size = 0		//from 0 to 3
 	resistance_flags = INDESTRUCTIBLE
-	var/datum/component/storage/concrete/pockets/stalker/internal_cache
+	var/datum/storage/stalker/cache/internal_cache
 
 /obj/structure/stalker/cacheable/Initialize()
 	. = ..()
@@ -1421,13 +1421,13 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 
 	switch(cache_size)
 		if(0)
-			internal_cache = new /datum/component/storage/concrete/pockets/stalker/small(src)
+			internal_cache = new /datum/storage/stalker/cache/small(src)
 		if(1)
-			internal_cache = new /datum/component/storage/concrete/pockets/stalker/medium(src)
+			internal_cache = new /datum/storage/stalker/cache/medium(src)
 		if(2)
-			internal_cache = new /datum/component/storage/concrete/pockets/stalker/big(src)
+			internal_cache = new /datum/storage/stalker/cache/big(src)
 		if(3)
-			internal_cache = new /datum/component/storage/concrete/pockets/stalker/large(src)
+			internal_cache = new /datum/storage/stalker/cache/large(src)
 
 	internal_cache.CreateContents(src)
 
@@ -1476,26 +1476,29 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	show_lenta_message(null, KPK, null, "PDA", "OS", "You found the key on [internal_cache.cached_cash] rubles, the key is activated!", selfsound = 1)
 	internal_cache.cached_cash = 0
 
-/datum/component/storage/concrete/pockets/stalker
-	var/waspicked = 0
+/datum/storage/stalker/cache
+	var/was_picked = FALSE
 	var/cached_cash = 0
-	max_items = 5
-	display_numerical_stacking = TRUE
+	max_slots = 5
+	numerical_stacking = TRUE
 	attack_hand_interact = TRUE
 
-/datum/component/storage/concrete/pockets/stalker/can_be_inserted(obj/item/I, stop_messages = FALSE, mob/M)
+/datum/storage/stalker/cache/can_insert(obj/item/to_insert, mob/user, messages, force)
 	return FALSE
 
-/datum/component/storage/concrete/pockets/stalker/mousedrop_onto()
+/datum/storage/stalker/cache/on_mousedrop_onto(datum/source, atom/over_object, mob/user)
 	return FALSE
 
-/datum/component/storage/concrete/pockets/stalker/on_alt_click()
-	return
+/datum/storage/stalker/cache/on_click_alt(datum/source, mob/user)
+	return FALSE
 
-/datum/component/storage/concrete/pockets/stalker/show_to_ghost()
-	return
+/datum/storage/stalker/cache/show_contents(mob/to_show)
+	if(isobserver(to_show))
+		return FALSE
 
-/datum/component/storage/concrete/pockets/stalker/proc/CreateContents(var/obj/structure/stalker/cacheable/C)
+	return ..()
+
+/datum/storage/stalker/cache/proc/CreateContents(obj/structure/stalker/cacheable/C)
 
 	var/list/lootspawn = list()
 
@@ -1517,8 +1520,8 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	var/combined_w_class = 0
 	var/combined_cost = 0
 
-	for(var/i = 0, i <= src.max_items, i++)
-		if(combined_w_class > src.max_combined_w_class)
+	for(var/i = 0, i <= max_slots, i++)
+		if(combined_w_class > max_total_storage)
 			break
 
 		if(combined_cost > max_cost)
@@ -1536,7 +1539,7 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 
 		var/obj/item/I = new A(src)
 
-		if(I.w_class > src.max_w_class)
+		if(I.w_class > max_specific_storage)
 			continue
 
 		combined_cost += SE.cost
@@ -1545,27 +1548,28 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 		//	continue
 
 		combined_w_class +=  I.w_class
-		src.handle_item_insertion(I, prevent_warning = 1)
+
+		attempt_insert(I, null, override = TRUE, force = TRUE, messages = FALSE)
 
 	if(max_cost - combined_cost > 0)
 		cached_cash = round((max_cost - combined_cost)/2)
 
-/datum/component/storage/concrete/pockets/stalker/small
-	max_items = 3
-	max_w_class = 2
-	max_combined_w_class = 3
+/datum/storage/stalker/cache/small
+	max_slots = 3
+	max_specific_storage = 2
+	max_total_storage = 3
 
-/datum/component/storage/concrete/pockets/stalker/medium
-	max_items = 6
-	max_w_class = 3
-	max_combined_w_class = 6
+/datum/storage/stalker/cache/medium
+	max_slots = 6
+	max_specific_storage = 3
+	max_total_storage = 6
 
-/datum/component/storage/concrete/pockets/stalker/big
-	max_items = 8
-	max_w_class = 4
-	max_combined_w_class = 8
+/datum/storage/stalker/cache/big
+	max_slots = 8
+	max_specific_storage = 4
+	max_total_storage = 8
 
-/datum/component/storage/concrete/pockets/stalker/large
-	max_items = 10
-	max_w_class = 5
-	max_combined_w_class = 12
+/datum/storage/stalker/cache/large
+	max_slots = 10
+	max_specific_storage = 5
+	max_total_storage = 12

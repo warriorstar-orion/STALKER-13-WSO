@@ -234,7 +234,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		new /datum/data/stalker_equipment("Bandage",					"Bandage",					/obj/item/stack/medical/gauze/bint,								750,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Anti-rad",					"Anti-rad",					/obj/item/reagent_containers/pill/stalker/injector/antirad,		1000,	ROOKIE,initial_stock = PISTOL_AMOUNT*2,			sale_price = 1000),
 		new /datum/data/stalker_equipment("LSD Pills",					"LSD Pills",				/obj/item/storage/pill_bottle/lsd,								10000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Happines Pills",				"Happines Pills",			/obj/item/storage/pill_bottle/happiness,						5000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Happines Pills",				"Happines Pills",			/obj/item/storage/pill_bottle/happinesspsych,						5000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Epinephrine Pills",			"Epinephrine Pills",		/obj/item/storage/pill_bottle/epinephrine,						5000,	ROOKIE,initial_stock = PISTOL_AMOUNT)
 		),
 
@@ -493,7 +493,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 	))
 
 /obj/machinery/stalker
-	atom_integrity = 1000000
+	max_integrity = 1000000
 	icon = 'icons/stalker/decor.dmi'
 
 /obj/machinery/stalker/sidormat

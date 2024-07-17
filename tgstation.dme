@@ -6399,6 +6399,7 @@
 #include "code\stalker\modules\language\german.dm"
 #include "code\stalker\modules\language\russian.dm"
 #include "code\stalker\modules\language\ukranian.dm"
+#include "code\stalker\modules\projectiles\boxes_magazines\external\smg.dm"
 #include "code\stalker\modules\projectiles\boxes_magazines\external\sniper.dm"
 #include "code\stalker\modules\reagents\drinks\alcohol_reagents.dm"
 #include "code\stalker\modules\reagents\reagent_containers\cups\drinks.dm"

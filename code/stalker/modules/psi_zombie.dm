@@ -34,7 +34,7 @@
 	var/attack_same = 0 //Set us to 1 to allow us to attack our own faction, or 2, to only ever attack our own faction
 	var/target_dist
 	var/AIStatus = AI_ON //The Status of our AI, can be set to AI_ON (On, usual processing), AI_IDLE (Will not process, but will return to AI_ON if an enemy comes near), AI_OFF (Off, Not processing ever)
-	var/obj/item/gun/Zombo_Gun = null
+	var/obj/item/gun/ballistic/Zombo_Gun = null
 	var/Zombo_Gun_slot = null
 
 /mob/living/carbon/human/proc/ZombieLife()
@@ -85,14 +85,10 @@
 		if(!FindGun())
 			return
 
-		drop_l_hand()
-		drop_r_hand()
+		drop_all_held_items()
 		Zombo_Gun.attack_hand(src)
 
-		if(hand)
-			Zombo_Gun_slot = slot_l_hand
-		else
-			Zombo_Gun_slot = slot_r_hand
+		Zombo_Gun_slot = get_active_hand()
 
 		return
 
@@ -104,10 +100,7 @@
 
 		if(!Zombo_Gun.magazine || !Zombo_Gun.magazine.stored_ammo.len)
 			if(!ReloadGun() && !istype(target, Zombo_Gun.mag_type))
-				if(Zombo_Gun_slot == slot_r_hand)
-					drop_r_hand()
-				else
-					drop_l_hand()
+				dropItemToGround(Zombo_Gun)
 				FindGun()
 	return
 
