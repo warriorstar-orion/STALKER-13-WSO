@@ -60,9 +60,10 @@
 	..()
 	update_icon()
 
-/obj/item/clothing/proc/RefreshPockets()
-	if(ispath(pocket_storage_component_path))
-		LoadComponent(pocket_storage_component_path)
+// TODO(wso): Don't think we need this anymore
+// /obj/item/clothing/proc/RefreshPockets()
+// 	if(ispath(pocket_storage_component_path))
+// 		LoadComponent(pocket_storage_component_path)
 
 //obj/item/clothing/suit/MouseDrop(atom/over_object)
 //	if(!usr || (loc != usr))
@@ -197,7 +198,6 @@
 	min_cold_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
 	durability = -1
 	flags_inv = HIDEEARS|HIDEHAIR
-	dynamic_hair_suffix = ""
 
 /obj/item/clothing/head/hooded/stalker/kozhanka
 	icon_state = "winterhood_kozhanka"
