@@ -1186,7 +1186,7 @@
 "jO" = (
 /obj/structure/chair/brevno,
 /obj/item/shovel,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "jQ" = (
 /obj/structure/fence/corner{
@@ -1327,7 +1327,7 @@
 	dir = 1;
 	tag = "icon-log2 (NORTH)"
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "kH" = (
 /obj/structure/stalker/car/gryzovik/west{
@@ -2870,7 +2870,7 @@
 /area/stalker/blowout/buildings)
 "vi" = (
 /obj/machinery/campfire,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/outdoor)
 "vm" = (
 /obj/rad/rad_low,
@@ -4273,7 +4273,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "GI" = (
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "GK" = (
 /obj/structure/grille/stalker/beton{
@@ -4396,7 +4396,7 @@
 	dir = 1;
 	tag = "icon-log1 (NORTH)"
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "HE" = (
 /turf/open/stalker/floor/digable/gryaz_rocky,
@@ -4537,7 +4537,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "IJ" = (
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/outdoor)
 "IN" = (
 /obj/anomaly/karusel,
@@ -4906,7 +4906,7 @@
 /area/stalker/blowout/outdoor)
 "LK" = (
 /obj/structure/chair/brevno/log2,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "LP" = (
 /obj/structure/closet/crate/stalker/blue/stash/low,

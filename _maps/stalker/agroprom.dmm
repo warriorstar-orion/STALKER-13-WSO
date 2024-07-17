@@ -4361,7 +4361,7 @@
 	pixel_x = 0;
 	tag = "icon-border8"
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "tq" = (
 /obj/effect/decal/cleanable/glitter/white,
@@ -6710,7 +6710,7 @@
 	pixel_x = 0;
 	tag = "icon-border8"
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "Jh" = (
 /obj/structure/grille/stalker{
@@ -8701,7 +8701,7 @@
 	dir = 1;
 	tag = "icon-tube1 (EAST)"
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "TN" = (
 /obj/structure/stalker/tree,

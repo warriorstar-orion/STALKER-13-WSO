@@ -65,7 +65,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "aO" = (
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "aP" = (
 /obj/effect/spawner/random/stalker/junk,
@@ -83,7 +83,7 @@
 /area/stalker/blowout/outdoor)
 "aY" = (
 /obj/structure/stalker/cacheable/musor_yashik/green,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "bd" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -94,7 +94,7 @@
 /area/stalker/blowout/outdoor)
 "bi" = (
 /obj/rad/rad_low,
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "bm" = (
 /obj/structure/stalker/car/gryzovik/west{
@@ -133,7 +133,7 @@
 /obj/rad/rad_low,
 /obj/rad/rad_low,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "bF" = (
 /obj/structure/closet/stalker/shkaf,
@@ -157,7 +157,7 @@
 /area/stalker/blowout/buildings)
 "bW" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "bZ" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -214,7 +214,7 @@
 /area/stalker/blowout/outdoor)
 "cr" = (
 /obj/structure/stalker/structure/junk_bed2,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "ct" = (
 /obj/rad/rad_low,
@@ -288,7 +288,7 @@
 	teleport_y = 393;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "dl" = (
 /obj/structure/stalker/car/gryzovik/south{
@@ -314,7 +314,7 @@
 /area/stalker/blowout/outdoor)
 "dx" = (
 /obj/structure/closet/crate/stalker/blue/stash/medium,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "dA" = (
 /obj/structure/stalker/car/gryzovik/south{
@@ -328,11 +328,11 @@
 /obj/rad/rad_low,
 /obj/rad/rad_low,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "dF" = (
 /obj/machinery/campfire/barrel,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/buildings/kordon/banditbar)
 "dL" = (
 /obj/machinery/door/poddoor/sidor{
@@ -365,7 +365,7 @@
 /area/stalker/blowout/buildings)
 "eg" = (
 /obj/item/trash/metalparts/metaljunk/two,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "eh" = (
 /obj/rad/rad_high,
@@ -474,7 +474,7 @@
 /obj/structure/grille/stalker/beton{
 	dir = 5
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "fA" = (
 /obj/structure/table/stalker/wood,
@@ -513,7 +513,7 @@
 /area/stalker/blowout/buildings)
 "ge" = (
 /obj/effect/spawner/random/stalker/weapon/pistols,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "gg" = (
 /obj/rad/rad_low,
@@ -534,7 +534,7 @@
 "go" = (
 /obj/structure/table/stalker/wood,
 /obj/item/paper_bin,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "gv" = (
 /obj/structure/closet/stalker/shkaf,
@@ -589,7 +589,7 @@
 /area/stalker/buildings/kordon/banditbar)
 "ha" = (
 /obj/structure/barricade/stalker/box,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "hf" = (
 /obj/structure/stalker/car/uaz{
@@ -618,7 +618,7 @@
 "hq" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "hy" = (
 /obj/structure/stalker/car/gryzovik/south{
@@ -700,11 +700,11 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "is" = (
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "iv" = (
 /obj/structure/stalker/doski/doski_alt2,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/buildings/kordon/banditbar)
 "iB" = (
 /obj/effect/step_trigger/teleporter{
@@ -793,7 +793,7 @@
 	teleport_y = 155;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "jh" = (
 /obj/machinery/campfire,
@@ -872,7 +872,7 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "kC" = (
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/buildings/kordon/banditbar)
 "kD" = (
 /obj/rad/rad_medium,
@@ -1004,7 +1004,7 @@
 /obj/effect/step_trigger/teleporter{
 	dir = 1
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "mi" = (
 /obj/structure/bed/stalker/mattress_bloodstain,
@@ -1017,7 +1017,7 @@
 /area/stalker/blowout/outdoor)
 "mp" = (
 /obj/structure/bed/stalker/mattress_bloodstain,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/buildings/kordon/banditbar)
 "mt" = (
 /obj/rad/rad_high,
@@ -1251,7 +1251,7 @@
 	teleport_y = 396;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "oR" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
@@ -1357,7 +1357,7 @@
 "pJ" = (
 /obj/rad/rad_low,
 /obj/anomaly/jarka,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "pM" = (
 /obj/machinery/light/small,
@@ -1416,11 +1416,11 @@
 /area/stalker/blowout/buildings)
 "qg" = (
 /obj/structure/closet/crate/stalker/blue/stash/low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "qj" = (
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "qk" = (
 /obj/structure/fence/end{
@@ -1443,7 +1443,7 @@
 	teleport_y = 373;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "qA" = (
 /obj/structure/mineral_door/wood,
@@ -1479,7 +1479,7 @@
 /area/stalker/blowout/buildings)
 "ra" = (
 /obj/effect/spawner/random/stalker/junk,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "ri" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -1523,7 +1523,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "rF" = (
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "rQ" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
@@ -1546,7 +1546,7 @@
 /obj/structure/fence{
 	dir = 8
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "sk" = (
 /obj/structure/flora/bush/sunny/style_random,
@@ -1591,7 +1591,7 @@
 /area/stalker/blowout/outdoor)
 "sw" = (
 /obj/structure/stalker/rustymachine/junk_machine,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "sy" = (
 /obj/rad/rad_low,
@@ -1630,7 +1630,7 @@
 /area/stalker/blowout/outdoor)
 "sR" = (
 /obj/structure/stalker/cacheable/junk_locker,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "sV" = (
 /turf/open/stalker/floor/digable/grass,
@@ -1760,7 +1760,7 @@
 /area/stalker/blowout/outdoor)
 "ug" = (
 /obj/rad/rad_medium,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "um" = (
 /obj/structure/stalker/cacheable/musor_yashik/green/full,
@@ -1801,7 +1801,7 @@
 	dir = 5
 	},
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "vg" = (
 /obj/structure/closet/stalker/shkaf,
@@ -1810,7 +1810,7 @@
 /area/stalker/blowout/buildings)
 "vh" = (
 /obj/anomaly/puh,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "vk" = (
 /obj/structure/mineral_door/wood,
@@ -1835,7 +1835,7 @@
 /area/stalker/blowout/outdoor)
 "vu" = (
 /obj/structure/stalker/cacheable/yashik,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "vB" = (
 /obj/structure/closet/stalker/shkaf,
@@ -1869,7 +1869,7 @@
 /area/stalker/blowout/buildings)
 "vS" = (
 /obj/structure/stalker/cacheable/musor_yashik/red/full,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "vZ" = (
 /obj/rad/rad_high,
@@ -1889,7 +1889,7 @@
 /obj/structure/fence{
 	dir = 16
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "wk" = (
 /obj/item/clothing/suit/apron/purple_bartender,
@@ -1920,7 +1920,7 @@
 /area/stalker/buildings/kordon/banditbar)
 "wl" = (
 /obj/structure/fence/door/opened,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "wr" = (
 /obj/rad/rad_low,
@@ -2028,7 +2028,7 @@
 /area/stalker/blowout/outdoor)
 "xv" = (
 /obj/structure/stalker/cacheable/junk_cabinet,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "xw" = (
 /obj/effect/spawner/random/stalker/junk,
@@ -2050,7 +2050,7 @@
 /area/stalker/buildings/kordon/banditbar)
 "xH" = (
 /obj/structure/stalker/stolb_alt,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "xQ" = (
 /obj/structure/fence/cut/medium{
@@ -2060,7 +2060,7 @@
 /area/stalker/blowout/outdoor)
 "xU" = (
 /obj/item/trash/metalparts/metaljunk/four,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "xW" = (
 /obj/rad/rad_low,
@@ -2140,7 +2140,7 @@
 /area/stalker/blowout/outdoor)
 "zd" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "ze" = (
 /obj/structure/stalker/cacheable/junk_jukebox,
@@ -2211,11 +2211,11 @@
 /area/stalker/blowout/buildings)
 "zQ" = (
 /obj/item/trash/metalparts/metaljunk/three,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "zS" = (
 /obj/effect/spawner/random/stalker/food,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "zW" = (
 /obj/structure/mineral_door/wood,
@@ -2279,7 +2279,7 @@
 /area/stalker/blowout/outdoor)
 "AO" = (
 /obj/anomaly/jarka,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "AV" = (
 /obj/structure/stalker/car/gryzovik/south{
@@ -2395,7 +2395,7 @@
 	pixel_y = -4;
 	pixel_z = 3
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "Co" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
@@ -2472,7 +2472,7 @@
 "Dp" = (
 /obj/rad/rad_high,
 /obj/rad/rad_high,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "Dq" = (
 /obj/structure/stalker/cacheable/polka,
@@ -2511,7 +2511,7 @@
 /area/stalker/blowout/outdoor)
 "DY" = (
 /obj/structure/stalker/cacheable/polka,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "DZ" = (
 /obj/structure/stalker/cacheable/junk_cabinet,
@@ -2577,7 +2577,7 @@
 /area/stalker/blowout/outdoor)
 "EZ" = (
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "Fd" = (
 /obj/rad/rad_low,
@@ -2590,7 +2590,7 @@
 	tag = "icon-l4"
 	},
 /obj/structure/barricade/stalker/box,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "Fr" = (
 /obj/structure/stalker/cacheable/sink_broken,
@@ -2710,7 +2710,7 @@
 	teleport_y = 347;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "GU" = (
 /obj/structure/stalker/car/gryzovik2/south{
@@ -2731,7 +2731,7 @@
 "Hb" = (
 /obj/rad/rad_high,
 /obj/structure/closet/crate/stalker/blue/stash,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "Hf" = (
 /obj/effect/spawner/random/stalker/food,
@@ -2802,14 +2802,14 @@
 /area/stalker/blowout/outdoor)
 "HH" = (
 /obj/item/trash/metalparts/metaljunk,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "HM" = (
 /obj/rad/rad_low,
 /obj/rad/rad_low,
 /obj/rad/rad_low,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "HT" = (
 /obj/rad/rad_high,
@@ -2869,7 +2869,7 @@
 /area/stalker/blowout/buildings)
 "Iu" = (
 /obj/structure/mineral_door/wood,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "Iv" = (
 /obj/structure/stalker/car/uaz{
@@ -2892,7 +2892,7 @@
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big{
 	pixel_x = 2
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "IB" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -2954,7 +2954,7 @@
 	icon_state = "centers";
 	tag = "icon-centers"
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "Ju" = (
 /obj/structure/flora/tree/jungle,
@@ -3109,7 +3109,7 @@
 	tag = "icon-l4"
 	},
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "LP" = (
 /obj/effect/step_trigger/teleporter{
@@ -3177,7 +3177,7 @@
 /area/stalker/blowout/outdoor)
 "MB" = (
 /obj/effect/spawner/random/stalker/weapon/meleetwohand,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "ML" = (
 /obj/rad/rad_high,
@@ -3219,7 +3219,7 @@
 	tag = "icon-truba2 (EAST)"
 	},
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "Nh" = (
 /obj/structure/fence/door,
@@ -3284,7 +3284,7 @@
 	icon_state = "=1";
 	tag = "icon-=1"
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "NZ" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
@@ -3333,12 +3333,12 @@
 /area/stalker/blowout/buildings)
 "Oz" = (
 /obj/structure/fence/corner,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "OC" = (
 /obj/rad/rad_low,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "OE" = (
 /obj/structure/stalker/cacheable/battery,
@@ -3354,7 +3354,7 @@
 /area/stalker/blowout/outdoor)
 "OK" = (
 /obj/item/trash/metalparts/metaljunk/six,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "OQ" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -3409,7 +3409,7 @@
 	tag = "icon-truba3 (EAST)"
 	},
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "PB" = (
 /obj/machinery/light/small,
@@ -3489,7 +3489,7 @@
 "Rf" = (
 /obj/anomaly/jarka,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "Rm" = (
 /obj/structure/barricade/stalker/woodalt,
@@ -3594,7 +3594,7 @@
 	teleport_y = 127;
 	teleport_z = 12
 	},
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "Sx" = (
 /obj/structure/flora/stalker/smallbush,
@@ -3653,7 +3653,7 @@
 	icon_state = "l4";
 	tag = "icon-l4"
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "SL" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -3715,7 +3715,7 @@
 /area/stalker/blowout/outdoor)
 "Tm" = (
 /obj/rad/rad_high,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/outdoor)
 "Tr" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
@@ -3795,7 +3795,7 @@
 "Uh" = (
 /obj/structure/table/stalker/wood,
 /obj/item/stack/packageWrap,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "Ur" = (
 /obj/structure/stalker/tree/leaflessred,
@@ -3948,7 +3948,7 @@
 /area/stalker/blowout/outdoor)
 "VC" = (
 /obj/structure/barricade/stalker/wood,
-/turf/open/floor/plasteel/stairs/old,
+/turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
 "VJ" = (
 /obj/structure/fence{
@@ -3974,7 +3974,7 @@
 /area/stalker/blowout/buildings)
 "VY" = (
 /obj/structure/chair/stool/bar,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "Wa" = (
 /obj/structure/bed/stalker/desecratedbed,
@@ -4089,7 +4089,7 @@
 /area/stalker/blowout/buildings)
 "Xs" = (
 /obj/structure/bed/stalker/mattress_dried,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/buildings/kordon/banditbar)
 "Xt" = (
 /obj/rad/rad_high,
@@ -4114,7 +4114,7 @@
 /area/stalker/blowout/outdoor)
 "XB" = (
 /obj/structure/table/stalker/wood,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "XC" = (
 /obj/structure/stalker/doski/doski_alt2,
@@ -4129,7 +4129,7 @@
 /obj/structure/fence/corner{
 	dir = 1
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "XK" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,

@@ -41,7 +41,7 @@
 "aq" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /mob/living/simple_animal/hostile/mutant/snork,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "ar" = (
 /turf/open/stalker/floor/wood/oldgor,
@@ -122,7 +122,7 @@
 	resize = 1.5;
 	speed = 2
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "aE" = (
 /turf/closed/mineral,
@@ -222,7 +222,7 @@
 	resize = 1.5;
 	speed = 2
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "ba" = (
 /obj/structure/stalker/doski/doski4,
@@ -393,7 +393,7 @@
 "bH" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /mob/living/simple_animal/hostile/mutant/snork,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "bI" = (
 /obj/structure/stalker/okno/window3,
@@ -443,7 +443,7 @@
 	teleport_y = 8;
 	teleport_z = 1
 	},
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/blowout/buildings/backwater/substation)
@@ -470,7 +470,7 @@
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker)
 "cc" = (
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/blowout/buildings/backwater/substation)
@@ -535,10 +535,10 @@
 	resize = 3.4;
 	speed = 1
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "co" = (
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/waste)
 "cp" = (
 /obj/effect/step_trigger/teleporter{
@@ -548,7 +548,7 @@
 	teleport_y = 12;
 	teleport_z = 1
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/blowout/buildings/backwater/waste)
 "cq" = (
 /obj/effect/step_trigger/teleporter{
@@ -558,7 +558,7 @@
 	teleport_y = 12;
 	teleport_z = 1
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/blowout/buildings/backwater/waste)
 "cr" = (
 /obj/structure/table/stalker/wood,
@@ -579,7 +579,7 @@
 	teleport_y = 12;
 	teleport_z = 1
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/blowout/buildings/backwater/waste)
 "cu" = (
 /obj/effect/step_trigger/teleporter{
@@ -589,10 +589,10 @@
 	teleport_y = 12;
 	teleport_z = 1
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/blowout/buildings/backwater/waste)
 "cv" = (
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/buildings/backwater/waste)
@@ -642,10 +642,10 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "cE" = (
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/blowout/buildings/backwater/waste)
 "cF" = (
 /obj/structure/chair/comfy/black{
@@ -751,7 +751,7 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "cW" = (
 /obj/rad/rad_low,
@@ -925,7 +925,7 @@
 	teleport_y = 238;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/clearsky)
 "dC" = (
 /obj/effect/step_trigger/teleporter{
@@ -935,7 +935,7 @@
 	teleport_y = 238;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/clearsky)
 "dD" = (
 /obj/effect/step_trigger/teleporter{
@@ -959,7 +959,7 @@
 /turf/open/floor/carpet,
 /area/stalker/buildings/clearsky)
 "dH" = (
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ranger)
 "dI" = (
 /obj/effect/step_trigger/teleporter{
@@ -996,7 +996,7 @@
 	teleport_y = 240;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/clearsky)
 "dO" = (
 /obj/effect/step_trigger/teleporter{
@@ -1004,7 +1004,7 @@
 	teleport_y = 240;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/clearsky)
 "dP" = (
 /turf/closed/mineral,
@@ -1023,7 +1023,7 @@
 	resize = 2.4;
 	speed = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "dS" = (
 /turf/open/stalker/floor/agroprom/beton,
@@ -1254,7 +1254,7 @@
 	teleport_y = 191;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ranger)
 "ep" = (
 /obj/effect/step_trigger/teleporter{
@@ -1262,7 +1262,7 @@
 	teleport_y = 191;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ranger)
 "eq" = (
 /obj/effect/step_trigger/teleporter{
@@ -1270,7 +1270,7 @@
 	teleport_y = 191;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ranger)
 "er" = (
 /turf/closed/wall/stalker/beton_agro,
@@ -1586,7 +1586,7 @@
 	teleport_y = 226;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ranger)
 "fE" = (
 /obj/effect/step_trigger/teleporter{
@@ -1596,7 +1596,7 @@
 	teleport_y = 226;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ranger)
 "fF" = (
 /obj/effect/step_trigger/teleporter{
@@ -1606,7 +1606,7 @@
 	teleport_y = 226;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ranger)
 "fG" = (
 /obj/effect/turf_decal/stripes/full{
@@ -1850,7 +1850,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ranger)
 "gy" = (
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/krug)
 "gz" = (
 /obj/structure/stalker/cacheable/polka,
@@ -2474,7 +2474,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "iP" = (
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 4
 	},
 /area/stalker/buildings/backwater/krug)
@@ -2518,7 +2518,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "iX" = (
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 8;
 	tag = "icon-stairs (WEST)"
 	},
@@ -3125,7 +3125,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "kW" = (
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/buildings/backwater/ironforest)
@@ -3147,7 +3147,7 @@
 	teleport_y = 82;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ironforest)
 "la" = (
 /obj/effect/step_trigger/teleporter{
@@ -3155,7 +3155,7 @@
 	teleport_y = 82;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ironforest)
 "lc" = (
 /obj/effect/step_trigger/teleporter{
@@ -3165,7 +3165,7 @@
 	teleport_y = 85;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/buildings/backwater/ironforest)
@@ -3177,7 +3177,7 @@
 	teleport_y = 85;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/buildings/backwater/ironforest)
@@ -3189,7 +3189,7 @@
 	teleport_y = 84;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/buildings/backwater/ironforest)
@@ -3714,7 +3714,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings/backwater/ironforest)
 "mU" = (
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 4
 	},
 /area/stalker/buildings/backwater/ironforest)
@@ -3897,7 +3897,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/clearsky)
 "nA" = (
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/clearsky)
 "nB" = (
 /obj/effect/step_trigger/teleporter{
@@ -4021,20 +4021,20 @@
 /area/awaymission/errorroom)
 "nU" = (
 /obj/item/rupee,
-/turf/open/floor/plating/ashplanet/wateryrock{
+/turf/open/misc/ashplanet/wateryrock{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
 	planetary_atmos = 0
 	},
 /area/awaymission/errorroom)
 "nV" = (
-/turf/open/floor/plating/ashplanet/wateryrock{
+/turf/open/misc/ashplanet/wateryrock{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
 	planetary_atmos = 0
 	},
 /area/awaymission/errorroom)
 "nW" = (
 /obj/effect/landmark/error,
-/turf/open/floor/plating/ashplanet/wateryrock{
+/turf/open/misc/ashplanet/wateryrock{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
 	planetary_atmos = 0
 	},
@@ -4045,7 +4045,7 @@
 	icon_state = "ladder10";
 	invisibility = 100
 	},
-/turf/open/floor/plating/ashplanet/wateryrock{
+/turf/open/misc/ashplanet/wateryrock{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15";
 	planetary_atmos = 0
 	},
@@ -4060,7 +4060,7 @@
 "om" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/item/gun/ballistic/revolver/grenadelauncher/unrestricted,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "on" = (
 /obj/effect/spawner/random/bustedsovietsoda,
@@ -4074,22 +4074,22 @@
 /area/stalker/buildings/backwater/krug)
 "op" = (
 /mob/living/simple_animal/hostile/mutant/snork,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "ov" = (
 /obj/rad/rad_low,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "oD" = (
 /obj/rad/rad_medium,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "oF" = (
 /obj/structure/grille/indestructable,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "oL" = (
 /obj/structure/table,
@@ -4109,7 +4109,7 @@
 "oX" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/item/storage/firstaid/ai2,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "pg" = (
 /obj/machinery/button/door{
@@ -4123,7 +4123,7 @@
 "pn" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "ps" = (
 /obj/structure/stalker/cacheable/brokenmachine5,
@@ -4133,7 +4133,7 @@
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/anomaly/tramplin,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "pI" = (
 /obj/structure/table/stalker,
@@ -4157,7 +4157,7 @@
 /obj/rad/rad_low,
 /obj/item/cultivator,
 /obj/item/katana,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "qk" = (
 /obj/structure/chair/pew,
@@ -4165,7 +4165,7 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "qm" = (
 /obj/rad/rad_low,
@@ -4174,7 +4174,7 @@
 /area/stalker)
 "qv" = (
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "qA" = (
 /obj/structure/table/stalker,
@@ -4208,7 +4208,7 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "qV" = (
 /obj/rad/rad_high,
@@ -4222,7 +4222,7 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "rg" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
@@ -4232,12 +4232,12 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "ri" = (
 /obj/structure/chair/pew/left,
 /obj/item/stack/spacecash/c5000,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "rj" = (
 /obj/effect/step_trigger/teleporter{
@@ -4296,7 +4296,7 @@
 /area/stalker/buildings/backwater/krug)
 "sa" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "sc" = (
 /obj/effect/decal/cleanable/blood/gibs/bubblegum,
@@ -4304,11 +4304,11 @@
 /obj/effect/decal/cleanable/blood/gibs/core,
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/item/stack/spacecash/c5000,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "sf" = (
 /obj/effect/spawner/random/stalker/medicine,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "si" = (
 /obj/rad/rad_low,
@@ -4328,7 +4328,7 @@
 /area/stalker/buildings/backwater/burntfarm)
 "sw" = (
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "sM" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -4358,7 +4358,7 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "tH" = (
 /obj/machinery/button/door/keypad{
@@ -4397,7 +4397,7 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "up" = (
 /obj/rad/rad_medium,
@@ -4409,7 +4409,7 @@
 "uD" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "uO" = (
 /obj/item/trash/metalparts/brokenpipes,
@@ -4422,7 +4422,7 @@
 "uR" = (
 /obj/rad/rad_low,
 /obj/rad/rad_low,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "uZ" = (
 /obj/effect/step_trigger/teleporter{
@@ -4445,7 +4445,7 @@
 "vr" = (
 /obj/structure/stalker/cacheable/junk_locker,
 /obj/effect/spawner/random/glowstick,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "vz" = (
 /obj/structure/table/stalker,
@@ -4483,11 +4483,11 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "wn" = (
 /obj/anomaly/electro,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "wq" = (
 /obj/structure/stalker/mirror/mirror_broken,
@@ -4501,7 +4501,7 @@
 	teleport_y = 85;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/buildings/backwater/ironforest)
@@ -4518,11 +4518,11 @@
 /area/stalker/buildings/backwater/sawmill)
 "wQ" = (
 /obj/effect/decal/cleanable/blood/gibs/bubblegum,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "wU" = (
 /obj/effect/decal/cleanable/blood/drip,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "wW" = (
 /obj/structure/chair/pew,
@@ -4531,7 +4531,7 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "wX" = (
 /obj/structure/table/stalker/wood,
@@ -4558,18 +4558,18 @@
 	id = "ironforestend";
 	pixel_x = -32
 	},
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/buildings/backwater/ironforest)
 "xk" = (
 /obj/structure/chair/pew/right,
 /obj/item/stack/spacecash/c1000,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "xo" = (
 /obj/rad/rad_low,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "xu" = (
 /obj/item/bedsheet,
@@ -4588,7 +4588,7 @@
 /obj/item/ammo_box/magazine/tommygunm45,
 /obj/item/ammo_box/magazine/tommygunm45,
 /obj/item/ammo_box/magazine/tommygunm45,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "xF" = (
 /obj/rad/rad_low,
@@ -4623,7 +4623,7 @@
 	},
 /obj/structure/window,
 /obj/item/melee/splattermaster,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "yp" = (
 /obj/effect/spawner/random/stalker/junk,
@@ -4664,13 +4664,13 @@
 	dir = 4
 	},
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "yM" = (
 /turf/closed/wall/rust,
 /area/stalker)
 "yP" = (
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "yT" = (
 /obj/structure/chair/comfy/teal{
@@ -4685,7 +4685,7 @@
 /area/stalker)
 "zd" = (
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "zq" = (
 /obj/machinery/light/small/broken{
@@ -4709,7 +4709,7 @@
 "zG" = (
 /obj/rad/rad_low,
 /obj/structure/curtain,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "zN" = (
 /obj/structure/table/reinforced,
@@ -4727,7 +4727,7 @@
 	teleport_y = 91;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/buildings/backwater/ironforest)
@@ -4776,7 +4776,7 @@
 	dir = 4
 	},
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "AH" = (
 /obj/structure/table/stalker,
@@ -4798,14 +4798,14 @@
 /area/stalker/buildings/backwater/krug)
 "Ba" = (
 /obj/rad/rad_medium,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Bc" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
 /obj/rad/rad_medium,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Bg" = (
 /obj/structure/grille/stalker{
@@ -4831,12 +4831,12 @@
 /area/stalker/buildings/backwater/burntfarm)
 "BM" = (
 /obj/structure/stalker/structure/junk_bed2,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "BN" = (
 /obj/anomaly/tramplin,
 /obj/item/reagent_containers/cup/glass/flask/cylinder,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "BR" = (
 /turf/closed/wall/stalker/bricks_yellow,
@@ -4848,10 +4848,10 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Ch" = (
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/buildings/backwater/claw)
 "Cs" = (
 /obj/structure/table/stalker/wood,
@@ -4868,7 +4868,7 @@
 /obj/item/gun/ballistic/automatic/gp37,
 /obj/structure/window,
 /obj/item/melee/splattermaster,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "CA" = (
 /obj/effect/step_trigger/teleporter{
@@ -4915,7 +4915,7 @@
 /area/stalker/buildings/backwater/burntfarm)
 "DB" = (
 /obj/structure/stalker/cacheable/junk_micro,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "DI" = (
 /obj/machinery/clonepod,
@@ -4931,24 +4931,24 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "DT" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/rad/rad_low,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "Eo" = (
 /turf/closed/wall/rust,
 /area/stalker/buildings/backwater/claw)
 "EJ" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "EL" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/structure/curtain,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "EO" = (
 /obj/structure/grille/stalker,
@@ -4956,7 +4956,7 @@
 /area/stalker/buildings/backwater/krug)
 "Fb" = (
 /obj/anomaly/tramplin,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Fe" = (
 /obj/item/bodypart/l_arm/monkey,
@@ -4978,7 +4978,7 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "FH" = (
 /obj/structure/chair/comfy/teal{
@@ -4991,7 +4991,7 @@
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/item/stack/spacecash/c100,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "FY" = (
 /obj/rad/rad_medium,
@@ -5014,7 +5014,7 @@
 /obj/structure/chair/pew/left,
 /obj/item/cultivator,
 /obj/item/stack/spacecash/c500,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "Gy" = (
 /obj/effect/step_trigger/teleporter{
@@ -5022,7 +5022,7 @@
 	teleport_y = 82;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ironforest)
 "Gz" = (
 /obj/effect/step_trigger/teleporter{
@@ -5075,7 +5075,7 @@
 "Ib" = (
 /obj/anomaly/tramplin,
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "In" = (
 /obj/structure/window/reinforced/tinted{
@@ -5087,7 +5087,7 @@
 "Io" = (
 /obj/rad/rad_medium,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "Ip" = (
 /obj/structure/table/stalker,
@@ -5128,7 +5128,7 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Jd" = (
 /obj/effect/step_trigger/teleporter{
@@ -5161,13 +5161,13 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "JE" = (
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "JP" = (
 /obj/structure/stalker/structure/brokenbench,
@@ -5176,12 +5176,12 @@
 "JS" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "JT" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/rad/rad_low,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "JU" = (
 /obj/effect/spawner/random/stalker/weapon/meleetier2,
@@ -5199,7 +5199,7 @@
 	resize = 1.5;
 	speed = 2
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Kb" = (
 /obj/structure/stalker/cacheable/oldcovertatteredtwo,
@@ -5214,7 +5214,7 @@
 	resize = 2.4;
 	speed = 1
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Ko" = (
 /obj/structure/sign/departments/science{
@@ -5252,7 +5252,7 @@
 "Lb" = (
 /obj/structure/reagent_dispensers/compostvat,
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "Lj" = (
 /obj/structure/table/stalker/wood,
@@ -5273,7 +5273,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "LM" = (
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "LW" = (
 /turf/open/floor/plasteel/stairs/stalker,
@@ -5288,7 +5288,7 @@
 /area/stalker/buildings/backwater/burntfarm)
 "Mk" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "Ml" = (
 /obj/effect/spawner/random/stalker/cigs_trash,
@@ -5301,7 +5301,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "My" = (
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "MR" = (
 /obj/effect/decal/cleanable/blood/footprints,
@@ -5311,7 +5311,7 @@
 	},
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/item/stack/spacecash/c5000,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "MT" = (
 /obj/effect/spawner/random/stalker/equipment,
@@ -5350,18 +5350,18 @@
 	resize = 1.5;
 	speed = 2
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "Ns" = (
 /obj/effect/spawner/random/stalker/flasks,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "Nu" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/item/stack/spacecash/c500,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "ND" = (
 /obj/effect/step_trigger/teleporter{
@@ -5370,13 +5370,13 @@
 	teleport_y = 83;
 	teleport_z = 6
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "NF" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/item/gun/ballistic/revolver/nagant,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "NL" = (
 /obj/rad/rad_low,
@@ -5385,11 +5385,11 @@
 /area/stalker/buildings/backwater/krug)
 "NR" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "NT" = (
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "Oi" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -5409,7 +5409,7 @@
 /area/stalker/buildings/backwater/krug)
 "Ot" = (
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Ox" = (
 /obj/effect/step_trigger/teleporter{
@@ -5418,7 +5418,7 @@
 	teleport_y = 91;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1
 	},
 /area/stalker/buildings/backwater/ironforest)
@@ -5451,7 +5451,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "Po" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "Pr" = (
 /obj/effect/turf_decal/stripes/full{
@@ -5483,11 +5483,11 @@
 /area/stalker/buildings/backwater/ironforest)
 "PE" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Qb" = (
 /obj/structure/falsewall,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Qq" = (
 /obj/structure/table/stalker,
@@ -5509,17 +5509,17 @@
 /area/stalker)
 "RK" = (
 /obj/effect/spawner/random/stalker/medicine,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "RV" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "RX" = (
 /obj/item/stack/spacecash/c1000,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "Sb" = (
 /obj/structure/table/stalker,
@@ -5532,7 +5532,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/burntfarm)
 "St" = (
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "SB" = (
 /obj/effect/step_trigger/teleporter{
@@ -5553,7 +5553,7 @@
 	teleport_y = 82;
 	teleport_z = 2
 	},
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ironforest)
 "SL" = (
 /obj/rad/rad_low,
@@ -5562,7 +5562,7 @@
 /area/stalker/buildings/backwater/claw)
 "SQ" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "SS" = (
 /mob/living/simple_animal/hostile/mutant/bloodsucker{
@@ -5573,7 +5573,7 @@
 	resize = 2.4;
 	speed = 1
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "ST" = (
 /obj/structure/stalker/doski/doski4,
@@ -5605,7 +5605,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/burntfarm)
 "Tq" = (
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "TA" = (
 /obj/structure/table/abductor,
@@ -5652,7 +5652,7 @@
 	dir = 8
 	},
 /obj/item/melee/splattermaster,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "TV" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -5664,7 +5664,7 @@
 	resize = 2.4;
 	speed = 1
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "TX" = (
 /turf/closed/wall/stalker/bricks,
@@ -5681,7 +5681,7 @@
 "Uv" = (
 /obj/rad/rad_low,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Uw" = (
 /obj/effect/turf_decal/stripes/full{
@@ -5719,7 +5719,7 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "UH" = (
 /obj/structure/chair/wood/normal{
@@ -5734,7 +5734,7 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "UQ" = (
 /obj/effect/decal/cleanable/blood/old,
@@ -5742,19 +5742,19 @@
 /area/stalker/buildings/backwater/burntfarm)
 "UR" = (
 /obj/effect/spawner/random/stalker/books,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "UU" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/item/stack/spacecash/c5000,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "Vc" = (
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "Vu" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -5762,7 +5762,7 @@
 /obj/item/stack/spacecash/c5000,
 /obj/item/stack/spacecash/c100,
 /obj/anomaly/tramplin,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "Vv" = (
 /obj/structure/table/reinforced,
@@ -5796,14 +5796,14 @@
 	teleport_y = 5;
 	teleport_z = 6
 	},
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/space)
 "VS" = (
 /turf/open/floor/plating/foam,
 /area/stalker/buildings/backwater/krug)
 "VV" = (
 /obj/effect/spawner/random/stalker/flasks,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "VW" = (
 /obj/structure/table/abductor,
@@ -5832,7 +5832,7 @@
 	},
 /obj/rad/rad_medium,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "Wk" = (
 /obj/rad/rad_low,
@@ -5841,11 +5841,11 @@
 "Wn" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/spawner/random/stalker/food,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Ww" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "Wx" = (
 /obj/structure/table/abductor,
@@ -5884,14 +5884,14 @@
 "Xj" = (
 /obj/anomaly/tramplin,
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Xl" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "Xv" = (
 /obj/structure/closet/stalker/shkaf,
@@ -5906,7 +5906,7 @@
 /area/stalker/buildings/backwater/krug)
 "XK" = (
 /obj/item/knife/throwing,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 "XU" = (
 /obj/structure/stalker/doski,
@@ -5916,7 +5916,7 @@
 /obj/structure/bed/stalker/mattress_dirty,
 /obj/item/gun/ballistic/automatic/il86,
 /obj/item/storage/firstaid/ai2,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "Yj" = (
 /obj/rad/rad_high,
@@ -5942,7 +5942,7 @@
 /obj/item/gun/ballistic/revolver/grenadelauncher/unrestricted,
 /obj/structure/window,
 /obj/item/melee/splattermaster,
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "Ys" = (
 /obj/effect/decal/cleanable/insectguts,
@@ -5979,14 +5979,14 @@
 /area/stalker/buildings/backwater/krug)
 "Zk" = (
 /obj/anomaly/tramplin,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker)
 "Zn" = (
 /obj/item/storage/firstaid/ai2,
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "Zt" = (
 /obj/structure/chair/stalker/divan,
@@ -6021,7 +6021,7 @@
 /mob/living/simple_animal/cockroach{
 	faction = list("neutral, stalker_mutants1")
 	},
-/turf/open/floor/plasteel/chapel,
+/turf/open/floor/iron/chapel,
 /area/stalker)
 "ZD" = (
 /obj/machinery/door/poddoor/shutters/preopen,
@@ -6039,7 +6039,7 @@
 "ZI" = (
 /obj/structure/stalker/structure/junk_table,
 /obj/effect/spawner/random/stalker/weapon/rifles_and_shotguns,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/iron/dark,
 /area/stalker)
 "ZJ" = (
 /obj/structure/table/stalker,
@@ -6058,7 +6058,7 @@
 "ZW" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/rad/rad_low,
-/turf/open/floor/plating/dirt/dark,
+/turf/open/misc/dirt/dark,
 /area/stalker)
 
 (1,1,1) = {"

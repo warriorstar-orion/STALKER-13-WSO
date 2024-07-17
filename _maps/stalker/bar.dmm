@@ -1092,7 +1092,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "gg" = (
-/turf/open/floor/plasteel/stairs,
+/turf/open/floor/iron/stairs,
 /area/stalker/buildings/duty)
 "gm" = (
 /obj/machinery/light/small,
@@ -1300,7 +1300,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "gT" = (
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1;
 	tag = "icon-stairs (NORTH)"
 	},
@@ -1936,7 +1936,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "mq" = (
-/turf/open/floor/plasteel/stairs{
+/turf/open/floor/iron/stairs{
 	dir = 1;
 	tag = "icon-stairs (NORTH)"
 	},
@@ -2339,7 +2339,7 @@
 	dir = 4;
 	tag = "icon-truba2 (EAST)"
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/buildings)
 "wh" = (
 /obj/machinery/light/small{
@@ -2350,7 +2350,7 @@
 	dir = 4;
 	tag = "icon-truba3 (EAST)"
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/buildings)
 "wk" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
@@ -2358,7 +2358,7 @@
 	tag = "icon-truba2 (WEST)"
 	},
 /obj/structure/stalker/cacheable/truba,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/buildings)
 "wm" = (
 /obj/structure/stalker/cacheable/polka,
@@ -2376,7 +2376,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "wx" = (
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/buildings)
 "wT" = (
 /obj/structure/chair/sofa/left{
@@ -2409,7 +2409,7 @@
 /area/stalker/blowout/outdoor)
 "xG" = (
 /obj/machinery/campfire/barrel,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/buildings)
 "xM" = (
 /obj/machinery/light/small,
@@ -2468,7 +2468,7 @@
 /area/stalker/blowout/outdoor)
 "yR" = (
 /obj/item/trash/cigs_trash,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/buildings)
 "yT" = (
 /obj/machinery/light/small,
@@ -2561,7 +2561,7 @@
 /area/stalker/blowout/buildings)
 "zP" = (
 /obj/item/trash/cigs_trash2,
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/buildings)
 "Af" = (
 /obj/structure/stalker/propane/dual{
@@ -2979,7 +2979,7 @@
 	icon_state = "border8";
 	tag = "icon-border8"
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/buildings)
 "FX" = (
 /turf/open/stalker/floor/agroprom/beton,
@@ -3012,7 +3012,7 @@
 	icon_state = "border8";
 	tag = "icon-border8"
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/buildings)
 "Gy" = (
 /obj/structure/stalker/panel/panel2,
@@ -3025,7 +3025,7 @@
 	pixel_y = 5;
 	tag = "icon-radio (NORTH)"
 	},
-/turf/open/floor/plating/dirt,
+/turf/open/misc/dirt,
 /area/stalker/blowout/buildings)
 "GT" = (
 /obj/structure/stalker/panel,
@@ -3363,23 +3363,23 @@
 	dir = 4;
 	tag = "icon-matras (EAST)"
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/stalker/blowout/buildings)
 "Nm" = (
 /obj/machinery/light/small{
 	dir = 1;
 	tag = "icon-bulb1 (NORTH)"
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/stalker/blowout/buildings)
 "Np" = (
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/stalker/blowout/buildings)
 "Nq" = (
 /obj/structure/stalker/cacheable/apc/open2{
 	pixel_y = 30
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/stalker/blowout/buildings)
 "NH" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -3394,7 +3394,7 @@
 	pixel_x = -8;
 	pixel_y = -1
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/stalker/blowout/buildings)
 "Op" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
@@ -3404,7 +3404,7 @@
 	pixel_y = 4;
 	tag = "icon-radio (WEST)"
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/stalker/blowout/buildings)
 "Ov" = (
 /obj/effect/turf_decal/stripes/full{
@@ -3445,7 +3445,7 @@
 	pixel_x = -8;
 	pixel_y = -1
 	},
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/stalker/blowout/buildings)
 "OI" = (
 /turf/open/stalker/floor/digable/grass,
@@ -3456,11 +3456,11 @@
 	tag = "icon-matras (NORTH)"
 	},
 /obj/effect/spawner/random/stalker/equipment,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/stalker/blowout/buildings)
 "OS" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
-/turf/open/floor/plasteel/grimy,
+/turf/open/floor/iron/grimy,
 /area/stalker/blowout/buildings)
 "OT" = (
 /obj/structure/sign/poster/ripped,
