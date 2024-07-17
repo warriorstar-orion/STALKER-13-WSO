@@ -2723,7 +2723,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "CD" = (
-/obj/structure/simple_extractor,
+/obj/machinery/seed_extractor,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
 "CI" = (

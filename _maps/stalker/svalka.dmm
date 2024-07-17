@@ -7781,7 +7781,7 @@
 "LC" = (
 /obj/structure/table/stalker/wood,
 /obj/item/radio,
-/obj/item/clothing/suit/apron/purple_bartender,
+/obj/item/clothing/suit/apron,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/kordon/banditbar)
 "LD" = (
@@ -9226,7 +9226,7 @@
 /turf/open/stalker/floor/wood/grey,
 /area/stalker)
 "VJ" = (
-/obj/structure/simple_extractor,
+/obj/machinery/seed_extractor,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/kordon/banditbar)
 "VK" = (

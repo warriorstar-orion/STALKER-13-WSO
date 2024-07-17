@@ -1012,7 +1012,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "ml" = (
-/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/jungle,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "mp" = (
@@ -1851,7 +1851,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "vG" = (
-/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/jungle,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "vI" = (
@@ -1892,7 +1892,7 @@
 /turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "wk" = (
-/obj/item/clothing/suit/apron/purple_bartender,
+/obj/item/clothing/suit/apron,
 /obj/structure/table/stalker/wood,
 /obj/item/radio,
 /obj/item/stack/spacecash/c5000,
@@ -3365,7 +3365,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "OT" = (
-/obj/structure/simple_extractor,
+/obj/machinery/seed_extractor,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/kordon/banditbar)
 "OU" = (
@@ -3744,7 +3744,7 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "TE" = (
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/bush/flowers_yw,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "TG" = (
@@ -3981,7 +3981,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "We" = (
-/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/jungle,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "Wf" = (

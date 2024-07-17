@@ -2606,7 +2606,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
 "uM" = (
-/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/jungle,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "uN" = (

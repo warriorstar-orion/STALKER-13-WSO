@@ -2711,7 +2711,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/buildings)
 "io" = (
-/obj/structure/simple_extractor,
+/obj/machinery/seed_extractor,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
 "ip" = (
@@ -5658,7 +5658,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/skadovsk)
 "BV" = (
-/obj/structure/simple_extractor,
+/obj/machinery/seed_extractor,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "Ca" = (
@@ -5715,7 +5715,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker)
 "CC" = (
-/obj/structure/simple_extractor,
+/obj/machinery/seed_extractor,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "CE" = (
@@ -8223,7 +8223,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker)
 "Xi" = (
-/obj/structure/simple_extractor,
+/obj/machinery/seed_extractor,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/skadovsk)
 "Xj" = (

@@ -8743,7 +8743,7 @@
 /area/stalker/buildings)
 "Cm" = (
 /obj/rad/rad_low,
-/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/jungle,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Cn" = (
@@ -8854,7 +8854,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "CD" = (
-/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/jungle,
 /obj/anomaly/tramplin,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -10074,7 +10074,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "GA" = (
-/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/jungle,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "GB" = (
@@ -11916,7 +11916,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "Mw" = (
-/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/jungle,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -14184,7 +14184,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings)
 "Ue" = (
-/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/jungle,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Ug" = (
@@ -15401,7 +15401,7 @@
 	icon_state = "border4";
 	tag = "icon-border4"
 	},
-/obj/structure/flora/rock/jungle,
+/obj/structure/flora/rock/pile/jungle,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Ya" = (
