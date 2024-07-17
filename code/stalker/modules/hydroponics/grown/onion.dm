@@ -21,6 +21,6 @@
 	desc = "Nothing to cry over. This onion looks disguisting,"
 	icon_state = "zonaonion"
 	filling_color = "#C0C9A0"
-	bitesize_mod = 2
+	bite_consumption_mod = 2
 	tastes = list("onions" = 1)
 	wine_power = 30

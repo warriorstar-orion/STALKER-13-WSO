@@ -158,35 +158,35 @@
 /turf/closed/wall/stalker/log
 	name = "log wall"
 	desc = "A log wall"
-	icon = 'icons/turf/walls/log.dmi'
+	icon = 'icons/stalker/turf/walls/log.dmi'
 	icon_state = "log"
 	canSmoothWith = list(/turf/closed/wall/stalker/log)
 
 /turf/closed/wall/stalker/store
 	name = "concrete wall"
 	desc = "A concrete wall"
-	icon = 'icons/turf/walls/store.dmi'
+	icon = 'icons/stalker/turf/walls/store.dmi'
 	icon_state = "store"
 	canSmoothWith = list(/turf/closed/wall/stalker/store)
 
 /turf/closed/wall/stalker/superstore
 	name = "concrete wall"
 	desc = "A concrete wall"
-	icon = 'icons/turf/walls/superstore.dmi'
+	icon = 'icons/stalker/turf/walls/superstore.dmi'
 	icon_state = "supermart"
 	canSmoothWith = list(/turf/closed/wall/stalker/superstore)
 
 /turf/closed/wall/stalker/brickdark
 	name = "brick wall"
 	desc = "A dark brick wall"
-	icon = 'icons/turf/walls/brick_walldark.dmi'
+	icon = 'icons/stalker/turf/walls/brick_walldark.dmi'
 	icon_state = "brickwall"
 	canSmoothWith = list(/turf/closed/wall/stalker/brickdark)
 
 /turf/closed/wall/stalker/brick
 	name = "brick wall"
 	desc = "A brick wall"
-	icon = 'icons/turf/walls/brick_wall.dmi'
+	icon = 'icons/stalker/turf/walls/brick_wall.dmi'
 	icon_state = "brickwall"
 	canSmoothWith = list(/turf/closed/wall/stalker/brick)
 

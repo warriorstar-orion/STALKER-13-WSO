@@ -672,9 +672,9 @@
 	speak_emote = list("squeaks", "SQUEAKS")
 	emote_see = list("squeaks!","SQUEAKS!")
 	faction = list("stalker_mutants1")
-	attack_sound = 'sound/effects/mousesqueek.ogg'
-	idle_sounds = list('sound/effects/mousesqueek.ogg')
-	deathsound = 'sound/effects/mousesqueek.ogg'
+	attack_sound = 'sound/creatures/mousesqueek.ogg'
+	idle_sounds = list('sound/creatures/mousesqueek.ogg')
+	deathsound = 'sound/creatures/mousesqueek.ogg'
 	melee_damage_lower = 5
 	melee_damage_upper = 10
 	maxHealth = 20

@@ -20,7 +20,7 @@
 	desc = "Delicious, but with a potentially overwhelming odor."
 	icon_state = "garlic"
 	filling_color = "#C0C9A0"
-	bitesize_mod = 2
+	bite_consumption_mod = 2
 	tastes = list("garlic" = 1)
 	wine_power = 10
 
@@ -46,7 +46,7 @@
 	desc = "Delicious, but with a potentially overwhelming odor. This one seems very sickly."
 	icon_state = "zonagarlic"
 	filling_color = "#C0C9A0"
-	bitesize_mod = 2
+	bite_consumption_mod = 2
 	tastes = list("garlic" = 1)
 	wine_power = 10
 
@@ -73,5 +73,5 @@
 	desc = "A common spice used for many dishes."
 	icon_state = "bayleaf"
 	filling_color = "#59693D"
-	bitesize_mod = 2
+	bite_consumption_mod = 2
 	tastes = list("grass" = 1)

@@ -8,8 +8,6 @@
 	var/list/friends = list()
 	var/list/emote_taunt = list()
 	var/taunt_chance = 0
-	var/fearless = 1
-	var/fearborder = 20
 	var/ranged_cooldown = 0 //What the starting cooldown is on ranged attacks
 	var/ranged_cooldown_cap = 1 //What ranged attackLoseTargets, after being used are set to, to go back on cooldown, defaults to 3 life() ticks
 	var/retreat_distance = null //If our mob runs from players when they're too close, set in tile distance. By default, mobs do not retreat.
@@ -67,7 +65,7 @@
 		if(isturf(src.loc) && !resting && !buckled && canmove)		//This is so it only moves if it's not inside a closet, gentics machine, etc.
 			turns_since_move++
 			if(turns_since_move >= 5)
-				var/anydir = pick(cardinal)
+				var/anydir = pick(GLOB.cardinals)
 				if(Process_Spacemove(anydir))
 					for(var/obj/anomaly/A in get_step(src, anydir).contents)
 						return 1
@@ -77,8 +75,9 @@
 
 /mob/living/carbon/human/proc/handle_automated_speech()
 	if(rand(0,200) < 20)
-		if(say_log.len)
-			say(pick(say_log))
+		var/list/spoken = copy_recent_speech()
+		if(length(spoken))
+			say(pick(spoken))
 
 /mob/living/carbon/human/proc/handle_equipment()
 	if(!Zombo_Gun)
@@ -297,13 +296,13 @@
 
 /mob/living/carbon/human/proc/FindGun()
 	var/obj/item/gun/ZG = null
-	for(var/obj/item/gun/_ZG in src.contents)
+	for(var/obj/item/gun/ballistic/_ZG in src.contents)
 		if(!ZG || (CountAmmo(_ZG.accepted_magazine_type) > CountAmmo(ZG.accepted_magazine_type)))
 			ZG = _ZG
 
 	if(src.back && src.back.atom_storage)
 		for(var/obj/item/gun/ballistic/_ZG in src.back.atom_storage.real_location)
-			if(!ZG || (CountAmmo(_ZG.mag_type) > CountAmmo(ZG.mag_type)))
+			if(!ZG || (CountAmmo(_ZG.accepted_magazine_type) > CountAmmo(ZG.accepted_magazine_type)))
 				ZG = _ZG
 
 	if(ZG)
@@ -317,27 +316,25 @@
 /mob/living/carbon/human/proc/ReloadGun()
 	var/obj/item/ammo_box/magazine/mag = null
 	for(var/obj/item/ammo_box/magazine/_mag in src.contents)
-		if(istype(_mag, Zombo_Gun.mag_type) && _mag.contents.len)
+		if(istype(_mag, Zombo_Gun.accepted_magazine_type) && _mag.contents.len)
 			mag = _mag
 			break
 
 	if(!mag && src.back && istype(src.back, /obj/item/storage) && src.back.contents.len)
 		for(var/obj/item/ammo_box/magazine/_mag in src.back.contents)
-			if(istype(_mag, Zombo_Gun.mag_type) && _mag.contents.len)
+			if(istype(_mag, Zombo_Gun.accepted_magazine_type) && _mag.contents.len)
 				mag = _mag
 				break
 
 	if(mag)
 		Zombo_Gun.attack_self(src)
 
-		if(get_active_hand() == Zombo_Gun)
-			hand = !hand
+		if(get_active_held_item() == Zombo_Gun)
+			activate_hand(get_inactive_hand())
 
 		if(get_active_hand())
-			if(get_active_hand() == r_hand)
-				drop_r_hand()
-			else
-				drop_l_hand()
+			dropItemToGround(get_active_held_item())
+
 		mag.attack_hand(src)
 		Zombo_Gun.attackby(mag, src, null)
 		return 1

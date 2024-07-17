@@ -511,7 +511,7 @@ var/id_ = 0
 	cost = 32000
 	desc = "Integrated container expansion allows user to carry another gun."
 	tier = 1
-	int_slot = /datum/component/storage/concrete/pockets/internal_slot/gun_case
+	int_slot = /datum/storage/pockets/gun_case
 
 
 //Some suit internal slots

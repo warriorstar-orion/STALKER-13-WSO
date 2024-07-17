@@ -68,7 +68,7 @@
 	desc = "It's good for the eyes! This one seems sickly."
 	icon_state = "zonacarrot"
 	filling_color = "#FFA500"
-	bitesize_mod = 2
+	bite_consumption_mod = 2
 	foodtype = VEGETABLES
 	juice_results = list("carrotjuice" = 0)
 	wine_power = 30
