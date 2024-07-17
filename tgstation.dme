@@ -6405,6 +6405,7 @@
 #include "code\stalker\modules\projectiles\boxes_magazines\external\sniper.dm"
 #include "code\stalker\modules\reagents\drinks\alcohol_reagents.dm"
 #include "code\stalker\modules\reagents\reagent_containers\cups\drinks.dm"
+#include "code\stalker\modules\reagents\withdrawal\addictions.dm"
 #include "code\stalker\modules\research\stock_parts.dm"
 #include "code\stalker\objects\campfire.dm"
 #include "code\stalker\objects\donat-items.dm"

@@ -89,12 +89,11 @@
 // Cocaine is a powerful nervous system stimulant.
 /datum/reagent/drug/cocaine
 	name = "Cocaine"
-	id = "cocaine"
 	description = "Reduces stun times by about 200%. If overdosed or addicted it will deal significant Toxin, Brute and Brain damage."
 	reagent_state = LIQUID
 	color = "#FA00C8"
 	overdose_threshold = 20
-	addiction_threshold = 10
+	addiction_types = list(/datum/addiction/cocaine = 10)
 
 /datum/reagent/drug/cocaine/on_mob_life(mob/living/carbon/M)
 	if(prob(5))
@@ -111,30 +110,11 @@
 /datum/reagent/drug/cocaine/overdose_process(mob/living/M)
 	M.adjustOrganLoss(ORGAN_SLOT_BRAIN, 2 * REM)
 	M.adjustToxLoss(2*REM, 0)
-	M.adjustBruteLoss(2*REM, FALSE, FALSE, BODYPART_ORGANIC)
+	M.adjustBruteLoss(2*REM, FALSE, FALSE, BODYTYPE_ORGANIC)
 	..()
 	. = 1
 
-/datum/reagent/drug/cocaine/addiction_act_stage1(mob/living/M)
-	M.adjustBrainLoss(5*REM)
-	..()
 
-/datum/reagent/drug/cocaine/addiction_act_stage2(mob/living/M)
-	M.adjustToxLoss(5*REM, 0)
-	..()
-	. = 1
-
-/datum/reagent/drug/cocaine/addiction_act_stage3(mob/living/M)
-	M.adjustBruteLoss(5*REM, 0)
-	..()
-	. = 1
-
-/datum/reagent/drug/cocaine/addiction_act_stage4(mob/living/M)
-	M.adjustOrganLoss(ORGAN_SLOT_BRAIN, 3 * REM)
-	M.adjustToxLoss(5*REM, 0)
-	M.adjustBruteLoss(5*REM, 0)
-	..()
-	. = 1
 
 // A useful painkiller that reduces stun times and pain. However, the player will be unable to accurately gauge their health via the HUD and will suffer from nasty side effects such as
 // drowsiness and poor motor function.
@@ -260,21 +240,21 @@
 	..()
 	return TRUE
 
-/datum/reagent/medicine/combatstimulant/reaction_mob(mob/living/M, method=TOUCH, reac_volume, show_message = 1)
-	if(iscarbon(M) && M.stat != DEAD)
-		if(method in list(INGEST, VAPOR, INJECT))
-			M.adjust_nutrition(-10) // HUNGER!
+/datum/reagent/medicine/combatstimulant/expose_mob(mob/living/exposed_mob, methods, reac_volume, show_message, touch_protection)
+	if(iscarbon(exposed_mob) && exposed_mob.stat != DEAD)
+		if(methods & (INGEST | VAPOR | INJECT))
+			exposed_mob.adjust_nutrition(-10) // HUNGER!
 			if(show_message)
-				to_chat(M, "<span class='warning'>You feel quite sick for a moment..</span>")
+				to_chat(exposed_mob, "<span class='warning'>You feel quite sick for a moment..</span>")
 		else
-			var/mob/living/carbon/C = M
+			var/mob/living/carbon/C = exposed_mob
 			for(var/s in C.surgeries)
 				var/datum/surgery/S = s
-				S.success_multiplier = max(0.1, S.success_multiplier)
+				S.speed_modifier = max(0.1, S.speed_modifier)
 				// +10% success propability on each step, useful while operating in less-than-perfect conditions
 
 			if(show_message)
-				to_chat(M, "<span class='danger'>YOU FEEL FUCKING INVINCIBLE!</span>" )
+				to_chat(exposed_mob, "<span class='danger'>YOU FEEL FUCKING INVINCIBLE!</span>" )
 	..()
 
 /datum/reagent/medicine/combatstimulant/on_mob_delete(mob/living/M)

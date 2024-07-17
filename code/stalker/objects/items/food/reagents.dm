@@ -1,6 +1,5 @@
 /datum/reagent/drug/energetic
 	name = "Energetic"
-	id = "energetic"
 	description = "Amps you up and gets you going, fixes all stamina damage you might have."
 	reagent_state = LIQUID  //SNAKE!
 	color = "#60A584"
