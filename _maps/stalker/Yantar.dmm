@@ -1341,9 +1341,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/krug)
 "lk" = (
-/obj/structure/window/plasma/reinforced/spawner/west{
-	pixel_x = -7
-	},
+/obj/structure/window/reinforced/plasma/spawner/west,
 /obj/structure/window/plasma/reinforced/spawner,
 /obj/structure/table/stalker,
 /obj/machinery/light/small{
@@ -1385,9 +1383,7 @@
 "lI" = (
 /obj/structure/table/stalker,
 /obj/machinery/reagentgrinder,
-/obj/structure/window/plasma/reinforced/spawner/west{
-	pixel_x = -7
-	},
+/obj/structure/window/reinforced/plasma/spawner/west,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist)
 "lJ" = (
@@ -1790,7 +1786,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "pI" = (
-/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/window/reinforced/plasma/spawner/east,
 /obj/structure/window/plasma/reinforced/spawner,
 /obj/machinery/chem_heater{
 	use_power = 0
@@ -2382,9 +2378,7 @@
 /obj/machinery/chem_dispenser{
 	use_power = 0
 	},
-/obj/structure/window/plasma/reinforced/spawner/west{
-	pixel_x = -7
-	},
+/obj/structure/window/reinforced/plasma/spawner/west,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist)
 "up" = (
@@ -2648,9 +2642,7 @@
 /obj/machinery/chem_master{
 	use_power = 0
 	},
-/obj/structure/window/plasma/reinforced/spawner/west{
-	pixel_x = -7
-	},
+/obj/structure/window/reinforced/plasma/spawner/west,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist)
 "vM" = (
@@ -2706,7 +2698,7 @@
 /area/stalker/buildings)
 "wi" = (
 /obj/structure/stalker/rustymachine/transformator,
-/obj/structure/sign/warning/electricshock{
+/obj/structure/sign/warning/electric_shock{
 	pixel_y = 32
 	},
 /turf/open/stalker/floor/lattice,
@@ -5171,9 +5163,9 @@
 /area/stalker/blowout/outdoor)
 "PY" = (
 /obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/plasma/reinforced/spawner/east,
-/obj/structure/window/plasma/reinforced/spawner/west,
-/obj/structure/window/plasma/reinforced/spawner/north,
+/obj/structure/window/reinforced/plasma/spawner/east,
+/obj/structure/window/reinforced/plasma/spawner/west,
+/obj/structure/window/reinforced/plasma/spawner/north,
 /obj/structure/grille/indestructable,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist_entrance)
@@ -5772,7 +5764,7 @@
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "UL" = (
-/obj/structure/window/plasma/reinforced/spawner/north,
+/obj/structure/window/reinforced/plasma/spawner/north,
 /obj/structure/table/stalker,
 /obj/item/paper_bin,
 /obj/item/pen/fourcolor,
@@ -5783,9 +5775,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/structure/window/plasma/reinforced/spawner/west{
-	pixel_x = -7
-	},
+/obj/structure/window/reinforced/plasma/spawner/west,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist)
 "UN" = (
@@ -5911,8 +5901,8 @@
 	},
 /obj/item/reagent_containers/cup/beaker/large,
 /obj/item/reagent_containers/cup/beaker/large,
-/obj/structure/window/plasma/reinforced/spawner/north,
-/obj/structure/window/plasma/reinforced/spawner/east,
+/obj/structure/window/reinforced/plasma/spawner/north,
+/obj/structure/window/reinforced/plasma/spawner/east,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist)
 "Va" = (

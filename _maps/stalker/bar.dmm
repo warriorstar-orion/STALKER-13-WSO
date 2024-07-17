@@ -1592,7 +1592,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "iu" = (
-/obj/structure/sign/warning/securearea,
+/obj/structure/sign/warning/secure_area,
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/buildings/duty)
 "ix" = (

@@ -612,7 +612,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor/backwater)
 "acI" = (
-/obj/structure/sign/warning/electricshock,
+/obj/structure/sign/warning/electric_shock,
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "acJ" = (
@@ -1569,7 +1569,7 @@
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "afW" = (
 /obj/structure/stalker/cacheable/plita,
-/obj/structure/sign/warning/nosmoking{
+/obj/structure/sign/warning/no_smoking{
 	pixel_y = 32
 	},
 /turf/open/stalker/floor/lattice,
@@ -2845,7 +2845,7 @@
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "akv" = (
 /obj/structure/stalker/cacheable/musor_yashik/red,
-/obj/structure/sign/warning/electricshock{
+/obj/structure/sign/warning/electric_shock{
 	pixel_y = 32
 	},
 /turf/open/stalker/floor/road,
@@ -3006,7 +3006,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "akY" = (
-/obj/structure/sign/warning/electricshock{
+/obj/structure/sign/warning/electric_shock{
 	pixel_y = 32
 	},
 /turf/open/stalker/floor/road,
@@ -3166,7 +3166,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "alD" = (
-/obj/structure/sign/warning/nosmoking{
+/obj/structure/sign/warning/no_smoking{
 	pixel_x = -32
 	},
 /turf/open/stalker/floor/agroprom/beton,
@@ -4773,7 +4773,7 @@
 	},
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "arq" = (
-/obj/structure/sign/warning/securearea{
+/obj/structure/sign/warning/secure_area{
 	pixel_y = 32
 	},
 /turf/open/stalker/floor/agroprom/beton,
@@ -6095,7 +6095,7 @@
 	},
 /area/stalker/blowout/buildings/backwater/shevchenko)
 "avQ" = (
-/obj/structure/sign/warning/nosmoking{
+/obj/structure/sign/warning/no_smoking{
 	pixel_x = -32
 	},
 /turf/open/stalker/floor/lattice{
@@ -6597,7 +6597,7 @@
 /area/stalker/blowout/buildings/backwater/krug)
 "axI" = (
 /obj/item/cigbutt,
-/obj/structure/sign/warning/nosmoking{
+/obj/structure/sign/warning/no_smoking{
 	pixel_x = -32
 	},
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -6634,7 +6634,7 @@
 	},
 /area/stalker/blowout/buildings/backwater/ranger)
 "axO" = (
-/obj/structure/sign/warning/securearea{
+/obj/structure/sign/warning/secure_area{
 	pixel_y = 32
 	},
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
