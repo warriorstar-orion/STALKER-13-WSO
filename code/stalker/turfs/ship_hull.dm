@@ -5,4 +5,4 @@
 	blocks_air = 1
 	opacity = 1
 	explosion_block = 100
-	flags_1 = CHECK_RICOCHET_1
+	flags_ricochet = RICOCHET_HARD

@@ -113,9 +113,9 @@
 		Mobs = hearers(vision_range, src) - src //Remove self, so we don't suicide
 
 		L += Mobs
-		for(var/obj/mecha/M in mechas_list)
-			if(get_dist(M, src) <= vision_range && can_see(src, M, vision_range))
-				L += M
+		// for(var/obj/mecha/M in mechas_list)
+		// 	if(get_dist(M, src) <= vision_range && can_see(src, M, vision_range))
+		// 		L += M
 	else
 		var/list/Objects = oview(vision_range, src)
 		L += Objects

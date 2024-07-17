@@ -216,17 +216,18 @@ var/sid_generator = 0
 		sid_generator++
 		H.sid = sid_generator
 		var/sid = sid_generator
-		var/image = get_id_photo(H, C, show_directions)
-		var/datum/picture/pf = new
-		var/datum/picture/ps = new
-		pf.picture_name = "[H]"
-		ps.picture_name = "[H]"
-		pf.picture_desc = "This is [H]."
-		ps.picture_desc = "This is [H]."
-		pf.picture_image = icon(image, dir = SOUTH)
-		ps.picture_image = icon(image, dir = WEST)
-		var/obj/item/photo/photo_front = new(null, pf)
-		var/obj/item/photo/photo_side = new(null, ps)
+		// TODO(wso): Kill datacore and this too
+		// var/image = get_id_photo(H, C, show_directions)
+		// var/datum/picture/pf = new
+		// var/datum/picture/ps = new
+		// pf.picture_name = "[H]"
+		// ps.picture_name = "[H]"
+		// pf.picture_desc = "This is [H]."
+		// ps.picture_desc = "This is [H]."
+		// pf.picture_image = icon(image, dir = SOUTH)
+		// ps.picture_image = icon(image, dir = WEST)
+		// var/obj/item/photo/photo_front = new(null, pf)
+		// var/obj/item/photo/photo_side = new(null, ps)
 
 		//These records should ~really~ be merged or something
 		//General Record
@@ -240,8 +241,8 @@ var/sid_generator = 0
 		G.fields["p_stat"]		= "Active"
 		G.fields["m_stat"]		= "Stable"
 		G.fields["sex"]			= H.gender
-		G.fields["photo_front"]	= photo_front
-		G.fields["photo_side"]	= photo_side
+		// G.fields["photo_front"]	= photo_front
+		// G.fields["photo_side"]	= photo_side
 		general += G
 
 		//Medical Record
@@ -280,10 +281,10 @@ var/sid_generator = 0
 		L.fields["sex"]			= H.gender
 		L.fields["blood_type"]	= H.dna.blood_type
 		L.fields["b_dna"]		= H.dna.unique_enzymes
-		L.fields["identity"]	= H.dna.uni_identity
+		L.fields["identity"]	= H.dna.unique_identity
 		L.fields["species"]		= H.dna.species.type
 		L.fields["features"]	= H.dna.features
-		L.fields["image"]		= image
+		// L.fields["image"]		= image
 		L.fields["mindref"]		= H.mind
 		locked += L
 
@@ -291,7 +292,7 @@ var/sid_generator = 0
 		var/datum/data/record/sk = new()
 
 		sk.fields["reputation"]	= NEUTRAL
-		sk.fields["photo_front"]= photo_front
+		// sk.fields["photo_front"]= photo_front
 		sk.fields["pass"]		= "0"
 		sk.fields["lastlogin"]	= world.time
 		sk.fields["sid"]		= sid
@@ -347,11 +348,11 @@ var/sid_generator = 0
 		stalkers += sk
 	return
 
-/datum/datacore/proc/get_id_photo(mob/living/carbon/human/H, client/C, show_directions = list(SOUTH))
-	var/datum/job/J = SSjob.GetJob(H.mind.assigned_role)
-	var/datum/preferences/P
-	if(!C)
-		C = H.client
-	if(C)
-		P = C.prefs
-	return get_flat_human_icon(null, J, P, DUMMY_HUMAN_SLOT_MANIFEST, show_directions)
+// /datum/datacore/proc/get_id_photo(mob/living/carbon/human/H, client/C, show_directions = list(SOUTH))
+// 	var/datum/job/J = SSjob.GetJob(H.mind.assigned_role)
+// 	var/datum/preferences/P
+// 	if(!C)
+// 		C = H.client
+// 	if(C)
+// 		P = C.prefs
+// 	return get_flat_human_icon(null, J, P, DUMMY_HUMAN_SLOT_MANIFEST, show_directions)

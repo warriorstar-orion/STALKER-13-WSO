@@ -1,10 +1,5 @@
 #define ROOF_FADE_TIME 10
 
-proc
-	ceil(num)
-		. = round(num)
-		if(.<num)
-			.++
 
 client
 	var
