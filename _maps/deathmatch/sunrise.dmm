@@ -13,9 +13,7 @@
 /turf/open/misc/grass/jungle,
 /area/deathmatch)
 "ch" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /turf/open/floor/bamboo,
 /area/deathmatch)
 "cr" = (
@@ -95,9 +93,7 @@
 /turf/open/floor/engine/cult,
 /area/deathmatch)
 "ha" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -697,9 +693,7 @@
 /turf/open/water,
 /area/deathmatch)
 "SJ" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -731,9 +725,7 @@
 /turf/open/floor/carpet,
 /area/deathmatch)
 "UU" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /turf/open/floor/wood/tile,
 /area/deathmatch)
 "UY" = (
@@ -783,9 +775,7 @@
 /turf/open/floor/bamboo,
 /area/deathmatch)
 "Yo" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
+/obj/item/kirbyplants/organic/plant10,
 /turf/open/floor/stone,
 /area/deathmatch)
 "Zm" = (
