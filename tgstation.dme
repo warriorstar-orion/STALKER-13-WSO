@@ -6456,6 +6456,7 @@
 #include "code\stalker\objects\structure\barricades.dm"
 #include "code\stalker\objects\structure\beds.dm"
 #include "code\stalker\objects\structure\cars.dm"
+#include "code\stalker\objects\structure\chair.dm"
 #include "code\stalker\objects\structure\closet\crates.dm"
 #include "code\stalker\objects\structure\closet\grave.dm"
 #include "code\stalker\objects\structure\decor.dm"

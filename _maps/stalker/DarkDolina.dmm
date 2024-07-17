@@ -3159,7 +3159,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/kordon/banditbar)
 "Mu" = (
-/obj/structure/flora/bush/jungle/large,
+/obj/structure/flora/bush/large,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "Mv" = (
@@ -3551,7 +3551,7 @@
 /area/stalker/blowout/buildings)
 "Sd" = (
 /obj/structure/flora/stalker/bush,
-/obj/structure/flora/bush/jungle/large,
+/obj/structure/flora/bush/large,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "Sg" = (

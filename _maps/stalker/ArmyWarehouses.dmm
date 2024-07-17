@@ -6587,7 +6587,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "WE" = (
-/obj/structure/flora/bush/jungle/large,
+/obj/structure/flora/bush/large,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "WF" = (
