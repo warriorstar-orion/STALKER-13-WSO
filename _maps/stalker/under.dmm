@@ -4959,7 +4959,7 @@
 /turf/open/misc/dirt/dark,
 /area/stalker)
 "Fe" = (
-/obj/item/bodypart/l_arm/monkey,
+/obj/item/bodypart/arm/left/monkey,
 /obj/rad/rad_high,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
@@ -5965,7 +5965,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/burntfarm)
 "YN" = (
-/obj/item/bodypart/r_leg/monkey,
+/obj/item/bodypart/leg/right/monkey,
 /obj/rad/rad_high,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
@@ -6008,7 +6008,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
 "Zz" = (
-/obj/item/bodypart/r_arm/monkey,
+/obj/item/bodypart/arm/right/monkey,
 /obj/machinery/light/small{
 	dir = 1
 	},

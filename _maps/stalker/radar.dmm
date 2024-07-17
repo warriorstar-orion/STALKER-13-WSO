@@ -2967,7 +2967,7 @@
 /area/stalker/buildings)
 "jx" = (
 /obj/rad/rad_low,
-/obj/item/bodypart/r_leg{
+/obj/item/bodypart/leg/right{
 	pixel_x = 21;
 	pixel_y = 44
 	},
@@ -9281,15 +9281,15 @@
 /obj/item/bodypart/head{
 	pixel_y = 13
 	},
-/obj/item/bodypart/r_arm{
+/obj/item/bodypart/arm/right{
 	pixel_x = -11;
 	pixel_y = -3
 	},
-/obj/item/bodypart/l_leg{
+/obj/item/bodypart/leg/left{
 	pixel_x = 7;
 	pixel_y = -12
 	},
-/obj/item/bodypart/r_leg/devil{
+/obj/item/bodypart/leg/right/devil{
 	pixel_x = -3;
 	pixel_y = -14
 	},
@@ -10316,7 +10316,7 @@
 /area/stalker/buildings)
 "Hr" = (
 /obj/effect/decal/cleanable/blood/drip,
-/obj/item/bodypart/l_leg{
+/obj/item/bodypart/leg/left{
 	pixel_x = 2;
 	pixel_y = 11
 	},
@@ -13161,7 +13161,7 @@
 /area/stalker/buildings)
 "QX" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
-/obj/item/bodypart/l_leg{
+/obj/item/bodypart/leg/left{
 	pixel_x = 4;
 	pixel_y = 21
 	},
@@ -14909,7 +14909,7 @@
 /area/stalker/buildings)
 "WA" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
-/obj/item/bodypart/l_arm{
+/obj/item/bodypart/arm/left{
 	dir = 4;
 	pixel_x = 15;
 	pixel_y = -3
@@ -15775,7 +15775,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "Zw" = (
-/obj/item/bodypart/r_arm{
+/obj/item/bodypart/arm/right{
 	dir = 8;
 	pixel_x = -4;
 	pixel_y = -3
