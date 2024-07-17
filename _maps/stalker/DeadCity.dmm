@@ -3583,10 +3583,6 @@
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
-"Cv" = (
-/obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
 "Cy" = (
 /obj/structure/fence/corner{
 	dir = 1
@@ -6467,10 +6463,6 @@
 /obj/item/trash/metalparts/metaljunk,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
-"YV" = (
-/obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "Za" = (
 /obj/rad/rad_medium,
 /obj/rad/rad_medium,
@@ -16824,7 +16816,7 @@ Mm
 Mm
 Mm
 Mm
-YV
+TZ
 KA
 Mm
 Mm
@@ -18065,7 +18057,7 @@ Yy
 Mm
 KA
 Mm
-YV
+TZ
 Mm
 Mm
 Mm
@@ -18336,7 +18328,7 @@ hq
 Mm
 Mm
 Mm
-YV
+TZ
 Mm
 lf
 kO
@@ -19270,7 +19262,7 @@ Mm
 Mm
 Mm
 Mm
-YV
+TZ
 Mm
 Mm
 KA
@@ -19556,7 +19548,7 @@ Mm
 Mm
 Mm
 Mm
-YV
+TZ
 Mm
 Mm
 Mm
@@ -19569,7 +19561,7 @@ Mm
 Mm
 Mm
 Mm
-YV
+TZ
 Mm
 Mm
 Mm
@@ -19578,7 +19570,7 @@ Mm
 Mm
 Mm
 Mm
-YV
+TZ
 FU
 FU
 FU
@@ -19774,7 +19766,7 @@ Ma
 Ma
 Ma
 Ma
-YV
+TZ
 Mm
 Mm
 Ma
@@ -19863,7 +19855,7 @@ Mm
 Mm
 Mm
 Mm
-YV
+TZ
 Mm
 JM
 Mm
@@ -21358,7 +21350,7 @@ Mm
 Mm
 Lj
 Mm
-YV
+TZ
 Mm
 Mm
 mu
@@ -21373,7 +21365,7 @@ Mm
 Mm
 Mm
 Mm
-YV
+TZ
 Mm
 Mm
 KA
@@ -21667,7 +21659,7 @@ Mm
 Mm
 Mm
 Mm
-YV
+TZ
 Mm
 Mm
 Mm
@@ -21973,7 +21965,7 @@ Mm
 Mm
 KA
 Mm
-YV
+TZ
 Mm
 Mm
 Mm
@@ -22265,7 +22257,7 @@ Mm
 Lj
 Mm
 Mm
-YV
+TZ
 Mm
 KA
 Mm
@@ -22575,7 +22567,7 @@ Mm
 Mm
 Mm
 Mm
-YV
+TZ
 Mm
 Mm
 KA
@@ -22583,7 +22575,7 @@ Mm
 Mm
 Mm
 Mm
-YV
+TZ
 Mm
 Mm
 Lj
@@ -55410,7 +55402,7 @@ Ma
 my
 Ma
 VN
-Cv
+vy
 Ma
 Ma
 sT
@@ -55708,7 +55700,7 @@ FU
 FU
 VJ
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
@@ -55743,7 +55735,7 @@ mU
 Ma
 Ma
 aM
-Cv
+vy
 Ma
 VN
 Ma
@@ -55751,7 +55743,7 @@ Ma
 Ma
 VN
 Ma
-Cv
+vy
 VN
 Ma
 Ma
@@ -56012,7 +56004,7 @@ VJ
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
@@ -56043,7 +56035,7 @@ sT
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Yt
 Ma
@@ -56311,15 +56303,15 @@ FU
 FU
 FU
 VJ
-Cv
+vy
 VN
 Ma
 Ma
-Cv
-Cv
+vy
+vy
 Ma
-Cv
-Cv
+vy
+vy
 Ma
 Ma
 Ma
@@ -56340,7 +56332,7 @@ TF
 TF
 TF
 sQ
-Cv
+vy
 Ma
 Ma
 Ma
@@ -56352,14 +56344,14 @@ Ma
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
-Cv
+vy
 Ma
 js
 FU
@@ -56617,14 +56609,14 @@ Ma
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 VN
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 sQ
 TF
@@ -56645,12 +56637,12 @@ sQ
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
@@ -57217,7 +57209,7 @@ FU
 FU
 FU
 FU
-Cv
+vy
 Ma
 pW
 UQ
@@ -57863,14 +57855,14 @@ vi
 AZ
 pW
 Ma
-Cv
+vy
 Ma
-Cv
+vy
 Mm
 Mm
 Ma
 Ma
-Cv
+vy
 js
 FU
 FU
@@ -58124,7 +58116,7 @@ FU
 FU
 FU
 Ma
-Cv
+vy
 pW
 vi
 vi
@@ -58425,7 +58417,7 @@ FU
 FU
 FU
 FU
-Cv
+vy
 Ma
 pW
 pW
@@ -59030,7 +59022,7 @@ FU
 FU
 FU
 Ma
-Cv
+vy
 pW
 vi
 vi
@@ -59074,7 +59066,7 @@ Ma
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
@@ -59373,13 +59365,13 @@ pW
 pW
 pW
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 js
 FU
@@ -59935,7 +59927,7 @@ FU
 FU
 FU
 FU
-Cv
+vy
 Ma
 pW
 UQ
@@ -60583,7 +60575,7 @@ pW
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
@@ -60842,7 +60834,7 @@ FU
 FU
 FU
 Ma
-Cv
+vy
 pW
 eq
 vi
@@ -61445,7 +61437,7 @@ FU
 FU
 FU
 FU
-Cv
+vy
 Ma
 Ma
 Ma
@@ -61749,7 +61741,7 @@ FU
 FU
 Ma
 Ma
-Cv
+vy
 Ma
 Oq
 eG
@@ -62362,7 +62354,7 @@ Ma
 Ma
 Me
 Ma
-Cv
+vy
 Tk
 rb
 vi
@@ -62396,7 +62388,7 @@ YK
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
@@ -62653,16 +62645,16 @@ FU
 FU
 FU
 FU
-Cv
+vy
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
 Ma
 iz
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
@@ -62701,7 +62693,7 @@ Ma
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 js
 FU
@@ -62956,12 +62948,12 @@ FU
 FU
 FU
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
 VN
-Cv
+vy
 Ma
 Ma
 Ma
@@ -63260,11 +63252,11 @@ FU
 Ma
 my
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
@@ -63602,7 +63594,7 @@ Ma
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
@@ -63862,11 +63854,11 @@ FU
 FU
 FU
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
-Cv
+vy
 Ma
 Ma
 Ma
