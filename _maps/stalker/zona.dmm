@@ -822,11 +822,11 @@
 /obj/structure/stalker/cacheable/cover{
 	layer = 2.9
 	},
-/obj/structure/piano,
+/obj/structure/musician/piano,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings/backwater)
 "adv" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 8
 	},
@@ -986,7 +986,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings/backwater)
 "aeg" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 1
 	},
@@ -2193,7 +2193,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "aic" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/floor/iron/sepia,
 /area/stalker/blowout/buildings/backwater/substation)
 "aid" = (
@@ -2253,7 +2253,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings/backwater/krug)
 "aio" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 1
 	},
@@ -2606,14 +2606,14 @@
 	},
 /area/stalker)
 "ajF" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 1
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "ajG" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "ajH" = (
@@ -2991,7 +2991,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "akV" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 4
 	},
@@ -3033,7 +3033,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "ale" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 4
 	},
@@ -3126,7 +3126,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "alv" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 8
 	},
@@ -3153,7 +3153,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "alA" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "alB" = (
@@ -3195,7 +3195,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "alI" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 4
 	},
@@ -3206,7 +3206,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "alJ" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 1
 	},
@@ -3920,7 +3920,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings/backwater/krug)
 "aok" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings/backwater/krug)
 "aol" = (
@@ -4155,7 +4155,7 @@
 "apc" = (
 /obj/structure/table/stalker,
 /obj/item/kitchen/rollingpin,
-/obj/item/reagent_containers/cup/glass/beer,
+/obj/item/reagent_containers/cup/glass/bottle/beer,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/shevchenko)
 "apd" = (
@@ -4905,14 +4905,14 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "arN" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /obj/structure/noticeboard{
 	pixel_y = 32
 	},
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "arO" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "arP" = (
@@ -4998,7 +4998,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "asf" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 1
 	},
@@ -5703,7 +5703,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings/backwater/ranger)
 "auw" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /obj/machinery/light/small{
 	dir = 1;
 	icon_state = "bulb"
@@ -5788,14 +5788,14 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings/backwater)
 "auL" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 4
 	},
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings/backwater)
 "auM" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 8
 	},
@@ -5945,14 +5945,14 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings/backwater/ranger)
 "avo" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 1
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings/backwater/ranger)
 "avp" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings/backwater/ranger)
 "avq" = (
@@ -7339,7 +7339,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "aAG" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "aAH" = (
@@ -16931,7 +16931,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/bar/rentgen)
 "bdV" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 1
 	},
@@ -16989,7 +16989,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/bar/rentgen)
 "bef" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	icon_state = "wooden_chair";
 	dir = 8
 	},
@@ -17173,7 +17173,7 @@
 /turf/open/floor/iron/grimy,
 /area/stalker/buildings/bar/rentgen)
 "beJ" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
 "beK" = (
@@ -17261,7 +17261,7 @@
 /area/stalker/buildings/bar/rentgen)
 "beY" = (
 /obj/machinery/light,
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	tag = "icon-wooden_chair (WEST)";
 	icon_state = "wooden_chair";
 	dir = 8
@@ -19137,11 +19137,11 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "bkK" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "bkL" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	tag = "icon-wooden_chair (EAST)";
 	icon_state = "wooden_chair";
 	dir = 4
@@ -19153,7 +19153,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "bkN" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	tag = "icon-wooden_chair (WEST)";
 	icon_state = "wooden_chair";
 	dir = 8
@@ -19190,7 +19190,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "bkT" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	tag = "icon-wooden_chair (NORTH)";
 	icon_state = "wooden_chair";
 	dir = 1
@@ -19762,7 +19762,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "bmv" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /obj/effect/landmark/latejoin/duty_lieutenant,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bar/city)
@@ -21485,7 +21485,7 @@
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "brz" = (
-/obj/structure/piano,
+/obj/structure/musician/piano,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "brA" = (
@@ -21601,13 +21601,13 @@
 /area/stalker/buildings/backwater/skadovsk)
 "brS" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/cup/glass/ale,
+/obj/item/reagent_containers/cup/glass/bottle/ale,
 /obj/item/food/jelliedtoast/cherry,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "brT" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/reagent_containers/cup/glass/beer,
+/obj/item/reagent_containers/cup/glass/bottle/beer,
 /obj/item/food/sandwich/jelly/cherry,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
@@ -21663,7 +21663,7 @@
 "bsc" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/reagent_containers/cup/glass/bottle/hcider,
-/obj/item/food/loadedbakedpotato,
+/obj/item/food/loaded_baked_potato,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/backwater/skadovsk)
 "bsd" = (

@@ -2227,7 +2227,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Aj" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 1
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -2466,7 +2466,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "Dg" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/kordon/banditbar)
 "Dp" = (
@@ -2722,7 +2722,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
 "Ha" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 4;
 	tag = "icon-wooden_chair (EAST)"
 	},
@@ -3923,7 +3923,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/kordon/banditbar)
 "Vs" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 8
 	},
 /turf/open/stalker/floor/wood/oldvert,

@@ -3431,7 +3431,7 @@
 /turf/open/stalker/floor/wood/brown,
 /area/stalker/buildings)
 "kW" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 8
 	},
 /obj/rad/rad_low,
@@ -11099,7 +11099,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "JL" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 8
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -12014,7 +12014,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/cave)
 "MN" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 8
 	},
 /obj/rad/rad_low,

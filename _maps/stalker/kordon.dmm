@@ -2125,7 +2125,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "gy" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 8
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -8306,7 +8306,7 @@
 /area/stalker)
 "XS" = (
 /obj/structure/table/stalker/wood/bar,
-/obj/item/food/loadedbakedpotato{
+/obj/item/food/loaded_baked_potato{
 	pixel_y = 10
 	},
 /turf/open/stalker/floor/wood/oldvert,

@@ -1081,7 +1081,7 @@
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/blowout/outdoor)
 "df" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 1;
 	icon_state = "wooden_chair";
 	tag = "icon-wooden_chair (NORTH)"

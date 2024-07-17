@@ -811,7 +811,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "dx" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 1;
 	tag = "icon-wooden_chair (NORTH)"
 	},
@@ -1010,7 +1010,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
 "fu" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 8;
 	tag = "icon-wooden_chair (WEST)"
 	},
@@ -1076,7 +1076,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
 "gc" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
 "gd" = (
@@ -1107,7 +1107,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
 "gu" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 4;
 	tag = "icon-wooden_chair (EAST)"
 	},
@@ -2114,11 +2114,11 @@
 /turf/closed/wall/stalker/bricks_yellow,
 /area/stalker/blowout/buildings)
 "re" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "rB" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 4;
 	tag = "icon-wooden_chair (EAST)"
 	},
@@ -2157,7 +2157,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "sl" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 8;
 	tag = "icon-wooden_chair (WEST)"
 	},
@@ -2186,7 +2186,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "sI" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 1;
 	tag = "icon-wooden_chair (NORTH)"
 	},
@@ -2797,7 +2797,7 @@
 /area/stalker/buildings/duty)
 "DZ" = (
 /obj/effect/landmark/latejoin/duty_lieutenant,
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 1;
 	tag = "icon-wooden_chair (NORTH)"
 	},

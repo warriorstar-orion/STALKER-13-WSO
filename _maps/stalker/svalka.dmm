@@ -3588,7 +3588,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/kordon/banditbar)
 "jG" = (
-/obj/structure/chair/wood/normal,
+/obj/structure/chair/wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/kordon/banditbar)
 "jH" = (
@@ -3651,7 +3651,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/kordon/banditbar)
 "jW" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 8
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -5084,7 +5084,7 @@
 /turf/open/stalker/floor/wood/grey,
 /area/stalker)
 "qx" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 4;
 	tag = "icon-wooden_chair (EAST)"
 	},
@@ -5102,7 +5102,7 @@
 	dir = 8;
 	tag = "icon-tube1 (WEST)"
 	},
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 1
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -5793,7 +5793,7 @@
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "vH" = (
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 1;
 	tag = "icon-wooden_chair (NORTH)"
 	},
@@ -5820,7 +5820,7 @@
 	dir = 4;
 	tag = "icon-tube1 (EAST)"
 	},
-/obj/structure/chair/wood/normal{
+/obj/structure/chair/wood{
 	dir = 1;
 	tag = "icon-wooden_chair (NORTH)"
 	},
