@@ -4113,7 +4113,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Fz" = (
-/obj/structure/flora/junglebush/c,
+/obj/structure/flora/bush/jungle/c,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "FA" = (

@@ -405,7 +405,7 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/structure/flora/junglebush/c,
+/obj/structure/flora/bush/jungle/c,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "dd" = (
@@ -459,7 +459,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "dy" = (
-/obj/structure/flora/junglebush,
+/obj/structure/flora/bush/jungle,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "dz" = (
@@ -1577,7 +1577,7 @@
 	pixel_y = -24;
 	tag = "icon-border2"
 	},
-/obj/structure/flora/junglebush,
+/obj/structure/flora/bush/jungle,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "kS" = (
@@ -2153,7 +2153,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "oF" = (
-/obj/structure/flora/junglebush,
+/obj/structure/flora/bush/jungle,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border1";
@@ -2230,8 +2230,8 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker)
 "pb" = (
-/obj/structure/flora/junglebush,
-/obj/structure/flora/junglebush/c,
+/obj/structure/flora/bush/jungle,
+/obj/structure/flora/bush/jungle/c,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "pe" = (
@@ -2715,7 +2715,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/blowout/buildings)
 "sK" = (
-/obj/structure/flora/junglebush/b,
+/obj/structure/flora/bush/jungle/b,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "sO" = (
@@ -3945,7 +3945,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Cq" = (
-/obj/structure/AIcore,
+/obj/structure/ai_core,
 /obj/item/circuitboard/computer/arcade,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -3995,7 +3995,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "CK" = (
-/obj/structure/flora/junglebush/c,
+/obj/structure/flora/bush/jungle/c,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "CL" = (
@@ -4291,7 +4291,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "EJ" = (
-/obj/structure/flora/junglebush/c,
+/obj/structure/flora/bush/jungle/c,
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -4788,7 +4788,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Iw" = (
-/obj/structure/flora/junglebush/c,
+/obj/structure/flora/bush/jungle/c,
 /obj/structure/stalker/stolb2,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -5891,7 +5891,7 @@
 	icon_state = "|";
 	tag = "icon-|"
 	},
-/obj/structure/flora/junglebush/b,
+/obj/structure/flora/bush/jungle/b,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Qq" = (
@@ -6587,7 +6587,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "WE" = (
-/obj/structure/flora/junglebush/large,
+/obj/structure/flora/bush/jungle/large,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "WF" = (
@@ -6855,7 +6855,7 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/structure/flora/junglebush,
+/obj/structure/flora/bush/jungle,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "YK" = (

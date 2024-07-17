@@ -1242,7 +1242,7 @@
 /area/stalker/blowout/buildings)
 "oM" = (
 /obj/structure/flora/stalker/bush,
-/obj/structure/flora/junglebush,
+/obj/structure/flora/bush/jungle,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "oN" = (
@@ -1258,7 +1258,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings)
 "oT" = (
-/obj/structure/flora/junglebush,
+/obj/structure/flora/bush/jungle,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "oV" = (
@@ -2095,7 +2095,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
 "yq" = (
-/obj/structure/flora/junglebush/c,
+/obj/structure/flora/bush/jungle/c,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "ys" = (
@@ -2484,7 +2484,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "Du" = (
-/obj/structure/flora/junglebush/b,
+/obj/structure/flora/bush/jungle/b,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "DE" = (
@@ -2519,7 +2519,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
 "Ef" = (
-/obj/structure/flora/junglebush/c,
+/obj/structure/flora/bush/jungle/c,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "Ei" = (
@@ -2667,7 +2667,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
 "Gv" = (
-/obj/structure/flora/junglebush,
+/obj/structure/flora/bush/jungle,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "GF" = (
@@ -2999,7 +2999,7 @@
 /turf/closed/wall/stalker/bricks,
 /area/stalker/blowout/outdoor)
 "JY" = (
-/obj/structure/flora/junglebush/b,
+/obj/structure/flora/bush/jungle/b,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Kb" = (
@@ -3159,7 +3159,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/kordon/banditbar)
 "Mu" = (
-/obj/structure/flora/junglebush/large,
+/obj/structure/flora/bush/jungle/large,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "Mv" = (
@@ -3551,7 +3551,7 @@
 /area/stalker/blowout/buildings)
 "Sd" = (
 /obj/structure/flora/stalker/bush,
-/obj/structure/flora/junglebush/large,
+/obj/structure/flora/bush/jungle/large,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "Sg" = (
