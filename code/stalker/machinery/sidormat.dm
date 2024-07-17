@@ -300,9 +300,9 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		new /datum/data/stalker_equipment("Flare",								"Flare",												/obj/item/flashlight/flare,											2000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 250),
 		new /datum/data/stalker_equipment("Glowstick",							"Glowstick",											/obj/item/flashlight/glowstick,										2000,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 250),
 		new /datum/data/stalker_equipment("Soap",								"Soap",													/obj/item/soap,														250,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 150),
-		new /datum/data/stalker_equipment("Russian Vocabulary",					"Russian Vocabulary",									/obj/item/codespeak_manual/russian,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Duty",sale_price = 8000),
-		new /datum/data/stalker_equipment("English Vocabulary",					"English Vocabulary",									/obj/item/codespeak_manual/english,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Clear Sky",sale_price = 8000),
-		new /datum/data/stalker_equipment("German Vocabulary",					"German Vocabulary",									/obj/item/codespeak_manual/german,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Ecologist",sale_price = 8000),
+		new /datum/data/stalker_equipment("Russian Vocabulary",					"Russian Vocabulary",									/obj/item/language_manual/codespeak_manual/russian,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Duty",sale_price = 8000),
+		new /datum/data/stalker_equipment("English Vocabulary",					"English Vocabulary",									/obj/item/language_manual/codespeak_manual/english,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Clear Sky",sale_price = 8000),
+		new /datum/data/stalker_equipment("German Vocabulary",					"German Vocabulary",									/obj/item/language_manual/codespeak_manual/german,									10000,	ROOKIE,	initial_stock = SPECIALTY_AMOUNT,faction = "Ecologist",sale_price = 8000),
 		new /datum/data/stalker_equipment("Spray Cleaner",						"Spray Cleaner",										/obj/item/reagent_containers/spray/cleaner,							250,	ROOKIE,	initial_stock = PISTOL_AMOUNT,sale_price = 150)
 		),
 
