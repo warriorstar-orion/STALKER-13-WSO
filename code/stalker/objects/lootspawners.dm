@@ -1077,3 +1077,13 @@ obj/nothing/New()
 				/obj/item/gun/ballistic/automatic/ak74/black = 20,
 				/obj/item/gun/ballistic/automatic/ak74/camo = 20,
 				/obj/nothing = 80)
+
+/obj/effect/spawner/random/bustedcigs
+	name = "busted cig spawner"
+	icon_state = "vendor_loot"
+	loot = list(
+				/obj/machinery/vending/cigarette/busted,
+				/obj/machinery/vending/cigarette/bustedtwo,
+				/obj/machinery/vending/cigarette/bustedthree,
+				/obj/machinery/vending/cigarette/bustedfour
+				)

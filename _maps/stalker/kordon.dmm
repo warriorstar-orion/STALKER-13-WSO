@@ -2530,7 +2530,7 @@
 	id = 47;
 	pixel_y = 32
 	},
-/obj/machinery/microwave/stove,
+/obj/machinery/stove,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
 "hK" = (

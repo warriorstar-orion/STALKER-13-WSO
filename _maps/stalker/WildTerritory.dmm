@@ -2288,7 +2288,7 @@
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
 "qF" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
@@ -3364,7 +3364,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "zC" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "zD" = (
@@ -3854,7 +3854,7 @@
 /turf/closed/wall/stalker/bricks_yellow,
 /area/stalker/blowout/outdoor)
 "Da" = (
-/obj/structure/flora/rock/pile/largejungle{
+/obj/structure/flora/rock/pile/jungle/large{
 	pixel_x = -31;
 	pixel_y = -33
 	},
@@ -4300,7 +4300,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "GO" = (
-/obj/structure/flora/rock/pile/largejungle{
+/obj/structure/flora/rock/pile/jungle/large{
 	pixel_x = -31;
 	pixel_y = -2
 	},
@@ -4679,7 +4679,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "Ka" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Ke" = (

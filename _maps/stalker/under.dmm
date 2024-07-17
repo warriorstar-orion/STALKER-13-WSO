@@ -5431,7 +5431,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/burntfarm)
 "OV" = (
-/obj/machinery/microwave/stove,
+/obj/machinery/stove,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/burntfarm)
 "Pc" = (

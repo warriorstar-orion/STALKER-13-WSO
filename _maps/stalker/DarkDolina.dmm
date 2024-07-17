@@ -1329,7 +1329,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "pv" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "pw" = (
@@ -1519,7 +1519,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "rD" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "rF" = (
@@ -2488,7 +2488,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "DE" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "DL" = (
@@ -3641,7 +3641,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/kordon/banditbar)
 "SH" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "SI" = (
@@ -3810,7 +3810,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "Uw" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "Uz" = (

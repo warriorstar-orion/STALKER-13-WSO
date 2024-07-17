@@ -455,7 +455,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "dx" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "dy" = (
@@ -1258,7 +1258,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "iP" = (
-/obj/machinery/microwave/stove,
+/obj/machinery/stove,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker)
 "iR" = (
@@ -3950,7 +3950,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Cr" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "Cv" = (
@@ -4468,7 +4468,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "Gb" = (
-/obj/machinery/microwave/stove,
+/obj/machinery/stove,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "Gd" = (
@@ -5363,7 +5363,7 @@
 	tag = "icon-border8"
 	},
 /obj/structure/flora/rock/pile,
-/obj/structure/flora/rock/pile/largejungle{
+/obj/structure/flora/rock/pile/jungle/large{
 	pixel_x = -9
 	},
 /turf/open/stalker/floor/plasteel,
@@ -6495,7 +6495,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker)
 "VX" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "VY" = (
@@ -6952,7 +6952,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Zl" = (
-/obj/machinery/microwave/stove,
+/obj/machinery/stove,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "Zm" = (

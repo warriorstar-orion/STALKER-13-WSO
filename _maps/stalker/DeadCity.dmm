@@ -880,7 +880,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "hb" = (
-/obj/machinery/microwave/stove,
+/obj/machinery/stove,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "hf" = (

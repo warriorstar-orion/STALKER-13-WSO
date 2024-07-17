@@ -9795,7 +9795,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "FF" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "FG" = (
@@ -13278,7 +13278,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "Rp" = (
-/obj/structure/flora/rock/pile/largejungle,
+/obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Rq" = (
