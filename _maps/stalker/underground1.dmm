@@ -4331,7 +4331,7 @@
 /area/stalker/agroprom/caves)
 "kL" = (
 /obj/structure/table/stalker/wood,
-/obj/item/weapon/kitchen/knife,
+/obj/item/knife,
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/cordon/buildings)
 "kM" = (

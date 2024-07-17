@@ -27,7 +27,7 @@ Assistant
 	head = null
 	suit = /obj/item/clothing/suit/hooded/kombez/ps5m
 	ears = null
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/stalker/tourist
@@ -41,7 +41,7 @@ Assistant
 	..()
 	head = pick(
 		/obj/item/clothing/head/beret,
-		/obj/item/clothing/head/ushanka,
+		/obj/item/clothing/head/costume/ushanka,
 		/obj/item/clothing/head/beret/black)
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/hooded/kombez/ps5m
@@ -50,7 +50,7 @@ Assistant
 		/obj/item/clothing/mask/bandana/black,
 		/obj/item/cigarette/marlboro)
 	ears = null
-	belt = /obj/item/kitchen/knife/bayonet
+	belt = /obj/item/knife/bayonet
 	gloves = /obj/item/clothing/gloves/color/black
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/duty

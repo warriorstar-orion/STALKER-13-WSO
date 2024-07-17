@@ -1,4 +1,4 @@
-/obj/item/kitchen/knife/tourist
+/obj/item/knife/tourist
 	name = "tourist knife"
 	desc = "Cheap knife but good enough for a tourist."
 	icon = 'icons/stalker/weapons.dmi'
@@ -12,7 +12,7 @@
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1
 
-/obj/item/kitchen/knife/bayonet
+/obj/item/knife/bayonet
 	name = "bayonet"
 	desc = "Dangerous, but bad at butchering mutants."
 	icon = 'icons/stalker/weapons.dmi'
@@ -27,7 +27,7 @@
 	bayonet = TRUE
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/throwing
+/obj/item/knife/throwing
 	name = "throwing knife"
 	desc = "A small knife which is best thrown rather than used in close combat."
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -42,7 +42,7 @@
 	attack_verb_continuous = list("penetrated", "stabbed", "skewered", "pierced")
 	sharpness = SHARP_POINTY
 
-/obj/item/kitchen/knife/machete
+/obj/item/knife/machete
 	name = "machete"
 	desc = "Great for hacking your problems away."
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -59,7 +59,7 @@
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/machete2
+/obj/item/knife/machete2
 	name = "machete"
 	desc = "Great for hacking your problems away."
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -76,7 +76,7 @@
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/machete3
+/obj/item/knife/machete3
 	name = "machete"
 	desc = "Great for hacking your problems away."
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -93,7 +93,7 @@
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/machete4
+/obj/item/knife/machete4
 	name = "machete"
 	desc = "Great for hacking your problems away."
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -110,7 +110,7 @@
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/foreignsabre
+/obj/item/knife/foreignsabre
 	name = "foreign sabre"
 	desc = "Great for hacking your problems away. This seems to be a genuine sabre, it is heavy and has seen a lot of use."
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -127,7 +127,7 @@
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/rapier0
+/obj/item/knife/rapier0
 	name = "rapier"
 	desc = "Great for stabbing your problems away. This seems to be a genuine rapier, it is heavy and has seen a lot of use."
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -144,7 +144,7 @@
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/sickle
+/obj/item/knife/sickle
 	name = "sickle"
 	desc = "Great for hacking your problems away. All you need is a hammer now!"
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -161,7 +161,7 @@
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/trench
+/obj/item/knife/trench
 	name = "trench knife"
 	desc = "Dangerous, made for the trenches."
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -179,7 +179,7 @@
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/bowie
+/obj/item/knife/bowie
 	name = "bowie knife"
 	desc = "Day bow bow ... chicka chi-kow!"
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -197,7 +197,7 @@
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/bolo
+/obj/item/knife/bolo
 	name = "bolo knife"
 	desc = "A large cutting tool of Filipino origin similar to the machete. It is used particularly in the Philippines, the jungles of Indonesia, Malaysia and Brunei, as well as in the sugar fields of Cuba."
 	icon = 'icons/stalker/melee_weapons.dmi'
@@ -215,7 +215,7 @@
 //	bayonet = TRUE
 	//butcher_speed = 1.25
 
-/obj/item/kitchen/knife/kukri
+/obj/item/knife/kukri
 	name = "kukri"
 	desc = "A large curved blade lodged in an ornate handle. Most people would assume that it is of australian descent. Exceptionally effective when thrown."
 	icon = 'icons/stalker/melee_weapons.dmi'

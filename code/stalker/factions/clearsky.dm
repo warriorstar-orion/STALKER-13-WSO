@@ -25,7 +25,7 @@ Assistant
 	name = "Clear Sky Soldier"
 	faction_s = "Clear Sky"
 	suit = /obj/item/clothing/suit/hooded/kozhanka/cs_hood
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/stalker/tourist
@@ -35,7 +35,7 @@ Assistant
 	..()
 	uniform = UNIFORMPICK
 	ears = null
-	belt = /obj/item/kitchen/knife/bayonet
+	belt = /obj/item/knife/bayonet
 	id = /obj/item/stalker_pda
 	suit_store = /obj/item/gun/ballistic/automatic/kiparis
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/kiparis = 2,/obj/item/food/stalker/konserva/fish,/obj/item/storage/firstaid/ai2,/obj/item/clothing/accessory/patch/clearsky)

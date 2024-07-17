@@ -33,7 +33,7 @@
 	gloves = /obj/item/clothing/gloves/fingerless
 	suit_store = /obj/item/gun/ballistic/automatic/mp5
 	belt = pick(
-		/obj/item/kitchen/knife/bayonet,
+		/obj/item/knife/bayonet,
 		/obj/item/melee/classic_baton)
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/stalker/m9x19mp5 = 2,
@@ -63,7 +63,7 @@
 	mask = /obj/item/clothing/mask/gas/stalker/mercenary
 	suit = /obj/item/clothing/suit/hooded/kombez/mercenary
 	ears = null
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/stalker/civilian

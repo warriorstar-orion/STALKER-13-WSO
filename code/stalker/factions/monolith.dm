@@ -30,7 +30,7 @@
 	mask = /obj/item/clothing/mask/gas/stalker
 	suit = /obj/item/clothing/suit/hooded/kombez/monolith
 	ears = null
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	suit_store = /obj/item/gun/ballistic/automatic/abakan
@@ -53,7 +53,7 @@
 	head = null
 	suit = /obj/item/clothing/suit/hooded/kombez/monolith
 	ears = null
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/stalker/civilian
@@ -100,7 +100,7 @@
 	uniform = UNIFORMPICK
 	mask = /obj/item/clothing/mask/gas/stalker
 	suit = /obj/item/clothing/suit/hooded/kombez/monolith
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	suit_store = /obj/item/gun/ballistic/automatic/groza

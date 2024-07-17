@@ -1,4 +1,4 @@
-/obj/item/kitchen/knife/hunting
+/obj/item/knife/hunting
 	name = "hunting knife"
 	icon_state = "huntingknife"
 	item_state = "knife"
@@ -11,7 +11,7 @@
 	hitsound = "sound/weapons/knifeswing.ogg"
 	attack_verb = list("slashed", "stabbed", "sliced", "torn", "ripped", "cut")
 
-/obj/item/kitchen/knife/m9
+/obj/item/knife/m9
 	name = "m9 knife"
 	icon_state = "m9knife"
 	item_state = "knife"

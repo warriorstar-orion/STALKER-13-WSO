@@ -52,7 +52,7 @@ Assistant
 	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/skat
 	ears = null
-	belt = /obj/item/weapon/kitchen/knife/m9
+	belt = /obj/item/knife/m9
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	suit_store = /obj/item/gun/ballistic/automatic/ak74
@@ -82,7 +82,7 @@ Assistant
 	uniform = /obj/item/clothing/under/color/switer/lolg
 	suit = /obj/item/clothing/suit/army
 	ears = null
-	belt = /obj/item/weapon/kitchen/knife/m9
+	belt = /obj/item/knife/m9
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	suit_store = /obj/item/gun/ballistic/automatic/aksu74
@@ -150,7 +150,7 @@ Assistant
 
 	head = null
 	ears = null
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/stalker/tourist

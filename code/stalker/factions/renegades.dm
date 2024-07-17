@@ -31,7 +31,7 @@
 //		)
 //	id = /obj/item/stalker_pda
 //	belt = pick(
-//		/obj/item/kitchen/knife/tourist,
+//		/obj/item/knife/tourist,
 //		/obj/item/knife/butcher,
 //		/obj/item/crowbar/large)
 //	gloves = /obj/item/clothing/gloves/fingerless
@@ -50,7 +50,7 @@
 //	suit = /obj/item/clothing/suit/hooded/kozhanka/renegadecoat
 //	ears = null
 //	id = /obj/item/stalker_pda
-//	belt = /obj/item/kitchen/knife/tourist
+//	belt = /obj/item/knife/tourist
 //	gloves = /obj/item/clothing/gloves/fingerless
 //	shoes = /obj/item/clothing/shoes/jackboots/warm
 //	mask = /obj/item/clothing/mask/balaclava

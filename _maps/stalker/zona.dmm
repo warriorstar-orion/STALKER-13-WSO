@@ -3382,7 +3382,7 @@
 /area/stalker/blowout/buildings/backwater/ironforest)
 "amk" = (
 /obj/structure/table/stalker,
-/obj/item/kitchen/knife,
+/obj/item/knife,
 /obj/item/food/meat/steak/plain,
 /obj/machinery/light/small/broken{
 	dir = 8;
@@ -4650,7 +4650,7 @@
 /area/stalker/blowout/buildings/backwater/ranger)
 "aqQ" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/kitchen/knife/tourist,
+/obj/item/knife/tourist,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ranger)
 "aqR" = (

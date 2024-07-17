@@ -1744,7 +1744,7 @@
 "Jm" = (/obj/structure/stalker/cacheable/fiveshina,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)
 "Jn" = (/obj/effect/decal/cleanable/blood/gibs/old,/obj/effect/decal/cleanable/blood/old,/turf/open/stalker/floor/asphalt,/area/stalker/buildings)
 "Jo" = (/obj/structure/stalker/trubas{dir = 4},/obj/rad/rad_low,/turf/open/stalker/floor/water,/area/stalker/buildings)
-"Jp" = (/obj/structure/table/stalker/wood/bar,/obj/item/kitchen/knife/tourist{pixel_x = -7; pixel_y = 11},/obj/effect/decal/cleanable/blood/splatter,/obj/item/flashlight/flare{pixel_x = 3; pixel_y = 1},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
+"Jp" = (/obj/structure/table/stalker/wood/bar,/obj/item/knife/tourist{pixel_x = -7; pixel_y = 11},/obj/effect/decal/cleanable/blood/splatter,/obj/item/flashlight/flare{pixel_x = 3; pixel_y = 1},/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Jq" = (/obj/machinery/campfire/barrel{pixel_x = -14; pixel_y = 12},/obj/item/trash/cigs_trash2,/turf/open/stalker/floor/agroprom/gryaz,/area/stalker/blowout/outdoor)
 "Jr" = (/obj/structure/stalker/car/gryzovik/west,/turf/open/stalker/floor/gryaz,/area/stalker/blowout/outdoor)
 "Js" = (/obj/structure/stalker/cacheable/yashik/yaskik_a/big,/turf/open/stalker/floor/digable/grass,/area/stalker/blowout/outdoor)

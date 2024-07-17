@@ -25,7 +25,7 @@
 	..()
 	head = pick(
 		/obj/item/grown/sunflower,
-		/obj/item/clothing/head/ushanka)
+		/obj/item/clothing/head/costume/ushanka)
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/hooded/kombez/veter
 	mask = pick(
@@ -33,7 +33,7 @@
 		/obj/item/clothing/mask/gas,
 		/obj/item/clothing/mask/bandana/green)
 	ears = null
-	belt = /obj/item/kitchen/knife/bayonet
+	belt = /obj/item/knife/bayonet
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/stalker/civilian
@@ -57,7 +57,7 @@
 	name = "Freedom Soldier"
 	suit = /obj/item/clothing/suit/hooded/kombez/veter
 	ears = null
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
 	back = /obj/item/storage/backpack/stalker/civilian

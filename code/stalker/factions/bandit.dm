@@ -84,7 +84,7 @@ Assistant
 		/obj/item/clothing/mask/balaclava)
 	id = /obj/item/stalker_pda
 	belt = pick(
-		/obj/item/kitchen/knife/tourist,
+		/obj/item/knife/tourist,
 		/obj/item/knife/butcher,
 		/obj/item/crowbar/large)
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -143,7 +143,7 @@ Assistant
 	belt = /obj/item/gun/ballistic/shotgun/bm16/sawnoff
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
-	head = /obj/item/clothing/head/bowler
+	head = /obj/item/clothing/head/hats/bowler
 	back = /obj/item/storage/backpack/stalker/tourist
 	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 40,
 						/obj/item/ammo_box/stalker/b12x70 = 2,
@@ -176,7 +176,7 @@ Assistant
 	suit = /obj/item/clothing/suit/hooded/kozhanka/banditka
 	ears = null
 	id = /obj/item/stalker_pda
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	mask = /obj/item/clothing/mask/balaclava

@@ -455,9 +455,9 @@
 /obj/effect/spawner/random/stalker/weapon/melee
 	name = "stalker melee"
 	icon_state = "melee_loot"
-	loot = list(/obj/item/kitchen/knife = 20,
+	loot = list(/obj/item/knife = 20,
 				/obj/item/knife/butcher = 10,
-				/obj/item/kitchen/knife/tourist = 10,
+				/obj/item/knife/tourist = 10,
 				/obj/item/melee/tireiron = 10,
 				/obj/item/melee/tireiron2 = 10,
 				/obj/item/melee/baseball_bat = 10,
@@ -468,7 +468,7 @@
 /obj/effect/spawner/random/stalker/weapon/meleetier2
 	name = "stalker melee"
 	icon_state = "melee2_loot"
-	loot = list(/obj/item/kitchen/knife/bayonet = 20,
+	loot = list(/obj/item/knife/bayonet = 20,
 				/obj/item/hatchet/ancienthatchet = 15,
 				/obj/item/hatchet/woodhatchet = 15,
 				/obj/item/melee/halliganbar = 5,
@@ -480,26 +480,26 @@
 /obj/effect/spawner/random/stalker/weapon/meleetier3
 	name = "stalker melee"
 	icon_state = "melee3_loot"
-	loot = list(/obj/item/kitchen/knife/machete	 = 20,
-				/obj/item/kitchen/knife/throwing = 20,
-				/obj/item/kitchen/knife/machete2 = 15,
+	loot = list(/obj/item/knife/machete	 = 20,
+				/obj/item/knife/throwing = 20,
+				/obj/item/knife/machete2 = 15,
 				/obj/item/knife/hunting = 15,
-				/obj/item/weapon/kitchen/knife/m9 = 5,
+				/obj/item/knife/m9 = 5,
 				/obj/nothing = 20)
 
 /obj/effect/spawner/random/stalker/weapon/meleetierrare
 	name = "stalker melee rare"
 	icon_state = "melee_rare_loot"
-	loot = list(/obj/item/kitchen/knife/kukri = 15,
-				/obj/item/kitchen/knife/bolo = 15,
-				/obj/item/kitchen/knife/bowie = 15,
-				/obj/item/kitchen/knife/trench = 15,
+	loot = list(/obj/item/knife/kukri = 15,
+				/obj/item/knife/bolo = 15,
+				/obj/item/knife/bowie = 15,
+				/obj/item/knife/trench = 15,
 				/obj/item/shovel/entrenching_tool = 15,
-				/obj/item/kitchen/knife/sickle = 15,
-				/obj/item/kitchen/knife/rapier0 = 15,
-				/obj/item/kitchen/knife/foreignsabre = 15,
-				/obj/item/kitchen/knife/machete4 = 15,
-				/obj/item/kitchen/knife/machete3 = 15,
+				/obj/item/knife/sickle = 15,
+				/obj/item/knife/rapier0 = 15,
+				/obj/item/knife/foreignsabre = 15,
+				/obj/item/knife/machete4 = 15,
+				/obj/item/knife/machete3 = 15,
 				/obj/nothing = 20)
 
 /obj/effect/spawner/random/stalker/weapon/meleetwohand

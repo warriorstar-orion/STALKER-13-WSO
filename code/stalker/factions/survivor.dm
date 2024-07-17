@@ -101,7 +101,7 @@ Assistant
 		/obj/item/storage/backpack/stalker/civilian)
 	backpack_contents = list(/obj/item/ammo_box/magazine/stalker/tt,/obj/item/ammo_box/magazine/stalker/tt,/obj/item/food/stalker/kolbasa,/obj/item/storage/firstaid/ai2,/obj/item/clothing/accessory/patch/loner)
 	r_pocket = pick(
-		/obj/item/kitchen/knife/tourist,
+		/obj/item/knife/tourist,
 		/obj/item/hatchet)
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
@@ -118,7 +118,7 @@ Assistant
 	suit = /obj/item/clothing/suit/hooded/kozhanka
 	ears = null
 	id = /obj/item/stalker_pda
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/fingerless
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	backpack_contents = list(/obj/item/stack/spacecash/c5000 = 1, /obj/item/storage/box/matches = 1)
@@ -216,8 +216,8 @@ Assistant
 	ears = null
 	head = pick(
 		/obj/item/clothing/head/fedora/curator,
-		/obj/item/clothing/head/bowler,
-		/obj/item/clothing/head/ushanka,
+		/obj/item/clothing/head/hats/bowler,
+		/obj/item/clothing/head/costume/ushanka,
 		/obj/item/clothing/head/beanie/black,
 		/obj/item/clothing/head/fedora)
 	glasses = pick(
@@ -226,8 +226,8 @@ Assistant
 		/obj/item/clothing/glasses/sunglasses/big)
 	id = /obj/item/stalker_pda
 	belt = pick(
-		/obj/item/kitchen/knife/tourist,
-		/obj/item/kitchen/knife,
+		/obj/item/knife/tourist,
+		/obj/item/knife,
 		/obj/item/storage/belt/fannypack/black,
 		/obj/item/switchblade)
 	gloves = pick(
@@ -274,7 +274,7 @@ Assistant
 	suit = /obj/item/clothing/suit/kozhanka/tourist/gorka
 	ears = null
 	id = /obj/item/stalker_pda
-	belt = /obj/item/kitchen/knife/tourist
+	belt = /obj/item/knife/tourist
 	gloves = /obj/item/clothing/gloves/color/brown
 	shoes = /obj/item/clothing/shoes/sandal
 	backpack_contents = list(/obj/item/food/stalker/kolbasa,/obj/item/stack/medical/gauze/bint,/obj/item/food/stalker/konserva,/obj/item/food/stalker/baton)
