@@ -162,7 +162,7 @@
 	armour_penetration = 30
 	range = 100
 	spread = 0
-	movement_type = FLYING | UNSTOPPABLE
+	movement_type = FLYING | PHASING
 
 /obj/projectile/bullet/fragment
 	name = "fragment"
