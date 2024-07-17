@@ -561,8 +561,7 @@
 /obj/item/food/meat/rawcutlet/mutant
 	name = "raw mutant cutlet"
 	desc = "A raw mutant meat cutlet."
-	list_reagents = list("nutriment" = 5)
-	bonus_reagents = list("nutriment" = 5, "vitamin" = 5)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 5)
 	filling_color = "#C43C20"
 
 /obj/item/food/meat/rawcutlet/mutant/flesh
@@ -601,8 +600,7 @@
 	name = "mutant cutlet"
 	desc = "A cooked mutant meat cutlet."
 	icon_state = "cutlet"
-	list_reagents = list("nutriment" = 5)
-	bonus_reagents = list("nutriment" = 5, "vitamin" = 5)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 5)
 	filling_color = "#8A5639"
 
 /obj/item/food/meat/cutlet/mutant/flesh

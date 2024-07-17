@@ -24,7 +24,7 @@
 /datum/outfit/job/ecologist/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = null
-	uniform = /obj/item/clothing/under/lawyer/blacksuit
+	uniform = /obj/item/clothing/under/suit/black
 	suit = /obj/item/clothing/suit/hooded/sealed/ecolog
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/black
@@ -53,7 +53,7 @@
 /datum/outfit/ecologist  // For select_equipment
 	name = "Ecologist"
 	head = null
-	uniform = /obj/item/clothing/under/lawyer/blacksuit
+	uniform = /obj/item/clothing/under/suit/black
 	suit = /obj/item/clothing/suit/toggle/labcoat/ecologist_blue
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/black
@@ -184,7 +184,7 @@
 /datum/outfit/job/chief_ecologist/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = null
-	uniform = /obj/item/clothing/under/lawyer/blacksuit
+	uniform = /obj/item/clothing/under/suit/black
 	suit = /obj/item/clothing/suit/hooded/sealed/ecologm
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/black
@@ -218,7 +218,7 @@
 /datum/outfit/job/chief_ecologist // For select_equipment
 	name = "Chief Ecologist"
 	head = null
-	uniform = /obj/item/clothing/under/lawyer/blacksuit
+	uniform = /obj/item/clothing/under/suit/black
 	suit = /obj/item/clothing/suit/hooded/sealed/ecologm
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/black

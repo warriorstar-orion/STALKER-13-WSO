@@ -24,7 +24,7 @@
 /datum/outfit/freedomrookie/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = pick(
-		/obj/item/grown/sunflower,
+		/obj/item/food/grown/sunflower,
 		/obj/item/clothing/head/costume/ushanka)
 	uniform = UNIFORMPICK
 	suit = /obj/item/clothing/suit/hooded/kombez/veter

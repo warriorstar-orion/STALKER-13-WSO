@@ -1,16 +1,20 @@
+// TODO(wso): All of this needs to be killed in favor of basic mobs and AI controllers
 /mob/living/simple_animal/hostile/mutant
 	vision_range = 9
 	aggro_vision_range = 9
 	stat_attack = 2
 	stat_exclusive = 0
-	fearless = 0
+	var/fearless = 0
 	icon = 'icons/stalker/stalker.dmi'
 	speak_chance = 1.5
-	rating_add = 10
+	var/rating_add = 10
+	var/deathsound
+	var/a_intent = "harm"
 	loot = list()
 	robust_searching = 1
 	mob_biotypes = list(MOB_ORGANIC, MOB_BEAST)
 	var/random_butcher_results
+	var/attack_type = "claw"
 	var/deletable = TRUE //Self-deletable dead bodies
 	var/gib_targets = TRUE //Гибать
 /*

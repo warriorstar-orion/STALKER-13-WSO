@@ -510,8 +510,8 @@
 				/obj/item/twohanded/pitchfork = 20,
 				/obj/item/twohanded/bostaff = 20,
 				/obj/item/twohanded/rake = 20,
-				/obj/item/twohanded/required/chainsaw/old = 5,
-				/obj/item/twohanded/required/chainsaw = 5,
+				/obj/item/chainsaw/old = 5,
+				/obj/item/chainsaw = 5,
 				/obj/nothing = 20)
 
 /obj/effect/spawner/random/stalker/medicine
@@ -877,11 +877,11 @@ obj/nothing/New()
 	name = "stalker flasks"
 	spawn_loot_count = 1
 	max_spawned = 1
-	loot = list(/obj/item/reagent_containers/food/drinks/flask/cylinder = 10,
-				/obj/item/reagent_containers/food/drinks/flask/face = 10,
-				/obj/item/reagent_containers/food/drinks/flask/russian = 10,
-				/obj/item/reagent_containers/food/drinks/flask = 10,
-				/obj/item/reagent_containers/food/drinks/flask/commie = 5,
+	loot = list(/obj/item/reagent_containers/cup/glass/flask/cylinder = 10,
+				/obj/item/reagent_containers/cup/glass/flask/face = 10,
+				/obj/item/reagent_containers/cup/glass/flask/russian = 10,
+				/obj/item/reagent_containers/cup/glass/flask = 10,
+				/obj/item/reagent_containers/cup/glass/flask/commie = 5,
 				/obj/nothing = 80)
 
 /obj/effect/spawner/random/stalker/cigarettes
@@ -983,7 +983,7 @@ obj/nothing/New()
 	loot = list(/obj/item/flashlight/flare/torch = 10,
 				/obj/item/flashlight/flare = 10,
 				/obj/item/radio/off = 10,
-				/obj/item/twohanded/binoculars = 10,
+				/obj/item/binoculars = 10,
 				/obj/item/flashlight = 10,
 				/obj/item/restraints/handcuffs = 10,
 				/obj/item/flashlight/lantern = 10,
@@ -1036,7 +1036,7 @@ obj/nothing/New()
 
 /obj/effect/spawner/random/stalker/weapon/stockparts
 	name = "stalker stock parts"
-	loot = list(/obj/item/stock_parts/manipulator = 15,
+	loot = list(/obj/item/stock_parts/servo = 15,
 				/obj/item/stock_parts/micro_laser = 15,
 				/obj/item/stock_parts/matter_bin = 15,
 				/obj/item/stock_parts/subspace/ansible = 15,

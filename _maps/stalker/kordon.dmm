@@ -6183,10 +6183,10 @@
 /area/stalker/buildings)
 "Ge" = (
 /obj/structure/table/stalker/wood,
-/obj/item/twohanded/binoculars,
-/obj/item/twohanded/binoculars,
-/obj/item/twohanded/binoculars,
-/obj/item/twohanded/binoculars,
+/obj/item/binoculars,
+/obj/item/binoculars,
+/obj/item/binoculars,
+/obj/item/binoculars,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
 "Gj" = (
@@ -7178,7 +7178,7 @@
 /area/stalker/blowout/outdoor)
 "Oc" = (
 /obj/structure/table/stalker/wood,
-/obj/item/twohanded/binoculars,
+/obj/item/binoculars,
 /obj/item/reagent_containers/food/drinks/mug{
 	pixel_x = -4;
 	pixel_y = 13
@@ -7611,7 +7611,7 @@
 /area/stalker/blowout/outdoor)
 "RX" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/flask/jerrycan/compost,
+/obj/item/reagent_containers/cup/glass/flask/jerrycan/compost,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "RY" = (
@@ -7676,7 +7676,7 @@
 /area/stalker)
 "SF" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/item/reagent_containers/food/drinks/flask/jerrycan/compost,
+/obj/item/reagent_containers/cup/glass/flask/jerrycan/compost,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "SK" = (
@@ -8105,7 +8105,7 @@
 /area/stalker/blowout/outdoor)
 "Wm" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/item/reagent_containers/food/drinks/flask/jerrycan/compost,
+/obj/item/reagent_containers/cup/glass/flask/jerrycan/compost,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "Wn" = (
@@ -8261,7 +8261,7 @@
 /area/stalker)
 "Xs" = (
 /obj/structure/table/stalker/wood,
-/obj/item/reagent_containers/food/drinks/flask/jerrycan/compost,
+/obj/item/reagent_containers/cup/glass/flask/jerrycan/compost,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "Xu" = (

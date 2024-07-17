@@ -4835,7 +4835,7 @@
 /area/stalker)
 "BN" = (
 /obj/anomaly/tramplin,
-/obj/item/reagent_containers/food/drinks/flask/cylinder,
+/obj/item/reagent_containers/cup/glass/flask/cylinder,
 /turf/open/floor/plating/dirt/dark,
 /area/stalker)
 "BR" = (

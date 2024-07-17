@@ -6577,7 +6577,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor)
 "CB" = (
-/obj/item/reagent_containers/food/drinks/flask/jerrycan/compost,
+/obj/item/reagent_containers/cup/glass/flask/jerrycan/compost,
 /turf/open/floor/plating/dirt,
 /area/stalker)
 "CE" = (

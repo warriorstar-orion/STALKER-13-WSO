@@ -8,7 +8,7 @@
 	lifespan = 60
 	endurance = 50
 	yield = 6
-	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
+	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	icon_dead = "whitebeet-dead"
 	genes = list(/datum/plant_gene/trait/maxchem)
 	reagents_add = list("vitamin" = 0.05, "nutriment" = 0.05, "uranium" = 0.25)
@@ -18,8 +18,8 @@
 	name = "red-beet"
 	desc = "You can't beat red beet. This one looks sickly."
 	icon_state = "zonaredbeet"
-	bitesize_mod = 2
-	foodtype = VEGETABLES
+	bite_consumption_mod = 2
+	foodtypes = VEGETABLES
 	wine_power = 60
 
 /obj/item/seeds/beet/white/zona
@@ -32,7 +32,7 @@
 	lifespan = 60
 	endurance = 50
 	yield = 6
-	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
+	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	icon_dead = "beet/white-dead"
 	mutatelist = list(/obj/item/seeds/beet/red/zona)
 	reagents_add = list("vitamin" = 0.04, "sugar" = 0.2, "nutriment" = 0.05, "uranium" = 0.25)
@@ -43,6 +43,6 @@
 	desc = "You can't beat white-beet. This one looks sickly."
 	icon_state = "zonawhitebeet"
 	filling_color = "#F4A460"
-	bitesize_mod = 2
-	foodtype = VEGETABLES
+	bite_consumption_mod = 2
+	foodtypes = VEGETABLES
 	wine_power = 40

@@ -297,7 +297,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bluntswing.ogg'
+	hitsound = 'sound/stalker/weapons/bluntswing.ogg'
 	attack_verb_continuous = list("attacked", "smacked", "beat", "bludgened")
 	sharpness = NONE
 
@@ -313,7 +313,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bluntswing.ogg'
+	hitsound = 'sound/stalker/weapons/bluntswing.ogg'
 	attack_verb_continuous = list("attacked", "smacked", "beat", "bludgened")
 	sharpness = NONE
 
@@ -329,7 +329,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bluntswing.ogg'
+	hitsound = 'sound/stalker/weapons/bluntswing.ogg'
 	attack_verb_continuous = list("attacked", "smacked", "beat", "bludgened")
 	sharpness = NONE
 
@@ -345,7 +345,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bluntswing.ogg'
+	hitsound = 'sound/stalker/weapons/bluntswing.ogg'
 	attack_verb_continuous = list("attacked", "smacked", "beat", "bludgened")
 	sharpness = NONE
 
@@ -361,7 +361,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bluntswing.ogg'
+	hitsound = 'sound/stalker/weapons/bluntswing.ogg'
 	attack_verb_continuous = list("attacked", "smacked", "beat", "bludgened")
 	sharpness = NONE
 
@@ -377,7 +377,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bluntswing.ogg'
+	hitsound = 'sound/stalker/weapons/bluntswing.ogg'
 	attack_verb_continuous = list("attacked", "smacked", "beat", "bludgened")
 	sharpness = NONE
 
@@ -392,7 +392,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bluntswing.ogg'
+	hitsound = 'sound/stalker/weapons/bluntswing.ogg'
 	attack_verb_continuous = list("attacked", "smacked", "beat", "bludgened")
 	sharpness = NONE
 

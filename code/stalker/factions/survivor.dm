@@ -166,7 +166,7 @@ Assistant
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
-	r_pocket = /obj/item/twohanded/binoculars
+	r_pocket = /obj/item/binoculars
 	r_hand = /obj/item/knife/hunting
 	l_hand = pick(/obj/item/flashlight/lantern,
 				/obj/item/flashlight/seclite,
@@ -248,7 +248,7 @@ Assistant
 		/obj/item/camera,
 		/obj/item/taperecorder,
 		/obj/item/clothing/accessory/pocketprotector/full ,
-		/obj/item/clipboard, /obj/item/twohanded/binoculars,
+		/obj/item/clipboard, /obj/item/binoculars,
 		/obj/item/flashlight/pen, /obj/item/hand_labeler,
 		/obj/item/modular_computer/tablet/preset/cheap,
 		/obj/item/megaphone,

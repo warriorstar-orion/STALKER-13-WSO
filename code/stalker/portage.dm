@@ -2,8 +2,8 @@
 	if(src.loc && istype(src.loc, /turf/open/stalker/floor/water))
 		remove_overlay(BODY_FRONT_LAYER)
 		var/icon/I
-		if(lying != 0)
-			I = turn(icon('icons/stalker/water.dmi', "human_overlay_turned"), - lying)
+		if(lying_angle != 0)
+			I = turn(icon('icons/stalker/water.dmi', "human_overlay_turned"), - lying_angle)
 		else
 			I = icon('icons/stalker/water.dmi', "human_overlay")
 

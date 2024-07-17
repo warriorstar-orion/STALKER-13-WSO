@@ -12,7 +12,7 @@
 	endurance = 25
 	growthstages = 3
 	weed_chance = 3
-	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
+	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	reagents_add = list("vitamin" = 0.04, "nutriment" = 0.1, "uranium" = 0.25)
 
 /obj/item/food/grown/onion/zona

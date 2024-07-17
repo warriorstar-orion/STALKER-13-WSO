@@ -65,35 +65,49 @@
 	desc = "Stringy, gamey meat from a mutant. It can be cooked on a campfire for more edibility."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstance" = 5, "nutriment" = 10, "blood" = 10)
-	cooked_type = /obj/item/food/meat/steak/mutant
-	slice_path = /obj/item/food/meat/rawcutlet/mutant
 	tastes = list("meat" = 1)
-	foodtype = MEAT | RAW
-	dried_type = /obj/item/food/sosjerky/mutant
-	bitesize = 3
-	list_reagents = list("nutriment" = 3, "cooking_oil" = 2) //Meat has fats that a food processor can process into cooking oil
+	bite_consumption = 3
+	foodtypes = MEAT | RAW
+	food_reagents = list("nutriment" = 3, "cooking_oil" = 2) //Meat has fats that a food processor can process into cooking oil
+
+/obj/item/food/meat/slab/mutantmeat/Initialize(mapload)
+	. = ..()
+	AddElement(/datum/element/dryable, /obj/item/food/sosjerky/mutant)
+
+/obj/item/food/meat/slab/mutantmeat/make_processable()
+	AddElement(/datum/element/processable, TOOL_KNIFE,  /obj/item/food/meat/rawcutlet/mutant, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Cut")
+
+/obj/item/food/meat/slab/mutantmeat/make_grillable()
+	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/mutant, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE) //Add medium rare later maybe?
 
 /obj/item/food/meat/slab/mutantmeat/dog_meat
 	name = "dog meat"
 	desc = "Stringy, gamey meat from a mutant dog. It can be cooked on a campfire for more edibility."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstance" = 5, "nutriment" = 10, "blood" = 10)
-	cooked_type = /obj/item/food/meat/steak/mutant/dog
-	slice_path = /obj/item/food/meat/rawcutlet/mutant/dog
 	tastes = list("meat" = 1)
-	foodtype = MEAT | RAW
-	bitesize = 3
+
+/obj/item/food/meat/slab/mutantmeat/dog_meat/make_processable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/meat/rawcutlet/mutant/dog, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Cut")
+
+/obj/item/food/meat/slab/mutantmeat/dog_meat/make_grillable()
+	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/mutant/dog, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE) //Add medium rare later maybe?
 
 /obj/item/food/meat/slab/mutantmeat/rat_meat
 	name = "rat meat"
 	desc = "This is rat meat. Whilst it doesnt look to appetizing, it can be cooked and eaten for some nutrition value."
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 5, "unknownsubstance" = 2.5, "nutriment" = 5, "blood" = 5)
-	cooked_type = /obj/item/food/meat/steak/mutant/rat
-	slice_path = /obj/item/food/meat/rawcutlet/mutant/rat
 	tastes = list("meat" = 1)
-	foodtype = MEAT | RAW
-	bitesize = 3
+	foodtypes = MEAT | RAW
+	bite_consumption = 3
+
+/obj/item/food/meat/slab/mutantmeat/rat_meat/make_processable()
+	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/meat/rawcutlet/mutant/rat, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Cut")
+
+/obj/item/food/meat/slab/mutantmeat/rat_meat/make_grillable()
+	AddComponent(/datum/component/grillable, /obj/item/food/meat/steak/mutant/rat, rand(30 SECONDS, 90 SECONDS), TRUE, TRUE) //Add medium rare later maybe?
+
 
 /obj/item/food/meat/slab/mutantmeat/flesh_meat
 	name = "Flesh meat"
@@ -101,10 +115,10 @@
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 5, "unknownsubstancetwo" = 5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/food/meat/steak/mutant/flesh
-	slice_path = /obj/item/food/meat/rawcutlet/mutant/flesh
+	slice_type = /obj/item/food/meat/rawcutlet/mutant/flesh
 	tastes = list("meat" = 1)
-	foodtype = MEAT | RAW
-	bitesize = 3
+	foodtypes = MEAT | RAW
+	bite_consumption = 3
 
 /obj/item/food/meat/slab/mutantmeat/boar_meat
 	name = "Boar meat"
@@ -112,10 +126,10 @@
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 5, "unknownsubstancetwo" = 5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/food/meat/steak/mutant/boar
-	slice_path = /obj/item/food/meat/rawcutlet/mutant/boar
+	slice_type = /obj/item/food/meat/rawcutlet/mutant/boar
 	tastes = list("meat" = 1)
-	foodtype = MEAT | RAW
-	bitesize = 3
+	foodtypes = MEAT | RAW
+	bite_consumption = 3
 
 /obj/item/food/meat/slab/mutantmeat/snork_meat
 	name = "Snork meat"
@@ -123,10 +137,10 @@
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/food/meat/steak/mutant/snork
-	slice_path = /obj/item/food/meat/rawcutlet/mutant/snork
+	slice_type = /obj/item/food/meat/rawcutlet/mutant/snork
 	tastes = list("meat" = 1)
-	foodtype = MEAT | RAW
-	bitesize = 3
+	foodtypes = MEAT | RAW
+	bite_consumption = 3
 
 /obj/item/food/meat/slab/mutantmeat/pseudo_meat
 	name = "pseudodog meat"
@@ -134,10 +148,10 @@
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstance" = 5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/food/meat/steak/mutant/pseudo
-	slice_path = /obj/item/food/meat/rawcutlet/mutant/pseudo
+	slice_type = /obj/item/food/meat/rawcutlet/mutant/pseudo
 	tastes = list("meat" = 1)
-	foodtype = MEAT | RAW
-	bitesize = 3
+	foodtypes = MEAT | RAW
+	bite_consumption = 3
 
 /obj/item/food/meat/slab/mutantmeat/bloodsucker_meat
 	name = "bloodsucker meat"
@@ -145,10 +159,10 @@
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 7.5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/food/meat/steak/mutant/bloodsucker
-	slice_path = /obj/item/food/meat/rawcutlet/mutant/bloodsucker
+	slice_type = /obj/item/food/meat/rawcutlet/mutant/bloodsucker
 	tastes = list("meat" = 1)
-	foodtype = MEAT | RAW
-	bitesize = 3
+	foodtypes = MEAT | RAW
+	bite_consumption = 3
 
 /obj/item/food/meat/slab/mutantmeat/controller_meat
 	name = "controller meat"
@@ -156,10 +170,10 @@
 	icon_state = "mutantmeat"
 	grind_results = list("carbon" = 10, "unknownsubstancefour" = 7.5, "nutriment" = 10, "blood" = 10)
 	cooked_type = /obj/item/food/meat/steak/mutant/controller
-	slice_path = /obj/item/food/meat/rawcutlet/mutant/controller
+	slice_type = /obj/item/food/meat/rawcutlet/mutant/controller
 	tastes = list("meat" = 1)
-	foodtype = MEAT | RAW
-	bitesize = 3
+	foodtypes = MEAT | RAW
+	bite_consumption = 3
 
 	/// Cooked Meat ///
 
@@ -167,7 +181,6 @@
 	name = "Cooked mutant meat"
 	desc = "Stringy, gamey meat from a mutant."
 	icon_state = "mutantmeatcooked"
-	trash = null
 
 /obj/item/food/meat/steak/mutant/dog
 	name = "Cooked dog meat"

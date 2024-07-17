@@ -8860,7 +8860,7 @@
 /area/stalker/blowout/outdoor)
 "CE" = (
 /obj/structure/barricade/stalker/box,
-/obj/item/twohanded/binoculars,
+/obj/item/binoculars,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "CF" = (
@@ -15665,7 +15665,7 @@
 /area/stalker/buildings)
 "YW" = (
 /obj/structure/barricade/stalker/box,
-/obj/item/twohanded/binoculars,
+/obj/item/binoculars,
 /turf/open/stalker/floor/wood/black,
 /area/stalker/buildings)
 "YX" = (

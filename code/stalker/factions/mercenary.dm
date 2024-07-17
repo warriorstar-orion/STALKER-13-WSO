@@ -34,7 +34,7 @@
 	suit_store = /obj/item/gun/ballistic/automatic/mp5
 	belt = pick(
 		/obj/item/knife/bayonet,
-		/obj/item/melee/classic_baton)
+		/obj/item/melee/baton)
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/stalker/m9x19mp5 = 2,
 		/obj/item/storage/firstaid/ifak = 1,
@@ -49,7 +49,7 @@
 	r_pocket = pick(
 	/obj/item/restraints/handcuffs,
 	/obj/item/camera,
-	/obj/item/reagent_containers/food/drinks/flask/russian,
+	/obj/item/reagent_containers/cup/glass/flask/russian,
 	/obj/item/dice/d6,
 	/obj/item/clipboard,
 	/obj/item/storage/fancy/cigarettes/cigpack_java,
@@ -130,7 +130,7 @@
 	r_pocket = pick(
 	/obj/item/restraints/handcuffs,
 	/obj/item/camera,
-	/obj/item/reagent_containers/food/drinks/flask/commie,
+	/obj/item/reagent_containers/cup/glass/flask/commie,
 	/obj/item/dice/d6,
 	/obj/item/clipboard,
 	/obj/item/storage/fancy/cigarettes/cigpack_java,

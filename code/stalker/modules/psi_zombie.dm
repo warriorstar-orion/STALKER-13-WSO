@@ -163,11 +163,12 @@
 	if(see_invisible < the_target.invisibility)//Target's invisible to us, forget it
 		return 0
 	if(search_objects < 2)
-		if(istype(the_target, /obj/mecha))
-			var/obj/mecha/M = the_target
-			if(M.occupant)//Just so we don't attack empty mechs
-				if(CanAttack(M.occupant))
-					return 1
+		// TODO(wso): I don't think mechas are a thing in stalker-13
+		// if(istype(the_target, /obj/mecha))
+		// 	var/obj/mecha/M = the_target
+		// 	if(M.occupant)//Just so we don't attack empty mechs
+		// 		if(CanAttack(M.occupant))
+		// 			return 1
 		if(isliving(the_target))
 			var/mob/living/L = the_target
 			var/faction_check = 0

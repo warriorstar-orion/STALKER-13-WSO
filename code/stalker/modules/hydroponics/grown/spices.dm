@@ -8,7 +8,7 @@
 	yield = 6
 	potency = 25
 	growthstages = 3
-	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
+	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	icon_grow = "garlic-grow"
 	icon_harvest = "garlic-harvest"
 	icon_dead = "garlic-dead"
@@ -34,7 +34,7 @@
 	yield = 6
 	potency = 25
 	growthstages = 3
-	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
+	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	icon_grow = "garlic-grow"
 	icon_harvest = "garlic-harvest"
 	icon_dead = "garlic-dead"
@@ -60,7 +60,7 @@
 	yield = 6
 	potency = 25
 	growthstages = 3
-	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
+	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	icon_grow = "bayleaf-grow"
 	icon_harvest = "bayleaf-harvest"
 	icon_dead = "bayleaf-dead"
