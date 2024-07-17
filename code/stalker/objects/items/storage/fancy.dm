@@ -16,6 +16,12 @@
 	icon_state = "luckystrikesg"
 	spawn_type = /obj/item/cigarette/luckystrikesg
 
+/obj/item/storage/fancy/cigarettes/cigpack_laika
+	name = "\improper Laika cigarette packet"
+	desc = "An old box of Laika brand cigarettes. The pack features the space dog Laika on the front of the pack, as well as the Sputnik 2, the Hammer and sickle which is placed on the rocket she was in."
+	icon_state = "laika"
+	spawn_type = /obj/item/clothing/mask/cigarette/laika
+
 /obj/item/storage/fancy/cigarettes/cigpack_marlboro
 	name = "\improper Marlboro packet"
 	desc = "Smoked by the robust. Come to where the flavor is. Come to Marlboro country."

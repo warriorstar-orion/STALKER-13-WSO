@@ -10,7 +10,7 @@
 	production = 1
 	yield = 4
 	growthstages = 4
-	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
+	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	icon_grow = "potato-grow"
 	icon_dead = "potato-dead"
 	reagents_add = list("vitamin" = 0.04, "nutriment" = 0.1, "uranium" = 0.25)

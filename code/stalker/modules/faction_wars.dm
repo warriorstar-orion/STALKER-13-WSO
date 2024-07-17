@@ -42,7 +42,7 @@ GLOBAL_LIST_EMPTY(cps)
 	if(connected_sidormat)
 		connected_sidormat.GetSidorPoint(src)
 
-/obj/machinery/stalker/sidorpoint/proc/update_desc()
+/obj/machinery/stalker/sidorpoint/update_desc()
 	. = ..()
 	if(controlled_by)
 

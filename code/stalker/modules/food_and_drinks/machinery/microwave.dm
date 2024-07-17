@@ -1,7 +1,7 @@
 /obj/machinery/microwave/potbelly
 	name = "wide potbelly stove"
 	desc = "A warm stove for cooking food, or keeping warm in the winter. It's really old fashioned, but works wonders when there's no electricity."
-	icon = 'stalker/icons/bochka.dmi'
+	icon = 'icons/stalker/bochka.dmi'
 	icon_state = "potbelly0"
 
 /obj/machinery/microwave/potbelly/attackby(obj/item/O, mob/user, params)

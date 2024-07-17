@@ -30,6 +30,6 @@
 /obj/item/reagent_containers/cup/glass/bottle/vodka/stalkervodka
 	name = "Zone-Produced vodka"
 	desc = "Vodka produced by the desperation of some 'ingenious' stalkers using local mushrooms and wild-grasses. It tastes and smells like filthy piss, but it'll do the job cheap!"
-	icon = 'icons/obj/drinks.dmi'
+	icon = 'icons/obj/drinks/drinks.dmi'
 	icon_state = "stalker_vodka"
 	list_reagents = list("stalkervodka" = 100)

@@ -447,7 +447,7 @@
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
 "dW" = (
-/obj/structure/flora/ausbushes/wildplant,
+/obj/structure/flora/bush/wildplant,
 /obj/structure/flora/stalker/bush,
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
@@ -1066,7 +1066,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "iW" = (
-/obj/structure/flora/ausbushes/wildplant/root/wild_redbeet,
+/obj/structure/flora/bush/wildplant/root/wild_redbeet,
 /obj/structure/flora/stalker/bush,
 /obj/rad/rad_medium,
 /turf/open/stalker/floor/agroprom/gryaz,
@@ -1174,7 +1174,7 @@
 /area/stalker/blowout/buildings)
 "jD" = (
 /obj/effect/decal/cleanable/blood/tracks,
-/obj/structure/flora/ausbushes/wildplant,
+/obj/structure/flora/bush/wildplant,
 /obj/structure/flora/stalker/bush,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -2814,7 +2814,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "uV" = (
-/obj/structure/flora/ausbushes/wildplant,
+/obj/structure/flora/bush/wildplant,
 /obj/structure/flora/stalker/bush,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -4840,7 +4840,7 @@
 /area/stalker/blowout/outdoor)
 "Lg" = (
 /obj/structure/flora/bush/ferny/style_random,
-/obj/structure/flora/ausbushes/wildplant/root,
+/obj/structure/flora/bush/wildplant/root,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Lk" = (
@@ -4924,7 +4924,7 @@
 "LZ" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/effect/decal/cleanable/blood/tracks,
-/obj/structure/flora/ausbushes/wildplant,
+/obj/structure/flora/bush/wildplant,
 /obj/structure/flora/stalker/bush,
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
@@ -6449,7 +6449,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
 "Yb" = (
-/obj/structure/flora/ausbushes/wildplant/root,
+/obj/structure/flora/bush/wildplant/root,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Yd" = (

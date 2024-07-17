@@ -6,7 +6,7 @@
 /obj/item/attachment/suppressor
 	name = "suppressor"
 	desc = "A universal suppressor.Can be attached to most pistols, submachine guns, and assault rifles. Is'nt compatible with rifles."
-	icon = 'icons/obj/guns/projectile.dmi'
+	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "suppressor"
 	types = list(/obj/item/gun/ballistic/automatic/pistol/pm,
 				/obj/item/gun/ballistic/automatic/pistol/fort12,

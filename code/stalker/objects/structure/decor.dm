@@ -1061,7 +1061,7 @@
 /obj/structure/stalker/cacheable/sovietsoda
 	name = "BODA"
 	desc = "An old soda vending machine."
-	icon = 'icons/obj/vending.dmi'
+	icon = 'icons/obj/machines/vending.dmi'
 	icon_state = "sovietsoda"
 	density = 1
 	cache_size = 3

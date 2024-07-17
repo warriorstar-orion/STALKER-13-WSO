@@ -10,7 +10,7 @@
 	production = 1
 	yield = 4
 	growthstages = 4
-	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
+	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	icon_grow = "tato-grow"
 	icon_dead = "tato-dead"
 	icon_harvest = "tato-harvest"
