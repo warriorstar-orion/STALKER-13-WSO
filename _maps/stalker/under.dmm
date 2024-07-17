@@ -4444,7 +4444,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "vr" = (
 /obj/structure/stalker/cacheable/junk_locker,
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/misc/dirt/dark,
 /area/stalker)
 "vz" = (

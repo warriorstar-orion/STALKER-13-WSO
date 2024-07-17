@@ -1296,7 +1296,7 @@
 /area/stalker/buildings)
 "kM" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "kX" = (
@@ -3364,9 +3364,7 @@
 /area/stalker/blowout/outdoor)
 "Cv" = (
 /obj/structure/table/optable,
-/obj/structure/sign/poster/official/cleanliness{
-	pixel_y = 32
-	},
+/obj/structure/sign/poster/official/cleanliness/directional/north,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/ecologist)
 "Cw" = (
@@ -4287,9 +4285,7 @@
 /obj/machinery/light/broken{
 	dir = 1
 	},
-/obj/structure/sign/poster/official/help_others{
-	pixel_y = 32
-	},
+/obj/structure/sign/poster/official/help_others/directional/north,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
 "Jl" = (

@@ -3414,7 +3414,7 @@
 /area/stalker/kordon/buildings)
 "kt" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "kv" = (
@@ -4639,7 +4639,7 @@
 /area/stalker/blowout/outdoor)
 "sx" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "sA" = (
@@ -5335,7 +5335,7 @@
 /area/stalker/buildings)
 "zi" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "zk" = (
@@ -5640,7 +5640,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
 "BN" = (
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "BQ" = (
@@ -6462,7 +6462,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/buildings)
 "IE" = (
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor)
 "IH" = (
@@ -7714,7 +7714,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Tc" = (
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "Te" = (
@@ -7801,7 +7801,7 @@
 /area/stalker/blowout/outdoor)
 "Ud" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "Uf" = (

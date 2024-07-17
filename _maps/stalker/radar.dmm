@@ -14771,7 +14771,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/buildings)
 "Wc" = (
-/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/bush/lavendergrass/style_random,
 /obj/machinery/light{
 	dir = 1;
 	tag = "icon-tube1 (EAST)"

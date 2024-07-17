@@ -4966,7 +4966,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "pp" = (
-/mob/living/simple_animal/mouse/gray,
+/mob/living/basic/mouse/gray,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "ps" = (
@@ -5388,7 +5388,7 @@
 /area/stalker)
 "su" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "sx" = (
@@ -6624,7 +6624,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "CR" = (
-/mob/living/simple_animal/mouse/gray,
+/mob/living/basic/mouse/gray,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "CT" = (
@@ -7083,7 +7083,7 @@
 /turf/open/misc/dirt,
 /area/stalker/blowout/outdoor)
 "Gm" = (
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/misc/dirt,
 /area/stalker)
 "Gn" = (
@@ -8208,7 +8208,7 @@
 /turf/open/misc/dirt,
 /area/stalker)
 "OZ" = (
-/mob/living/simple_animal/mouse/gray,
+/mob/living/basic/mouse/gray,
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
 	},
@@ -9165,7 +9165,7 @@
 /area/stalker)
 "Vl" = (
 /obj/rad/rad_low,
-/mob/living/simple_animal/mouse/gray,
+/mob/living/basic/mouse/gray,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Vm" = (
@@ -9239,7 +9239,7 @@
 /turf/open/stalker/floor/wood/grey,
 /area/stalker)
 "VN" = (
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor)
 "VP" = (
@@ -9579,7 +9579,7 @@
 /turf/closed/mineral,
 /area/stalker)
 "Yb" = (
-/mob/living/simple_animal/mouse/gray,
+/mob/living/basic/mouse/gray,
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "Yc" = (

@@ -1947,7 +1947,7 @@
 /area/stalker/blowout/buildings)
 "wz" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "wC" = (
@@ -3794,7 +3794,7 @@
 /area/stalker/buildings/kordon/banditbar)
 "Uh" = (
 /obj/structure/table/stalker/wood,
-/obj/item/stack/packageWrap,
+/obj/item/stack/package_wrap,
 /turf/open/misc/dirt/dark,
 /area/stalker/blowout/buildings)
 "Ur" = (

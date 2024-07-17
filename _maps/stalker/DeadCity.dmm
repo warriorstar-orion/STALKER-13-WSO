@@ -331,8 +331,8 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "df" = (
-/obj/structure/flora/ausbushes/genericbush,
-/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/bush/generic,
+/obj/structure/flora/bush/generic,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "dg" = (
@@ -476,8 +476,8 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "el" = (
-/obj/structure/flora/ausbushes/genericbush,
-/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/bush/generic,
+/obj/structure/flora/bush/generic,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "eo" = (
@@ -1149,7 +1149,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "jC" = (
-/obj/item/toy/beach_ball/holoball,
+/obj/item/toy/basketball,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "jE" = (
@@ -1461,7 +1461,7 @@
 	tag = "icon-tube1 (EAST)"
 	},
 /obj/structure/stalker/cacheable/komod,
-/obj/structure/sign/plaques/golden{
+/obj/structure/plaque/static_plaque/golden{
 	pixel_y = 31
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -1758,7 +1758,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "os" = (
-/obj/structure/flora/ausbushes/wildplant/root/wild_garlic,
+/obj/structure/flora/bush/wildplant/root/wild_garlic,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
 "ot" = (
@@ -2137,7 +2137,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "ra" = (
-/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/bush/generic,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "rb" = (
@@ -2186,7 +2186,7 @@
 	},
 /area/stalker/blowout/outdoor)
 "rs" = (
-/obj/structure/holohoop,
+/obj/structure/hoop,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "rA" = (
@@ -2720,7 +2720,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "vv" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/effect/spawner/structure/window/reinforced/indestructible,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "vw" = (
@@ -2766,7 +2766,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "vR" = (
-/obj/structure/fluff/broken_flooring,
+/obj/structure/broken_flooring/corner/directional/south,
 /turf/open/misc/dirt/dark,
 /area/stalker/buildings/mercenary)
 "vU" = (
@@ -2782,7 +2782,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "wd" = (
-/obj/structure/holohoop{
+/obj/structure/hoop{
 	dir = 8
 	},
 /turf/open/stalker/floor/wood/grey,
@@ -2997,7 +2997,7 @@
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/blowout/buildings)
 "xZ" = (
-/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/flora/bush/pointy/style_random,
 /obj/structure/stalker/cacheable/pen,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -3422,7 +3422,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "Be" = (
-/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/flora/bush/pointy/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Bg" = (
@@ -3637,7 +3637,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "CS" = (
-/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/bush/lavendergrass/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "CT" = (
@@ -3863,7 +3863,7 @@
 /turf/open/misc/dirt/dark,
 /area/stalker/buildings/mercenary)
 "EI" = (
-/obj/item/toy/beach_ball/holoball,
+/obj/item/toy/basketball,
 /obj/machinery/campfire,
 /turf/open/misc/dirt/dark,
 /area/stalker/buildings/mercenary)
@@ -4494,7 +4494,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "Jv" = (
-/mob/living/simple_animal/mouse/gray,
+/mob/living/basic/mouse/gray,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "Jy" = (
@@ -4601,7 +4601,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/mercenary)
 "Kv" = (
-/obj/structure/holohoop{
+/obj/structure/hoop{
 	dir = 4
 	},
 /turf/open/stalker/floor/wood/grey,
@@ -4615,7 +4615,7 @@
 /turf/closed/wall/stalker/store,
 /area/stalker/blowout/buildings)
 "KA" = (
-/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/bush/generic,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "KC" = (
@@ -4708,7 +4708,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "LK" = (
-/obj/structure/holohoop{
+/obj/structure/hoop{
 	dir = 1
 	},
 /turf/open/stalker/floor/asphalt,
@@ -4992,7 +4992,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
 "NG" = (
-/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/bush/generic,
 /obj/anomaly/tramplin,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -5011,8 +5011,8 @@
 	},
 /area/stalker/blowout/outdoor)
 "NO" = (
-/obj/structure/flora/ausbushes/pointybush,
-/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/flora/bush/pointy/style_random,
+/obj/structure/flora/bush/pointy/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "NP" = (
@@ -5403,7 +5403,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "QE" = (
-/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/flora/bush/pointy/style_random,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "QH" = (
@@ -5917,7 +5917,7 @@
 /turf/open/floor/plasteel/stairs/left/stalker,
 /area/stalker/blowout/buildings)
 "UE" = (
-/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/bush/generic,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "UI" = (
@@ -6493,7 +6493,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/outdoor)
 "Zq" = (
-/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/flora/bush/pointy/style_random,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
 "Zr" = (

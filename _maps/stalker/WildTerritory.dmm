@@ -187,7 +187,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/buildings)
 "bO" = (
-/obj/effect/spawner/random/glowstick,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/buildings)
 "bQ" = (
@@ -1197,7 +1197,7 @@
 /area/stalker/blowout/outdoor)
 "jR" = (
 /obj/rad/rad_high,
-/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/bush/generic,
 /obj/effect/spawner/random/stalker/junk,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
@@ -2522,7 +2522,7 @@
 /area/stalker/blowout/outdoor)
 "sD" = (
 /obj/rad/rad_high,
-/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/flora/bush/generic,
 /obj/anomaly/electro,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
@@ -4104,7 +4104,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "Fp" = (
-/mob/living/simple_animal/mouse/gray,
+/mob/living/basic/mouse/gray,
 /obj/rad/rad_medium,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
