@@ -39,9 +39,8 @@
 	desc = "This helmet is designed to provide two-way radiotelephone communication in objects with a high level of noise, to protect it from climatic factors and from impacts on structural elements of objects. It has poor protection for the zone's needs, but is very warm."
 	icon_state = "TSH-4M"
 	inhand_icon_state = "TSH-4M"
-	permeability_coefficient = 0.01
 	slowdown = 0.025
-	armor = list("melee" = 5, "bullet" = 5, "laser" = 0, "energy" = 15, "bomb" = 5, "bio" = 5, "rad" = 10, "fire" = 30, "acid" = 0, "psy" = 5)
+	armor = list("melee" = 5, "bullet" = 5, "laser" = 0, "energy" = 15, "bomb" = 5, "bio" = 50, "rad" = 10, "fire" = 30, "acid" = 0, "psy" = 5)
 	flags_inv = HIDEHAIR
 	resistance_flags = UNACIDABLE|FIRE_PROOF
 	durability = 30
@@ -235,10 +234,9 @@
 	desc = "A regular plastic and rubber gas mask, used for filtering air for radioactive particles and poisonous substances. Widely used by rookies and veterans of all factions due to its universal functionality. Does not provide any physical protection."
 	icon_state = "gasmasknew"
 	inhand_icon_state = "gasmasknew"
-	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
 	flags_inv = HIDEHAIR
-	armor = list("melee" = 5, "bullet" = 0, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 0, "rad" = 100, "fire" = 30, "acid" = 0, "psy" = 0)
+	armor = list("melee" = 5, "bullet" = 0, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 50, "rad" = 100, "fire" = 30, "acid" = 0, "psy" = 0)
 	resistance_flags = UNACIDABLE|FIRE_PROOF
 	durability = 400
 	//GAS MASK MODIFICATION//
@@ -249,10 +247,9 @@
 	desc = "The Soviet GP-4 is another mask in the Soviet GP series. It was made to be issued to civilians due to the rising panic about the Cold War. This model is extremely common in the Zone and is favored by many stalkers due to its relative reliability and light weight."
 	icon_state = "gp4"
 	inhand_icon_state = "gp4"
-	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
 	flags_inv = HIDEHAIR
-	armor = list("melee" = 5, "bullet" = 0, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 20, "rad" = 100, "fire" = 30, "acid" = 0, "psy" = 0)
+	armor = list("melee" = 5, "bullet" = 0, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 70, "rad" = 100, "fire" = 30, "acid" = 0, "psy" = 0)
 	resistance_flags = UNACIDABLE|FIRE_PROOF
 	durability = 400
 	//GP-4 MODIFICATIONS//
@@ -263,10 +260,9 @@
 	desc = "Similar to the GP-4, this mask incudes an ShM-62 filter. Unforunately, this filter is dosed with asbestos and the casing is known to degrade lead into the filter. If it's your only option, look for a filter using activated charcoal."
 	icon_state = "gp5"
 	inhand_icon_state = "gp5"
-	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
 	flags_inv = HIDEHAIR
-	armor = list("melee" = 5, "bullet" = 0, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 20, "rad" = 100, "fire" = 30, "acid" = 0, "psy" = 0)
+	armor = list("melee" = 5, "bullet" = 0, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 70, "rad" = 100, "fire" = 30, "acid" = 0, "psy" = 0)
 	resistance_flags = UNACIDABLE|FIRE_PROOF
 	durability = 400
 	//GP-5 MODIFICATIONS//
@@ -277,9 +273,8 @@
 	desc = "A western plastic and rubber gas mask, filters out air from radioactive particles and poisonous substances. Used by mercenaries by standard. Does not provide any physical protection whatsoever."
 	icon_state = "mercenary_gasmask"
 	inhand_icon_state = "mercenary_gasmask"
-	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
-	armor = list("melee" = 5, "bullet" = 0, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 20, "rad" = 100, "fire" = 30, "acid" = 0, "psy" = 0)
+	armor = list("melee" = 5, "bullet" = 0, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 70, "rad" = 100, "fire" = 30, "acid" = 0, "psy" = 0)
 	resistance_flags = UNACIDABLE|FIRE_PROOF
 	durability = 400
 	//МОДИФИКАЦИИ//
@@ -290,9 +285,8 @@
 	desc = "A very old and outdated respiration that still functions somehow. Can provide basic protection, but wont do wonders. Its better than nothing"
 	icon_state = "respirator"
 	inhand_icon_state = "respirator"
-	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
-	armor = list("melee" = 5, "bullet" = 0, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 20, "rad" = 100, "fire" = 30, "acid" = 0, "psy" = 0)
+	armor = list("melee" = 5, "bullet" = 0, "laser" = 30, "energy" = 30, "bomb" = 0, "bio" = 70, "rad" = 100, "fire" = 30, "acid" = 0, "psy" = 0)
 	resistance_flags = UNACIDABLE|FIRE_PROOF
 	durability = 400
 	//МОДИФИКАЦИИ//
@@ -314,12 +308,11 @@
 	desc = "A mask of lightweight but durable material that gives you a chance to survive a stray bullet to the face. It has two non-bullet holes. The mask looks intimidating, and very solid."
 	icon_state = "renegade_mask"
 	inhand_icon_state = "renegade_mask"
-	permeability_coefficient = 0.01
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
 	flags_inv = HIDEEARS
 	dynamic_hair_suffix = ""
 	slowdown = 0.1
-	armor = list("melee" = 15, "bullet" = 15, "laser" = 0, "energy" = 20, "bomb" = 15, "bio" = 20, "rad" = 0, "fire" = 0, "acid" = 0, "psy" = 1)
+	armor = list("melee" = 15, "bullet" = 15, "laser" = 0, "energy" = 20, "bomb" = 15, "bio" = 70, "rad" = 0, "fire" = 0, "acid" = 0, "psy" = 1)
 	resistance_flags = UNACIDABLE
 	durability = 300
 	modifications = list("padding_head" = 0, "material_head" = 0, "visor_head" = 0)
