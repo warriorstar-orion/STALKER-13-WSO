@@ -6420,6 +6420,7 @@
 #include "code\stalker\modules\research\stock_parts.dm"
 #include "code\stalker\modules\vending\cigarette.dm"
 #include "code\stalker\modules\vending\medical.dm"
+#include "code\stalker\modules\vending\sovietsoda.dm"
 #include "code\stalker\objects\campfire.dm"
 #include "code\stalker\objects\donat-items.dm"
 #include "code\stalker\objects\lootspawners.dm"

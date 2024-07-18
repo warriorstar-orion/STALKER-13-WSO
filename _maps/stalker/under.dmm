@@ -4712,7 +4712,7 @@
 "zN" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
-/obj/structure/window/plasma/reinforced/spawner,
+/obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /obj/structure/window/reinforced/plasma/spawner/directional/north,
 /obj/item/artifact/flash,
@@ -4784,7 +4784,7 @@
 "AP" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
-/obj/structure/window/plasma/reinforced/spawner,
+/obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /obj/structure/window/reinforced/plasma/spawner/directional/north,
 /obj/item/artifact/stone_blood,
@@ -5763,7 +5763,7 @@
 "Vv" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
-/obj/structure/window/plasma/reinforced/spawner,
+/obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /obj/structure/window/reinforced/plasma/spawner/directional/north,
 /obj/item/artifact/droplet,
@@ -5922,7 +5922,7 @@
 "Yo" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
-/obj/structure/window/plasma/reinforced/spawner,
+/obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /obj/structure/window/reinforced/plasma/spawner/directional/north,
 /obj/item/artifact/meduza,

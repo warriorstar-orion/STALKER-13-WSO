@@ -1342,7 +1342,7 @@
 /area/stalker/buildings/backwater/krug)
 "lk" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
-/obj/structure/window/plasma/reinforced/spawner,
+/obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/table/stalker,
 /obj/machinery/light/small{
 	dir = 8
@@ -1787,7 +1787,7 @@
 /area/stalker/blowout/outdoor)
 "pI" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
-/obj/structure/window/plasma/reinforced/spawner,
+/obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/machinery/chem_heater{
 	use_power = 0
 	},
@@ -5158,7 +5158,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "PY" = (
-/obj/structure/window/plasma/reinforced/spawner,
+/obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
 /obj/structure/window/reinforced/plasma/spawner/directional/north,
