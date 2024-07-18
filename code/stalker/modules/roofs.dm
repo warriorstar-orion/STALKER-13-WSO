@@ -135,63 +135,63 @@ area
 				if(hider)
 					hider.Show()
 
-	Enter(atom/movable/O, atom/oldloc)
-		if(root_area)
-			return root_area.Enter(O,oldloc)
-		return ..()
+	// Enter(atom/movable/O, atom/oldloc)
+	// 	if(root_area)
+	// 		return root_area.Enter(O,oldloc)
+	// 	return ..()
 
-	Exit(atom/movable/O, atom/newloc)
-		if(root_area)
-			return root_area.Enter(O,newloc)
-		return ..()
+	// Exit(atom/movable/O, atom/newloc)
+	// 	if(root_area)
+	// 		return root_area.Enter(O,newloc)
+	// 	return ..()
 
-	Entered(atom/movable/O, atom/oldloc)
-		if(root_area)
-			return root_area.Entered(O,oldloc)
-		//this will only be run if this area is the root area
-		if(oldloc)
-			//if the movable is moving here from elsewhere
-			//get the old turf the player was associated with
-			var/turf/t = locate(oldloc.x,oldloc.y,oldloc.z)
-			//if the turf exists
-			if(t && isSame(t.loc))
-				//if the old area's root area is this object, don't trigger Entered() behavior.
-				//return 0 even though it's not necessary. We can use this for expanded behavior later.
-				return 0
-		//provided the movable is coming from an area that's not a subdivision of this one:
-		if(istype(O,/mob))
-			var/mob/m = O
-			if(m.client)
-				HideRoof(m.client)
-		return ..()
+	// Entered(atom/movable/O, atom/oldloc)
+	// 	if(root_area)
+	// 		return root_area.Entered(O,oldloc)
+	// 	//this will only be run if this area is the root area
+	// 	if(oldloc)
+	// 		//if the movable is moving here from elsewhere
+	// 		//get the old turf the player was associated with
+	// 		var/turf/t = locate(oldloc.x,oldloc.y,oldloc.z)
+	// 		//if the turf exists
+	// 		if(t && isSame(t.loc))
+	// 			//if the old area's root area is this object, don't trigger Entered() behavior.
+	// 			//return 0 even though it's not necessary. We can use this for expanded behavior later.
+	// 			return 0
+	// 	//provided the movable is coming from an area that's not a subdivision of this one:
+	// 	if(istype(O,/mob))
+	// 		var/mob/m = O
+	// 		if(m.client)
+	// 			HideRoof(m.client)
+	// 	return ..()
 
-	Exited(atom/movable/O, atom/newloc)
-		if(root_area)
-			return root_area.Exited(O,newloc)
-		//this will only be run if this area is the root area
-		if(newloc)
-			//if the movable is leaving to another location
-			//get the new turf the player will be moving toward
-			var/turf/t = locate(newloc.x,newloc.y,newloc.z)
-			//if the turf exists
-			if(t && isSame(t.loc))
-				//if the new area's root area is this object, don't trigger Exited() behavior.
-				//return 0 even though it's not necessary. We can use this for expanded behavior later.
-				return 0
-		//provided the movable is going to an area that's not a subdivision of this one:
-		if(istype(O,/mob))
-			var/mob/m = O
-			if(m.client)
-				ShowRoof(m.client)
-		return ..()
+	// Exited(atom/movable/O, atom/newloc)
+	// 	if(root_area)
+	// 		return root_area.Exited(O,newloc)
+	// 	//this will only be run if this area is the root area
+	// 	if(newloc)
+	// 		//if the movable is leaving to another location
+	// 		//get the new turf the player will be moving toward
+	// 		var/turf/t = locate(newloc.x,newloc.y,newloc.z)
+	// 		//if the turf exists
+	// 		if(t && isSame(t.loc))
+	// 			//if the new area's root area is this object, don't trigger Exited() behavior.
+	// 			//return 0 even though it's not necessary. We can use this for expanded behavior later.
+	// 			return 0
+	// 	//provided the movable is going to an area that's not a subdivision of this one:
+	// 	if(istype(O,/mob))
+	// 		var/mob/m = O
+	// 		if(m.client)
+	// 			ShowRoof(m.client)
+	// 	return ..()
 
-world
-	New()
-		..()
-		//construct the rooves after the map loads
-		construct_rooves()
-		//set initialized to true to indicate that the map has already finished loading
-		initialized = TRUE
+// world
+// 	New()
+// 		..()
+// 		//construct the rooves after the map loads
+// 		construct_rooves()
+// 		//set initialized to true to indicate that the map has already finished loading
+// 		initialized = TRUE
 
 var
 	initialized = FALSE
