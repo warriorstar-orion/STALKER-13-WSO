@@ -7058,9 +7058,9 @@
 "wA" = (
 /obj/structure/stalker/cacheable/polka,
 /obj/item/camera,
-/obj/item/twohanded/spear,
-/obj/item/twohanded/spear,
-/obj/item/twohanded/spear,
+/obj/item/spear,
+/obj/item/spear,
+/obj/item/spear,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "wB" = (
@@ -7632,7 +7632,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "yx" = (
-/obj/item/candle,
+/obj/item/flashlight/flare/candle,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "yy" = (
@@ -7683,7 +7683,7 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 4
 	},
-/obj/item/clothing/head/kitty{
+/obj/item/clothing/head/costume/kitty{
 	pixel_y = 11
 	},
 /obj/machinery/light{
@@ -8452,7 +8452,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings)
 "Bq" = (
-/obj/item/clothing/suit/security/warden{
+/obj/item/clothing/suit/jacket/warden/blue{
 	name = "Senior Officer's uniform";
 	pixel_x = 1;
 	pixel_y = -4
@@ -8540,7 +8540,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "BE" = (
-/obj/item/candle,
+/obj/item/flashlight/flare/candle,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "BF" = (
@@ -9283,22 +9283,18 @@
 	pixel_x = 7;
 	pixel_y = -12
 	},
-/obj/item/bodypart/leg/right/devil{
-	pixel_x = -3;
-	pixel_y = -14
-	},
 /obj/item/organ/internal/eyes{
 	pixel_y = 9
 	},
-/obj/item/organ/heart{
+/obj/item/organ/internal/heart{
 	pixel_x = -1;
 	pixel_y = 2
 	},
-/obj/item/organ/liver{
+/obj/item/organ/internal/liver{
 	pixel_x = -2;
 	pixel_y = -2
 	},
-/obj/item/organ/stomach{
+/obj/item/organ/internal/stomach{
 	pixel_x = 1;
 	pixel_y = -2
 	},
@@ -11066,14 +11062,14 @@
 /area/stalker/buildings)
 "JH" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
-/obj/item/organ/heart{
+/obj/item/organ/internal/heart{
 	pixel_x = -1
 	},
-/obj/item/organ/liver{
+/obj/item/organ/internal/liver{
 	pixel_x = -5;
 	pixel_y = -5
 	},
-/obj/item/organ/stomach{
+/obj/item/organ/internal/stomach{
 	pixel_y = -3
 	},
 /turf/open/stalker/floor/road,
@@ -11380,7 +11376,7 @@
 /area/stalker/buildings)
 "KG" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/gambling,
+/obj/effect/spawner/random/entertainment/gambling,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "KH" = (
@@ -13168,7 +13164,7 @@
 	pixel_x = 6;
 	pixel_y = 12
 	},
-/obj/item/food/beans{
+/obj/item/food/canned/beans{
 	pixel_x = -5;
 	pixel_y = 7
 	},
@@ -13979,7 +13975,7 @@
 "Ty" = (
 /obj/structure/table/stalker/wood/bar,
 /obj/effect/decal/cleanable/blood/bubblegum,
-/obj/item/organ/liver{
+/obj/item/organ/internal/liver{
 	desc = "yummy.";
 	pixel_x = -5;
 	pixel_y = 9
@@ -14451,11 +14447,11 @@
 	pixel_x = -7;
 	pixel_y = -9
 	},
-/obj/item/reagent_containers/cup/beaker/waterbottle/large{
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
 	pixel_x = 6;
 	pixel_y = 7
 	},
-/obj/item/reagent_containers/cup/beaker/waterbottle/large{
+/obj/item/reagent_containers/cup/glass/waterbottle/large{
 	pixel_x = -8;
 	pixel_y = 11
 	},
@@ -15586,10 +15582,10 @@
 /area/stalker/buildings)
 "YK" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
-/obj/item/organ/liver{
+/obj/item/organ/internal/liver{
 	pixel_y = -9
 	},
-/obj/item/organ/stomach{
+/obj/item/organ/internal/stomach{
 	pixel_x = 3;
 	pixel_y = -12
 	},

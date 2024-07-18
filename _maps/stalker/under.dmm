@@ -4735,9 +4735,6 @@
 	},
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
-"Aq" = (
-/turf/closed/wall/stalker/beton,
-/area/stalker/buildings/backwater/krug)
 "Ar" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/structure/stalker/cacheable/shitok{
@@ -4891,9 +4888,6 @@
 /obj/structure/stalker/cacheable/junk_micro,
 /turf/open/misc/dirt/dark,
 /area/stalker)
-"DI" = (
-/turf/open/stalker/floor/lattice,
-/area/stalker/buildings/backwater/krug)
 "DO" = (
 /turf/closed/wall/mineral/titanium/survival/pod{
 	desc = "A slick black wall that is made of a strong metal.";
@@ -6611,7 +6605,7 @@ fg
 vN
 qR
 Ae
-Aq
+fg
 rt
 AV
 AV
@@ -8413,7 +8407,7 @@ ad
 fg
 in
 qV
-DI
+gl
 up
 FY
 OD
