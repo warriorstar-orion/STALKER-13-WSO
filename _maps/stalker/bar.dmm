@@ -752,7 +752,7 @@
 /area/stalker/buildings/bar/rentgen)
 "dl" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/three_course_meal,
+/obj/effect/spawner/random/food_or_drink/three_course_meal,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
 "dm" = (

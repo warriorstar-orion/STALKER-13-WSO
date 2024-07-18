@@ -2692,7 +2692,7 @@
 	tag = "icon-bulb1 (EAST)"
 	},
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/three_course_meal,
+/obj/effect/spawner/random/food_or_drink/three_course_meal,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
 "il" = (
@@ -6527,7 +6527,7 @@
 /area/stalker/blowout/outdoor)
 "Jf" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/three_course_meal,
+/obj/effect/spawner/random/food_or_drink/three_course_meal,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
 "Jg" = (
@@ -7819,7 +7819,7 @@
 /area/stalker/blowout/outdoor)
 "Ui" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/pizzaparty,
+/obj/effect/spawner/random/food_or_drink/pizzaparty,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/skadovsk)
 "Ul" = (

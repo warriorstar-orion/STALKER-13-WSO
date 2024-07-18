@@ -5679,7 +5679,7 @@
 /area/stalker/blowout/outdoor)
 "uO" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/three_course_meal,
+/obj/effect/spawner/random/food_or_drink/three_course_meal,
 /turf/open/misc/dirt,
 /area/stalker)
 "uP" = (

@@ -4065,7 +4065,7 @@
 /area/stalker/buildings/ecologist)
 "Hu" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/three_course_meal,
+/obj/effect/spawner/random/food_or_drink/three_course_meal,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings/backwater/krug)
 "Hv" = (
@@ -5115,7 +5115,7 @@
 /area/stalker/buildings/backwater/krug)
 "PA" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/pizzaparty,
+/obj/effect/spawner/random/food_or_drink/pizzaparty,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "PD" = (
@@ -5162,7 +5162,7 @@
 /obj/structure/window/reinforced/plasma/spawner/east,
 /obj/structure/window/reinforced/plasma/spawner/west,
 /obj/structure/window/reinforced/plasma/spawner/north,
-/obj/structure/grille/indestructable,
+/obj/structure/grille/indestructible,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist_entrance)
 "Qg" = (

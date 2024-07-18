@@ -3624,7 +3624,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "Bn" = (
-/turf/open/floor/grass/fakebasalt,
+/turf/open/floor/fakebasalt,
 /area/stalker/blowout/outdoor)
 "Bp" = (
 /obj/structure/stalker/car/uaz{
@@ -3901,7 +3901,7 @@
 /area/stalker/blowout/outdoor)
 "DC" = (
 /obj/structure/barricade/stalker/box,
-/turf/open/floor/grass/fakebasalt,
+/turf/open/floor/fakebasalt,
 /area/stalker/blowout/outdoor)
 "DF" = (
 /obj/structure/grille/stalker/beton{
@@ -4985,7 +4985,7 @@
 	tag = "icon-|"
 	},
 /obj/structure/barricade/stalker/box,
-/turf/open/floor/grass/fakebasalt,
+/turf/open/floor/fakebasalt,
 /area/stalker/blowout/outdoor)
 "Mv" = (
 /obj/effect/spawner/random/stalker/brokedevice,
@@ -6272,7 +6272,7 @@
 	icon_state = "|";
 	tag = "icon-|"
 	},
-/turf/open/floor/grass/fakebasalt,
+/turf/open/floor/fakebasalt,
 /area/stalker/blowout/outdoor)
 "WG" = (
 /obj/rad/rad_high,

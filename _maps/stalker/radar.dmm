@@ -3874,7 +3874,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "ms" = (
-/obj/structure/grille/indestructable,
+/obj/structure/grille/indestructible,
 /obj/structure/spacevine,
 /obj/structure/window/fulltile,
 /turf/open/stalker/floor/plasteel/plitka,
@@ -12642,7 +12642,7 @@
 /area/stalker/buildings)
 "Ph" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/pizzaparty,
+/obj/effect/spawner/random/food_or_drink/pizzaparty,
 /turf/open/floor/wood/cold,
 /area/stalker/buildings)
 "Pi" = (
@@ -14327,7 +14327,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings)
 "UK" = (
-/obj/structure/grille/indestructable,
+/obj/structure/grille/indestructible,
 /obj/structure/window/fulltile,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings)

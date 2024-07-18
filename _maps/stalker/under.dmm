@@ -4088,7 +4088,7 @@
 /turf/open/misc/dirt,
 /area/stalker)
 "oF" = (
-/obj/structure/grille/indestructable,
+/obj/structure/grille/indestructible,
 /turf/open/misc/dirt,
 /area/stalker)
 "oL" = (
