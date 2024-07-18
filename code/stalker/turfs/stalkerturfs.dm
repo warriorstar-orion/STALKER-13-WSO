@@ -429,8 +429,10 @@ var/global/list/GryazEdgeCache
 	clawfootstep = FOOTSTEP_WATER
 	heavyfootstep = FOOTSTEP_WATER
 	tiled_dirt = FALSE
+	var/obj/structure/water_source/water_source
 
 /turf/open/stalker/floor/water/Initialize()
+	water_source = new(src)
 	if(smooth)
 		var/matrix/M = new
 		M.Translate(-7, -7)
@@ -439,47 +441,7 @@ var/global/list/GryazEdgeCache
 	. = ..()
 
 /turf/open/stalker/floor/water/attack_hand(mob/living/user)
-	if(!user || !istype(user))
-		return
-	if(!iscarbon(user))
-		return
-	if(!Adjacent(user))
-		return
-
-	if(busy)
-		user << "<span class='notice'>Someone's already washing here.</span>"
-		return
-	var/selected_area = parse_zone(user.zone_selected)
-	var/washing_face = 0
-	if(selected_area in list("head", "mouth", "eyes"))
-		washing_face = 1
-	user.visible_message("<span class='notice'>[user] starts washing their [washing_face ? "face" : "hands"]...</span>", \
-						"<span class='notice'>You start washing your [washing_face ? "face" : "hands"]...</span>")
-	busy = 1
-
-	if(!do_after(user, 40, target = src))
-		busy = 0
-		return
-
-	busy = 0
-
-	user.visible_message("<span class='notice'>[user] washes their [washing_face ? "face" : "hands"] using [src].</span>", \
-						"<span class='notice'>You wash your [washing_face ? "face" : "hands"] using [src].</span>")
-	if(washing_face)
-		if(ishuman(user))
-			var/mob/living/carbon/human/H = user
-			H.lip_style = null //Washes off lipstick
-			H.lip_color = initial(H.lip_color)
-			H.wash_cream()
-			H.regenerate_icons()
-			H.adjust_hygiene(10)
-		user.drowsyness = max(user.drowsyness - rand(2,3), 0) //Washing your face wakes you up if you're falling asleep
-	else
-		SEND_SIGNAL(user, COMSIG_COMPONENT_CLEAN_ACT, CLEAN_STRENGTH_BLOOD)
-		if(ishuman(user))
-			var/mob/living/carbon/human/dirtyboy = user
-			dirtyboy.adjust_hygiene(10)
-
+	return water_source.attack_hand(user)
 
 /turf/open/stalker/floor/water/attackby(obj/item/O, mob/user, params)
 	if(busy)

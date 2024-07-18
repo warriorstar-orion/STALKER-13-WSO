@@ -4,6 +4,7 @@
  * Essentially spears with different stats and sprites.
  * Also fireproof for some reason.
  */
+// TODO(wso): Swap back to old, non-devil sprites
 /obj/item/pitchfork
 	icon = 'icons/obj/weapons/spear.dmi'
 	icon_state = "pitchfork0"

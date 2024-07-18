@@ -507,9 +507,9 @@
 	icon_state = "melee_2hand_loot"
 	loot = list(/obj/item/twohanded/oldaxe = 20,
 				/obj/item/fireaxe = 20,
-				/obj/item/twohanded/pitchfork = 20,
+				/obj/item/pitchfork = 20,
 				/obj/item/twohanded/bostaff = 20,
-				/obj/item/twohanded/rake = 20,
+				/obj/item/cultivator/rake = 20,
 				/obj/item/chainsaw/old = 5,
 				/obj/item/chainsaw = 5,
 				/obj/nothing = 20)

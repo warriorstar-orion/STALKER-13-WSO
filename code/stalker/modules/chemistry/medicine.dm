@@ -180,7 +180,6 @@
 	M.reagents.remove_all_type(/datum/reagent/toxin, 5*REM, 0, 1)
 	M.setCloneLoss(0, 0)
 	M.setOxyLoss(0, 0)
-	M.radiation = 0
 	M.heal_bodypart_damage(5,5)
 	M.adjustToxLoss(-5, 0, TRUE)
 	M.hallucination = 0
@@ -318,9 +317,8 @@
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
 
-/datum/reagent/medicine/ai2antirad/on_mob_life(mob/living/carbon/M)
-	if(M.radiation > 0)
-		M.radiation -= min(M.radiation, 3)
+/datum/reagent/medicine/ai2antirad/on_mob_life(mob/living/carbon/M, seconds_per_tick)
+	M.adjustToxLoss(-3 * REM * seconds_per_tick)
 	..()
 
 // ARMY MEDICAL KIT | BRUTE + BURN HEALING + BLEED (Via Coag) | 60 point heal
@@ -356,17 +354,15 @@
 	metabolization_rate = 1 * REAGENTS_METABOLISM
 	overdose_threshold = 20
 
-/datum/reagent/medicine/scisolution/on_mob_life(mob/living/carbon/M)
-	M.adjustBruteLoss(-3*REM, 0)
-	M.adjustFireLoss(-3*REM, 0)
-	M.adjustToxLoss(-2*REM, 0)
-	if(M.radiation > 0)
-		M.radiation -= min(M.radiation, 5)
+/datum/reagent/medicine/scisolution/on_mob_life(mob/living/carbon/M, seconds_per_tick)
+	M.adjustBruteLoss(-3 * REM * seconds_per_tick)
+	M.adjustFireLoss(-3 * REM * seconds_per_tick)
+	M.adjustToxLoss(-3 * REM * seconds_per_tick)
 	..()
 	. = 1
 
-/datum/reagent/medicine/scisolution/overdose_process(mob/living/M)
-	M.adjustToxLoss(3*REM, 0)
+/datum/reagent/medicine/scisolution/overdose_process(mob/living/M, seconds_per_tick)
+	M.adjustToxLoss(3 * REM * seconds_per_tick)
 	..()
 	. = 1
 
@@ -379,14 +375,13 @@
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	overdose_threshold = 20
 
-/datum/reagent/medicine/sciradsolution/on_mob_life(mob/living/carbon/M)
-	if(M.radiation > 0)
-		M.radiation -= min(M.radiation, 5)
+/datum/reagent/medicine/sciradsolution/on_mob_life(mob/living/carbon/M, seconds_per_tick)
+	M.adjustToxLoss(-5 * REM * seconds_per_tick)
 	..()
 	. = 1
 
-/datum/reagent/medicine/sciradsolution/overdose_process(mob/living/M)
-	M.adjustToxLoss(3*REM, 0)
+/datum/reagent/medicine/sciradsolution/overdose_process(mob/living/M, seconds_per_tick)
+	M.adjustToxLoss(3 * REM * seconds_per_tick)
 	..()
 	. = 1
 
@@ -403,6 +398,7 @@
 	metabolization_rate = 2 * REAGENTS_METABOLISM
 	overdose_threshold = 6
 
+// TODO(wso): Fix all of these to apply seconds_per_tick
 /datum/reagent/medicine/stim/improvisedstimulant/on_mob_life(mob/living/carbon/M)
 	M.adjustBruteLoss(-5*REM, 0)
 	M.adjustFireLoss(-5*REM, 0)

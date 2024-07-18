@@ -283,9 +283,9 @@
 /mob/living/carbon/human/proc/OpenFire(atom/A)
 	ranged_cooldown = ranged_cooldown_cap
 	if(A.Adjacent(src))
-		Zombo_Gun.afterattack(A, src, 1, null)
+		Zombo_Gun.fire_gun(A, src, 1, null)
 	else
-		Zombo_Gun.afterattack(A, src, 0, null)
+		Zombo_Gun.fire_gun(A, src, 0, null)
 	return
 
 /mob/living/carbon/human/proc/Shoot(atom/targeted_atom)
@@ -295,7 +295,7 @@
 	return
 
 /mob/living/carbon/human/proc/FindGun()
-	var/obj/item/gun/ZG = null
+	var/obj/item/gun/ballistic/ZG = null
 	for(var/obj/item/gun/ballistic/_ZG in src.contents)
 		if(!ZG || (CountAmmo(_ZG.accepted_magazine_type) > CountAmmo(ZG.accepted_magazine_type)))
 			ZG = _ZG

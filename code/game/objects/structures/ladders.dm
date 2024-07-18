@@ -1,4 +1,5 @@
 // Basic ladder. By default links to the z-level above/below.
+// TODO(wso): Test all ladders (agroprom)
 /obj/structure/ladder
 	name = "ladder"
 	desc = "A sturdy metal ladder."
