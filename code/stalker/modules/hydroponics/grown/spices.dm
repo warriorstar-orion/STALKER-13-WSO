@@ -12,7 +12,7 @@
 	icon_grow = "garlic-grow"
 	icon_harvest = "garlic-harvest"
 	icon_dead = "garlic-dead"
-	reagents_add = list("vitamin" = 0.04, "nutriment" = 0.1)
+	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.04, "nutriment" = 0.1)
 
 /obj/item/food/grown/garlic
 	seed = /obj/item/seeds/garlic
@@ -38,7 +38,7 @@
 	icon_grow = "garlic-grow"
 	icon_harvest = "garlic-harvest"
 	icon_dead = "garlic-dead"
-	reagents_add = list("uranium" = 0.25, "iodine" = 0.2, "vitamin" = 0.04, "nutriment" = 0.1)
+	reagents_add = list("uranium" = 0.25, "iodine" = 0.2, /datum/reagent/consumable/nutriment/vitamin = 0.04, "nutriment" = 0.1)
 
 /obj/item/food/grown/garlic/zona
 	seed = /obj/item/seeds/garlic/zona

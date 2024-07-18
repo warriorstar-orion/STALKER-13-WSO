@@ -10,6 +10,7 @@
 	..()
 
 /obj/machinery/microwave/potbelly/update_icon()
+	. = ..()
 	if(operating)
 		icon_state = "potbelly1"
 	else
@@ -23,6 +24,7 @@
 	density = 1
 
 /obj/machinery/microwave/barrelstove/update_icon()
+	. = ..()
 	if(operating)
 		icon_state = "barrelstove1"
 	else

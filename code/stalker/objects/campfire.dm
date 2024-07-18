@@ -16,15 +16,15 @@
 
 /obj/machinery/campfire/Initialize(mapload)
 	. = ..()
-	soundloop = new(list(src), active)
+	soundloop = new(src, active)
 
 /obj/machinery/campfire/New()
 	..()
 	//set_light(4, 1, firecolor)
 	//spawn(10)
 	//	set_light(0, 1, firecolor)
-	spawn(10)
-		SSmachines.unregister_machine(src)
+	// spawn(10)
+	// 	SSmachines.unregister_machine(src)
 
 /obj/machinery/campfire/Destroy()
 	/*for (var/client/C in campers)

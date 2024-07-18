@@ -619,7 +619,7 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 	itemloc = locate(x - 1, y, z)
 	itemloc2 = locate(x + 1, y, z)
 
-	sleep(10)
+	// sleep(10)
 
 	if(path_ending && !door_device)
 		door_device = new /obj/item/assembly/control(src)

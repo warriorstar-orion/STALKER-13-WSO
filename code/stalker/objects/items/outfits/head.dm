@@ -45,22 +45,22 @@
 	resistance_flags = UNACIDABLE|FIRE_PROOF
 	durability = 30
 
-/obj/item/clothing/head/mob_can_equip(mob/M, slot, disable_warning = 0)
-	if(!iscarbon(M))
-		return ..()
+// /obj/item/clothing/head/mob_can_equip(mob/M, slot, disable_warning = 0)
+// 	if(!iscarbon(M))
+// 		return ..()
 
-	var/mob/living/carbon/C = M
+// 	var/mob/living/carbon/C = M
 
-	if(slot != ITEM_SLOT_HEAD)
-		return ..()
+// 	if(slot != ITEM_SLOT_HEAD)
+// 		return ..()
 
-	if(!(flags_cover & HEADCOVERSMOUTH))
-		return ..()
+// 	if(!(flags_cover & HEADCOVERSMOUTH))
+// 		return ..()
 
-	if(!(C.wear_mask))
-		return ..()
+// 	if(!(C.wear_mask))
+// 		return ..()
 
-	return 0
+// 	return 0
 
 /obj/item/clothing/head/tacticalhelmet
 	name = "Tactical helmet"

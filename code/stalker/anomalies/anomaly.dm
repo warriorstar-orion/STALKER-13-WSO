@@ -107,116 +107,116 @@ GLOBAL_LIST_EMPTY(anomalies)
 	//if(istype(get_turf(O), /turf/open/stalker))
 	//	RandomMove(spawned)
 
-/obj/anomaly/Crossed(atom/A)
-	..()
-	if(lasttime + (cooldown * 10) > world.time)
-		return
+// /obj/anomaly/Crossed(atom/A)
+// 	..()
+// 	if(lasttime + (cooldown * 10) > world.time)
+// 		return
 
-	if(istype(A,/obj/projectile) || istype(A,/obj/item/artifact))
-		return
+// 	if(istype(A,/obj/projectile) || istype(A,/obj/item/artifact))
+// 		return
 
-	if(istype(A,/obj/item))
+// 	if(istype(A,/obj/item))
 
-		ApplyEffects()
+// 		ApplyEffects()
 
-		lasttime = world.time
+// 		lasttime = world.time
 
-		playsound(src.loc, src.sound, 50, 1, channel = 0)
-		var/obj/item/I = A
+// 		playsound(src.loc, src.sound, 50, 1, channel = 0)
+// 		var/obj/item/I = A
 
-		AffectItem(I)
+// 		AffectItem(I)
 
-		return
+// 		return
 
-	if(istype(A,/mob/living))
-		var/mob/living/L = A
-		src.trapped.Add(L)
-		if(src.trapped.len >= 1 && !incooldown)
-			Think()
-	return
+// 	if(istype(A,/mob/living))
+// 		var/mob/living/L = A
+// 		src.trapped.Add(L)
+// 		if(src.trapped.len >= 1 && !incooldown)
+// 			Think()
+// 	return
 
-/obj/anomaly/Uncrossed(atom/A)
-	..()
-	if(istype(A, /mob/living))
-		var/mob/living/L = A
-		src.trapped.Remove(L)
-	return
+// /obj/anomaly/Uncrossed(atom/A)
+// 	..()
+// 	if(istype(A, /mob/living))
+// 		var/mob/living/L = A
+// 		src.trapped.Remove(L)
+// 	return
 
-/obj/anomaly/proc/Think()
+// /obj/anomaly/proc/Think()
 
-	if(!src.trapped || src.trapped.len < 1)
-		incooldown = 0
-		return
+// 	if(!src.trapped || src.trapped.len < 1)
+// 		incooldown = 0
+// 		return
 
-	if(lasttime + (cooldown * 10) > world.time)
-		addtimer(CALLBACK(src, PROC_REF(Think)), (lasttime + (cooldown * 10) - world.time))
-		return
+// 	if(lasttime + (cooldown * 10) > world.time)
+// 		addtimer(CALLBACK(src, PROC_REF(Think)), (lasttime + (cooldown * 10) - world.time))
+// 		return
 
-	incooldown = 1
+// 	incooldown = 1
 
-	lasttime = world.time
+// 	lasttime = world.time
 
-	for(var/atom/A in src.trapped)
+// 	for(var/atom/A in src.trapped)
 
-		ApplyEffects()
+// 		ApplyEffects()
 
-		////////////////////
-		sleep(src.delay * 10)
-		////////////////////
+// 		////////////////////
+// 		sleep(src.delay * 10)
+// 		////////////////////
 
-		if(!istype(A, /mob/living))
-			trapped.Remove(A)
-			continue
+// 		if(!istype(A, /mob/living))
+// 			trapped.Remove(A)
+// 			continue
 
-		var/mob/living/L = A
+// 		var/mob/living/L = A
 
-		if(L.stat == 2)
-			src.trapped.Remove(L)
-			continue
+// 		if(L.stat == 2)
+// 			src.trapped.Remove(L)
+// 			continue
 
-		DealDamage(L)
+// 		DealDamage(L)
 
-		///////////////////////
-		sleep(src.cooldown * 10)
-		///////////////////////
+// 		///////////////////////
+// 		sleep(src.cooldown * 10)
+// 		///////////////////////
 
-	if(!src.trapped || src.trapped.len < 1)
-		incooldown = 0
-		return
+// 	if(!src.trapped || src.trapped.len < 1)
+// 		incooldown = 0
+// 		return
 
-	Think()
-	return
+// 	Think()
+// 	return
 
-/obj/anomaly/proc/ApplyEffects()
-	invisibility = active_invisibility
-	flick(active_icon_state, src)
-	update_icon()
-	set_light(activated_luminosity, l_color = anomaly_color)
-	playsound(src.loc, src.sound, 50, 1, channel = 0)
+// /obj/anomaly/proc/ApplyEffects()
+// 	invisibility = active_invisibility
+// 	flick(active_icon_state, src)
+// 	update_icon()
+// 	set_light(activated_luminosity, l_color = anomaly_color)
+// 	playsound(src.loc, src.sound, 50, 1, channel = 0)
 
-	spawn(10)
-		invisibility = inactive_invisibility
-		update_icon()
-		set_light(idle_luminosity, l_color = anomaly_color)
+// 	spawn(10)
+// 		invisibility = inactive_invisibility
+// 		update_icon()
+// 		set_light(idle_luminosity, l_color = anomaly_color)
 
-	return
+// 	return
 
-/obj/anomaly/proc/AffectItem(var/obj/item/I)
-	if ((I.resistance_flags & (UNACIDABLE)))
-		return
+// /obj/anomaly/proc/AffectItem(var/obj/item/I)
+// 	if ((I.resistance_flags & (UNACIDABLE)))
+// 		return
 
-	I.throw_impact(get_turf(I))
-	I.throwing = 0
+// 	I.throw_impact(get_turf(I))
+// 	I.throwing = 0
 
-	sleep(5)
+// 	sleep(5)
 
-	var/turf/T = get_turf(I)
-	var/obj/effect/decal/cleanable/molten_object/Q = new /obj/effect/decal/cleanable/molten_object(T)
-	Q.pixel_x = rand(-16,16)
-	Q.pixel_y = rand(-16,16)
-	Q.desc = "Looks like this was \an [I] some time ago."
+// 	var/turf/T = get_turf(I)
+// 	var/obj/effect/decal/cleanable/molten_object/Q = new /obj/effect/decal/cleanable/molten_object(T)
+// 	Q.pixel_x = rand(-16,16)
+// 	Q.pixel_y = rand(-16,16)
+// 	Q.desc = "Looks like this was \an [I] some time ago."
 
-	qdel(I)
+// 	qdel(I)
 
 /obj/anomaly/proc/DealDamage(var/mob/living/L)
 	if(!(L in src.trapped))
@@ -366,34 +366,35 @@ GLOBAL_LIST_EMPTY(anomalies)
 	. = ..()
 	src.set_light(idle_luminosity)
 
-/obj/anomaly/jarka/Uncrossed(atom/A)
-	. = ..()
-	if(istype(A, /mob/living))
-		var/mob/living/L = A
-		src.trapped.Remove(L)
-		lasttime = 0
-		incooldown = 0
-	return
+// /obj/anomaly/jarka/Uncrossed(atom/A)
+// 	. = ..()
+// 	if(istype(A, /mob/living))
+// 		var/mob/living/L = A
+// 		src.trapped.Remove(L)
+// 		lasttime = 0
+// 		incooldown = 0
+// 	return
 
-/obj/anomaly/jarka/AffectItem(var/obj/item/I)
-	incooldown = 0
-	lasttime = 0
+// /obj/anomaly/jarka/AffectItem(var/obj/item/I)
+// 	incooldown = 0
+// 	lasttime = 0
 
-	if((I.resistance_flags & (UNACIDABLE)))
-		return
+// 	if((I.resistance_flags & (UNACIDABLE)))
+// 		return
 
-	I.throw_impact(get_turf(I))
-	I.throwing = 0
+// 	I.throw_impact(get_turf(I))
+// 	I.throwing = 0
 
-	sleep(5)
+// 	sleep(5)
 
-	var/turf/T = get_turf(I)
-	var/obj/effect/decal/cleanable/molten_object/Q = new /obj/effect/decal/cleanable/molten_object(T)
-	Q.pixel_x = rand(-16,16)
-	Q.pixel_y = rand(-16,16)
-	Q.desc = "Looks like this was \an [I] some time ago."
+// 	var/turf/T = get_turf(I)
+// 	var/obj/effect/decal/cleanable/molten_object/Q = new /obj/effect/decal/cleanable/molten_object(T)
+// 	Q.pixel_x = rand(-16,16)
+// 	Q.pixel_y = rand(-16,16)
+// 	Q.desc = "Looks like this was \an [I] some time ago."
 
-	qdel(I)
+// 	qdel(I)
+
 /*
 /obj/anomaly/jarka/comet
 	name = "comet"
@@ -457,25 +458,25 @@ GLOBAL_LIST_EMPTY(anomalies)
 		incooldown = 0
 	return
 
-/obj/anomaly/holodec/AffectItem(var/obj/item/I)
-	incooldown = 0
-	lasttime = 0
+// /obj/anomaly/holodec/AffectItem(var/obj/item/I)
+// 	incooldown = 0
+// 	lasttime = 0
 
-	if((I.resistance_flags & (UNACIDABLE)))
-		return
+// 	if((I.resistance_flags & (UNACIDABLE)))
+// 		return
 
-	I.throw_impact(get_turf(I))
-	I.throwing = 0
+// 	I.throw_impact(get_turf(I))
+// 	I.throwing = 0
 
-	sleep(5)
+// 	sleep(5)
 
-	var/turf/T = get_turf(I)
-	var/obj/effect/decal/cleanable/molten_object/Q = new /obj/effect/decal/cleanable/molten_object(T)
-	Q.pixel_x = rand(-16,16)
-	Q.pixel_y = rand(-16,16)
-	Q.desc = "Looks like this was \an [I] some time ago."
+// 	var/turf/T = get_turf(I)
+// 	var/obj/effect/decal/cleanable/molten_object/Q = new /obj/effect/decal/cleanable/molten_object(T)
+// 	Q.pixel_x = rand(-16,16)
+// 	Q.pixel_y = rand(-16,16)
+// 	Q.desc = "Looks like this was \an [I] some time ago."
 
-	qdel(I)
+// 	qdel(I)
 
 /obj/anomaly/holodec/process()
 	if(son)
@@ -509,9 +510,9 @@ GLOBAL_LIST_EMPTY(anomalies)
 	loot = list()
 	var/stage = DEATH_STAGE
 
-/obj/anomaly/holodec/splash/ApplyEffects()
-	playsound(src.loc, src.sound, 50, 1, channel = 0)
-	return
+// /obj/anomaly/holodec/splash/ApplyEffects()
+// 	playsound(src.loc, src.sound, 50, 1, channel = 0)
+// 	return
 
 /obj/anomaly/holodec/splash/Initialize(mapload)
 	. = ..()
@@ -553,25 +554,25 @@ GLOBAL_LIST_EMPTY(anomalies)
 		incooldown = 0
 	return
 
-/obj/anomaly/puh/AffectItem(var/obj/item/I)
-	incooldown = 0
-	lasttime = 0
+// /obj/anomaly/puh/AffectItem(var/obj/item/I)
+// 	incooldown = 0
+// 	lasttime = 0
 
-	if((I.resistance_flags & (UNACIDABLE)))
-		return
+// 	if((I.resistance_flags & (UNACIDABLE)))
+// 		return
 
-	I.throw_impact(get_turf(I))
-	I.throwing = 0
+// 	I.throw_impact(get_turf(I))
+// 	I.throwing = 0
 
-	sleep(5)
+// 	sleep(5)
 
-	var/turf/T = get_turf(I)
-	var/obj/effect/decal/cleanable/molten_object/Q = new /obj/effect/decal/cleanable/molten_object(T)
-	Q.pixel_x = rand(-16,16)
-	Q.pixel_y = rand(-16,16)
-	Q.desc = "Looks like this was \an [I] some time ago."
+// 	var/turf/T = get_turf(I)
+// 	var/obj/effect/decal/cleanable/molten_object/Q = new /obj/effect/decal/cleanable/molten_object(T)
+// 	Q.pixel_x = rand(-16,16)
+// 	Q.pixel_y = rand(-16,16)
+// 	Q.desc = "Looks like this was \an [I] some time ago."
 
-	qdel(I)
+// 	qdel(I)
 
 /obj/anomaly/puh/Initialize(mapload)
 	. = ..()

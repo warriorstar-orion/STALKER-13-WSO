@@ -48,7 +48,7 @@
 		return
 	return
 
-/obj/structure/grille/stalker/attackby(obj/item/weapon/W, mob/user, params)
+/obj/structure/grille/stalker/attackby(obj/item/W, mob/user, params)
 	return
 
 /obj/structure/grille/hitby(atom/movable/AM, skipcatch, hitpush, blocked, datum/thrownthing/throwingdatum)
@@ -107,7 +107,6 @@
 	footstep = FOOTSTEP_GRASS
 	barefootstep = FOOTSTEP_GRASS
 	var/list/flora_weights = list(
-		/obj/nothing = 70,
 		/obj/structure/flora/bush/sparsegrass/style_random = 30,
 		/obj/structure/flora/bush/sparsegrass/style_random = 30,
 		/obj/structure/flora/bush/grassy/style_random = 15,
@@ -132,6 +131,9 @@
 
 /turf/open/stalker/floor/digable/grass/Initialize(mapload)
 	. = ..()
+	if(prob(50))
+		return
+
 	var/flora_type = pick_weight(flora_weights)
 	new flora_type(get_turf(src))
 
@@ -157,15 +159,15 @@
 		GryazEdgeCache[EAST] = image('icons/stalker/zemlya.dmi', "gryaz_side_e", layer = HIGH_TURF_LAYER)
 		GryazEdgeCache[WEST] = image('icons/stalker/zemlya.dmi', "gryaz_side_w", layer = HIGH_TURF_LAYER)
 
-	spawn(1)
-		var/turf/T
-		for(var/i = 0, i <= 3, i++)
-			if(!get_step(src, 2**i))
-				continue
-			if(layer > get_step(src, 2**i).layer)
-				T = get_step(src, 2**i)
-				if(T)
-					T.overlays += GryazEdgeCache[2**i]
+	// spawn(1)
+	// 	var/turf/T
+	// 	for(var/i = 0, i <= 3, i++)
+	// 		if(!get_step(src, 2**i))
+	// 			continue
+	// 		if(layer > get_step(src, 2**i).layer)
+	// 			T = get_step(src, 2**i)
+	// 			if(T)
+	// 				T.overlays += GryazEdgeCache[2**i]
 	return
 
 /turf/open/stalker/floor/sidor
@@ -202,15 +204,15 @@ var/global/list/AsphaltEdgeCache
 		AsphaltEdgeCache[EAST] = image('icons/stalker/Prishtina/asphalt.dmi', "roade", layer = HIGH_TURF_LAYER)
 		AsphaltEdgeCache[WEST] = image('icons/stalker/Prishtina/asphalt.dmi', "roadw", layer = HIGH_TURF_LAYER)
 
-	spawn(1)
-		var/turf/T
-		for(var/i = 0, i <= 3, i++)
-			if(!get_step(src, 2**i))
-				continue
-			if(layer > get_step(src, 2**i).layer)
-				T = get_step(src, 2**i)
-				if(T)
-					T.overlays += AsphaltEdgeCache[2**i]
+	// spawn(1)
+	// 	var/turf/T
+	// 	for(var/i = 0, i <= 3, i++)
+	// 		if(!get_step(src, 2**i))
+	// 			continue
+	// 		if(layer > get_step(src, 2**i).layer)
+	// 			T = get_step(src, 2**i)
+	// 			if(T)
+	// 				T.overlays += AsphaltEdgeCache[2**i]
 	return
 
 /turf/open/stalker/floor/tropa
@@ -234,15 +236,15 @@ var/global/list/TropaEdgeCache
 		TropaEdgeCache[EAST] = image('icons/stalker/tropa.dmi', "tropa_side_e", layer = HIGH_TURF_LAYER)
 		TropaEdgeCache[WEST] = image('icons/stalker/tropa.dmi', "tropa_side_w", layer = HIGH_TURF_LAYER)
 
-	spawn(1)
-		var/turf/T
-		for(var/i = 0, i <= 3, i++)
-			if(!get_step(src, 2**i))
-				continue
-			if(layer > get_step(src, 2**i).layer)
-				T = get_step(src, 2**i)
-				if(T)
-					T.overlays += TropaEdgeCache[2**i]
+	// spawn(1)
+	// 	var/turf/T
+	// 	for(var/i = 0, i <= 3, i++)
+	// 		if(!get_step(src, 2**i))
+	// 			continue
+	// 		if(layer > get_step(src, 2**i).layer)
+	// 			T = get_step(src, 2**i)
+	// 			if(T)
+	// 				T.overlays += TropaEdgeCache[2**i]
 	return
 
 /turf/open/stalker/floor/road
@@ -275,10 +277,10 @@ var/global/list/WhiteRoadCache
 		WhiteRoadCache[EAST] = image('icons/stalker/warning_stripes.dmi', "road_b8", layer = HIGH_TURF_LAYER)
 		WhiteRoadCache[WEST] = image('icons/stalker/warning_stripes.dmi', "road_b7", layer = HIGH_TURF_LAYER)
 
-	spawn(1)
-		for(var/i = 0, i <= 3, i++)
-			if(!get_step(src, 2**i) || (!istype(get_step(src, 2**i), src.type) && (src.layer > get_step(src, 2**i).layer)))
-				src.overlays += WhiteRoadCache[2**i]
+	// spawn(1)
+	// 	for(var/i = 0, i <= 3, i++)
+	// 		if(!get_step(src, 2**i) || (!istype(get_step(src, 2**i), src.type) && (src.layer > get_step(src, 2**i).layer)))
+	// 			src.overlays += WhiteRoadCache[2**i]
 
 	return
 
@@ -304,15 +306,15 @@ var/global/list/GryazEdgeCache
 		GryazEdgeCache[EAST] = image('icons/stalker/zemlya.dmi', "gryaz_side_e", layer = HIGH_TURF_LAYER)
 		GryazEdgeCache[WEST] = image('icons/stalker/zemlya.dmi', "gryaz_side_w", layer = HIGH_TURF_LAYER)
 
-	spawn(1)
-		var/turf/T
-		for(var/i = 0, i <= 3, i++)
-			if(!get_step(src, 2**i))
-				continue
-			if(layer > get_step(src, 2**i).layer)
-				T = get_step(src, 2**i)
-				if(T)
-					T.overlays += GryazEdgeCache[2**i]
+	// spawn(1)
+	// 	var/turf/T
+	// 	for(var/i = 0, i <= 3, i++)
+	// 		if(!get_step(src, 2**i))
+	// 			continue
+	// 		if(layer > get_step(src, 2**i).layer)
+	// 			T = get_step(src, 2**i)
+	// 			if(T)
+	// 				T.overlays += GryazEdgeCache[2**i]
 	return
 
 /turf/open/stalker/floor/gryaz/Initialize(mapload)

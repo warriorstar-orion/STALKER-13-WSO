@@ -30,7 +30,7 @@
 	desc = "Tasty and thick Imperial Dark-Stout made in Russia."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "pivo2"
-	list_reagents = list("ale" = 38, "omnizine" = 2)
+	list_reagents = list("ale" = 38, /datum/reagent/medicine/omnizine = 2)
 	w_class = 2
 
 // JUICE & DRINKS
@@ -48,7 +48,7 @@
 	desc = "Army-Pineapple juice. Sugary and full of carbohydrates: It's just what a Stalker needs!"
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "army_pineapple"
-	list_reagents = list("omnizine" = 3, "pine" = 37)
+	list_reagents = list(/datum/reagent/medicine/omnizine = 3, "pine" = 37)
 	w_class = 2
 
 /obj/item/reagent_containers/cup/soda_cans/purifiedwater
@@ -64,7 +64,7 @@
 	desc = "Produced from select medicinal mushrooms with a birch tannin base: This invigorating and rejuvinating beverage is well-loved by any Stalkers who can afford it!"
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "zonetea"
-	list_reagents = list("tea" = 15, "omnizine" = 10, "potass_iodide" = 10, "energetic" = 3, "psicodine" = 2)
+	list_reagents = list("tea" = 15, /datum/reagent/medicine/omnizine = 10, "potass_iodide" = 10, "energetic" = 3, "psicodine" = 2)
 	w_class = 2
 
 /obj/item/reagent_containers/cup/soda_cans/voda

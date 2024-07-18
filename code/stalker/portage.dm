@@ -60,7 +60,7 @@
 	opacity = 1
 
 /turf/closed/wall/stalker
-	canSmoothWith = list(
+	// canSmoothWith = list(
 	// /turf/closed/wall/stalker/beton,
 	// /turf/closed/wall/stalker/bricks,
 	// /turf/closed/wall/stalker/bricks_yellow,
@@ -80,8 +80,9 @@
 	///obj/structure/stalker/okno/redbrick/dva,
 	///obj/structure/stalker/okno/redbrick/double1,
 	///obj/structure/stalker/okno/redbrick/double2)
-	)
-	smoothing_flags = SMOOTH_CORNERS
+	// )
+	// smoothing_flags = SMOOTH_CORNERS
+	smoothing_flags = NONE // SMOOTH_CORNERS
 	resistance_flags = INDESTRUCTIBLE
 	flags_ricochet = RICOCHET_HARD
 
@@ -97,46 +98,46 @@
 	desc = "A huge chunk of wall"
 	icon = 'icons/stalker/walls/beton_tg.dmi'
 	icon_state = "beton"
-	canSmoothWith = list(
-	/turf/closed/wall/stalker/beton,
-	/turf/closed/wall/stalker/beton_agro
-	)
+	// canSmoothWith = list(
+	// /turf/closed/wall/stalker/beton,
+	// /turf/closed/wall/stalker/beton_agro
+	// )
 
 /turf/closed/wall/stalker/bricks
 	name = "wall"
 	desc = "A huge chunk of wall"
 	icon = 'icons/stalker/walls/bricks_tg.dmi'
 	icon_state = "bricks"
-	canSmoothWith = list(
-	/turf/closed/wall/stalker/bricks
-	)
+	// canSmoothWith = list(
+	// /turf/closed/wall/stalker/bricks
+	// )
 
 /turf/closed/wall/stalker/bricks_yellow
 	name = "wall"
 	desc = "A huge chunk of wall"
 	icon = 'icons/stalker/walls/bricks_tg_yellow.dmi'
 	icon_state = "bricks"
-	canSmoothWith = list(
-	/turf/closed/wall/stalker/bricks_yellow
-	)
+	// canSmoothWith = list(
+	// /turf/closed/wall/stalker/bricks_yellow
+	// )
 
 /turf/closed/wall/stalker/bricks_white
 	name = "wall"
 	desc = "A huge chunk of wall"
 	icon = 'icons/stalker/walls/bricks_tg_white.dmi'
 	icon_state = "bricks"
-	canSmoothWith = list(
-	/turf/closed/wall/stalker/bricks_white
-	)
+	// canSmoothWith = list(
+	// /turf/closed/wall/stalker/bricks_white
+	// )
 
 /turf/closed/wall/stalker/beton_agro
 	name = "wall"
 	desc = "A huge chunk of wall"
 	icon = 'icons/stalker/walls/beton_w_tg.dmi'
 	icon_state = "beton"
-	canSmoothWith = list(
-	/turf/closed/wall/stalker/beton_agro
-	)
+	// canSmoothWith = list(
+	// /turf/closed/wall/stalker/beton_agro
+	// )
 
 /turf/closed/wall/shuttle
 	name = "wall"
@@ -171,21 +172,21 @@
 	desc = "A concrete wall"
 	icon = 'icons/stalker/turf/walls/superstore.dmi'
 	icon_state = "supermart"
-	canSmoothWith = list(/turf/closed/wall/stalker/superstore)
+	// canSmoothWith = list(/turf/closed/wall/stalker/superstore)
 
 /turf/closed/wall/stalker/brickdark
 	name = "brick wall"
 	desc = "A dark brick wall"
 	icon = 'icons/stalker/turf/walls/brick_walldark.dmi'
 	icon_state = "brickwall"
-	canSmoothWith = list(/turf/closed/wall/stalker/brickdark)
+	// canSmoothWith = list(/turf/closed/wall/stalker/brickdark)
 
 /turf/closed/wall/stalker/brick
 	name = "brick wall"
 	desc = "A brick wall"
 	icon = 'icons/stalker/turf/walls/brick_wall.dmi'
 	icon_state = "brickwall"
-	canSmoothWith = list(/turf/closed/wall/stalker/brick)
+	// canSmoothWith = list(/turf/closed/wall/stalker/brick)
 
 /obj/structure/chair/brevno
 	name = "log"

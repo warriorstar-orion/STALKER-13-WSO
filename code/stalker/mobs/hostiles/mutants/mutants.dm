@@ -612,7 +612,7 @@
 	var/timer = 0
 	var/flick_timer = 0
 
-/mob/living/simple_animal/hostile/mutant/poltergeist/Initialize()
+/mob/living/simple_animal/hostile/mutant/poltergeist/Initialize(mapload)
 	. = ..()
 	icon_state = "electra0"
 	icon_living = icon_state

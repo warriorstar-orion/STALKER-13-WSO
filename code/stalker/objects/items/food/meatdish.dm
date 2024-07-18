@@ -3,7 +3,7 @@
 	desc = "An aquired taste for sure, the meat palatable with the crunchy cabbage."
 	icon_state = "cornedbeef"
 	trash_type = /obj/item/plate
-	food_reagents = list("nutriment" = 37, "vitamin" = 10, "omnizine" = 5)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 37, /datum/reagent/consumable/nutriment/vitamin = 10, /datum/reagent/medicine/omnizine = 5)
 	tastes = list("meat" = 1, "cabbage" = 1)
 	foodtypes = MEAT | VEGETABLES
 
@@ -12,7 +12,7 @@
 	desc = "An aquired taste for sure, the meat palatable with the crunchy cabbage."
 	icon_state = "cornedbeef"
 	trash_type = /obj/item/plate
-	food_reagents = list("nutriment" = 37, "vitamin" = 10, "omnizine" = 5)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 37, /datum/reagent/consumable/nutriment/vitamin = 10, /datum/reagent/medicine/omnizine = 5)
 	tastes = list("sausage" = 1, "cabbage" = 1)
 	foodtypes = MEAT | VEGETABLES
 
@@ -21,6 +21,6 @@
 	desc = "An aquired taste for sure, the meat palatable with the crunchy cabbage."
 	icon_state = "cornedbeef"
 	trash_type = /obj/item/plate
-	food_reagents = list("nutriment" = 37, "vitamin" = 10, "omnizine" = 5)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 37, /datum/reagent/consumable/nutriment/vitamin = 10, /datum/reagent/medicine/omnizine = 5)
 	tastes = list("sausage" = 1, "cabbage" = 1)
 	foodtypes = MEAT | VEGETABLES

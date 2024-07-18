@@ -7,11 +7,11 @@
 	if(prob(50))
 		item2_type = pick(/obj/item/stack/spacecash/c100,/obj/item/stack/spacecash/c50)
 
-	spawn(2)
-		if(item1_type)
-			new item1_type(src)
-		if(item2_type)
-			new item2_type(src)
+	// spawn(2)
+	// 	if(item1_type)
+	// 		new item1_type(src)
+	// 	if(item2_type)
+	// 		new item2_type(src)
 
 /obj/item/storage/backpack/stalker
 	name = "backpack"
