@@ -21,8 +21,8 @@
 	desc = "A quality bar counter."
 	icon = 'icons/stalker/structure/bartables.dmi'
 	icon_state = "table"
-	climbable = FALSE
-	smoothing_flags = SMOOTH_FALSE
+	// climbable = FALSE
+	smoothing_flags = 0
 
 /*
 /obj/structure/table/stalker/wood/bar100rentgen/Crossed(atom/movable/AM)

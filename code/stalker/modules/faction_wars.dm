@@ -206,9 +206,10 @@ GLOBAL_LIST_EMPTY(cps)
 	if(control_percent < 100)
 		return
 
-	for(var/datum/job/J in SSjob.occupations)
-		if(controlled_by == J.faction_s)
-			J.total_positions += 3
+	// TODO(wso): Does faction warfare even work?
+	// for(var/datum/job/J in SSjob.occupations)
+	// 	if(controlled_by == J.faction_s)
+	// 		J.total_positions += 3
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

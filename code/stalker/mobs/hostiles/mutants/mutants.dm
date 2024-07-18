@@ -887,7 +887,6 @@
 	status_flags = CANPUSH
 	dodging = TRUE
 	rapid_melee = 2
-	do_footstep = TRUE
 	ranged_cooldown = 1
 	ranged_cooldown_time = 2
 	casingtype = /obj/item/ammo_casing/c9x18/zombie

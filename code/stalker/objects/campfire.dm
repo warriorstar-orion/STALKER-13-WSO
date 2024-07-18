@@ -94,7 +94,6 @@ obj/machinery/campfire/barrel
 		if(istype(C.mob, /mob/living/carbon/human) && C.mob.buckled)
 			var/mob/living/carbon/human/H = C.mob
 			H.adjustStaminaLoss(-10)
-			H.adjustCloneLoss(-0.5)
 			H.adjustBruteLoss(-0.5)
 			H.adjustFireLoss(-0.5)
 			H.adjustToxLoss(-0.5)

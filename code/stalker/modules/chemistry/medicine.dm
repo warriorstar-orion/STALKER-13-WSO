@@ -54,8 +54,9 @@
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 
 /datum/reagent/medicine/viksolum/on_mob_life(mob/living/carbon/human/M)
-	if(!M.bleedsuppress) // This prevents stacking Vinca with bandages.
-		M.suppress_bloodloss(1)
+	// TODO(wso): Add bleed suppression as trait
+	// if(!M.bleedsuppress) // This prevents stacking Vinca with bandages.
+	// 	M.suppress_bloodloss(1)
 	..()
 	return TRUE
 
@@ -139,7 +140,8 @@
 	..()
 
 /datum/reagent/medicine/analgesic/on_mob_life(mob/living/carbon/M)
-	M.hal_screwyhud = SCREWYHUD_HEALTHY
+	// TODO(wso): Dunno if there's a modern setup for this
+	// M.hal_screwyhud = SCREWYHUD_HEALTHY
 	if(prob(20) && iscarbon(M))
 		var/obj/item/I = M.get_active_held_item()
 		if(I && M.dropItemToGround(I))
@@ -153,7 +155,9 @@
 		if(11)
 			to_chat(M, "<span class='warning'>You start to feel dizzy...</span>" )
 		if(12 to 24)
-			M.drowsyness += 1
+			// TODO(wso): How do I time this
+			M.apply_status_effect(/datum/status_effect/drowsiness)
+			// M.drowsyness += 1
 		if(24 to INFINITY)
 			M.Sleeping(40, 0)
 			. = 1
@@ -177,30 +181,29 @@
 
 /datum/reagent/medicine/axyltallisal/on_mob_add(mob/living/carbon/M)
 	..()
-	M.reagents.remove_all_type(/datum/reagent/toxin, 5*REM, 0, 1)
-	M.setCloneLoss(0, 0)
+	M.reagents.remove_reagent(/datum/reagent/toxin, 5*REM, 0, 1)
 	M.setOxyLoss(0, 0)
 	M.heal_bodypart_damage(5,5)
 	M.adjustToxLoss(-5, 0, TRUE)
-	M.hallucination = 0
+	M.remove_status_effect(/datum/status_effect/hallucination)
 	M.setOrganLoss(ORGAN_SLOT_BRAIN, 0)
-	M.remove_all_traits()
-	M.set_blurriness(0)
-	M.set_blindness(0)
+	REMOVE_TRAITS_NOT_IN(M, list(SPECIES_TRAIT, ROUNDSTART_TRAIT, ORGAN_TRAIT))
+	M.adjust_eye_blur(20)
+	M.remove_status_effect(/datum/status_effect/grouped/blindness)
 	M.SetKnockdown(0, FALSE)
 	M.SetStun(0, FALSE)
 	M.SetUnconscious(0, FALSE)
 	M.SetParalyzed(0, FALSE)
 	M.SetImmobilized(0, FALSE)
-	M.silent = FALSE
-	M.dizziness = 0
+	M.remove_status_effect(/datum/status_effect/silenced)
+	M.remove_status_effect(/datum/status_effect/dizziness)
 	M.disgust = 0
-	M.drowsyness = 0
-	M.stuttering = 0
-	M.slurring = 0
-	M.confused = 0
+	M.remove_status_effect(/datum/status_effect/drowsiness)
+	M.remove_status_effect(/datum/status_effect/speech/stutter)
+	M.remove_status_effect(/datum/status_effect/speech/slurring)
+	M.remove_status_effect(/datum/status_effect/confusion)
 	M.SetSleeping(0, 0)
-	M.jitteriness = 0
+	M.remove_status_effect(/datum/status_effect/jitter)
 	M.cure_all_traumas(TRAUMA_RESILIENCE_MAGIC)
 	for(var/thing in M.diseases)
 		var/datum/disease/D = thing
@@ -214,7 +217,8 @@
 
 /datum/reagent/medicine/axyltallisal/overdose_process(mob/living/M)
 	M.adjust_fire_stacks(2)
-	M.IgniteMob()
+	// TODO(wso): Fix ignition
+	// M.IgniteMob()
 	..()
 
 // Medical Rework
@@ -233,7 +237,7 @@
 
 /datum/reagent/medicine/mine_salve/on_mob_life(mob/living/carbon/C)
 	C.ignore_slowdown(id)
-	C.hal_screwyhud = SCREWYHUD_HEALTHY
+	// C.hal_screwyhud = SCREWYHUD_HEALTHY
 //	C.adjustBruteLoss(-0.25*REM, 0)
 //	C.adjustFireLoss(-0.25*REM, 0)
 	..()
@@ -258,9 +262,10 @@
 
 /datum/reagent/medicine/combatstimulant/on_mob_delete(mob/living/M)
 	M.unignore_slowdown(id)
-	if(iscarbon(M))
-		var/mob/living/carbon/N = M
-		N.hal_screwyhud = SCREWYHUD_NONE
+	// TODO(wso): Dunno if there's a modern setup for this
+	// if(iscarbon(M))
+	// 	var/mob/living/carbon/N = M
+	// 	N.hal_screwyhud = SCREWYHUD_NONE
 	..()
 
 // MEDICAL KIT MEDICATIONS | Cheap, effective and heals over time. Cures and prevents damage!

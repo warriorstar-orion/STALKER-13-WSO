@@ -9,7 +9,7 @@
 
 /sidoritem/ak74
     name = "Akm74/2"
-    itemtype = /obj/item/gun/automatic/ak74
+    itemtype = /obj/item/gun/ballistic/automatic/ak74
     cost = 14000
     words = list("Kalash" = 5, "Kalash" = 5, "ak74" = 5, "ak74" = 5, "automatic" = 5, "Automatic" = 5, "Kalashnikov" = 5, "Kalashnikov" = 5, "Kalashnikov" = 5, "Kalashnikov" = 10)
 
@@ -306,7 +306,7 @@
 
 /sidoritem/vodka
 	name = "Kazaki"
-	itemtype = /obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki
+	itemtype = /obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki
 	cost = 300
 	words = list("Bottle" = 5, "bottle" = 5, "Vodka" = 5, "vodka" = 5, "Waterÿry" = 5, "waterÿry" = 5, "Cossacks" = 5, "Cossacks" = 5, "Vodka" = 5, "vodka" = 10)
 
@@ -528,7 +528,7 @@
 
 /sidoritem/radio
 	name = "radio"
-	itemtype = /obj/item/device/radio
+	itemtype = /obj/item/radio
 	cost = 600
 	words = list("Radio" = 5, "radio" = 10)
 

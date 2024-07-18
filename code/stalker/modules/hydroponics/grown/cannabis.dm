@@ -45,5 +45,5 @@
 	name = "neon peon nug"
 	desc = "The nug emits a thin, wispy, green vapor that smells of sulfur married to a sickly sweet odor."
 	icon_state = "neonpeoncannabisnug"
-	volume = 420
+	// volume = 420
 	wine_power = 90

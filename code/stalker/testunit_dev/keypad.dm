@@ -1,3 +1,5 @@
+GLOBAL_LIST_EMPTY(all_faction_keypads)
+
 /obj/machinery/button/door/keypad
 	name = "door keypad"
 	desc = "A door remote control keypad."
@@ -12,7 +14,7 @@
 
 /obj/machinery/button/door/keypad/New(loc, ndir = 0, built = 0)
 	correctcode = "[rand(11111,99999)]"
-	all_faction_keypads += src
+	GLOB.all_faction_keypads += src
 	..()
 
 /obj/machinery/button/door/keypad/faction
@@ -62,7 +64,8 @@
 //	user << browse(keypadhtml, "window=keypadhtml;size=118x200;border=1;can_resize=1;can_close=1;can_minimize=1;titlebar=1")
 	var/datum/browser/keypad = new(U, "keypadhtml", "Keypad v0.34", 180, 305)
 	keypad.set_content(keypadhtml)
-	keypad.set_title_image(U.browse_rsc_icon(src.icon, src.icon_state))
+	// TODO(wso): Fuck all these old UIs
+	// keypad.set_title_image(U.browse_rsc_icon(src.icon, src.icon_state))
 	keypad.open()
 	return
 
@@ -71,7 +74,7 @@
 	//	setup_device()
 	src.add_fingerprint(user)
 
-	if((stat & (NOPOWER|BROKEN)))
+	if((machine_stat & (NOPOWER|BROKEN)))
 		return
 
 	//if(device && device.cooldown)

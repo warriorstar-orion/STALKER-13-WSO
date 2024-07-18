@@ -8,7 +8,7 @@
 	inhand_icon_state = "bm16"
 	w_class = 4
 	force = 15
-	flags_1 = CONDUCT_1
+	obj_flags = CONDUCTS_ELECTRICITY
 	slot_flags = ITEM_SLOT_BACK
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/shot/stalker/bm16
 	recoil = 1

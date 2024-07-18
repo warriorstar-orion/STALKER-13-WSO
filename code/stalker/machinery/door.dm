@@ -16,12 +16,14 @@
 	icon = 'icons/stalker/door_sidor.dmi'
 	icon_state = "closed"
 	id = null
-	auto_close = 50
+	// TODO(wso): Move to automatic airlock type things
+	// auto_close = 50
 
 /obj/machinery/door/poddoor/sidor/skadovsk
 	icon = 'icons/stalker/door_sidor2.dmi'
 	icon_state = "closed"
-	auto_close = 50
+	// TODO(wso): Move to automatic airlock type things
+	// auto_close = 50
 
 /obj/machinery/door/poddoor/sidor/skadovsk/special
 	icon = 'icons/stalker/door_sidor2.dmi'

@@ -20,7 +20,7 @@
 
 /obj/item/storage/belt/military/chestrig
 	icon_state = "chestrig"
-	item_state = "chestrig"
+	inhand_icon_state = "chestrig"
 	desc = "A hefty chestrig with a numerous amount of pouch slots. Ideal for carrying important equipment."
 
 /obj/item/storage/belt/military/chestrig/Initialize(mapload)

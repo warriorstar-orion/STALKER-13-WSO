@@ -67,7 +67,7 @@
 	desc = "French SPECTRA tactical helmet that lacks camouflage. It is not known how it made its way into the Zone. The helmet is designed to provide a squad leader with strategic superiority over the enemy via its many scanners and satellite communications devices, which have not been installed in this particular helmet. Comes with multi-layered Kevlar protection and armored elements to protect electronic components. Includes a respirator and a nightvision device."
 	icon_state = "hardhat0_tactical"
 	inhand_icon_state = "hardhat0_tactical"
-	item_color = "tactical"
+	// item_color = "tactical"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR
 	slowdown = 0.15
 	armor = list("melee" = 50, "bullet" = 60, "laser" = 0, "energy" = 30, "bomb" = 0, "bio" = 30, "rad" = 40, "fire" = 20, "acid" = 0, "psy" = 12)
@@ -85,11 +85,11 @@
 	desc = "A British MK VI model of a tactical helmet that lacks camouflage. It is not known how it made its way into the Zone. Comes with multi-layered Kevlar protection and armored elements to protect electronic components."
 	icon_state = "hardhat0_lighttactical"
 	inhand_icon_state = "hardhat0_lighttactical"
-	item_color = "lighttactical"
+	// item_color = "lighttactical"
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR
 	slowdown = 0.1
 	armor = list("melee" = 35, "bullet" = 45, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "psy" = 5)
-	brightness_on = 3 //luminosity when on
+	// brightness_on = 3 //luminosity when on
 	flags_cover = HEADCOVERSEYES
 	resistance_flags = UNACIDABLE
 	durability = 200
@@ -104,11 +104,11 @@
 	desc = "A British MK VI model of a tactical helmet modified by the Freedom faction. It is not known how it made its way into the Zone. Comes with multi-layered Kevlar protection and armored elements to protect electronic components."
 	icon_state = "hardhat0_gof"
 	inhand_icon_state = "hardhat0_gof"
-	item_color = "gof"
+	// item_color = "gof"
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR
 	slowdown = 0.1
 	armor = list("melee" = 35, "bullet" = 45, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "psy" = 10)
-	brightness_on = 3 //luminosity when on
+	// brightness_on = 3 //luminosity when on
 	flags_cover = HEADCOVERSEYES
 	resistance_flags = UNACIDABLE
 	durability = 200
@@ -142,7 +142,7 @@
 	name = "Сap"
 	desc = "Who knows how the British made it to Chernobyl?"
 	icon_state = "jacknoirsoft"
-	item_color = "jacknoir"
+	// item_color = "jacknoir"
 	inhand_icon_state = "greysoft"
 
 /obj/item/clothing/head/spheram

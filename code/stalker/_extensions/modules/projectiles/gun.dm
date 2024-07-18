@@ -44,9 +44,10 @@
 	gun.zoom(L, FALSE)
 	..()
 
-/obj/item/gun/shiftv(mob/user)
-	if(zoomable)
-		zoom(user)
+// TODO(wso): fix or kill "Shift+V" macro
+// /obj/item/gun/shiftv(mob/user)
+// 	if(zoomable)
+// 		zoom(user)
 
 /obj/item/gun/proc/zoom(mob/living/user, forced_zoom)
 	if(!user || !user.client)

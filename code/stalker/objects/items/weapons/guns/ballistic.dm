@@ -116,7 +116,7 @@
 
 /obj/item/gun/ballistic/automatic/pistol/fort12/unique  // Фора12 - расширенный магазин
 	desc = "Experimental prototype of the Fort pistol. A single copy."
-	unique = 1
+	// unique = 1
 	accepted_magazine_type = /obj/item/ammo_box/magazine/stalker/m9x18fort_u
 
 /obj/item/gun/ballistic/automatic/pistol/pb1s  //ПБ1С
@@ -472,8 +472,9 @@
 	if(zoomable && scope_overlay)
 		overlays += scope_overlay
 
-	if(unique)
-		overlays += image('icons/stalker/projectile_overlays32x32.dmi', "unique", layer = FLOAT_LAYER)
+	// TODO(wso): Fix upgraded icon
+	// if(unique)
+	// 	overlays += image('icons/stalker/projectile_overlays32x32.dmi', "unique", layer = FLOAT_LAYER)
 
 	if(istype(src, /obj/item/gun/ballistic/automatic/pistol))
 		icon_state = "[initial(icon_state)][chambered ? "" : "-e"]"
@@ -908,7 +909,7 @@
 	recoil = 0.3
 	damagelose = 0.5
 	can_scope = 1
-	unique = 1
+	// unique = 1
 	weapon_weight = WEAPON_MEDIUM
 	draw_sound = 'sound/stalker/weapons/draw/ak74u_draw.ogg'
 

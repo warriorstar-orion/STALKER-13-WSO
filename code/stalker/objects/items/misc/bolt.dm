@@ -26,7 +26,7 @@
 
 /obj/item/stalker/bolts/MouseDrop(atom/over_object)
 	var/mob/M = usr
-	if(M.restrained() || M.stat || !Adjacent(M))
+	if(HAS_TRAIT(M, TRAIT_RESTRAINED) || M.stat || !Adjacent(M))
 		return
 
 	if(over_object == M)

@@ -41,8 +41,9 @@ SUBSYSTEM_DEF(nightcycle)
 		for(var/turf/open/stalker/floor/F in B)
 
 			//enable the day night effects on this turf
-			F.turf_light_range = 3
-			F.turf_light_range = 0.75
+			// TODO(wso): Figure out what modern lighting should be doing here
+			// F.turf_light_range = 3
+			// F.turf_light_range = 0.75
 
 			//make sure this zlevel is included
 			var/cur_z = "[F.z]"
@@ -100,30 +101,32 @@ SUBSYSTEM_DEF(nightcycle)
 	/*for(var/curz = 1, curz <= world.maxz, curz++)
 		update_line(curz)*/
 
+// TODO(wso): Figure out what modern lighting should be doing here
 /datum/controller/subsystem/nightcycle/proc/update_line(var/z_level)
-	var/list/currentTurfs = list()
-	var/x = min(currentColumn + doColumns, world.maxx)
-//	for (var/z in SSmapping.levels_by_trait(ZTRAIT_STATION))
-	//HACK. Z level 2 is always surface and nobody sets their fucking traits correctly.
-	//This should be done with a ztrait for surface/subsurface
-	var/start_turf = locate(x,world.maxy,z_level)
-	var/end_turf = locate(x,1,z_level)
+	return
+// 	var/list/currentTurfs = list()
+// 	var/x = min(currentColumn + doColumns, world.maxx)
+// //	for (var/z in SSmapping.levels_by_trait(ZTRAIT_STATION))
+// 	//HACK. Z level 2 is always surface and nobody sets their fucking traits correctly.
+// 	//This should be done with a ztrait for surface/subsurface
+// 	var/start_turf = locate(x,world.maxy,z_level)
+// 	var/end_turf = locate(x,1,z_level)
 
-//	currentTurfs = block(locate(currentColumn,1,z), locate(x,world.maxy,z)) //this is probably brutal on the overhead
-	currentTurfs = getline(start_turf,end_turf)
-	for (var/turf/T in currentTurfs)
-		if(T.turf_light_range && !QDELETED(T)) //Turfs are qdeleted on changeturf
-			T.set_light(T.turf_light_range, sunPower, sunColour)
+// //	currentTurfs = block(locate(currentColumn,1,z), locate(x,world.maxy,z)) //this is probably brutal on the overhead
+// 	// currentTurfs = get_line(start_turf,end_turf)
+// 	// for (var/turf/T in currentTurfs)
+// 	// 	if(T.turf_light_range && !QDELETED(T)) //Turfs are qdeleted on changeturf
+// 	// 		T.set_light(T.turf_light_range, sunPower, sunColour)
 
-	currentColumn = x + 1
-	if (currentColumn > world.maxx)
-		currentColumn = 1
-		currentZLevel = z_level + 1
+// 	currentColumn = x + 1
+// 	if (currentColumn > world.maxx)
+// 		currentColumn = 1
+// 		currentZLevel = z_level + 1
 
-	if (currentZLevel > world.maxz)
-		currentZLevel = 1
-		working = 0
-		return
+// 	if (currentZLevel > world.maxz)
+// 		currentZLevel = 1
+// 		working = 0
+// 		return
 
 /datum/controller/subsystem/nightcycle/proc/set_time_of_day(time_name)
 	var/new_time = 0

@@ -5449,7 +5449,7 @@
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "td" = (
-/mob/living/simple_animal/chicken,
+/mob/living/basic/chicken,
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "tk" = (
@@ -6218,7 +6218,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "zE" = (
-/mob/living/simple_animal/chicken,
+/mob/living/basic/chicken,
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor)
 "zI" = (
@@ -6981,7 +6981,7 @@
 	icon_state = "1,2"
 	},
 /obj/item/trash/metalparts/metaljunk,
-/mob/living/simple_animal/chicken,
+/mob/living/basic/chicken,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "FN" = (
@@ -7163,7 +7163,7 @@
 /area/stalker/blowout/outdoor)
 "Hd" = (
 /obj/rad/rad_low,
-/mob/living/simple_animal/chicken,
+/mob/living/basic/chicken,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "Hh" = (
@@ -9376,7 +9376,7 @@
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "WG" = (
-/mob/living/simple_animal/chicken,
+/mob/living/basic/chicken,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor)
 "WJ" = (

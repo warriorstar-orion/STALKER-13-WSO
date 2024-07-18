@@ -1,4 +1,4 @@
-/obj/item/reagent_containers/food/drinks/soda_cans/energetic
+/obj/item/reagent_containers/cup/soda_cans/energetic
 	name = "energy drink"
 	desc = "Excellent energy drink Non-Stop. Contains caffeine, taurine, and a powerful vitamin complex that relieves fatigue and adds strength. Feel like you need a boost? Then this is exactly what you need."
 	icon = 'icons/stalker/food.dmi'

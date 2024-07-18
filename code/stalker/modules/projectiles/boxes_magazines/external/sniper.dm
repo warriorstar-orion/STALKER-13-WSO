@@ -10,10 +10,10 @@
 	name = ".338 bullet casing"
 	desc = "A .338 bullet casing."
 	caliber = ".338"
-	projectile_type = /obj/item/projectile/bullet/p338
+	projectile_type = /obj/projectile/bullet/p338
 	icon_state = ".50"
 
-/obj/item/projectile/bullet/p338
+/obj/projectile/bullet/p338
 	name =".338 bullet"
 	speed = 1.2//fuck you carl lapua was shit when you made it slow
 	icon_state = "gaussstrong"

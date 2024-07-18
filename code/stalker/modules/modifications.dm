@@ -90,7 +90,7 @@ var/id_ = 0
 */
 /datum/data/modification/proc/AffectEquipment(var/obj/item/I)
 	I.modifications[id]++
-	I.unique = 1
+	// I.unique = 1
 	I.update_icon()
 	return 1
 

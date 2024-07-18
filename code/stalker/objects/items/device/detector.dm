@@ -209,7 +209,7 @@
 	return QDEL_HINT_PUTINPOOL
 */
 /obj/effect/fakeart/attack_hand(mob/living/carbon/user)
-	if(user.stat || user.restrained() || !Adjacent(user) || user.IsParalyzed() || user.IsKnockdown() || user.IsStun())
+	if(user.stat || HAS_TRAIT(user, TRAIT_RESTRAINED) || !Adjacent(user) || user.IsParalyzed() || user.IsKnockdown() || user.IsStun())
 		return
 
 	if(user.get_active_held_item() != null) // Let me know if this has any problems -Yota

@@ -28,7 +28,7 @@
 /area/stalker/buildings/clearsky)
 "ak" = (
 /turf/closed/indestructible/riveted,
-/area/start)
+/area/misc/start)
 "ao" = (
 /obj/structure/stalker/cacheable/polka,
 /obj/effect/decal/cleanable/cobweb,
@@ -621,7 +621,7 @@
 "cA" = (
 /obj/effect/landmark/start/new_player,
 /turf/open/floor/plating,
-/area/start)
+/area/misc/start)
 "cB" = (
 /obj/structure/grille,
 /turf/open/stalker/floor/agroprom/beton,
@@ -949,7 +949,7 @@
 /area/stalker/buildings/backwater/ranger)
 "dE" = (
 /turf/closed/indestructible/splashscreen,
-/area/start)
+/area/misc/start)
 "dF" = (
 /obj/structure/stalker/matras,
 /turf/open/stalker/floor/wood/oldvert,

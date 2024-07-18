@@ -503,7 +503,8 @@ var/global/list/GryazEdgeCache
 				H.shoes.clean_blood()*/
 			if(H.fire_stacks)
 				H.fire_stacks = 0
-				H.ExtinguishMob()
+				// TODO(wso): How to extinguish mob
+				// H.ExtinguishMob()
 
 /turf/open/stalker/floor/water/Exited(atom/movable/A)
 	..()

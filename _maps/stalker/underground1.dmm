@@ -142,9 +142,9 @@
 /area/stalker/rostok/bar)
 "aC" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/gun/automatic/ak74,
-/obj/item/gun/automatic/ak74,
-/obj/item/gun/automatic/ak74,
+/obj/item/gun/ballistic/automatic/ak74,
+/obj/item/gun/ballistic/automatic/ak74,
+/obj/item/gun/ballistic/automatic/ak74,
 /turf/stalker/floor/plasteel/plitka,
 /area/stalker/rostok/bar)
 "aD" = (
@@ -323,15 +323,15 @@
 /area/stalker/sidor)
 "bc" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,
 /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,
 /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,
@@ -358,7 +358,7 @@
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/sidor)
 "bg" = (
-/obj/item/device/radio,
+/obj/item/radio,
 /obj/structure/table/reinforced,
 /obj/machinery/light{
 	tag = "icon-tube1 (WEST)";
@@ -410,15 +410,15 @@
 /area/stalker/rostok/bar)
 "bl" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,
 /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,
 /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,
@@ -428,24 +428,24 @@
 /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,
 /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,
 /obj/item/weapon/reagent_containers/food/snacks/stalker/kolbasa,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/cognac,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/kahlua,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/limejuice,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/orangejuice,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/patron,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/rum,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/rum,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/tequila,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/tequila,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/tomatojuice,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/orangejuice,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/limejuice,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vermouth,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/badminka,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/whiskey,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/whiskey,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/whiskey,
-/obj/item/weapon/reagent_containers/food/drinks/bottle/wine,
+/obj/item/reagent_containers/cup/glass/bottle/cognac,
+/obj/item/reagent_containers/cup/glass/bottle/kahlua,
+/obj/item/reagent_containers/cup/glass/bottle/limejuice,
+/obj/item/reagent_containers/cup/glass/bottle/orangejuice,
+/obj/item/reagent_containers/cup/glass/bottle/patron,
+/obj/item/reagent_containers/cup/glass/bottle/rum,
+/obj/item/reagent_containers/cup/glass/bottle/rum,
+/obj/item/reagent_containers/cup/glass/bottle/tequila,
+/obj/item/reagent_containers/cup/glass/bottle/tequila,
+/obj/item/reagent_containers/cup/glass/bottle/tomatojuice,
+/obj/item/reagent_containers/cup/glass/bottle/orangejuice,
+/obj/item/reagent_containers/cup/glass/bottle/limejuice,
+/obj/item/reagent_containers/cup/glass/bottle/vermouth,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
+/obj/item/reagent_containers/cup/glass/bottle/whiskey,
+/obj/item/reagent_containers/cup/glass/bottle/whiskey,
+/obj/item/reagent_containers/cup/glass/bottle/whiskey,
+/obj/item/reagent_containers/cup/glass/bottle/wine,
 /turf/stalker/floor/plasteel/plitka,
 /area/stalker/rostok/bar)
 "bm" = (
@@ -926,7 +926,7 @@
 /area/stalker/sidor)
 "cc" = (
 /obj/structure/table,
-/obj/item/gun/automatic/ak74,
+/obj/item/gun/ballistic/automatic/ak74,
 /obj/structure/table/stalker/steeltable,
 /obj/machinery/light{
 	tag = "icon-tube1 (EAST)";
@@ -1828,7 +1828,7 @@
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "ef" = (
-/obj/item/weapon/phone{
+/obj/item/phone{
 	pixel_y = 8
 	},
 /obj/structure/table/stalker/wood,
@@ -2970,7 +2970,7 @@
 	pixel_x = 4;
 	pixel_y = 6
 	},
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka/kazaki,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki,
 /turf/stalker/floor/gryaz,
 /area/stalker/buildings)
 "gU" = (
@@ -3192,8 +3192,8 @@
 /area/stalker/agroprom/caves)
 "hB" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /obj/machinery/light/small,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
@@ -3312,7 +3312,7 @@
 /area/stalker/agroprom/caves)
 "hW" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/paper_bin,
+/obj/item/paper_bin,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "hX" = (
@@ -3370,7 +3370,7 @@
 /area/stalker/buildings)
 "ic" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/pen,
+/obj/item/pen,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "id" = (
@@ -3609,8 +3609,8 @@
 /area/stalker/agroprom/caves)
 "iJ" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "iK" = (
@@ -3781,7 +3781,7 @@
 /area/stalker/blowout/outdoor)
 "jr" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/pen,
+/obj/item/pen,
 /obj/machinery/light/small{
 	tag = "icon-bulb1 (WEST)";
 	icon_state = "bulb1";
@@ -3902,8 +3902,8 @@
 /area/stalker/agroprom/caves)
 "jK" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /obj/machinery/light/small{
 	tag = "icon-bulb1 (EAST)";
 	icon_state = "bulb1";
@@ -3980,7 +3980,7 @@
 /area/stalker/agroprom/caves)
 "jX" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/pen,
+/obj/item/pen,
 /obj/anomaly/puh,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
@@ -4027,8 +4027,8 @@
 /area/stalker/agroprom/caves)
 "kf" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /obj/machinery/light/small{
 	tag = "icon-bulb1 (WEST)";
 	icon_state = "bulb1";
@@ -4163,8 +4163,8 @@
 /area/stalker/blowout/agroprom/buildings)
 "kq" = (
 /obj/structure/table/stalker/wood,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/stalker/floor/plasteel/plita,
 /area/stalker/buildings)
 "kr" = (
@@ -4308,7 +4308,7 @@
 /area/stalker/agroprom/caves)
 "kI" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/pen,
+/obj/item/pen,
 /obj/effect/decal/cleanable/cobweb2,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
@@ -4321,7 +4321,7 @@
 /area/stalker/agroprom/caves)
 "kK" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/paper_bin,
+/obj/item/paper_bin,
 /obj/machinery/light/small{
 	tag = "icon-bulb1 (EAST)";
 	icon_state = "bulb1";
@@ -4353,7 +4353,7 @@
 /area/stalker/agroprom/caves)
 "kP" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/pen,
+/obj/item/pen,
 /obj/machinery/light/small,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
@@ -5232,7 +5232,7 @@
 /area/stalker/buildings)
 "mR" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/device/radio,
+/obj/item/radio,
 /obj/item/weapon/restraints/handcuffs,
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/cordon/buildings)
@@ -5327,7 +5327,7 @@
 /area/stalker/cordon/tunnel)
 "nk" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/device/radio,
+/obj/item/radio,
 /obj/machinery/light/small,
 /obj/item/weapon/restraints/handcuffs,
 /turf/stalker/floor/wood/oldgor,

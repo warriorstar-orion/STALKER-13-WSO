@@ -70,7 +70,7 @@
 	filling_color = "#FFA500"
 	bite_consumption_mod = 2
 	foodtypes = VEGETABLES
-	juice_results = list("carrotjuice" = 0)
+	// juice_results = list("carrotjuice" = 0)
 	wine_power = 30
 
 /obj/item/seeds/carrot/parsnip/zona
@@ -89,8 +89,8 @@
 	name = "decrepit parsnip"
 	desc = "Closely related to carrots. This one looks sickly."
 	icon_state = "zonaparsnip"
-	bitesize_mod = 2
-	foodtype = VEGETABLES
+	bite_consumption_mod = 2
+	foodtypes = VEGETABLES
 	wine_power = 35
 
 // TODO(wso): Sorry, carrot shivs will come later

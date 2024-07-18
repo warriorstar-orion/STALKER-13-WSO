@@ -1084,6 +1084,7 @@
 	icon = 'icons/stalker/yashiki/decorations_32x64.dmi'
 	icon_state = "bigyashik"
 
+// TODO(wso): Make subtypes of of the new water sources
 /obj/structure/stalker/water/attack_hand(mob/living/user)
 	if(!user || !istype(user))
 		return
@@ -1118,8 +1119,8 @@
 			H.lip_color = initial(H.lip_color)
 			H.regenerate_icons()
 
-		user.drowsyness -= rand(2,3) //Washing your face wakes you up if you're falling asleep
-		user.drowsyness = clamp(user.drowsyness, 0, INFINITY)
+		// user.drowsyness -= rand(2,3) //Washing your face wakes you up if you're falling asleep
+		// user.drowsyness = clamp(user.drowsyness, 0, INFINITY)
 //	else
 	//	user.clean_blood()
 
@@ -1371,6 +1372,8 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	var/cache_size = 0		//from 0 to 3
 	resistance_flags = INDESTRUCTIBLE
 	var/datum/storage/stalker/cache/internal_cache
+	// TODO(wso): Dunno where to put this
+	var/waspicked = FALSE
 
 /obj/structure/stalker/cacheable/Initialize()
 	. = ..()
@@ -1445,7 +1448,7 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	user.visible_message("<span class='notice'>[user] finds something in [src].</span>", "<span class='notice'>You found something in [src].</span>")
 
 	//playsound(loc, "rustle", 50, 1, -5)
-	internal_cache.show_to(user)
+	internal_cache.show_contents(user)
 
 	if(internal_cache.waspicked || !istype(usr, /mob/living/carbon/human))
 		return

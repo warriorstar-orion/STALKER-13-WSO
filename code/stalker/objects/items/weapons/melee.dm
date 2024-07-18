@@ -37,7 +37,7 @@
 	force = 8
 	throwforce = 24
 	throw_speed = 4
-	embedding = list("embedded_pain_multiplier" = 4, "embed_chance" = 75, "embedded_fall_chance" = 25)
+	embed_type = /datum/embed_data/throwing_star
 	w_class = WEIGHT_CLASS_SMALL
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("penetrated", "stabbed", "skewered", "pierced")

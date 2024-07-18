@@ -7,7 +7,7 @@
 /obj/item/clothing/examine(mob/user)
 	..()
 	var/msg = ""
-	var/list/arm = src.armor.getList()
+	var/list/arm = get_armor()
 
 	var/melee = arm["melee"]
 	var/bullet = arm["bullet"]
@@ -53,8 +53,9 @@
 	..()
 	overlays.Cut()
 
-	if(unique)
-		overlays += image('icons/stalker/projectile_overlays32x32.dmi', "unique", layer = FLOAT_LAYER)
+	// TODO(wso): This is the upgraded icon, fix this overlay
+	// if(unique)
+	// 	overlays += image('icons/stalker/projectile_overlays32x32.dmi', "unique", layer = FLOAT_LAYER)
 
 /obj/item/clothing/New()
 	..()
@@ -142,6 +143,7 @@
 	//user.seek_screen_colour()
 	user.update_sight()
 
+// TODO(wso): Fix all this
 /obj/item/clothing/proc/update_nightvision()
 	if(nvg)
 		var/mob/living/carbon/human/user = usr
@@ -149,15 +151,15 @@
 			playsound(usr, 'sound/stalker/nv_off.ogg', 50, 1, -1)
 			to_chat(usr, "You have deactivate the optical sensor[src].")
 			user.remove_client_colour(nvg.colour_matrix)
-			user.see_override_nva = 0
+			// user.see_override_nva = 0
 		else
 			playsound(usr, 'sound/stalker/nv_start.ogg', 50, 1, -1)
 			to_chat(usr, "You have activate the optical sensor[src].")
 			user.add_client_colour(nvg.colour_matrix)
-			user.see_override_nva = 4
-	for(var/X in actions)
-		var/datum/action/A = X
-		A.UpdateButtonIcon()
+			// user.see_override_nva = 4
+	// for(var/X in actions)
+	// 	var/datum/action/A = X
+	// 	A.UpdateButtonIcon()
 
 /obj/item/clothing/dropped(mob/user)
 	..()
@@ -249,7 +251,7 @@
 	//icon_state = "banditka_unique"
 	slowdown = 0.15
 	armor = list("melee" = 15, "bullet" = 28, "laser" = 15, "energy" = 5, "bomb" = 15, "bio" = 5, "rad" = 20, "fire" = 5, "psy" = 0)
-	unique = 1
+	// unique = 1
 
 /obj/item/clothing/suit/hooded/kozhanka/unique
 	name = "Anomaly jacket"
@@ -257,7 +259,7 @@
 	icon_state = "kozhanka_unique"
 	slowdown = 0.05
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 10, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 30, "fire" = 10, "psy" = 0)
-	unique = 0
+	// unique = 0
 
 /obj/item/clothing/suit/hooded/kozhanka/renegadecoat
 	name = "Renegade coat"
@@ -377,7 +379,7 @@
 	armor = list("melee" = 65, "bullet" = 65, "laser" = 50, "energy" = 50, "bomb" = 30, "bio" = 50, "rad" = 50, "fire" = 50, "psy" = 0)
 	hoodtype = /obj/item/clothing/head/hooded/stalker/strelok
 	durability = 400
-	unique = 1
+	// unique = 1
 
 /obj/item/clothing/head/hooded/stalker/strelok
 	slowdown = 0.125
@@ -522,25 +524,27 @@
 	modifications = list("visor_suit" = 0)
 */
 
-/obj/item/clothing/suit/hooded/sealed/ToggleHood()
-	if(!suittoggled)
-		if(ishuman(src.loc))
-			var/mob/living/carbon/human/H = src.loc
-			if(H.wear_suit != src)
-				to_chat(H, "<span class='warning'>You must be wearing [src] to put up the hood!</span>")
-				return
-			if(H.head || H.wear_mask)
-				to_chat(H, "<span class='warning'>You're already wearing something on your head!</span>")
-				return
-			else if(H.equip_to_slot_if_possible(hood,SLOT_HEAD,0,0,1))
-				suittoggled = TRUE
-				src.icon_state = "[initial(icon_state)]_t"
-				H.update_inv_wear_suit()
-				for(var/X in actions)
-					var/datum/action/A = X
-					A.UpdateButtonIcon()
-	else
-		RemoveHood()
+// TODO(wso): Fix this
+/obj/item/clothing/suit/hooded/sealed/proc/ToggleHood()
+	return
+	// if(!suittoggled)
+	// 	if(ishuman(src.loc))
+	// 		var/mob/living/carbon/human/H = src.loc
+	// 		if(H.wear_suit != src)
+	// 			to_chat(H, "<span class='warning'>You must be wearing [src] to put up the hood!</span>")
+	// 			return
+	// 		if(H.head || H.wear_mask)
+	// 			to_chat(H, "<span class='warning'>You're already wearing something on your head!</span>")
+	// 			return
+	// 		else if(H.equip_to_slot_if_possible(hood,SLOT_HEAD,0,0,1))
+	// 			suittoggled = TRUE
+	// 			src.icon_state = "[initial(icon_state)]_t"
+	// 			H.update_inv_wear_suit()
+	// 			for(var/X in actions)
+	// 				var/datum/action/A = X
+	// 				A.UpdateButtonIcon()
+	// else
+	// 	RemoveHood()
 
 /obj/item/clothing/suit/hooded/sealed/New()
 	..()
@@ -890,7 +894,7 @@
 	icon_state = "flightvest"
 	inhand_icon_state = "flightvest"
 	blood_overlay_type = "armor"
-	togglename = "buttons"
+	// togglename = "buttons"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS

@@ -9287,7 +9287,7 @@
 	pixel_x = -3;
 	pixel_y = -14
 	},
-/obj/item/organ/eyes{
+/obj/item/organ/internal/eyes{
 	pixel_y = 9
 	},
 /obj/item/organ/heart{

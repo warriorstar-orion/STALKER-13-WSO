@@ -559,7 +559,8 @@
 	name = "raw mutant cutlet"
 	desc = "A raw mutant meat cutlet."
 	food_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 5)
-	filling_color = "#C43C20"
+	// TODO(wso): filling color is only on grown now
+	// filling_color = "#C43C20"
 
 /obj/item/food/meat/rawcutlet/mutant/flesh
 	name = "raw flesh cutlet"
@@ -598,7 +599,8 @@
 	desc = "A cooked mutant meat cutlet."
 	icon_state = "cutlet"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 5)
-	filling_color = "#8A5639"
+	// TODO(wso): filling color is only on grown now
+	// filling_color = "#8A5639"
 
 /obj/item/food/meat/cutlet/mutant/flesh
 	name = "flesh cutlet"

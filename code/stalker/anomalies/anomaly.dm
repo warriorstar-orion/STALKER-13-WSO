@@ -228,8 +228,9 @@ GLOBAL_LIST_EMPTY(anomalies)
 			L.apply_damage(src.damage_amount, BURN, null, L.getarmor(null, "bio"))
 		if(DMG_TYPE_LASTER)
 			L.apply_damage(src.damage_amount, BURN, null, L.getarmor(null, "laser"))
-		if(DMG_TYPE_RADIATION)
-			L.rad_act(src.damage_amount)
+		// TODO(wso): Radiation effects
+		// if(DMG_TYPE_RADIATION)
+		// 	L.rad_act(src.damage_amount)
 		if(DMG_TYPE_GIB)
 			if(L.stat == DEAD)
 				L.gib()
@@ -650,8 +651,9 @@ GLOBAL_LIST_EMPTY(anomalies)
 		var/mob/living/carbon/human/H = A
 		src.trapped += H
 
-		if(lasttime + cooldown < world.time)
-			H.rad_act(src.damage_amount)
+		// TODO(wso): Radiation effects
+		// if(lasttime + cooldown < world.time)
+		// 	H.rad_act(src.damage_amount)
 
 		if(istype(H.wear_id,/obj/item/stalker_pda))
 			H << sound(src.sound, repeat = 0, wait = 0, volume = 50, channel = 3)
@@ -690,7 +692,8 @@ GLOBAL_LIST_EMPTY(anomalies)
 			trapped -= H
 			continue
 
-		H.rad_act(src.damage_amount)
+		// TODO(wso): Radiation effects
+		// H.rad_act(src.damage_amount)
 
 		if(istype(H.wear_id,/obj/item/stalker_pda))
 			H << sound(src.sound, repeat = 0, wait = 0, volume = 50, channel = 3)

@@ -611,9 +611,10 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 				//owner_photo_front.picture.picture_image = icon(image, dir = SOUTH)
 
 				to_chat(H, "<B>KPK password</B>: <span class='danger'>\"[pass]\"</span>")
-				H.mind.store_memory("<b>KPK password</b>: \"[pass]\"")
-				GLOB.KPKs += src
-				GLOB.KPK_mobs += H
+				// TODO(wso): Better PDA/account storage
+				// H.mind.store_memory("<b>KPK password</b>: \"[pass]\"")
+				// GLOB.KPKs += src
+				// GLOB.KPK_mobs += H
 
 				profile = find_record("sid", H.sid, GLOB.data_core.stalkers)
 

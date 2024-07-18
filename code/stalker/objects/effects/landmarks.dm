@@ -37,7 +37,7 @@ GLOBAL_LIST_EMPTY(blowout_spawners)
 		spawned_mob = new mob_type(picked_tile)
 		spawned_mob.faction = faction.Copy()
 		spawned_mobs += spawned_mob
-		RegisterSignal(spawned_mob, COMSIG_PARENT_QDELETED, PROC_REF(remove_mob_from_list))
+		RegisterSignal(spawned_mob, COMSIG_PARENT_QDELETING, PROC_REF(remove_mob_from_list))
 
 /obj/effect/landmark/blowout_spawner/proc/remove_mob_from_list(mob/source)
 	spawned_mobs -= source

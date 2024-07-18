@@ -213,26 +213,27 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 
 /obj/item/artifact/mica/Think(mob/user)
 	if(!..()) return 0
-	if(istype(user, /mob/living/carbon/human))
-		var/mob/living/carbon/human/H = user
-		if(!H.bleedsuppress) //so you can't stack bleed suppression
-			H.suppress_bloodloss(1)
+	// TODO(wso): Add bloodloss suppression as a trait or something
+	// if(istype(user, /mob/living/carbon/human))
+	// 	var/mob/living/carbon/human/H = user
+	// 	if(!H.bleedsuppress) //so you can't stack bleed suppression
+	// 		H.suppress_bloodloss(1)
 
-			if(H.stat != DEAD && H.bodytemperature >= 170)
+	// 		if(H.stat != DEAD && H.bodytemperature >= 170)
 
-				var/blood_volume = round(H.reagents.get_reagent_amount("blood"))
-				if(blood_volume < 560 && blood_volume)
+	// 			var/blood_volume = round(H.reagents.get_reagent_amount("blood"))
+	// 			if(blood_volume < 560 && blood_volume)
 
-					var/datum/reagent/blood/B = locate() in H.reagents.reagent_list
-					if(B)
-						if(B.data["donor"] != src) //If it's not theirs, then we look for theirs
-							for(var/datum/reagent/blood/D in H.reagents.reagent_list)
-								if(D.data["donor"] == src)
-									B = D
-									break
+	// 				var/datum/reagent/blood/B = locate() in H.reagents.reagent_list
+	// 				if(B)
+	// 					if(B.data["donor"] != src) //If it's not theirs, then we look for theirs
+	// 						for(var/datum/reagent/blood/D in H.reagents.reagent_list)
+	// 							if(D.data["donor"] == src)
+	// 								B = D
+	// 								break
 
-						B.volume += 0.5
-	return 1
+	// 					B.volume += 0.5
+	// return 1
 
 /obj/item/artifact/firefly
 	name = "firefly"

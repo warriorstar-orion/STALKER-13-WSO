@@ -38,10 +38,58 @@
 					is_in_use = TRUE
 					src.interact(M)
 		var/ai_in_use = FALSE
-		if(update_ais)
-			ai_in_use = AutoUpdateAI(src)
+		// TODO(wso): Don't give a shit about fixing this because old UIs are getting killed
+		// if(update_ais)
+		// 	ai_in_use = AutoUpdateAI(src)
 
 		if(update_viewers && update_ais) //State change is sure only if we check both
 			if(!ai_in_use && !is_in_use)
 				obj_flags &= ~IN_USE
 
+
+/mob/proc/unset_machine()
+	if(machine)
+		machine.on_unset_machine(src)
+		machine = null
+
+//called when the user unsets the machine.
+/atom/movable/proc/on_unset_machine(mob/user)
+	return
+
+/mob/proc/set_machine(obj/O)
+	if(src.machine)
+		unset_machine()
+	src.machine = O
+	if(istype(O))
+		O.obj_flags |= IN_USE
+
+/obj/item/proc/updateSelfDialog()
+	var/mob/M = src.loc
+	if(istype(M) && M.client && M.machine == src)
+		src.attack_self(M)
+
+/mob/proc/canUseTopic(atom/movable/M, be_close=FALSE, no_dextery=FALSE, no_tk=FALSE)
+	return
+
+/mob/living/canUseTopic(atom/movable/M, be_close=FALSE, no_dextery=FALSE, no_tk=FALSE)
+	if(incapacitated())
+		to_chat(src, "<span class='warning'>You can't do that right now!</span>")
+		return FALSE
+	if(be_close && !in_range(M, src))
+		to_chat(src, "<span class='warning'>You are too far away!</span>")
+		return FALSE
+	if(!no_dextery)
+		to_chat(src, "<span class='warning'>You don't have the dexterity to do this!</span>")
+		return FALSE
+	return TRUE
+
+/mob/living/carbon/human/canUseTopic(atom/movable/M, be_close=FALSE, no_dextery=FALSE, no_tk=FALSE)
+	if(!(mobility_flags & MOBILITY_UI))
+		to_chat(src, "<span class='warning'>You can't do that right now!</span>")
+		return FALSE
+	if(!Adjacent(M) && (M.loc != src))
+		if((be_close == 0) || (!no_tk && (dna.check_mutation(/datum/mutation/human/telekinesis) && tkMaxRangeCheck(src, M))))
+			return TRUE
+		to_chat(src, "<span class='warning'>You are too far away!</span>")
+		return FALSE
+	return TRUE
