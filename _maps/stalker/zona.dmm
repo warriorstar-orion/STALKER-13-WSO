@@ -12697,13 +12697,13 @@
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (EAST)" = None
+	tag = "icon-window (EAST)"
 	},
 /obj/structure/window/spawner/directional/west{
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (WEST)" = None
+	tag = "icon-window (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -12737,13 +12737,13 @@
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (EAST)" = None
+	tag = "icon-window (EAST)"
 	},
 /obj/structure/window/spawner/directional/west{
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (WEST)" = None
+	tag = "icon-window (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -12756,13 +12756,13 @@
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (EAST)" = None
+	tag = "icon-window (EAST)"
 	},
 /obj/structure/window/spawner/directional/west{
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (WEST)" = None
+	tag = "icon-window (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -12854,13 +12854,13 @@
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (EAST)" = None
+	tag = "icon-window (EAST)"
 	},
 /obj/structure/window/spawner/directional/west{
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (WEST)" = None
+	tag = "icon-window (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -12894,13 +12894,13 @@
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (EAST)" = None
+	tag = "icon-window (EAST)"
 	},
 /obj/structure/window/spawner/directional/west{
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (WEST)" = None
+	tag = "icon-window (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -13120,7 +13120,7 @@
 	layer = 3.2;
 	atom_integrity = 1e+009;
 	name = "";
-	tag = ";icon-window (NORTH)" = None
+	tag = "icon-window (NORTH)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -13130,13 +13130,13 @@
 	layer = 3.2;
 	atom_integrity = 1e+009;
 	name = "";
-	tag = ";icon-window (NORTH)" = None
+	tag = "icon-window (NORTH)"
 	},
 /obj/structure/window/spawner/directional/east{
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (EAST)" = None
+	tag = "icon-window (EAST)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -13217,7 +13217,7 @@
 	layer = 3.2;
 	atom_integrity = 1e+009;
 	name = "";
-	tag = ";icon-window (NORTH)" = None
+	tag = "icon-window (NORTH)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -14145,13 +14145,13 @@
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (EAST)" = None
+	tag = "icon-window (EAST)"
 	},
 /obj/structure/window/spawner/directional/west{
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (WEST)" = None
+	tag = "icon-window (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -14213,13 +14213,13 @@
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (WEST)" = None
+	tag = "icon-window (WEST)"
 	},
 /obj/structure/window/spawner/directional/east{
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (EAST)" = None
+	tag = "icon-window (EAST)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -14394,13 +14394,13 @@
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (WEST)" = None
+	tag = "icon-window (WEST)"
 	},
 /obj/structure/window/spawner/directional/east{
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (EAST)" = None
+	tag = "icon-window (EAST)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -14485,13 +14485,13 @@
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (EAST)" = None
+	tag = "icon-window (EAST)"
 	},
 /obj/structure/window/spawner/directional/west{
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (WEST)" = None
+	tag = "icon-window (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/svalka/buildings)
@@ -15050,7 +15050,6 @@
 /area/stalker/svalka/tunnel)
 "aXl" = (
 /obj/structure/stalker/cacheable/bochka{
-	level = 3;
 	pixel_x = 8;
 	pixel_y = 12
 	},
@@ -16625,7 +16624,6 @@
 "bda" = (
 /obj/structure/stalker/cacheable/truba,
 /obj/structure/stalker/cacheable/bochka{
-	level = 3;
 	pixel_x = 8;
 	pixel_y = 12
 	},
@@ -18627,7 +18625,7 @@
 	layer = 3.2;
 	atom_integrity = 1e+009;
 	name = "";
-	tag = ";icon-window (NORTH)" = None
+	tag = "icon-window (NORTH)"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
@@ -19516,7 +19514,7 @@
 	icon_state = "clear";
 	atom_integrity = 1e+006;
 	name = "";
-	tag = ";icon-window (WEST)" = None
+	tag = "icon-window (WEST)"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
