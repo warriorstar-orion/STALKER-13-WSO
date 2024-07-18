@@ -50,7 +50,7 @@
 	opacity = 1
 
 /obj/structure/flora/stalker/bush/Initialize()
-	..()
+	. = ..()
 	icon_state = "tall_grass_[rand(1,8)]"
 
 /obj/structure/flora/stalker/bush
@@ -58,10 +58,6 @@
 	layer = 4.01
 	anchored = 1
 	opacity = 1
-
-/obj/structure/flora/stalker/bush/Initialize()
-	..()
-	icon_state = "very_tall_grass_[rand(5,8)]"
 
 /turf/closed/wall/stalker
 	canSmoothWith = list(

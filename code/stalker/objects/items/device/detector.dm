@@ -167,7 +167,7 @@
 	target = null
 	icon_state = icon_state_inactive
 	src.user = null
-	SSobj.processing.Add(src)
+	START_PROCESSING(SSprocessing, src)
 
 	for (var/obj/item/artifact/a in arts)
 		if(a.invisibility != 0)

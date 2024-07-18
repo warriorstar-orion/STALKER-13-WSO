@@ -36,12 +36,17 @@ GLOBAL_LIST_EMPTY(anomalies)
 	pass_flags = PASSTABLE | PASSGRILLE
 
 /obj/anomaly/Initialize()
-	..()
+	. = ..()
 	GLOB.anomalies += src
 	icon_state = inactive_icon_state
 	invisibility = inactive_invisibility
 	set_light(idle_luminosity, l_color = anomaly_color)
 	SpawnArtifact()
+	START_PROCESSING(SSobj, src)
+
+/obj/anomaly/Destroy(force)
+	STOP_PROCESSING(SSobj, src)
+	return ..()
 
 /obj/anomaly/proc/SpawnArtifact()
 	for(var/i = 1, i <= loot_count, i++)
@@ -285,11 +290,8 @@ GLOBAL_LIST_EMPTY(anomalies)
 				)
 
 /obj/anomaly/electro/Initialize()
-	..()
-	SSobj.processing.Add(src)
+	. = ..()
 	src.set_light(idle_luminosity)
-	spawn(10)
-		SSobj.processing.Remove(src)
 
 /obj/anomaly/karusel
 	name = "vortex"
@@ -310,14 +312,6 @@ GLOBAL_LIST_EMPTY(anomalies)
 				/obj/item/artifact/nightstar_depleted = 4,
 				/obj/item/artifact/soul = 2
 				)
-
-/obj/anomaly/karusel/Initialize()
-	..()
-	SSobj.processing.Add(src)
-
-/obj/anomaly/karusel/Destroy()
-	..()
-	SSobj.processing.Remove(src)
 
 /obj/anomaly/karusel/process()
 	for(var/atom/movable/A in range(2, src))
@@ -368,14 +362,11 @@ GLOBAL_LIST_EMPTY(anomalies)
 				)
 
 /obj/anomaly/jarka/Initialize()
-	..()
-	SSobj.processing.Add(src)
+	. = ..()
 	src.set_light(idle_luminosity)
-	spawn(10)
-		SSobj.processing.Remove(src)
 
 /obj/anomaly/jarka/Uncrossed(atom/A)
-	..()
+	. = ..()
 	if(istype(A, /mob/living))
 		var/mob/living/L = A
 		src.trapped.Remove(L)
@@ -419,12 +410,12 @@ GLOBAL_LIST_EMPTY(anomalies)
 
 /obj/anomaly/jarka/comet/New()
 	..()
-	SSobj.processing.Add(src)
+	START_PROCESSING(SSprocessing, src)
 	traectory = circlerangeturfs(src, 4)
 
 /obj/anomaly/jarka/comet/Destroy()
 	..()
-	SSobj.processing.Remove(src)
+	STOP_PROCESSING(SSprocessing, src)
 
 /obj/anomaly/jarka/comet/process()
 	stage++
@@ -455,14 +446,6 @@ GLOBAL_LIST_EMPTY(anomalies)
 				/obj/item/artifact/firefly = 1.5
 				)
 	var/obj/anomaly/holodec/splash/son = null
-
-/obj/anomaly/holodec/Initialize()
-	..()
-	SSobj.processing.Add(src)
-
-/obj/anomaly/holodec/Destroy()
-	..()
-	SSobj.processing.Remove(src)
 
 /obj/anomaly/holodec/Uncrossed(atom/A)
 	..()
@@ -532,7 +515,6 @@ GLOBAL_LIST_EMPTY(anomalies)
 /obj/anomaly/holodec/splash/Initialize()
 	. = ..()
 	stage = BIRTH_STAGE
-	SSobj.processing.Add(src)
 	flick("holodec_splash_creation", src)
 	invisibility = inactive_invisibility
 	if(src && get_turf(src))
@@ -591,7 +573,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	qdel(I)
 
 /obj/anomaly/puh/Initialize()
-	..()
+	. = ..()
 	inactive_icon_state = pick("puh","puh2")
 	icon_state = inactive_icon_state
 	if(inactive_icon_state == "puh2")
@@ -635,14 +617,6 @@ GLOBAL_LIST_EMPTY(anomalies)
 	damage_amount = 40
 	sound = 'sound/stalker/pda/geiger_6.ogg'
 	icon_state = "rad_high"
-
-/obj/rad/Initialize()
-	..()
-	SSobj.processing += (src)
-
-/obj/rad/Destroy()
-	..()
-	SSobj.processing -= (src)
 
 /obj/rad/Crossed(atom/A)
 	..()
