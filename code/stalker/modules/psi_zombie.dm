@@ -62,7 +62,9 @@
 
 /mob/living/carbon/human/proc/handle_automated_movement()
 	if(!stop_automated_movement)
-		if(isturf(src.loc) && !resting && !buckled && canmove)		//This is so it only moves if it's not inside a closet, gentics machine, etc.
+		// TODO(wso): Don't worry too much about this, AI controllers will replace it
+		if(isturf(src.loc) && !resting && !buckled)
+		// if(isturf(src.loc) && !resting && !buckled && canmove)		//This is so it only moves if it's not inside a closet, gentics machine, etc.
 			turns_since_move++
 			if(turns_since_move >= 5)
 				var/anydir = pick(GLOB.cardinals)

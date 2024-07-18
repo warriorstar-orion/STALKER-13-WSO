@@ -9,11 +9,11 @@
 	icon = 'icons/turf/snow.dmi'
 	baseturfs = /turf/open/floor/plating/asteroid/snow
 	icon_state = "snow"
-	icon_plating = "snow"
+	// icon_plating = "snow"
 	temperature = 293
 	slowdown = 4
-	environment_type = "snow"
-	dug = 1
+	// environment_type = "snow"
+	// dug = 1
 
 /obj/structure/grille/stalker
 	desc = "A tough and rigid iron fence. I cant climb over this."
@@ -22,7 +22,7 @@
 	icon_state = "fence1"
 	density = 1
 	anchored = 1
-	flags_1 = CONDUCT_1
+	obj_flags = CONDUCTS_ELECTRICITY
 	layer = CLOSED_DOOR_LAYER
 	max_integrity = 10000000
 
@@ -418,7 +418,7 @@ var/global/list/GryazEdgeCache
 /turf/open/stalker/floor/water
 	name = "water"
 	icon = 'icons/stalker/water.dmi'
-	smooth = SMOOTH_MORE|SMOOTH_BORDER
+	smoothing_flags = USES_SMOOTHING
 	var/smooth_icon = 'icons/stalker/smoothwater.dmi'
 	icon_state = "water"
 	layer = HIGH_TURF_LAYER
@@ -431,14 +431,15 @@ var/global/list/GryazEdgeCache
 	tiled_dirt = FALSE
 	var/obj/structure/water_source/water_source
 
-/turf/open/stalker/floor/water/Initialize()
-	water_source = new(src)
-	if(smooth)
-		var/matrix/M = new
-		M.Translate(-7, -7)
-		transform = M
-		icon = smooth_icon
-	. = ..()
+// TODO(wso): Probably a better replacement for water so we don't need any of this
+// /turf/open/stalker/floor/water/Initialize()
+// 	water_source = new(src)
+// 	if(smooth)
+// 		var/matrix/M = new
+// 		M.Translate(-7, -7)
+// 		transform = M
+// 		icon = smooth_icon
+// 	. = ..()
 
 /turf/open/stalker/floor/water/attack_hand(mob/living/user)
 	return water_source.attack_hand(user)
@@ -633,7 +634,7 @@ var/global/list/WaterEdgeCache
 	name = "lattice"
 	icon = 'icons/stalker/floor.dmi'
 	icon_state = "lattice_new1"
-	overlay_priority = HIGH_TURF_LAYER
+	// overlay_priority = HIGH_TURF_LAYER
 
 /turf/open/stalker/floor/lattice/New()
 	icon_state = "lattice_new[rand(1, 21)]"

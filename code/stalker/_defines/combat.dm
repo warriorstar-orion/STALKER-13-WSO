@@ -3,3 +3,5 @@
 #define INTENT_GRAB   "grab"
 #define INTENT_DISARM "disarm"
 #define INTENT_HARM   "harm"
+
+#define PSY			"psy"

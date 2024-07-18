@@ -3256,7 +3256,7 @@
 /area/stalker/blowout/buildings/backwater/ironforest)
 "alQ" = (
 /obj/structure/table/stalker,
-/obj/item/reagent_containers/food/drinks/soda_cans/voda,
+/obj/item/reagent_containers/cup/soda_cans/voda,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "alR" = (

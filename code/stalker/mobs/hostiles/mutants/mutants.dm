@@ -4,7 +4,7 @@
 	aggro_vision_range = 9
 	stat_attack = 2
 	stat_exclusive = 0
-	var/fearless = 0
+	fearless = 0
 	icon = 'icons/stalker/stalker.dmi'
 	speak_chance = 1.5
 	var/rating_add = 10
@@ -204,7 +204,7 @@
 			var/blocked = 0
 			if(ishuman(A))
 				var/mob/living/carbon/human/H = A
-				if(H.check_shields(90, "the [name]", src, attack_type = THROWN_PROJECTILE_ATTACK))
+				if(H.check_block(90, "the [name]", src, attack_type = THROWN_PROJECTILE_ATTACK))
 					blocked = 1
 			if(!blocked)
 				L.visible_message("<span class ='danger'>[src] pounces on [L]!</span>", "<span class ='userdanger'>[src] pounces on you!</span>")

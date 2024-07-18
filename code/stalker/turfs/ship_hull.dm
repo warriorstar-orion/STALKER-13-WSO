@@ -4,5 +4,4 @@
 	density = 1
 	blocks_air = 1
 	opacity = 1
-	explosion_block = 100
 	flags_ricochet = RICOCHET_HARD

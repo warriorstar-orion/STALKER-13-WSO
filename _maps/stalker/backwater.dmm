@@ -5775,7 +5775,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "wx" = (
 /obj/structure/table/stalker,
-/obj/item/reagent_containers/food/drinks/soda_cans/voda,
+/obj/item/reagent_containers/cup/soda_cans/voda,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
 "wy" = (

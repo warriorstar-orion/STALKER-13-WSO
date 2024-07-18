@@ -93,7 +93,8 @@
 	..()
 	if(locate(/obj/structure/stalker/okno) in contents)
 		opacity = 0
-		windowed = 1
+		// TODO(wso): How are these windows working
+		// windowed = 1
 
 /turf/closed/wall/stalker/beton
 	name = "wall"
@@ -145,7 +146,7 @@
 	name = "wall"
 	icon = 'icons/turf/shuttle.dmi'
 	icon_state = "wall1"
-	smoothing_flags = SMOOTH_FALSE
+	smoothing_flags = 0
 	flags_ricochet = RICOCHET_HARD
 
 /turf/closed/wall/stalker/ship
