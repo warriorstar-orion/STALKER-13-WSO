@@ -40,6 +40,7 @@
 	else
 		C.inprivatezone = 0
 
+// TODO(wso): Should probably be a kind of weather
 SUBSYSTEM_DEF(blowout)
 	name = "Blowouts"
 	priority = 1
@@ -135,11 +136,13 @@ SUBSYSTEM_DEF(blowout)
 	world << sound('sound/stalker/blowout/blowout_particle_wave.ogg', wait = 0, channel = 201, volume = 70)
 
 /datum/controller/subsystem/blowout/proc/BlowoutClean()
-	for(var/obj/item/ammo_casing/ammo_casing as anything in GLOB.ammo_casings)
-		GLOB.ammo_casings -= ammo_casing
-		qdel(ammo_casing)
-		if(MC_TICK_CHECK)
-			return
+	return
+	// TODO(wso): casings should have some behavior to delete themselves, not be stored in some giant GLOB
+	// for(var/obj/item/ammo_casing/ammo_casing as anything in GLOB.ammo_casings)
+	// 	GLOB.ammo_casings -= ammo_casing
+	// 	qdel(ammo_casing)
+	// 	if(MC_TICK_CHECK)
+	// 		return
 
 /datum/controller/subsystem/blowout/proc/BlowoutZombify()
 	for(var/mob/living/carbon/human/zomboid in GLOB.carbon_list)
@@ -185,9 +188,10 @@ SUBSYSTEM_DEF(blowout)
 		spawner.spawn_mobs()
 		CHECK_TICK
 
-	for(var/datum/job/job as anything in SSjob.occupations)
-		job.total_positions = initial(job.total_positions)
-		CHECK_TICK
+	// TODO(wso): what the fuck is this meant to be doing
+	// for(var/datum/job/job as anything in SSjob.occupations)
+	// 	job.total_positions = initial(job.total_positions)
+	// 	CHECK_TICK
 
 	for(var/obj/machinery/stalker/sidorpoint/sidorpoint as anything in GLOB.cps)
 		sidorpoint.SendJobTotalPositions()

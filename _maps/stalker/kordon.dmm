@@ -5581,7 +5581,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "Bh" = (
-/obj/structure/sink/puddle,
+/obj/structure/water_source/puddle,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "Bi" = (

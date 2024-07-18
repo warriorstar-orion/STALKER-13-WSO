@@ -505,14 +505,17 @@
 /obj/effect/spawner/random/stalker/weapon/meleetwohand
 	name = "stalker melee tier 2"
 	icon_state = "melee_2hand_loot"
-	loot = list(/obj/item/twohanded/oldaxe = 20,
-				/obj/item/fireaxe = 20,
-				/obj/item/pitchfork = 20,
-				/obj/item/twohanded/bostaff = 20,
-				/obj/item/cultivator/rake = 20,
-				/obj/item/chainsaw/old = 5,
-				/obj/item/chainsaw = 5,
-				/obj/nothing = 20)
+	// TODO(wso): find replacements
+	loot = list(
+		// /obj/item/twohanded/oldaxe = 20,
+		/obj/item/fireaxe = 20,
+		/obj/item/pitchfork = 20,
+		// /obj/item/twohanded/bostaff = 20,
+		/obj/item/cultivator/rake = 20,
+		// /obj/item/chainsaw/old = 5,
+		/obj/item/chainsaw = 5,
+		/obj/nothing = 20
+	)
 
 /obj/effect/spawner/random/stalker/medicine
 	name = "stalker medicine"
@@ -608,6 +611,7 @@
 				/obj/item/artifact/crystal = 3,
 				/obj/nothing = 80)
 
+// TODO(wso): Use spawn_loot_chance instead of nothing object
 /obj/nothing
 	name = "nothing"
 	invisibility = 101
@@ -970,11 +974,14 @@ obj/nothing/New()
 	name = "stalker camera"
 	spawn_loot_count = 1
 	max_spawned = 1
-	loot = list(/obj/item/camera/old = 20,
-				/obj/item/camera/ww2 = 20,
-				/obj/item/camera/coldwar = 20,
-				/obj/item/camera = 20,
-				/obj/nothing = 30)
+	loot = list(
+		// TODO(wso): Port over camera variants
+		// /obj/item/camera/old = 20,
+		// /obj/item/camera/ww2 = 20,
+		// /obj/item/camera/coldwar = 20,
+		/obj/item/camera = 20,
+		/obj/nothing = 30
+	)
 
 
 /obj/effect/spawner/random/stalker/equipment

@@ -79,7 +79,7 @@
 	icon_state = "seed-parsnip"
 	species = "zona parsnip"
 	plantname = "Parsnip"
-	product = /obj/item/reagent_containers/food/snacks/grown/carrot/parsnip/zona
+	product = /obj/item/food/grown/carrot/parsnip/zona
 	icon_dead = "carrot-dead"
 	mutatelist = list()
 	reagents_add = list("vitamin" = 0.05, "nutriment" = 0.05, "uranium" = 0.25)

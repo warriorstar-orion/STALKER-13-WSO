@@ -3640,7 +3640,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Se" = (
-/obj/structure/sink/puddle,
+/obj/structure/water_source/puddle,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Su" = (

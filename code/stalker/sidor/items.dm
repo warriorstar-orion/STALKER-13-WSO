@@ -1,3 +1,4 @@
+// TODO(wso): Tick this and unfuck it
 /sidoritem
 	var/name = null
 	var/itemtype = null

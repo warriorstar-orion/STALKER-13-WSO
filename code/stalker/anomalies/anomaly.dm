@@ -32,7 +32,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	icon = 'icons/stalker/anomalies.dmi'
 	resistance_flags = UNACIDABLE
 	anchored = 1
-	layer = ABOVE_LYING_MOB_LAYER
+	layer = ABOVE_MOB_LAYER
 	pass_flags = PASSTABLE | PASSGRILLE
 
 /obj/anomaly/Initialize()
