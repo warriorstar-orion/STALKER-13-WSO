@@ -1960,7 +1960,7 @@
 	},
 /area/stalker/buildings/clearsky)
 "gX" = (
-/obj/structure/target_stake,
+/obj/structure/training_machine,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/ranger)
 "gY" = (

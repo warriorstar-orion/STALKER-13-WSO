@@ -1914,7 +1914,7 @@
 /turf/closed/wall/stalker/bricks,
 /area/stalker/blowout/outdoor)
 "lb" = (
-/obj/structure/target_stake,
+/obj/structure/training_machine,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/duty)
 "lT" = (

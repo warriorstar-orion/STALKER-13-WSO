@@ -4348,7 +4348,7 @@
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "kO" = (
-/obj/structure/target_stake,
+/obj/structure/training_machine,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "kP" = (
