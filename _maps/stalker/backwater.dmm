@@ -509,11 +509,7 @@
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "bX" = (
 /obj/structure/safe{
-	desc = "Старый сейф. Кто-то выцарапал на нем слово:''Лопата''";
-	tumbler_1_open = 20;
-	tumbler_1_pos = 20;
-	tumbler_2_open = 20;
-	tumbler_2_pos = 20
+	desc = "Старый сейф. Кто-то выцарапал на нем слово:''Лопата''"
 	},
 /obj/item/gun/ballistic/shotgun/bm16/toz34,
 /obj/item/storage/firstaid/ifak,
@@ -7994,7 +7990,6 @@
 /area/stalker/buildings/backwater/sawmill)
 "Ks" = (
 /obj/machinery/door/poddoor/shutters{
-	auto_close = 50;
 	autoclose = 50;
 	id = "reganotherway"
 	},
@@ -8125,7 +8120,6 @@
 "Ly" = (
 /obj/structure/stalker/cacheable/painting/gorbachev{
 	desc = "A true Renegade";
-	eng_desc = null;
 	name = "Vladimir Putin"
 	},
 /turf/closed/wall/stalker/bricks,

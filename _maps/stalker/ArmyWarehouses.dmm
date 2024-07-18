@@ -1280,8 +1280,7 @@
 /area/stalker/blowout/buildings)
 "iV" = (
 /obj/item/trash/teapot{
-	desc = "Someone definetly pissed there";
-	eng_desc = "Someone definetly pissed there."
+	desc = "Someone definetly pissed there"
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)

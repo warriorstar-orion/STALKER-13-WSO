@@ -4809,7 +4809,6 @@
 "og" = (
 /obj/structure/stalker/car/gryzovik/east{
 	desc = "Go to Amerika.";
-	eng_desc = null;
 	icon_state = "5";
 	tag = "icon-5"
 	},
@@ -6489,7 +6488,6 @@
 "Ce" = (
 /mob/living/simple_animal/hostile/mutant/bloodsucker{
 	desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to tell. Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers. The guttural breathing of the mutant freezes your blood. This one seems larger than usual!";
-	eng_desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to tell. Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers. The guttural breathing of the mutant freezes your blood. This one is exceptionally large!";
 	health = 800;
 	name = "large bloodsucker";
 	resize = 2.4;
@@ -6780,7 +6778,6 @@
 "Eb" = (
 /mob/living/simple_animal/hostile/mutant/bloodsucker{
 	desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to tell. Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers. The guttural breathing of the mutant freezes your blood. This one seems larger than usual!";
-	eng_desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to tell. Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers. The guttural breathing of the mutant freezes your blood. This one is exceptionally large!";
 	health = 800;
 	name = "large bloodsucker";
 	resize = 2.4;
@@ -7335,7 +7332,6 @@
 "It" = (
 /mob/living/simple_animal/hostile/mutant/bloodsucker{
 	desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to tell. Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers. The guttural breathing of the mutant freezes your blood. This one seems larger than usual!";
-	eng_desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to tell. Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers. The guttural breathing of the mutant freezes your blood. This one is exceptionally large!";
 	health = 800;
 	name = "large bloodsucker";
 	resize = 2.4;
@@ -7577,7 +7573,6 @@
 /obj/structure/table/stalker/wood,
 /obj/item/stalker/blue_box{
 	desc = "A blue box, locked with one of the best locks money can buy. A trader might pay good money for this.";
-	eng_desc = "A blue box, locked with one of the best locks money can buy. A trader might pay good money for this.";
 	name = "Secure Lockbox"
 	},
 /turf/open/stalker/floor/lattice,

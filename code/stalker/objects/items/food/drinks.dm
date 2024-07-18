@@ -6,7 +6,7 @@
 	list_reagents = list("energetic" = 10, "water" = 20)
 	w_class = 2
 
-/obj/item/reagent_containers/food/drinks/soda_cans/crunk
+/obj/item/reagent_containers/cup/soda_cans/crunk
 	name = "crunk energy drink"
 	desc = "Great energy drink. Contains caffeine, taurine and lots of vitamines. Can't make a step? Then it's what you need. WARNING: Potentially hazardous to your health!"
 	icon = 'icons/stalker/food.dmi'
@@ -17,7 +17,7 @@
 
 // BEER
 
-/obj/item/reagent_containers/food/drinks/soda_cans/lowqualbeer
+/obj/item/reagent_containers/cup/soda_cans/lowqualbeer
 	name = "Ukrainian Beer"
 	desc = "Refreshing wheat-beer made in the Ukraine."
 	icon = 'icons/stalker/food.dmi'
@@ -25,7 +25,7 @@
 	list_reagents = list("beer" = 40)
 	w_class = 2
 
-/obj/item/reagent_containers/food/drinks/soda_cans/highqualbeer
+/obj/item/reagent_containers/cup/soda_cans/highqualbeer
 	name = "Russian Beer"
 	desc = "Tasty and thick Imperial Dark-Stout made in Russia."
 	icon = 'icons/stalker/food.dmi'
@@ -35,7 +35,7 @@
 
 // JUICE & DRINKS
 
-/obj/item/reagent_containers/food/drinks/soda_cans/terragon
+/obj/item/reagent_containers/cup/soda_cans/terragon
 	name = "Terragon Soda"
 	desc = "Refreshing and slightly sweet Terragon soda"
 	icon = 'icons/stalker/food.dmi'
@@ -43,7 +43,7 @@
 	list_reagents = list("energetic" = 3, "terragonsoda" = 37)
 	w_class = 2
 
-/obj/item/reagent_containers/food/drinks/soda_cans/pineapple
+/obj/item/reagent_containers/cup/soda_cans/pineapple
 	name = "Army-Pineapple Juice"
 	desc = "Army-Pineapple juice. Sugary and full of carbohydrates: It's just what a Stalker needs!"
 	icon = 'icons/stalker/food.dmi'
@@ -51,7 +51,7 @@
 	list_reagents = list("omnizine" = 3, "pine" = 37)
 	w_class = 2
 
-/obj/item/reagent_containers/food/drinks/soda_cans/purifiedwater
+/obj/item/reagent_containers/cup/soda_cans/purifiedwater
 	name = "Purified Water"
 	desc = "a small plastic container filled with purified and deradiated water!"
 	icon = 'icons/stalker/food.dmi'
@@ -59,7 +59,7 @@
 	list_reagents = list("water" = 40)
 	w_class = 2
 
-/obj/item/reagent_containers/food/drinks/soda_cans/zonetea
+/obj/item/reagent_containers/cup/soda_cans/zonetea
 	name = "Beards Tea"
 	desc = "Produced from select medicinal mushrooms with a birch tannin base: This invigorating and rejuvinating beverage is well-loved by any Stalkers who can afford it!"
 	icon = 'icons/stalker/food.dmi'
@@ -67,7 +67,7 @@
 	list_reagents = list("tea" = 15, "omnizine" = 10, "potass_iodide" = 10, "energetic" = 3, "psicodine" = 2)
 	w_class = 2
 
-/obj/item/reagent_containers/food/drinks/soda_cans/voda
+/obj/item/reagent_containers/cup/soda_cans/voda
 	name = "Mineral Water"
 	desc = "Refreshing mineral water."
 	icon = 'icons/stalker/food.dmi'

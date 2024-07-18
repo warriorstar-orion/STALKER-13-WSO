@@ -175,12 +175,12 @@
 	new /obj/item/food/stalker/konserva/MREkonserva2(src)
 	new /obj/item/food/stalker/konserva/MREkonserva3(src)
 	new /obj/item/food/stalker/konserva/snack/chocolate(src)
-	new /obj/item/reagent_containers/food/drinks/soda_cans/voda(src)
+	new /obj/item/reagent_containers/cup/soda_cans/voda(src)
 
 /obj/item/storage/box/MRE/Initialize()
 	. = ..()
 	atom_storage.max_slots = 10
-	atom_storage.set_holdable(list(/obj/item/food/stalker/konserva, /obj/item/trash/konserva, /obj/item/reagent_containers/food/drinks))
+	atom_storage.set_holdable(list(/obj/item/food/stalker/konserva, /obj/item/trash/konserva, /obj/item/reagent_containers/cup/glass))
 
 /obj/item/storage/box/MRE/attack_self(mob/user)
 	if(wrapped)

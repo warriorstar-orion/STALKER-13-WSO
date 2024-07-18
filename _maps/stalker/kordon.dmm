@@ -3398,7 +3398,6 @@
 /area/stalker/kordon/buildings)
 "kp" = (
 /obj/machinery/door/poddoor/shutters{
-	auto_close = 50;
 	autoclose = 50;
 	id = "anotherwaytobase"
 	},

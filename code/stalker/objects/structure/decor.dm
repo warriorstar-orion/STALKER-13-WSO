@@ -1450,11 +1450,11 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	//playsound(loc, "rustle", 50, 1, -5)
 	internal_cache.show_contents(user)
 
-	if(internal_cache.waspicked || !istype(usr, /mob/living/carbon/human))
+	if(waspicked || !istype(usr, /mob/living/carbon/human))
 		return
 
 	var/mob/living/carbon/human/H = usr
-	internal_cache.waspicked = 1
+	waspicked = 1
 
 	if(!istype(H.wear_id, /obj/item/stalker_pda))
 		return
