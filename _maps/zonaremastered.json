@@ -1,5 +1,23 @@
 {
+	"version": 1,
     "map_name": "Zona Remastered",
     "map_path": "map_files/stalker",
-    "map_file": "backwater.dmm"
+    "map_file": [
+		"backwater.dmm",
+		"under.dmm",
+		"kordon.dmm",
+		"bar.dmm",
+		"agroprom.dmm",
+		"svalka.dmm",
+		"radar.dmm",
+		"Yantar.dmm",
+		"ArmyWarehouses.dmm",
+		"greatswamps.dmm",
+		"DeadCity.dmm",
+		"DarkDolina.dmm",
+		"WildTerritory.dmm"
+	],
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"minetype": "none"
 }
