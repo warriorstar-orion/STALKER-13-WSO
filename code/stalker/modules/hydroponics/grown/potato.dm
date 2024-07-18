@@ -21,7 +21,8 @@
 	desc = "Boil 'em! Mash 'em! Stick 'em in a stew! This potato looks very unappetizing."
 	icon_state = "zonapotato"
 	filling_color = "#E9967A"
-	bitesize = 100
-	foodtype = VEGETABLES
-	juice_results = list("potato" = 0)
+	bite_consumption = 100
+	foodtypes = VEGETABLES
+	// TODO(wso): Fix juicing results
+	// juice_results = list("potato" = 0)
 	distill_reagent = "vodka"

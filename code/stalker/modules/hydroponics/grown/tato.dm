@@ -23,7 +23,8 @@
 	desc = "The outside looks like a tomato, but the inside is brown. Tastes as absolutely disgusting as it looks, but will keep you from starving."
 	icon_state = "tato"
 	filling_color = "#E9967A"
-	bitesize = 100
-	foodtype = VEGETABLES
-	juice_results = list("potato" = 0)
+	bite_consumption = 100
+	foodtypes = VEGETABLES
+	// TODO(wso): Fix juicing results
+	// juice_results = list("potato" = 0)
 	distill_reagent = /datum/reagent/consumable/ethanol/stalkervodka

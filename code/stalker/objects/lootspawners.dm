@@ -948,7 +948,8 @@ obj/nothing/New()
 					/obj/item/clipboard = 10,
 					/obj/item/flashlight/pen = 10,
 					/obj/item/hand_labeler = 10,
-					/obj/item/modular_computer/tablet/preset/cheap = 10,
+					// TODO(wso): Again, determine difference between tablets and PDAs
+					/obj/item/modular_computer/pda = 10,
 					/obj/nothing = 30)
 
 /obj/effect/spawner/random/stalker/books

@@ -15,7 +15,6 @@
 	name = "Outdoor"
 	icon = 'icons/stalker/areas_outdoor_blowout.dmi'
 	icon_state = "outdoor"
-	open_space = TRUE
 	environment = 15
 
 /area/stalker/sidor

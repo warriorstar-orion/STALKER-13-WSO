@@ -133,7 +133,8 @@
 		/obj/item/storage/pill_bottle/salbutamol = 1,
 		/obj/item/storage/pill_bottle/iron = 1,
 		/obj/item/storage/pill_bottle/painkiller = 1,
-		/obj/item/storage/pill_bottle/charcoal = 1,
+		// TODO(wso): Find charcoal replacement or just add it back
+		// /obj/item/storage/pill_bottle/charcoal = 1,
 		/obj/item/storage/pill_bottle/epinephrine = 1,
 		/obj/item/storage/pill_bottle/penacid = 1)
 	generate_items_inside(items_inside,src)

@@ -35,10 +35,11 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	if(istype(user, /mob/living/carbon))
 		var/mob/living/carbon/mob = user
 		if(istype(loc, user))
-			mob.radiation = max(0, mob.radiation + radiation)
+			// TODO(wso): TG made irradiation cause tox damage, might need to be separated out again
+			mob.adjustToxLoss(radiation * REM)
 
 		else if(istype(loc, /obj/item/storage))
-			mob.radiation = max(0, mob.radiation + radiation)
+			mob.adjustToxLoss(radiation * REM)
 
 		return art_armor
 	return 0
@@ -272,10 +273,9 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	icon_state = "artifactbeltsmall"
 	inhand_icon_state = "artifacts"
 
-/obj/item/storage/belt/stalker/artifact_belt/small/ComponentInitialize()
+/obj/item/storage/belt/stalker/artifact_belt/small/Initialize()
 	. = ..()
-	GET_COMPONENT(STR, /datum/component/storage)
-	STR.max_items = 2
+	atom_storage.max_slots = 2
 
 /obj/item/storage/belt/stalker/artifact_belt/proc/Think(mob/user)
 	for(var/obj/item/artifact/A in contents)

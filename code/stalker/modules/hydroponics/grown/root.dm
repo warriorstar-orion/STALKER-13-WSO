@@ -69,9 +69,29 @@
 	icon_state = "zonacarrot"
 	filling_color = "#FFA500"
 	bite_consumption_mod = 2
-	foodtype = VEGETABLES
+	foodtypes = VEGETABLES
 	juice_results = list("carrotjuice" = 0)
 	wine_power = 30
+
+/obj/item/seeds/carrot/parsnip/zona
+	name = "pack of mutant parsnip seeds"
+	desc = "These seeds grow into parsnips."
+	icon_state = "seed-parsnip"
+	species = "zona parsnip"
+	plantname = "Parsnip"
+	product = /obj/item/reagent_containers/food/snacks/grown/carrot/parsnip/zona
+	icon_dead = "carrot-dead"
+	mutatelist = list()
+	reagents_add = list("vitamin" = 0.05, "nutriment" = 0.05, "uranium" = 0.25)
+
+/obj/item/food/grown/carrot/parsnip/zona
+	seed = /obj/item/seeds/carrot/parsnip/zona
+	name = "decrepit parsnip"
+	desc = "Closely related to carrots. This one looks sickly."
+	icon_state = "zonaparsnip"
+	bitesize_mod = 2
+	foodtype = VEGETABLES
+	wine_power = 35
 
 // TODO(wso): Sorry, carrot shivs will come later
 // /obj/item/food/grown/carrot/zona/attackby(obj/item/I, mob/user, params)

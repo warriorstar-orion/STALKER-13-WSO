@@ -102,20 +102,21 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 		GLOB.KPKs -= src
 	return
 
-/obj/item/stalker_pda/MouseDrop(atom/over_object)
-	. = ..()
-	var/mob/living/M = usr
-	if(!istype(M) || M.incapacitated() || !Adjacent(M))
-		return
+// TODO(wso): Might be okay with default behavior, might not be
+// /obj/item/stalker_pda/MouseDrop(atom/over_object)
+// 	. = ..()
+// 	var/mob/living/M = usr
+// 	if(!istype(M) || M.incapacitated() || !Adjacent(M))
+// 		return
 
-	if(over_object == M)
-		M.put_in_hands(src)
+// 	if(over_object == M)
+// 		M.put_in_hands(src)
 
-	else if(istype(over_object, /obj/screen/inventory/hand))
-		var/obj/screen/inventory/hand/H = over_object
-		M.putItemFromInventoryInHandIfPossible(src, H.held_index)
+// 	else if(istype(over_object, /obj/screen/inventory/hand))
+// 		var/obj/screen/inventory/hand/H = over_object
+// 		M.putItemFromInventoryInHandIfPossible(src, H.held_index)
 
-	add_fingerprint(M)
+// 	add_fingerprint(M)
 
 /obj/item/stalker_pda/attack_hand(mob/living/user)
 	if(src.loc == user)

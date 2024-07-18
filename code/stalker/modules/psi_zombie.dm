@@ -207,8 +207,8 @@
 		if(ranged && !isobj(target))//We ranged? Shoot at em
 			if(target_distance >= min_range_distance && ranged_cooldown <= 0)//But make sure they're a tile away at least, and our range attack is off cooldown
 				if(Zombo_Gun && Zombo_Gun.magazine && Zombo_Gun.magazine.contents.len)
-					if(get_active_hand() != Zombo_Gun)
-						hand = !hand
+					if(get_active_held_item() != Zombo_Gun)
+						swap_hand()
 					OpenFire(target)
 					sleep(50)
 		if(!Process_Spacemove()) // Drifting
@@ -232,8 +232,9 @@
 					else
 						AttackingTarget()
 				else
+					// TODO(wso): Probably wrong
 					if(get_active_hand())
-						hand = !hand
+						swap_hand()
 					target.attack_hand(src)
 					ManageInventory()
 		return 1

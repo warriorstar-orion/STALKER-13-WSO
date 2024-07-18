@@ -20,7 +20,7 @@
 	name = "\improper Laika cigarette packet"
 	desc = "An old box of Laika brand cigarettes. The pack features the space dog Laika on the front of the pack, as well as the Sputnik 2, the Hammer and sickle which is placed on the rocket she was in."
 	icon_state = "laika"
-	spawn_type = /obj/item/clothing/mask/cigarette/laika
+	spawn_type = /obj/item/cigarette/laika
 
 /obj/item/storage/fancy/cigarettes/cigpack_marlboro
 	name = "\improper Marlboro packet"

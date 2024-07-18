@@ -163,7 +163,8 @@
 /obj/structure/flora/bush/wildplant/wild_fungus
 	name = "cave fungi"
 	desc = "This edible strain of fungus usually grows in dark places and is said to have anti-toxic properties."
-	produce = /obj/item/food/grown/mushroom/fungus
+	// TODO(wso): Just reishi for now
+	produce = /obj/item/food/grown/mushroom/reishi
 	icon_state = "wild_fungus"
 
 /obj/structure/flora/bush/wildplant/wild_fungus/Initialize()

@@ -22,7 +22,7 @@
 	if(!isliving(AM))
 		return ..()
 
-	for(var/obj/item/I in AM.atom_storage.get_all_contents())
+	for(var/obj/item/I in AM.atom_storage.return_inv(recursive = FALSE))
 		if(istype(I, /obj/item/vipcard))
 			say("<span class='robot'>Oh, you [AM]! Come through soon!</span>")
 			vip_users += AM
