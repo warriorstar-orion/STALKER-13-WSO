@@ -17,6 +17,52 @@
 		"DarkDolina.dmm",
 		"WildTerritory.dmm"
 	],
+	"traits": [
+		{
+			"//": "Backwater (Zaton) (1)"
+		},
+		{
+			"//": "Underground (2)"
+		},
+		{
+			"//": "Kordon (3)"
+		},
+		{
+			"//": "Rostok (Bar) (4)"
+		},
+		{
+			"//": "Agroprom (5)"
+		},
+		{
+			"//": "Svalka (Garbage) (6)"
+		},
+		{
+			"//": "Radar (7)"
+		},
+		{
+			"//": "Yantar (8)"
+		},
+		{
+			"//": "Army Warehouses (9)"
+		},
+		{
+			"//": "Great Swamps (10)"
+		},
+		{
+			"//": "Dead City Z-2 (11)" ,
+			"Down": true
+		},
+		{
+			"//": "Dead City Z-1 (12)",
+			"Up": true
+		},
+		{
+			"//": "Dark Valley (13)"
+		},
+		{
+			"//": "Wild Territory (14)"
+		}
+	],
 	"space_ruin_levels": 0,
 	"space_empty_levels": 0,
 	"minetype": "none"
