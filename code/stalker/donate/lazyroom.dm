@@ -3,7 +3,7 @@
 	desc = "Decent place for worthy people."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "closed"
-	timeleft = 0
+	initial_duration = 0
 	density = 1
 	var/static/list/vip_users = list()
 
@@ -22,7 +22,7 @@
 	if(!isliving(AM))
 		return ..()
 
-	for(var/obj/item/I in AM.GetAllContents())
+	for(var/obj/item/I in AM.atom_storage.get_all_contents())
 		if(istype(I, /obj/item/vipcard))
 			say("<span class='robot'>Oh, you [AM]! Come through soon!</span>")
 			vip_users += AM
