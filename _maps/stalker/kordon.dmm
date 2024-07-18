@@ -3787,7 +3787,7 @@
 	pixel_x = 13;
 	pixel_y = 11
 	},
-/obj/item/storage/pill_bottle/dice{
+/obj/item/storage/dice{
 	pixel_x = -9;
 	pixel_y = 12
 	},
@@ -4913,7 +4913,7 @@
 /area/stalker)
 "uP" = (
 /obj/structure/table/stalker/wood/bar,
-/obj/effect/spawner/random/gambling,
+/obj/effect/spawner/random/entertainment/gambling,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "uR" = (
@@ -5463,7 +5463,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "Ah" = (
-/mob/living/simple_animal/hostile/tree/festivus,
+/mob/living/basic/festivus,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Ai" = (
@@ -6007,7 +6007,7 @@
 /area/stalker/blowout/outdoor)
 "EP" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
-/obj/item/storage/pill_bottle/dice,
+/obj/item/storage/dice,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
 "ES" = (
@@ -6189,7 +6189,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
 "Gj" = (
-/obj/item/twohanded/required/kirbyplants,
+/obj/item/kirbyplants,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
 "Gp" = (
@@ -8265,7 +8265,7 @@
 /area/stalker/buildings)
 "Xu" = (
 /obj/structure/table/stalker/wood,
-/obj/effect/spawner/random/gambling,
+/obj/effect/spawner/random/entertainment/gambling,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker)
 "Xv" = (

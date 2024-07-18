@@ -424,3 +424,19 @@
 	attack_verb_continuous = list("beat", "smacked", "bonked", "bludgened", "battered")
 	w_class = WEIGHT_CLASS_HUGE
 	slot_flags = ITEM_SLOT_BELT
+
+/obj/item/melee/splattermaster
+	name = "splatter master"
+	desc = "Useful for killing humans and mutants of all sizes."
+	icon = 'icons/stalker/melee_weapons.dmi'
+	icon_state = "flyswatter"
+	inhand_icon_state = "flyswatter"
+	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
+	force = 26
+	throwforce = 15
+	attack_verb_continuous = list("swatted","smacked","collided","whacked","spanked")
+	hitsound = 'sound/effects/snap.ogg'
+	w_class = WEIGHT_CLASS_SMALL
+	//Things in this list will be instantly splatted.  Flyman weakness is handled in the flyman species weakness proc.
+	var/list/strong_against

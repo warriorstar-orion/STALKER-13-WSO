@@ -1184,7 +1184,7 @@
 /area/stalker/blowout/outdoor)
 "dG" = (
 /obj/machinery/hydroponics/soil,
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "dH" = (
@@ -9271,7 +9271,7 @@
 	tag = "icon-border4"
 	},
 /obj/machinery/hydroponics/soil,
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "VZ" = (

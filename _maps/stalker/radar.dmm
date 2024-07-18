@@ -3215,7 +3215,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "ko" = (
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "kp" = (
@@ -5019,7 +5019,7 @@
 /area/stalker/blowout/outdoor)
 "qe" = (
 /obj/rad/rad_low,
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/buildings)
 "qf" = (
@@ -5492,7 +5492,7 @@
 /area/stalker/buildings)
 "rG" = (
 /obj/rad/rad_low,
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "rH" = (
@@ -6734,7 +6734,7 @@
 /area/stalker/buildings)
 "vx" = (
 /obj/effect/decal/cleanable/blood/drip,
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings)
 "vy" = (
@@ -7694,7 +7694,7 @@
 /area/stalker/buildings)
 "yG" = (
 /obj/item/shard,
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "yH" = (
@@ -8594,7 +8594,7 @@
 /area/stalker/buildings)
 "BM" = (
 /obj/rad/rad_medium,
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "BN" = (
@@ -13837,7 +13837,7 @@
 /area/stalker/buildings)
 "Tb" = (
 /obj/structure/flora/stalker/bush,
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Tc" = (
@@ -14732,7 +14732,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings)
 "VX" = (
@@ -14774,7 +14774,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "Wd" = (
-/mob/living/simple_animal/cockroach,
+/mob/living/basic/cockroach,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings)
 "We" = (

@@ -74,3 +74,18 @@
 	icon_state = "voda"
 	list_reagents = list("energetic" = 3, "water" = 37)
 	w_class = 2
+
+/obj/item/reagent_containers/cup/glass/flask/jerrycan
+	name = "jerrycan"
+	desc = "A large green metal jerrycan. It appears to hold quite a lot!"
+	icon_state = "jerrycan"
+	custom_materials = list(/datum/material/silver = SMALL_MATERIAL_AMOUNT)
+	volume = 375
+
+/obj/item/reagent_containers/cup/glass/flask/jerrycan/compost
+	name = "jerrycan"
+	desc = "A large green metal jerrycan. It appears to hold quite a lot!"
+	icon_state = "jerrycan"
+	custom_materials = list(/datum/material/silver = SMALL_MATERIAL_AMOUNT)
+	volume = 375
+	list_reagents = list("compost" = 375)

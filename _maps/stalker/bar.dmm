@@ -1646,7 +1646,7 @@
 	icon_state = "clear";
 	name = "";
 	atom_integrity = 1e+009;
-	tag = ";icon-window (NORTH)" = None
+	tag = ";icon-window (NORTH)"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)

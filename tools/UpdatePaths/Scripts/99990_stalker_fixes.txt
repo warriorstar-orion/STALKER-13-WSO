@@ -1,1 +1,2 @@
-/mob/living/simple_animal/cockroach : /mob/living/simple_animal/cockroach{@SKIP}
+/mob/living/simple_animal/cockroach : /mob/living/basic/cockroach
+/obj/item/candle{lit=1} : /obj/item/flashlight/flare/candle{light_on=1}

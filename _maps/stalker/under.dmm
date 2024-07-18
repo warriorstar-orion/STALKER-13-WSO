@@ -638,9 +638,7 @@
 /obj/anomaly/tramplin,
 /obj/item/stack/spacecash/c1000,
 /obj/anomaly/tramplin,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "cE" = (
@@ -743,13 +741,11 @@
 /area/stalker/buildings/backwater/substation)
 "cV" = (
 /obj/structure/chair/pew/right,
-/obj/item/candle{
-	lit = 1
+/obj/item/flashlight/flare/candle{
+	light_on = 1
 	},
 /obj/item/cultivator,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "cW" = (
@@ -4157,9 +4153,7 @@
 "qk" = (
 /obj/structure/chair/pew,
 /obj/item/stack/spacecash/c5000,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "qm" = (
@@ -4200,9 +4194,7 @@
 /area/stalker/buildings/backwater/krug)
 "qT" = (
 /obj/rad/rad_low,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/misc/dirt/dark,
 /area/stalker)
 "qV" = (
@@ -4214,9 +4206,7 @@
 	dir = 4
 	},
 /obj/rad/rad_low,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/misc/dirt/dark,
 /area/stalker)
 "rg" = (
@@ -4224,9 +4214,7 @@
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/item/stack/spacecash/c100,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "ri" = (
@@ -4347,12 +4335,10 @@
 /area/stalker/buildings/backwater/ironforest)
 "tF" = (
 /obj/item/stack/spacecash/c5000,
-/obj/item/candle{
-	lit = 1
+/obj/item/flashlight/flare/candle{
+	light_on = 1
 	},
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "tH" = (
@@ -4460,8 +4446,7 @@
 /obj/item/clothing/mask/gas/stalker{
 	desc = "Some madman put a monkey's scalp on the gas mask.";
 	icon_state = "monkeymask";
-	name = "monkey mask";
-	unique = 1
+	name = "monkey mask"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
@@ -4523,9 +4508,7 @@
 /obj/structure/chair/pew,
 /obj/anomaly/tramplin,
 /obj/item/stack/spacecash/c100,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "wX" = (
@@ -4604,13 +4587,12 @@
 /area/stalker/buildings/backwater/sawmill)
 "xL" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/clothing/suit/cultrobes{
-	allowed = null;
+/obj/item/clothing/suit/hooded/cultrobes{
 	desc = "A ragged, dusty set of robes.";
 	name = "ancient robes"
 	},
-/obj/item/candle{
-	lit = 1
+/obj/item/flashlight/flare/candle{
+	light_on = 1
 	},
 /obj/item/gun/ballistic/automatic/vintorez,
 /obj/structure/window/spawner/directional/east,
@@ -4754,7 +4736,6 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "Aq" = (
-/obj/machinery/computer/telecrystals/uplinker,
 /turf/closed/wall/stalker/beton,
 /area/stalker/buildings/backwater/krug)
 "Ar" = (
@@ -4853,7 +4834,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "Cx" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/clothing/suit/cultrobes{
+/obj/item/clothing/suit/hooded/cultrobes{
 	allowed = null;
 	desc = "A ragged, dusty set of robes.";
 	name = "ancient robes"
@@ -4911,7 +4892,6 @@
 /turf/open/misc/dirt/dark,
 /area/stalker)
 "DI" = (
-/obj/machinery/clonepod,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "DO" = (
@@ -4921,9 +4901,7 @@
 	},
 /area/stalker/buildings/backwater/claw)
 "DQ" = (
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/misc/dirt,
 /area/stalker)
 "DT" = (
@@ -4968,9 +4946,7 @@
 /area/stalker/buildings/backwater/krug)
 "Fx" = (
 /obj/item/stack/spacecash/c500,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "FH" = (
@@ -5147,18 +5123,14 @@
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/anomaly/tramplin,
 /obj/item/stack/spacecash/c500,
-/obj/item/candle{
-	lit = 1
+/obj/item/flashlight/flare/candle{
+	light_on = 1
 	},
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "JE" = (
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/misc/dirt/dark,
 /area/stalker)
 "JP" = (
@@ -5626,13 +5598,13 @@
 /area/stalker)
 "TT" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/clothing/suit/cultrobes{
+/obj/item/clothing/suit/hooded/cultrobes{
 	allowed = null;
 	desc = "A ragged, dusty set of robes.";
 	name = "ancient robes"
 	},
-/obj/item/candle{
-	lit = 1
+/obj/item/flashlight/flare/candle{
+	light_on = 1
 	},
 /obj/item/gun/ballistic/automatic/fnf2000s,
 /obj/structure/window/spawner/directional/south,
@@ -5701,9 +5673,7 @@
 "UB" = (
 /obj/structure/chair/pew,
 /obj/item/stack/spacecash/c100,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "UH" = (
@@ -5716,9 +5686,7 @@
 /obj/anomaly/electro,
 /obj/item/storage/firstaid/ifak,
 /obj/item/stack/spacecash/c5000,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "UQ" = (
@@ -5736,9 +5704,7 @@
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "Vc" = (
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "Vu" = (
@@ -5919,7 +5885,7 @@
 /area/stalker/buildings/backwater/krug)
 "Yr" = (
 /obj/structure/table/wood/fancy/black,
-/obj/item/clothing/suit/cultrobes{
+/obj/item/clothing/suit/hooded/cultrobes{
 	allowed = null;
 	desc = "A ragged, dusty set of robes.";
 	name = "ancient robes"
@@ -5968,9 +5934,7 @@
 /area/stalker)
 "Zn" = (
 /obj/item/storage/firstaid/ai2,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "Zt" = (
@@ -6003,9 +5967,7 @@
 "ZC" = (
 /obj/structure/chair/pew,
 /obj/item/stack/spacecash/c500,
-/mob/living/simple_animal/cockroach{
-	faction = list("neutral, stalker_mutants1")
-	},
+/mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "ZD" = (
