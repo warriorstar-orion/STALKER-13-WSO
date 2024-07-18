@@ -1368,7 +1368,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "ed" = (
-/obj/structure/grille/ratvar/broken,
+/obj/structure/grille/broken,
 /obj/structure/flora/stalker/bush,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
@@ -1807,7 +1807,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "fD" = (
-/obj/machinery/vending/cola/random,
+/obj/effect/spawner/random/vending/colavend,
 /obj/rad/rad_medium,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
@@ -2896,7 +2896,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ji" = (
-/obj/structure/grille/ratvar/broken,
+/obj/structure/grille/broken,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings)
 "jj" = (
@@ -3296,16 +3296,16 @@
 /obj/structure/stalker/cacheable/polka,
 /obj/item/stack/spacecash/c5000,
 /obj/item/stack/spacecash/c50,
-/obj/item/grenade/syndieminibomb/concussion/frag{
+/obj/item/grenade/frag{
 	name = "Pugach"
 	},
-/obj/item/grenade/syndieminibomb/concussion/frag{
+/obj/item/grenade/frag{
 	name = "Pugach"
 	},
-/obj/item/grenade/syndieminibomb/concussion/frag{
+/obj/item/grenade/frag{
 	name = "Pugach"
 	},
-/obj/item/grenade/syndieminibomb/concussion/frag{
+/obj/item/grenade/frag{
 	name = "Pugach"
 	},
 /turf/open/stalker/floor/gryaz,
@@ -5351,7 +5351,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "rh" = (
-/obj/structure/grille/ratvar/broken,
+/obj/structure/grille/broken,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings)
@@ -6265,12 +6265,12 @@
 	pixel_x = 1;
 	pixel_y = 1
 	},
-/obj/item/grenade/syndieminibomb/concussion/frag{
+/obj/item/grenade/frag{
 	name = "Pugach";
 	pixel_x = 7;
 	pixel_y = 15
 	},
-/obj/item/grenade/syndieminibomb/concussion/frag{
+/obj/item/grenade/frag{
 	name = "Pugach";
 	pixel_x = -6;
 	pixel_y = 15
@@ -8628,7 +8628,7 @@
 /turf/open/floor/wood/cold,
 /area/stalker/buildings)
 "BT" = (
-/obj/structure/grille/ratvar/broken,
+/obj/structure/grille/broken,
 /obj/rad/rad_low,
 /obj/effect/decal/cleanable/glass,
 /turf/open/stalker/floor/digable/grass,
@@ -10147,7 +10147,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings)
 "GO" = (
-/obj/structure/grille/ratvar/broken,
+/obj/structure/grille/broken,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "GP" = (
@@ -11349,7 +11349,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "KB" = (
-/obj/structure/grille/ratvar/broken,
+/obj/structure/grille/broken,
 /obj/anomaly/puh,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings)
@@ -12048,7 +12048,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
 "MT" = (
-/obj/structure/grille/ratvar/broken,
+/obj/structure/grille/broken,
 /obj/anomaly/puh,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
@@ -15162,7 +15162,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "Xt" = (
-/obj/structure/grille/ratvar/broken,
+/obj/structure/grille/broken,
 /obj/effect/spawner/random/stalker/junk,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
