@@ -3,7 +3,7 @@
 	desc = "Excellent energy drink Non-Stop. Contains caffeine, taurine, and a powerful vitamin complex that relieves fatigue and adds strength. Feel like you need a boost? Then this is exactly what you need."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "nonstop"
-	list_reagents = list("energetic" = 10, "water" = 20)
+	list_reagents = list("energetic" = 10, /datum/reagent/water = 20)
 	w_class = 2
 
 /obj/item/reagent_containers/cup/soda_cans/crunk
@@ -56,7 +56,7 @@
 	desc = "a small plastic container filled with purified and deradiated water!"
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "purified_water"
-	list_reagents = list("water" = 40)
+	list_reagents = list(/datum/reagent/water = 40)
 	w_class = 2
 
 /obj/item/reagent_containers/cup/soda_cans/zonetea
@@ -72,7 +72,7 @@
 	desc = "Refreshing mineral water."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "voda"
-	list_reagents = list("energetic" = 3, "water" = 37)
+	list_reagents = list("energetic" = 3, /datum/reagent/water = 37)
 	w_class = 2
 
 /obj/item/reagent_containers/cup/glass/flask/jerrycan

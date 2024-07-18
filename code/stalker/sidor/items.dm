@@ -308,7 +308,7 @@
 	name = "Kazaki"
 	itemtype = /obj/item/reagent_containers/cup/glass/bottle/vodka/kazaki
 	cost = 300
-	words = list("Bottle" = 5, "bottle" = 5, "Vodka" = 5, "vodka" = 5, "Waterÿry" = 5, "waterÿry" = 5, "Cossacks" = 5, "Cossacks" = 5, "Vodka" = 5, "vodka" = 10)
+	words = list("Bottle" = 5, "bottle" = 5, "Vodka" = 5, /datum/reagent/consumable/ethanol/vodka = 5, "Waterÿry" = 5, "waterÿry" = 5, "Cossacks" = 5, "Cossacks" = 5, "Vodka" = 5, /datum/reagent/consumable/ethanol/vodka = 10)
 
 /sidoritem/energetic
 	name = "NonStop"

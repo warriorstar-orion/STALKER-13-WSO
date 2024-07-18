@@ -4,7 +4,7 @@
 	icon_state = "commie_flask"
 	custom_materials = list(/datum/material/silver = SMALL_MATERIAL_AMOUNT * 5)
 	volume = 60
-	list_reagents = list("vodka" = 35, "kahlua" = 25)
+	list_reagents = list(/datum/reagent/consumable/ethanol/vodka = 35, "kahlua" = 25)
 
 /obj/item/reagent_containers/cup/glass/flask/russian
 	name = "russian flask"
@@ -12,7 +12,7 @@
 	icon_state = "russian_flask"
 	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 5)
 	volume = 60
-	list_reagents = list("vodka" = 40, "tonic" = 20)
+	list_reagents = list(/datum/reagent/consumable/ethanol/vodka = 40, /datum/reagent/consumable/tonic = 20)
 
 /obj/item/reagent_containers/cup/glass/flask/face
 	name = "metal flask"
@@ -20,7 +20,7 @@
 	icon_state = "face_flask"
 	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 5)
 	volume = 60
-	list_reagents = list("vodka" = 40, "water" = 20)
+	list_reagents = list(/datum/reagent/consumable/ethanol/vodka = 40, /datum/reagent/water = 20)
 
 /obj/item/reagent_containers/cup/glass/flask/cylinder
 	name = "metal flask"
@@ -28,4 +28,4 @@
 	icon_state = "cylinder_flask"
 	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 5)
 	volume = 80
-	list_reagents = list("vodka" = 60, "water" = 20)
+	list_reagents = list(/datum/reagent/consumable/ethanol/vodka = 60, /datum/reagent/water = 20)

@@ -55,7 +55,7 @@ obj/item/reagent_containers/pill/stalker/afterattack(obj/target, mob/user , prox
 	desc = "If you're seeing this something has gone TERRIBLY fucking wrong"
 	inhand_icon_state = "brute"
 	var/wrapped = 1
-	list_reagents = list("water" = 15)
+	list_reagents = list(/datum/reagent/water = 15)
 	var/icon_state_opened = "sj1_open"
 	var/desc_opened = "Opened bottle."
 
