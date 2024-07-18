@@ -2336,7 +2336,7 @@
 /area/stalker/blowout/outdoor)
 "iT" = (
 /obj/structure/stalker/luk,
-/obj/structure/ladder/unbreakable/binary/unlinked{
+/obj/structure/ladder/unbreakable{
 	down = 1;
 	height = 1;
 	pixel_y = 10
@@ -4149,7 +4149,7 @@
 /area/stalker/agroprom/buildings)
 "rU" = (
 /obj/structure/stalker/luk/open/ladder,
-/obj/structure/ladder/unbreakable/binary/space{
+/obj/structure/ladder/unbreakable{
 	down = 1;
 	height = 1;
 	pixel_y = 12
@@ -4808,7 +4808,7 @@
 	},
 /area/stalker/kordon/tunnel)
 "vN" = (
-/obj/structure/ladder/unbreakable/binary{
+/obj/structure/ladder/unbreakable{
 	up = null
 	},
 /turf/open/stalker/floor/agroprom/beton,
@@ -5871,7 +5871,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
 "CM" = (
-/obj/structure/ladder/unbreakable/binary/space,
+/obj/structure/ladder/unbreakable,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "CP" = (
@@ -5982,7 +5982,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "Ew" = (
-/obj/structure/ladder/unbreakable/binary{
+/obj/structure/ladder/unbreakable{
 	down = 1;
 	height = 1
 	},
@@ -9115,7 +9115,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/kordon/tunnel)
 "VU" = (
-/obj/structure/ladder/unbreakable/binary/unlinked,
+/obj/structure/ladder/unbreakable,
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor)
 "VV" = (
