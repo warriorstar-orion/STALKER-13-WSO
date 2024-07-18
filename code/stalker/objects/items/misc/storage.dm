@@ -21,7 +21,7 @@
 	w_class = WEIGHT_CLASS_HUGE
 	slot_flags = ITEM_SLOT_BACK
 
-/obj/item/storage/backpack/stalker/Initialize()
+/obj/item/storage/backpack/stalker/Initialize(mapload)
 	. = ..()
 	atom_storage.max_total_storage = 30
 	atom_storage.max_specific_storage = WEIGHT_CLASS_BULKY
@@ -34,7 +34,7 @@
 	icon_state = "backpack-civilian"
 	inhand_icon_state = "backpack-civilian"
 
-/obj/item/storage/backpack/stalker/civilian/Initialize()
+/obj/item/storage/backpack/stalker/civilian/Initialize(mapload)
 	. = ..()
 	atom_storage.max_total_storage = 20
 	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL
@@ -45,7 +45,7 @@
 	icon_state = "backpack-tourist"
 	inhand_icon_state = "backpack-tourist"
 
-/obj/item/storage/backpack/stalker/tourist/Initialize()
+/obj/item/storage/backpack/stalker/tourist/Initialize(mapload)
 	. = ..()
 	atom_storage.max_total_storage = 35
 	atom_storage.max_specific_storage = WEIGHT_CLASS_BULKY
@@ -57,7 +57,7 @@
 	inhand_icon_state = "backpack-professional"
 	slowdown = 0.1
 
-/obj/item/storage/backpack/stalker/professional/Initialize()
+/obj/item/storage/backpack/stalker/professional/Initialize(mapload)
 	. = ..()
 	atom_storage.max_total_storage = 55
 	atom_storage.max_specific_storage = WEIGHT_CLASS_BULKY
@@ -69,7 +69,7 @@
 	inhand_icon_state = "backpack-rucksack"
 	slowdown = 0.3
 
-/obj/item/storage/backpack/stalker/rucksack/Initialize()
+/obj/item/storage/backpack/stalker/rucksack/Initialize(mapload)
 	. = ..()
 	atom_storage.max_total_storage = 60
 	atom_storage.max_slots = 30
@@ -82,7 +82,7 @@
 	w_class = WEIGHT_CLASS_HUGE
 	slot_flags = ITEM_SLOT_BACK
 
-/obj/item/storage/backpack/satchel/stalker/Initialize()
+/obj/item/storage/backpack/satchel/stalker/Initialize(mapload)
 	. = ..()
 	atom_storage.max_total_storage = 30
 	atom_storage.max_specific_storage = WEIGHT_CLASS_BULKY
@@ -95,7 +95,7 @@
 	icon_state = "satchel-civilian"
 	inhand_icon_state = "satchel-civilian"
 
-/obj/item/storage/backpack/satchel/stalker/Initialize()
+/obj/item/storage/backpack/satchel/stalker/Initialize(mapload)
 	. = ..()
 	atom_storage.max_total_storage = 18
 	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL

@@ -616,7 +616,7 @@
 	name = "nothing"
 	invisibility = 101
 
-/obj/nothing/Initialize()
+/obj/nothing/Initialize(mapload)
 	. = ..()
 	return QDEL_HINT_QUEUE
 

@@ -49,7 +49,7 @@
 	anchored = 1
 	opacity = 1
 
-/obj/structure/flora/stalker/bush/Initialize()
+/obj/structure/flora/stalker/bush/Initialize(mapload)
 	. = ..()
 	icon_state = "tall_grass_[rand(1,8)]"
 
@@ -61,16 +61,16 @@
 
 /turf/closed/wall/stalker
 	canSmoothWith = list(
-	/turf/closed/wall/stalker/beton,
-	/turf/closed/wall/stalker/bricks,
-	/turf/closed/wall/stalker/bricks_yellow,
-	/turf/closed/wall/stalker/bricks_white,
-	/turf/closed/wall/stalker/beton_agro,
-	/turf/closed/wall/stalker/brick,
-	/turf/closed/wall/stalker/brickdark,
-	/turf/closed/wall/stalker/superstore,
-	/turf/closed/wall/stalker/store,
-	/turf/closed/wall/stalker/log
+	// /turf/closed/wall/stalker/beton,
+	// /turf/closed/wall/stalker/bricks,
+	// /turf/closed/wall/stalker/bricks_yellow,
+	// /turf/closed/wall/stalker/bricks_white,
+	// /turf/closed/wall/stalker/beton_agro,
+	// /turf/closed/wall/stalker/brick,
+	// /turf/closed/wall/stalker/brickdark,
+	// /turf/closed/wall/stalker/superstore,
+	// /turf/closed/wall/stalker/store,
+	// /turf/closed/wall/stalker/log
 	///obj/structure/stalker/okno/whitebrick/odin,
 	///obj/structure/stalker/okno/whitebrick/dva,
 	///obj/structure/stalker/okno/whitebrick/tri,
@@ -85,8 +85,8 @@
 	resistance_flags = INDESTRUCTIBLE
 	flags_ricochet = RICOCHET_HARD
 
-/turf/closed/wall/stalker/Initialize()
-	..()
+/turf/closed/wall/stalker/Initialize(mapload)
+	. = ..()
 	if(locate(/obj/structure/stalker/okno) in contents)
 		opacity = 0
 		// TODO(wso): How are these windows working
@@ -150,21 +150,21 @@
 	desc = "A huge chunk of hull"
 	icon = 'icons/stalker/barzha.dmi'
 	icon_state = "hull"
-	canSmoothWith = list(/turf/closed/wall/stalker/ship)
+	// canSmoothWith = list(/turf/closed/wall/stalker/ship)
 
 /turf/closed/wall/stalker/log
 	name = "log wall"
 	desc = "A log wall"
 	icon = 'icons/stalker/turf/walls/log.dmi'
 	icon_state = "log"
-	canSmoothWith = list(/turf/closed/wall/stalker/log)
+	// canSmoothWith = list(/turf/closed/wall/stalker/log)
 
 /turf/closed/wall/stalker/store
 	name = "concrete wall"
 	desc = "A concrete wall"
 	icon = 'icons/stalker/turf/walls/store.dmi'
 	icon_state = "store"
-	canSmoothWith = list(/turf/closed/wall/stalker/store)
+	// canSmoothWith = list(/turf/closed/wall/stalker/store)
 
 /turf/closed/wall/stalker/superstore
 	name = "concrete wall"

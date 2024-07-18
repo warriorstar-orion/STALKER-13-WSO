@@ -8,7 +8,7 @@ GLOBAL_LIST_EMPTY(blowout_spawners)
 	faction = list("mining")
 	var/list/spawned_mobs = list()
 
-/obj/effect/landmark/blowout_spawner/Initialize()
+/obj/effect/landmark/blowout_spawner/Initialize(mapload)
 	. = ..()
 	GLOB.blowout_spawners += src
 	spawn_mobs()

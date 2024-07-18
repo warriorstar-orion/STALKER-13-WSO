@@ -1375,7 +1375,7 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	// TODO(wso): Dunno where to put this
 	var/waspicked = FALSE
 
-/obj/structure/stalker/cacheable/Initialize()
+/obj/structure/stalker/cacheable/Initialize(mapload)
 	. = ..()
 	GLOB.stalker_caches += src
 	RefreshContents()

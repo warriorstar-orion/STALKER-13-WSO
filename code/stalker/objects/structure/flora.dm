@@ -108,9 +108,9 @@
 	anchored = 1
 	density = 0
 
-/obj/structure/flora/bush/wildplant/root/Initialize()
-	icon_state = "wild_root[rand(1, 12)]"
+/obj/structure/flora/bush/wildplant/root/Initialize(mapload)
 	. = ..()
+	icon_state = "wild_root[rand(1, 12)]"
 
 /obj/structure/flora/bush/wildplant/root/wild_garlic
 	name = "wild garlic roots"
@@ -167,9 +167,9 @@
 	produce = /obj/item/food/grown/mushroom/reishi
 	icon_state = "wild_fungus"
 
-/obj/structure/flora/bush/wildplant/wild_fungus/Initialize()
-	icon_state = "wild_fungus[rand(1, 4)]"
+/obj/structure/flora/bush/wildplant/wild_fungus/Initialize(mapload)
 	. = ..()
+	icon_state = "wild_fungus[rand(1, 4)]"
 
 /obj/structure/flora/bush/wildplant/wild_berries
 	name = "wild berries"
@@ -177,9 +177,9 @@
 	produce = /obj/item/food/grown/berries
 	icon_state = "wild_berries"
 
-/obj/structure/flora/bush/wildplant/wild_berries/Initialize()
-	icon_state = "wild_berries[rand(1, 4)]"
+/obj/structure/flora/bush/wildplant/wild_berries/Initialize(mapload)
 	. = ..()
+	icon_state = "wild_berries[rand(1, 4)]"
 
 /obj/structure/flora/bush/wildplant/wild_bayleaf
 	name = "wild bay leaf"
@@ -187,6 +187,6 @@
 	desc = "Bay leaf is likely the most important herb."
 	produce = /obj/item/food/grown/bayleaf
 
-/obj/structure/flora/bush/wildplant/wild_bayleaf/Initialize()
-	icon_state = "wild_bayleaf[rand(1, 4)]"
+/obj/structure/flora/bush/wildplant/wild_bayleaf/Initialize(mapload)
 	. = ..()
+	icon_state = "wild_bayleaf[rand(1, 4)]"

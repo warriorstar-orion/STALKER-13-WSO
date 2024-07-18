@@ -585,7 +585,7 @@
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	icon_state = "ecolog_helmet"
 
-/obj/item/clothing/head/hooded/stalker/sealed/ecolog/Initialize()
+/obj/item/clothing/head/hooded/stalker/sealed/ecolog/Initialize(mapload)
 	AttachNVG()
 	//nvg = new /obj/item/nightvision(src)
 	..()
@@ -619,7 +619,7 @@
 	icon_state = "ecologg_helmet"
 	resistance_flags = FIRE_PROOF
 
-/obj/item/clothing/head/hooded/stalker/sealed/ecologm/Initialize()
+/obj/item/clothing/head/hooded/stalker/sealed/ecologm/Initialize(mapload)
 	AttachNVG()
 	//nvg = new /obj/item/nightvision(src)
 	..()
@@ -653,7 +653,7 @@
 	icon_state = "seva_helmet"
 	resistance_flags = FIRE_PROOF
 
-/obj/item/clothing/head/hooded/stalker/sealed/seva/Initialize()
+/obj/item/clothing/head/hooded/stalker/sealed/seva/Initialize(mapload)
 	AttachNVG()
 	//nvg = new /obj/item/nightvision(src)
 	..()
@@ -695,10 +695,10 @@
 	icon_state = "psz9md_helmet"
 	resistance_flags = FIRE_PROOF
 
-/obj/item/clothing/head/hooded/stalker/sealed/psz9md/Initialize()
+/obj/item/clothing/head/hooded/stalker/sealed/psz9md/Initialize(mapload)
 	AttachNVG()
 	//nvg = new /obj/item/nightvision(src)
-	..()
+	. = ..()
 
 /obj/item/clothing/suit/hooded/sealed/sin
 	name = "Sinner suit"
@@ -730,10 +730,10 @@
 	icon_state = "sin_helmet"
 	resistance_flags = FIRE_PROOF
 
-/obj/item/clothing/head/hooded/stalker/sealed/psz9md/Initialize()
-	AttachNVG()
+/obj/item/clothing/head/hooded/stalker/sealed/psz9md/Initialize(mapload)
 	//nvg = new /obj/item/nightvision(src)
-	..()
+	. = ..()
+	AttachNVG()
 
 /obj/item/clothing/suit/hooded/sealed/exoskelet
 	name = "Exoskeleton"

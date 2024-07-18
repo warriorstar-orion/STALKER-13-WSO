@@ -177,7 +177,7 @@
 	new /obj/item/food/stalker/konserva/snack/chocolate(src)
 	new /obj/item/reagent_containers/cup/soda_cans/voda(src)
 
-/obj/item/storage/box/MRE/Initialize()
+/obj/item/storage/box/MRE/Initialize(mapload)
 	. = ..()
 	atom_storage.max_slots = 10
 	atom_storage.set_holdable(list(/obj/item/food/stalker/konserva, /obj/item/trash/konserva, /obj/item/reagent_containers/cup/glass))

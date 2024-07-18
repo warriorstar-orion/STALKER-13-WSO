@@ -35,7 +35,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	layer = ABOVE_MOB_LAYER
 	pass_flags = PASSTABLE | PASSGRILLE
 
-/obj/anomaly/Initialize()
+/obj/anomaly/Initialize(mapload)
 	. = ..()
 	GLOB.anomalies += src
 	icon_state = inactive_icon_state
@@ -45,6 +45,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	START_PROCESSING(SSobj, src)
 
 /obj/anomaly/Destroy(force)
+	GLOB.anomalies -= src
 	STOP_PROCESSING(SSobj, src)
 	return ..()
 
@@ -289,7 +290,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 				/obj/item/artifact/pustishka = 0.25
 				)
 
-/obj/anomaly/electro/Initialize()
+/obj/anomaly/electro/Initialize(mapload)
 	. = ..()
 	src.set_light(idle_luminosity)
 
@@ -361,7 +362,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 				/obj/item/artifact/maminibusi = 0.5
 				)
 
-/obj/anomaly/jarka/Initialize()
+/obj/anomaly/jarka/Initialize(mapload)
 	. = ..()
 	src.set_light(idle_luminosity)
 
@@ -512,7 +513,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 	playsound(src.loc, src.sound, 50, 1, channel = 0)
 	return
 
-/obj/anomaly/holodec/splash/Initialize()
+/obj/anomaly/holodec/splash/Initialize(mapload)
 	. = ..()
 	stage = BIRTH_STAGE
 	flick("holodec_splash_creation", src)
@@ -572,7 +573,7 @@ GLOBAL_LIST_EMPTY(anomalies)
 
 	qdel(I)
 
-/obj/anomaly/puh/Initialize()
+/obj/anomaly/puh/Initialize(mapload)
 	. = ..()
 	inactive_icon_state = pick("puh","puh2")
 	icon_state = inactive_icon_state

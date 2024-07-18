@@ -16,7 +16,7 @@
 	icon_state = "ifak"
 	w_class = WEIGHT_CLASS_NORMAL
 
-/obj/item/storage/firstaid/ifak/Initialize()
+/obj/item/storage/firstaid/ifak/Initialize(mapload)
 	. = ..()
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 	atom_storage.max_slots = 7
@@ -113,7 +113,7 @@
 	throw_speed = 1
 	throw_range = 4
 
-/obj/item/storage/firstaid/ai2/Initialize()
+/obj/item/storage/firstaid/ai2/Initialize(mapload)
 	. = ..()
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 	atom_storage.max_slots = 12
@@ -149,7 +149,7 @@
 	icon_state = "aptechkar"
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/storage/firstaid/ai2/Initialize()
+/obj/item/storage/firstaid/ai2/Initialize(mapload)
 	. = ..()
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 	atom_storage.max_slots = 3
@@ -174,7 +174,7 @@
 	icon_state = "aptechkab"
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/storage/firstaid/armymedkit/Initialize()
+/obj/item/storage/firstaid/armymedkit/Initialize(mapload)
 	. = ..()
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 	atom_storage.max_slots = 3
@@ -199,7 +199,7 @@
 	icon_state = "aptechkay"
 	w_class = WEIGHT_CLASS_SMALL
 
-/obj/item/storage/firstaid/sciencemedkit/Initialize()
+/obj/item/storage/firstaid/sciencemedkit/Initialize(mapload)
 	. = ..()
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 	atom_storage.max_slots = 3

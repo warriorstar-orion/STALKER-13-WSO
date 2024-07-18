@@ -38,8 +38,8 @@
 		qdel(src)
 		return
 */
-/obj/structure/closet/crate/stalker/blue/stash/Initialize()
-	..()
+/obj/structure/closet/crate/stalker/blue/stash/Initialize(mapload)
+	. = ..()
 	switch(rating_add)
 		if(0 to 200)
 			loot = GLOB.low_tier_sidormatitems

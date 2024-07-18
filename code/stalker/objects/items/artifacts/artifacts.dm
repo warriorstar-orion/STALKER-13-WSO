@@ -16,7 +16,7 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	w_class = 2
 	var/obj/effect/fakeart/phantom = null
 
-/obj/item/artifact/Initialize()
+/obj/item/artifact/Initialize(mapload)
 	. = ..()
 	GLOB.all_artifacts += src
 	capacity = rand(1000, 10000)
@@ -259,7 +259,7 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	icon_state = "artifactbelt"
 	inhand_icon_state = "utility"
 
-/obj/item/storage/belt/stalker/Initialize()
+/obj/item/storage/belt/stalker/Initialize(mapload)
 	. = ..()
 	atom_storage.max_slots = 5
 	atom_storage.set_holdable(list(/obj/item/artifact))
@@ -274,7 +274,7 @@ GLOBAL_LIST_EMPTY(all_artifacts)
 	icon_state = "artifactbeltsmall"
 	inhand_icon_state = "artifacts"
 
-/obj/item/storage/belt/stalker/artifact_belt/small/Initialize()
+/obj/item/storage/belt/stalker/artifact_belt/small/Initialize(mapload)
 	. = ..()
 	atom_storage.max_slots = 2
 

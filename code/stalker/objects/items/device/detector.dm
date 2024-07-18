@@ -56,7 +56,7 @@
 	*/
 	// NOTE : Placeholder code for svarog. Needs sprites to be implemented! - Sechs
 
-/obj/item/detector/Initialize()
+/obj/item/detector/Initialize(mapload)
 	. = ..()
 	arts = list()
 	fakearts = list()

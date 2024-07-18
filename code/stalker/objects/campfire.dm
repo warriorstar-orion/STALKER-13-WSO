@@ -14,7 +14,7 @@
 	var/last_campfire_played = 0
 	var/datum/looping_sound/campfire/soundloop
 
-/obj/machinery/campfire/Initialize()
+/obj/machinery/campfire/Initialize(mapload)
 	. = ..()
 	soundloop = new(list(src), active)
 

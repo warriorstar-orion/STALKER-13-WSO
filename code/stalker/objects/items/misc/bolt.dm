@@ -6,7 +6,7 @@
 	w_class = 6//from 1. >:(
 	throwforce = 1//:)
 
-/obj/item/stalker/bolt/Initialize()
+/obj/item/stalker/bolt/Initialize(mapload)
 	. = ..()
 	QDEL_IN(src, 5 SECONDS)
 

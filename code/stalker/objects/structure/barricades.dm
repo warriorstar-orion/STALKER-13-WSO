@@ -68,8 +68,8 @@
 					/obj/item/radio = 20,
 					/obj/item/gun/ballistic/automatic/pistol/pm = 3)
 
-/obj/structure/barricade/stalker/box/Initialize()
-	..()
+/obj/structure/barricade/stalker/box/Initialize(mapload)
+	. = ..()
 	lootcount = rand(1, 2)
 
 /obj/structure/stalker/blocks
