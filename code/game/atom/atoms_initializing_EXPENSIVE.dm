@@ -1,6 +1,5 @@
 /// Init this specific atom
 /datum/controller/subsystem/atoms/proc/InitAtom(atom/A, from_template = FALSE, list/arguments)
-	logger.Log(LOG_CATEGORY_DEBUG, "initializing [A.type]")
 	var/the_type = A.type
 
 	if(QDELING(A))

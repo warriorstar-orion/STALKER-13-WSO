@@ -80,16 +80,16 @@ SUBSYSTEM_DEF(atoms)
 	if (atoms_to_return)
 		LAZYINITLIST(created_atoms)
 
-	// #ifdef TESTING
+	#ifdef TESTING
 	var/count
-	// #endif
+	#endif
 
 	var/list/mapload_arg = list(TRUE)
 
 	if(atoms)
-		// #ifdef TESTING
+		#ifdef TESTING
 		count = atoms.len
-		// #endif
+		#endif
 
 		for(var/I in 1 to atoms.len)
 			var/atom/A = atoms[I]
@@ -104,25 +104,24 @@ SUBSYSTEM_DEF(atoms)
 				InitAtom(A, TRUE, mapload_arg)
 				PROFILE_INIT_ATOM_END(A)
 	else
-		// #ifdef TESTING
+		#ifdef TESTING
 		count = 0
-		// #endif
+		#endif
 
 		for(var/atom/A as anything in world)
 			if(!(A.flags_1 & INITIALIZED_1))
 				PROFILE_INIT_ATOM_BEGIN()
 				InitAtom(A, FALSE, mapload_arg)
 				PROFILE_INIT_ATOM_END(A)
-				// #ifdef TESTING
+				#ifdef TESTING
 				++count
-				// #endif
+				#endif
 				if(TICK_CHECK)
 					clear_tracked_initalize(mapload_source)
 					stoplag()
 					if(mapload_source)
 						set_tracked_initalized(INITIALIZATION_INNEW_MAPLOAD, mapload_source)
 
-	logger.Log(LOG_CATEGORY_DEBUG, "initialized [count] atoms")
 	testing("Initialized [count] atoms")
 
 /datum/controller/subsystem/atoms/proc/map_loader_begin(source)
