@@ -231,7 +231,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor)
 "aN" = (
-/obj/structure/chair/office/dark,
+/obj/structure/chair/office,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
@@ -1666,7 +1666,7 @@
 /turf/closed/wall/r_wall/rust,
 /area/stalker/buildings)
 "fg" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/office{
 	dir = 1
 	},
 /obj/rad/rad_low,
@@ -2069,12 +2069,6 @@
 /obj/anomaly/tramplin,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
-"gw" = (
-/obj/structure/chair/office/dark{
-	dir = 1
-	},
-/turf/open/stalker/floor/plasteel/plita/orange,
-/area/stalker/buildings)
 "gx" = (
 /obj/structure/stalker/car/btrgrimy{
 	icon_state = "8"
@@ -3817,7 +3811,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/buildings)
 "mj" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/office{
 	dir = 4
 	},
 /turf/open/stalker/floor/digable/grass,
@@ -3981,7 +3975,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "mM" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/office{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/footprints{
@@ -5583,7 +5577,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor)
 "rU" = (
-/obj/structure/chair/office/dark,
+/obj/structure/chair/office,
 /mob/living/simple_animal/hostile/mutant/zombiesimp/ranged,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -8156,7 +8150,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "Aj" = (
-/obj/structure/chair/office/dark,
+/obj/structure/chair/office,
 /obj/anomaly/tramplin,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
@@ -10527,7 +10521,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
 "HU" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/office{
 	dir = 8
 	},
 /obj/rad/rad_low,
@@ -10669,7 +10663,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "Is" = (
-/obj/structure/chair/office/dark,
+/obj/structure/chair/office,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 6
 	},
@@ -10742,7 +10736,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "IF" = (
-/obj/structure/chair/office/dark,
+/obj/structure/chair/office,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "IG" = (
@@ -14155,7 +14149,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "TY" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/office{
 	dir = 1
 	},
 /obj/rad/rad_low,
@@ -15093,7 +15087,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
 "Xf" = (
-/obj/structure/chair/office/dark,
+/obj/structure/chair/office,
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -15351,7 +15345,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "XT" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/office{
 	dir = 8
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -15864,7 +15858,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "ZM" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/office{
 	dir = 4
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -27175,7 +27169,7 @@ YV
 UF
 UF
 id
-gw
+ga
 pe
 Kr
 of

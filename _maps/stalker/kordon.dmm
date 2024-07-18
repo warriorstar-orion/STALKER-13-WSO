@@ -2175,7 +2175,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/buildings)
 "gH" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/office{
 	dir = 8
 	},
 /turf/open/stalker/floor/wood/oldgor,

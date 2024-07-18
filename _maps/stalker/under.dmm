@@ -566,7 +566,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/waste)
 "cs" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/office{
 	dir = 1
 	},
 /turf/open/stalker/floor/plasteel/plitka,
@@ -4618,10 +4618,8 @@
 	lit = 1
 	},
 /obj/item/gun/ballistic/automatic/vintorez,
-/obj/structure/window{
-	dir = 4
-	},
-/obj/structure/window,
+/obj/structure/window/spawner/directional/east,
+/obj/structure/window/spawner/directional/south,
 /obj/item/melee/splattermaster,
 /turf/open/floor/iron/chapel,
 /area/stalker)
@@ -4701,7 +4699,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
 "zE" = (
-/obj/structure/chair/office/dark{
+/obj/structure/chair/office{
 	dir = 4
 	},
 /turf/open/stalker/floor/plasteel/plitka,
@@ -4713,10 +4711,10 @@
 /area/stalker)
 "zN" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced/plasma/spawner/west,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
 /obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/reinforced/plasma/spawner/east,
-/obj/structure/window/reinforced/plasma/spawner/north,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
 /obj/item/artifact/flash,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
@@ -4785,10 +4783,10 @@
 /area/stalker/buildings/backwater/ironforest)
 "AP" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced/plasma/spawner/west,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
 /obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/reinforced/plasma/spawner/east,
-/obj/structure/window/reinforced/plasma/spawner/north,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
 /obj/item/artifact/stone_blood,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
@@ -4866,7 +4864,7 @@
 	name = "ancient robes"
 	},
 /obj/item/gun/ballistic/automatic/gp37,
-/obj/structure/window,
+/obj/structure/window/spawner/directional/south,
 /obj/item/melee/splattermaster,
 /turf/open/floor/iron/chapel,
 /area/stalker)
@@ -5647,10 +5645,8 @@
 	lit = 1
 	},
 /obj/item/gun/ballistic/automatic/fnf2000s,
-/obj/structure/window,
-/obj/structure/window{
-	dir = 8
-	},
+/obj/structure/window/spawner/directional/south,
+/obj/structure/window/spawner/directional/west,
 /obj/item/melee/splattermaster,
 /turf/open/floor/iron/chapel,
 /area/stalker)
@@ -5766,10 +5762,10 @@
 /area/stalker)
 "Vv" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced/plasma/spawner/west,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
 /obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/reinforced/plasma/spawner/east,
-/obj/structure/window/reinforced/plasma/spawner/north,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
 /obj/item/artifact/droplet,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
@@ -5925,10 +5921,10 @@
 /area/stalker/buildings/backwater/krug)
 "Yo" = (
 /obj/structure/table/reinforced,
-/obj/structure/window/reinforced/plasma/spawner/west,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
 /obj/structure/window/plasma/reinforced/spawner,
-/obj/structure/window/reinforced/plasma/spawner/east,
-/obj/structure/window/reinforced/plasma/spawner/north,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
 /obj/item/artifact/meduza,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
@@ -5940,7 +5936,7 @@
 	name = "ancient robes"
 	},
 /obj/item/gun/ballistic/revolver/grenadelauncher/unrestricted,
-/obj/structure/window,
+/obj/structure/window/spawner/directional/south,
 /obj/item/melee/splattermaster,
 /turf/open/floor/iron/chapel,
 /area/stalker)

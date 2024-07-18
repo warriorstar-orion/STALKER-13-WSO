@@ -1642,12 +1642,11 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/duty)
 "iI" = (
-/obj/structure/window{
-	dir = 1;
+/obj/structure/window/spawner/directional/north{
 	icon_state = "clear";
 	name = "";
 	atom_integrity = 1e+009;
-	tag = "icon-window (NORTH)"
+	tag = ";icon-window (NORTH)" = None
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
@@ -2546,12 +2545,11 @@
 	pixel_x = -3;
 	pixel_y = 6
 	},
-/obj/structure/window{
-	dir = 8;
+/obj/structure/window/spawner/directional/west{
 	icon_state = "clear";
 	name = "";
 	atom_integrity = 1e+006;
-	tag = "icon-window (WEST)"
+	tag = ";icon-window (WEST)" = None
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
