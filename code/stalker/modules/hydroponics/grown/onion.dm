@@ -13,7 +13,7 @@
 	growthstages = 3
 	weed_chance = 3
 	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
-	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.04, "nutriment" = 0.1, "uranium" = 0.25)
+	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.04, /datum/reagent/consumable/nutriment = 0.1, "uranium" = 0.25)
 
 /obj/item/food/grown/onion/zona
 	seed = /obj/item/seeds/onion/zona
