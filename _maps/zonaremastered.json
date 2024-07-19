@@ -19,90 +19,104 @@
 	],
 	"traits": [
 		{
-			"//": "Backwater (Zaton) (1)",
+			"//": "Backwater (Zaton)",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Underground (2)",
+			"//": "Underground",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Kordon (3)",
+			"//": "Kordon",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Rostok (Bar) (4)",
+			"//": "Rostok (Bar)",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Agroprom (5)",
+			"//": "Agroprom",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Svalka (Garbage) (6)",
+			"//": "Svalka (Garbage)",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Radar (7)",
+			"//": "Radar",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Yantar (8)",
+			"//": "Yantar",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Army Warehouses (9)",
+			"//": "Army Warehouses",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Great Swamps (10)",
+			"//": "Great Swamps",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Dead City Z-1 (11)" ,
+			"//": "Dead City Z-1" ,
 			"Up": true,
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Dead City Z-2 (12)",
+			"//": "Dead City Z-2",
 			"Down": true,
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Dark Valley (13)",
+			"//": "Dark Valley",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		},
 		{
-			"//": "Wild Territory (14)",
+			"//": "Wild Territory",
 			"Linkage": null,
 			"Gravity": true,
-			"Station": true
+			"Station": true,
+			"No Parallax": true
 		}
 	],
 	"space_ruin_levels": 0,
