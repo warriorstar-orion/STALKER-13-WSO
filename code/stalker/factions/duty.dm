@@ -1,18 +1,18 @@
-/*
-Assistant
-*/
+/datum/job_department/stalker/duty
+	department_name = DEPARTMENT_STALKER_DUTY
+	department_bitflags = DEPARTMENT_STALKER_BITFLAG_DUTY
+	ui_color = "#601919"
+
 /datum/job/duty
-	title = "Duty Soldier"
+	title = JOB_DUTY
 	faction_s = "Duty"
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
-	limit_per_player = 1
 	description = "Duty is a paramilitary clan of stalkers operating in the Zone with members living according to a code. Their ranks are composed of ex-military and stalkers who wish to bring order to the Zone and keep it from spreading further. They are contrasted by other factions, such as Freedom or the Ecologists, who see the Zone as a miracle. Its members consider protecting the outside world from the Zone's dangers their primary objective."
 	enforces = "Work with your teammates to neutralize anarchists and mutants, confisccate anomalies and giving them to the ecologists if they are being waved around, shoot Freedom whenever possible."
 	forbids = "Antagonize stalkers by harming or stealing from them, working with Freedom, Renegades or the Bandits, and start a fight with a neutral faction without asking up the chain of command."
 	supervisors = "Lieutenant"
-	selection_color = "#601919"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
@@ -20,6 +20,10 @@ Assistant
 	real_rank = "Duty"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
+	departments_list = list(
+		/datum/job_department/stalker/duty
+	)
+	job_flags = STATION_JOB_FLAGS
 
 /datum/outfit/job/dutysoldier  // For select_equipment
 	name = "Duty Soldier"
@@ -78,18 +82,13 @@ Assistant
 
 	H.grant_language(/datum/language/russian, body = FALSE)
 
-/datum/job/barman2
-	title = "Barman2"
+/datum/job/stalker/barman2
+	title = JOB_BARMAN2
 	faction_s = "Loners"
-	locked = 1
-//	flag = ASSISTANT
-//	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	limit_per_player = 1
 	supervisors = ""
-	selection_color = "#601919"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
@@ -97,6 +96,11 @@ Assistant
 	real_rank = "Bartender"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 600
+	departments_list = list(
+		/datum/job_department/stalker/duty
+	)
+	job_flags = STATION_JOB_FLAGS
+
 
 /datum/outfit/job/barman2
 	name = "Barman"
@@ -113,24 +117,25 @@ Assistant
 	shoes = /obj/item/clothing/shoes/sneakers/black
 	back = null
 
-/datum/job/duty_lieutenant
-	title = "Duty Lieutenant"
+/datum/job/stalker/duty_lieutenant
+	title = JOB_DUTY_LIEUTENANT
 	faction_s = "Duty"
 	faction = "Station"
 	total_positions = 4
-	locked = 1
 	spawn_positions = 4
-	limit_per_player = 1
 	description = "Duty is a paramilitary clan of stalkers operating in the Zone with members living according to a code. Their ranks are composed of ex-military and stalkers who wish to bring order to the Zone and keep it from spreading further. They are contrasted by other factions, such as Freedom or the Ecologists, who see the Zone as a miracle. Its members consider protecting the outside world from the Zone's dangers their primary objective."
 	enforces = "Organizing the soldiers into teams by designating responsibilities, save stalkers from death and help them get back on their feet, confisccate anomalies and giving them to the ecologists if they are being waved around, shoot Freedom on sight whenever possible."
 	forbids = "Antagonize stalkers by harming or stealing from them, working with Freedom, Renegades, or the Bandits, and jeopordize the faction for an insignificant reason."
 	supervisors = "Major"
-	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/duty_lieutenant
 	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
+	departments_list = list(
+		/datum/job_department/stalker/duty
+	)
+	job_flags = STATION_JOB_FLAGS
 
 /datum/outfit/job/duty_lieutenant
 	name = "Duty Lieutenant"

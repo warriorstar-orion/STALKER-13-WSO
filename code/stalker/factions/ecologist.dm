@@ -1,21 +1,27 @@
-/datum/job/ecologist
-	title = "Ecologist"
+/datum/job_department/stalker/ecologists
+	department_name = DEPARTMENT_STALKER_ECOLOGISTS
+	department_bitflags = DEPARTMENT_STALKER_BITFLAG_ECOLOGISTS
+	ui_color = "#058f92"
+
+/datum/job/stalker/ecologist
+	title = JOB_ECOLOGIST
 	faction_s = "Ecologist"
 	faction = "Station"
 	total_positions = -1
-	locked = 1
 	spawn_positions = -1
-	limit_per_player = 1
 	description = "Ecologists are a group focusing on researching the Zone, in order to properly harness its potential for the good of mankind. They are largely pacifist when it comes to human conflict, and rely on other factions to offer protection when it comes to embarking on missions into the zone. Your job is to research the wonders of these strange lands and to report your discoveries, and coordinate with those around you to make it all happen."
 	enforces = "Stay aware of zone hostilities, stay pleasant and neutral to Zone politics, keep yourself safe and sound in mind, keep lab secure and useable, and write your reports so they can be peer reviewed."
 	forbids = "Engage in hostilities outside of self defense, break standard nation laws, undermine security for sake of research, and bum around without doing any work."
 	supervisors = "Chief Ecologist"
-	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/ecologist
 	real_rank = "Ecologist"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 600
+	departments_list = list(
+		/datum/job_department/stalker/ecologists
+	)
+	job_flags = STATION_JOB_FLAGS
 
 /datum/outfit/job/ecologist
 	name = "Ecologist"
@@ -81,24 +87,26 @@
 	H.grant_language(/datum/language/english, body = FALSE)
 	H.grant_language(/datum/language/german, body = FALSE)
 
-/datum/job/ecologistguard
-	title = "Ecologist Guard"
+/datum/job/stalker/ecologistguard
+	title = JOB_ECOLOGISTGUARD
 	faction_s = "Ecologist"
 	faction = "Station"
 	total_positions = -1
-	locked = 1
 	spawn_positions = -1
-	limit_per_player = 1
 	description = "Ecologists are a group focusing on researching the Zone, in order to properly harness its potential for the good of mankind. They are largely pacifist when it comes to human conflict, and rely on other factions to offer protection when it comes to embarking on missions into the zone. Your job is to research the wonders of these strange lands and to report your discoveries, and coordinate with those around you to make it all happen."
 	enforces = "Stay aware of zone hostilities, stay pleasant and neutral to Zone politics, keep yourself safe and sound in mind, keep lab secure and protect the Ecologists from all threats."
 	forbids = "Engage in hostilities outside of self defense, break standard nation laws, undermine security for sake of research, and bum around without doing any work."
 	supervisors = "Chief Ecologist"
-	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/ecologistguard
 	real_rank = "Ecologist"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
+	departments_list = list(
+		/datum/job_department/stalker/ecologists
+	)
+	job_flags = STATION_JOB_FLAGS
+
 
 /datum/outfit/job/ecologistguard
 	name = "Ecologist Guard"
@@ -161,25 +169,22 @@
 	faction_s = "Ecologist"
 	r_hand = /obj/item/flashlight/seclite
 
-/datum/job/chief_ecologist
-	title = "Chief Ecologist"
+/datum/job/stalker/chief_ecologist
+	title = JOB_CHIEF_ECOLOGIST
 	faction = "Station"
 	faction_s = "Ecologist"
 	total_positions = 2
-	locked = 1
 	spawn_positions = 1
-	limit_per_player = 1
-	selection_color = "#601919"
 	whitelist_only = 0
-	limit_per_player = 1
 	outfit = /datum/outfit/job/chief_ecologist
 	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
+	departments_list = list(
+		/datum/job_department/stalker/ecologists
+	)
+	job_flags = STATION_JOB_FLAGS
 
-/datum/job/chief_ecologist
-	title = "Chief Ecologist"
-	faction_s = "Ecologist"
 
 /datum/outfit/job/chief_ecologist/pre_equip(mob/living/carbon/human/H)
 	..()

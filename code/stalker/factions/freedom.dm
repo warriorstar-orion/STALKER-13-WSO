@@ -1,15 +1,18 @@
-/datum/job/freedom
-	title = "Freedom Soldier"
+/datum/job_department/stalker/freedom
+	department_name = DEPARTMENT_STALKER_FREEDOM
+	department_bitflags = DEPARTMENT_STALKER_BITFLAG_FREEDOM
+	ui_color = "#357e3b"
+
+/datum/job/stalker/freedom
+	title = JOB_FREEDOM
 	faction_s = "Freedom"
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
-	limit_per_player = 1
 	description = "Freedom are anarchists and daredevils who declare themselves fighters for a free access to the Zone and consequently find themselves in constant conflict with the army, military stalkers and the Duty faction. These so-called freedom warriors believe in sharing all information about the Zone with the rest of the world and challenge the state's monopoly over the Zone's secrets and wonders."
 	enforces = "Work with fellow Freedom faction members to patrol the Zone, save stalkers from death and help them get back on their feet, vanquish the grip of oppression from various militant factions which suffocate those within it, and shoot Duty on sight."
 	forbids = "Antagonize stalkers by harming or stealing from them, cause trouble with other factions without permission from leadership, run off solo without communicating with others about what you're doing, and working with the Military or Duty."
 	supervisors = "Lieutenant"
-	selection_color = "#601919"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
@@ -17,6 +20,10 @@
 	real_rank = "Freedom"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
+	departments_list = list(
+		/datum/job_department/stalker/freedom
+	)
+	job_flags = STATION_JOB_FLAGS
 
 /datum/outfit/job/freedomrookie
 	name = "Freedom Soldier"
@@ -74,24 +81,26 @@
 
 	H.grant_language(/datum/language/english, body = FALSE)
 
-/datum/job/freedom_lieutenant
-	title = "Freedom Lieutenant"
+/datum/job/stalker/freedom_lieutenant
+	title = JOB_FREEDOM_LIEUTENANT
 	faction_s = "Freedom"
 	faction = "Station"
 	total_positions = 4
-	locked = 1
 	spawn_positions = 4
-	limit_per_player = 1
 	description = "Freedom are anarchists and daredevils who declare themselves fighters for a free access to the Zone and consequently find themselves in constant conflict with the army, military stalkers and the Duty faction. These so-called freedom warriors believe in sharing all information about the Zone with the rest of the world and challenge the state's monopoly over the Zone's secrets and wonders."
 	enforces = "Organizing the soldiers into teams by designating responsibilities, save stalkers from death and help them get back on their feet, vanquish the grip of oppression from various militant factions which suffocate those within it, and establish good relationships with various factions such as the Bandits and Loners."
 	forbids = "Antagonize stalkers by harming or stealing from them, cause trouble with other factions without a good reason, run off solo without communicating with others about what you're doing, and working with the Military or Duty."
 	supervisors = "Lieutenant"
-	selection_color = "#601919"
 	whitelist_only = 0
 	outfit = /datum/outfit/job/freedom_lieutenant
 	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
+	departments_list = list(
+		/datum/job_department/stalker/freedom
+	)
+	job_flags = STATION_JOB_FLAGS
+
 
 /datum/outfit/job/freedom_lieutenant
 	name = "Freedom Lieutenant"

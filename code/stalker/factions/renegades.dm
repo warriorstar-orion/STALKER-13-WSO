@@ -1,4 +1,4 @@
-///datum/job/stalker/renegade      commented literally everything out. fuck you fuck you!!!!
+///datum/job/stalker/loner/renegade      commented literally everything out. fuck you fuck you!!!!
 //	title = "Renegade"                         :trol:
 //	faction = "Station"
 //	faction_s = "Renegades"

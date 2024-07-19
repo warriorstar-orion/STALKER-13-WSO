@@ -1,46 +1,49 @@
-/*
-Assistant
-*/
-/datum/job/army
+/datum/job_department/stalker/army
+	department_name = DEPARTMENT_STALKER_MILITARY
+	department_bitflags = DEPARTMENT_STALKER_BITFLAG_MILITARY
+	ui_color = "#2E8B57"
+
+/datum/job/stalker/army
 	title = "Military Soldier"
 	faction_s = "State Security Service"
-//	flag = ASSISTANT
-//	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
-	limit_per_player = 1
 	description = "The State Security Services, often referred to as the Military or the Army, are Ukrainian soldiers that have been sent into the Zone by the Ukrainian government to maintain security along the borders of the Zone, in order to prevent unauthorized incursions by Stalkers, and by extension, distribution of artifacts to the outside world without government supervision."
 	enforces = "Protect the military checkpoint by default, be aware of orders from superiors and executing them with precision, communicate with those in the Zone so they know the military has a presence."
 	forbids = "Leave the base independently for any reason, disobey orders given by a superior, and start trouble with other factions before clearing it with superiors."
 	supervisors = "Military Commander"
-	selection_color = "#2E8B57"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
-	locked = 1
 	outfit = /datum/outfit/job/army
 	real_rank = "Army"
 	exp_requirements = 300
+	departments_list = list(
+		/datum/job_department/stalker/army
+	)
+	job_flags = STATION_JOB_FLAGS
 
-/datum/job/army_spetsnaz
+/datum/job/stalker/army_spetsnaz
 	title = "Military Spetsnaz"
 	faction = "Station"
 	faction_s = "State Security Service"
-	limit_per_player = 1
 	total_positions = 2
 	spawn_positions = 2
 	description = "The State Security Services, often referred to as the Military or the Army, are Ukrainian soldiers that have been sent into the Zone by the Ukrainian government to maintain security along the borders of the Zone, in order to prevent unauthorized incursions by Stalkers, and by extension, distribution of artifacts to the outside world without government supervision."
 	enforces = "Protect the military checkpoint by default, be aware of orders from superiors and executing them with precision, taking leadership when the Commander isn't present."
 	forbids = "Leave the base independently for any reason, disobey orders given by a superior, and start trouble with other factions before clearing it with superiors."
 	supervisors = "Military Commander"
-	selection_color = "#2E8B57"
 	whitelist_only = 0
-	locked = 1
 	outfit = /datum/outfit/job/army_spetsnaz
 	real_rank = "Special"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 600
+	departments_list = list(
+		/datum/job_department/stalker/army
+	)
+	job_flags = STATION_JOB_FLAGS
+
 
 /datum/outfit/job/army_spetsnaz
 	name = "Military Spetsnaz"
@@ -94,26 +97,27 @@ Assistant
 				/obj/item/storage/wallet/alt)
 	faction_s = "Army"
 
-/datum/job/militarycommander
-	title = "Military Commander"
+/datum/job/stalker/militarycommander
+	title = JOB_MILITARYCOMMANDER
 	faction_s = "State Security Service"
 	outfit = /datum/outfit/job/militarycommander
 	faction = "Station"
-	limit_per_player = 1
 	total_positions = 2
-	locked = 1
 	spawn_positions = 2
 	description = "The State Security Services, often referred to as the Military or the Army, are Ukrainian soldiers that have been sent into the Zone by the Ukrainian government to maintain security along the borders of the Zone, in order to prevent unauthorized incursions by Stalkers, and by extension, distribution of artifacts to the outside world without government supervision."
 	enforces = "Protect the military checkpoint by default, create and rotate outbound squads to patrol and homebound squads to defend the base."
 	forbids = "Leave the base independently for any reason, order normal military personnel to leave the base alone, and avoid communicating with your troops."
 	supervisors = "High Command"
-	selection_color = "#2E8B57"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
+	departments_list = list(
+		/datum/job_department/stalker/army
+	)
+
 
 /datum/outfit/job/militarycommander
 	name = "Military Commander"

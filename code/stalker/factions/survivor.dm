@@ -1,11 +1,11 @@
-/*
-Assistant
-*/
-/datum/job/tourist
-	title = "Tourist"
+/datum/job_department/stalker/loners
+	department_name = DEPARTMENT_STALKER_LONERS
+	department_bitflags = DEPARTMENT_STALKER_BITFLAG_LONERS
+	ui_color = "#ffaf31"
+
+/datum/job/stalker/tourist
+	title = JOB_TOURIST
 	faction_s = "Tourists"
-//	flag = ASSISTANT
-//	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
@@ -13,17 +13,18 @@ Assistant
 	enforces = "Take some pictures or record your journey on a tape recorder, parlay with the various factions in the area, relax and enjoy your time alive while you still can."
 	forbids = "Randomly, wordlessly attack others, die a terrible slow death, and be grumpy and a downer -- you're on vacation after all!"
 	supervisors = "no one"
-	selection_color = "#dddddd"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/tourist
+	departments_list = list(
+		/datum/job_department/stalker/loners
+	)
+	job_flags = STATION_JOB_FLAGS
 
-/datum/job/stalker
-	title = "Stalker"
+/datum/job/stalker/loner
+	title = JOB_LONER
 	faction_s = "Loners"
-//	flag = ASSISTANT
-//	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
@@ -31,25 +32,25 @@ Assistant
 	enforces = "Explore the Zone for artifacts, survive and fight off mutants and extraordinary threats, and make discoveries beyond your imagination."
 	forbids = "Harm or steal from fellow Loners independently or as a result of joining along with other factions."
 	supervisors = "old stalkers at your discretion"
-	selection_color = "#dddddd"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/stalker
+	departments_list = list(
+		/datum/job_department/stalker/loners
+	)
+	job_flags = STATION_JOB_FLAGS
 
-/datum/job/oldstalker
-	title = "Old Stalker"
+/datum/job/stalker/oldstalker
+	title = JOB_OLDSTALKER
 	faction_s = "Loners"
 	faction = "Station"
-	locked = 1
 	total_positions = -1
 	spawn_positions = -1
-	limit_per_player = 1
 	description = "The Loners are those who aren't part of any faction and inhabit the Zone as nomadic, independent stalkers. Even though they are not a proper faction of their own as per se, they often look out for eachother and are friendly with eachother in order to cohabitate the Zone."
 	enforces = "Explore the Zone for artifacts, survive and fight off mutants and extraordinary threats, and make discoveries beyond your imagination."
 	forbids = "Harm or steal from fellow Loners independently or as a result of joining along with other factions."
 	supervisors = "old stalkers at your discretion"
-	selection_color = "#dddddd"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
@@ -57,6 +58,10 @@ Assistant
 	real_rank = "Special"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
+	departments_list = list(
+		/datum/job_department/stalker/loners
+	)
+	job_flags = STATION_JOB_FLAGS
 
 /*/datum/job/assistant/get_access()
 	if((config.jobs_have_maint_access & ASSISTANTS_HAVE_MAINT_ACCESS) || !config.jobs_have_minimal_access) //Config has assistant maint access set
@@ -284,21 +289,21 @@ Assistant
 	faction_s = "Tourists"
 
 /datum/job/trader
-	title = "Trader"
+	title = JOB_TRADER
 	faction_s = "Loners"
-	locked = 1
-//	flag = ASSISTANT
-//	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	limit_per_player = 1
 	supervisors = ""
-	selection_color = "#601919"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/trader
+	departments_list = list(
+		/datum/job_department/stalker/loners
+	)
+	job_flags = STATION_JOB_FLAGS
+
 
 /datum/outfit/job/trader
 	name = "Trader"
@@ -323,23 +328,22 @@ Assistant
 				/obj/item/flashlight/flare/torch,
 				/obj/item/flashlight/flare)
 
-/datum/job/barman
-	title = "Barman"
+/datum/job/stalker/barman
+	title = JOB_BARMAN
 	faction_s = "Loners"
-	locked = 1
-//	flag = ASSISTANT
-//	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	limit_per_player = 1
 	supervisors = ""
-	selection_color = "#601919"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
 	outfit = /datum/outfit/job/barman
 	real_rank = "Bartender"
+	departments_list = list(
+		/datum/job_department/stalker/loners
+	)
+	job_flags = STATION_JOB_FLAGS
 
 /datum/outfit/job/barman
 	name = "Barman"

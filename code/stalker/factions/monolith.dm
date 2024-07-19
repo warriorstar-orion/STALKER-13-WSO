@@ -1,23 +1,28 @@
-/datum/job/monolith
-	title = "Monolith"
+/datum/job_department/stalker/monolith
+	department_name = DEPARTMENT_STALKER_MONOLITH
+	department_bitflags = DEPARTMENT_STALKER_BITFLAG_MONOLITH
+	ui_color = "#9b8060"
+
+/datum/job/stalker/monolith
+	title = JOB_MONOLITH
 	faction_s = "Monolith"
 	faction = "Station"
 	total_positions = 5//6 total, prior to the introduction of Radar.
 	spawn_positions = 5
-	limit_per_player = 1
-	locked = 1
 	supervisors = "Monolith Preacher"
 	enforces = "We thank you, oh Monolith, for revealing the cunning plans of your enemies to us. May your light shine down on the souls of the brave soldiers who gave their lives in service to your will. Onward warriors of the Monolith, avenge your fallen brothers, blessed as they are in their eternal union with the Monolith."
 	forbids = "Allowing the continued existance of all who oppose the holy monolith. (Every other faction but your own)"
-	selection_color = "#601919"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
-	limit_per_player = 2
 	outfit = /datum/outfit/job/monolith// /datum/outfit/job/duty
 	real_rank = "Monolith"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
+	departments_list = list(
+		/datum/job_department/stalker/monolith
+	)
+	job_flags = STATION_JOB_FLAGS
 
 /datum/outfit/job/monolith
 	name = "Monolith"
@@ -73,22 +78,23 @@
 				/obj/item/flashlight,
 				/obj/item/flashlight/flare/torch,
 				/obj/item/flashlight/flare)
-/datum/job/monolith_hegumen
-	title = "Monolith Preacher"
+/datum/job/stalker/monolith_hegumen
+	title = JOB_MONOLITH_HEGUMEN
 	faction_s = "Monolith"
 	faction = "Station"
 	total_positions = 1//6 total, prior to the introduction of Radar.
 	spawn_positions = 1
-	limit_per_player = 1
-	locked = 1
 	supervisors = "Monolith"
-	selection_color = "#601919"
 	whitelist_only = 0
-	limit_per_player = 1
 	outfit = /datum/outfit/job/monolith_hegumen
 	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
+	departments_list = list(
+		/datum/job_department/stalker/monolith
+	)
+	job_flags = STATION_JOB_FLAGS
+
 
 /datum/outfit/job/monolith_hegumen
 	name = "Monolith Preacher"

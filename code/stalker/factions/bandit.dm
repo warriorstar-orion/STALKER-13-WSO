@@ -1,42 +1,40 @@
-/*
-Assistant
-*/
-/datum/job/bandit
-	title = "Bandit"
+/datum/job_department/stalker/bandits
+	department_name = DEPARTMENT_STALKER_BANDITS
+	department_bitflags = DEPARTMENT_STALKER_BITFLAG_BANDITS
+	ui_color = "#9e9e9e"
+
+/datum/job/stalker/bandit
+	title = JOB_BANDIT
 	faction_s = "Bandits"
-//	flag = ASSISTANT
-//	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = -1
 	spawn_positions = -1
-	limit_per_player = 1
 	description = "Bandits are a group of mostly ex-criminals who came in the Zone either to escape from the law, trade weapons or make money. They are a force of chaos within the Zone, and are essentially bad people who do bad things to good people."
 	enforces = "Form a group and find people to rob and antagonize, cause chaos between and exploit all the other factions, work with others to destabalize the order in the Zone."
 	forbids = "Work with Duty except under extraordinary circumstances, go off alone when there are fellow Bandits about, be non-antagonistic unless there is self interest involved, and cause major issues with factions without consulting the Bandit Boss."
 	supervisors = "Bandit Boss or Bandit Barman"
-	selection_color = "#000000"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access()
 	whitelist_only = 0
-	locked = 1
 	outfit = /datum/outfit/job/bandit
 	real_rank = "Bandit"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 300
+	departments_list = list(
+		/datum/job_department/stalker/bandits
+	)
+	job_flags = STATION_JOB_FLAGS
 
-/datum/job/banditboss
-	title = "Bandit Boss"
+/datum/job/stalker/banditboss
+	title = JOB_BANDITBOSS
 	faction_s = "Bandits"
 	faction = "Station"
 	total_positions = 2
-	locked = 1
 	spawn_positions = 2
-	limit_per_player = 1
 	description = "Bandits are a group of mostly ex-criminals who came in the Zone either to escape from the law, trade weapons or make money. They are a force of chaos within the Zone, and are essentially bad people who do bad things to good people."
 	enforces = "Organize your fellow bandits and coordinate outbound groups and homebound groups, cause chaos between and exploit all the other factions, work with others to destabalize the order in the Zone."
 	forbids = "Work with Duty except under extraordinary circumstances, go off alone when there are fellow Bandits about, and be non-antagonistic unless there is self interest involved."
 	supervisors = "Sultan"
-	selection_color = "#000000"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()	//See /datum/job/assistant/get_access(
 	whitelist_only = 0
@@ -44,20 +42,22 @@ Assistant
 	real_rank = "Lieutenant"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
+	departments_list = list(
+		/datum/job_department/stalker/bandits
+	)
+	job_flags = STATION_JOB_FLAGS
 
-/datum/job/bandit_barman
+
+/datum/job/stalker/bandit_barman
 	title = "Bandit Barman"
 	faction_s = "Bandits"
 	faction = "Station"
 	total_positions = 1
-	locked = 1
 	spawn_positions = 1
-	limit_per_player = 1
 	description = "Bandits are a group of mostly ex-criminals who came in the Zone either to escape from the law, trade weapons or make money. They are a force of chaos within the Zone, and are essentially bad people who do bad things to good people."
 	enforces = "Help organize the bandits if the Bandit Boss isn't present and act as second-in-command, rip off anyone who isn't a Bandit however you can, arm your fellow bandits and provide them tools to further antagonize the Zone."
 	forbids = "Work with Duty except under extraordinary circumstances, jeopordize your entire faction over something insignificant."
 	supervisors = "Bandit Boss"
-	selection_color = "#000000"
 	access = list()			//See /datum/job/assistant/get_access()
 	minimal_access = list()
 	whitelist_only = 0
@@ -65,6 +65,10 @@ Assistant
 	real_rank = "Bartender"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 900
+	departments_list = list(
+		/datum/job_department/stalker/bandits
+	)
+
 
 /datum/outfit/job/bandit
 	name = "Bandit"
