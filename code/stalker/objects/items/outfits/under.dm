@@ -3,6 +3,8 @@
 	desc = "Dirty and worn old grandma's sweater made of natural dog hair with natural healing properties. This sweater is very warm and comfortable."
 	body_parts_covered = CHEST|ARMS|LEGS
 	cold_protection = CHEST|ARMS|LEGS
+	icon = 'icons/stalker/obj/clothing/under/color.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/under/color.dmi'
 	icon_state = "switer"
 	inhand_icon_state = "g_suit"
 	can_adjust = 0
@@ -10,19 +12,25 @@
 
 /obj/item/clothing/under/color/switer/dark
 	icon_state = "switer2"
+	worn_icon_state = "switer2"
 
 /obj/item/clothing/under/color/switer/red
 	icon_state = "switer3"
+	worn_icon_state = "switer3"
 
 /obj/item/clothing/under/color/switer/jeans
 	icon_state = "switer4"
+	worn_icon_state = "switer4"
 
 /obj/item/clothing/under/color/sidor
 	name = "old suit"
 	desc = "Someone who wears this means business."
 	body_parts_covered = CHEST|ARMS|LEGS
 	cold_protection = CHEST|ARMS|LEGS
+	icon = 'icons/stalker/obj/clothing/under/color.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/under/color.dmi'
 	icon_state = "sidor"
+	worn_icon_state = "sidor"
 	inhand_icon_state = "g_suit"
 	can_adjust = 0
 	has_sensor = 0
@@ -33,6 +41,7 @@
 	body_parts_covered = CHEST|ARMS|LEGS
 	cold_protection = CHEST|ARMS|LEGS
 	icon_state = "sidor_fat"
+	worn_icon_state = "sidor_fat"
 	inhand_icon_state = "g_suit"
 	can_adjust = 0
 	has_sensor = 0
@@ -41,6 +50,7 @@
 	name = "telnashka"
 	desc = "A warm T-shirt and worn black trousers are the standard clothes of all long-term and military men. "
 	icon_state = "lolg"
+	worn_icon_state = "lolg"
 	inhand_icon_state = "lolg"
 
 /obj/item/clothing/under/color/switer/tracksuit

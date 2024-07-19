@@ -1,4 +1,5 @@
 /obj/item/clothing
+	// TODO(wso): Implement this as a component or summat
 	var/durability = -1
 
 /obj/item/clothing/suit
@@ -178,6 +179,7 @@
 /obj/item/clothing/suit/hooded/kozhanka
 	name = "leather jacket"
 	desc = "Common garb of a novice stalker. It won’t save you from bullets or anomalies, but it’s still better than being naked."
+	icon = 'icons/stalker/obj/clothing/suits.dmi'
 	worn_icon = 'icons/stalker/mob/clothing/suits.dmi'
 	icon_state = "kozhanka"
 	inhand_icon_state = "det_suit"
@@ -195,6 +197,8 @@
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/head/hooded/stalker
+	icon = 'icons/stalker/obj/clothing/head/hats.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/head/hats.dmi'
 	name = "hood"
 	body_parts_covered = HEAD
 	cold_protection = HEAD
