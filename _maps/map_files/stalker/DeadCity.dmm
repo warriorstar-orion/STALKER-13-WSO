@@ -288,7 +288,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/item/food/meat/slab/meatproduct,
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "cI" = (
 /obj/effect/step_trigger/teleporter{
@@ -516,7 +516,7 @@
 /area/stalker/blowout/outdoor)
 "eA" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "eD" = (
 /obj/structure/stalker/doski/doski3,
@@ -651,7 +651,7 @@
 /area/stalker/buildings/mercenary)
 "fp" = (
 /obj/structure/chair/wood,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "fq" = (
 /obj/item/trash/metalparts/busdoor,
@@ -942,11 +942,11 @@
 /area/stalker/blowout/outdoor)
 "hP" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "hR" = (
 /obj/structure/stalker/cacheable/clock,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "hS" = (
 /obj/structure/stalker/cacheable/porog/porog2,
@@ -1099,7 +1099,7 @@
 /area/stalker/blowout/outdoor)
 "jg" = (
 /obj/item/trash/oldplank,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "ji" = (
 /mob/living/simple_animal/hostile/mutant/pseudog{
@@ -1115,7 +1115,7 @@
 /area/stalker/blowout/outdoor)
 "jm" = (
 /obj/item/chair/wood,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "jp" = (
 /obj/structure/table/stalker/wood,
@@ -1261,7 +1261,7 @@
 	dir = 1
 	},
 /obj/structure/stalker/cacheable/body,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "kx" = (
 /obj/item/trash/papershreds,
@@ -1728,7 +1728,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "oi" = (
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "ol" = (
 /obj/structure/stalker/car/btrclean{
@@ -1796,7 +1796,7 @@
 /area/stalker/blowout/buildings)
 "oM" = (
 /obj/machinery/light,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "oN" = (
 /obj/anomaly/karusel,
@@ -1845,7 +1845,7 @@
 /area/stalker/blowout/buildings)
 "pc" = (
 /obj/structure/chair/stalker/divan,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "pf" = (
 /obj/structure/stalker/cacheable/oldcovertatteredtwo,
@@ -2007,7 +2007,7 @@
 	dir = 1;
 	tag = "icon-tube1 (EAST)"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "qd" = (
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -2195,7 +2195,7 @@
 /area/stalker/blowout/outdoor)
 "rM" = (
 /obj/structure/table/stalker/wood/bar,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "rR" = (
 /obj/structure/stalker/cacheable/polka,
@@ -2309,11 +2309,11 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "sG" = (
 /obj/structure/stalker/brokenbed,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "sH" = (
 /obj/structure/stalker/cacheable/oldcoverblue,
@@ -2459,7 +2459,7 @@
 /area/stalker/blowout/buildings)
 "tL" = (
 /obj/structure/chair/stalker/divan/divan2,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "tS" = (
 /obj/structure/stalker/cacheable/televizor,
@@ -2629,7 +2629,7 @@
 /area/stalker/blowout/outdoor)
 "vc" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "vd" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -2747,7 +2747,7 @@
 /area/stalker/blowout/outdoor)
 "vR" = (
 /obj/structure/broken_flooring/corner/directional/south,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "vU" = (
 /obj/item/trash/brokedevice/echobroke/one,
@@ -2897,7 +2897,7 @@
 /area/stalker/buildings/mercenary)
 "xk" = (
 /obj/structure/stalker/cacheable/tv_old/broken,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "xm" = (
 /turf/open/stalker/floor/plasteel,
@@ -3174,7 +3174,7 @@
 "zy" = (
 /obj/structure/stalker/cacheable/metalthing,
 /obj/machinery/light,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "zA" = (
 /obj/structure/stalker/car/gryzovik/west{
@@ -3290,7 +3290,7 @@
 /area/stalker/blowout/outdoor)
 "Au" = (
 /obj/machinery/campfire/barrel,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "Av" = (
 /obj/structure/stalker/tree/leafless,
@@ -3807,12 +3807,12 @@
 /area/stalker/blowout/outdoor)
 "EG" = (
 /obj/structure/chair/sofa,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "EI" = (
 /obj/item/toy/basketball,
 /obj/machinery/campfire,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "EJ" = (
 /turf/open/floor/plasteel/stairs/left/stalker{
@@ -4179,7 +4179,7 @@
 	dir = 4;
 	tag = "icon-tube1 (EAST)"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "Hy" = (
 /obj/structure/grille/stalker/beton,
@@ -4205,7 +4205,7 @@
 /area/stalker/blowout/outdoor)
 "HN" = (
 /obj/structure/bed/stalker/metal,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "HP" = (
 /turf/closed/wall/stalker/bricks,
@@ -4367,7 +4367,7 @@
 	icon_state = "0,0";
 	tag = "icon-0,0"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "IY" = (
 /obj/structure/stalker/cacheable/porog/porog2{
@@ -4561,7 +4561,7 @@
 /area/stalker/blowout/outdoor)
 "KC" = (
 /obj/item/trash/woodenrods,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "KF" = (
 /obj/structure/chair/comfy{
@@ -4629,7 +4629,7 @@
 /area/stalker/blowout/outdoor)
 "Lx" = (
 /obj/structure/chair/comfy,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "LB" = (
 /turf/open/floor/plasteel/stairs/left/stalker,
@@ -5590,7 +5590,7 @@
 /area/stalker/blowout/buildings)
 "St" = (
 /obj/structure/chair/stool/bar,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "Sx" = (
 /obj/rad/rad_low,
@@ -5917,7 +5917,7 @@
 "Ve" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/food/meat/slab/meatproduct,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "Vh" = (
 /obj/anomaly/jarka,

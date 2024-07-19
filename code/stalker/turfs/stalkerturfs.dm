@@ -170,6 +170,11 @@
 	// 				T.overlays += GryazEdgeCache[2**i]
 	return
 
+/turf/open/stalker/floor/dirt/dark
+	icon = 'icons/turf/floors.dmi'
+	icon_state = "greenerdirt"
+	base_icon_state = "greenerdirt"
+
 /turf/open/stalker/floor/sidor
 	name = "floor"
 	icon = 'icons/stalker/beton.dmi'

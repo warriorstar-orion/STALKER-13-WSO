@@ -7508,7 +7508,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "ya" = (
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings)
 "yb" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -12523,7 +12523,7 @@
 /area/stalker/buildings)
 "OR" = (
 /obj/structure/stalker/cacheable/bochka,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "OS" = (
 /obj/rad/rad_medium,
@@ -12833,7 +12833,7 @@
 	pixel_y = -2
 	},
 /obj/structure/stalker/cacheable/bochka,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "PS" = (
 /obj/effect/spawner/random/stalker/pornmag,

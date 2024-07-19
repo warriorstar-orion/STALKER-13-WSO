@@ -2,5 +2,5 @@
 
 #include "map_files\generic\stalker_base.dmm"
 
-#define FORCE_MAP "zonaremastered"
+#define FORCE_MAP "zonaremastered_test"
 #define FORCE_MAP_DIRECTORY "_maps"

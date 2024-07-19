@@ -62,7 +62,6 @@
 "ay" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 1;
-	icon_state = "truba2";
 	pixel_x = -4;
 	tag = "icon-truba2 (NORTH)"
 	},
@@ -215,13 +214,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /turf/open/floor/plasteel/stairs/stalker,
@@ -669,7 +666,7 @@
 /area/stalker/blowout/buildings)
 "gs" = (
 /obj/machinery/door/poddoor/gate,
-/turf/open/space/basic,
+/turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "gu" = (
 /obj/structure/spawner/stalker/dog,
@@ -859,13 +856,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/rad/rad_low,
@@ -1012,19 +1007,9 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /turf/open/floor/plasteel/stairs/stalker,
-/area/stalker/blowout/outdoor)
-"iD" = (
-/obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "5";
-	pixel_x = 0;
-	tag = "icon-5"
-	},
-/obj/rad/rad_low,
-/turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "iH" = (
 /obj/structure/stalker/tree{
@@ -1036,9 +1021,6 @@
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
 	},
-/area/stalker/blowout/outdoor)
-"iJ" = (
-/turf/open/space/basic,
 /area/stalker/blowout/outdoor)
 "iR" = (
 /obj/structure/flora/rock,
@@ -1148,13 +1130,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/rad/rad_low,
@@ -1186,7 +1166,7 @@
 "jO" = (
 /obj/structure/chair/brevno,
 /obj/item/shovel,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "jQ" = (
 /obj/structure/fence/corner{
@@ -1327,7 +1307,7 @@
 	dir = 1;
 	tag = "icon-log2 (NORTH)"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "kH" = (
 /obj/structure/stalker/car/gryzovik/west{
@@ -1653,7 +1633,6 @@
 /obj/structure/flora/stalker/bush,
 /obj/structure/barricade/stalker/wood{
 	dir = 8;
-	icon_state = "zabitiy_proxod";
 	tag = "icon-zabitiy_proxod (WEST)"
 	},
 /obj/structure/mineral_door/wood,
@@ -1731,13 +1710,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /turf/open/stalker/floor/road,
@@ -1768,7 +1745,6 @@
 "nh" = (
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "5";
-	pixel_x = 0;
 	tag = "icon-5"
 	},
 /turf/open/stalker/floor/gryaz{
@@ -1860,7 +1836,6 @@
 /obj/rad/rad_high,
 /obj/structure/barricade/stalker/wood{
 	dir = 4;
-	icon_state = "zabitiy_proxod";
 	tag = "icon-zabitiy_proxod (EAST)"
 	},
 /obj/structure/mineral_door/wood,
@@ -1944,13 +1919,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
@@ -2034,7 +2007,7 @@
 	icon_state = "l4";
 	tag = "icon-l4"
 	},
-/turf/open/stalker/floor/gryaz,
+/turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "oG" = (
 /obj/structure/fence/corner{
@@ -2057,13 +2030,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/rad/rad_low,
@@ -2302,19 +2273,16 @@
 "qV" = (
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "5";
-	pixel_x = 0;
 	tag = "icon-5"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/rad/rad_low,
@@ -2348,9 +2316,7 @@
 /area/stalker/blowout/outdoor)
 "rr" = (
 /obj/rad/rad_high,
-/obj/structure/stalker/car/btrgrimy{
-	icon_state = "1"
-	},
+/obj/structure/stalker/car/btrgrimy,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/buildings)
 "rw" = (
@@ -2419,13 +2385,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/rad/rad_low,
@@ -2748,9 +2712,7 @@
 /area/stalker/blowout/outdoor)
 "uy" = (
 /obj/rad/rad_high,
-/obj/structure/stalker/car/btrgrimy{
-	icon_state = "1"
-	},
+/obj/structure/stalker/car/btrgrimy,
 /obj/rad/rad_medium,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/buildings)
@@ -2890,13 +2852,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/rad/rad_low,
@@ -2969,13 +2929,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /turf/open/floor/plasteel/stairs/stalker,
@@ -3612,13 +3570,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /turf/open/stalker/floor/road,
@@ -3665,7 +3621,6 @@
 "BF" = (
 /obj/machinery/light/small{
 	dir = 8;
-	icon_state = "bulb";
 	tag = "icon-bulb1 (WEST)"
 	},
 /turf/open/stalker/floor/lattice,
@@ -3683,9 +3638,7 @@
 /area/stalker/blowout/buildings)
 "BN" = (
 /obj/rad/rad_high,
-/obj/structure/stalker/car/btrgrimy{
-	icon_state = "1"
-	},
+/obj/structure/stalker/car/btrgrimy,
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/buildings)
 "BO" = (
@@ -3776,7 +3729,7 @@
 /area/stalker/blowout/outdoor)
 "Co" = (
 /obj/structure/grille/stalker/beton,
-/turf/open/space/basic,
+/turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "Ct" = (
 /obj/structure/stalker/list,
@@ -3879,9 +3832,6 @@
 "Dt" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /turf/open/stalker/floor/gryaz/gryaz2,
@@ -4039,13 +3989,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /turf/open/floor/plasteel/stairs/stalker,
@@ -4195,25 +4143,21 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/rad/rad_low,
@@ -4262,7 +4206,6 @@
 "GF" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 1;
-	icon_state = "truba2";
 	pixel_x = -4;
 	tag = "icon-truba2 (NORTH)"
 	},
@@ -4273,7 +4216,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "GI" = (
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "GK" = (
 /obj/structure/grille/stalker/beton{
@@ -4342,8 +4285,6 @@
 "Hj" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe3{
 	dir = 4;
-	icon_state = "truba3";
-	pixel_y = 0;
 	tag = "icon-truba3 (EAST)"
 	},
 /turf/open/stalker/floor/gryaz/gryaz2,
@@ -4396,7 +4337,7 @@
 	dir = 1;
 	tag = "icon-log1 (NORTH)"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "HE" = (
 /turf/open/stalker/floor/digable/gryaz_rocky,
@@ -4633,13 +4574,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/rad/rad_low,
@@ -4725,13 +4664,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/rad/rad_low,
@@ -4876,10 +4813,6 @@
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
-"LC" = (
-/obj/machinery/door/poddoor/shutters,
-/turf/open/space/basic,
-/area/stalker/blowout/outdoor)
 "LF" = (
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
@@ -4906,13 +4839,12 @@
 /area/stalker/blowout/outdoor)
 "LK" = (
 /obj/structure/chair/brevno/log2,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "LP" = (
 /obj/structure/closet/crate/stalker/blue/stash/low,
 /obj/machinery/light/small{
 	dir = 1;
-	icon_state = "bulb";
 	tag = "icon-bulb1 (NORTH)"
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -4933,7 +4865,6 @@
 /obj/anomaly/puh,
 /obj/structure/barricade/stalker/wood{
 	dir = 4;
-	icon_state = "zabitiy_proxod";
 	tag = "icon-zabitiy_proxod (EAST)"
 	},
 /obj/structure/mineral_door/wood,
@@ -5139,13 +5070,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
-	pixel_y = 0;
 	tag = "icon-border2"
 	},
 /obj/rad/rad_low,
@@ -5548,9 +5477,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Rk" = (
-/obj/structure/stalker/car/btrgrimy{
-	icon_state = "1"
-	},
+/obj/structure/stalker/car/btrgrimy,
 /obj/rad/rad_medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -5608,13 +5535,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/rad/rad_low,
@@ -5675,13 +5600,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /turf/closed/wall/stalker/bricks_white,
@@ -5715,8 +5638,6 @@
 "SH" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 8;
-	icon_state = "truba2";
-	pixel_y = 0;
 	tag = "icon-truba2 (WEST)"
 	},
 /turf/open/stalker/floor/gryaz/gryaz2,
@@ -6070,7 +5991,7 @@
 	icon_state = "|";
 	tag = "icon-|"
 	},
-/turf/open/space/basic,
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "UU" = (
 /obj/rad/rad_high,
@@ -6111,13 +6032,11 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/rad/rad_low,
@@ -6566,7 +6485,7 @@
 	icon_state = "=1";
 	tag = "icon-=1"
 	},
-/turf/open/space/basic,
+/turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "YW" = (
 /turf/open/stalker/floor/gryaz{
@@ -7022,7 +6941,7 @@ Or
 Or
 Or
 Uj
-LC
+Uk
 rI
 Ex
 wZ
@@ -29976,7 +29895,7 @@ Ci
 gx
 qZ
 ou
-iD
+vS
 sg
 Cu
 Cu
@@ -34055,7 +33974,7 @@ Oe
 Oe
 Oe
 Oe
-iJ
+Oe
 Oe
 Oe
 Oe
@@ -34312,7 +34231,7 @@ Oe
 Oe
 Oe
 Oe
-iJ
+Oe
 Oe
 Oe
 Oe
@@ -34797,7 +34716,7 @@ hP
 hP
 hP
 ki
-Co
+YZ
 hP
 hP
 Oe
@@ -35800,7 +35719,7 @@ Or
 Or
 Sa
 hP
-Co
+YZ
 hP
 Fl
 wF
@@ -36057,7 +35976,7 @@ Or
 Or
 Or
 Or
-Co
+YZ
 hP
 Fl
 wF
@@ -36314,7 +36233,7 @@ Or
 Or
 Or
 Or
-Co
+YZ
 hP
 Fl
 wF
@@ -36571,7 +36490,7 @@ Or
 Or
 Or
 Or
-Co
+YZ
 Fl
 Fl
 wF
@@ -36828,7 +36747,7 @@ Or
 Or
 Or
 Or
-Co
+YZ
 hP
 hP
 wF
@@ -37085,7 +37004,7 @@ Or
 Or
 Or
 Or
-Co
+YZ
 Fl
 hP
 wF
@@ -37342,7 +37261,7 @@ Or
 Or
 Or
 Or
-Co
+YZ
 si
 Zb
 wF
@@ -37599,7 +37518,7 @@ Or
 Or
 Or
 Or
-Co
+YZ
 Cj
 Cj
 wF
@@ -38662,7 +38581,7 @@ Oe
 Oe
 Oe
 Oe
-YZ
+Co
 eQ
 eQ
 eQ
@@ -38919,7 +38838,7 @@ Oe
 FL
 Oe
 Oe
-YZ
+Co
 eQ
 eQ
 eQ
@@ -39176,7 +39095,7 @@ Oe
 Oe
 Oe
 Oe
-YZ
+Co
 eQ
 eQ
 eQ
@@ -39433,7 +39352,7 @@ Oe
 Oe
 Oe
 Oe
-YZ
+Co
 eQ
 eQ
 eQ
@@ -39947,7 +39866,7 @@ Oe
 Oe
 Oe
 Oe
-LC
+cj
 AO
 AO
 AO
@@ -40204,7 +40123,7 @@ Oe
 Oe
 Oe
 Oe
-LC
+cj
 Nb
 pr
 AO
@@ -40975,7 +40894,7 @@ Oe
 Oe
 Oe
 Oe
-LC
+cj
 Nb
 Nb
 AO
@@ -41232,7 +41151,7 @@ Oe
 Oe
 Oe
 Oe
-LC
+cj
 Nb
 Nb
 Nm
@@ -43031,7 +42950,7 @@ Oe
 Oe
 Oe
 Oe
-LC
+cj
 vD
 RQ
 RX
@@ -43288,7 +43207,7 @@ Oe
 Oe
 Oe
 Oe
-LC
+cj
 AO
 le
 Nr
@@ -44830,7 +44749,7 @@ Oe
 Oe
 eQ
 eQ
-Co
+YZ
 hP
 hP
 hP

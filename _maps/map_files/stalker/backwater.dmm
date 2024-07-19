@@ -5215,13 +5215,13 @@
 /obj/structure/stalker/car/mi24{
 	icon_state = "1,3"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "uy" = (
 /obj/structure/stalker/car/mi24{
 	icon_state = "1,4"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "uz" = (
 /obj/structure/stalker/car/uaz{
@@ -5249,14 +5249,14 @@
 /obj/structure/stalker/car/mi24{
 	icon_state = "2,3"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "uE" = (
 /obj/structure/stalker/doski/doski2,
 /obj/structure/stalker/car/mi24{
 	icon_state = "2,4"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "uF" = (
 /obj/structure/stalker/bigyashik{
@@ -7864,7 +7864,7 @@
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker/buildings/backwater/sawmill)
 "IU" = (
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "IZ" = (
 /turf/open/stalker/floor/digable/grass,

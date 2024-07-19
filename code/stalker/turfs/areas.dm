@@ -3,9 +3,9 @@
 	name = "Strange Location"
 	icon_state = "away"
 	has_gravity = STANDARD_GRAVITY
-	static_lighting = FALSE
-	base_lighting_alpha = 255
-	base_lighting_color = COLOR_WHITE
+	static_lighting = TRUE
+	// base_lighting_alpha = 255
+	// base_lighting_color = COLOR_WHITE
 
 /area/stalker/blowout
 	ambient_environment = DEFAULT_AMBIENT_ENVIRONMENT_DAY

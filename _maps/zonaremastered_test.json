@@ -1,0 +1,20 @@
+{
+	"version": 1,
+    "map_name": "Zona Remastered",
+    "map_path": "map_files/stalker",
+    "map_file": [
+		"WildTerritory.dmm"
+	],
+	"traits": [
+		{
+			"//": "Wild Territory",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true,
+			"No Parallax": true
+		}
+	],
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"minetype": "none"
+}

@@ -412,7 +412,7 @@
 /area/stalker/blowout/outdoor)
 "dA" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "dB" = (
 /obj/effect/decal/cleanable/blood,
@@ -823,7 +823,7 @@
 /area/stalker/buildings/backwater/krug)
 "gY" = (
 /obj/anomaly/electro,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "gZ" = (
 /obj/structure/stalker/bar_plitka,
@@ -862,7 +862,7 @@
 	icon_state = "1,3"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "hj" = (
 /obj/structure/table/stalker/wood/bar,
@@ -1137,7 +1137,7 @@
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "jB" = (
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "jC" = (
 /obj/structure/flora/tree/jungle/small,
@@ -1243,7 +1243,7 @@
 	icon_state = "2";
 	tag = "icon-2"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "kr" = (
 /obj/machinery/camera,
@@ -1269,7 +1269,7 @@
 "ky" = (
 /obj/rad/rad_low,
 /obj/rad/rad_low,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "kE" = (
 /obj/structure/stalker/cacheable/shina3a,
@@ -1287,7 +1287,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "5"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "kL" = (
 /obj/structure/lattice/catwalk,
@@ -1321,7 +1321,7 @@
 	icon_state = "3";
 	tag = "icon-3"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "lg" = (
 /obj/structure/stalker/car/gryzovik2/south{
@@ -1870,7 +1870,7 @@
 /area/stalker/blowout/outdoor)
 "qn" = (
 /obj/structure/stalker/car/gryzovik/west,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "qr" = (
 /obj/machinery/door/poddoor/gate,
@@ -2191,7 +2191,7 @@
 	icon_state = "1,4"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "sU" = (
 /obj/effect/decal/remains/human,
@@ -2252,7 +2252,7 @@
 /area/stalker/blowout/outdoor)
 "ti" = (
 /obj/effect/landmark/blowout_spawner/bloodsucker,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "tn" = (
 /obj/effect/landmark/blowout_spawner/pseudo,
@@ -2774,7 +2774,7 @@
 /area/stalker/buildings/backwater/krug)
 "wK" = (
 /obj/anomaly/tramplin,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "wP" = (
 /obj/structure/table/stalker/wood,
@@ -2838,7 +2838,7 @@
 	icon_state = "2,3"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "xp" = (
 /obj/structure/stalker/trubas{
@@ -3223,7 +3223,7 @@
 /obj/structure/stalker/cacheable/pech{
 	pixel_y = 27
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "AV" = (
 /obj/anomaly/electro,
@@ -3281,7 +3281,7 @@
 	icon_state = "1,1"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "BC" = (
 /obj/structure/stalker/blocks/vanish/block1/r,
@@ -3368,7 +3368,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/ecologist)
 "Cw" = (
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "Cy" = (
 /obj/structure/stalker/car/uaz{
@@ -3497,7 +3497,7 @@
 /area/stalker/buildings/backwater/krug)
 "DS" = (
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "DV" = (
 /obj/structure/stalker/cacheable/shitok/shitok2{
@@ -3853,7 +3853,7 @@
 /area/stalker/buildings)
 "FC" = (
 /obj/structure/stalker/tree,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "FE" = (
 /obj/structure/stalker/cacheable/clock,
@@ -3980,7 +3980,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "3"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "GM" = (
 /turf/closed/wall/stalker/bricks_white,
@@ -4247,7 +4247,7 @@
 /area/stalker/buildings)
 "IJ" = (
 /obj/rad/rad_low,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "IL" = (
 /obj/effect/spawner/random/stalker/oldcircuitboard,
@@ -4949,7 +4949,7 @@
 	icon_state = "2,4"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "Oc" = (
 /obj/structure/stalker/doski/doski_alt,
@@ -5102,7 +5102,7 @@
 /area/stalker/blowout/outdoor)
 "Ps" = (
 /obj/structure/stalker/car/gryzovik/south,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "Pt" = (
 /turf/open/stalker/floor/asphalt,
@@ -5720,7 +5720,7 @@
 	icon_state = "4";
 	tag = "icon-4"
 	},
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "Uv" = (
 /obj/structure/stone_tile/burnt,
@@ -5748,7 +5748,7 @@
 	icon_state = "2,2"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "UG" = (
 /obj/machinery/light,
@@ -6192,7 +6192,7 @@
 	icon_state = "1,2"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "XJ" = (
 /obj/structure/stalker/bunker{
@@ -6442,7 +6442,7 @@
 /area/stalker/buildings/backwater/krug)
 "ZB" = (
 /obj/effect/decal/remains/human,
-/turf/open/misc/dirt/dark,
+/turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "ZD" = (
 /obj/structure/stalker/antitank,

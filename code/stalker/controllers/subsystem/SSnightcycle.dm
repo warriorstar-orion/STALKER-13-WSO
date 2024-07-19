@@ -1,31 +1,20 @@
-/*  6:00 AM 	- 	21600
-	6:45 AM 	- 	24300
-	11:45 AM 	- 	42300
-	4:45 PM 	- 	60300
-	9:45 PM 	- 	78300
-	10:30 PM 	- 	81000 */
+#define TIMEOFDAY_SUNRISE	"sunrise"
+#define TIMEOFDAY_MORNING	"morning"
+#define TIMEOFDAY_DAYTIME	"daytime"
+#define TIMEOFDAY_AFTERNOON	"afternoon"
+#define TIMEOFDAY_SUNSET	"sunset"
+#define TIMEOFDAY_NIGHTTIME	"nighttime"
 
-#define TIMEOFDAY_SUNRISE "sunrise"
-#define TIMEOFDAY_MORNING "morning"
-#define TIMEOFDAY_DAYTIME "daytime"
-#define TIMEOFDAY_AFTERNOON "afternoon"
-#define TIMEOFDAY_SUNSET "sunset"
-#define TIMEOFDAY_NIGHTTIME "nighttime"
-
-#define CYCLE_SUNRISE 	216000
-#define CYCLE_MORNING 	243000
-#define CYCLE_DAYTIME 	423000
-#define CYCLE_AFTERNOON 603000
-#define CYCLE_SUNSET 	783000
-#define CYCLE_NIGHTTIME 810000
-
-GLOBAL_LIST_INIT(nightcycle_turfs, list())
+#define CYCLE_SUNRISE 	216000  // 06:00
+#define CYCLE_MORNING 	243000  // 06:45
+#define CYCLE_DAYTIME 	423000  // 11:45
+#define CYCLE_AFTERNOON 603000  // 16:45
+#define CYCLE_SUNSET 	783000  // 21:45
+#define CYCLE_NIGHTTIME 810000	// 22:30
 
 SUBSYSTEM_DEF(nightcycle)
 	name = "Day/Night Cycle"
-	wait = 5 //5 ticks in between checks, this thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
-	//This will also give the game time to light up the columns and not choke
-	//var/flags = 0			//see MC.dm in __DEFINES Most flags must be set on world start to take full effect. (You can also restart the mc to force them to process again
+	wait = 5 // This thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
 	can_fire = TRUE
 	var/currentTime
 	var/sunColour
@@ -35,23 +24,7 @@ SUBSYSTEM_DEF(nightcycle)
 	var/newTime
 	var/list/day_night_levels = list()
 
-//used to initialize the subsystem AFTER the map has loaded
-/datum/controller/subsystem/nightcycle/Initialize(start_timeofday)
-	//loop over all blowout areas and set them up to use the day night cycle
-	// for(var/area/stalker/blowout/B in world)
-
-	// 	//grab all floors in this area
-	// 	for(var/turf/open/stalker/floor/F in B)
-
-	// 		//enable the day night effects on this turf
-	// 		// TODO(wso): Figure out what modern lighting should be doing here
-	// 		// F.turf_light_range = 3
-	// 		// F.turf_light_range = 0.75
-
-	// 		//make sure this zlevel is included
-	// 		var/cur_z = "[F.z]"
-	// 		day_night_levels |= cur_z
-
+/datum/controller/subsystem/nightcycle/Initialize()
 	return SS_INIT_SUCCESS
 
 /datum/controller/subsystem/nightcycle/fire(resumed = FALSE)
@@ -79,21 +52,12 @@ SUBSYSTEM_DEF(nightcycle)
 		else
 			newTime = TIMEOFDAY_NIGHTTIME
 
-	if (newTime != currentTime)
-		//message_admins("new time bracket triggered /datum/controller/subsystem/nightcycle/proc/nextBracket() Time:[Time] newTime:[newTime]")
-		currentTime = newTime
-		updateLight(currentTime)
-		/*if(newTime == TIMEOFDAY_MORNING) //Only change lamps when we need to
-			for(var/obj/structure/lamp_post/LP in GLOB.lamppost)
-				LP.icon_state = "[initial(LP.icon_state)]"
-				LP.set_light(0)
-		else if(newTime == TIMEOFDAY_SUNSET)
-			for(var/obj/structure/lamp_post/LP in GLOB.lamppost)
-				LP.icon_state = "[initial(LP.icon_state)]-on"
-				LP.set_light(LP.on_range,LP.on_power,LP.light_color)*/
-		. = TRUE
-	else
-		//message_admins("/datum/controller/subsystem/nightcycle/proc/nextBracket() Time:[Time] newTime:[newTime]")
+	if (newTime == currentTime)
+		return FALSE
+
+	currentTime = newTime
+	updateLight(currentTime)
+	return TRUE
 
 /datum/controller/subsystem/nightcycle/proc/set_time_of_day(time_name)
 	var/new_time = 0
@@ -138,18 +102,10 @@ SUBSYSTEM_DEF(nightcycle)
 
 /datum/controller/subsystem/nightcycle/proc/is_daylight()
 	switch (currentTime)
-		if (TIMEOFDAY_SUNRISE)
-			return 0
-		if (TIMEOFDAY_MORNING)
-			return 1
-		if (TIMEOFDAY_DAYTIME)
-			return 1
-		if (TIMEOFDAY_AFTERNOON)
-			return 1
-		if (TIMEOFDAY_SUNSET)
-			return 0
-		if(TIMEOFDAY_NIGHTTIME)
-			return 0
+		if (TIMEOFDAY_SUNRISE, TIMEOFDAY_SUNSET, TIMEOFDAY_NIGHTTIME)
+			return FALSE
+		if (TIMEOFDAY_MORNING, TIMEOFDAY_MORNING, TIMEOFDAY_AFTERNOON)
+			return TRUE
 
 #undef TIMEOFDAY_SUNRISE
 #undef TIMEOFDAY_MORNING
