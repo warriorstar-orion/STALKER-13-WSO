@@ -19,7 +19,6 @@
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "af" = (
 /obj/structure/stalker/cacheable/polka{
-	cache_quality = 0;
 	pixel_y = -8
 	},
 /turf/closed/indestructible/hull{
@@ -158,9 +157,8 @@
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "aG" = (
 /obj/structure/stalker/cacheable/komod{
-	cache_quality = 0;
-	pixel_x = 5;
-	pixel_y = -3
+	pixel_y = -3;
+	pixel_x = 5
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
@@ -345,14 +343,11 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor/backwater)
 "bs" = (
-/obj/structure/stalker/cacheable/komod{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/komod,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "bt" = (
 /obj/structure/stalker/cacheable/polka{
-	cache_quality = 0;
 	pixel_y = 15
 	},
 /turf/open/stalker/floor/lattice,
@@ -458,7 +453,6 @@
 /area/stalker/blowout/outdoor/backwater)
 "bO" = (
 /obj/structure/stalker/cacheable/komod{
-	cache_quality = 0;
 	pixel_x = -4
 	},
 /turf/open/stalker/floor/lattice,
@@ -491,15 +485,11 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater)
 "bU" = (
-/obj/structure/stalker/cacheable/yashik/yaskik_a{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/yashik/yaskik_a,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "bV" = (
-/obj/structure/stalker/cacheable/yashik{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/yashik,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "bW" = (
@@ -1039,9 +1029,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "ev" = (
-/obj/structure/stalker/cacheable/yashik{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/yashik,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/backwater/sawmill)
 "ew" = (
@@ -1533,7 +1521,6 @@
 "gy" = (
 /obj/structure/stalker/cacheable/bochka,
 /obj/structure/stalker/cacheable/radio{
-	cache_quality = 0;
 	pixel_y = 17
 	},
 /turf/open/stalker/floor/lattice,
@@ -1718,9 +1705,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater)
 "hl" = (
-/obj/structure/stalker/cacheable/yashik{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/yashik,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "hm" = (
@@ -1794,9 +1779,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "hC" = (
-/obj/structure/stalker/cacheable/yashik/yaskik_a{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/yashik/yaskik_a,
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater)
 "hD" = (
@@ -2834,9 +2817,7 @@
 /obj/structure/stalker/cacheable/battery{
 	pixel_y = 28
 	},
-/obj/structure/stalker/cacheable/yashik{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/yashik,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "lY" = (
@@ -2876,7 +2857,6 @@
 /area/stalker/buildings/backwater/krug)
 "mg" = (
 /obj/structure/stalker/cacheable/radio{
-	cache_quality = 0;
 	pixel_y = 17
 	},
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -2928,9 +2908,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "mr" = (
-/obj/structure/stalker/cacheable/yashik{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/yashik,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "ms" = (
@@ -5951,7 +5929,6 @@
 "xd" = (
 /obj/structure/table/stalker,
 /obj/structure/stalker/cacheable/radio{
-	cache_quality = 0;
 	pixel_y = 17
 	},
 /turf/open/stalker/floor/plasteel/plitka,
@@ -7396,9 +7373,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater/substation)
 "CD" = (
-/obj/structure/stalker/cacheable/yashik/yaskik_a{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/yashik/yaskik_a,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater/substation)
 "CE" = (

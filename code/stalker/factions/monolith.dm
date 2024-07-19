@@ -78,6 +78,7 @@
 				/obj/item/flashlight,
 				/obj/item/flashlight/flare/torch,
 				/obj/item/flashlight/flare)
+
 /datum/job/stalker/monolith_hegumen
 	title = JOB_MONOLITH_HEGUMEN
 	faction_s = "Monolith"

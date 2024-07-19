@@ -1,6 +1,3 @@
-/obj/structure/table/stalker
-	canSmoothWith = SMOOTH_GROUP_WOOD_TABLES
-
 /obj/structure/table/stalker/wood
 	desc = "A simple table."
 	icon = 'icons/stalker/structure/stol_stalker.dmi'

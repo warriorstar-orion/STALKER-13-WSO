@@ -822,7 +822,7 @@
 "gH" = (
 /obj/effect/step_trigger/teleporter{
 	dir = 4;
-	teleport_x = 001;
+	teleport_x = 1;
 	teleport_y = 171;
 	teleport_z = 9
 	},
@@ -1002,7 +1002,7 @@
 "io" = (
 /obj/effect/step_trigger/teleporter{
 	dir = 4;
-	teleport_x = 001;
+	teleport_x = 1;
 	teleport_y = 168;
 	teleport_z = 9
 	},
@@ -1433,7 +1433,7 @@
 "lI" = (
 /obj/effect/step_trigger/teleporter{
 	dir = 4;
-	teleport_x = 001;
+	teleport_x = 1;
 	teleport_y = 169;
 	teleport_z = 9
 	},
@@ -2551,7 +2551,7 @@
 "uz" = (
 /obj/effect/step_trigger/teleporter{
 	dir = 4;
-	teleport_x = 001;
+	teleport_x = 1;
 	teleport_y = 170;
 	teleport_z = 9
 	},

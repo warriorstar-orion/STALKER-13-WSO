@@ -1368,15 +1368,12 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	desc = "Generates a stash with a certain chance at the start of the round. Tell a developer if you see this."
 	density = 1
 	var/cache_chance = 0	//percent
-	var/cache_quality = -1	//from 0 to 3, -1 for random
 	var/cache_size = 0		//from 0 to 3
 	resistance_flags = INDESTRUCTIBLE
-	var/datum/storage/stalker/cache/internal_cache
-	// TODO(wso): Dunno where to put this
-	var/waspicked = FALSE
 
 /obj/structure/stalker/cacheable/Initialize(mapload)
 	. = ..()
+
 	GLOB.stalker_caches += src
 	RefreshContents()
 
@@ -1385,37 +1382,47 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	GLOB.stalker_caches -= src
 
 /obj/structure/stalker/cacheable/proc/RefreshContents()
-	if(ispath(internal_cache))
-		LoadComponent(internal_cache)
+	// Clobber the existing storage so we don't keep accumulating stuff.
+	switch(cache_size)
+		if(0)
+			create_storage(storage_type = /datum/storage/stalker/cache/small)
+		if(1)
+			create_storage(storage_type = /datum/storage/stalker/cache/medium)
+		if(2)
+			create_storage(storage_type = /datum/storage/stalker/cache/big)
+		if(3)
+			create_storage(storage_type = /datum/storage/stalker/cache/large)
 
 	if(!cache_chance)
-		cache_chance = rand(6,8)
+		cache_chance = rand(3, 7)
 
-	if(cache_quality == -1)
+	var/datum/storage/stalker/cache/cache_storage = atom_storage
+
+	if(cache_storage.cache_quality == -1)
+		// TODO(wso): I think this is supposed to provide nicer stuff further
+		// north or less stuff further north but either way the odds seem weird.
 		switch(z)
 			if(4 to INFINITY)
-				cache_quality = rand(1, 2)//rand(2, 3)
+				cache_storage.cache_quality = rand(1, 2)
 			if(3)
-				cache_quality = rand(0, 1)
+				cache_storage.cache_quality = rand(0, 1)
 			if(2)
-				cache_quality = 0
+				cache_storage.cache_quality = 0
 				cache_chance += 2
 			if(1)
-				cache_quality = rand(1, 2)//0
+				cache_storage.cache_quality = rand(1, 2)
 				cache_chance -= 4
 
-	switch(cache_quality)
+	switch(cache_storage.cache_quality)
 		if(3)
 			cache_chance -= 2.5
-
+		// TODO(wso): Where's 2
 		if(1)
 			cache_chance += 1
-
 		if(0)
 			cache_chance += 2
 
 	if(!prob(cache_chance))
-		//internal_cache = null
 		return
 
 	var/area/A = get_area(src)
@@ -1423,38 +1430,35 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	if(A && A.controlled_by)
 		return
 
-	switch(cache_size)
-		if(0)
-			internal_cache = new /datum/storage/stalker/cache/small(src)
-		if(1)
-			internal_cache = new /datum/storage/stalker/cache/medium(src)
-		if(2)
-			internal_cache = new /datum/storage/stalker/cache/big(src)
-		if(3)
-			internal_cache = new /datum/storage/stalker/cache/large(src)
-
-	internal_cache.CreateContents(src)
+	cache_storage.CreateContents()
 
 /obj/structure/stalker/cacheable/attack_hand(mob/user)
 	. = ..()
-	user.visible_message("<span class='notice'>[user] begins to inspect [src]...</span>", "<span class='notice'>You start to inspect [src]...</span>")
-	if(!do_after(user, 30, 1, src))
+
+	if(!atom_storage)
 		return
 
-	if(!internal_cache)
+	var/datum/storage/stalker/cache/cache_storage = atom_storage
+	if(!istype(cache_storage))
+		return
+
+	if(cache_storage.was_searched)
+		cache_storage.show_contents(user)
+		return
+
+	user.visible_message("<span class='notice'>[user] begins to inspect [src]...</span>", "<span class='notice'>You start to inspect [src]...</span>")
+	if(!do_after(user, 30, target = src))
+		return
+
+	if(!length(atom_storage.real_location.contents))
 		user.visible_message("<span class='notice'>[user] doesn't find anything in [src].</span>", "<span class='notice'>You didn't find anything in [src].</span>")
 		return
 
 	user.visible_message("<span class='notice'>[user] finds something in [src].</span>", "<span class='notice'>You found something in [src].</span>")
-
-	//playsound(loc, "rustle", 50, 1, -5)
-	internal_cache.show_contents(user)
-
-	if(waspicked || !istype(usr, /mob/living/carbon/human))
-		return
+	cache_storage.was_searched = TRUE
+	cache_storage.show_contents(user)
 
 	var/mob/living/carbon/human/H = usr
-	waspicked = 1
 
 	if(!istype(H.wear_id, /obj/item/stalker_pda))
 		return
@@ -1471,24 +1475,32 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 	if(!sk)
 		return
 
-	sk.fields["rating"] +=  25 * (2 ** cache_quality)
+	sk.fields["rating"] +=  25 * (2 ** cache_storage.cache_quality)
 
-	if(!internal_cache.cached_cash)
+	if(!cache_storage.cached_cash)
 		return
 
-	sk.fields["money"] += internal_cache.cached_cash
-	show_lenta_message(null, KPK, null, "PDA", "OS", "You found the key on [internal_cache.cached_cash] rubles, the key is activated!", selfsound = 1)
-	internal_cache.cached_cash = 0
+	sk.fields["money"] += cache_storage.cached_cash
+	show_lenta_message(null, KPK, null, "PDA", "OS", "You found the key on [cache_storage.cached_cash] rubles, the key is activated!", selfsound = 1)
+	cache_storage.cached_cash = 0
 
 /datum/storage/stalker/cache
-	var/was_picked = FALSE
+	var/was_searched = FALSE
+	var/refreshing_contents = FALSE
 	var/cached_cash = 0
+	var/cache_quality = -1	//from 0 to 3, -1 for random
 	max_slots = 5
 	numerical_stacking = TRUE
 	attack_hand_interact = TRUE
 
-/datum/storage/stalker/cache/can_insert(obj/item/to_insert, mob/user, messages, force)
+/datum/storage/stalker/cache/open_storage_on_signal(datum/source, mob/to_show)
+	if(was_searched)
+		return ..()
+
 	return FALSE
+
+/datum/storage/stalker/cache/can_insert(obj/item/to_insert, mob/user, messages, force)
+	return refreshing_contents && ..()
 
 /datum/storage/stalker/cache/on_mousedrop_onto(datum/source, atom/over_object, mob/user)
 	return FALSE
@@ -1502,12 +1514,11 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 
 	return ..()
 
-/datum/storage/stalker/cache/proc/CreateContents(obj/structure/stalker/cacheable/C)
-
+/datum/storage/stalker/cache/proc/CreateContents()
 	var/list/lootspawn = list()
 
 	var/max_cost = 0
-	switch(C.cache_quality)
+	switch(cache_quality)
 		if(0)
 			lootspawn = GLOB.trash_tier_sidormatitems
 			max_cost = TRASH_TIER_COST
@@ -1541,22 +1552,22 @@ GLOBAL_LIST_EMPTY(stalker_caches)
 		if(!A)
 			continue
 
-		var/obj/item/I = new A(src)
+		var/obj/item/I = new A(null)
 
 		if(I.w_class > max_specific_storage)
+			qdel(I)
 			continue
 
 		combined_cost += SE.cost
-
-		//if(I.w_class >= w_class && (istype(I, /obj/item/storage)))
-		//	continue
-
 		combined_w_class +=  I.w_class
 
+		refreshing_contents = TRUE
 		attempt_insert(I, null, override = TRUE, force = TRUE, messages = FALSE)
+		refreshing_contents = FALSE
 
-	if(max_cost - combined_cost > 0)
-		cached_cash = round((max_cost - combined_cost)/2)
+	// TODO(wso): Renable this once PDAs aren't trash
+	// if(max_cost - combined_cost > 0)
+	// 	cached_cash = round((max_cost - combined_cost)/2)
 
 /datum/storage/stalker/cache/small
 	max_slots = 3

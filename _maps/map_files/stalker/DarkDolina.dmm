@@ -2310,7 +2310,7 @@
 /area/stalker/blowout/buildings)
 "Bl" = (
 /obj/machinery/light{
-	dir = 2\
+	dir = 2
 	},
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)

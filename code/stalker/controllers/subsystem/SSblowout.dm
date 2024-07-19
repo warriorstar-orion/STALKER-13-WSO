@@ -198,10 +198,6 @@ SUBSYSTEM_DEF(blowout)
 		CHECK_TICK
 
 	for(var/obj/structure/stalker/cacheable/cache as anything in GLOB.stalker_caches)
-		if(cache.internal_cache)
-			qdel(cache.internal_cache)
-		cache.internal_cache = null
-		cache.cache_chance = rand(3, 7)
 		cache.RefreshContents()
 		CHECK_TICK
 

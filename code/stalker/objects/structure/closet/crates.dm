@@ -65,9 +65,17 @@
 
 /obj/structure/closet/crate/stalker/blue/stash/open()
 	..()
-	if(!waspicked && istype(usr, /mob/living/carbon/human))
+	// TODO(wso): Dunno why this is separate from the parent
+	if(!atom_storage)
+		return
+
+	var/datum/storage/stalker/cache/cache_storage = atom_storage
+	if(!istype(cache_storage))
+		return
+
+	if(!cache_storage.was_searched && istype(usr, /mob/living/carbon/human))
 		var/mob/living/carbon/human/H = usr
-		waspicked = 1
+		cache_storage.was_searched = TRUE
 		if(istype(H.wear_id, /obj/item/stalker_pda))
 			var/obj/item/stalker_pda/KPK = H.wear_id
 			if(KPK.owner)

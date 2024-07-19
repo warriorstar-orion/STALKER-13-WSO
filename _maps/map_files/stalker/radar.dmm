@@ -828,9 +828,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "ct" = (
-/obj/structure/stalker/cacheable/yashik{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/yashik,
 /obj/rad/rad_medium,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -1034,7 +1032,6 @@
 /area/stalker/buildings)
 "dd" = (
 /obj/structure/stalker/cacheable/polka{
-	cache_quality = 0;
 	pixel_y = -8
 	},
 /obj/effect/spawner/random/stalker/weapon/melee,
@@ -1053,7 +1050,6 @@
 /area/stalker/buildings)
 "df" = (
 /obj/structure/stalker/cacheable/polka{
-	cache_quality = 0;
 	pixel_y = 15
 	},
 /obj/structure/stalker/cacheable/polka,
@@ -4829,9 +4825,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "pA" = (
-/obj/structure/stalker/cacheable/yashik{
-	cache_quality = 0
-	},
+/obj/structure/stalker/cacheable/yashik,
 /obj/item/food/stalker/konserva,
 /obj/rad/rad_low,
 /turf/open/stalker/floor/gryaz,
@@ -9943,7 +9937,7 @@
 /obj/effect/step_trigger/teleporter{
 	dir = 1;
 	teleport_x = 219;
-	teleport_y = 003;
+	teleport_y = 3;
 	teleport_z = 7
 	},
 /turf/open/stalker/floor/asphalt,

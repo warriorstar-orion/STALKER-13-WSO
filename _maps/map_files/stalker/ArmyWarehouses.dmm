@@ -3920,7 +3920,6 @@
 /area/stalker/blowout/outdoor)
 "Cv" = (
 /obj/structure/stalker/cacheable/polka{
-	cache_quality = 0;
 	pixel_y = -8
 	},
 /obj/effect/spawner/random/stalker/seeds,
@@ -4315,8 +4314,8 @@
 "Fi" = (
 /obj/effect/step_trigger/teleporter{
 	dir = 4;
-	teleport_x = 052;
-	teleport_y = 017;
+	teleport_x = 52;
+	teleport_y = 17;
 	teleport_z = 9
 	},
 /turf/open/floor/plasteel/stairs/stalker{
@@ -5066,7 +5065,6 @@
 /area/stalker/blowout/outdoor)
 "Kr" = (
 /obj/structure/stalker/cacheable/krest{
-	cache_quality = 1;
 	cache_size = 3
 	},
 /obj/rad/rad_low,
@@ -5166,7 +5164,6 @@
 /area/stalker/buildings/freedom)
 "KY" = (
 /obj/structure/stalker/cacheable/polka{
-	cache_quality = 0;
 	pixel_y = 15
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -5971,7 +5968,7 @@
 /obj/effect/step_trigger/teleporter{
 	dir = 8;
 	teleport_x = 172;
-	teleport_y = 022;
+	teleport_y = 22;
 	teleport_z = 9
 	},
 /turf/open/floor/plasteel/stairs/stalker{
@@ -6395,9 +6392,8 @@
 /area/stalker/buildings/freedom)
 "VA" = (
 /obj/structure/stalker/cacheable/body{
-	cache_quality = 1;
-	cache_size = 3;
-	icon_state = "deadbody3"
+	icon_state = "deadbody3";
+	cache_size = 3
 	},
 /obj/rad/rad_low,
 /obj/rad/rad_medium,
@@ -6612,7 +6608,6 @@
 /area/stalker)
 "Xv" = (
 /obj/structure/stalker/cacheable/polka{
-	cache_quality = 0;
 	pixel_y = -8
 	},
 /obj/effect/spawner/random/stalker/medicine,
