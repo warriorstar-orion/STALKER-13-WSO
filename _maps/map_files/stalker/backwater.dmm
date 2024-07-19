@@ -5243,7 +5243,7 @@
 /obj/structure/stalker/car/mi24{
 	icon_state = "2,2"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "uD" = (
 /obj/structure/stalker/car/mi24{
@@ -5311,25 +5311,25 @@
 /obj/structure/stalker/car/mi24{
 	icon_state = "3,1"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "uR" = (
 /obj/structure/stalker/car/mi24{
 	icon_state = "3,2"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "uS" = (
 /obj/structure/stalker/car/mi24{
 	icon_state = "3,3"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "uT" = (
 /obj/structure/stalker/car/mi24{
 	icon_state = "3,4"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "uU" = (
 /obj/structure/stalker/bigyashik{
@@ -5375,25 +5375,25 @@
 /obj/structure/stalker/car/mi24{
 	icon_state = "4,1"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "vd" = (
 /obj/structure/stalker/car/mi24{
 	icon_state = "4,2"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "ve" = (
 /obj/structure/stalker/car/mi24{
 	icon_state = "4,3"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "vf" = (
 /obj/structure/stalker/car/mi24{
 	icon_state = "4,4"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "vg" = (
 /obj/structure/bookcase,
@@ -8329,7 +8329,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater)
 "Op" = (
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "Oq" = (
 /obj/structure/chair/sofa/right,

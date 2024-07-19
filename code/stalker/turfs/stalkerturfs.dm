@@ -99,6 +99,7 @@
 /turf/open/stalker/floor
 	name = "grass"
 	icon = 'icons/stalker/grass.dmi'
+	baseturfs = /turf/open/stalker/floor/dirt
 	icon_state = "grass1"
 	//overlay_priority = 0
 	footstep = FOOTSTEP_TILE
@@ -170,8 +171,12 @@
 	// 				T.overlays += GryazEdgeCache[2**i]
 	return
 
-/turf/open/stalker/floor/dirt/dark
+/turf/open/stalker/floor/dirt
 	icon = 'icons/turf/floors.dmi'
+	icon_state = "dirt"
+	base_icon_state = "dirt"
+
+/turf/open/stalker/floor/dirt/dark
 	icon_state = "greenerdirt"
 	base_icon_state = "greenerdirt"
 

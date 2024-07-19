@@ -1,9 +1,8 @@
 #define ROOF_FADE_TIME 10
 
 
-client
-	var
-		list/hide_rooves = list()
+/client
+	var/list/hide_rooves = list()
 
 roof_hider
 	var/tmp

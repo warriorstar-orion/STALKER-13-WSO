@@ -2338,7 +2338,7 @@
 	dir = 4;
 	tag = "icon-truba2 (EAST)"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "wh" = (
 /obj/machinery/light/small{
@@ -2349,7 +2349,7 @@
 	dir = 4;
 	tag = "icon-truba3 (EAST)"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "wk" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
@@ -2357,7 +2357,7 @@
 	tag = "icon-truba2 (WEST)"
 	},
 /obj/structure/stalker/cacheable/truba,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "wm" = (
 /obj/structure/stalker/cacheable/polka,
@@ -2375,7 +2375,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "wx" = (
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "wT" = (
 /obj/structure/chair/sofa/left{
@@ -2408,7 +2408,7 @@
 /area/stalker/blowout/outdoor)
 "xG" = (
 /obj/machinery/campfire/barrel,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "xM" = (
 /obj/machinery/light/small,
@@ -2467,7 +2467,7 @@
 /area/stalker/blowout/outdoor)
 "yR" = (
 /obj/item/trash/cigs_trash,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "yT" = (
 /obj/machinery/light/small,
@@ -2559,7 +2559,7 @@
 /area/stalker/blowout/buildings)
 "zP" = (
 /obj/item/trash/cigs_trash2,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "Af" = (
 /obj/structure/stalker/propane/dual{
@@ -2977,7 +2977,7 @@
 	icon_state = "border8";
 	tag = "icon-border8"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "FX" = (
 /turf/open/stalker/floor/agroprom/beton,
@@ -3010,7 +3010,7 @@
 	icon_state = "border8";
 	tag = "icon-border8"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "Gy" = (
 /obj/structure/stalker/panel/panel2,
@@ -3023,7 +3023,7 @@
 	pixel_y = 5;
 	tag = "icon-radio (NORTH)"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "GT" = (
 /obj/structure/stalker/panel,

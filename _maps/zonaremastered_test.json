@@ -3,11 +3,11 @@
     "map_name": "Zona Remastered",
     "map_path": "map_files/stalker",
     "map_file": [
-		"WildTerritory.dmm"
+		"greatswamps.dmm"
 	],
 	"traits": [
 		{
-			"//": "Wild Territory",
+			"//": "greatswamps",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,

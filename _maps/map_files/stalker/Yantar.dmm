@@ -314,7 +314,7 @@
 /area/stalker/buildings)
 "cD" = (
 /obj/anomaly/tramplin,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "cH" = (
 /obj/effect/step_trigger/teleporter{
@@ -395,7 +395,7 @@
 /area/stalker/buildings/backwater/krug)
 "dq" = (
 /obj/structure/stalker/doski/doski3,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "dt" = (
 /obj/structure/stalker/cacheable/shina3,
@@ -608,7 +608,7 @@
 /area/stalker/buildings/ecologist)
 "fq" = (
 /obj/structure/stalker/doski/doski2,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "fs" = (
 /obj/structure/stalker/blocks/block2/r,
@@ -684,7 +684,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "fY" = (
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "fZ" = (
 /obj/structure/stalker/cacheable/musor_yashik/red,
@@ -699,7 +699,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "gb" = (
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "gc" = (
 /obj/anomaly/jarka,
@@ -757,7 +757,7 @@
 	icon_state = "3,4"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "gG" = (
 /obj/structure/grille/stalker/beton,
@@ -1094,7 +1094,7 @@
 	icon_state = "4,1"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "jh" = (
 /obj/structure/stalker/doski/doski_alt4,
@@ -1121,7 +1121,7 @@
 /area/stalker/kordon/tunnel)
 "jo" = (
 /obj/structure/stalker/doski/doski4,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "js" = (
 /obj/structure/flora/stalker/bush,
@@ -1160,7 +1160,7 @@
 /area/stalker/buildings)
 "jN" = (
 /obj/structure/stalker/doski/doski_alt3,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "jP" = (
 /obj/structure/table/stalker/wood,
@@ -1463,7 +1463,7 @@
 	icon_state = "4,3"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "mh" = (
 /obj/structure/lattice/catwalk,
@@ -1555,7 +1555,7 @@
 /area/stalker/blowout/outdoor)
 "ni" = (
 /obj/anomaly/karusel,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "nj" = (
 /obj/structure/flora/stalker/bush,
@@ -1630,7 +1630,7 @@
 /area/stalker/blowout/outdoor)
 "oe" = (
 /obj/structure/stone_tile/block/burnt,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "og" = (
 /obj/structure/stalker/doski/doski4,
@@ -1769,7 +1769,7 @@
 /area/stalker/blowout/outdoor)
 "pz" = (
 /obj/effect/spawner/random/stalker/weapon/rifles_and_shotgunstier3,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "pA" = (
 /obj/structure/stalker/car/gryzovik_army/south{
@@ -1986,7 +1986,7 @@
 /area/stalker/buildings)
 "rg" = (
 /obj/structure/stone_tile/burnt,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "rh" = (
 /obj/structure/lattice/catwalk,
@@ -2315,7 +2315,7 @@
 /area/stalker/blowout/outdoor)
 "tP" = (
 /obj/structure/stalker/doski/doski_alt2,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "tR" = (
 /obj/structure/table/stalker/wood,
@@ -2614,7 +2614,7 @@
 	icon_state = "4,4"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "vA" = (
 /obj/structure/table/stalker/wood,
@@ -2715,7 +2715,7 @@
 /area/stalker/blowout/outdoor)
 "wn" = (
 /obj/structure/stalker/doski/doski_alt4,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "wr" = (
 /obj/structure/stalker/cacheable/musor_yashik/green,
@@ -2812,7 +2812,7 @@
 /area/stalker/buildings/backwater/krug)
 "xg" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe3,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "xh" = (
 /obj/structure/fence{
@@ -2961,7 +2961,7 @@
 "yt" = (
 /obj/structure/stone_tile/surrounding/burnt,
 /obj/structure/stone_tile/center/burnt,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "yx" = (
 /obj/structure/stalker/car/moskvich/south/hyi{
@@ -3116,7 +3116,7 @@
 	icon_state = "3,2"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "zS" = (
 /obj/structure/stalker/doski/doski_alt4,
@@ -3379,7 +3379,7 @@
 /area/stalker/buildings)
 "CC" = (
 /obj/structure/flora/stalker/bush,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "CE" = (
 /obj/structure/stalker/okno/window4,
@@ -3445,7 +3445,7 @@
 /area/stalker/blowout/outdoor)
 "Dl" = (
 /obj/structure/stone_tile/surrounding/burnt,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "Dm" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
@@ -3467,7 +3467,7 @@
 /area/stalker/blowout/outdoor)
 "Dx" = (
 /obj/anomaly/tramplin,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "DB" = (
 /obj/effect/turf_decal/stripes/full,
@@ -4398,7 +4398,7 @@
 /area/stalker/blowout/outdoor)
 "Kl" = (
 /obj/effect/spawner/random/stalker/weapon/rifles_and_shotguns,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "Kq" = (
 /obj/effect/spawner/random/stalker/food,
@@ -4906,7 +4906,7 @@
 	icon_state = "4,2"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "ND" = (
 /mob/living/simple_animal/hostile/mutant/snork{
@@ -5020,7 +5020,7 @@
 "Ox" = (
 /obj/structure/stone_tile/surrounding_tile/burnt,
 /obj/structure/stalker/doski/doski_alt4,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "OA" = (
 /obj/effect/decal/cleanable/blood,
@@ -5176,7 +5176,7 @@
 	},
 /obj/rad/rad_low,
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "Qk" = (
 /obj/structure/stalker/trubas{
@@ -5344,7 +5344,7 @@
 /area/stalker/buildings/backwater/krug)
 "RE" = (
 /obj/structure/stone_tile/slab/burnt,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "RI" = (
 /obj/effect/spawner/random/stalker/weapon/armortier2,
@@ -5631,7 +5631,7 @@
 "TL" = (
 /obj/structure/stalker/doski/doski_alt4,
 /obj/anomaly/tramplin,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "TM" = (
 /obj/structure/lattice/catwalk,
@@ -5708,7 +5708,7 @@
 	icon_state = "3,1"
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "Ul" = (
 /obj/structure/stalker/tree,
@@ -6050,7 +6050,7 @@
 /area/stalker/blowout/outdoor)
 "Wq" = (
 /obj/structure/stalker/doski/doski_alt,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "Wr" = (
 /obj/structure/table/stalker/wood,
@@ -6105,7 +6105,7 @@
 /area/stalker/blowout/outdoor)
 "WT" = (
 /obj/anomaly/jarka,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "WU" = (
 /obj/effect/spawner/random/bustedcigs,
@@ -6384,7 +6384,7 @@
 /area/stalker/blowout/outdoor)
 "Zd" = (
 /obj/structure/stone_tile/surrounding_tile/burnt,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/cave)
 "Ze" = (
 /obj/structure/stalker/cacheable/musor_yashik/red/full,

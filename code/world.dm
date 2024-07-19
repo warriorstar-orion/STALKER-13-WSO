@@ -11,7 +11,7 @@
 /world
 	mob = /mob/dead/new_player
 	turf = /turf/closed/indestructible/rock
-	area = /area/stalker
+	area = /area/stalker/confined
 	view = "15x15"
 	hub = "Exadv1.spacestation13"
 	hub_password = "kMZy3U5jJHSiBQjr"

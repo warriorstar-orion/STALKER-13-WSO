@@ -2832,7 +2832,7 @@
 /area/stalker/blowout/buildings)
 "vi" = (
 /obj/machinery/campfire,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "vm" = (
 /obj/rad/rad_low,
@@ -4478,7 +4478,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "IJ" = (
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "IN" = (
 /obj/anomaly/karusel,

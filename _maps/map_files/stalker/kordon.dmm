@@ -1366,7 +1366,7 @@
 /area/stalker/blowout/outdoor)
 "ei" = (
 /obj/machinery/campfire,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/kordon/buildings)
 "ej" = (
 /turf/open/stalker/floor/gryaz,
@@ -3551,7 +3551,7 @@
 /area/stalker/blowout/outdoor)
 "kS" = (
 /obj/structure/stalker/doski/doski3,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/kordon/buildings)
 "kT" = (
 /obj/structure/stalker/cacheable/komod{
@@ -3652,7 +3652,7 @@
 /area/stalker/kordon/buildings)
 "li" = (
 /obj/machinery/campfire/barrel,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/kordon/buildings)
 "lj" = (
 /obj/item/cigbutt,
@@ -4530,7 +4530,7 @@
 /area/stalker)
 "rn" = (
 /obj/structure/barricade/stalker/box,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/kordon/buildings)
 "rq" = (
 /obj/effect/landmark/latejoin,
@@ -4918,7 +4918,7 @@
 /area/stalker/buildings)
 "uR" = (
 /obj/structure/chair/brevno/log2,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/kordon/buildings)
 "uU" = (
 /obj/structure/table/stalker/wood,
@@ -5320,7 +5320,7 @@
 /area/stalker/blowout/outdoor)
 "ze" = (
 /obj/structure/sink/wellpump,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/kordon/buildings)
 "zf" = (
 /obj/structure/stalker/cacheable/painting/lenin{
@@ -5436,7 +5436,7 @@
 /area/stalker/kordon/buildings)
 "zW" = (
 /obj/machinery/campfire,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "zX" = (
 /obj/structure/stalker/cacheable/polka,
@@ -5513,7 +5513,7 @@
 /area/stalker)
 "AA" = (
 /obj/structure/stalker/doski/doski2,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/kordon/buildings)
 "AC" = (
 /obj/item/trash/cigs_trash2,
@@ -6024,7 +6024,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/buildings)
 "Fa" = (
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "Fc" = (
 /obj/structure/table/stalker/wood/bar,
@@ -7827,7 +7827,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
 "Un" = (
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/kordon/buildings)
 "Uo" = (
 /obj/structure/stalker/cacheable/polka,

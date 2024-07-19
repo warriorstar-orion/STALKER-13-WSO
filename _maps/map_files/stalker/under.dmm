@@ -122,7 +122,7 @@
 	resize = 1.5;
 	speed = 2
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "aE" = (
 /turf/closed/mineral,
@@ -222,7 +222,7 @@
 	resize = 1.5;
 	speed = 2
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "ba" = (
 /obj/structure/stalker/doski/doski4,
@@ -4076,11 +4076,11 @@
 /area/stalker)
 "oD" = (
 /obj/rad/rad_medium,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "oF" = (
 /obj/structure/grille/indestructible,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "oL" = (
 /obj/structure/table,
@@ -4114,7 +4114,7 @@
 "pn" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "ps" = (
 /obj/structure/stalker/cacheable/brokenmachine5,
@@ -4279,7 +4279,7 @@
 /area/stalker/buildings/backwater/krug)
 "sa" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "sc" = (
 /obj/effect/decal/cleanable/blood/gibs/bubblegum,
@@ -4311,7 +4311,7 @@
 /area/stalker/buildings/backwater/burntfarm)
 "sw" = (
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "sM" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -4639,7 +4639,7 @@
 	dir = 4
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "yM" = (
 /turf/closed/wall/rust,
@@ -4747,7 +4747,7 @@
 	dir = 4
 	},
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "AH" = (
 /obj/structure/table/stalker,
@@ -4822,7 +4822,7 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "Ch" = (
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings/backwater/claw)
 "Cs" = (
 /obj/structure/table/stalker/wood,
@@ -4896,7 +4896,7 @@
 /area/stalker/buildings/backwater/claw)
 "DQ" = (
 /mob/living/basic/cockroach,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "DT" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -5038,7 +5038,7 @@
 "Ib" = (
 /obj/anomaly/tramplin,
 /obj/effect/decal/cleanable/blood/tracks,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "In" = (
 /obj/structure/window/reinforced/tinted{
@@ -5050,7 +5050,7 @@
 "Io" = (
 /obj/rad/rad_medium,
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "Ip" = (
 /obj/structure/table/stalker,
@@ -5134,7 +5134,7 @@
 "JS" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "JT" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -5209,7 +5209,7 @@
 "Lb" = (
 /obj/structure/reagent_dispensers/compostvat,
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "Lj" = (
 /obj/structure/table/stalker/wood,
@@ -5258,7 +5258,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "My" = (
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "MR" = (
 /obj/effect/decal/cleanable/blood/footprints,
@@ -5307,11 +5307,11 @@
 	resize = 1.5;
 	speed = 2
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "Ns" = (
 /obj/effect/spawner/random/stalker/flasks,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "Nu" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -5346,7 +5346,7 @@
 /area/stalker)
 "NT" = (
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "Oi" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -5407,7 +5407,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "Po" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "Pr" = (
 /obj/effect/turf_decal/stripes/full{
@@ -5465,13 +5465,13 @@
 /area/stalker)
 "RK" = (
 /obj/effect/spawner/random/stalker/medicine,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "RV" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "RX" = (
 /obj/item/stack/spacecash/c1000,
@@ -5528,7 +5528,7 @@
 	resize = 2.4;
 	speed = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "ST" = (
 /obj/structure/stalker/doski/doski4,
@@ -5560,7 +5560,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/burntfarm)
 "Tq" = (
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "TA" = (
 /obj/structure/table/abductor,
@@ -5689,7 +5689,7 @@
 /area/stalker/buildings/backwater/burntfarm)
 "UR" = (
 /obj/effect/spawner/random/stalker/books,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "UU" = (
 /obj/effect/decal/cleanable/blood/footprints,
@@ -5777,7 +5777,7 @@
 	},
 /obj/rad/rad_medium,
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "Wk" = (
 /obj/rad/rad_low,
@@ -5790,7 +5790,7 @@
 /area/stalker)
 "Ww" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "Wx" = (
 /obj/structure/table/abductor,
@@ -5924,7 +5924,7 @@
 /area/stalker/buildings/backwater/krug)
 "Zk" = (
 /obj/anomaly/tramplin,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "Zn" = (
 /obj/item/storage/firstaid/ai2,

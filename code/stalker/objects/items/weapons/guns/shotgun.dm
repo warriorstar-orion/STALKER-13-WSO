@@ -197,7 +197,7 @@
 	draw_sound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 	can_scope = 1
 
-obj/item/gun/ballistic/rifle/boltaction/mosinobrez
+/obj/item/gun/ballistic/rifle/boltaction/mosinobrez
 	name = "mosin-nagant sawnoff"
 	desc = "Possibly one of the worst engineering ideas ever to stumble into someone's head. If you manage to kill someone with this (except yourself), then you're beyond robust."
 	icon_state = "mosin-obrez"

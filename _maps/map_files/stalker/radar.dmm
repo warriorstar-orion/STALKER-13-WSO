@@ -2122,7 +2122,7 @@
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
 /obj/effect/spawner/random/stalker/bureaucracy,
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "gH" = (
 /obj/rad/rad_low,
@@ -3074,7 +3074,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "jR" = (
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "jS" = (
 /obj/anomaly/puh,
@@ -3683,7 +3683,7 @@
 "lL" = (
 /obj/effect/spawner/random/stalker/weapon/pistolstier2,
 /obj/structure/table/stalker/wood,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "lM" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
@@ -4766,7 +4766,7 @@
 /area/stalker/buildings)
 "po" = (
 /obj/effect/spawner/random/bustedcigs,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "pp" = (
 /obj/effect/spawner/random/stalker/seeds,
@@ -5271,7 +5271,7 @@
 /area/stalker/buildings)
 "qT" = (
 /obj/effect/spawner/random/stalker/junk,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "qU" = (
 /obj/structure/stalker/tree,
@@ -6797,7 +6797,7 @@
 /area/stalker/buildings)
 "vJ" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "vK" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big{
@@ -8283,7 +8283,7 @@
 /area/stalker/blowout/outdoor)
 "AJ" = (
 /obj/rad/rad_low,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "AK" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -8374,7 +8374,7 @@
 /area/stalker/buildings)
 "Bb" = (
 /obj/machinery/vending/sovietsoda/bustedtwo,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "Bc" = (
 /obj/structure/stalker/cacheable/brokenmachine3,
@@ -8573,7 +8573,7 @@
 	dir = 4;
 	icon_state = "ends-s-n"
 	},
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "BK" = (
 /obj/structure/stalker/cacheable/bochka{
@@ -10023,7 +10023,7 @@
 /area/stalker/buildings)
 "Gu" = (
 /obj/item/vending_refill/cigarette,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "Gv" = (
 /obj/structure/stalker/car/gryzovik_army/north{
@@ -11507,7 +11507,7 @@
 /area/stalker/buildings)
 "Lf" = (
 /obj/machinery/campfire,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
 "Lg" = (
 /obj/machinery/door/poddoor/shuttledock{
@@ -15545,7 +15545,7 @@
 /area/stalker/buildings)
 "YC" = (
 /obj/structure/table/stalker/wood,
-/turf/open/misc/dirt,
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "YD" = (
 /obj/structure/stalker/cacheable/brokenmachine2,
