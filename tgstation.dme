@@ -6386,7 +6386,6 @@
 #include "code\stalker\modules\ambient_sfx_environment_night.dm"
 #include "code\stalker\modules\ambient_sfx_ugrnd.dm"
 #include "code\stalker\modules\ambient_system.dm"
-#include "code\stalker\modules\daynightcycle.dm"
 #include "code\stalker\modules\faction_wars.dm"
 #include "code\stalker\modules\modifications.dm"
 #include "code\stalker\modules\psi_zombie.dm"
