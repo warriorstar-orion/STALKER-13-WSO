@@ -7,6 +7,7 @@
 
 /area/stalker/confined
 	static_lighting = FALSE
+	icon_state = "confined"
 
 /area/stalker/blowout
 	ambient_environment = DEFAULT_AMBIENT_ENVIRONMENT_DAY

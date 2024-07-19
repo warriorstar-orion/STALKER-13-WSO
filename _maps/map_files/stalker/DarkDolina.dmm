@@ -10,9 +10,7 @@
 /area/stalker/blowout/buildings)
 "aq" = (
 /obj/rad/rad_high,
-/obj/structure/stalker/car/btrgrimy{
-	icon_state = "1"
-	},
+/obj/structure/stalker/car/btrgrimy,
 /obj/rad/rad_high,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
@@ -715,8 +713,7 @@
 	teleport_z = 12
 	},
 /turf/open/floor/plasteel/stairs/stalker{
-	dir = 8;
-	icon_state = "ladder"
+	dir = 8
 	},
 /area/stalker/buildings/kordon/banditbar)
 "iD" = (
@@ -725,13 +722,8 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "iE" = (
-/obj/structure/stalker/blocks/vanish/pipe/pipe2{
-	dir = 1;
-	icon_state = "truba2";
-	tag = "icon-truba2 (NORTH)"
-	},
-/turf/open/stalker/floor/plasteel,
-/area/stalker/blowout/outdoor)
+/turf/closed/indestructible/rock,
+/area/stalker/confined)
 "iF" = (
 /mob/living/simple_animal/hostile/mutant/snork,
 /turf/open/stalker/floor/agroprom/beton,
@@ -865,9 +857,7 @@
 /area/stalker/blowout/outdoor)
 "kw" = (
 /obj/rad/rad_high,
-/obj/structure/stalker/car/btrgrimy{
-	icon_state = "1"
-	},
+/obj/structure/stalker/car/btrgrimy,
 /obj/rad/rad_high,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
@@ -1047,9 +1037,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/kordon/banditbar)
 "mF" = (
-/obj/structure/grille/stalker/beton{
-	opacity = 1
-	},
+/obj/structure/grille/stalker/beton,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "mG" = (
@@ -1195,9 +1183,6 @@
 "oq" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /turf/open/stalker/floor/plasteel,
@@ -1209,7 +1194,6 @@
 "oy" = (
 /obj/machinery/light/small{
 	dir = 8;
-	icon_state = "bulb";
 	tag = "icon-bulb1 (WEST)"
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -2295,7 +2279,6 @@
 /area/stalker/blowout/outdoor)
 "AZ" = (
 /obj/structure/stalker/cacheable/bochka/red{
-	density = 1;
 	layer = 4;
 	pixel_y = 12
 	},
@@ -2411,7 +2394,6 @@
 "CA" = (
 /obj/machinery/light/small{
 	dir = 4;
-	icon_state = "bulb";
 	tag = "icon-bulb1 (EAST)"
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -2645,7 +2627,6 @@
 "Gh" = (
 /obj/structure/stalker/cacheable/radio{
 	dir = 1;
-	icon_state = "radio";
 	pixel_y = 8;
 	tag = "icon-radio (NORTH)"
 	},
@@ -2775,7 +2756,6 @@
 "Hr" = (
 /obj/structure/stalker/cacheable/battery{
 	dir = 8;
-	icon_state = "gazovaya_truba";
 	tag = "icon-gazovaya_truba (WEST)"
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -3119,14 +3099,12 @@
 	teleport_z = 12
 	},
 /turf/open/floor/plasteel/stairs/stalker{
-	dir = 8;
-	icon_state = "ladder"
+	dir = 8
 	},
 /area/stalker/blowout/buildings)
 "LR" = (
 /obj/machinery/light/small{
 	dir = 8;
-	icon_state = "bulb";
 	tag = "icon-bulb1 (WEST)"
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -3213,9 +3191,6 @@
 "Nc" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /obj/rad/rad_low,
@@ -3289,8 +3264,6 @@
 "NZ" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 8;
-	icon_state = "truba2";
-	pixel_y = 0;
 	tag = "icon-truba2 (WEST)"
 	},
 /obj/rad/rad_low,
@@ -3569,15 +3542,6 @@
 /obj/rad/rad_low,
 /turf/closed/indestructible/rock,
 /area/stalker/blowout/outdoor)
-"Sq" = (
-/obj/structure/stalker/blocks/vanish/pipe/pipe2{
-	dir = 8;
-	icon_state = "truba2";
-	pixel_y = 0;
-	tag = "icon-truba2 (WEST)"
-	},
-/turf/open/stalker/floor/plasteel,
-/area/stalker/blowout/outdoor)
 "Sr" = (
 /obj/structure/stalker/car/gryzovik/south{
 	icon_state = "8";
@@ -3678,8 +3642,7 @@
 /area/stalker/blowout/outdoor)
 "SU" = (
 /turf/open/floor/plasteel/stairs/stalker{
-	dir = 8;
-	icon_state = "ladder"
+	dir = 8
 	},
 /area/stalker/blowout/buildings)
 "SV" = (
@@ -3828,7 +3791,6 @@
 "UE" = (
 /obj/machinery/light/small{
 	dir = 4;
-	icon_state = "bulb";
 	tag = "icon-bulb1 (EAST)"
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -4214,7 +4176,6 @@
 "YF" = (
 /obj/structure/stalker/cacheable/battery{
 	dir = 4;
-	icon_state = "gazovaya_truba";
 	tag = "icon-gazovaya_truba (EAST)"
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -4228,8 +4189,7 @@
 	teleport_z = 12
 	},
 /turf/open/floor/plasteel/stairs/stalker{
-	dir = 8;
-	icon_state = "ladder"
+	dir = 8
 	},
 /area/stalker/blowout/buildings)
 "YK" = (
@@ -12068,49 +12028,49 @@ HF
 HF
 HF
 HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
 HF
 HF
 HF
@@ -12470,49 +12430,49 @@ HF
 HF
 HF
 HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
 HV
 HV
 HV
@@ -12872,37 +12832,37 @@ HF
 HF
 HF
 HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
 HV
 HV
 HV
@@ -13274,27 +13234,27 @@ HF
 HF
 HF
 HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
-HF
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
+iE
 HV
 HV
 HV
@@ -99857,7 +99817,7 @@ HV
 xr
 xr
 xr
-Sq
+Yx
 xr
 xr
 xr
@@ -109528,7 +109488,7 @@ xr
 xr
 xr
 xr
-iE
+In
 Vk
 xr
 xr
