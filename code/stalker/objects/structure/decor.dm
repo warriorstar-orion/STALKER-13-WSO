@@ -1256,7 +1256,7 @@
 	name = "tile"
 	icon = 'icons/stalker/floor.dmi'
 	icon_state = "bar_plate1"
-	layer = DISPOSAL_PIPE_LAYER
+	layer = BELOW_OBJ_LAYER
 
 /obj/structure/stalker/bar_plitka/New()
 	..()
