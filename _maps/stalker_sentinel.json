@@ -1,0 +1,19 @@
+{
+	"version": 1,
+    "map_name": "Zona Remastered",
+    "map_path": "map_files",
+    "map_file": [
+		"stalker_sentinel.dmm"
+	],
+	"traits": [
+		{
+			"//": "STALKER_SENTINEL",
+			"Linkage": null,
+			"No Parallax": true,
+			"No Phase": true
+		}
+	],
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"minetype": "none"
+}
