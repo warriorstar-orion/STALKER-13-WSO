@@ -884,6 +884,7 @@
 /obj/item/gun/ballistic/automatic/ak74/black
 	name = "AK 74"
 	desc = "This weapon, designed in 1974, signaled the adoption of small caliber and low impulse rounds by Warsaw Pact countries. A descendant of the most popular assault rifle in the world, the AK-74 has an even bigger muzzle brake, resulting in a reduction of what was already manageable recoil. This facilitates better accuracy and groupings, especially when fired in fast single shots or bursts. As before, the rifle is very simple and reliable. The metal parts are black."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "ak74_black"
 	inhand_icon_state = "ak74_black"
 
@@ -891,6 +892,7 @@
 /obj/item/gun/ballistic/automatic/ak74/blackout
 	name = "AK 74"
 	desc = "This weapon, designed in 1974, signaled the adoption of small caliber and low impulse rounds by Warsaw Pact countries. A descendant of the most popular assault rifle in the world, the AK-74 has an even bigger muzzle brake, resulting in a reduction of what was already manageable recoil. This facilitates better accuracy and groupings, especially when fired in fast single shots or bursts. As before, the rifle is very simple and reliable. The entire gun is black."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "ak74_blackout"
 	inhand_icon_state = "ak74_blackout"
 
@@ -898,6 +900,7 @@
 /obj/item/gun/ballistic/automatic/ak74/unfurnished
 	name = "AK 74"
 	desc = "This weapon, designed in 1974, signaled the adoption of small caliber and low impulse rounds by Warsaw Pact countries. A descendant of the most popular assault rifle in the world, the AK-74 has an even bigger muzzle brake, resulting in a reduction of what was already manageable recoil. This facilitates better accuracy and groupings, especially when fired in fast single shots or bursts. As before, the rifle is very simple and reliable. This one is stripped of its wooden furniture."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "ak74_furnitureless"
 	inhand_icon_state = "ak74_furnitureless"
 
@@ -905,6 +908,7 @@
 /obj/item/gun/ballistic/automatic/aksu74  // АКС74У
 	name = "AK 74S"
 	desc = "Despite being similar to submachineguns in size, weight and tactical purpose, this weapon is classified as an assault rifle due to the fact that its internal mechanism is identical to that of the AK-74. The weapon is notable for its mobility in close quarters and high armor-penetration capacity, while its drawbacks are its short effective range, despite the relatively long bullet range, a tendency to overheat and high ricochet propensity."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "aksu74"
 	inhand_icon_state = "aksu74"
 	slot_flags = ITEM_SLOT_BACK
@@ -928,6 +932,7 @@
 /obj/item/gun/ballistic/automatic/strelok_ak  // АКС74У
 	name = "Fast-Firing AK 74S"
 	desc = "Looks like this has seen incredible modifications. It has reduced recoil, a faster firing rate and better durability."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon = 'icons/stalker/weapons.dmi'
 	icon_state = "ak74-green"
 	inhand_icon_state = "ak74-green"
@@ -953,6 +958,7 @@
 /obj/item/gun/ballistic/automatic/fnfal  // FN FAL
 	name = "FN FAL"
 	desc = "During the Cold War the FAL was adopted by many countries of the North Atlantic Treaty Organization (NATO), with the notable exception of the United States. It is one of the most widely used rifles in history, having been used by more than 90 countries. Because of its prevalence and widespread usage among the militaries of many NATO and first world countries during the Cold War, it received the title 'The right arm of the Free World'. This one is set to double tap."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "fnfal"
 	inhand_icon_state = "fnfal"
 	colored = 0//"normal"
@@ -978,6 +984,7 @@
 /obj/item/gun/ballistic/automatic/woodfnfal  // FN FAL with wooden furniture
 	name = "FN FAL"
 	desc = "During the Cold War the FAL was adopted by many countries of the North Atlantic Treaty Organization (NATO), with the notable exception of the United States. It is one of the most widely used rifles in history, having been used by more than 90 countries. Because of its prevalence and widespread usage among the militaries of many NATO and first world countries during the Cold War, it received the title 'The right arm of the Free World'. This one has wooden furniture."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "fnfalwood"
 	inhand_icon_state = "fnfalwood"
 	colored = 0//"normal"
@@ -1003,6 +1010,7 @@
 /obj/item/gun/ballistic/automatic/famas  // FAMAS
 	name = "FAMAS"
 	desc = "The FAMAS is a bullpup assault rifle designed and manufactured in France by MAS in 1978, a year after the Austrian Steyr AUG. The FAMAS is recognised for its high rate of fire at 1,100 rounds per minute, and has participated in many conflicts throughout time."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "famas"
 	inhand_icon_state = "famas"
 	slot_flags = ITEM_SLOT_BACK
@@ -1028,6 +1036,7 @@
 /obj/item/gun/ballistic/automatic/aug // Steyr AUG
 	name = "Steyr AUG"
 	desc = "an Austrian bullpup assault rifle chambered for the 5.56×45mm NATO intermediate cartridge, designed in the 1960s by Steyr-Daimler-Puch, and now manufactured by Steyr Mannlicher GmbH & Co KG. is a selective-fire, bullpup weapon with a conventional gas-piston-operated action that fires from a closed bolt. It is designed as a Modular Weapon System that could be quickly configured as a rifle, a carbine, a sniper rifle, a sub-machine gun and even an open-bolt squad automatic weapon."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "aug"
 	inhand_icon_state = "aug"
 	slot_flags = ITEM_SLOT_BACK
@@ -1054,6 +1063,7 @@
 /obj/item/gun/ballistic/automatic/akm // AKM
 	name = "AKM"
 	desc = "The AKM is a 7.62×39mm assault rifle designed by Mikhail Kalashnikov. It is a common modernised variant of the AK-47 rifle developed in the 1940s. Introduced into service with the Soviet Army in 1959, the AKM is the prevalent variant of the entire AK series of firearms and it has found widespread use with most member states of the former Warsaw Pact and its African and Asian allies as well as being widely exported and produced in many other countries."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "akm"
 	inhand_icon_state = "akm"
 	slot_flags = ITEM_SLOT_BACK
@@ -1075,6 +1085,7 @@
 /obj/item/gun/ballistic/automatic/vz58 // vz. 58
 	name = "vz. 58"
 	desc = "The vz. 58 is a 7.62×39mm assault rifle designed and manufactured in Czechoslovakia and accepted into service in the late 1950s as the 7.62mm submachine gun model 1958."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "vz58"
 	inhand_icon_state = "vz58"
 	slot_flags = ITEM_SLOT_BACK
@@ -1096,6 +1107,7 @@
 /obj/item/gun/ballistic/automatic/m16  //M16A1
 	name = "M16A1"
 	desc = "By the end of the 1960s, the M16 rifle was a full-fledged combat weapon with a number of significant advantages. Compared to the main opponent of the M16 on the world stage - the Kalashnikov assault rifle (AKM), the M16 had greater accuracy and accuracy of firing single shots, was more comfortable and easy to handle. On the other hand, the M16 required much more careful maintenance and better ammunition."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "m16"
 	inhand_icon_state = "m16"
 	slot_flags = ITEM_SLOT_BACK
@@ -1119,6 +1131,7 @@
 /obj/item/gun/ballistic/automatic/m16a4 //M16A4
 	name = "M16A4"
 	desc = "By the end of the 1960s, the M16 rifle was a full-fledged combat weapon with a number of significant advantages. Compared to the main opponent of the M16 on the world stage - the Kalashnikov assault rifle (AKM), the M16 had greater accuracy and accuracy of firing single shots, was more comfortable and easy to handle. On the other hand, the M16 required much more careful maintenance and better ammunition."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "m16a4"
 	inhand_icon_state = "m16a4"
 	slot_flags = ITEM_SLOT_BACK
@@ -1142,6 +1155,7 @@
 /obj/item/gun/ballistic/automatic/m14  // M14 Carbine
 	name = "M14"
 	desc = "The M14 Carbine was designed and developed the US military during WWII and has seen widespread distribution throughout the world. Now it is in the Zone!"
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "m14"
 	inhand_icon_state = "m14"
 	fire_sound = 'sound/stalker/weapons/berettam38_shot.ogg'
@@ -1163,6 +1177,7 @@
 /obj/item/gun/ballistic/automatic/m4  // M4 Carbine
 	name = "M4 carbine"
 	desc = "The M4 Carbine is a 5.56×45mm NATO, air-cooled, gas-operated, direct impingement, magazine-fed, select fire carbine. It has a 14.5 in (370 mm) barrel and a telescoping stock. It is essentially a lighter and shorter variant of the M16A2 assault rifle."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "m4"
 	inhand_icon_state = "m4"
 	fire_sound = 'sound/stalker/weapons/berettam38_shot.ogg'
@@ -1184,6 +1199,7 @@
 /obj/item/gun/ballistic/automatic/ar15 // ArmaLite AR-15
 	name = "AR-15"
 	desc = "The ArmaLite AR-15 was designed to be a lightweight rifle and to fire a new high-velocity, lightweight, small-caliber cartridge to allow infantrymen to carry more ammunition."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "ar15"
 	inhand_icon_state = "m16"
 	slot_flags = ITEM_SLOT_BACK
@@ -1206,6 +1222,7 @@
 
 /obj/item/gun/ballistic/automatic/scarh // FN SCAR-H
 	name = "FN SCAR-H"
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "scarh"
 	inhand_icon_state = "scarh"
 	desc = "A Belgian-designed automatic rifle, chambered in 7.62x51mm."
@@ -1231,6 +1248,7 @@
 /obj/item/gun/ballistic/automatic/makeshiftak  // Makeshift AK
 	name = "makeshift ak"
 	desc = "A kalashnakov made of junk parts. Very unreliable."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "makeshiftak"
 	inhand_icon_state = "ak74"
 	slot_flags = ITEM_SLOT_BACK//|SLOT_BELT
@@ -1253,6 +1271,7 @@
 /obj/item/gun/ballistic/automatic/mp5  // MP5
 	name = "MP-5"
 	desc = "This submachine gun has gained popularity around the world thanks to its reliability, ease of use and accuracy. Over the last few decades the MP5 was in service with special armed forces and police units worldwide. Not surprisingly, having flooded the global black markets, it eventually made its way to the Zone."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "mp5"
 	inhand_icon_state = "arg"
 	fire_sound = 'sound/stalker/weapons/mp5_shot.ogg'
@@ -1275,6 +1294,7 @@
 /obj/item/gun/ballistic/automatic/kiparis  // Кипарис
 	name = "Kiparis"
 	desc = "A small, light submachine gun firing a low-powered bullet, was designed by USSR Defense Ministry in the year 1972. Wasn't adopted by army, but found use and popularity amongst different modern russian government military forces and police."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "kiparis"
 	inhand_icon_state = "arg"
 	fire_sound = 'sound/stalker/weapons/fort_shot.ogg'
@@ -1296,6 +1316,7 @@
 /obj/item/gun/ballistic/automatic/ppsh  // ППШ
 	name = "PPSh"
 	desc = "The PPSh saw extensive combat use during World War II and the Korean War. It was one of the major infantry weapons of the Soviet Armed Forces during World War II. Around six million PPSh-41s were manufactured. In the form of the Chinese Type 50 (licensed copy), it was still being used by the Viet Cong as late as 1970. According to the 2002 edition of the Encyclopedia of Weapons of World War II the PPSh was still in use with irregular militaries."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "ppsh"
 	inhand_icon_state = "arg"
 	fire_sound = 'sound/stalker/weapons/ppsh_shot.ogg'
@@ -1318,6 +1339,7 @@
 /obj/item/gun/ballistic/automatic/berettam38  // Моделло 38
 	name = "Beretta M38"
 	desc = "Modello 38, or Model 38 and its variants were a series of official submachine guns of the Royal Italian Army introduced in 1938 and used during World War II."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "berettam38"
 	inhand_icon_state = "berettam38"
 	fire_sound = 'sound/stalker/weapons/berettam38_shot.ogg'
@@ -1340,6 +1362,7 @@
 /obj/item/gun/ballistic/automatic/p90
 	name = "\improper FN P90"
 	desc = "An incredibly odd, albeit effecient, submachine gun. Chambered in FN 5.7×28mm."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "p90"
 	inhand_icon_state = "arg"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/smg57
@@ -1365,6 +1388,7 @@
 /obj/item/gun/ballistic/automatic/tpc301  // Эмка
 	name = "LR-300"
 	desc = "A new step in the development of this famous weapon family. The changes were made to the upper half of the steel construction comprising the barrel, gas tube and bolt assembly, reducing the weapon's weight, improving ergonomics and its gas system. The weapon is highly accurate, although its propensity to catch dirt makes it a poor choice for the Zone's difficult conditions."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "tpc301"
 	inhand_icon_state = "tpc301"
 	slot_flags = ITEM_SLOT_BACK
@@ -1389,6 +1413,7 @@
 /obj/item/gun/ballistic/automatic/abakan  // Абакан
 	name = "AN-94"
 	desc = "A modern assault rifle developed as a replacement for the ageing AK-74. The main difference is its high speed 2-round burst firing mode, which allows two bullets to be fired at exactly the same spot on a target up to 100 meters away. This significantly increases the likelihood of hitting the target in comparison to the 1 round firing mode, which considerably improves kill potential, stopping power and armor piercing capability."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "abakan"
 	inhand_icon_state = "abakan"
 	slot_flags = ITEM_SLOT_BACK
@@ -1414,6 +1439,7 @@
 /obj/item/gun/ballistic/automatic/il86  // ИЛ86
 	name = "L85"
 	desc = "This rifle's considerable number of drawbacks caused most of these weapons to be modernized, with the retired stock making its way to the Zone via the black market. The rifle's main advantages are its built-in 4x scope, high single-shot accuracy and reliable upgrade technology. When the weapon is fired in bursts, its accuracy decreases significantly and the rifle's basic internal mechanisms become somewhat unreliable."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "il86"
 	inhand_icon_state = "il86"
 	slot_flags = ITEM_SLOT_BACK
@@ -1442,6 +1468,7 @@
 /obj/item/gun/ballistic/automatic/sigsg550
 	name = "SIG SG 550"
 	desc = "A relatively new assault rifle that has quickly found admirers around the world, despite lacking a \"trendy\" design. Weapons of this series are one of the best in their class, renowned for their reliability, accuracy and ease of use. Despite being relatively difficult to obtain in the Zone, this assault rifle is often ordered by experienced stalkers at considerable expense."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "sigsg550"
 	inhand_icon_state = "sigsg550"
 	slot_flags = ITEM_SLOT_BACK
@@ -1465,6 +1492,7 @@
 /obj/item/gun/ballistic/automatic/gp37  // GP37
 	name = "GP37"
 	desc = "A new addition to the Western-made assault rifle family, which differs significantly from previous models in the series built on an automatic foundation with a semi-open bolt assembly, this weapon is more like American automatic gas-operated assault rifles with a short-stroke gas piston system. These changes ensure that the rifle is a first-rate example of a modern weapon - lightweight, reliable and ergonomic."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "gp37"
 	inhand_icon_state = "gp37"
 	slot_flags = ITEM_SLOT_BACK
@@ -1493,6 +1521,7 @@
 /obj/item/gun/ballistic/automatic/fnf2000  // fnf2000
 	name = "FN-F2000"
 	desc = "This futuristic-looking weapon with a bullpup layout is actually a mass produced modular system, comprising a rifle grenade complex with a computerized fire control system and a 40-mm grenade launcher. Despite its bulky appearance, the weapon is highly ergonomic, easy to use and benefits from good technical characteristics. This one lacks a built-in computerised scope, yet itself is very precise and powerful."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "fnf2000"
 	inhand_icon_state = "fnf2000"
 	slot_flags = ITEM_SLOT_BACK
@@ -1518,6 +1547,7 @@
 /obj/item/gun/ballistic/automatic/fnf2000s  // fnf2000
 	name = "FN-F2000-OTBS"
 	desc = "This futuristic-looking weapon with a bullpup layout is actually a mass produced modular system, comprising a rifle grenade complex with a computerized fire control system and a 40-mm grenade launcher. Despite its bulky appearance, the weapon is highly ergonomic, easy to use and benefits from good technical characteristics."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "fnf2000s"
 	inhand_icon_state = "fnf2000s"
 	slot_flags = ITEM_SLOT_BACK
@@ -1547,6 +1577,7 @@
 /obj/item/gun/ballistic/automatic/l6_saw/pkm
 	name = "PKM"
 	desc = "This belt-fed machine gun is a portable modification with a complex two-stage feeding system. Despite its weight and low precision, this LMG has found admirers in the Zone. Used primarily to fight off outnumbering enemy forces during faction conflicts and clear out mutant lairs"
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "PKMclosed200"
 	inhand_icon_state = "l6closedmag"
 	w_class = 5
@@ -1578,6 +1609,7 @@
 /obj/item/gun/ballistic/automatic/val  // Вал
 	name = "AS Val"
 	desc = "A modified version of the silent Vintorez sniper rifle, the assault rifle was designed as a special forces weapon. The rifle's primary purpose is effective fire against enemies employing modern personal protection equipment without disclosing the shooter's location. Thanks to its integrated silencer and 9x39mm caliber round with a heavy subsonic bullet, the weapon's noise and muzzle flash have been reduced to a minimum."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "val"
 	inhand_icon_state = "val"
 	fire_sound = 'sound/stalker/weapons/vintorez_shot.ogg'
@@ -1605,6 +1637,7 @@
 /obj/item/gun/ballistic/automatic/vintorez  // ВСС Винторез
 	name = "VSS Vintorez"
 	desc = "A special military sniper rifle purpose-built for silent, flashless sniping during special operations where early detection of the shooter may be critical. The Vintorez provides high armor-piercing capability and stopping power, as well as being equipped with an integrated sniper and optical scope. Highly rated by many stalkers despite its small magazine."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "vintorez"
 	inhand_icon_state = "vintorez"
 	fire_sound = 'sound/stalker/weapons/vintorez_shot.ogg'
@@ -1636,6 +1669,7 @@
 /obj/item/gun/ballistic/semiauto/svd  // SVD
 	name = "SVD"
 	desc = "Snaiperskaya Vintovka Dragunova, abbreviated as the SVD is a high-caiber, anti-personell sniper rifle developed and deployed originally in 1963. Comes with a high-grade inbuilt scope for long-range scopeouts, and unlike its smaller-caliber cousin (the VSS), is incapable of burst fire due to the aforementioned higher caliber."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "svd"
 	inhand_icon_state = "svd"
 	fire_sound = 'sound/stalker/weapons/abakan_shoot.ogg'
@@ -1664,6 +1698,7 @@
 /obj/item/gun/ballistic/automatic/groza  // ОЦ-14 Гроза
 	name = "Groza OTs-14"
 	desc = "This assault rifle combined with a grenade launcher, which is similar to the AKM series, was specifically developed for rapid response units. The main differences are its 9x39mm caliber ammunition, bullpup layout and extensive configuration options. This weapon is highly valued by military stalkers due to its ability to kill enemies wearing body armor behind improvised cover at a distance during urban combat."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "groza"
 	inhand_icon_state = "groza"
 	fire_sound = 'sound/stalker/weapons/groza_shot.ogg'
@@ -1694,6 +1729,7 @@
 /obj/item/gun/ballistic/semiauto/gaussrifle  // Gauss Rifle
 	name = "gauss rifle"
 	desc = "Item no. 62, better known as the Gauss Rifle, is an experimental, highly powerful hybrid energy weapon initially designed by members of the infamous Group that operated in the Zone prior to it's creation. Now manufactured by an unknown force, the weapon is made operational by pieces of a Flash artefact, and is by far the most deadly weapon at the disposal of the Monolith's servants."
+	icon = 'icons/stalker/obj/weapons/guns/ballistic.dmi'
 	icon_state = "gaussrifle"
 	inhand_icon_state = "gaussrifle"
 	colored = 0//"normal"

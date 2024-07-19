@@ -254,8 +254,8 @@
 /obj/item/clothing/mask/gas/stalker
 	name = "gas mask"
 	desc = "A regular plastic and rubber gas mask, used for filtering air for radioactive particles and poisonous substances. Widely used by rookies and veterans of all factions due to its universal functionality. Does not provide any physical protection."
-	icon = 'icons/stalker/obj/clothing/head/hats.dmi'
-	worn_icon = 'icons/stalker/mob/clothing/head/hats.dmi'
+	icon = 'icons/stalker/obj/clothing/masks.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/mask.dmi'
 	icon_state = "gasmasknew"
 	inhand_icon_state = "gasmasknew"
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
@@ -269,8 +269,8 @@
 /obj/item/clothing/mask/gas/stalker/gp4
 	name = "gp-4 gas mask"
 	desc = "The Soviet GP-4 is another mask in the Soviet GP series. It was made to be issued to civilians due to the rising panic about the Cold War. This model is extremely common in the Zone and is favored by many stalkers due to its relative reliability and light weight."
-	icon = 'icons/stalker/obj/clothing/head/hats.dmi'
-	worn_icon = 'icons/stalker/mob/clothing/head/hats.dmi'
+	icon = 'icons/stalker/obj/clothing/masks.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/mask.dmi'
 	icon_state = "gp4"
 	inhand_icon_state = "gp4"
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH
@@ -284,8 +284,8 @@
 /obj/item/clothing/mask/gas/stalker/gp5
 	name = "gp-5 gas mask"
 	desc = "Similar to the GP-4, this mask incudes an ShM-62 filter. Unforunately, this filter is dosed with asbestos and the casing is known to degrade lead into the filter. If it's your only option, look for a filter using activated charcoal."
-	icon = 'icons/stalker/obj/clothing/head/hats.dmi'
-	worn_icon = 'icons/stalker/mob/clothing/head/hats.dmi'
+	icon = 'icons/stalker/obj/clothing/masks.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/mask.dmi'
 	icon_state = "gp5"
 	inhand_icon_state = "gp5"
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH

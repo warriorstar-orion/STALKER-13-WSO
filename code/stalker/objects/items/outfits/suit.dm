@@ -309,6 +309,8 @@
 /obj/item/clothing/suit/kozhanka
 	name = "jacket subtype made for the tourist clothings."
 	desc = "Common attire of the novice stalker. It wont save you from bullets or anomalies, but its still better than nothing."
+	icon = 'icons/stalker/obj/clothing/suits.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/suits.dmi'
 	icon_state = "kozhanka"
 	inhand_icon_state = "det_suit"
 	blood_overlay_type = "armor"
@@ -342,6 +344,8 @@
 /obj/item/clothing/suit/hooded/kombez
 	name = "Sunrise"
 	desc = "A gold standard suit of every Loner. Most common medium-grade suit of every Loner. Provides solid protection from what zone has to offer including bullets and melee. A decent choice for a zone dweller. "
+	icon = 'icons/stalker/obj/clothing/suits.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/suits.dmi'
 	icon_state = "kombez"
 	inhand_icon_state = "syndicate-green"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -370,6 +374,8 @@
 /obj/item/clothing/suit/hooded/strelok
 	name = "Upgraded Sunrise Suit"
 	desc = "An advanced step forward from a standard sunrise suit. Provides substantially better protection across all attributes. Very good all around choice for the wandering in the zone."
+	icon = 'icons/stalker/obj/clothing/suits.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/suits.dmi'
 	icon_state = "kombez"
 	inhand_icon_state = "syndicate-green"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -1229,6 +1235,8 @@
 /obj/item/clothing/suit/assaultmerc
 	name = "Mercenary Heavy Armor"
 	desc = "Heavy armor used by mercenaries, which includes a multi-layered ballistic vest with collar and forearm protectors, as well as a pair of neoprene-plastic bracers and greaves to protect against local bites. You are not sure if such a suit will protect well against anomalies, but for the conditions of the zone, it is difficult to find better combat armor. "
+	icon = 'icons/stalker/obj/clothing/suits.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/suits.dmi'
 	icon_state = "assaultmerc"
 	inhand_icon_state = "syndicate-black"
 	blood_overlay_type = "armor"
