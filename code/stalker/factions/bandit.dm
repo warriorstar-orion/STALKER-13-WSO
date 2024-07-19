@@ -45,7 +45,7 @@
 	departments_list = list(
 		/datum/job_department/stalker/bandits
 	)
-	job_flags = STATION_JOB_FLAGS
+	job_flags = STATION_JOB_FLAGS | JOB_BOLD_SELECT_TEXT
 
 
 /datum/job/stalker/bandit_barman

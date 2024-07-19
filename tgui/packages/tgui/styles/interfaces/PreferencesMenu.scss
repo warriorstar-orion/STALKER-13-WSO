@@ -4,17 +4,31 @@
 @use '../colors.scss';
 @use '../base.scss';
 
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace +
+      str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
+  }
+
+  @return $string;
+}
+
 $department_map: (
-  'Assistant': colors.$grey,
-  'Captain': colors.fg(colors.$blue),
-  'Cargo': colors.$brown,
-  'Command': colors.$yellow,
-  'Security': colors.$red,
-  'Engineering': #f1a839,
-  'Medical': colors.$teal,
-  'Science': colors.fg(colors.$purple),
-  'Service': colors.$green,
-  'Silicon': colors.$pink,
+  'Loners': #ffaf31,
+  'Duty': #601919,
+  'Freedom': #357e3b,
+  'Bandits': #9e9e9e,
+  'Ecologists': #058f92,
+  'Clear-Sky': #64b2f7,
+  'Military': #2e8b57,
+  'Monolith': #9b8060,
+  'Mercenaries': #2e708b,
 );
 
 .ChoicedSelection {
@@ -130,7 +144,7 @@ $department_map: (
 
     &__departments {
       @each $department-name, $color-value in $department_map {
-        &--#{$department-name} {
+        &--#{str-replace($department-name, ' ', '-')} {
           &.head {
             background: $color-value;
 

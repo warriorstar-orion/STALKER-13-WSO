@@ -3,7 +3,7 @@
 	department_bitflags = DEPARTMENT_STALKER_BITFLAG_DUTY
 	ui_color = "#601919"
 
-/datum/job/duty
+/datum/job/stalker/duty
 	title = JOB_DUTY
 	faction_s = "Duty"
 	faction = "Station"
