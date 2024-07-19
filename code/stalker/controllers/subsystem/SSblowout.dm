@@ -125,7 +125,7 @@ SUBSYSTEM_DEF(blowout)
 
 	for(var/mob/living/carbon/C in GLOB.player_list)
 		if(!C.inshelter)
-			to_chat(C, "<big><span class='warning'>You urgently need to look for sheltered area from the emmision, the emission will begin soon!</span></big>")
+			to_chat(C, "<big><span class='warning'>You urgently need to look for sheltered area from the emission, the emission will begin soon!</span></big>")
 			C.overlay_fullscreen("blowjob", /obj/screen/fullscreen/color_vision/blowjob)
 		else
 			to_chat(C, "<big><span class='notice'>You are in sheltered area from emission, you should stay in here until the emission is over.</span></big>")

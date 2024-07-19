@@ -178,6 +178,7 @@
 /obj/item/clothing/suit/hooded/kozhanka
 	name = "leather jacket"
 	desc = "Common garb of a novice stalker. It won’t save you from bullets or anomalies, but it’s still better than being naked."
+	worn_icon = 'icons/stalker/mob/clothing/suits.dmi'
 	icon_state = "kozhanka"
 	inhand_icon_state = "det_suit"
 	blood_overlay_type = "armor"

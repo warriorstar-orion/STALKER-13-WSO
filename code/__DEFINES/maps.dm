@@ -149,7 +149,20 @@ Always compile, always use that verb, and always make sure that it works for wha
 
 // must correspond to _basemap.dm for things to work correctly
 #define DEFAULT_MAP_TRAITS list(\
-	DECLARE_LEVEL("CentCom", ZTRAITS_CENTCOM),\
+	DECLARE_LEVEL("Backwater_Zaton", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("Underground", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("Kordon", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("Bar_Rostok", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("Agroprom", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("Svalka_Garbage", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("Radar", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("Yantar", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("ArmyWarehouses", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("GreatSwamps", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("DeadCityZ1", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("DeadCityZ2", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("DarkDolina_Valley", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
+	DECLARE_LEVEL("WildTerritory", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE)),\
 )
 
 // Camera lock flags
@@ -171,8 +184,8 @@ Always compile, always use that verb, and always make sure that it works for wha
 #define PLACE_ISOLATED "isolated" //On isolated ruin z level
 
 ///Map generation defines
-#define DEFAULT_SPACE_RUIN_LEVELS 7
-#define DEFAULT_SPACE_EMPTY_LEVELS 1
+#define DEFAULT_SPACE_RUIN_LEVELS 0
+#define DEFAULT_SPACE_EMPTY_LEVELS 0
 
 #define BIOME_LOW_HEAT "low_heat"
 #define BIOME_LOWMEDIUM_HEAT "lowmedium_heat"

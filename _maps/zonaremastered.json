@@ -19,48 +19,90 @@
 	],
 	"traits": [
 		{
-			"//": "Backwater (Zaton) (1)"
+			"//": "Backwater (Zaton) (1)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Underground (2)"
+			"//": "Underground (2)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Kordon (3)"
+			"//": "Kordon (3)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Rostok (Bar) (4)"
+			"//": "Rostok (Bar) (4)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Agroprom (5)"
+			"//": "Agroprom (5)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Svalka (Garbage) (6)"
+			"//": "Svalka (Garbage) (6)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Radar (7)"
+			"//": "Radar (7)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Yantar (8)"
+			"//": "Yantar (8)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Army Warehouses (9)"
+			"//": "Army Warehouses (9)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Great Swamps (10)"
+			"//": "Great Swamps (10)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Dead City Z-2 (11)" ,
-			"Down": true
+			"//": "Dead City Z-1 (11)" ,
+			"Up": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Dead City Z-1 (12)",
-			"Up": true
+			"//": "Dead City Z-2 (12)",
+			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Dark Valley (13)"
+			"//": "Dark Valley (13)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		},
 		{
-			"//": "Wild Territory (14)"
+			"//": "Wild Territory (14)",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true
 		}
 	],
 	"space_ruin_levels": 0,
