@@ -966,7 +966,7 @@
 /area/stalker/blowout/buildings/backwater/krug)
 "aeb" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/clothing/under/color/switer/tracksuit,
+/obj/item/clothing/under/switer/tracksuit,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings/backwater)
 "aec" = (
@@ -4639,7 +4639,7 @@
 /area/stalker/blowout/buildings/backwater/ranger)
 "aqO" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/clothing/under/color/switer/lolg,
+/obj/item/clothing/under/switer/lolg,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ranger)
 "aqP" = (

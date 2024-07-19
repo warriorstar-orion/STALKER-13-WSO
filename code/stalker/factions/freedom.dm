@@ -100,7 +100,7 @@
 /datum/outfit/job/freedom_lieutenant/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/steel
-	uniform = /obj/item/clothing/under/color/switer
+	uniform = /obj/item/clothing/under/switer
 	suit = /obj/item/clothing/suit/hooded/strazh
 	mask = pick(
 		/obj/item/cigarette/rollie/cannabis,

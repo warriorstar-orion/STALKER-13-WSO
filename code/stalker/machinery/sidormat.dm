@@ -308,10 +308,10 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 
 
 	"Clothing" = list(
-		new /datum/data/stalker_equipment("Under",								"Under",												/obj/item/clothing/under/color/switer,						1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Dark under",							"Dark under",											/obj/item/clothing/under/color/switer/dark,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Telnyashka",							"Telnyashka",											/obj/item/clothing/under/color/switer/lolg,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Tracksuit",							"Tracksuit",											/obj/item/clothing/under/color/switer/tracksuit,			1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Under",								"Under",												/obj/item/clothing/under/switer,						1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Dark under",							"Dark under",											/obj/item/clothing/under/switer/dark,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Telnyashka",							"Telnyashka",											/obj/item/clothing/under/switer/lolg,					1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Tracksuit",							"Tracksuit",											/obj/item/clothing/under/switer/tracksuit,			1500,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Worn out army boots",				"Worn out army boots",									/obj/item/clothing/shoes/jackboots/warm,					800,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Fingerless gloves",					"Fingerless gloves",									/obj/item/clothing/gloves/fingerless,						600,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Gloves",								"Gloves",												/obj/item/clothing/gloves/color/black,						800,	ROOKIE,initial_stock = PISTOL_AMOUNT),

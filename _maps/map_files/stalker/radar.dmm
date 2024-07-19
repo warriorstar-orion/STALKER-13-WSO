@@ -1042,13 +1042,13 @@
 /area/stalker/buildings)
 "de" = (
 /obj/structure/stalker/cacheable/polka,
-/obj/item/clothing/under/color/switer/lolg,
-/obj/item/clothing/under/color/switer/lolg,
-/obj/item/clothing/under/color/switer/lolg,
-/obj/item/clothing/under/color/switer/lolg,
-/obj/item/clothing/under/color/switer/lolg,
-/obj/item/clothing/under/color/switer/tracksuit,
-/obj/item/clothing/under/color/switer/tracksuit,
+/obj/item/clothing/under/switer/lolg,
+/obj/item/clothing/under/switer/lolg,
+/obj/item/clothing/under/switer/lolg,
+/obj/item/clothing/under/switer/lolg,
+/obj/item/clothing/under/switer/lolg,
+/obj/item/clothing/under/switer/tracksuit,
+/obj/item/clothing/under/switer/tracksuit,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "df" = (
@@ -14739,10 +14739,10 @@
 "VZ" = (
 /obj/structure/stalker/cacheable/polka,
 /obj/item/clothing/accessory/patch/monolith,
-/obj/item/clothing/under/color/switer/tracksuit,
-/obj/item/clothing/under/color/switer/tracksuit,
-/obj/item/clothing/under/color/switer/lolg,
-/obj/item/clothing/under/color/switer/lolg,
+/obj/item/clothing/under/switer/tracksuit,
+/obj/item/clothing/under/switer/tracksuit,
+/obj/item/clothing/under/switer/lolg,
+/obj/item/clothing/under/switer/lolg,
 /turf/open/stalker/floor/wood/brown,
 /area/stalker/buildings)
 "Wa" = (

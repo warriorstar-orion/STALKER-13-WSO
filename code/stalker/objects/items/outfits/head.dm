@@ -1,3 +1,4 @@
+// TODO(wso): Maybe subtype all of these so I don't need to modify the icon on every one
 /*
 /obj/item/clothing/head/New()
 	..()

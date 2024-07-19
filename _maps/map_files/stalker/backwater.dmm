@@ -4472,7 +4472,7 @@
 /area/stalker/buildings/backwater/ranger)
 "rE" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/clothing/under/color/switer/lolg,
+/obj/item/clothing/under/switer/lolg,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ranger)
 "rF" = (
@@ -4687,7 +4687,7 @@
 /area/stalker/buildings/backwater)
 "sA" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/clothing/under/color/switer/tracksuit,
+/obj/item/clothing/under/switer/tracksuit,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater)
 "sB" = (

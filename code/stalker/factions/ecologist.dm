@@ -107,7 +107,7 @@
 /datum/outfit/job/ecologistguard/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = null
-	uniform = /obj/item/clothing/under/color/switer/tourist/sweater
+	uniform = /obj/item/clothing/under/switer/tourist/sweater
 	suit = /obj/item/clothing/suit/hooded/kombez/eco_mercenary
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	mask = /obj/item/clothing/mask/gas/stalker/mercenary
@@ -143,7 +143,7 @@
 /datum/outfit/ecologistguard  // For select_equipment
 	name = "Ecologist Guard"
 	head = null
-	uniform = /obj/item/clothing/under/color/switer/tourist/sweater
+	uniform = /obj/item/clothing/under/switer/tourist/sweater
 	suit = /obj/item/clothing/suit/hooded/kombez/eco_mercenary
 	shoes = /obj/item/clothing/shoes/jackboots/warm
 	mask = /obj/item/clothing/mask/gas/stalker/mercenary

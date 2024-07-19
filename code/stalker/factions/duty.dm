@@ -105,7 +105,7 @@ Assistant
 /datum/outfit/job/barman2/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = null
-	uniform = /obj/item/clothing/under/color/switer/dark
+	uniform = /obj/item/clothing/under/switer/dark
 	suit = /obj/item/clothing/suit/jacket/sidor
 	ears = null
 	belt = /obj/item/gun/ballistic/automatic/pistol/cora

@@ -2,7 +2,7 @@
 #define CLEANABLE_CLEAN_DELAY				5000
 
 ///////////////JOB
-#define UNIFORMPICK (pick(/obj/item/clothing/under/color/switer, /obj/item/clothing/under/color/switer/dark, /obj/item/clothing/under/color/switer/lolg, /obj/item/clothing/under/color/switer/tracksuit))
+#define UNIFORMPICK (pick(/obj/item/clothing/under/switer, /obj/item/clothing/under/switer/dark, /obj/item/clothing/under/switer/lolg, /obj/item/clothing/under/switer/tracksuit))
 #define SHOESPICK_TOURIST (pick(/obj/item/clothing/shoes/sneakers/black, /obj/item/clothing/shoes/sneakers/brown, /obj/item/clothing/shoes/sandal, /obj/item/clothing/shoes/laceup))
 
 ///////////////РЕЙТИНГ

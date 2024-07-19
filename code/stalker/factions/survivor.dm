@@ -114,7 +114,7 @@ Assistant
 
 /datum/outfit/stalker  // For select_equipment
 	name = "Loner"
-	uniform = /obj/item/clothing/under/color/switer
+	uniform = /obj/item/clothing/under/switer
 	suit = /obj/item/clothing/suit/hooded/kozhanka
 	ears = null
 	id = /obj/item/stalker_pda
@@ -184,7 +184,7 @@ Assistant
 
 /datum/outfit/stalkervolk  // For select_equipment
 	name = "Old Stalker"
-	uniform = /obj/item/clothing/under/color/switer
+	uniform = /obj/item/clothing/under/switer
 	suit = /obj/item/clothing/suit/hooded/kombez
 	ears = null
 	id = /obj/item/stalker_pda
@@ -203,12 +203,12 @@ Assistant
 /datum/outfit/job/tourist/pre_equip(mob/living/carbon/human/H)
 	..()
 	uniform = pick(
-		/obj/item/clothing/under/color/switer/tourist/sweater,
-		/obj/item/clothing/under/color/switer/tourist/jacket_green,
-		/obj/item/clothing/under/color/switer/tourist/jacket_brown,
-		/obj/item/clothing/under/color/switer/tourist/suspenders,
-		/obj/item/clothing/under/color/switer/tourist/mall_cop,
-		/obj/item/clothing/under/color/switer/tourist/gorka)
+		/obj/item/clothing/under/switer/tourist/sweater,
+		/obj/item/clothing/under/switer/tourist/jacket_green,
+		/obj/item/clothing/under/switer/tourist/jacket_brown,
+		/obj/item/clothing/under/switer/tourist/suspenders,
+		/obj/item/clothing/under/switer/tourist/mall_cop,
+		/obj/item/clothing/under/switer/tourist/gorka)
 	suit = pick(
 		/obj/item/clothing/suit/kozhanka/tourist/jacket,
 		/obj/item/clothing/suit/kozhanka/tourist/coat,
@@ -271,7 +271,7 @@ Assistant
 
 /datum/outfit/tourist  // For select_equipment
 	name = "Tourist"
-	uniform = /obj/item/clothing/under/color/switer/tourist/suspenders
+	uniform = /obj/item/clothing/under/switer/tourist/suspenders
 	suit = /obj/item/clothing/suit/kozhanka/tourist/gorka
 	ears = null
 	id = /obj/item/stalker_pda
@@ -307,7 +307,7 @@ Assistant
 /datum/outfit/job/trader/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = null
-	uniform = /obj/item/clothing/under/color/switer/dark
+	uniform = /obj/item/clothing/under/switer/dark
 	suit = /obj/item/clothing/suit/jacket/sidor
 	ears = null
 	belt = /obj/item/gun/ballistic/automatic/pistol/cora
@@ -348,7 +348,7 @@ Assistant
 /datum/outfit/job/barman/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = null
-	uniform = /obj/item/clothing/under/color/switer/dark
+	uniform = /obj/item/clothing/under/switer/dark
 	suit = /obj/item/clothing/suit/jacket/sidor
 	ears = null
 	belt = /obj/item/gun/ballistic/automatic/pistol/cora

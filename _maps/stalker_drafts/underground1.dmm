@@ -1901,7 +1901,7 @@
 "es" = (
 /obj/structure/closet/stalker/shkaf,
 /obj/item/clothing/suit/kozhanka/tourist/coat,
-/obj/item/clothing/under/color/switer/tourist/suspenders,
+/obj/item/clothing/under/switer/tourist/suspenders,
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/cordon/buildings)
 "et" = (

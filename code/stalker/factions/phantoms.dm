@@ -1,7 +1,7 @@
 /datum/outfit/phantom  // For select_equipment
 	name = "Phantom"
 
-	uniform = /obj/item/clothing/under/color/switer
+	uniform = /obj/item/clothing/under/switer
 	suit = null
 	ears = null
 	id = null

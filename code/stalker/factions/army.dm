@@ -49,7 +49,7 @@ Assistant
 /datum/outfit/job/army_spetsnaz/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/skathelmet
-	uniform = /obj/item/clothing/under/color/switer/lolg
+	uniform = /obj/item/clothing/under/switer/lolg
 	suit = /obj/item/clothing/suit/skat
 	ears = null
 	belt = /obj/item/knife/m9
@@ -79,7 +79,7 @@ Assistant
 /datum/outfit/job/army/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/steel
-	uniform = /obj/item/clothing/under/color/switer/lolg
+	uniform = /obj/item/clothing/under/switer/lolg
 	suit = /obj/item/clothing/suit/army
 	ears = null
 	belt = /obj/item/knife/m9
@@ -121,7 +121,7 @@ Assistant
 
 /datum/outfit/job/militarycommander/pre_equip(mob/living/carbon/human/H)
 	head = /obj/item/clothing/head/beret/black
-	uniform = /obj/item/clothing/under/color/switer/lolg
+	uniform = /obj/item/clothing/under/switer/lolg
 	suit = /obj/item/clothing/suit/army
 	ears = null
 	belt = /obj/item/knife/hunting
@@ -166,7 +166,7 @@ Assistant
 
 /datum/outfit/army/pre_equip(mob/living/carbon/human/H)
 	..()
-	uniform = /obj/item/clothing/under/color/switer/lolg
+	uniform = /obj/item/clothing/under/switer/lolg
 	suit = /obj/item/clothing/suit/army
 	l_pocket = pick(/obj/item/food/stalker/kolbasa,/obj/item/food/stalker/baton)
 	r_pocket = pick(/obj/item/storage/wallet,
@@ -177,7 +177,7 @@ Assistant
 	name = "Military Commander"
 
 	head = /obj/item/clothing/head/beret_ua
-	uniform = /obj/item/clothing/under/color/switer/dark
+	uniform = /obj/item/clothing/under/switer/dark
 	suit = /obj/item/clothing/suit/army
 	ears = null
 	belt = /obj/item/gun/ballistic/automatic/pistol/fort12
