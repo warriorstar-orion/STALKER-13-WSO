@@ -361,33 +361,33 @@ export const JobsPage = () => {
 
               <PriorityHeaders />
 
-              <Department department="Engineering">
+              <Department department="Loners">
                 <Gap amount={6} />
               </Department>
 
-              <Department department="Science">
+              <Department department="Duty">
                 <Gap amount={6} />
               </Department>
 
-              <Department department="Silicon">
+              <Department department="Freedom">
                 <Gap amount={12} />
               </Department>
 
-              <Department department="Assistant" />
+              <Department department="Bandits" />
             </Stack.Item>
 
             <Stack.Item mr={1}>
               <PriorityHeaders />
 
-              <Department department="Captain">
+              <Department department="Ecologists">
                 <Gap amount={6} />
               </Department>
 
-              <Department department="Service">
+              <Department department="Clear Sky">
                 <Gap amount={6} />
               </Department>
 
-              <Department department="Cargo" />
+              <Department department="Military" />
             </Stack.Item>
 
             <Stack.Item>
@@ -395,11 +395,11 @@ export const JobsPage = () => {
 
               <PriorityHeaders />
 
-              <Department department="Security">
+              <Department department="Monolith">
                 <Gap amount={6} />
               </Department>
 
-              <Department department="Medical" />
+              <Department department="Mercenaries" />
             </Stack.Item>
           </Stack>
         </Stack.Item>
