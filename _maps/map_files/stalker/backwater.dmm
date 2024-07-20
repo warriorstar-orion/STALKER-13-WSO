@@ -442,9 +442,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/backwater/sawmill)
 "bM" = (
-/obj/structure/stalker/cacheable/krest{
-	desc = "Дерев&#255;нный крест. Здесь закопан Сочный"
-	},
+/obj/structure/stalker/cacheable/krest,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater)
 "bN" = (
@@ -459,7 +457,6 @@
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "bP" = (
 /obj/structure/stalker/cacheable/polka{
-	desc = "Деревный стеллаж. С боковой стороны кто-то вырезал слова: ''Петрович пидор!''";
 	dir = 4;
 	pixel_x = 24;
 	tag = "icon-polka (EAST)"
@@ -498,9 +495,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "bX" = (
-/obj/structure/safe{
-	desc = "Старый сейф. Кто-то выцарапал на нем слово:''Лопата''"
-	},
+/obj/structure/safe,
 /obj/item/gun/ballistic/shotgun/bm16/toz34,
 /obj/item/storage/firstaid/ifak,
 /turf/open/stalker/floor/lattice,

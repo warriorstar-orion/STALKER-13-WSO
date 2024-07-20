@@ -1,0 +1,3 @@
+/obj/structure/flora/stalker/bush:
+  banned_neighbors:
+  - /obj/structure/flora/stalker/bush
