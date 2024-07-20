@@ -7259,7 +7259,7 @@
 /area/stalker/buildings)
 "JS" = (
 /obj/machinery/door/airlock/stalker/sidor{
-	id_tag = 343
+	id_tag = "343"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/svalka/cellar)
@@ -9352,7 +9352,7 @@
 /area/stalker/buildings)
 "Yv" = (
 /obj/machinery/button/door{
-	id = 343;
+	id = "343";
 	pixel_x = -6;
 	pixel_y = 26
 	},

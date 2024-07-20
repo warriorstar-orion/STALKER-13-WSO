@@ -68,7 +68,7 @@
 	tastes = list("meat" = 1)
 	bite_consumption = 3
 	foodtypes = MEAT | RAW
-	food_reagents = list(/datum/reagent/consumable/nutriment = 3, "cooking_oil" = 2) //Meat has fats that a food processor can process into cooking oil
+	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/fat/oil = 2) //Meat has fats that a food processor can process into cooking oil
 
 /obj/item/food/meat/slab/mutantmeat/Initialize(mapload)
 	. = ..()

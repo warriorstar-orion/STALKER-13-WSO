@@ -1459,11 +1459,6 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt,
 /area/stalker/blowout/outdoor)
-"mh" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/turf/open/stalker/floor/gryaz,
-/area/stalker/buildings)
 "mj" = (
 /obj/effect/spawner/random/stalker/flasks,
 /turf/open/stalker/floor/asphalt,
@@ -1982,11 +1977,6 @@
 /obj/structure/stone_tile/burnt,
 /turf/open/stalker/floor/dirt,
 /area/stalker/cave)
-"rh" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/turf/open/stalker/floor/tropa,
-/area/stalker/buildings)
 "ri" = (
 /obj/structure/stalker/car/uaz{
 	icon_state = "0,2";
@@ -28380,7 +28370,7 @@ hh
 Me
 TM
 TM
-rh
+TM
 TM
 pZ
 qD
@@ -32995,7 +32985,7 @@ Xg
 Xg
 qD
 pZ
-mh
+hh
 hh
 ox
 Sv
@@ -34537,7 +34527,7 @@ Nb
 zD
 Hp
 pZ
-rh
+TM
 mx
 jh
 Co

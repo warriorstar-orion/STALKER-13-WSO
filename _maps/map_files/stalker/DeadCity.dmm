@@ -1199,7 +1199,7 @@
 /area/stalker/blowout/outdoor)
 "jX" = (
 /obj/machinery/door/airlock/stalker/sidor{
-	id_tag = 343
+	id_tag = "343"
 	},
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
