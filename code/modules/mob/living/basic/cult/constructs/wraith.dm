@@ -8,7 +8,7 @@
 	health = 65
 	melee_damage_lower = 20
 	melee_damage_upper = 20
-	attack_verb_continuous = list("slashes")
+	attack_verb_continuous = "slashes"
 	attack_verb_simple = "slash"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH

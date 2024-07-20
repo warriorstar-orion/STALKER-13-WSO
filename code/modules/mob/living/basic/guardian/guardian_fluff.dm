@@ -18,7 +18,7 @@
 	/// Emote used for speaking
 	var/list/speak_emote = list("hisses")
 	/// Verb shown to viewers when attacking
-	var/attack_verb_continuous = list("punches")
+	var/attack_verb_continuous = "punches"
 	/// Verb shown to attacker when attacking
 	var/attack_verb_simple = "punch"
 	/// Sound played when we attack

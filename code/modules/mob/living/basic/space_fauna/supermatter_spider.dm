@@ -13,7 +13,7 @@
 	speak_emote = list("vibrates")
 
 
-	attack_verb_continuous = list("slices")
+	attack_verb_continuous = "slices"
 	attack_verb_simple = "slice"
 	attack_sound = 'sound/effects/supermatter.ogg'
 	attack_vis_effect = ATTACK_EFFECT_CLAW

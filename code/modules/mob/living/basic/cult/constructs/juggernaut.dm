@@ -11,7 +11,7 @@
 	obj_damage = 90
 	melee_damage_lower = 25
 	melee_damage_upper = 25
-	attack_verb_continuous = list("smashes their armored gauntlet into")
+	attack_verb_continuous = "smashes their armored gauntlet into"
 	attack_verb_simple = "smash your armored gauntlet into"
 	speed = 2.5
 	attack_sound = 'sound/weapons/punch3.ogg'

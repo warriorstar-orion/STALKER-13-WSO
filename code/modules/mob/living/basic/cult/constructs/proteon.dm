@@ -9,7 +9,7 @@
 	health = 35
 	melee_damage_lower = 8
 	melee_damage_upper = 10
-	attack_verb_continuous = list("pinches")
+	attack_verb_continuous = "pinches"
 	attack_verb_simple = "pinch"
 	smashes_walls = TRUE
 	attack_sound = 'sound/weapons/punch2.ogg'

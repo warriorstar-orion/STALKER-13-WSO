@@ -14,7 +14,7 @@
 	health = 75
 	melee_damage_lower = 0
 	melee_damage_upper = 0
-	attack_verb_continuous = list("weakly tackles")
+	attack_verb_continuous = "weakly tackles"
 	attack_verb_simple = "weakly tackles"
 	speak_emote = list("telepathically cries")
 	attack_sound = 'sound/weapons/pierce.ogg'
@@ -91,7 +91,7 @@
 	health = 1
 	melee_damage_lower = 2
 	melee_damage_upper = 2
-	attack_verb_continuous = list("bites")
+	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	speak_emote = list("telepathically cries")
 	attack_sound = 'sound/weapons/bite.ogg'

@@ -17,7 +17,7 @@
 	attack_sound = 'sound/weapons/bite.ogg'
 	melee_attack_cooldown = 0.6 SECONDS
 	attack_vis_effect = ATTACK_EFFECT_BITE
-	attack_verb_continuous = list("bites")
+	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	death_message = "wails as infernal energy escapes from its wounds, leaving it an empty husk."
 	death_sound = 'sound/magic/demon_dies.ogg'

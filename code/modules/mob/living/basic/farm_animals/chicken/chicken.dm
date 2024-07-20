@@ -22,7 +22,7 @@ GLOBAL_VAR_INIT(chicken_count, 0)
 	response_disarm_simple = "gently push aside"
 	response_harm_continuous = "pecks"
 	response_harm_simple = "peck"
-	attack_verb_continuous = list("pecks")
+	attack_verb_continuous = "pecks"
 	attack_verb_simple = "peck"
 	friendly_verb_continuous = "headbutts"
 	friendly_verb_simple = "headbutt"

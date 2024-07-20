@@ -14,7 +14,7 @@
 	response_disarm_simple = "gently nudges aside"
 	response_harm_continuous = "kicks"
 	response_harm_simple = "kick"
-	attack_verb_continuous = list("bucks")
+	attack_verb_continuous = "bucks"
 	attack_verb_simple = "buck"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	health = 75

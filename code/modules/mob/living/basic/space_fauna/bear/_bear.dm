@@ -24,7 +24,7 @@
 	wound_bonus = -5
 	bare_wound_bonus = 10 // BEAR wound bonus am i right
 	sharpness = SHARP_EDGED
-	attack_verb_continuous = list("claws")
+	attack_verb_continuous = "claws"
 	attack_verb_simple = "claw"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_CLAW
@@ -138,7 +138,7 @@
 	attack_sound = 'sound/weapons/slap.ogg'
 	attack_vis_effect = ATTACK_EFFECT_DISARM
 	attack_verb_simple = "slap"
-	attack_verb_continuous = list("slaps")
+	attack_verb_continuous = "slaps"
 
 /mob/living/basic/bear/butter/Initialize(mapload)
 	. = ..()

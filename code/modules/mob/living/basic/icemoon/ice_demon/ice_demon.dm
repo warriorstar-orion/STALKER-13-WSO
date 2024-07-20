@@ -14,7 +14,7 @@
 	obj_damage = 40
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attack_verb_continuous = list("slices")
+	attack_verb_continuous = "slices"
 	attack_verb_simple = "slice"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH
@@ -64,7 +64,7 @@
 	health = 20
 	melee_damage_lower = 5
 	melee_damage_upper = 5
-	attack_verb_continuous = list("slices")
+	attack_verb_continuous = "slices"
 	attack_verb_simple = "slice"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	alpha = 80

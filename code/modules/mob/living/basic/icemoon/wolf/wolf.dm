@@ -26,7 +26,7 @@
 	attack_vis_effect = ATTACK_EFFECT_BITE
 	melee_attack_cooldown = 1.2 SECONDS
 
-	attack_verb_continuous = list("bites")
+	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	death_message = "snarls its last and perishes."
 

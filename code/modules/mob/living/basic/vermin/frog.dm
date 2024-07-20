@@ -15,7 +15,7 @@
 	melee_damage_lower = 5
 	melee_damage_upper = 5
 	obj_damage = 10
-	attack_verb_continuous = list("bites")
+	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	melee_attack_cooldown = 2.5 SECONDS
 	response_help_continuous = "pets"

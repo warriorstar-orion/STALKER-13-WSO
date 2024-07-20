@@ -12,7 +12,7 @@
 	response_disarm_simple = "flail at"
 	response_harm_continuous = "punches"
 	response_harm_simple = "punch"
-	attack_verb_continuous = list("wildly tears into")
+	attack_verb_continuous = "wildly tears into"
 	attack_verb_simple = "wildly tear into"
 
 	icon = 'icons/mob/simple/demon.dmi'

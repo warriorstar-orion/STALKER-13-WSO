@@ -26,7 +26,7 @@
 	melee_damage_upper = 20
 	obj_damage = 30
 	melee_attack_cooldown = CLICK_CD_MELEE
-	attack_verb_continuous = list("bites")
+	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	attack_sound = 'sound/weapons/bite.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE

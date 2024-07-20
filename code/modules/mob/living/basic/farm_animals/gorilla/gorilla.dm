@@ -29,7 +29,7 @@
 	melee_damage_upper = 30
 	damage_coeff = list(BRUTE = 1, BURN = 1.5, TOX = 1.5, STAMINA = 0, OXY = 1.5)
 	obj_damage = 40
-	attack_verb_continuous = list("pummels")
+	attack_verb_continuous = "pummels"
 	attack_verb_simple = "pummel"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	unique_name = TRUE

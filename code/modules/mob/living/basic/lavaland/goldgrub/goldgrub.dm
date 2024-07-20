@@ -17,7 +17,7 @@
 	health = 45
 	melee_damage_lower = 0
 	melee_damage_upper = 0
-	attack_verb_continuous = list("barrels into")
+	attack_verb_continuous = "barrels into"
 	attack_verb_simple = "barrel into"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	combat_mode = FALSE

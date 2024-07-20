@@ -18,7 +18,7 @@
 	obj_damage = 60
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attack_verb_continuous = list("lashes out at")
+	attack_verb_continuous = "lashes out at"
 	attack_verb_simple = "lash out at"
 	speak_emote = list("gurgles")
 	attack_sound = 'sound/weapons/pierce.ogg'

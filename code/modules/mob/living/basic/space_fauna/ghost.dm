@@ -14,7 +14,7 @@
 	health = 40
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	attack_verb_continuous = list("grips")
+	attack_verb_continuous = "grips"
 	attack_verb_simple = "grip"
 	unsuitable_atmos_damage = 0
 	unsuitable_cold_damage = 0
@@ -111,7 +111,7 @@
 	desc = "Back from the grave, and not happy about it."
 	maxHealth = 30
 	health = 30
-	attack_verb_continuous = list("smashes")
+	attack_verb_continuous = "smashes"
 	attack_verb_simple = "smash"
 	melee_damage_lower = 10
 	melee_damage_upper = 10

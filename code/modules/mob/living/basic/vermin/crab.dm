@@ -21,7 +21,7 @@
 	gold_core_spawnable = FRIENDLY_SPAWN
 	mob_size = MOB_SIZE_SMALL
 	///In the case 'melee_damage_upper' is somehow raised above 0
-	attack_verb_continuous = list("snips")
+	attack_verb_continuous = "snips"
 	attack_verb_simple = "snip"
 	attack_sound = 'sound/weapons/bite.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE

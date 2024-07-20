@@ -16,7 +16,7 @@
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	obj_damage = 10
-	attack_verb_continuous = list("drills")
+	attack_verb_continuous = "drills"
 	attack_verb_simple = "drill"
 	attack_sound = 'sound/weapons/circsawhit.ogg'
 	sentience_type = SENTIENCE_MINEBOT

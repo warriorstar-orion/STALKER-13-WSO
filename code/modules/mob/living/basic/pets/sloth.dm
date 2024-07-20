@@ -20,7 +20,7 @@ GLOBAL_DATUM(cargo_sloth, /mob/living/basic/sloth)
 	response_harm_continuous = "kicks"
 	response_harm_simple = "kick"
 
-	attack_verb_continuous = list("bites")
+	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	attack_sound = 'sound/weapons/bite.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE

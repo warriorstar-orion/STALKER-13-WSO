@@ -18,7 +18,7 @@
 	response_harm_simple = "punch"
 	melee_damage_lower = 5
 	melee_damage_upper = 12
-	attack_verb_continuous = list("metaphysically strikes")
+	attack_verb_continuous = "metaphysically strikes"
 	attack_verb_simple = "metaphysically strike"
 	unsuitable_cold_damage = 0
 	unsuitable_heat_damage = 0

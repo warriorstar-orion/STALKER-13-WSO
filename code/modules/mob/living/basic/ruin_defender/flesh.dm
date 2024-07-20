@@ -27,7 +27,7 @@
 	maxHealth = 20
 	attack_sound = 'sound/weapons/bite.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE
-	attack_verb_continuous = list("tries desperately to attach to")
+	attack_verb_continuous = "tries desperately to attach to"
 	attack_verb_simple = "try to attach to"
 	mob_biotypes = MOB_ORGANIC | MOB_SPECIAL
 	ai_controller = /datum/ai_controller/basic_controller/living_limb_flesh
