@@ -1,6 +1,30 @@
-## STALKER-13
+## STALKER-13 (WSO)
 
-This is a fork of the STALKER-13 codebase, rebuilt onto a more recent version of /tg/station. It is currently heavily in development and not production-ready.
+This is a fork of the STALKER-13 codebase, rebuilt onto a more recent version of /tg/station. It is currently heavily in development and not production-ready. The `WSO` suffix is to distinguish it from the other existing STALKER-13 repositories:
+
+- `STALKER-13`, the current production codebase built on /tg/ from 2020.
+- `STALKER-NEW-REBASE`, relatively modern implementation of several features built on /tg/ from May 2023.
+
+This fork pulls the existing production codebase directly onto /tg/station's history and modernizes it. It also includes several features from the `STALKER-NEW-REBASE` fork, namely the implementations for anomalies, artifacts, the blowout subsystem, and radiation.
+
+This fork tries to minimize changes to /tg/'s code as much as possible, adding new implementations to a separate `stalker/` subdirectory, to hopefully make it easier to merge new /tg/ commits as time goes on.
+
+In-progress tasks:
+
+- [ ] Confirming medicine and reagent replacements and making new reagents when /tg/'s deviates from the Stalker setting (e.g. charcoal)
+- [ ] Map conformance, linting, and performance.
+- [ ] Porting mobs to /tg/'s basic mobs and AI controllers.
+- [ ]Pulling out all icons from the STALKER-13 icon files, which just added them to TG's existing files, and making proper subtypes for clothing/weapons to reduce confusion and redundance specifying icon files.
+- [ ] Trying to get SSnightcycle to be a bit faster and nicer looking.
+- [ ] Treating factions as departments and making sure loadouts work as expected in game preferences.
+- [ ] Modernize smoothing tiles for furniture and walls (currently a lot of furniture is straight-up invisible).
+- [ ] Migrating the PDA network off the old datacore implementation.
+- [ ] Migrating PDA's UI to TGUI or something.
+
+Future tasks:
+- [ ] Testing effects of all meds and all anomalies
+- [ ] Profiling and performance.
+- [ ] Pull HUD from `STALKER-NEW-RELEASE`.
 
 The below links are documentation originally written for /tg/.
 
