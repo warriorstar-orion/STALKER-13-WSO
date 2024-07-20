@@ -1,6 +1,7 @@
 /obj/item/storage/belt/artifact
 	name = "artifact belt"
 	desc = "Special belt for artifacts."
+	icon = 'icons/stalker/obj/clothing/belts.dmi'
 	icon_state = "artifactbelt"
 	worn_icon_state = "utility"
 

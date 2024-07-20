@@ -1,4 +1,5 @@
 /obj/item/storage/belt/military/tactibelt
+	icon = 'icons/stalker/obj/clothing/belts.dmi'
 	icon_state = "tactibelt"
 	worn_icon_state = "tactibelt"
 	inhand_icon_state = "tactibelt"
@@ -9,6 +10,7 @@
 	atom_storage.max_slots = 4
 
 /obj/item/storage/belt/military/webbing
+	icon = 'icons/stalker/obj/clothing/belts.dmi'
 	icon_state = "webbing"
 	worn_icon_state = "webbing"
 	inhand_icon_state = "webbing"
@@ -19,6 +21,7 @@
 	atom_storage.max_slots = 6
 
 /obj/item/storage/belt/military/chestrig
+	icon = 'icons/stalker/obj/clothing/belts.dmi'
 	icon_state = "chestrig"
 	inhand_icon_state = "chestrig"
 	desc = "A hefty chestrig with a numerous amount of pouch slots. Ideal for carrying important equipment."

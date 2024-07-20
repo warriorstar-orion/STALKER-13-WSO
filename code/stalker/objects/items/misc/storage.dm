@@ -16,6 +16,9 @@
 /obj/item/storage/backpack/stalker
 	name = "backpack"
 	desc = "A regular tourist backpack that will provide you with inventory. Can hold 21 items."
+	icon = 'icons/stalker/items.dmi'
+	lefthand_file = 'icons/stalker/mob/inhands/equipment/items_lefthand.dmi'
+	righthand_file = 'icons/stalker/mob/inhands/equipment/items_righthand.dmi'
 	icon_state = "backpack-tourist"
 	inhand_icon_state = "backpack-tourist"
 	w_class = WEIGHT_CLASS_HUGE

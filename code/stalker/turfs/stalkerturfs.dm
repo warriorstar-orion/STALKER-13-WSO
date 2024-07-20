@@ -346,7 +346,7 @@ var/global/list/GryazEdgeCache
 	name = "rails"
 	icon = 'icons/stalker/rails.dmi'
 	icon_state = "sp"
-	layer = MID_TURF_LAYER
+	layer = TRAM_FLOOR_LAYER
 	anchored = 1
 	density = 0
 	opacity = 0
