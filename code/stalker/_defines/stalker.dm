@@ -78,10 +78,6 @@
 #define DEATH_STAGE							2
 
 
-//////////////wtf is this
-
-#define GLOBAL_LIGHT_TURF_1         (1<<0)     //Sets any light emitted by this turf to GLOBAL_LIGHTING, isn't affected by other GLOBAL_LIGHTING lights
-
 //////////////COLOURS
 #define DEFAULT_COLOUR					list(\
 										1, 0, 0,\

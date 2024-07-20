@@ -31,10 +31,10 @@
 /datum/component/stalker_rads_emitter/Initialize(
 	cooldown_time = 5 SECONDS,
 	range = 1,
-	threshold = RAD_MED IUM_INSULATION,
+	threshold = RAD_MEDIUM_INSULATION,
+	rads = DEFAULT_RADS_AMOUNT,
 	chance = 100,
 	minimum_exposure_time = 0,
-	rads = DEFAULT_RADS_AMOUNT,
 	examine_text,
 )
 

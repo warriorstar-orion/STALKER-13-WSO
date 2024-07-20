@@ -123,6 +123,8 @@ Always compile, always use that verb, and always make sure that it works for wha
 ///boolean - does this z disable parallax?
 #define ZTRAIT_NOPARALLAX "No Parallax"
 
+#define ZTRAIT_BLOWOUTS "Blowouts"
+
 // default trait definitions, used by SSmapping
 ///Z level traits for CentCom
 #define ZTRAITS_CENTCOM list(ZTRAIT_CENTCOM = TRUE, ZTRAIT_NOPHASE = TRUE)

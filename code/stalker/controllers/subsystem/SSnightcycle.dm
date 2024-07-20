@@ -1,154 +1,150 @@
-/*  6:00 AM 	- 	21600
-	6:45 AM 	- 	24300
-	11:45 AM 	- 	42300
-	4:45 PM 	- 	60300
-	9:45 PM 	- 	78300
-	10:30 PM 	- 	81000 */
-#define TIMEOFDAY_SUNRISE      "sunrise"
-#define TIMEOFDAY_MORNING      "morning"
-#define TIMEOFDAY_DAYTIME      "daytime"
-#define TIMEOFDAY_AFTERNOON    "afternoon"
-#define TIMEOFDAY_SUNSET       "sunset"
-#define TIMEOFDAY_NIGHTTIME    "nighttime"
+#define TIMEOFDAY_SUNRISE	"sunrise"
+#define TIMEOFDAY_MORNING	"morning"
+#define TIMEOFDAY_DAYTIME	"daytime"
+#define TIMEOFDAY_AFTERNOON	"afternoon"
+#define TIMEOFDAY_EVENING	"evening"
+#define TIMEOFDAY_SUNSET	"sunset"
+#define TIMEOFDAY_NIGHTTIME	"nighttime"
 
-#define CYCLE_SUNRISE 	216000
-#define CYCLE_MORNING 	243000
-#define CYCLE_DAYTIME 	423000
-#define CYCLE_AFTERNOON 603000
-#define CYCLE_SUNSET 	783000
-#define CYCLE_NIGHTTIME 810000
-
-#define STEP_SUNRISE 1
-#define STEP_MORNING 2
-#define STEP_DAY 3
-#define STEP_AFTERNOON 4
-#define STEP_SUNSET 5
-#define STEP_NIGHT 6
+#define CYCLE_SUNRISE 	216000  // 06:00
+#define CYCLE_MORNING 	243000  // 06:45
+#define CYCLE_DAYTIME	288000	// 08:00
+#define CYCLE_AFTERNOON 423000	// 11:45
+#define CYCLE_EVENING	603000	// 16:45
+#define CYCLE_SUNSET 	783000  // 21:45
+#define CYCLE_NIGHTTIME 810000	// 22:30
 
 SUBSYSTEM_DEF(nightcycle)
 	name = "Day/Night Cycle"
-	wait = 5 //5 ticks in between checks, this thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
-	//This will also give the game time to light up the columns and not choke
-	//var/flags = 0			//see MC.dm in __DEFINES Most flags must be set on world start to take full effect. (You can also restart the mc to force them to process again
+	wait = 10 // This thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
 	can_fire = TRUE
+	init_order = INIT_ORDER_NIGHTCYCLE
 	var/currentTime
-	flags = SS_NO_INIT
-	var/currentZOffset = 1
-	var/z_list = list(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14)
-	var/steps = list(new /datum/time_of_day/sunrise(), new /datum/time_of_day/morning(), new /datum/time_of_day/daytime(),
-					 new /datum/time_of_day/afternoon(), new /datum/time_of_day/sunset(), new /datum/time_of_day/night())
-	var/step = STEP_NIGHT // index of steps list
-	var/datum/time_of_day/step_datum
-	var/currentColumn
+	var/sunColour
+	var/sunPower
+	var/sunRange
 	var/working = 0
-	var/doColumns //number of columns to do at a time
-	var/newTime = null
-	var/duration = 0
+	var/newTime
+	var/list/day_night_levels = list()
 
-/datum/controller/subsystem/nightcycle/fire(resumed = FALSE)
-	if(nextBracket())
-		working = 1
-		currentColumn = 1
+	var/list/z_level_queue = list()
+	var/list/z_turfs = list()
+	var/max_turfs_per_fire = 255
 
-	CHECK_TICK
-	if (working)
-		doWork()
+/datum/controller/subsystem/nightcycle/Initialize()
+	nextBracket()
+	return SS_INIT_SUCCESS
+
+/datum/controller/subsystem/nightcycle/proc/has_work()
+	if(length(z_turfs) > 0)
+		return TRUE
+	if(length(z_level_queue))
+		return TRUE
+
+	return FALSE
+
+/datum/controller/subsystem/nightcycle/fire(resumed)
+	if(!resumed && nextBracket())
+		logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle prepping next run.")
+		z_level_queue.Cut()
+		z_turfs.Cut()
+		for(var/datum/space_level/zlevel in SSmapping.z_list)
+			z_level_queue += zlevel.z_value
+
+	if(!length(z_turfs) && length(z_level_queue))
+		var/next_z_level = z_level_queue[z_level_queue.len]
+		z_turfs = get_area_turfs(/area/stalker/blowout/outdoor, target_z = next_z_level, subtypes = TRUE)
+		logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle retrieved next_z_level=[next_z_level].")
+		z_level_queue.len--
+
+	var/current_turfs = 0
+	while(length(z_turfs) && current_turfs < max_turfs_per_fire)
+		var/turf/T = z_turfs[z_turfs.len]
+		if(istype(T, /turf/open) && !QDELETED(T))
+			T.set_light(MINIMUM_USEFUL_LIGHT_RANGE, sunPower, sunColour)
+			current_turfs++
+		z_turfs.len--
+
+		if(MC_TICK_CHECK)
+			logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle ran and applied [current_turfs] turfs.")
+			return
+
+/datum/controller/subsystem/nightcycle/proc/nextBracket()
+	var/Time = station_time()
+
+	switch (Time)
+		if (CYCLE_SUNRISE 	to CYCLE_MORNING - 1)
+			newTime = TIMEOFDAY_SUNRISE
+		if (CYCLE_MORNING 	to CYCLE_DAYTIME 	- 1)
+			newTime = TIMEOFDAY_MORNING
+		if (CYCLE_DAYTIME 	to CYCLE_AFTERNOON	- 1)
+			newTime = TIMEOFDAY_DAYTIME
+		if (CYCLE_AFTERNOON to CYCLE_EVENING 	- 1)
+			newTime = TIMEOFDAY_AFTERNOON
+		if (CYCLE_EVENING to CYCLE_SUNSET - 1)
+			newTime = TIMEOFDAY_EVENING
+		if (CYCLE_SUNSET 	to CYCLE_NIGHTTIME - 1)
+			newTime = TIMEOFDAY_SUNSET
+		else
+			newTime = TIMEOFDAY_NIGHTTIME
+
+	if (newTime == currentTime)
+		return FALSE
+
+	currentTime = newTime
+	updateLight(currentTime)
+	return TRUE
+
+/datum/controller/subsystem/nightcycle/proc/set_time_of_day(time_name)
+	var/new_time = 0
+	switch (time_name)
+		if (TIMEOFDAY_SUNRISE)
+			new_time = CYCLE_SUNRISE
+		if (TIMEOFDAY_MORNING)
+			new_time = CYCLE_MORNING
+		if (TIMEOFDAY_DAYTIME)
+			new_time = CYCLE_DAYTIME
+		if (TIMEOFDAY_AFTERNOON)
+			new_time = CYCLE_AFTERNOON
+		if (TIMEOFDAY_SUNSET)
+			new_time = CYCLE_SUNSET
+		if(TIMEOFDAY_NIGHTTIME)
+			new_time = CYCLE_NIGHTTIME
+
+	if(new_time != 0)
+		var/old_time = station_time()
+		SSticker.gametime_offset += new_time - old_time
+
+/datum/controller/subsystem/nightcycle/proc/updateLight(newTime)
+	switch (newTime)
+		if (TIMEOFDAY_SUNRISE)
+			sunColour = "#ffd1b3"
+			sunPower = 0.3 * 255
+		if (TIMEOFDAY_MORNING)
+			sunColour = "#fff2e6"
+			sunPower = 0.5 * 255
+		if (TIMEOFDAY_DAYTIME)
+			sunColour = "#FFFFFF"
+			sunPower = 0.75 * 255
+		if (TIMEOFDAY_AFTERNOON)
+			sunColour = "#fff2e6"
+			sunPower = 0.5 * 255
+		if (TIMEOFDAY_EVENING)
+			sunColour = "#f9d0aad5"
+			sunPower = 0.5 * 255
+		if (TIMEOFDAY_SUNSET)
+			sunColour = "#ffa5a5"
+			sunPower = 0.3 * 255
+		if(TIMEOFDAY_NIGHTTIME)
+			sunColour = "#00111a"
+			sunPower = 0.20 * 255
 
 /datum/controller/subsystem/nightcycle/proc/is_daylight()
-	if(!step_datum)
-		return FALSE
-	switch (step_datum.name)
+	switch (currentTime)
 		if (TIMEOFDAY_SUNRISE, TIMEOFDAY_SUNSET, TIMEOFDAY_NIGHTTIME)
 			return FALSE
 		if (TIMEOFDAY_MORNING, TIMEOFDAY_MORNING, TIMEOFDAY_AFTERNOON)
 			return TRUE
-
-/datum/controller/subsystem/nightcycle/proc/nextBracket()
-	if (world.time > duration)
-		setNextStep()
-		return TRUE
-
-/datum/controller/subsystem/nightcycle/proc/doWork()
-	var/list/currentTurfs = list()
-	var/x = min(currentColumn + doColumns, world.maxx)
-	var/z = z_list[currentZOffset]
-	var/start_turf = locate(x,world.maxy,z)
-	var/end_turf = locate(x,1,z)
-	currentTurfs = get_line(start_turf,end_turf)
-	for (var/turf/T in currentTurfs)
-		if(istype(T, /turf/open) && !QDELETED(T)) //Turfs are qdeleted on changeturf
-			T.set_light(3, step_datum.sunPower, step_datum.color)
-
-	currentColumn = x + 1
-	if (currentColumn > world.maxx)
-		if (currentZOffset < length(z_list))
-			currentZOffset++
-			currentColumn = 1
-		else
-			currentZOffset = 1
-			currentColumn = 1
-			working = 0
-		return
-
-/datum/controller/subsystem/nightcycle/proc/setNextStep()
-	if (step >= length(steps))
-		step = 1
-		step_datum = steps[step]
-	else
-		step++
-		step_datum = steps[step]
-	duration = world.time + step_datum.duration
-
-
-/datum/controller/subsystem/nightcycle/proc/setTime(var/force_step)
-	step = force_step
-	step_datum = steps[step]
-	duration = world.time + step_datum.duration
-	working = 1
-	currentColumn = 1
-
-
-/datum/time_of_day
-	var/name = ""
-	var/color = ""
-	var/duration = 300
-	var/sunPower = 0
-
-/datum/time_of_day/sunrise
-	name = TIMEOFDAY_SUNRISE
-	color = "#ffd1b3"
-	sunPower = 0.1
-	duration = 2250
-
-/datum/time_of_day/morning
-	name = TIMEOFDAY_MORNING
-	color = "#fff2e6"
-	sunPower = 0.4
-	duration = 2250
-
-/datum/time_of_day/daytime
-	name = TIMEOFDAY_DAYTIME
-	color = "#FFFFFF"
-	sunPower = 0.75
-	duration = 9000
-
-/datum/time_of_day/afternoon
-	name = TIMEOFDAY_AFTERNOON
-	color = "#fff2e6"
-	sunPower = 0.4
-	duration = 2250
-
-/datum/time_of_day/sunset
-	name = TIMEOFDAY_SUNSET
-	color = "#ffcccc"
-	sunPower = 0.1
-	duration = 2250
-
-/datum/time_of_day/night
-	name = TIMEOFDAY_NIGHTTIME
-	color = "#27283d"
-	sunPower = 0.1
-	duration = 9000
 
 #undef TIMEOFDAY_SUNRISE
 #undef TIMEOFDAY_MORNING

@@ -47,13 +47,7 @@
 		if(CAN_IRRADIATE(movable))
 			valid_target = TRUE
 	if(valid_target)
-		AddComponent(/datum/component/stalker_rads_emitter, \
-					cooldown_time = radiation_cooldown_duration, \
-					range = radiation_range, \
-					threshold = radiation_threshold, \
-					rads = radiation_rads, \
-					chance = radiation_chance, \
-					minimum_exposure_time = radiation_minimum_exposure_time)
+		AddComponent(/datum/component/stalker_rads_emitter, radiation_cooldown_duration, radiation_range, radiation_threshold, radiation_rads, radiation_chance, radiation_minimum_exposure_time)
 
 /obj/effect/abstract/radiation/proc/try_stop_irradiate(turf/source)
 	var/valid_target = FALSE

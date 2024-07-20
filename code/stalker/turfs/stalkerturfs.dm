@@ -92,9 +92,11 @@
 	barefootstep = FOOTSTEP_TILE
 	//light_range = 3
 
-/turf/open/stalker/Initialize(mapload)
-	. = ..()
-	flags_1 |= GLOBAL_LIGHT_TURF_1
+// /turf/open/stalker/Initialize(mapload)
+// 	. = ..()
+// 	// var/area/A = get_area(src)
+// 	// if (istype(A, /area/stalker/blowout/outdoor) && SSnightcycle)
+// 	// 	set_light(0.75, SSnightcycle.sunPower, SSnightcycle.sunColour)
 
 /turf/open/stalker/floor
 	name = "grass"
