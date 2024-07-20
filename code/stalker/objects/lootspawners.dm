@@ -182,7 +182,7 @@
 				/obj/item/trash/oldplank = 5,
 				/obj/item/trash/oldplank/two = 5,
 				/obj/item/trash/oldplank/three = 5,
-				/obj/item/trash/fermentingjar,
+				/obj/item/trash/fermentingjar = 5,
 				/obj/nothing = 10
 				)
 

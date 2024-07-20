@@ -4,43 +4,43 @@
 	name = "potassium iodide pill"
 	desc = "A common anti-radiation medication used by Stalkers after minor radiation exposure."
 	icon_state = "pill11"
-	list_reagents = list("potass_iodide" = 20)
+	list_reagents = list(/datum/reagent/medicine/potass_iodide = 20)
 
 /obj/item/reagent_containers/pill/radioprotectant
 	name = "radioprotectant pill"
 	desc = "A powerful radioprotectant that prevents the user from accumulating additional radiation during exposure."
 	icon_state = "pill17"
-	list_reagents = list("indraline" = 20)
+	list_reagents = list(/datum/reagent/medicine/indraline = 20)
 
 /obj/item/reagent_containers/pill/vinca
 	name = "vinca pill"
 	desc = "An artificial equivalent of vitamin K that rapidly accelerates blood coagulation in the body."
 	icon_state = "pill7"
-	list_reagents = list("viksolum" = 20)
+	list_reagents = list(/datum/reagent/medicine/viksolum = 20)
 
 /obj/item/reagent_containers/pill/psyblock
 	name = "psy-block pill"
 	desc = "An experimental drug that protects against the strange psionic energies found in the Zone."
 	icon_state = "pill12"
-	list_reagents = list("psyblock" = 20)
+	list_reagents = list(/datum/reagent/medicine/psyblock = 20)
 
 /obj/item/reagent_containers/pill/cocaine
 	name = "cocaine pill"
 	desc = "Cocaine compressed into pill form for easier consumption. It provides alertness and reduces fatigue after ingestion."
 	icon_state = "pill9"
-	list_reagents = list("cocaine" = 10)
+	list_reagents = list(/datum/reagent/drug/cocaine = 10)
 
 /obj/item/reagent_containers/pill/analgesic
 	name = "diclofenac sodium pill"
 	desc = "A popular painkiller in the Zone which allows Stalkers to withstand severe injuries, such as gunshot and shrapnel wounds. Users may experience extreme side effects."
 	icon_state = "pill8"
-	list_reagents = list("analgesic" = 10)
+	list_reagents = list(/datum/reagent/medicine/analgesic = 10)
 
 /obj/item/reagent_containers/pill/caffeine
 	name = "caffeine pill"
 	desc = "Caffeine and sodium benzoate which cause central nervous to work with highest effectiveness possible at a given time. Reduce sleepiness to a large degree."
 	icon_state = "pill0"
-	list_reagents = list("coffee" = 20)
+	list_reagents = list(/datum/reagent/consumable/coffee = 20)
 
 //// AUTOINJECTORS ////
 
@@ -56,7 +56,7 @@
 	icon_state = "stimpen"
 	volume = 25
 	amount_per_transfer_from_this = 25
-	list_reagents = list("anabiotic" = 25)
+	list_reagents = list(/datum/reagent/medicine/anabiotic = 25)
 
 /obj/item/reagent_containers/hypospray/medipen/stalker/hercules
 	name = "hercules autoinjector"
@@ -64,7 +64,7 @@
 	icon_state = "stimpen"
 	volume = 24
 	amount_per_transfer_from_this = 24
-	list_reagents = list("anabiotic" = 24)
+	list_reagents = list(/datum/reagent/medicine/anabiotic = 24)
 
 /obj/item/reagent_containers/hypospray/medipen/stalker/metamizole
 	name = "metamizole ampoule"
@@ -74,7 +74,7 @@
 	icon_state = "stimpen"
 	volume = 25
 	amount_per_transfer_from_this = 25
-	list_reagents = list("sal_acid" = 20, "iron" = 5)
+	list_reagents = list(/datum/reagent/medicine/sal_acid = 20, /datum/reagent/iron = 5)
 
 /obj/item/reagent_containers/hypospray/medipen/stalker/antirad
 	name = "anti-rad syrette"
@@ -84,7 +84,7 @@
 	inhand_icon_state = "antirad"
 	amount_per_transfer_from_this = 9
 	volume = 18
-	list_reagents = list("pen_acid" = 18)
+	list_reagents = list(/datum/reagent/medicine/pen_acid = 18)
 
 /obj/item/reagent_containers/hypospray/medipen/stalker/axyltallisal
 	name = "axyltallisal \"The Rebirth\""
@@ -92,4 +92,4 @@
 	icon_state = "stimpen"
 	volume = 20
 	amount_per_transfer_from_this = 20
-	list_reagents = list("axyltallisal" = 20)
+	list_reagents = list(/datum/reagent/medicine/axyltallisal = 20)

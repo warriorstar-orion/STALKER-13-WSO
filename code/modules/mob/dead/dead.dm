@@ -104,7 +104,7 @@ INITIALIZE_IMMEDIATE(/mob/dead)
 		registered_z = null
 		return
 	registered_z = new_z
-	SSmobs.dead_players_by_zlevel[new_z] += src
+	SSmobs.add_dead_player_to_zlevel(src, new_z)
 
 /mob/dead/Login()
 	. = ..()

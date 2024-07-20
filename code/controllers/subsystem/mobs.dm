@@ -43,3 +43,8 @@ SUBSYSTEM_DEF(mobs)
 			GLOB.mob_living_list.Remove(L)
 		if (MC_TICK_CHECK)
 			return
+
+/datum/controller/subsystem/mobs/proc/add_dead_player_to_zlevel(mob/dead/player, z_level)
+	if (!islist(clients_by_zlevel) || clients_by_zlevel.len < world.maxz)
+		MaxZChanged()
+	SSmobs.dead_players_by_zlevel[z_level] += src

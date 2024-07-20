@@ -6465,6 +6465,7 @@
 #include "code\stalker\objects\items\misc\bolt.dm"
 #include "code\stalker\objects\items\misc\repair_kit.dm"
 #include "code\stalker\objects\items\misc\storage.dm"
+#include "code\stalker\objects\items\outfits\base_outfits.dm"
 #include "code\stalker\objects\items\outfits\head.dm"
 #include "code\stalker\objects\items\outfits\misc.dm"
 #include "code\stalker\objects\items\outfits\suit.dm"

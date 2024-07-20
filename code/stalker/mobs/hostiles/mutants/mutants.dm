@@ -13,6 +13,9 @@
 	loot = list()
 	robust_searching = 1
 	mob_biotypes = list(MOB_ORGANIC, MOB_BEAST)
+	unsuitable_atmos_damage = 0
+	unsuitable_heat_damage = 0
+	unsuitable_cold_damage = 0
 	var/random_butcher_results
 	var/attack_type = "claw"
 	var/deletable = TRUE //Self-deletable dead bodies

@@ -11,7 +11,7 @@
 	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	icon_dead = "whitebeet-dead"
 	genes = list(/datum/plant_gene/trait/maxchem)
-	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.05, /datum/reagent/consumable/nutriment = 0.05, "uranium" = 0.25)
+	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.05, /datum/reagent/consumable/nutriment = 0.05, /datum/reagent/uranium = 0.25)
 
 /obj/item/food/grown/beet/red/zona
 	seed = /obj/item/seeds/beet/red/zona
@@ -35,7 +35,7 @@
 	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	icon_dead = "beet/white-dead"
 	mutatelist = list(/obj/item/seeds/beet/red/zona)
-	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.04, "sugar" = 0.2, /datum/reagent/consumable/nutriment = 0.05, "uranium" = 0.25)
+	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.04, /datum/reagent/consumable/sugar = 0.2, /datum/reagent/consumable/nutriment = 0.05, /datum/reagent/uranium = 0.25)
 
 /obj/item/food/grown/beet/white/zona
 	seed = /obj/item/seeds/beet/white/zona
@@ -60,7 +60,7 @@
 	growthstages = 3
 	growing_icon = 'icons/obj/service/hydroponics/growing_vegetables.dmi'
 	mutatelist = list(/obj/item/seeds/carrot/parsnip)
-	reagents_add = list("oculine" = 0.25, /datum/reagent/consumable/nutriment/vitamin = 0.04, /datum/reagent/consumable/nutriment = 0.05, "uranium" = 0.25)
+	reagents_add = list(/datum/reagent/medicine/oculine = 0.25, /datum/reagent/consumable/nutriment/vitamin = 0.04, /datum/reagent/consumable/nutriment = 0.05, /datum/reagent/uranium = 0.25)
 
 /obj/item/food/grown/carrot/zona
 	seed = /obj/item/seeds/carrot/zona
@@ -82,7 +82,7 @@
 	product = /obj/item/food/grown/carrot/parsnip/zona
 	icon_dead = "carrot-dead"
 	mutatelist = list()
-	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.05, /datum/reagent/consumable/nutriment = 0.05, "uranium" = 0.25)
+	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.05, /datum/reagent/consumable/nutriment = 0.05, /datum/reagent/uranium = 0.25)
 
 /obj/item/food/grown/carrot/parsnip/zona
 	seed = /obj/item/seeds/carrot/parsnip/zona

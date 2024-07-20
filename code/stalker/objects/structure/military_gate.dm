@@ -12,6 +12,7 @@
 
 /obj/machinery/door/poddoor/gate/New()
 	..()
+	// TODO(wso): This should... not be like this
 	var/atom/movable/S = new (locate(x+1,y,z))
 	S.set_opacity(opacity)
 	S.anchored = 1

@@ -5030,10 +5030,6 @@
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
-"HZ" = (
-/obj/effect/decal/cleanable/cobweb,
-/turf/closed/wall/rust,
-/area/stalker)
 "Ib" = (
 /obj/effect/zona_anomaly/springboard,
 /obj/effect/decal/cleanable/blood/tracks,
@@ -5294,11 +5290,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/cave)
 "Nf" = (
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 4
-	},
-/turf/closed/wall/rust,
-/area/stalker)
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/stalker/floor/plasteel/plita,
+/area/stalker/buildings/backwater/waste)
 "Np" = (
 /mob/living/simple_animal/hostile/mutant/snork{
 	health = 250;
@@ -5811,8 +5805,9 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "WT" = (
-/obj/effect/decal/cleanable/blood/drip,
-/turf/closed/wall/stalker/bricks_yellow,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/stalker/floor/dirt,
 /area/stalker)
 "WY" = (
 /obj/structure/window/reinforced/tinted{
@@ -29145,7 +29140,7 @@ ad
 ad
 ad
 yM
-oD
+WT
 My
 oD
 My
@@ -29402,9 +29397,9 @@ ag
 ag
 ag
 yM
-HZ
+yM
 VQ
-Nf
+yM
 My
 dP
 ng
@@ -29912,7 +29907,7 @@ aF
 co
 co
 co
-cZ
+Nf
 cZ
 ag
 Wd
@@ -34054,7 +34049,7 @@ vU
 vU
 BR
 St
-WT
+BR
 St
 St
 BR

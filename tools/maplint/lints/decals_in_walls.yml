@@ -1,0 +1,3 @@
+/obj/effect/decal:
+  banned_neighbors:
+  - /turf/closed

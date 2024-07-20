@@ -9294,12 +9294,6 @@
 	icon_state = "lattice_new_dirt"
 	},
 /area/stalker/svalka/cellar)
-"XY" = (
-/obj/effect/decal/cleanable/blood/tracks{
-	dir = 4
-	},
-/turf/closed/mineral,
-/area/stalker)
 "Yb" = (
 /mob/living/basic/mouse/gray,
 /turf/open/stalker/floor/digable/grass/dump,
@@ -46015,7 +46009,7 @@ wZ
 aa
 Pd
 aa
-XY
+aa
 tP
 aa
 "}

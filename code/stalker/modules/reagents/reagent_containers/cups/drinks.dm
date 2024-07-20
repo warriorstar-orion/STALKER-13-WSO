@@ -4,7 +4,7 @@
 	icon_state = "commie_flask"
 	custom_materials = list(/datum/material/silver = SMALL_MATERIAL_AMOUNT * 5)
 	volume = 60
-	list_reagents = list(/datum/reagent/consumable/ethanol/vodka = 35, "kahlua" = 25)
+	list_reagents = list(/datum/reagent/consumable/ethanol/vodka = 35, /datum/reagent/consumable/ethanol/kahlua = 25)
 
 /obj/item/reagent_containers/cup/glass/flask/russian
 	name = "russian flask"

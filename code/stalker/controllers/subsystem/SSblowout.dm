@@ -152,17 +152,13 @@ SUBSYSTEM_DEF(blowouts)
 	for(var/datum/job/job as anything in SSjob.joinable_occupations)
 		job.total_positions = initial(job.total_positions)
 
+	for(var/obj/structure/stalker/cacheable/cache in GLOB.stalker_caches)
+		cache.RefreshContents()
+		CHECK_TICK
+
 	/* NOT IMPLEMENTED YET
 	for(var/obj/machinery/stalker/sidorpoint/sidorpoint as anything in GLOB.cps)
 		sidorpoint.SendJobTotalPositions()
-		CHECK_TICK
-
-	for(var/obj/structure/stalker/cacheable/cache as anything in GLOB.stalker_caches)
-		if(cache.internal_cache)
-			qdel(cache.internal_cache)
-		cache.internal_cache = null
-		cache.cache_chance = rand(3, 7)
-		cache.RefreshContents()
 		CHECK_TICK
 	*/
 

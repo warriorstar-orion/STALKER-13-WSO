@@ -3,7 +3,7 @@
 	desc = "Excellent energy drink Non-Stop. Contains caffeine, taurine, and a powerful vitamin complex that relieves fatigue and adds strength. Feel like you need a boost? Then this is exactly what you need."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "nonstop"
-	list_reagents = list("energetic" = 10, /datum/reagent/water = 20)
+	list_reagents = list(/datum/reagent/drug/energetic = 10, /datum/reagent/water = 20)
 	w_class = 2
 
 /obj/item/reagent_containers/cup/soda_cans/crunk
@@ -11,7 +11,7 @@
 	desc = "Great energy drink. Contains caffeine, taurine and lots of vitamines. Can't make a step? Then it's what you need. WARNING: Potentially hazardous to your health!"
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "crunk"
-	list_reagents = list("grey_bull" = 25, "energetic" = 15)
+	list_reagents = list("grey_bull" = 25, /datum/reagent/drug/energetic = 15)
 	w_class = 2
 
 
@@ -40,7 +40,11 @@
 	desc = "Refreshing and slightly sweet Terragon soda"
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "terragon"
-	list_reagents = list("energetic" = 3, "terragonsoda" = 37)
+	list_reagents = list(
+		/datum/reagent/drug/energetic = 3,
+		// TODO(wso): Unsure if this ever existed
+		// "terragonsoda" = 37
+	)
 	w_class = 2
 
 /obj/item/reagent_containers/cup/soda_cans/pineapple
@@ -48,7 +52,7 @@
 	desc = "Army-Pineapple juice. Sugary and full of carbohydrates: It's just what a Stalker needs!"
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "army_pineapple"
-	list_reagents = list(/datum/reagent/medicine/omnizine = 3, "pine" = 37)
+	list_reagents = list(/datum/reagent/medicine/omnizine = 3, /datum/reagent/consumable/pineapplejuice = 37)
 	w_class = 2
 
 /obj/item/reagent_containers/cup/soda_cans/purifiedwater
@@ -64,7 +68,7 @@
 	desc = "Produced from select medicinal mushrooms with a birch tannin base: This invigorating and rejuvinating beverage is well-loved by any Stalkers who can afford it!"
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "zonetea"
-	list_reagents = list("tea" = 15, /datum/reagent/medicine/omnizine = 10, "potass_iodide" = 10, "energetic" = 3, "psicodine" = 2)
+	list_reagents = list(/datum/reagent/consumable/tea = 15, /datum/reagent/medicine/omnizine = 10, /datum/reagent/medicine/potass_iodide = 10, /datum/reagent/drug/energetic = 3, /datum/reagent/medicine/psicodine = 2)
 	w_class = 2
 
 /obj/item/reagent_containers/cup/soda_cans/voda
@@ -72,7 +76,7 @@
 	desc = "Refreshing mineral water."
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "voda"
-	list_reagents = list("energetic" = 3, /datum/reagent/water = 37)
+	list_reagents = list(/datum/reagent/drug/energetic = 3, /datum/reagent/water = 37)
 	w_class = 2
 
 /obj/item/reagent_containers/cup/glass/flask/jerrycan
@@ -88,4 +92,4 @@
 	icon_state = "jerrycan"
 	custom_materials = list(/datum/material/silver = SMALL_MATERIAL_AMOUNT)
 	volume = 375
-	list_reagents = list("compost" = 375)
+	list_reagents = list(/datum/reagent/plantnutriment/compost = 375)

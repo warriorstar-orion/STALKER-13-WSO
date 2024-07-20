@@ -40,14 +40,14 @@
 	name = "iron pill"
 	desc = "Used to accelerate the treatment of blood deficiency."
 	icon_state = "pill17"
-	list_reagents = list("iron" = 20)
+	list_reagents = list(/datum/reagent/iron = 20)
 	rename_with_volume = FALSE
 
 /obj/item/reagent_containers/pill/painkiller
 	name = "analgesic pill"
 	desc = "Used to suppress pain. Causes stomach cramps after ingestion, eat beforehand!"
 	icon_state = "pill17"
-	list_reagents = list("mine_salve" = 15)
+	list_reagents = list(/datum/reagent/medicine/mine_salve = 15)
 	rename_with_volume = FALSE
 
 /obj/item/storage/pill_bottle/iron
@@ -94,14 +94,14 @@
 	name = "bicaridine pill"
 	desc = "Used to treat brute damage."
 	icon_state = "pill17"
-	list_reagents = list("bicaridine" = 20)
+	list_reagents = list(/datum/reagent/medicine/bicaridine = 20)
 	rename_with_volume = FALSE
 
 /obj/item/reagent_containers/pill/kelotane
 	name = "kelotane pill"
 	desc = "Used to treat burn damage."
 	icon_state = "pill19"
-	list_reagents = list("kelotane" = 20)
+	list_reagents = list(/datum/reagent/medicine/kelotane = 20)
 	rename_with_volume = FALSE
 
 /obj/item/storage/firstaid/ecologists

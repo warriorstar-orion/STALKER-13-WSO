@@ -129,7 +129,7 @@
 	desc = "Snickers. A reminder of home for western-tourists, a oddly sweet snack for locals."
 	icon_state = "snikers"
 	icon_state_opened = "snikers1"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 8, "sugar" = 6, /datum/reagent/medicine/omnizine = 0.2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/sugar = 6, /datum/reagent/medicine/omnizine = 0.2)
 	trash_type = /obj/item/trash/konserva/snikers
 	desc_opened = "Snickers. A reminder of home for western-tourists, a oddly sweet snack for locals. This one is unwrapped."
 	tastes = list("rich chocolate and peanut-butter with nuts" = 1)
@@ -145,7 +145,7 @@
 	desc = "A bar of chocolate. A reminder of home in this harsh place."
 	icon_state = "Choco1"
 	icon_state_opened = "Choco2"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 9, "sugar" = 1, /datum/reagent/medicine/omnizine = 0.1, "energetic" = 5)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 9, /datum/reagent/consumable/sugar = 1, /datum/reagent/medicine/omnizine = 0.1, /datum/reagent/drug/energetic = 5)
 	trash_type = /obj/item/trash/konserva/chocolate
 	desc_opened = "A bar of chocolate. A reminder of home in this harsh place. This one is opened."
 	tastes = list("artisinal chocolate. It isn't as sweet as processed chocolate, but still very good" = 1)
@@ -331,7 +331,7 @@
 	desc = "Pieces of scrap meat cooked in a thick-gruel made of mutant tato stock. It isn't very tasty, to say the least!"
 	icon_state = "stew"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 17, /datum/reagent/medicine/omnizine = 1, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 17, /datum/reagent/medicine/omnizine = 1, /datum/reagent/consumable/salt = 2)
 	tastes = list("gritty and chewy meat with a overly bitter broth. This is absolutely putrid.." = 1)
 
 /obj/item/food/stalker/putrescentstew
@@ -339,7 +339,7 @@
 	desc = "Pieces of diet sausage meat cooked in a thick-gruel made of pickled tomato stock. It isn't very tasty, to say the least!"
 	icon_state = "stew"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/medicine/omnizine = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/medicine/omnizine = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("gritty and chewy meat with a overly vinegar-tomato broth. This is absolutely putrid.." = 1)
 
 /obj/item/food/stalker/lowgradestew
@@ -347,7 +347,7 @@
 	desc = "Pieces of scrap meat cooked in a thin-gruel made of mushroom stock. It isn't very tasty, but it'll keep you from starving to death!"
 	icon_state = "lowgrade_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/medicine/omnizine = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/medicine/omnizine = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("gritty and chewy meat with a overly earthy broth. This isn't very enjoyable.." = 1)
 
 /obj/item/food/stalker/shroomstew
@@ -355,7 +355,7 @@
 	desc = "A grueling meal offered by barkeeps for those down on their luck. Consisting of whatever crap just barely fits for human-consumption."
 	icon_state = "stew"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 15, "sodiumchloride" = 5, "mushroomhallucinogen" = 0.05)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 15, /datum/reagent/consumable/salt = 5, /datum/reagent/drug/mushroomhallucinogen = 0.05)
 	tastes = list("sand-textured grit with a overbearing earthy flavour. This is horrible.." = 1)
 
 /// BORSCHT
@@ -365,7 +365,7 @@
 	desc = "A sour soup common in Eastern Europe and Northern Asia. In English, the word 'borscht' is most often associated with the soup's variant of Ukrainian origin, made with beetroots as one of the main ingredients, which give the dish its distinctive red color."
 	icon_state = "beetsoup"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 20, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("sand-textured grit with a overbearing earthy flavour. This is horrible.." = 1)
 
 /obj/item/food/stalker/borscht
@@ -373,7 +373,7 @@
 	desc = "A sour soup common in Eastern Europe and Northern Asia. In English, the word 'borscht' is most often associated with the soup's variant of Ukrainian origin, made with beetroots as one of the main ingredients, which give the dish its distinctive red color."
 	icon_state = "beetsoup"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("root-textured grit with a overbearing earthy flavour. This is palatable..." = 1)
 
 /obj/item/food/stalker/borscht/luxury
@@ -381,7 +381,7 @@
 	desc = "A sour soup common in Eastern Europe and Northern Asia. In English, the word 'borscht' is most often associated with the soup's variant of Ukrainian origin, made with beetroots as one of the main ingredients, which give the dish its distinctive red color."
 	icon_state = "beetsoup"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavorful seasoned veggies with a slight earthy flavour. This is wonderful!" = 1)
 
 /obj/item/food/stalker/okroshkasoup
@@ -390,7 +390,7 @@
 	icon = 'icons/stalker/food.dmi'
 	icon_state = "lowgrade_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 35, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 35, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy flesh meat in a broth of thick creamy broth. This is wonderful!" = 1)
 
 /obj/item/food/stalker/ukha
@@ -398,7 +398,7 @@
 	desc = "Ukha started to be used as a term for fish broth in Russian cuisine in the late 17th to early 18th centuries. In earlier times, this term referred to thick meat broths, and then later chicken. Beginning in the 15th century, fish was more and more often used to prepare ukha, thus creating a dish that had a distinctive taste among soups. In the 19th century, many travellers visiting Russia claimed ukha to be one of the best dishes in Russian cuisine."
 	icon_state = "stew"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 35, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 10, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 35, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 10, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy fish meat in a broth of thin clear broth. This is wonderful!" = 1)
 
 /obj/item/food/stalker/meatstew/rat
@@ -406,7 +406,7 @@
 	desc = "Pieces of braised rat meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "lowgrade_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy rat-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
 /obj/item/food/stalker/meatstew/flesh
@@ -414,7 +414,7 @@
 	desc = "Pieces of braised Flesh meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy pork-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
 /obj/item/food/stalker/meatstew/dog
@@ -422,7 +422,7 @@
 	desc = "Pieces of braised mutant dog meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy dog-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
 /obj/item/food/stalker/meatstew/boar
@@ -430,7 +430,7 @@
 	desc = "Pieces of braised mutant boar meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy boar-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
 /obj/item/food/stalker/meatstew/snork
@@ -438,7 +438,7 @@
 	desc = "Pieces of braised snork meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy snork-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
 /obj/item/food/stalker/meatstew/pseudo
@@ -446,7 +446,7 @@
 	desc = "Pieces of braised psuedodog meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy dog-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
 /obj/item/food/stalker/meatstew/bloodsucker
@@ -454,7 +454,7 @@
 	desc = "Pieces of braised bloodsucker meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy bloodsucker-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
 /obj/item/food/stalker/meatstew/controller
@@ -462,7 +462,7 @@
 	desc = "Pieces of braised controller meat cooked with tons of pepper n' salt with quality cultured mushrooms! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy controller-meat in a broth of thick gravy with veggies. This is wonderful!" = 1)
 
 /obj/item/food/stalker/meatstew/mutantdelight
@@ -470,7 +470,7 @@
 	desc = "A variety of braised mutant meat cooked with tons of pepper n' salt with quality cultured mushrooms and all sorts of veggies! Nothing warms a Stalkers belly better!"
 	icon_state = "meat_goulash"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 45, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 10, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 45, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 10, /datum/reagent/consumable/salt = 2)
 	tastes = list("flavourful chunks of chewy mutant meat in a broth of thick gravy with veggies. This is delightful!" = 1)
 
 // Candy-Bars and King-Ass Rippers Snack
@@ -480,7 +480,7 @@
 	desc = "Brought in during the later years by Stalkers who clearly understood what a diet of bread, meat and vodka does to ones stomach. It'll make you... 'Clear-Sky' your bowels!"
 	icon_state = "thebar"
 	icon_state_opened = "thebar1"
-	food_reagents = list("lipolicide" = 10, /datum/reagent/medicine/omnizine = 1)
+	food_reagents = list(/datum/reagent/toxin/lipolicide = 10, /datum/reagent/medicine/omnizine = 1)
 	trash_type = /obj/item/trash/konserva/snikers
 	desc_opened = "Brought in during the later years by Stalkers who clearly understood what a diet of bread, meat and vodka does to ones stomach. It'll make you... 'Clear-Sky' your bowels! This one has been opened!"
 	tastes = list("Oddly satisfactory chocolate that seems to make your... Stomach.. Grumble.. Oh No..." = 1)
@@ -490,7 +490,7 @@
 	desc = "A reminder of the life abandoned on the outside world by the locals.. This chocolate bar is rich with both flavour and homely vibes!"
 	icon_state = "choco1"
 	icon_state_opened = "choco2"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/medicine/omnizine = 1, "psicodine" = 1)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/medicine/omnizine = 1, /datum/reagent/medicine/psicodine = 1)
 	trash_type = /obj/item/trash/konserva/snikers
 	desc_opened =  "A reminder of the life abandoned on the outside world by the locals.. This chocolate bar is rich with both flavour and homely vibes! This one has been opened."
 	tastes = list("Delicious chocolate and a reminder of a more peaceful life.." = 1)
@@ -502,7 +502,7 @@
 	desc = "Pieces of braised mutant meat cooked with tons of pepper n' salt on a rod! Nothing warms a Stalkers belly better!"
 	icon_state = "meatkebab"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 5)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 5)
 	tastes = list("flavourful chunks of chewy mutant-meat right off of a stick. This is wonderful!" = 1)
 
 /obj/item/food/stalker/kebab/mutantonionmeat
@@ -510,7 +510,7 @@
 	desc = "Pieces of braised mutant meat and onions cooked with tons of pepper n' salt on arod! Nothing warms a Stalkers belly better!"
 	icon_state = "onionmeatkebab"
 	w_class = 2
-	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, "sodiumchloride" = 5)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 30, /datum/reagent/medicine/omnizine = 10, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/consumable/salt = 5)
 	tastes = list("flavourful chunks of chewy mutant-meat and onions right off of a stick. This is wonderful!" = 1)
 
 // JERKY
@@ -518,7 +518,7 @@
 /obj/item/food/sosjerky/mutant
 	name = "homemade mutant jerky"
 	desc = "Homemade mutant jerky made from the finest in the Zone."
-	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/medicine/omnizine = 5, "sugar" = 3, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/medicine/omnizine = 5, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/salt = 2)
 	junkiness = 0
 
 // PASHTET
@@ -526,11 +526,11 @@
 /obj/item/food/pashtet/mutantmix
 	name = "homemade mutant pashtet"
 	desc = "Homemade mutant meat pashtet made from all different parts of several kinds of mutants."
-	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/medicine/omnizine = 5, "sugar" = 3, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 25, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/medicine/omnizine = 5, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/salt = 2)
 	junkiness = 0
 
 /obj/item/food/pashtet/mutantmeatmix
 	name = "homemade mutant pashtet"
 	desc = "Homemade mutant meat pashtet made from the finest in the Zone."
-	food_reagents = list(/datum/reagent/consumable/nutriment = 35, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/medicine/omnizine = 5, "sugar" = 3, "sodiumchloride" = 2)
+	food_reagents = list(/datum/reagent/consumable/nutriment = 35, /datum/reagent/consumable/nutriment/vitamin = 5, /datum/reagent/medicine/omnizine = 5, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/salt = 2)
 	junkiness = 0

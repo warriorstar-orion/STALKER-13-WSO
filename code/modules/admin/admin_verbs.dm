@@ -662,3 +662,8 @@ ADMIN_VERB(create_mob_worm, R_FUN, "Create Mob Worm", "Attach a linked list of m
 		QDEL_NULL(segment.ai_controller)
 		segment.AddComponent(/datum/component/mob_chain, front = previous)
 		previous = segment
+
+ADMIN_VERB(debug_throw_runtime, R_DEBUG, "Throw Runtime", "Throw a test runtime.", ADMIN_CATEGORY_DEBUG)
+	var/x = 1337
+	var/y = 0
+	to_chat(usr, "[x]/[y]=[x/y]")

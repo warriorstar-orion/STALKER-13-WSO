@@ -571,6 +571,8 @@
 /obj/item/clothing/suit/hooded/sealed/ecolog
 	name = "SSP-99"
 	desc = "A SSP-99 chemical protection suit specially designed for the Zone conditions. It is used by scientific expeditions and the eco-stalkers who cooperate with them. It has an integrated air-filtering and air-conditioning system. It is heat and electricity resistant, provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments. It is not designed for combat, but it provides very minimal bullet and melee protections."
+	icon = 'icons/stalker/outfits.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/suits.dmi'
 	icon_state = "ecolog"
 	inhand_icon_state = "syndicate-orange"
 	blood_overlay_type = "armor"
@@ -594,6 +596,8 @@
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
+	icon = 'icons/stalker/obj/clothing/head/hats.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/head/hats.dmi'
 	icon_state = "ecolog_helmet"
 
 /obj/item/clothing/head/hooded/stalker/sealed/ecolog/Initialize(mapload)
@@ -604,6 +608,8 @@
 /obj/item/clothing/suit/hooded/sealed/ecologm
 	name = "SSP-99M"
 	desc = "High quality modified SSP-99 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body. This variant provides a decent protection from firearms & melee damage."
+	icon = 'icons/stalker/outfits.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/suits.dmi'
 	icon_state = "ecologg"
 	inhand_icon_state = "syndicate-green"
 	blood_overlay_type = "armor"
@@ -627,6 +633,8 @@
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
+	icon = 'icons/stalker/obj/clothing/head/hats.dmi'
+	worn_icon = 'icons/stalker/mob/clothing/head/hats.dmi'
 	icon_state = "ecologg_helmet"
 	resistance_flags = FIRE_PROOF
 
@@ -638,6 +646,7 @@
 /obj/item/clothing/suit/hooded/sealed/seva
 	name = "SEVA"
 	desc = "This bodysuit, intended for conducting research in the Zone, combines a closed-cycle respiratory module and an external isolation coating, resulting in excellent protection from anomalies. It provides a very fair protection from bullets and lacerations. It comes with a built-in artifact transportation container."
+	icon = 'icons/stalker/outfits.dmi'
 	icon_state = "seva"
 	inhand_icon_state = "syndicate-black"
 	blood_overlay_type = "armor"
