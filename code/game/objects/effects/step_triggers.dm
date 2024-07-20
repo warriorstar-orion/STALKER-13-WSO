@@ -12,7 +12,6 @@
 	return INITIALIZE_HINT_LATELOAD
 
 /obj/effect/step_trigger/LateInitialize()
-	. = ..()
 	var/static/list/loc_connections = list(
 		COMSIG_ATOM_ENTERED = PROC_REF(on_entered),
 	)

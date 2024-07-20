@@ -35,12 +35,11 @@
 	SSmachines.unregister_machine(src)
 	..()
 
-obj/machinery/campfire/barrel
+/obj/machinery/campfire/barrel
 	name = "barrel"
 	icon = 'icons/stalker/bochka.dmi'
 	icon_state = "barrel0"
 	density = 1
-
 
 /obj/machinery/campfire/attack_hand(mob/user)
 	..()
@@ -59,14 +58,12 @@ obj/machinery/campfire/barrel
 	user.visible_message("<span class='green'>[user] extinguished the fire.</span>", "<span class='green'>You extinguished the fire.</span>")
 	desc = initial(desc)
 
-	active = !active
+	SSmachines.unregister_machine(src)
+	active = FALSE
 	update_icon()
 	set_light(0)
 
 	soundloop.stop()
-
-	SSmachines.unregister_machine(src)
-
 
 /obj/machinery/campfire/update_icon()
 	. = ..()
@@ -78,7 +75,7 @@ obj/machinery/campfire/barrel
 	icon_state = "barrel[active]"
 	return
 
-/obj/machinery/campfire/proc/RefreshSound()
+/obj/machinery/campfire/proc/heal_campers()
 	for(var/mob/M in view(5, src))
 		if(!M || !M.client)
 			continue
@@ -100,17 +97,14 @@ obj/machinery/campfire/barrel
 			H.adjustPsyLoss(-2)
 
 /obj/machinery/campfire/process()
-	if(!active)
-		SSmachines.unregister_machine(src)
-		return
-	src.RefreshSound()
+	heal_campers()
 
 /obj/machinery/campfire/attackby(obj/item/I, mob/user, params)
 	if(I)
 		if(istype(I, /obj/item/match))
 			var/obj/item/match/M = I
 			if(M.lit == 1 && !active)
-				active = !active
+				active = TRUE
 				usr.visible_message("[usr] lit a fire.", "<span class='notice'>You lit a fire.</span>")
 				update_icon()
 				soundloop.start()
@@ -128,7 +122,7 @@ obj/machinery/campfire/barrel
 		if(istype(I, /obj/item/lighter))
 			var/obj/item/lighter/L = I
 			if(L.lit == 1 && !active)
-				active = !active
+				active = TRUE
 				usr.visible_message("[usr] lit a fire.", "<span class='notice'>You lit a fire.</span>")
 				update_icon()
 				soundloop.start()

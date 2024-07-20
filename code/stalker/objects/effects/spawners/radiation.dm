@@ -24,7 +24,6 @@
 	return INITIALIZE_HINT_LATELOAD
 
 /obj/effect/abstract/radiation/LateInitialize()
-	. = ..()
 	var/static/list/loc_connections = list(
 		COMSIG_ATOM_ENTERED = PROC_REF(on_entered),
 		COMSIG_ATOM_EXITED = PROC_REF(on_exited),
@@ -48,7 +47,7 @@
 		if(CAN_IRRADIATE(movable))
 			valid_target = TRUE
 	if(valid_target)
-		AddComponent(/datum/component/radioactive_emitter, \
+		AddComponent(/datum/component/stalker_rads_emitter, \
 					cooldown_time = radiation_cooldown_duration, \
 					range = radiation_range, \
 					threshold = radiation_threshold, \
@@ -62,7 +61,7 @@
 		if(CAN_IRRADIATE(movable))
 			valid_target = TRUE
 	if(!valid_target)
-		qdel(GetComponent(/datum/component/radioactive_emitter))
+		qdel(GetComponent(/datum/component/stalker_rads_emitter))
 
 /obj/effect/abstract/radiation/low
 	radiation_rads = 15

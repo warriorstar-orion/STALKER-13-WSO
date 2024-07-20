@@ -2457,12 +2457,6 @@
 	},
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
-"hB" = (
-/obj/structure/grille/stalker/beton{
-	opacity = 1
-	},
-/turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
 "hC" = (
 /obj/structure/table/stalker/wood/bar100rentgen,
 /turf/open/stalker/floor/wood/oldvert,
@@ -2623,12 +2617,6 @@
 /area/stalker/blowout/outdoor)
 "hZ" = (
 /obj/structure/stalker/doski/doski4,
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
-"ia" = (
-/obj/structure/grille/stalker/beton{
-	opacity = 1
-	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ib" = (
@@ -5774,7 +5762,6 @@
 	},
 /obj/machinery/light{
 	dir = 4;
-	icon_state = "tube";
 	tag = "icon-tube1 (EAST)"
 	},
 /turf/open/stalker/floor/wood/oldvert,
@@ -5902,7 +5889,6 @@
 /obj/structure/stalker/cacheable/komod,
 /obj/machinery/light{
 	dir = 1;
-	icon_state = "tube";
 	tag = "icon-tube1 (EAST)"
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -6291,7 +6277,6 @@
 /obj/effect/spawner/random/stalker/medicine/pills,
 /obj/machinery/light{
 	dir = 1;
-	icon_state = "tube";
 	tag = "icon-tube1 (EAST)"
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -7255,7 +7240,6 @@
 /obj/structure/stalker/cacheable/polka,
 /obj/machinery/light{
 	dir = 1;
-	icon_state = "tube";
 	tag = "icon-tube1 (EAST)"
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -7758,7 +7742,6 @@
 "Tz" = (
 /obj/machinery/light/small{
 	dir = 8;
-	icon_state = "bulb";
 	tag = "icon-bulb1 (WEST)"
 	},
 /turf/open/stalker/floor/lattice,
@@ -7971,7 +7954,6 @@
 "Vy" = (
 /obj/machinery/light/small{
 	dir = 8;
-	icon_state = "bulb";
 	tag = "icon-bulb1 (WEST)"
 	},
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -8353,9 +8335,7 @@
 /area/stalker/blowout/outdoor)
 "Yp" = (
 /obj/effect/abstract/radiation/high,
-/obj/structure/stalker/car/btrgrimy{
-	icon_state = "1"
-	},
+/obj/structure/stalker/car/btrgrimy,
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor)
 "Yq" = (
@@ -31965,7 +31945,7 @@ mu
 mu
 ae
 mu
-hB
+am
 ho
 ho
 ho
@@ -32222,7 +32202,7 @@ mu
 mu
 mu
 mu
-hB
+am
 ho
 ho
 ho
@@ -32479,7 +32459,7 @@ tL
 mu
 mu
 mu
-hB
+am
 ho
 be
 be
@@ -32736,7 +32716,7 @@ mu
 fx
 mu
 mu
-hB
+am
 ho
 aH
 be
@@ -32993,7 +32973,7 @@ an
 fx
 fx
 mu
-hB
+am
 ho
 aH
 be
@@ -33250,7 +33230,7 @@ an
 fx
 mu
 ae
-hB
+am
 ho
 aH
 ho
@@ -33507,7 +33487,7 @@ an
 fx
 mu
 mu
-hB
+am
 ho
 ho
 ho
@@ -33764,7 +33744,7 @@ AG
 fx
 mu
 mu
-hB
+am
 ho
 ho
 ho
@@ -34021,7 +34001,7 @@ Ia
 fx
 mu
 mu
-hB
+am
 ho
 ho
 ho
@@ -34278,7 +34258,7 @@ Ia
 fx
 mu
 mu
-hB
+am
 ho
 ho
 aH
@@ -34535,7 +34515,7 @@ AG
 fx
 ae
 mu
-hB
+am
 ho
 ho
 ho
@@ -34792,7 +34772,7 @@ AG
 fx
 mu
 mu
-hB
+am
 mu
 ho
 ho
@@ -35049,7 +35029,7 @@ an
 fx
 ah
 mu
-hB
+am
 mu
 mu
 ho
@@ -35306,7 +35286,7 @@ mz
 fx
 fx
 mu
-hB
+am
 mu
 mu
 mu
@@ -35563,7 +35543,7 @@ an
 fx
 fx
 mu
-hB
+am
 mu
 mu
 mu
@@ -35820,7 +35800,7 @@ mu
 fx
 ah
 mu
-hB
+am
 mu
 mu
 ab
@@ -36077,7 +36057,7 @@ mu
 mu
 fx
 mu
-hB
+am
 mu
 ae
 ab
@@ -36334,7 +36314,7 @@ fx
 fx
 Ii
 mu
-ia
+bY
 mu
 mu
 ab
@@ -36848,7 +36828,7 @@ fx
 fx
 vJ
 mu
-hB
+am
 ab
 ab
 aa
