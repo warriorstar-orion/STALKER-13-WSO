@@ -377,6 +377,8 @@ export const JobsPage = () => {
             </Stack.Item>
 
             <Stack.Item mr={1}>
+              <Gap amount={36} />
+
               <PriorityHeaders />
 
               <Department department="Ecologists">
