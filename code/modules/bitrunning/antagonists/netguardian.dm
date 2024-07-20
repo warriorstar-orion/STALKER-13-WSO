@@ -20,7 +20,7 @@
 	melee_damage_lower = 45
 	melee_damage_upper = 65
 
-	attack_verb_continuous = list("drills")
+	attack_verb_continuous = "drills"
 	attack_verb_simple = "drills"
 	attack_sound = 'sound/weapons/drill.ogg'
 	attack_vis_effect = ATTACK_EFFECT_MECHFIRE

@@ -177,7 +177,7 @@
 				M.adjustFireLoss(3)
 				to_chat(M, span_userdanger("Your [name] feels warmer."))
 			if(201 to INFINITY)
-				STOP_PROCESSING(SSprocessing, src)
+				SSobj.processing.Remove(src)
 				M.adjustFireLoss(10)
 				reactor_overloaded = TRUE
 				to_chat(M, span_userdanger("Your [name]'s reactor overloads!"))
