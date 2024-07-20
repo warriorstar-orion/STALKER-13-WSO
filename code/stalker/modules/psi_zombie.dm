@@ -69,7 +69,7 @@
 			if(turns_since_move >= 5)
 				var/anydir = pick(GLOB.cardinals)
 				if(Process_Spacemove(anydir))
-					for(var/obj/anomaly/A in get_step(src, anydir).contents)
+					for(var/obj/effect/zona_anomaly/A in get_step(src, anydir).contents)
 						return 1
 					Move(get_step(src, anydir), anydir)
 					turns_since_move = 0

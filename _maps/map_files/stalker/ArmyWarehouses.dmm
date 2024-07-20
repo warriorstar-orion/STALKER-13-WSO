@@ -23,7 +23,7 @@
 /area/stalker/blowout/outdoor)
 "ah" = (
 /obj/item/trash/metalparts/brokenturbine,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ai" = (
@@ -57,7 +57,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "ar" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /mob/living/simple_animal/hostile/mutant/snork,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker)
@@ -112,7 +112,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "1,2"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "aZ" = (
@@ -137,7 +137,7 @@
 /area/stalker)
 "bj" = (
 /obj/structure/closet/crate/stalker/blue/stash/low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "bm" = (
@@ -145,7 +145,7 @@
 	icon_state = "spr1";
 	tag = "icon-spr1"
 	},
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
@@ -181,7 +181,7 @@
 	icon_state = "r";
 	tag = "icon-r"
 	},
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "bE" = (
@@ -206,7 +206,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "bM" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/flora/tree/jungle/small,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -260,7 +260,7 @@
 /area/stalker/blowout/outdoor)
 "cc" = (
 /obj/item/trash/meshwirepatch/three,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "cd" = (
@@ -289,7 +289,7 @@
 /area/stalker/blowout/outdoor)
 "cn" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "co" = (
@@ -340,7 +340,7 @@
 	icon_state = "r";
 	tag = "icon-r"
 	},
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "cL" = (
@@ -435,7 +435,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "3,0"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "dr" = (
@@ -464,7 +464,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker)
 "dA" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "dD" = (
@@ -500,7 +500,7 @@
 /obj/structure/stalker/cacheable/bochka/red{
 	pixel_y = -15
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "dM" = (
@@ -525,7 +525,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "dS" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "dT" = (
@@ -556,12 +556,12 @@
 /obj/structure/stalker/car/btrgrimy{
 	icon_state = "8"
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ef" = (
 /obj/item/trash/gear,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ei" = (
@@ -598,7 +598,7 @@
 /area/stalker/blowout/outdoor)
 "eo" = (
 /obj/structure/stalker/car/gryzovik/west,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "es" = (
@@ -631,7 +631,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "eC" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker)
 "eD" = (
@@ -651,7 +651,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor)
 "eG" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "eH" = (
@@ -669,7 +669,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "eN" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/closet/crate/stalker/blue/stash/medium,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker)
@@ -693,8 +693,8 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "eV" = (
-/obj/rad/rad_low,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "eW" = (
@@ -724,7 +724,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "fd" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker)
 "ff" = (
@@ -743,7 +743,7 @@
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big{
 	pixel_x = 4
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "fk" = (
@@ -775,7 +775,7 @@
 	icon_state = "7";
 	tag = "icon-7"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "fD" = (
@@ -832,7 +832,7 @@
 /obj/structure/stalker/car/btrgrimy{
 	icon_state = "6"
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "fZ" = (
@@ -859,7 +859,7 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "gd" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /obj/effect/turf_decal/stripes/full{
 	density = 1;
 	icon = 'icons/stalker/warning_stripes.dmi';
@@ -953,7 +953,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "gN" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
@@ -1010,7 +1010,7 @@
 /obj/structure/stalker/cacheable/body{
 	icon_state = "deadbody5"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "hw" = (
@@ -1043,7 +1043,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "2,2"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "hA" = (
@@ -1080,8 +1080,8 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
 "hI" = (
-/obj/rad/rad_low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "hM" = (
@@ -1202,11 +1202,11 @@
 /area/stalker)
 "iw" = (
 /mob/living/simple_animal/hostile/mutant/boar,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "ix" = (
-/obj/effect/landmark/blowout_spawner/boar,
+/obj/effect/abstract/blowout_spawner/boar,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "iC" = (
@@ -1245,7 +1245,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "iO" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/structure/closet/crate/stalker/blue/stash/medium,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -1260,7 +1260,7 @@
 	resize = 1.5;
 	speed = 2
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker)
 "iS" = (
@@ -1315,7 +1315,7 @@
 /obj/structure/stalker/car/btrgrimy{
 	icon_state = "7"
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "jk" = (
@@ -1351,7 +1351,7 @@
 /area/stalker/blowout/outdoor)
 "jC" = (
 /mob/living/simple_animal/hostile/mutant/boar,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "jE" = (
@@ -1359,7 +1359,7 @@
 	pixel_x = 9;
 	pixel_y = 11
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "jF" = (
@@ -1426,7 +1426,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "jX" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "4,1"
 	},
@@ -1483,7 +1483,7 @@
 /area/stalker/blowout/outdoor)
 "ks" = (
 /mob/living/simple_animal/hostile/mutant/snork,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker)
 "kv" = (
@@ -1509,7 +1509,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "2,1"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "kC" = (
@@ -1525,7 +1525,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "kH" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "2,2"
 	},
@@ -1624,7 +1624,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "lj" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor)
 "lk" = (
@@ -1693,7 +1693,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
 "lI" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/closed/mineral,
 /area/stalker)
 "lK" = (
@@ -1727,7 +1727,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "lV" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "3,1"
 	},
@@ -1790,7 +1790,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "5"
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "mp" = (
@@ -1835,7 +1835,7 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "mz" = (
@@ -1990,7 +1990,7 @@
 /obj/structure/stalker/cacheable/body{
 	icon_state = "deadbody4"
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "nu" = (
@@ -2023,12 +2023,12 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "nC" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/closed/mineral,
 /area/stalker/blowout/outdoor)
 "nF" = (
-/obj/rad/rad_high,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "nG" = (
@@ -2038,7 +2038,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "nR" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "3,3"
 	},
@@ -2063,7 +2063,7 @@
 	icon_state = "5";
 	tag = "icon-5"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "oc" = (
@@ -2091,7 +2091,7 @@
 /obj/structure/stalker/car/btrgrimy{
 	icon_state = "3"
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "of" = (
@@ -2124,7 +2124,7 @@
 /area/stalker/buildings/freedom)
 "oy" = (
 /obj/structure/stalker/tree/leafless,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "oz" = (
@@ -2133,7 +2133,7 @@
 /area/stalker/blowout/outdoor)
 "oD" = (
 /obj/structure/stalker/car/gryzovik/west,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "oF" = (
@@ -2147,7 +2147,7 @@
 /area/stalker/blowout/outdoor)
 "oG" = (
 /obj/structure/closet/crate/stalker/blue/stash/medium,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "oI" = (
@@ -2183,7 +2183,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "oR" = (
-/obj/effect/landmark/blowout_spawner/snork,
+/obj/effect/abstract/blowout_spawner/snork,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker)
 "oS" = (
@@ -2224,14 +2224,14 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "pf" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "2,4"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ph" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
@@ -2243,7 +2243,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "1,1"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "pm" = (
@@ -2288,7 +2288,7 @@
 /obj/structure/stalker/car/btrgrimy{
 	icon_state = "5"
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "pH" = (
@@ -2323,7 +2323,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "pP" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "pQ" = (
@@ -2331,8 +2331,8 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor)
 "pR" = (
-/obj/rad/rad_low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/low,
 /turf/closed/mineral,
 /area/stalker/blowout/outdoor)
 "pS" = (
@@ -2352,7 +2352,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "qd" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor)
 "qf" = (
@@ -2386,8 +2386,8 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "qt" = (
-/obj/rad/rad_medium,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/water,
 /area/stalker/blowout/outdoor)
 "qu" = (
@@ -2410,7 +2410,7 @@
 /area/stalker/blowout/outdoor)
 "qC" = (
 /obj/item/trash/metalparts/brokenpipes,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "qH" = (
@@ -2462,13 +2462,13 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "qZ" = (
-/obj/anomaly/tramplin,
-/obj/rad/rad_low,
+/obj/effect/zona_anomaly/springboard,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "rb" = (
-/obj/anomaly/karusel,
-/obj/rad/rad_low,
+/obj/effect/zona_anomaly/vortex,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "re" = (
@@ -2480,7 +2480,7 @@
 /area/stalker/buildings/freedom)
 "rf" = (
 /obj/structure/stalker/radiation,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "rg" = (
@@ -2682,14 +2682,14 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "sE" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "1,3"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "sG" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "sI" = (
@@ -2733,7 +2733,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "sV" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /obj/effect/turf_decal/stripes/full{
 	density = 1;
 	icon = 'icons/stalker/warning_stripes.dmi';
@@ -2749,7 +2749,7 @@
 /area/stalker/blowout/buildings)
 "sY" = (
 /obj/item/trash/gear,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ta" = (
@@ -2762,7 +2762,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "0,1"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "ti" = (
@@ -2822,7 +2822,7 @@
 	icon_state = "2";
 	tag = "icon-2"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "tP" = (
@@ -2830,7 +2830,7 @@
 	icon_state = "spl1";
 	tag = "icon-spl1"
 	},
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "tT" = (
@@ -2883,8 +2883,8 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "uj" = (
-/obj/rad/rad_low,
-/obj/anomaly/tramplin,
+/obj/effect/abstract/radiation/low,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "un" = (
@@ -2961,7 +2961,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "8"
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "uU" = (
@@ -2969,7 +2969,7 @@
 	icon_state = "6";
 	tag = "icon-7"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "uV" = (
@@ -3037,7 +3037,7 @@
 	icon_state = "l";
 	tag = "icon-l"
 	},
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "vp" = (
@@ -3194,7 +3194,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "wv" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/closet/crate/stalker/blue/stash/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -3241,8 +3241,8 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "wM" = (
-/obj/rad/rad_low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "wN" = (
@@ -3278,7 +3278,7 @@
 	tag = "icon-border1"
 	},
 /obj/structure/stalker/tree/leafless,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "wY" = (
@@ -3303,7 +3303,7 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "xf" = (
@@ -3327,7 +3327,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "xn" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "3,2"
 	},
@@ -3370,7 +3370,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "xz" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/tree/leafless,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -3381,8 +3381,8 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "xH" = (
-/obj/rad/rad_low,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/cacheable/body{
 	icon_state = "deadbody5"
 	},
@@ -3479,7 +3479,7 @@
 	icon_state = "l";
 	tag = "icon-l"
 	},
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "yI" = (
@@ -3506,7 +3506,7 @@
 /turf/closed/mineral,
 /area/stalker/blowout/outdoor)
 "yR" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "4,4"
 	},
@@ -3575,7 +3575,7 @@
 	icon_state = "spl1";
 	tag = "icon-spl1"
 	},
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "zD" = (
@@ -3604,7 +3604,7 @@
 /area/stalker/blowout/outdoor)
 "zQ" = (
 /obj/structure/closet/crate/stalker/blue/stash/medium,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker)
 "zR" = (
@@ -3644,7 +3644,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "Af" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Ah" = (
@@ -3672,7 +3672,7 @@
 /area/stalker/blowout/outdoor)
 "Ar" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "As" = (
@@ -3745,9 +3745,9 @@
 /area/stalker/blowout/outdoor)
 "AO" = (
 /obj/structure/closet/crate/stalker/blue/stash/medium,
-/obj/rad/rad_low,
-/obj/rad/rad_medium,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "AY" = (
@@ -3785,7 +3785,7 @@
 /area/stalker)
 "Bm" = (
 /obj/item/trash/fueltank/large,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Bn" = (
@@ -3801,7 +3801,7 @@
 /area/stalker)
 "Br" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Bt" = (
@@ -3879,7 +3879,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Ce" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Ch" = (
@@ -3899,7 +3899,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/blowout/buildings)
 "Cm" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/closet/crate/stalker/blue/stash/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -3936,8 +3936,8 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/rad/rad_low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/low,
 /turf/closed/mineral,
 /area/stalker/blowout/outdoor)
 "CD" = (
@@ -3976,7 +3976,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "CM" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "CN" = (
@@ -3992,7 +3992,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "CU" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "1,1"
 	},
@@ -4008,7 +4008,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "0,0"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Dc" = (
@@ -4112,7 +4112,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker)
 "DM" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "4,2"
 	},
@@ -4145,7 +4145,7 @@
 	icon_state = "spr1";
 	tag = "icon-spr1"
 	},
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Eg" = (
@@ -4207,7 +4207,7 @@
 	icon_state = "3";
 	tag = "icon-3"
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Ex" = (
@@ -4236,15 +4236,15 @@
 	},
 /area/stalker/blowout/buildings)
 "EE" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "1,2"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "EG" = (
-/obj/anomaly/holodec,
-/obj/rad/rad_low,
+/obj/effect/zona_anomaly/fruit_punch,
+/obj/effect/abstract/radiation/low,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
@@ -4308,7 +4308,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Fh" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "Fi" = (
@@ -4339,7 +4339,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "7"
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Fu" = (
@@ -4377,7 +4377,7 @@
 	icon_state = "4";
 	tag = "icon-4"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "FG" = (
@@ -4390,7 +4390,7 @@
 /area/stalker/blowout/outdoor)
 "FK" = (
 /obj/item/trash/metalparts/metaljunk/one,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "FM" = (
@@ -4450,7 +4450,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "Gh" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border4";
@@ -4541,7 +4541,7 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/closed/mineral,
 /area/stalker/blowout/outdoor)
 "GT" = (
@@ -4650,7 +4650,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "1,0"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "HH" = (
@@ -4658,8 +4658,8 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "HI" = (
-/obj/rad/rad_medium,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "HJ" = (
@@ -4678,7 +4678,7 @@
 /obj/structure/stalker/cacheable/pech{
 	pixel_y = 27
 	},
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "HW" = (
@@ -4724,7 +4724,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Il" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Im" = (
@@ -4745,8 +4745,8 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Iv" = (
-/obj/anomaly/holodec,
-/obj/rad/rad_low,
+/obj/effect/zona_anomaly/fruit_punch,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Iw" = (
@@ -4759,7 +4759,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "IA" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/closed/mineral,
 /area/stalker/blowout/outdoor)
 "IC" = (
@@ -4810,11 +4810,11 @@
 "IV" = (
 /obj/item/trash/metalparts/scrap,
 /obj/item/trash/fueltank,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "IX" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big{
 	pixel_x = 4
 	},
@@ -4859,7 +4859,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Jh" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/effect/turf_decal/stripes/full{
 	density = 1;
 	icon = 'icons/stalker/warning_stripes.dmi';
@@ -4872,7 +4872,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "2"
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Jk" = (
@@ -4881,7 +4881,7 @@
 /area/stalker/buildings/freedom)
 "Jp" = (
 /obj/item/trash/metalparts/brokenladder,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Jq" = (
@@ -4915,7 +4915,7 @@
 /obj/item/trash/metalparts,
 /obj/item/trash/metalparts/busdoor,
 /obj/item/trash/metalparts/metaljunk/one,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "JD" = (
@@ -4979,7 +4979,7 @@
 /area/stalker)
 "JP" = (
 /obj/structure/stalker/cacheable/bochka/red,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "JQ" = (
@@ -5032,7 +5032,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker)
 "Kl" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/flora/tree/jungle,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -5067,9 +5067,9 @@
 /obj/structure/stalker/cacheable/krest{
 	cache_size = 3
 	},
-/obj/rad/rad_low,
-/obj/rad/rad_medium,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Kt" = (
@@ -5084,11 +5084,11 @@
 /area/stalker/blowout/outdoor)
 "Ky" = (
 /obj/structure/stalker/tree/leafless,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "KA" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
@@ -5102,7 +5102,7 @@
 /area/stalker/blowout/outdoor)
 "KD" = (
 /obj/structure/stalker/car/btrgrimy,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "KE" = (
@@ -5112,7 +5112,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "0,2"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "KL" = (
@@ -5191,7 +5191,7 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "Li" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "1,4"
 	},
@@ -5269,7 +5269,7 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "LI" = (
@@ -5303,7 +5303,7 @@
 /area/stalker/blowout/outdoor)
 "LQ" = (
 /obj/structure/closet/crate/stalker/blue/stash/low,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker)
 "LR" = (
@@ -5352,8 +5352,8 @@
 	},
 /area/stalker)
 "Me" = (
-/obj/rad/rad_medium,
-/obj/anomaly/holodec,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/water,
 /area/stalker/blowout/outdoor)
 "Mf" = (
@@ -5387,8 +5387,8 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Mt" = (
-/obj/rad/rad_low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Mv" = (
@@ -5446,7 +5446,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker)
 "MQ" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/closed/mineral,
 /area/stalker/blowout/outdoor)
 "MR" = (
@@ -5503,7 +5503,7 @@
 /area/stalker/blowout/buildings)
 "Nv" = (
 /obj/item/trash/metalparts/metaljunk/one,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "NA" = (
@@ -5530,7 +5530,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/outdoor)
 "NL" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "2,3"
 	},
@@ -5545,7 +5545,7 @@
 	icon_state = "spr1";
 	tag = "icon-spr1"
 	},
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
@@ -5583,7 +5583,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/blowout/buildings)
 "NY" = (
-/obj/effect/landmark/blowout_spawner/zombiesimp,
+/obj/effect/abstract/blowout_spawner/zombiesimp,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Ob" = (
@@ -5624,11 +5624,11 @@
 /obj/item/trash/meshwirepatch,
 /obj/item/trash/metalparts/brokenladder,
 /obj/structure/stalker/cacheable/body,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Op" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Oq" = (
@@ -5639,7 +5639,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "Or" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/closet/crate/stalker/blue/stash/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -5765,7 +5765,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Pz" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/turf_decal/stripes/full{
 	density = 1;
 	icon = 'icons/stalker/warning_stripes.dmi';
@@ -5794,7 +5794,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "PR" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "PT" = (
@@ -5806,7 +5806,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "PW" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "PY" = (
@@ -5923,7 +5923,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Rp" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "3,4"
 	},
@@ -5934,7 +5934,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Rr" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
 "Rs" = (
@@ -5984,7 +5984,7 @@
 "RI" = (
 /obj/item/trash/binding_material/brokechain,
 /obj/item/trash/metalparts/metaljunk,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "RK" = (
@@ -6085,7 +6085,7 @@
 	pixel_x = 3;
 	pixel_y = 6
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ST" = (
@@ -6123,7 +6123,7 @@
 	icon_state = "8";
 	tag = "icon-8"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Th" = (
@@ -6207,7 +6207,7 @@
 /obj/structure/stalker/car/btrgrimy{
 	icon_state = "2"
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "TY" = (
@@ -6270,7 +6270,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Un" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Uo" = (
@@ -6357,7 +6357,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Vj" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/mi24{
 	icon_state = "4,3"
 	},
@@ -6367,7 +6367,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "3,1"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Vs" = (
@@ -6383,7 +6383,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "6"
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Vy" = (
@@ -6395,9 +6395,9 @@
 	icon_state = "deadbody3";
 	cache_size = 3
 	},
-/obj/rad/rad_low,
-/obj/rad/rad_medium,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "VB" = (
@@ -6408,7 +6408,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker)
 "VF" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/water,
 /area/stalker/blowout/outdoor)
 "VK" = (
@@ -6462,7 +6462,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Wd" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Wg" = (
@@ -6474,7 +6474,7 @@
 	icon_state = "4";
 	tag = "icon-4"
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Wl" = (
@@ -6498,7 +6498,7 @@
 /obj/structure/stalker/car/tractor/red{
 	icon_state = "2,0"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Wp" = (
@@ -6540,7 +6540,7 @@
 /area/stalker/blowout/outdoor)
 "WS" = (
 /obj/item/trash/meshwirepatch,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/structure/closet/crate/stalker/blue/stash/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -6593,7 +6593,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Xt" = (
-/obj/effect/landmark/blowout_spawner/zombiesimp,
+/obj/effect/abstract/blowout_spawner/zombiesimp,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Xu" = (
@@ -6603,7 +6603,7 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/closed/mineral,
 /area/stalker)
 "Xv" = (
@@ -6621,7 +6621,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Xy" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Xz" = (
@@ -6824,11 +6824,11 @@
 /area/stalker/blowout/outdoor)
 "YU" = (
 /obj/structure/closet/crate/stalker/blue/stash/high,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker)
 "YV" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
@@ -6896,7 +6896,7 @@
 	icon_state = "3";
 	tag = "icon-3"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Zs" = (
@@ -6957,7 +6957,7 @@
 /obj/structure/stalker/car/btrgrimy{
 	icon_state = "4"
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ZJ" = (
@@ -6990,7 +6990,7 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "ZY" = (

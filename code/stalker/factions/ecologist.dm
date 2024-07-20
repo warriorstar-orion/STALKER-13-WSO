@@ -35,14 +35,14 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/black
 	id = /obj/item/stalker_pda
-	belt = /obj/item/storage/belt/stalker/artifact_belt/small
+	belt = /obj/item/storage/belt/artifact/small
 	back = /obj/item/storage/backpack/stalker/tourist
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
 	r_pocket = /obj/item/radio/off
 	suit_store = null
-	backpack_contents = list(/obj/item/detector/blink = 1,
+	backpack_contents = list(/obj/item/t_scanner/artifact_detector/blink = 1,
 							/obj/item/geiger_counter = 1,
 							/obj/item/storage/firstaid/ecologists = 1,
 							/obj/item/knife/hunting = 1,
@@ -64,12 +64,12 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/black
 	id = /obj/item/stalker_pda
-	belt = /obj/item/storage/belt/stalker/artifact_belt/small
+	belt = /obj/item/storage/belt/artifact/small
 	back = /obj/item/storage/backpack/stalker/tourist
 	l_pocket = /obj/item/storage/wallet/stalker
 	r_pocket = /obj/item/radio/off
 	suit_store = null
-	backpack_contents = list(/obj/item/detector/blink = 1,
+	backpack_contents = list(/obj/item/t_scanner/artifact_detector/blink = 1,
 							/obj/item/geiger_counter = 1,
 							/obj/item/storage/firstaid/ecologists = 1,
 							/obj/item/knife/hunting = 1,
@@ -121,7 +121,7 @@
 	mask = /obj/item/clothing/mask/gas/stalker/mercenary
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
-	belt = /obj/item/storage/belt/stalker/artifact_belt/small
+	belt = /obj/item/storage/belt/artifact/small
 	back = /obj/item/storage/backpack/stalker/tourist
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
@@ -157,7 +157,7 @@
 	mask = /obj/item/clothing/mask/gas/stalker/mercenary
 	gloves = /obj/item/clothing/gloves/fingerless
 	id = /obj/item/stalker_pda
-	belt = /obj/item/storage/belt/stalker/artifact_belt/small
+	belt = /obj/item/storage/belt/artifact/small
 	back = /obj/item/storage/backpack/stalker/tourist
 	l_pocket = /obj/item/storage/wallet
 	r_pocket = /obj/item/radio/off
@@ -194,14 +194,14 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/black
 	id = /obj/item/stalker_pda
-	belt = /obj/item/storage/belt/stalker/artifact_belt
+	belt = /obj/item/storage/belt/artifact
 	back = /obj/item/storage/backpack/stalker/tourist
 	l_pocket = pick(/obj/item/storage/wallet,
 				/obj/item/storage/wallet/brown,
 				/obj/item/storage/wallet/alt)
 	r_pocket = /obj/item/radio/off
 	suit_store = null
-	backpack_contents = list(/obj/item/detector/blink = 1,
+	backpack_contents = list(/obj/item/t_scanner/artifact_detector/blink = 1,
 							/obj/item/geiger_counter = 1,
 							/obj/item/storage/firstaid/ecologists = 1,
 							/obj/item/knife/hunting = 1,
@@ -228,12 +228,12 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/color/black
 	id = /obj/item/stalker_pda
-	belt = /obj/item/storage/belt/stalker/artifact_belt
+	belt = /obj/item/storage/belt/artifact
 	back = /obj/item/storage/backpack/stalker/tourist
 	l_pocket = /obj/item/storage/wallet/stalker
 	r_pocket = /obj/item/radio/off
 	suit_store = null
-	backpack_contents = list(/obj/item/detector/blink = 1,
+	backpack_contents = list(/obj/item/t_scanner/artifact_detector/blink = 1,
 							/obj/item/geiger_counter = 1,
 							/obj/item/storage/firstaid/ecologists = 1,
 							/obj/item/knife/hunting = 1,

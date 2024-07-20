@@ -32,11 +32,11 @@
 /turf/simulated/floor/plasteel,
 /area/stalker/sidor)
 "aj" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker)
 "ak" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/simulated/floor/plasteel/stairs{
 	tag = "icon-stairs (EAST)";
 	icon_state = "stairs";
@@ -44,7 +44,7 @@
 	},
 /area/stalker)
 "al" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/simulated/floor/plasteel/floorgrime,
 /area/stalker)
 "am" = (
@@ -72,7 +72,7 @@
 /turf/simulated/floor/plasteel,
 /area/stalker/sidor)
 "aq" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker)
 "ar" = (
@@ -373,7 +373,7 @@
 /obj/structure/stalker/cacheable/vanna{
 	pixel_y = 25
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker)
 "bi" = (
@@ -1449,7 +1449,7 @@
 /turf/stalker/floor/gryaz,
 /area/stalker/cordon/tunnel)
 "di" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/stalker/floor/gryaz,
 /area/stalker/cordon/tunnel)
 "dj" = (
@@ -1466,7 +1466,7 @@
 /turf/stalker/floor/gryaz,
 /area/stalker/cordon/tunnel)
 "dm" = (
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/stalker/floor/gryaz,
 /area/stalker/cordon/tunnel)
 "dn" = (
@@ -1798,7 +1798,7 @@
 /obj/structure/stalker/cacheable/shitok{
 	pixel_y = 27
 	},
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/stalker/floor/gryaz,
 /area/stalker/cordon/tunnel)
 "dZ" = (
@@ -2347,7 +2347,7 @@
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "fq" = (
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "fr" = (
@@ -2386,7 +2386,7 @@
 /turf/stalker/floor/agroprom/gryaz,
 /area/stalker/agroprom/caves)
 "fy" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "fz" = (
@@ -2433,7 +2433,7 @@
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "fF" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/stalker/floor/agroprom/gryaz,
 /area/stalker/agroprom/caves)
 "fG" = (
@@ -2783,7 +2783,7 @@
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "gy" = (
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/stalker/floor/agroprom/gryaz,
 /area/stalker/agroprom/caves)
 "gz" = (
@@ -2914,7 +2914,7 @@
 	tag = "icon-border2"
 	},
 /obj/machinery/light/small,
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/stalker/floor/agroprom/gryaz,
 /area/stalker/agroprom/caves)
 "gL" = (
@@ -3225,7 +3225,7 @@
 /obj/structure/stalker/cacheable/shitok{
 	pixel_y = 32
 	},
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/stalker/floor/plasteel/plitka,
 /area/stalker/buildings)
 "hH" = (
@@ -3255,11 +3255,11 @@
 /turf/simulated/floor/plasteel,
 /area/stalker)
 "hN" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/buildings)
 "hO" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "hP" = (
@@ -3302,7 +3302,7 @@
 	icon_state = "porog2";
 	dir = 4
 	},
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/plasteel/plitka,
 /area/stalker/buildings)
 "hV" = (
@@ -3374,7 +3374,7 @@
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "id" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "ie" = (
@@ -3561,7 +3561,7 @@
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "iB" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/agroprom/gryaz,
 /area/stalker/agroprom/caves)
 "iC" = (
@@ -3626,7 +3626,7 @@
 	},
 /area/stalker/agroprom/caves)
 "iM" = (
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/stalker/floor/gryaz,
 /area/stalker/agroprom/caves)
 "iN" = (
@@ -3665,7 +3665,7 @@
 /obj/structure/table/reinforced,
 /obj/item/storage/box/MRE,
 /obj/item/storage/box/MRE,
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "iU" = (
@@ -3737,7 +3737,7 @@
 /area/stalker/agroprom/caves)
 "jh" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/gryaz,
 /area/stalker/agroprom/caves)
 "ji" = (
@@ -3754,7 +3754,7 @@
 /area/stalker/agroprom/caves)
 "jl" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "jm" = (
@@ -3773,7 +3773,7 @@
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "jp" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/gryaz,
 /area/stalker/agroprom/caves)
 "jq" = (
@@ -3981,7 +3981,7 @@
 "jX" = (
 /obj/structure/table/reinforced,
 /obj/item/pen,
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "jY" = (
@@ -3999,7 +3999,7 @@
 /area/stalker/buildings)
 "ka" = (
 /obj/structure/table/reinforced,
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/gryaz,
 /area/stalker/agroprom/caves)
 "kb" = (
@@ -4252,7 +4252,7 @@
 /area/stalker/agroprom/caves)
 "kz" = (
 /obj/structure/table/reinforced,
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "kA" = (
@@ -4273,7 +4273,7 @@
 	tag = "icon-border2";
 	icon_state = "border2"
 	},
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "kD" = (
@@ -4281,8 +4281,8 @@
 	tag = "icon-border2";
 	icon_state = "border2"
 	},
-/obj/anomaly/electro,
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/electro,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "kE" = (
@@ -4290,7 +4290,7 @@
 	tag = "icon-border2";
 	icon_state = "border2"
 	},
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/plasteel/plitochka,
 /area/stalker/agroprom/caves)
 "kF" = (
@@ -4303,7 +4303,7 @@
 /area/stalker/agroprom/caves)
 "kH" = (
 /obj/structure/bed/chair/office/light,
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/stalker/floor/gryaz,
 /area/stalker/agroprom/caves)
 "kI" = (
@@ -5114,7 +5114,7 @@
 /turf/stalker/floor/agroprom/beton,
 /area/stalker/agroprom/caves)
 "mA" = (
-/obj/anomaly/jarka{
+/obj/effect/zona_anomaly/burner{
 	pixel_x = -1
 	},
 /turf/stalker/floor/agroprom/gryaz,
@@ -5164,7 +5164,7 @@
 /turf/stalker/floor/wood/oldgor,
 /area/stalker/cordon/buildings)
 "mF" = (
-/obj/anomaly/jarka{
+/obj/effect/zona_anomaly/burner{
 	pixel_x = -1
 	},
 /turf/stalker/floor/gryaz,
@@ -5294,11 +5294,11 @@
 /turf/stalker/floor/tropa,
 /area/stalker/cordon/tunnel)
 "nd" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/stalker/floor/gryaz/gryaz2,
 /area/stalker/cordon/tunnel)
 "ne" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/stalker/floor/gryaz,
 /area/stalker/cordon/tunnel)
 "nf" = (

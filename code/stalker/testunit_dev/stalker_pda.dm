@@ -4,7 +4,7 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 /obj/item/stalker_pda
 	name = "PDA"
 	desc = "A portable device, used to communicate with other stalkers."
-	icon = 'icons/stalker/device_new.dmi'
+	icon = 'icons/stalker/obj/device.dmi'
 	icon_state = "kpk_off"
 	inhand_icon_state = "kpk"
 	w_class = 1
@@ -672,8 +672,8 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 
 						GLOB.KPKs -= KPK
 
-		if("load_cache")
-			//get_asset_datum(/datum/asset/simple/basics).send(H)
+		// if("load_cache")
+		// 	//get_asset_datum(/datum/asset/simple/basics).send(H)
 
 		if("exit")
 			registered_name = null

@@ -7,7 +7,7 @@
 /obj/item/repair_kit/clothing
 	name = "armor repair kit"
 	desc = "A repair kit for armored suits and helmets. Designed for non-critical repairs (condition from 25% to 100%)."
-	icon = 'icons/stalker/device_new.dmi'
+	icon = 'icons/stalker/obj/device.dmi'
 	icon_state = "repair_kit_clothing_25"
 	uses = 1
 	min_durability = 25
@@ -82,7 +82,7 @@
 /obj/item/repair_kit/gun
 	name = "gun cleaning kit"
 	desc = "A cleaning kit for firearms. Designed to restore functionality to damaged firearms (condition from 25% to 100%)."
-	icon = 'icons/stalker/device_new.dmi'
+	icon = 'icons/stalker/obj/device.dmi'
 	icon_state = "repair_kit_gun_25"
 	uses = 1
 	min_durability = 25

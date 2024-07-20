@@ -115,7 +115,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/clearsky)
 "aD" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /mob/living/simple_animal/hostile/mutant/snork{
 	health = 250;
 	name = "large snork";
@@ -457,7 +457,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/burntfarm)
 "bZ" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/stalker/floor/wood/brown,
 /area/stalker/buildings/backwater/substation)
 "ca" = (
@@ -517,7 +517,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/clearsky)
 "cm" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "cn" = (
@@ -632,9 +632,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/footprints,
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /obj/item/stack/spacecash/c1000,
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
 /area/stalker)
@@ -746,8 +746,8 @@
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "cW" = (
-/obj/rad/rad_low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/low,
 /mob/living/simple_animal/hostile/mutant/bloodsucker{
 	desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to tell. Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers. The guttural breathing of the mutant freezes your blood. This one seems larger than usual!";
 	health = 800;
@@ -1004,7 +1004,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/ranger)
 "dR" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /mob/living/simple_animal/hostile/mutant/bloodsucker{
 	desc = "A rather disgusting-looking type of mutant with the same physical properties as a human besides the absence of genital organs,thus making the difference between male or female more difficult to tell. Tentacles covered with blood seem to have replaced the lower part of the jaw, and sharp claws have replaced the end of the fingers. The guttural breathing of the mutant freezes your blood. This one seems larger than usual!";
 	health = 800;
@@ -1018,8 +1018,8 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/adminspace)
 "dU" = (
-/obj/anomaly/karusel,
-/obj/rad/rad_low,
+/obj/effect/zona_anomaly/vortex,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/buildings/backwater/claw)
 "dV" = (
@@ -1032,8 +1032,8 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/adminspace)
 "dX" = (
-/obj/anomaly/tramplin,
-/obj/rad/rad_low,
+/obj/effect/zona_anomaly/springboard,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/buildings/backwater/claw)
 "dY" = (
@@ -1060,7 +1060,7 @@
 /area/stalker/buildings/backwater/ranger)
 "ed" = (
 /obj/structure/closet/crate/stalker/blue/stash/low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/buildings/backwater/claw)
 "ef" = (
@@ -1737,8 +1737,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "gf" = (
-/obj/anomaly/jarka,
-/obj/rad/rad_high,
+/obj/effect/zona_anomaly/burner,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "gg" = (
@@ -3296,7 +3296,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "lA" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "lB" = (
@@ -3355,7 +3355,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "lJ" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /obj/machinery/door/poddoor/shutters/preopen,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
@@ -3417,11 +3417,11 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "lV" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "lW" = (
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "lX" = (
@@ -3459,7 +3459,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "md" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "mf" = (
@@ -3775,7 +3775,7 @@
 /turf/closed/mineral/ash_rock,
 /area/awaymission/errorroom)
 "ng" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/buildings/backwater/claw)
 "nh" = (
@@ -3959,7 +3959,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/cave)
 "nL" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/cave)
 "nM" = (
@@ -4061,14 +4061,14 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "ov" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "oD" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "oF" = (
@@ -4083,7 +4083,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "oQ" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/closed/mineral,
 /area/stalker/buildings/backwater/claw)
 "oW" = (
@@ -4101,12 +4101,12 @@
 	pixel_x = 3;
 	pixel_y = -21
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/plating/foam,
 /area/stalker/buildings/backwater/krug)
 "pn" = (
 /obj/effect/decal/cleanable/blood/tracks,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "ps" = (
@@ -4116,7 +4116,7 @@
 "pE" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/footprints,
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "pI" = (
@@ -4128,17 +4128,17 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/holofloor/wood,
 /area/stalker)
 "pP" = (
 /obj/item/bodypart/chest/monkey,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /mob/living/simple_animal/hostile/mutant/pseudog,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "pW" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/item/cultivator,
 /obj/item/katana,
 /turf/open/floor/iron/dark,
@@ -4150,12 +4150,12 @@
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "qm" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/structure/curtain,
 /turf/open/floor/holofloor/wood,
 /area/stalker)
 "qv" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "qA" = (
@@ -4181,24 +4181,24 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ranger)
 "qR" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /mob/living/simple_animal/hostile/mutant/pseudog,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "qT" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /mob/living/basic/cockroach,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "qV" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "qY" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /mob/living/basic/cockroach,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
@@ -4232,8 +4232,8 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/burntfarm)
 "rt" = (
-/obj/rad/rad_medium,
-/obj/anomaly/jarka,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "ru" = (
@@ -4257,9 +4257,9 @@
 	id = "bloodsuckerhome";
 	pixel_y = 32
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/table/abductor,
-/obj/item/detector,
+/obj/item/t_scanner/artifact_detector,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "rJ" = (
@@ -4267,7 +4267,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/burntfarm)
 "rS" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "sa" = (
@@ -4287,7 +4287,7 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "si" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
 	},
@@ -4311,7 +4311,7 @@
 /area/stalker/confined)
 "sM" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/mineral/titanium,
 /area/stalker)
 "sP" = (
@@ -4320,12 +4320,12 @@
 /area/stalker/buildings/backwater/burntfarm)
 "tc" = (
 /obj/machinery/light/small/broken,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "tj" = (
 /obj/structure/safe,
-/obj/item/detector/veles,
+/obj/item/t_scanner/artifact_detector/veles,
 /obj/item/artifact/crystal,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/ironforest)
@@ -4354,8 +4354,8 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/burntfarm)
 "tZ" = (
-/obj/anomaly/karusel,
-/obj/rad/rad_low,
+/obj/effect/zona_anomaly/vortex,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/plating/foam,
 /area/stalker/buildings/backwater/krug)
 "uc" = (
@@ -4370,14 +4370,14 @@
 /area/stalker/buildings/backwater/krug)
 "uf" = (
 /obj/effect/decal/cleanable/blood/drip,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "up" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "uv" = (
@@ -4397,8 +4397,8 @@
 /turf/open/floor/holofloor/wood,
 /area/stalker)
 "uR" = (
-/obj/rad/rad_low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/iron/dark,
 /area/stalker)
 "uZ" = (
@@ -4438,7 +4438,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "vN" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/item/clothing/mask/gas/stalker{
 	desc = "Some madman put a monkey's scalp on the gas mask.";
 	icon_state = "monkeymask";
@@ -4455,14 +4455,14 @@
 /area/stalker/buildings/backwater/burntfarm)
 "wm" = (
 /obj/effect/decal/cleanable/blood,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "wn" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "wq" = (
@@ -4502,7 +4502,7 @@
 /area/stalker)
 "wW" = (
 /obj/structure/chair/pew,
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /obj/item/stack/spacecash/c100,
 /mob/living/basic/cockroach,
 /turf/open/floor/iron/chapel,
@@ -4545,7 +4545,7 @@
 /turf/closed/mineral,
 /area/stalker/confined)
 "xo" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/iron/dark,
 /area/stalker)
 "xu" = (
@@ -4568,7 +4568,7 @@
 /turf/open/floor/iron/dark,
 /area/stalker)
 "xF" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/mineral/titanium,
 /area/stalker)
 "xH" = (
@@ -4608,8 +4608,8 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/burntfarm)
 "yA" = (
-/obj/rad/rad_medium,
-/obj/anomaly/electro,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "yI" = (
@@ -4623,7 +4623,7 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/water,
 /area/stalker/buildings/backwater/krug)
 "yJ" = (
@@ -4637,7 +4637,7 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "yM" = (
@@ -4650,7 +4650,7 @@
 /obj/structure/chair/comfy/teal{
 	dir = 1
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "za" = (
@@ -4665,7 +4665,7 @@
 /obj/machinery/light/small/broken{
 	dir = 1
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/table/abductor,
 /obj/item/clothing/suit/hooded/sealed/ecolog,
 /turf/open/stalker/floor/gryaz,
@@ -4681,7 +4681,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "zG" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/structure/curtain,
 /turf/open/floor/iron/dark,
 /area/stalker)
@@ -4713,12 +4713,12 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/burntfarm)
 "zZ" = (
-/obj/anomaly/jarka,
-/obj/rad/rad_high,
+/obj/effect/zona_anomaly/burner,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "Ae" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Aj" = (
@@ -4745,7 +4745,7 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "AH" = (
@@ -4763,18 +4763,18 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "AV" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "Ba" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "Bc" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "Bg" = (
@@ -4786,7 +4786,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "Bu" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/mineral/titanium,
 /area/stalker)
@@ -4804,7 +4804,7 @@
 /turf/open/floor/iron/dark,
 /area/stalker)
 "BN" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /obj/item/reagent_containers/cup/glass/flask/cylinder,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
@@ -4855,7 +4855,7 @@
 /area/stalker)
 "CR" = (
 /obj/item/bodypart/head/monkey,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Dd" = (
@@ -4872,7 +4872,7 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced/tinted/frosted,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/item/clothing/suit/toggle/labcoat,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
@@ -4899,7 +4899,7 @@
 /area/stalker)
 "DT" = (
 /obj/effect/decal/cleanable/blood/drip,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/iron/dark,
 /area/stalker)
 "Eo" = (
@@ -4919,12 +4919,12 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "Fb" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "Fe" = (
 /obj/item/bodypart/arm/left/monkey,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Fl" = (
@@ -4933,7 +4933,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "Fw" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/cacheable/brokenmachine7,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
@@ -4946,7 +4946,7 @@
 /obj/structure/chair/comfy/teal{
 	dir = 1
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "FX" = (
@@ -4956,7 +4956,7 @@
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "FY" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "Gj" = (
@@ -5023,7 +5023,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/burntfarm)
 "Hs" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/holofloor/wood,
 /area/stalker)
 "HP" = (
@@ -5035,7 +5035,7 @@
 /turf/closed/wall/rust,
 /area/stalker)
 "Ib" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/stalker/floor/dirt,
 /area/stalker)
@@ -5043,12 +5043,12 @@
 /obj/structure/window/reinforced/tinted{
 	dir = 1
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "Io" = (
-/obj/rad/rad_medium,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "Ip" = (
@@ -5057,14 +5057,14 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "Iv" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "IB" = (
 /obj/machinery/shower{
 	dir = 8
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "IN" = (
@@ -5114,7 +5114,7 @@
 "Ju" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /obj/effect/decal/cleanable/blood/footprints,
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /obj/item/stack/spacecash/c500,
 /obj/item/flashlight/flare/candle{
 	light_on = 1
@@ -5137,7 +5137,7 @@
 /area/stalker)
 "JT" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/iron/dark,
 /area/stalker)
 "JU" = (
@@ -5146,7 +5146,7 @@
 /area/stalker/buildings/backwater/burntfarm)
 "JY" = (
 /obj/effect/decal/cleanable/blood/drip,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/holofloor/wood,
 /area/stalker)
 "JZ" = (
@@ -5194,7 +5194,7 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "bloodsuckerhome"
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "KM" = (
@@ -5224,8 +5224,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "LF" = (
-/obj/anomaly/electro,
-/obj/rad/rad_medium,
+/obj/effect/zona_anomaly/electro,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "LM" = (
@@ -5256,7 +5256,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
 "My" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "MR" = (
@@ -5335,8 +5335,8 @@
 /turf/open/floor/iron/dark,
 /area/stalker)
 "NL" = (
-/obj/rad/rad_low,
-/obj/anomaly/holodec,
+/obj/effect/abstract/radiation/low,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "NR" = (
@@ -5349,7 +5349,7 @@
 /area/stalker)
 "Oi" = (
 /obj/effect/decal/cleanable/blood/drip,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/mineral/titanium,
 /area/stalker)
 "Oj" = (
@@ -5379,7 +5379,7 @@
 	},
 /area/stalker/buildings/backwater/ironforest)
 "OD" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "ON" = (
@@ -5393,7 +5393,7 @@
 "Pc" = (
 /obj/structure/table/abductor,
 /obj/structure/window/reinforced/tinted/frosted,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/item/clothing/suit/toggle/labcoat,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
@@ -5424,8 +5424,8 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/rad/rad_low,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/water,
 /area/stalker/buildings/backwater/krug)
 "Px" = (
@@ -5459,7 +5459,7 @@
 /turf/open/floor/plasteel/stairs/stalker,
 /area/stalker/buildings/backwater/krug)
 "Rz" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker)
 "RK" = (
@@ -5499,7 +5499,7 @@
 /turf/open/floor/plasteel/stairs/stalker,
 /area/stalker/buildings/backwater/krug)
 "SD" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/water,
 /area/stalker/buildings/backwater/krug)
 "SK" = (
@@ -5511,7 +5511,7 @@
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ironforest)
 "SL" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/structure/closet/crate/stalker/blue/stash/high,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/buildings/backwater/claw)
@@ -5549,8 +5549,8 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/rad/rad_low,
-/obj/anomaly/electro,
+/obj/effect/abstract/radiation/low,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "Tl" = (
@@ -5628,8 +5628,8 @@
 /turf/closed/wall,
 /area/stalker)
 "Uv" = (
-/obj/rad/rad_low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "Uw" = (
@@ -5648,8 +5648,8 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/rad/rad_medium,
-/obj/anomaly/holodec,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Ux" = (
@@ -5659,7 +5659,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/burntfarm)
 "Uy" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/plating/foam,
 /area/stalker/buildings/backwater/krug)
 "UB" = (
@@ -5675,7 +5675,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/burntfarm)
 "UJ" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /obj/item/storage/firstaid/ifak,
 /obj/item/stack/spacecash/c5000,
 /mob/living/basic/cockroach,
@@ -5704,7 +5704,7 @@
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/item/stack/spacecash/c5000,
 /obj/item/stack/spacecash/c100,
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "Vv" = (
@@ -5717,8 +5717,8 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "Vw" = (
-/obj/rad/rad_low,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/holofloor/wood,
 /area/stalker)
 "VF" = (
@@ -5732,7 +5732,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/burntfarm)
 "VQ" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/step_trigger/teleporter{
 	dir = 4;
 	teleport_x = 129;
@@ -5773,12 +5773,12 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/obj/rad/rad_medium,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "Wk" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/closed/mineral,
 /area/stalker/buildings/backwater/claw)
 "Wn" = (
@@ -5801,13 +5801,13 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "WF" = (
-/obj/rad/rad_high,
-/obj/anomaly/electro,
+/obj/effect/abstract/radiation/high,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "WO" = (
-/obj/anomaly/electro,
-/obj/rad/rad_medium,
+/obj/effect/zona_anomaly/electro,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "WT" = (
@@ -5821,11 +5821,11 @@
 /obj/structure/window/reinforced/tinted{
 	dir = 8
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "Xj" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
@@ -5833,7 +5833,7 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "Xv" = (
@@ -5862,8 +5862,8 @@
 /turf/open/floor/iron/dark,
 /area/stalker)
 "Yj" = (
-/obj/rad/rad_high,
-/obj/anomaly/jarka,
+/obj/effect/abstract/radiation/high,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Yo" = (
@@ -5909,7 +5909,7 @@
 /area/stalker/buildings/backwater/burntfarm)
 "YN" = (
 /obj/item/bodypart/leg/right/monkey,
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "YU" = (
@@ -5921,7 +5921,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "Zk" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "Zn" = (
@@ -5953,7 +5953,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "ZC" = (
@@ -5991,12 +5991,12 @@
 /area/stalker/buildings/backwater/sawmill)
 "ZU" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/floor/holofloor/wood,
 /area/stalker)
 "ZW" = (
 /obj/effect/decal/cleanable/blood/tracks,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 

@@ -147,12 +147,12 @@ Always compile, always use that verb, and always make sure that it works for wha
 #define DL_TRAITS "traits"
 #define DECLARE_LEVEL(NAME, TRAITS) list(DL_NAME = NAME, DL_TRAITS = TRAITS)
 #define DECLARE_STALKER_REGION(NAME) DECLARE_LEVEL(NAME,\
-	list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE, ZTRAIT_NOPARALLAX = TRUE))
+	list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE, ZTRAIT_NOPARALLAX = TRUE, ZTRAIT_BLOWOUTS = TRUE))
 
 // must correspond to _basemap.dm for things to work correctly
 #define DEFAULT_MAP_TRAITS list(\
 	DECLARE_STALKER_REGION("backwater"),\
-	DECLARE_STALKER_REGION("under"),\
+	DECLARE_LEVEL("under", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE, ZTRAIT_NOPARALLAX = TRUE)),\
 	DECLARE_STALKER_REGION("kordon"),\
 	DECLARE_STALKER_REGION("bar"),\
 	DECLARE_STALKER_REGION("agroprom"),\

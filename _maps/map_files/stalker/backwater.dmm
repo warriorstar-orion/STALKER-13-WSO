@@ -668,7 +668,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
 "cH" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater)
 "cI" = (
@@ -688,7 +688,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "cM" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater)
 "cN" = (
@@ -877,8 +877,8 @@
 /obj/structure/stalker/cacheable/porog{
 	dir = 1
 	},
-/obj/rad/rad_medium,
-/obj/anomaly/tramplin,
+/obj/effect/abstract/radiation/medium,
+/obj/effect/zona_anomaly/springboard,
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/ironforest)
@@ -891,7 +891,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "dE" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "dF" = (
@@ -982,7 +982,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/backwater/sawmill)
 "eh" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings/backwater/burntfarm)
 "ei" = (
@@ -993,7 +993,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor/backwater)
 "ek" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor/backwater)
 "en" = (
@@ -1171,7 +1171,7 @@
 	},
 /area/stalker/blowout/outdoor/backwater)
 "eZ" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fa" = (
@@ -1242,7 +1242,7 @@
 /area/stalker/blowout/outdoor/backwater)
 "fq" = (
 /obj/structure/stalker/car/moskvich/south,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fr" = (
@@ -1250,11 +1250,11 @@
 	icon_state = "2";
 	tag = "icon-2"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fs" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "ft" = (
@@ -1271,7 +1271,7 @@
 	icon_state = "3";
 	tag = "icon-3"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fw" = (
@@ -1279,11 +1279,11 @@
 	icon_state = "4";
 	tag = "icon-4"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fx" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fy" = (
@@ -1311,7 +1311,7 @@
 	icon_state = "5";
 	tag = "icon-5"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fD" = (
@@ -1319,7 +1319,7 @@
 	icon_state = "6";
 	tag = "icon-6"
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fE" = (
@@ -1357,7 +1357,7 @@
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fL" = (
 /obj/structure/grille/stalker,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fM" = (
@@ -1373,7 +1373,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fO" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings/backwater/burntfarm)
 "fP" = (
@@ -1405,7 +1405,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater)
 "fV" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater)
 "fW" = (
@@ -1413,7 +1413,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater)
 "fX" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/water,
 /area/stalker/blowout/outdoor/backwater)
 "fY" = (
@@ -1427,20 +1427,20 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "ga" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/water,
 /area/stalker/blowout/outdoor/backwater)
 "gb" = (
-/obj/anomaly/karusel,
-/obj/rad/rad_medium,
+/obj/effect/zona_anomaly/vortex,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/water,
 /area/stalker/blowout/outdoor/backwater)
 "gc" = (
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "ge" = (
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/water,
 /area/stalker/blowout/outdoor/backwater)
 "gf" = (
@@ -1462,7 +1462,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "gk" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "gl" = (
@@ -1473,7 +1473,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater)
 "gn" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater)
 "go" = (
@@ -1547,7 +1547,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor/backwater)
 "gE" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "gF" = (
@@ -1568,13 +1568,13 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater)
 "gJ" = (
-/obj/rad/rad_low,
-/obj/anomaly/karusel,
+/obj/effect/abstract/radiation/low,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater)
 "gK" = (
 /obj/structure/flora/stalker/bush,
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater)
 "gL" = (
@@ -1582,7 +1582,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/backwater)
 "gM" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater)
 "gN" = (
@@ -1590,7 +1590,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater)
 "gO" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater)
 "gP" = (
@@ -1622,7 +1622,7 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "gU" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater)
 "gV" = (
@@ -1677,7 +1677,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor/backwater)
 "hf" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater)
 "hh" = (
@@ -1713,7 +1713,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor/backwater)
 "hn" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor/backwater)
 "ho" = (
@@ -1726,11 +1726,11 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "hq" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater)
 "hr" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/structure/stalker/propane,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater)
@@ -1755,7 +1755,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater)
 "hx" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/structure/stalker/doski,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
@@ -1771,11 +1771,11 @@
 /obj/structure/stalker/trubas{
 	dir = 8
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater)
 "hB" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "hC" = (
@@ -1783,7 +1783,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater)
 "hD" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/doski,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
@@ -1796,14 +1796,14 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "hG" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/structure/stalker/trubas{
 	dir = 8
 	},
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "hH" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
 "hI" = (
@@ -4683,7 +4683,7 @@
 /area/stalker/blowout/buildings/backwater/claw)
 "sD" = (
 /obj/structure/stalker/tree/leafless,
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "sE" = (
@@ -4994,7 +4994,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "tK" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "tL" = (
@@ -5004,7 +5004,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "tM" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "tN" = (
@@ -5419,7 +5419,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater/waste)
 "vq" = (
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/water,
 /area/stalker/blowout/outdoor/backwater/waste)
 "vr" = (
@@ -5725,7 +5725,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/plateau)
 "wu" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/plateau)
 "wv" = (
@@ -6120,7 +6120,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "xL" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "xM" = (
@@ -6174,7 +6174,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/substation)
 "xX" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "xY" = (
@@ -6226,7 +6226,7 @@
 /obj/structure/stalker/cacheable/porog{
 	dir = 1
 	},
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/structure/barricade/stalker/wood,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/ironforest)
@@ -6235,7 +6235,7 @@
 	dir = 1
 	},
 /obj/structure/barricade/stalker/wood,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "yl" = (
@@ -6246,41 +6246,41 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/substation)
 "yn" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/cacheable/yashik,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "yo" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/cacheable/shitok/shitok2{
 	pixel_y = 24
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "yp" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/closet/stalker/shkaf,
 /obj/item/geiger_counter,
 /obj/item/flashlight/seclite,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "yq" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/closet/stalker/shkaf,
 /obj/item/geiger_counter,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "yr" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/barricade/stalker/box,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "ys" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "yt" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "yu" = (
@@ -6361,7 +6361,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater/waste)
 "yH" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/sign/warning/radiation{
 	pixel_y = -32
 	},
@@ -6369,7 +6369,7 @@
 /area/stalker/blowout/buildings/backwater/ironforest)
 "yI" = (
 /obj/structure/stalker/list,
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "yJ" = (
@@ -6441,7 +6441,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater/waste)
 "yV" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/effect/turf_decal/stripes/line{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "poddon";
@@ -6488,7 +6488,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater/plateau)
 "zc" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater/plateau)
 "zd" = (
@@ -6540,27 +6540,27 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/waste)
 "zm" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/closet/stalker/shkaf,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "zn" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/closet/crate/stalker/blue/stash/low,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "zo" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/panel,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "zp" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/panel,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "zq" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/panel,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
@@ -6694,7 +6694,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/buildings/backwater/waste)
 "zR" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/doski,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
@@ -6766,7 +6766,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/waste)
 "Af" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/closet/stalker/shkaf,
 /obj/structure/sign/warning/radiation{
 	pixel_x = 32
@@ -6774,17 +6774,17 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "Ag" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/table/stalker/wood,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "Ah" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/table/stalker/wood,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "Ai" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/doski/doski4,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
@@ -6895,22 +6895,22 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/buildings/backwater/waste)
 "AF" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/barricade/stalker/wood,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "AG" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/doski/doski3,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "AH" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/list,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "AI" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "AJ" = (
@@ -6999,14 +6999,14 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/buildings/backwater/waste)
 "Bc" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/sign/warning/radiation{
 	pixel_x = 32
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "Bd" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/doski/doski4,
 /obj/structure/stalker/doski/doski4,
 /turf/open/stalker/floor/gryaz/gryaz3,
@@ -7065,12 +7065,12 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/buildings/backwater/waste)
 "Bs" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/stalker/doski/doski3,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "Bt" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /obj/structure/closet/crate/stalker/blue/stash/medium,
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
@@ -7464,15 +7464,15 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
 "DL" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/water,
 /area/stalker)
 "DM" = (
-/obj/anomaly/jarka,
-/obj/anomaly/jarka,
-/obj/anomaly/jarka,
-/obj/anomaly/jarka,
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
+/obj/effect/zona_anomaly/burner,
+/obj/effect/zona_anomaly/burner,
+/obj/effect/zona_anomaly/burner,
+/obj/effect/zona_anomaly/burner,
 /turf/open/lava,
 /area/stalker)
 "DO" = (
@@ -7490,7 +7490,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
 "DT" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/step_trigger/teleporter{
 	dir = 1;
 	icon_state = "up";
@@ -7708,7 +7708,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
 "Hb" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "Hf" = (
@@ -7729,7 +7729,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "Hr" = (
 /obj/machinery/campfire,
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
 "HB" = (
@@ -7775,7 +7775,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings/renegade)
 "HQ" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "HX" = (
@@ -7805,7 +7805,7 @@
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker/buildings/backwater/sawmill)
 "Iv" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/stalker/floor/water,
 /area/stalker)
 "Iw" = (
@@ -7861,7 +7861,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
 "Jr" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/closed/mineral,
 /area/stalker)
 "JA" = (
@@ -7896,7 +7896,7 @@
 	},
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "JU" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/step_trigger/teleporter{
 	dir = 1;
 	icon_state = "up";
@@ -8100,7 +8100,7 @@
 /turf/closed/wall/stalker/bricks,
 /area/stalker/buildings/backwater/sawmill)
 "LA" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
 "LB" = (
@@ -8131,7 +8131,7 @@
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
 "LY" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/lava,
 /area/stalker)
 "Ma" = (
@@ -8193,7 +8193,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/ironforest)
 "MD" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/water,
 /area/stalker)
 "MU" = (
@@ -8444,14 +8444,14 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings/backwater/sawmill)
 "Qm" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/ironforest)
 "Qt" = (
-/obj/anomaly/puh,
-/obj/anomaly/puh,
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
+/obj/effect/zona_anomaly/burnt_fuzz,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "Qu" = (
@@ -8594,7 +8594,7 @@
 	},
 /area/stalker)
 "RY" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "RZ" = (
@@ -8840,7 +8840,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
 "VJ" = (
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "VL" = (
@@ -8871,9 +8871,9 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings/renegade)
 "Wl" = (
-/obj/anomaly/holodec,
-/obj/anomaly/karusel,
-/obj/rad/rad_low,
+/obj/effect/zona_anomaly/fruit_punch,
+/obj/effect/zona_anomaly/vortex,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/water,
 /area/stalker)
 "Wt" = (
@@ -8995,7 +8995,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
 "XR" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "XX" = (
@@ -9033,7 +9033,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
 "Yw" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "YE" = (
@@ -9075,7 +9075,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker)
 "Zu" = (
-/obj/effect/landmark/blowout_spawner/zombiesimp,
+/obj/effect/abstract/blowout_spawner/zombiesimp,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater)
 "ZB" = (

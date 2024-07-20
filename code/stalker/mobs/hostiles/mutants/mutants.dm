@@ -574,7 +574,7 @@
 	name = "poltergeist"
 	real_name = "poltergeist"
 	faction = list("stalker_mutants1", "monolith_forces")
-	icon = 'icons/stalker/anomalies.dmi'
+	icon = 'icons/stalker/obj/anomalies.dmi'
 	density = TRUE
 	anchored = TRUE
 	maxHealth = 500

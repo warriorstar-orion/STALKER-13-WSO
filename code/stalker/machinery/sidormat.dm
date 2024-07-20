@@ -277,8 +277,8 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		new /datum/data/stalker_equipment("Guitar",								"Guitar",												/obj/item/instrument/guitar,										3000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Geiger counter",						"Geiger counter",										/obj/item/geiger_counter,											3000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Flashlight",							"Flashlight",											/obj/item/flashlight/seclite,										1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Big Artifact belt",					"Big Artifact belt",									/obj/item/storage/belt/stalker/artifact_belt,						60000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Small Artifact belt",				"Small Artifact belt",									/obj/item/storage/belt/stalker/artifact_belt/small,					25000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Big Artifact belt",					"Big Artifact belt",									/obj/item/storage/belt/artifact,						60000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
+		new /datum/data/stalker_equipment("Small Artifact belt",				"Small Artifact belt",									/obj/item/storage/belt/artifact/small,					25000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Matches",							"Matches",												/obj/item/storage/box/matches,										1000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Simple lighter",						"Simple lighter",										/obj/item/lighter/greyscale,										3000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Zippo lighter",						"Zippo lighter",										/obj/item/lighter,													5000,	ROOKIE,initial_stock = PISTOL_AMOUNT),
@@ -321,9 +321,9 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 
 	"Detectors" = list(
 		/////////////////////////////////	Детекторы	///////////////////////////////////////////
-		new /datum/data/stalker_equipment("Echo", 		"Echo",						/obj/item/detector/blink,				8000,	ROOKIE,	sale_price =7000,initial_stock = SMG_AMOUNT),
-		new /datum/data/stalker_equipment("Bear",		"Bear",						/obj/item/detector/bear,				17000,	EXPERIENCED,	sale_price =10000,initial_stock = RIFLE_AMOUNT),
-		new /datum/data/stalker_equipment("Veles",		"Veles",					/obj/item/detector/veles,				66000,	ROOKIE,	sale_price =50000, faction = "Ecologist",initial_stock = SPECIALTY_AMOUNT),
+		new /datum/data/stalker_equipment("Echo", 		"Echo",						/obj/item/t_scanner/artifact_detector/blink,				8000,	ROOKIE,	sale_price =7000,initial_stock = SMG_AMOUNT),
+		new /datum/data/stalker_equipment("Bear",		"Bear",						/obj/item/t_scanner/artifact_detector/bear,				17000,	EXPERIENCED,	sale_price =10000,initial_stock = RIFLE_AMOUNT),
+		new /datum/data/stalker_equipment("Veles",		"Veles",					/obj/item/t_scanner/artifact_detector/veles,				66000,	ROOKIE,	sale_price =50000, faction = "Ecologist",initial_stock = SPECIALTY_AMOUNT),
 		),
 
 
@@ -368,8 +368,8 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		new /datum/data/stalker_equipment("Jellyfish",			"Jellyfish",						/obj/item/artifact/meduza,					5000,	ROOKIE,	sale_price = 2500),
 //		new /datum/data/stalker_equipment("Stone Flower",		"Stone Flower",						/obj/item/artifact/stoneflower,				10000,	ROOKIE,	sale_price = 3000),
 //		new /datum/data/stalker_equipment("Night Star",			"Night Star",						/obj/item/artifact/nightstar,				30000,	ROOKIE,	sale_price = 13000),
-		new /datum/data/stalker_equipment("Depleted Stone Flower",			"Depleted Stone Flower",					/obj/item/artifact/stoneflower_depleted,			5000,	ROOKIE,	sale_price = 1500),
-		new /datum/data/stalker_equipment("Depleted Night Star",			"Depleted Night Star",						/obj/item/artifact/nightstar_depleted,				10000,	ROOKIE,	sale_price = 8000),
+		new /datum/data/stalker_equipment("Depleted Stone Flower",			"Depleted Stone Flower",					/obj/item/artifact/stoneflower/depleted,			5000,	ROOKIE,	sale_price = 1500),
+		new /datum/data/stalker_equipment("Depleted Night Star",			"Depleted Night Star",						/obj/item/artifact/nightstar/depleted,				10000,	ROOKIE,	sale_price = 8000),
 		new /datum/data/stalker_equipment("Soul",				"Soul",								/obj/item/artifact/soul,					80000,	ROOKIE,	sale_price = 25000),
 		///////////////////////////////////////////////////////////////////////////////////////////
 		new /datum/data/stalker_equipment("Flash",				"Flash",							/obj/item/artifact/flash,					6000,	ROOKIE,	sale_price = 2500),

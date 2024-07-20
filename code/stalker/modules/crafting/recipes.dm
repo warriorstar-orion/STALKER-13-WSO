@@ -3,26 +3,26 @@
 /datum/crafting_recipe/echo
 	name = "echo detector"
 	reqs = list(/obj/item/trash/oldcircuitboard = 4, /obj/item/trash/brokedevice/echobroke = 2, /obj/item/trash/binding_material = 1)
-	result = /obj/item/detector/blink
+	result = /obj/item/t_scanner/artifact_detector/blink
 	category = CAT_MISC
 
 /datum/crafting_recipe/bear
 	name = "bear detector"
 	reqs = list(/obj/item/trash/oldcircuitboard = 4, /obj/item/trash/brokedevice/bearbroken = 2, /obj/item/trash/binding_material = 1)
-	result = /obj/item/detector/bear
+	result = /obj/item/t_scanner/artifact_detector/bear
 	category = CAT_MISC
 
 /datum/crafting_recipe/veles
 	name = "veles detector"
 	reqs = list(/obj/item/trash/oldcircuitboard = 4, /obj/item/trash/brokedevice/velesbroke = 2, /obj/item/trash/binding_material = 1)
-	result = /obj/item/detector/veles
+	result = /obj/item/t_scanner/artifact_detector/veles
 	category = CAT_MISC
 
 /*
 /datum/crafting_recipe/svarog
 	name = "Svarog Detector"
-	reqs[] = list(/obj/item/trash/oldcircuitboard = 4, /obj/item/detector/veles = 2, /obj/item/trash/binding_material/wire)
-	result = /obj/item/detector/svarog
+	reqs[] = list(/obj/item/trash/oldcircuitboard = 4, /obj/item/t_scanner/artifact_detector/veles = 2, /obj/item/trash/binding_material/wire)
+	result = /obj/item/t_scanner/artifact_detector/svarog
 	category = CAT_MISC
 */
 

@@ -18,42 +18,42 @@
 /turf/open/stalker/floor/digable,
 /area/stalker/buildings/backwater/skadovsk)
 "g" = (
-/obj/anomaly/electro,
+/obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "h" = (
-/obj/anomaly/holodec,
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "i" = (
-/obj/anomaly/jarka,
+/obj/effect/zona_anomaly/burner,
 /turf/open/stalker/floor/digable,
 /area/stalker/blowout/outdoor)
 "j" = (
-/obj/anomaly/karusel,
+/obj/effect/zona_anomaly/vortex,
 /turf/open/stalker/floor/water,
 /area/stalker/blowout/outdoor)
 "k" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "l" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "m" = (
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor)
 "n" = (
-/obj/rad/rad_high,
+/obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "o" = (
-/obj/rad/rad_low,
+/obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "p" = (
-/obj/rad/rad_medium,
+/obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "q" = (

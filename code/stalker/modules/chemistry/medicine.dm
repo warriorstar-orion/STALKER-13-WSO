@@ -14,7 +14,7 @@
 
 /datum/reagent/medicine/anabiotic/on_mob_add(mob/living/L)
 	..()
-	if(SSblowout.isblowout)
+	if(SSblowouts.blowout_stage > 0)
 		ADD_TRAIT(L, TRAIT_DEATHCOMA, id)
 		ADD_TRAIT(L, TRAIT_BLOWOUT_IMMUNE, id)
 	else

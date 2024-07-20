@@ -85,11 +85,11 @@
 /turf/closed/wall/stalker/bricks,
 /area/stalker)
 "aC" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "aF" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "aG" = (
@@ -1683,7 +1683,7 @@
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/blowout/outdoor)
 "iY" = (
-/obj/anomaly/puh,
+/obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
 "jf" = (
@@ -3667,7 +3667,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Tx" = (
-/obj/effect/landmark/blowout_spawner/dog,
+/obj/effect/abstract/blowout_spawner/dog,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Ty" = (
@@ -3683,7 +3683,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "TC" = (
-/obj/anomaly/tramplin,
+/obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "TD" = (

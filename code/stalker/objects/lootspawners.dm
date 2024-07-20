@@ -24,7 +24,7 @@
 				/obj/item/clothing/mask/gas/stalker = 4,
 				/obj/item/food/stalker/fermented/tomaty = 28,
 				/obj/item/food/stalker/stew = 18,
-				/obj/item/detector/blink = 4,
+				/obj/item/t_scanner/artifact_detector/blink = 4,
 				/obj/item/seeds/potato = 30,
 				/obj/item/seeds/cabbage = 30,
 				/obj/item/seeds/beet/white = 30,
@@ -585,8 +585,8 @@
 	spawn_loot_count = 1
 	cooldown = 4500
 	loot = list(/obj/item/artifact/meduza = 12,
-				/obj/item/artifact/stoneflower_depleted = 6,
-				/obj/item/artifact/nightstar_depleted = 3,
+				/obj/item/artifact/stoneflower/depleted = 6,
+				/obj/item/artifact/nightstar/depleted = 3,
 				/obj/item/artifact/maminibusi = 1,
 				/obj/nothing = 80)
 

@@ -1,0 +1,4 @@
+// blowout stage durations
+#define BLOWOUT_TIME_STAGE_1 90 SECONDS
+#define BLOWOUT_TIME_STAGE_2 122 SECONDS
+#define BLOWOUT_TIME_STAGE_3 154 SECONDS

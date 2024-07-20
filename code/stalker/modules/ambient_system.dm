@@ -51,7 +51,7 @@
 			src << client.music
 
 	//dont play nice environmental ambience in a blowout
-	if(SSblowout.isblowout)
+	if(SSblowouts.blowout_stage > 0)
 		return 1
 
 	if(!client.environment || (world.time >= client.environment.last_time + client.environment.real_cooldown))
