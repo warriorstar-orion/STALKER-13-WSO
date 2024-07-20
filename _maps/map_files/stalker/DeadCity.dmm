@@ -1893,7 +1893,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "pJ" = (
-/obj/effect/landmark/latejoin/mercenary,
+/obj/effect/landmark/stalker/mercenaries/mercenary,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "pK" = (
@@ -2001,7 +2001,7 @@
 /obj/structure/chair/comfy/black{
 	dir = 1
 	},
-/obj/effect/landmark/latejoin/mercenary_sql,
+/obj/effect/landmark/stalker/mercenaries/commander,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/mercenary)
 "qn" = (
@@ -2484,7 +2484,7 @@
 /area/stalker/blowout/buildings)
 "us" = (
 /obj/structure/bed/stalker/metal/matras,
-/obj/effect/landmark/latejoin/mercenary_sql,
+/obj/effect/landmark/stalker/mercenaries/commander,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/mercenary)
 "uu" = (

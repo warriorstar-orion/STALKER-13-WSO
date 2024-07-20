@@ -1023,7 +1023,7 @@
 /turf/open/stalker/floor/wood/brown,
 /area/stalker/buildings)
 "db" = (
-/obj/effect/landmark/latejoin/monolith,
+/obj/effect/landmark/stalker/monolith/soldier,
 /turf/open/stalker/floor/wood/brown,
 /area/stalker/buildings)
 "dc" = (
@@ -1062,7 +1062,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "dg" = (
-/obj/effect/landmark/latejoin/monolith_hegumen,
+/obj/effect/landmark/stalker/monolith/preacher,
 /turf/open/stalker/floor/wood/black,
 /area/stalker/buildings)
 "dh" = (
@@ -1084,7 +1084,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "dk" = (
-/obj/effect/landmark/latejoin/monolith,
+/obj/effect/landmark/stalker/monolith/soldier,
 /turf/open/stalker/floor/wood/black,
 /area/stalker/buildings)
 "dl" = (
@@ -1108,7 +1108,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings)
 "dp" = (
-/obj/effect/landmark/latejoin/monolith,
+/obj/effect/landmark/stalker/monolith/soldier,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -14276,7 +14276,7 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "UB" = (
-/obj/effect/landmark/latejoin/monolith,
+/obj/effect/landmark/stalker/monolith/soldier,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "UD" = (

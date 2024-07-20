@@ -836,7 +836,7 @@
 	dir = 8;
 	tag = "icon-gazovaya_truba (WEST)"
 	},
-/obj/effect/landmark/latejoin/banditboss,
+/obj/effect/landmark/stalker/bandits/boss,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/bandit)
 "cT" = (
@@ -1475,7 +1475,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/mercenary)
 "eG" = (
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/bandit)
 "eH" = (
@@ -3396,7 +3396,7 @@
 	dir = 1;
 	tag = "icon-krovat (NORTH)"
 	},
-/obj/effect/landmark/latejoin/bandit_barman,
+/obj/effect/landmark/stalker/bandits/barman,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "poddon";
@@ -4596,7 +4596,7 @@
 	dir = 4;
 	tag = "icon-gazovaya_truba (EAST)"
 	},
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/bandit)
 "og" = (
@@ -4800,7 +4800,7 @@
 /obj/structure/chair/comfy{
 	dir = 8
 	},
-/obj/effect/landmark/latejoin/mercenary_sql,
+/obj/effect/landmark/stalker/mercenaries/commander,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/mercenary)
 "pR" = (
@@ -5690,7 +5690,7 @@
 	},
 /area/stalker/blowout/outdoor)
 "wX" = (
-/obj/effect/landmark/latejoin/banditboss,
+/obj/effect/landmark/stalker/bandits/boss,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/bandit)
 "wZ" = (
@@ -5818,7 +5818,7 @@
 	dir = 8;
 	tag = "icon-krovat (WEST)"
 	},
-/obj/effect/landmark/latejoin/mercenary,
+/obj/effect/landmark/stalker/mercenaries/mercenary,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/mercenary)
 "yb" = (
@@ -5968,7 +5968,7 @@
 	dir = 1;
 	tag = "icon-matras (NORTH)"
 	},
-/obj/effect/landmark/latejoin/mercenary,
+/obj/effect/landmark/stalker/mercenaries/mercenary,
 /obj/machinery/light/floor,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/mercenary)
@@ -6020,7 +6020,7 @@
 /area/stalker)
 "zM" = (
 /obj/structure/bed/stalker/metal/matras,
-/obj/effect/landmark/latejoin/mercenary_sql,
+/obj/effect/landmark/stalker/mercenaries/commander,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/mercenary)
 "zO" = (
@@ -7568,7 +7568,7 @@
 	dir = 4;
 	tag = "icon-krovat (EAST)"
 	},
-/obj/effect/landmark/latejoin/mercenary,
+/obj/effect/landmark/stalker/mercenaries/mercenary,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/mercenary)
 "Mk" = (
@@ -8866,7 +8866,7 @@
 	tag = "icon-krovat (WEST)"
 	},
 /obj/effect/spawner/random/stalker/pornmag,
-/obj/effect/landmark/latejoin/mercenary,
+/obj/effect/landmark/stalker/mercenaries/mercenary,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/mercenary)
 "UY" = (

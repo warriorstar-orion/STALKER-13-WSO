@@ -118,10 +118,10 @@
 // Stalker
 #define JOB_ARMY "Military Soldier"
 #define JOB_ARMY_SPETSNAZ "Military Spetsnaz"
+#define JOB_ARMY_COMMANDER "Military Commander"
 #define JOB_BANDIT "Bandit"
 #define JOB_BANDIT_BARMAN "Bandit Barman"
 #define JOB_BANDITBOSS "Bandit Boss"
-#define JOB_BARMAN "Loner Barman"
 #define JOB_BARMAN2 "Duty Barman"
 #define JOB_CHIEF_ECOLOGIST "Chief Ecologist"
 #define JOB_CLEARSKY "Clear Sky Soldier"
@@ -133,15 +133,15 @@
 #define JOB_FREEDOM "Freedom Soldier"
 #define JOB_FREEDOM_LIEUTENANT "Freedom Lieutenant"
 #define JOB_LONER "Loner"
+#define JOB_BARMAN "Loner Barman"
 #define JOB_MERCENARY "Mercenary"
 #define JOB_MERCENARYCOMMANDER "Mercenary Commander"
-#define JOB_MILITARY "Military Soldier"
-#define JOB_MILITARYCOMMANDER "Military Commander"
 #define JOB_MONOLITH "Monolith"
 #define JOB_MONOLITH_HEGUMEN "Monolith Preacher"
 #define JOB_OLDSTALKER "Old Stalker"
 #define JOB_TOURIST "Tourist"
 #define JOB_TRADER "Trader"
+#define JOB_RENEGADE "Renegade"
 
 #define JOB_GROUP_ENGINEERS list( \
 	JOB_STATION_ENGINEER, \

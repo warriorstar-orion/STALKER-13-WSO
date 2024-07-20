@@ -386,7 +386,7 @@
 /area/stalker/blowout/outdoor)
 "cT" = (
 /obj/structure/chair/comfy,
-/obj/effect/landmark/latejoin/freedom_lieutenant,
+/obj/effect/landmark/stalker/freedom/lieutenant,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/blowout/buildings)
 "cY" = (
@@ -1974,7 +1974,7 @@
 	dir = 8;
 	tag = "icon-matras (EAST)"
 	},
-/obj/effect/landmark/latejoin/freedom,
+/obj/effect/landmark/stalker/freedom/soldier,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "nq" = (
@@ -2319,7 +2319,7 @@
 	dir = 4;
 	tag = "icon-krovat (EAST)"
 	},
-/obj/effect/landmark/latejoin/freedom,
+/obj/effect/landmark/stalker/freedom/soldier,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "pP" = (
@@ -2729,7 +2729,7 @@
 	dir = 8;
 	tag = "icon-krovat_e (WEST)"
 	},
-/obj/effect/landmark/latejoin/freedom,
+/obj/effect/landmark/stalker/freedom/soldier,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "sV" = (
@@ -4446,7 +4446,7 @@
 	tag = "icon-tube1 (EAST)"
 	},
 /obj/structure/bed/stalker/metal/matras,
-/obj/effect/landmark/latejoin/freedom,
+/obj/effect/landmark/stalker/freedom/soldier,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "Gh" = (
@@ -4899,7 +4899,7 @@
 /area/stalker/blowout/outdoor)
 "Jy" = (
 /obj/structure/bed/stalker/metal/matras,
-/obj/effect/landmark/latejoin/freedom,
+/obj/effect/landmark/stalker/freedom/soldier,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "JB" = (
@@ -6200,7 +6200,7 @@
 /area/stalker/blowout/outdoor)
 "TU" = (
 /obj/structure/bed/stalker/metal,
-/obj/effect/landmark/latejoin/freedom,
+/obj/effect/landmark/stalker/freedom/soldier,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "TV" = (
@@ -6349,7 +6349,7 @@
 "Vb" = (
 /obj/machinery/light,
 /obj/structure/bed/stalker/metal/matras,
-/obj/effect/landmark/latejoin/freedom,
+/obj/effect/landmark/stalker/freedom/soldier,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/freedom)
 "Vg" = (

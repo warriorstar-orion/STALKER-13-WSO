@@ -135,7 +135,7 @@
 /area/stalker/blowout/outdoor)
 "bk" = (
 /obj/machinery/light/small,
-/obj/effect/landmark/latejoin/ecologist,
+/obj/effect/landmark/stalker/ecologist,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/ecologist)
 "bl" = (
@@ -882,7 +882,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/effect/landmark/latejoin/ecologistguard,
+/obj/effect/landmark/stalker/ecologist/guard,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings)
 "hr" = (
@@ -952,7 +952,7 @@
 /obj/machinery/light/broken{
 	dir = 4
 	},
-/obj/effect/landmark/latejoin/ecologist,
+/obj/effect/landmark/stalker/ecologist,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/ecologist)
 "ie" = (
@@ -1002,7 +1002,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/effect/landmark/latejoin/ecologistguard,
+/obj/effect/landmark/stalker/ecologist/guard,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings)
 "iA" = (
@@ -1018,7 +1018,7 @@
 /area/stalker/buildings/backwater/krug)
 "iH" = (
 /obj/structure/toilet/secret,
-/obj/effect/landmark/latejoin/chief_ecologist,
+/obj/effect/landmark/stalker/ecologist/chief,
 /obj/item/stack/medical/gauze/bint,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings)
@@ -1595,7 +1595,7 @@
 /area/stalker/blowout/outdoor)
 "nN" = (
 /obj/structure/chair/office,
-/obj/effect/landmark/latejoin/ecologist,
+/obj/effect/landmark/stalker/ecologist,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist)
 "nP" = (
@@ -2006,7 +2006,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 1
 	},
-/obj/effect/landmark/latejoin/ecologist,
+/obj/effect/landmark/stalker/ecologist,
 /turf/open/floor/carpet/black,
 /area/stalker/buildings/ecologist)
 "ry" = (
@@ -4433,7 +4433,7 @@
 /obj/structure/chair/office{
 	dir = 4
 	},
-/obj/effect/landmark/latejoin/ecologist,
+/obj/effect/landmark/stalker/ecologist,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist)
 "Lk" = (

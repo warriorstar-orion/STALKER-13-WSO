@@ -4,7 +4,7 @@
 	ui_color = "#2E8B57"
 
 /datum/job/stalker/army
-	title = "Military Soldier"
+	title = JOB_ARMY
 	faction_s = "State Security Service"
 	faction = "Station"
 	total_positions = -1
@@ -25,7 +25,7 @@
 	job_flags = STATION_JOB_FLAGS
 
 /datum/job/stalker/army_spetsnaz
-	title = "Military Spetsnaz"
+	title = JOB_ARMY_SPETSNAZ
 	faction = "Station"
 	faction_s = "State Security Service"
 	total_positions = 2
@@ -98,7 +98,7 @@
 	faction_s = "Army"
 
 /datum/job/stalker/militarycommander
-	title = JOB_MILITARYCOMMANDER
+	title = JOB_ARMY_COMMANDER
 	faction_s = "State Security Service"
 	outfit = /datum/outfit/job/militarycommander
 	faction = "Station"

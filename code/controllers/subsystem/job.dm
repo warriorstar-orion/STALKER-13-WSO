@@ -701,8 +701,8 @@ SUBSYSTEM_DEF(job)
 
 /datum/controller/subsystem/job/proc/SendToLateJoin(mob/M, buckle = TRUE)
 	var/atom/destination
-	if(M.mind && !is_unassigned_job(M.mind.assigned_role) && length(GLOB.jobspawn_overrides[M.mind.assigned_role.title])) //We're doing something special today.
-		destination = pick(GLOB.jobspawn_overrides[M.mind.assigned_role.title])
+	if(M.mind && !is_unassigned_job(M.mind.assigned_role) && length(GLOB.stalker_faction_spawners[M.mind.assigned_role.title])) //We're doing something special today.
+		destination = pick(GLOB.stalker_faction_spawners[M.mind.assigned_role.title])
 		destination.JoinPlayerHere(M, FALSE)
 		return TRUE
 

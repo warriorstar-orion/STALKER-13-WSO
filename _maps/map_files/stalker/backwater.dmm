@@ -342,10 +342,6 @@
 "br" = (
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor/backwater)
-"bs" = (
-/obj/structure/stalker/cacheable/komod,
-/turf/open/stalker/floor/lattice,
-/area/stalker/buildings/backwater/skadovsk_respawn)
 "bt" = (
 /obj/structure/stalker/cacheable/polka{
 	pixel_y = 15
@@ -442,10 +438,6 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/backwater/sawmill)
 "bM" = (
-/obj/structure/stalker/cacheable/krest,
-/turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor/backwater)
-"bN" = (
 /obj/structure/stalker/cacheable/krest,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater)
@@ -1016,17 +1008,13 @@
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "es" = (
 /obj/structure/bed/stalker/mattress_bloody,
-/obj/effect/landmark/latejoin/renegade,
+/obj/effect/landmark/stalker/renegades/renegade,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
 "eu" = (
 /obj/structure/stalker/bigyashik/melkiy,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor/backwater/sawmill)
-"ev" = (
-/obj/structure/stalker/cacheable/yashik,
-/turf/open/stalker/floor/gryaz/gryaz2,
-/area/stalker/buildings/backwater/sawmill)
 "ew" = (
 /obj/structure/grille/stalker/wood,
 /turf/open/stalker/floor/gryaz,
@@ -1772,10 +1760,6 @@
 "hB" = (
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/plasteel/plita,
-/area/stalker/blowout/outdoor/backwater)
-"hC" = (
-/obj/structure/stalker/cacheable/yashik/yaskik_a,
-/turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor/backwater)
 "hD" = (
 /obj/effect/abstract/radiation/medium,
@@ -3164,10 +3148,6 @@
 /obj/structure/stalker/propane,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/clearsky)
-"nv" = (
-/obj/structure/stalker/cacheable/yashik,
-/turf/open/stalker/floor/plasteel/plitochka,
-/area/stalker/buildings/backwater/krug)
 "nw" = (
 /obj/item/cigbutt,
 /obj/structure/sign/warning/no_smoking{
@@ -4079,14 +4059,14 @@
 /obj/structure/stalker/cacheable/cover{
 	pixel_y = 32
 	},
-/obj/effect/landmark/latejoin/barman,
+/obj/effect/landmark/stalker/loners/barman,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk)
 "qv" = (
 /obj/structure/chair/stalker/divan/divan2{
 	pixel_y = 2
 	},
-/obj/effect/landmark/latejoin/barman,
+/obj/effect/landmark/stalker/loners/barman,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk)
 "qw" = (
@@ -7367,10 +7347,6 @@
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater/substation)
-"CD" = (
-/obj/structure/stalker/cacheable/yashik/yaskik_a,
-/turf/open/stalker/floor/road,
-/area/stalker/blowout/outdoor/backwater/substation)
 "CE" = (
 /obj/structure/stalker/stolb,
 /turf/open/stalker/floor/gryaz,
@@ -7402,7 +7378,7 @@
 /area/stalker/buildings/backwater/substation)
 "CQ" = (
 /obj/structure/chair/stool/bar,
-/obj/effect/landmark/latejoin/renegade,
+/obj/effect/landmark/stalker/renegades/renegade,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
 "CR" = (
@@ -7543,7 +7519,7 @@
 /area/stalker/buildings/backwater)
 "EO" = (
 /obj/structure/bed/stalker/mattress_bloodstain,
-/obj/effect/landmark/latejoin/renegade,
+/obj/effect/landmark/stalker/renegades/renegade,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
 "ET" = (
@@ -7568,7 +7544,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "FB" = (
-/obj/effect/landmark/latejoin/renegade,
+/obj/effect/landmark/stalker/renegades/renegade,
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
 	},
@@ -8062,7 +8038,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "Lr" = (
 /obj/structure/bed/stalker/mattress_bloodblots,
-/obj/effect/landmark/latejoin/renegade,
+/obj/effect/landmark/stalker/renegades/renegade,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
 "Ls" = (
@@ -8357,7 +8333,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "Pn" = (
 /obj/structure/chair/stool/bar,
-/obj/effect/landmark/latejoin/renegade,
+/obj/effect/landmark/stalker/renegades/renegade,
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
 	},
@@ -11040,7 +11016,7 @@ mU
 Gc
 mD
 lW
-nv
+mr
 Gc
 lW
 my
@@ -12830,7 +12806,7 @@ Gc
 Gc
 lT
 nl
-nv
+mr
 mr
 lW
 Gc
@@ -15398,7 +15374,7 @@ Gc
 Gc
 Gc
 Gc
-nv
+mr
 lN
 qZ
 lJ
@@ -18883,7 +18859,7 @@ ds
 ds
 ds
 ds
-ev
+ed
 bn
 aP
 aP
@@ -22958,9 +22934,9 @@ Ru
 Ru
 bM
 Ru
-bN
+bM
 Ru
-bN
+bM
 Ru
 Ru
 Ru
@@ -23468,11 +23444,11 @@ ab
 sk
 ay
 Ru
-bN
+bM
 Ru
-bN
+bM
 Ru
-bN
+bM
 Ru
 Ru
 Ru
@@ -33691,7 +33667,7 @@ Cn
 yl
 Cs
 yl
-CD
+zI
 yh
 aa
 "}
@@ -33947,7 +33923,7 @@ yl
 ZO
 yl
 yl
-CD
+zI
 yh
 aa
 "}
@@ -57258,7 +57234,7 @@ ae
 aV
 ai
 ae
-bs
+aT
 ai
 an
 bW
@@ -66025,7 +66001,7 @@ gm
 hu
 hv
 hy
-hC
+hy
 hE
 ga
 fX

@@ -177,12 +177,12 @@
 /obj/structure/stalker/cacheable/cover{
 	pixel_y = 32
 	},
-/obj/effect/landmark/latejoin/barman2,
+/obj/effect/landmark/stalker/duty/barman,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
 "bi" = (
 /obj/structure/chair/stalker/divan/divan2,
-/obj/effect/landmark/latejoin/barman2,
+/obj/effect/landmark/stalker/duty/barman,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
 "bk" = (
@@ -2779,7 +2779,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/duty)
 "DZ" = (
-/obj/effect/landmark/latejoin/duty_lieutenant,
+/obj/effect/landmark/stalker/duty/liutenant,
 /obj/structure/chair/wood{
 	dir = 1;
 	tag = "icon-wooden_chair (NORTH)"
@@ -3646,7 +3646,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "SQ" = (
-/obj/effect/landmark/latejoin/duty,
+/obj/effect/landmark/stalker/duty/soldier,
 /obj/item/clothing/accessory/patch/duty,
 /obj/structure/bed/stalker/mattress_wood,
 /obj/item/clothing/accessory/patch/duty,

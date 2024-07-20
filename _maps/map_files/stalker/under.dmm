@@ -358,7 +358,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/waste)
 "bA" = (
-/obj/effect/landmark/latejoin/clearsky_leader,
+/obj/effect/landmark/stalker/clearsky/leader,
 /turf/open/floor/carpet,
 /area/stalker/buildings/clearsky)
 "bB" = (
@@ -829,7 +829,7 @@
 /area/stalker/buildings/backwater/ranger)
 "dl" = (
 /obj/structure/bed/stalker/matras,
-/obj/effect/landmark/latejoin/clearsky,
+/obj/effect/landmark/stalker/clearsky/soldier,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/clearsky)
 "dm" = (
@@ -849,12 +849,12 @@
 /area/stalker/buildings/clearsky)
 "dp" = (
 /obj/structure/chair/stalker/divan,
-/obj/effect/landmark/latejoin/clearsky_leader,
+/obj/effect/landmark/stalker/clearsky/leader,
 /turf/open/floor/carpet,
 /area/stalker/buildings/clearsky)
 "dq" = (
 /obj/structure/chair/stalker/divan/divan2,
-/obj/effect/landmark/latejoin/clearsky_leader,
+/obj/effect/landmark/stalker/clearsky/leader,
 /turf/open/floor/carpet,
 /area/stalker/buildings/clearsky)
 "dr" = (

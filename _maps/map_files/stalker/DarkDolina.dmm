@@ -117,9 +117,9 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "by" = (
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /obj/structure/bed/stalker/mattress_filthy,
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "bB" = (
@@ -998,7 +998,7 @@
 /area/stalker/blowout/buildings)
 "mi" = (
 /obj/structure/bed/stalker/mattress_bloodstain,
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "ml" = (
@@ -1019,9 +1019,9 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "mw" = (
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /obj/structure/bed/stalker/mattresspillow,
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "my" = (
@@ -1715,7 +1715,7 @@
 /area/stalker/blowout/outdoor)
 "tS" = (
 /obj/structure/bed/stalker/mattress_holes,
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "tY" = (
@@ -2386,8 +2386,8 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "Cy" = (
-/obj/effect/landmark/latejoin/bandit,
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /obj/structure/bed/stalker/mattress_dirty,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
@@ -2435,9 +2435,9 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "CY" = (
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /obj/structure/bed/stalker/mattress_dried,
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "Dc" = (
@@ -2521,7 +2521,7 @@
 /area/stalker/blowout/outdoor)
 "Ev" = (
 /obj/structure/bed/stalker/desecratedbed,
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "Ew" = (
@@ -2549,7 +2549,7 @@
 /area/stalker/blowout/buildings)
 "ET" = (
 /obj/structure/bed/stalker/mattress_bloodblots,
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "EY" = (
@@ -2863,9 +2863,9 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "Ix" = (
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /obj/structure/bed/stalker/mattress_wood,
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "Iy" = (
@@ -3059,9 +3059,9 @@
 /obj/structure/chair/wood{
 	dir = 8
 	},
-/obj/effect/landmark/latejoin/banditboss,
-/obj/effect/landmark/latejoin/banditboss,
-/obj/effect/landmark/latejoin/banditboss,
+/obj/effect/landmark/stalker/bandits/boss,
+/obj/effect/landmark/stalker/bandits/boss,
+/obj/effect/landmark/stalker/bandits/boss,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "Lq" = (
@@ -3133,7 +3133,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "Mq" = (
-/obj/effect/landmark/latejoin/bandit_barman,
+/obj/effect/landmark/stalker/bandits/barman,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/kordon/banditbar)
 "Mu" = (
@@ -3629,7 +3629,7 @@
 "SN" = (
 /obj/structure/stalker/doski/doski_alt2,
 /obj/structure/bed/stalker/mattress_dirty,
-/obj/effect/landmark/latejoin/bandit,
+/obj/effect/landmark/stalker/bandits/bandit,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "SO" = (

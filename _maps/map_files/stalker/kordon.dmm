@@ -2534,7 +2534,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
 "hL" = (
-/obj/effect/landmark/latejoin/oldstalker,
+/obj/effect/landmark/stalker/loners/old,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "hM" = (
@@ -2588,7 +2588,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "hT" = (
-/obj/effect/landmark/latejoin/trader,
+/obj/effect/landmark/stalker/loners/trader,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
 "hU" = (
@@ -2620,7 +2620,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ib" = (
-/obj/effect/landmark/latejoin/oldstalker,
+/obj/effect/landmark/stalker/loners/old,
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor)
 "ic" = (
@@ -3080,7 +3080,7 @@
 	dir = 8;
 	tag = "icon-bulb1 (WEST)"
 	},
-/obj/effect/landmark/latejoin/army,
+/obj/effect/landmark/stalker/army/soldier,
 /obj/structure/chair/wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
@@ -3091,7 +3091,7 @@
 	pixel_y = -28;
 	tag = "icon-border2"
 	},
-/obj/effect/landmark/latejoin/army,
+/obj/effect/landmark/stalker/army/soldier,
 /obj/structure/bed/stalker/mattress_wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
@@ -3102,7 +3102,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
 "jG" = (
-/obj/effect/landmark/latejoin/army,
+/obj/effect/landmark/stalker/army/soldier,
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border2";
@@ -3222,7 +3222,7 @@
 	pixel_y = -28;
 	tag = "icon-border2"
 	},
-/obj/effect/landmark/latejoin/army,
+/obj/effect/landmark/stalker/army/soldier,
 /obj/machinery/light/small{
 	dir = 8;
 	tag = "icon-bulb1 (WEST)"
@@ -3244,7 +3244,7 @@
 	dir = 4;
 	tag = "icon-bulb1 (EAST)"
 	},
-/obj/effect/landmark/latejoin/army,
+/obj/effect/landmark/stalker/army/soldier,
 /obj/structure/bed/stalker/mattress_wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
@@ -3971,7 +3971,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "mP" = (
-/obj/effect/landmark/latejoin/trader,
+/obj/effect/landmark/stalker/loners/trader,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/skadovsk)
 "mQ" = (
@@ -4047,7 +4047,7 @@
 /obj/structure/toilet{
 	dir = 8
 	},
-/obj/effect/landmark/latejoin/army,
+/obj/effect/landmark/stalker/army/soldier,
 /obj/machinery/light/small{
 	dir = 1;
 	tag = "icon-bulb1 (EAST)"
@@ -4547,7 +4547,7 @@
 /area/stalker)
 "rD" = (
 /obj/structure/chair/stalker/divan/divan2,
-/obj/effect/landmark/latejoin/army,
+/obj/effect/landmark/stalker/army/soldier,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
 "rI" = (
@@ -5573,7 +5573,7 @@
 /area/stalker/buildings)
 "Bi" = (
 /obj/structure/chair/wood,
-/obj/effect/landmark/latejoin/militarycommander,
+/obj/effect/landmark/stalker/army/commander,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
 "Bj" = (
@@ -6874,7 +6874,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "Mk" = (
-/obj/effect/landmark/latejoin/army,
+/obj/effect/landmark/stalker/army/soldier,
 /obj/structure/chair/wood{
 	dir = 1
 	},
@@ -7770,7 +7770,7 @@
 /area/stalker/buildings)
 "TV" = (
 /obj/structure/chair/stalker/divan,
-/obj/effect/landmark/latejoin/army,
+/obj/effect/landmark/stalker/army/soldier,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
 "TY" = (
@@ -8233,7 +8233,7 @@
 "Xq" = (
 /obj/structure/bed/stalker/metal/matras,
 /obj/item/bedsheet/centcom,
-/obj/effect/landmark/latejoin/army_spetsnaz,
+/obj/effect/landmark/stalker/army/spetsnaz,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
 "Xr" = (
