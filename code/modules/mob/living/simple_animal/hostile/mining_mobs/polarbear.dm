@@ -17,7 +17,7 @@
 	obj_damage = 40
 	melee_damage_lower = 25
 	melee_damage_upper = 25
-	attack_verb_continuous = list("claws")
+	attack_verb_continuous = "claws"
 	attack_verb_simple = "claw"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_CLAW

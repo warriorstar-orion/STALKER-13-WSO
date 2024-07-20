@@ -45,7 +45,7 @@ GLOBAL_LIST_INIT(animatable_blacklist, typecacheof(list(
 
 // Aggro when you try to open them. Will also pickup loot when spawns and drop it when dies.
 /mob/living/simple_animal/hostile/mimic/crate
-	attack_verb_continuous = list("bites")
+	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	speak_emote = list("clatters")
 	stop_automated_movement = 1
@@ -293,7 +293,7 @@ GLOBAL_LIST_INIT(animatable_blacklist, typecacheof(list(
 /mob/living/simple_animal/hostile/mimic/xenobio
 	health = 210
 	maxHealth = 210
-	attack_verb_continuous = list("bites")
+	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	speak_emote = list("clatters")
 	gold_core_spawnable = HOSTILE_SPAWN

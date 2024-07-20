@@ -11,7 +11,7 @@
 	harm_intent_damage = 5
 	melee_damage_lower = 21
 	melee_damage_upper = 21
-	attack_verb_continuous = list("bites")
+	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	attack_sound = 'sound/hallucinations/growl1.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE

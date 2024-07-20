@@ -30,7 +30,7 @@
 	health_doll_icon = "mega_legion"
 	desc = "One of many."
 	icon = 'icons/mob/simple/lavaland/96x96megafauna.dmi'
-	attack_verb_continuous = list("chomps")
+	attack_verb_continuous = "chomps"
 	attack_verb_simple = "chomp"
 	attack_sound = 'sound/magic/demon_attack1.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE

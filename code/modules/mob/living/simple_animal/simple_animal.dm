@@ -89,7 +89,7 @@
 	/// 1 for full damage , 0 for none , -1 for 1:1 heal from that source.
 	var/list/damage_coeff = list(BRUTE = 1, BURN = 1, TOX = 1, STAMINA = 0, OXY = 1)
 	///Attacking verb in present continuous tense.
-	var/attack_verb_continuous = list("attacks")
+	var/attack_verb_continuous = "attacks"
 	///Attacking verb in present simple tense.
 	var/attack_verb_simple = "attack"
 	/// Sound played when the critter attacks.

@@ -32,7 +32,7 @@
 	health = 1000
 	melee_damage_lower = 20
 	melee_damage_upper = 20
-	attack_verb_continuous = list("preaches to")
+	attack_verb_continuous = "preaches to"
 	attack_verb_simple = "preach to"
 	attack_sound = 'sound/magic/clockwork/ratvar_attack.ogg'
 	throw_message = "doesn't affect the purity of"
