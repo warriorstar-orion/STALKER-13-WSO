@@ -1337,11 +1337,11 @@
 /area/stalker/buildings/backwater/krug)
 "lk" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
-/obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/structure/table/stalker,
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist)
 "ll" = (
@@ -1776,10 +1776,10 @@
 /area/stalker/blowout/outdoor)
 "pI" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/east,
-/obj/effect/spawner/structure/window/reinforced/plasma,
 /obj/machinery/chem_heater{
 	use_power = 0
 	},
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist)
 "pK" = (
@@ -1944,11 +1944,6 @@
 	name = "shutters west button";
 	pixel_x = -5
 	},
-/obj/structure/table/stalker/wood/bar100rentgen{
-	icon = 'icons/obj/smooth_structures/reinforced_table.dmi';
-	icon_state = "r_table";
-	name = "reinforced table"
-	},
 /obj/machinery/button/door{
 	id = "bunkerwatchman";
 	name = "watchman's room button";
@@ -1961,6 +1956,7 @@
 	pixel_x = 6;
 	pixel_y = -9
 	},
+/obj/structure/table/reinforced,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist)
 "rd" = (
@@ -4103,48 +4099,6 @@
 	},
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
-"HX" = (
-/obj/machinery/button/door{
-	id = "ecoshutters2";
-	name = "lockdown trade button";
-	pixel_x = 6;
-	pixel_y = 10
-	},
-/obj/machinery/button/door{
-	id = "bunkerpersonal";
-	name = "lockdown personal button";
-	pixel_x = -5;
-	pixel_y = 10
-	},
-/obj/machinery/button/door{
-	id = "bunkereast";
-	name = "shutters east button";
-	pixel_x = 6
-	},
-/obj/machinery/button/door{
-	id = "bunkerwest";
-	name = "shutters west button";
-	pixel_x = -5
-	},
-/obj/machinery/button/door{
-	id = "bunkerwatchman";
-	name = "watchman's room button";
-	pixel_x = -5;
-	pixel_y = -9
-	},
-/obj/structure/table/stalker/wood/bar100rentgen{
-	icon = 'icons/obj/smooth_structures/reinforced_table.dmi';
-	icon_state = "r_table";
-	name = "reinforced table"
-	},
-/obj/machinery/button/door{
-	id = "bunkerguest";
-	name = "guest door button";
-	pixel_x = 6;
-	pixel_y = -9
-	},
-/turf/open/stalker/floor/lattice,
-/area/stalker/buildings/ecologist)
 "Id" = (
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "7";
@@ -5008,15 +4962,10 @@
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/kordon/tunnel)
 "OC" = (
-/obj/structure/table/stalker/wood/bar100rentgen{
-	desc = "You're looking at the table, and the table is looking at you?";
-	icon = 'icons/obj/smooth_structures/reinforced_table.dmi';
-	icon_state = "r_table";
-	name = "reinforced table"
-	},
 /obj/machinery/door/poddoor/preopen{
 	id = "ecoshutters2"
 	},
+/obj/structure/table/reinforced,
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "OI" = (
@@ -5131,10 +5080,6 @@
 /area/stalker/blowout/outdoor)
 "PY" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
-/obj/structure/window/reinforced/plasma/spawner/directional/east,
-/obj/structure/window/reinforced/plasma/spawner/directional/west,
-/obj/structure/window/reinforced/plasma/spawner/directional/north,
-/obj/structure/grille/indestructible,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist_entrance)
 "Qg" = (
@@ -5197,12 +5142,8 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/cave)
 "Qr" = (
-/obj/structure/table/stalker/wood/bar100rentgen{
-	icon = 'icons/obj/smooth_structures/reinforced_table.dmi';
-	icon_state = "r_table";
-	name = "reinforced table"
-	},
 /obj/item/clothing/suit/hooded/sealed/ecolog,
+/obj/structure/table/reinforced,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist_entrance)
 "Qt" = (
@@ -5753,15 +5694,10 @@
 /area/stalker/buildings)
 "US" = (
 /obj/machinery/light,
-/obj/structure/table/stalker/wood/bar100rentgen{
-	desc = "You're looking at the table, and the table is looking at you?";
-	icon = 'icons/obj/smooth_structures/reinforced_table.dmi';
-	icon_state = "r_table";
-	name = "reinforced table"
-	},
 /obj/machinery/door/poddoor/preopen{
 	id = "ecoshutters2"
 	},
+/obj/structure/table/reinforced,
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "UT" = (
@@ -5923,12 +5859,8 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Vu" = (
-/obj/structure/table/stalker/wood/bar100rentgen{
-	icon = 'icons/obj/smooth_structures/reinforced_table.dmi';
-	icon_state = "r_table";
-	name = "reinforced table"
-	},
 /obj/item/clothing/suit/hooded/sealed/ecologm,
+/obj/structure/table/reinforced,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/ecologist_entrance)
 "Vz" = (
@@ -35949,7 +35881,7 @@ dN
 Nb
 oB
 Ug
-HX
+rb
 Lj
 Zj
 Ww
