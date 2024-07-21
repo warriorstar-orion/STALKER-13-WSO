@@ -1,4 +1,5 @@
 /* Simple object type, calls a proc when "stepped" on by something */
+GLOBAL_LIST_EMPTY(named_teleport_destinations)
 
 /obj/effect/step_trigger
 	var/affect_ghosts = 0
@@ -162,6 +163,29 @@
 		living_soul.client.move_delay = 0
 
 /* Fancy teleporter, creates sparks and smokes when used */
+
+/obj/effect/landmark/named_teleport_destination
+	var/destination_name
+
+/obj/effect/landmark/named_teleport_destination/Initialize(mapload)
+	. = ..()
+	if(destination_name in GLOB.named_teleport_destinations)
+		logger.Log(LOG_CATEGORY_DEBUG, "More than two teleport destinations with name [destination_name] found! Clobbering previous.")
+	GLOB.named_teleport_destinations[destination_name] = src
+
+/obj/effect/landmark/named_teleport_destination/Destroy()
+	. = ..()
+	if(GLOB.named_teleport_destinations[destination_name] == src)
+		qdel(GLOB.named_teleport_destinations[destination_name])
+
+/obj/effect/step_trigger/named_teleporter
+	var/teleporter_name
+
+/obj/effect/step_trigger/named_teleporter/Trigger(atom/movable/A)
+	if(teleporter_name && GLOB.named_teleport_destinations[teleporter_name])
+		var/obj/effect/landmark/named_teleport_destination/dest = GLOB.named_teleport_destinations[teleporter_name]
+		var/turf/T = get_turf(dest)
+		A.forceMove(T)
 
 /obj/effect/step_trigger/teleport_fancy
 	var/locationx
