@@ -47,11 +47,9 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "at" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 13;
-	teleport_y = 130;
-	teleport_z = 13
+	destination = "wildterritory_7"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
@@ -134,6 +132,12 @@
 /obj/structure/closet/crate/stalker/blue/stash/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
+"bp" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_11"
+	},
+/turf/open/stalker/floor/digable/gryaz_rocky,
+/area/stalker/blowout/buildings)
 "bz" = (
 /turf/closed/wall/stalker/bricks_yellow,
 /area/stalker/blowout/outdoor)
@@ -654,6 +658,12 @@
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
+"gm" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_13"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/buildings)
 "gq" = (
 /obj/effect/abstract/radiation/high,
 /obj/structure/stalker/antitank2,
@@ -744,10 +754,8 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "gX" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 7;
-	teleport_y = 98;
-	teleport_z = 13
+/obj/effect/step_trigger/named_teleporter{
+	destination = "wildterritory_14"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -888,6 +896,12 @@
 /obj/structure/closet/crate/stalker/blue/stash/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
+"hD" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_15"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/buildings)
 "hE" = (
 /obj/structure/flora/rock/pile,
 /obj/structure/flora/rock/pile,
@@ -932,6 +946,12 @@
 	opacity = 1
 	},
 /turf/closed/wall/stalker/bricks_yellow,
+/area/stalker/blowout/outdoor)
+"hV" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_4"
+	},
+/turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "hX" = (
 /obj/effect/abstract/radiation/medium,
@@ -1053,6 +1073,12 @@
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/buildings)
+"iX" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_12"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "iY" = (
 /obj/structure/stalker/car/btrgrimy{
 	icon_state = "5"
@@ -1158,6 +1184,12 @@
 /obj/structure/flora/stalker/bush,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
+"jF" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_8"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "jG" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
 /obj/effect/abstract/radiation/medium,
@@ -1199,16 +1231,20 @@
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
+"ka" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_18"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "kc" = (
 /obj/structure/flora/stalker/smallbush,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "kf" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 4;
-	teleport_y = 76;
-	teleport_z = 13
+	destination = "wildterritory_20"
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
@@ -1329,6 +1365,12 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
+"kK" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_6"
+	},
+/turf/open/stalker/floor/agroprom/beton,
+/area/stalker/blowout/outdoor)
 "kO" = (
 /obj/effect/abstract/radiation/high,
 /obj/effect/abstract/radiation/high,
@@ -1347,11 +1389,9 @@
 /turf/open/stalker/floor/digable/grass/swamp,
 /area/stalker/blowout/outdoor)
 "kT" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 42;
-	teleport_y = 77;
-	teleport_z = 13
+	destination = "wildterritory_11"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -1414,11 +1454,9 @@
 	icon_state = "border8";
 	tag = "icon-border8"
 	},
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 248;
-	teleport_y = 213;
-	teleport_z = 6
+	destination = "svalka_22"
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
@@ -1504,11 +1542,9 @@
 	icon_state = "border8";
 	tag = "icon-border8"
 	},
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 248;
-	teleport_y = 213;
-	teleport_z = 6
+	destination = "svalka_22"
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
@@ -1824,11 +1860,9 @@
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
 "nD" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 182;
-	teleport_y = 15;
-	teleport_z = 13
+	destination = "wildterritory_4"
 	},
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
@@ -1881,19 +1915,15 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
 "nQ" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 15;
-	teleport_y = 130;
-	teleport_z = 13
+	destination = "wildterritory_12"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
 "nR" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 71;
-	teleport_y = 3;
-	teleport_z = 8
+/obj/effect/step_trigger/named_teleporter{
+	destination = "yantar_5"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -2324,11 +2354,9 @@
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/blowout/outdoor)
 "rA" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 182;
-	teleport_y = 17;
-	teleport_z = 13
+	destination = "wildterritory_6"
 	},
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
@@ -2457,11 +2485,9 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "st" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 42;
-	teleport_y = 76;
-	teleport_z = 13
+	destination = "wildterritory_10"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -2539,6 +2565,12 @@
 /obj/structure/stalker/car/gryzovik/east{
 	icon_state = "5";
 	tag = "icon-5"
+	},
+/turf/open/stalker/floor/digable/gryaz_rocky,
+/area/stalker/blowout/buildings)
+"sX" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_9"
 	},
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
@@ -2654,10 +2686,8 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "uc" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 8;
-	teleport_y = 98;
-	teleport_z = 13
+/obj/effect/step_trigger/named_teleporter{
+	destination = "wildterritory_15"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -3030,11 +3060,9 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "xg" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 9;
-	teleport_y = 39;
-	teleport_z = 13
+	destination = "wildterritory_17"
 	},
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
@@ -3239,6 +3267,12 @@
 /obj/structure/stalker/cacheable/yashik,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
+"yQ" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_20"
+	},
+/turf/open/stalker/floor/digable/gryaz_rocky,
+/area/stalker/blowout/buildings)
 "yR" = (
 /obj/structure/stalker/bigyashik{
 	dir = 8;
@@ -3343,11 +3377,9 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
 "zP" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 9;
-	teleport_y = 40;
-	teleport_z = 13
+	destination = "wildterritory_18"
 	},
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
@@ -3422,11 +3454,9 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "An" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 4;
-	teleport_y = 75;
-	teleport_z = 13
+	destination = "wildterritory_19"
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
@@ -3485,12 +3515,9 @@
 "AI" = (
 /obj/structure/stalker/cacheable/truba/vert,
 /obj/structure/stalker/bar_plitka,
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	opacity = 1;
-	teleport_x = 6;
-	teleport_y = 127;
-	teleport_z = 4
+	destination = "bar_16"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
@@ -3895,6 +3922,12 @@
 /obj/structure/flora/rock,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
+"DV" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_10"
+	},
+/turf/open/stalker/floor/digable/gryaz_rocky,
+/area/stalker/blowout/buildings)
 "DY" = (
 /obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
@@ -4004,6 +4037,12 @@
 	pixel_y = 2
 	},
 /turf/open/stalker/floor/lattice,
+/area/stalker/blowout/buildings)
+"EU" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_19"
+	},
+/turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
 "EV" = (
 /obj/structure/closet/crate/stalker/blue/stash/medium,
@@ -4326,6 +4365,12 @@
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
+"Hy" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_5"
+	},
+/turf/open/stalker/floor/agroprom/beton,
+/area/stalker/blowout/outdoor)
 "Hz" = (
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
@@ -4474,10 +4519,8 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "IG" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 72;
-	teleport_y = 3;
-	teleport_z = 8
+/obj/effect/step_trigger/named_teleporter{
+	destination = "yantar_6"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -4487,6 +4530,12 @@
 "IN" = (
 /obj/effect/zona_anomaly/vortex,
 /turf/open/stalker/floor/digable/grass,
+/area/stalker/blowout/outdoor)
+"IR" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_7"
+	},
+/turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "IU" = (
 /obj/machinery/campfire,
@@ -4625,6 +4674,12 @@
 /obj/structure/flora/rock/pile/jungle/large,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
+"Kd" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_21"
+	},
+/turf/open/stalker/floor/digable/gryaz_rocky,
+/area/stalker/blowout/buildings)
 "Ke" = (
 /obj/structure/closet/crate/stalker/blue/stash/medium,
 /turf/open/stalker/floor/road,
@@ -4768,6 +4823,12 @@
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
+"KZ" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_16"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "Ld" = (
 /obj/structure/stalker/rails{
 	icon_state = "r";
@@ -4783,6 +4844,12 @@
 /obj/structure/flora/bush/ferny/style_random,
 /obj/structure/flora/bush/wildplant/root,
 /turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor)
+"Li" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_17"
+	},
+/turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "Lk" = (
 /obj/structure/grille/stalker/beton{
@@ -5017,11 +5084,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Ne" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 9;
-	teleport_y = 38;
-	teleport_z = 13
+	destination = "wildterritory_16"
 	},
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
@@ -5366,11 +5431,9 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "Py" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 4;
-	teleport_y = 77;
-	teleport_z = 13
+	destination = "wildterritory_21"
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
@@ -5424,6 +5487,12 @@
 	},
 /obj/effect/decal/cleanable/blood/bubblegum,
 /turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor)
+"Qo" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_3"
+	},
+/turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "Qq" = (
 /obj/effect/turf_decal/stripes/full{
@@ -5621,6 +5690,12 @@
 /obj/effect/abstract/radiation/medium,
 /obj/structure/closet/crate/stalker/blue/stash/low,
 /turf/open/stalker/floor/digable/gryaz_rocky,
+/area/stalker/blowout/outdoor)
+"Su" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_2"
+	},
+/turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "Sw" = (
 /obj/effect/spawner/random/stalker/junk,
@@ -5906,6 +5981,12 @@
 /obj/machinery/light,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/buildings)
+"Uo" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_1"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor)
 "Up" = (
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/medium,
@@ -5945,11 +6026,9 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/buildings)
 "Uv" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 14;
-	teleport_y = 130;
-	teleport_z = 13
+	destination = "wildterritory_8"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
@@ -6072,6 +6151,12 @@
 	},
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
+"VB" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "wildterritory_14"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/buildings)
 "VE" = (
 /obj/structure/grille/stalker/beton{
 	icon_state = "|";
@@ -6213,11 +6298,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "WO" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 42;
-	teleport_y = 75;
-	teleport_z = 13
+	destination = "wildterritory_9"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -6257,11 +6340,9 @@
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
 "Xq" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 182;
-	teleport_y = 16;
-	teleport_z = 13
+	destination = "wildterritory_5"
 	},
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
@@ -6401,10 +6482,8 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "Yv" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 6;
-	teleport_y = 98;
-	teleport_z = 13
+/obj/effect/step_trigger/named_teleporter{
+	destination = "wildterritory_13"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -7566,9 +7645,9 @@ Uj
 ah
 ah
 jA
-jA
-jA
-jA
+Kd
+yQ
+EU
 jA
 ah
 ah
@@ -8059,7 +8138,7 @@ hP
 hP
 Uj
 at
-ir
+gm
 ir
 ir
 jA
@@ -8316,7 +8395,7 @@ hP
 hP
 Uj
 Uv
-ir
+VB
 ir
 jA
 it
@@ -8573,7 +8652,7 @@ hP
 hP
 Uj
 nQ
-ir
+hD
 jA
 jA
 jA
@@ -8888,9 +8967,9 @@ ah
 ah
 ah
 ah
-Oe
-Oe
-Oe
+ka
+Li
+KZ
 ah
 ah
 ah
@@ -9826,7 +9905,7 @@ Oe
 Oe
 Oe
 Oe
-Oe
+IR
 Yv
 bZ
 hP
@@ -10083,7 +10162,7 @@ Oe
 Oe
 Oe
 Oe
-Oe
+jF
 gX
 bZ
 hP
@@ -10340,7 +10419,7 @@ Oe
 Oe
 Oe
 Oe
-Oe
+iX
 uc
 bZ
 hP
@@ -17332,9 +17411,9 @@ Uj
 ah
 ah
 ah
-jA
-jA
-jA
+bp
+DV
+sX
 ah
 ah
 ah
@@ -21262,7 +21341,7 @@ Oe
 Oe
 Oe
 Oe
-Oe
+Su
 nR
 "}
 (58,1,1) = {"
@@ -21519,7 +21598,7 @@ Oe
 Oe
 Oe
 Oe
-Oe
+Qo
 IG
 "}
 (59,1,1) = {"
@@ -53372,9 +53451,9 @@ Uj
 Uj
 Uj
 pa
-pa
-pa
-pa
+kK
+Hy
+hV
 pa
 Uj
 Uj
@@ -56822,7 +56901,7 @@ Uj
 eQ
 Oe
 hP
-hP
+Uo
 hP
 Uj
 Or

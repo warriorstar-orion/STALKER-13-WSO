@@ -2,6 +2,14 @@
 "aa" = (
 /turf/closed/mineral,
 /area/stalker)
+"ab" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_1"
+	},
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/effect/abstract/radiation/medium,
+/turf/open/stalker/floor/dirt,
+/area/stalker)
 "ac" = (
 /obj/structure/grille/stalker/beton{
 	icon_state = "|";
@@ -37,20 +45,16 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "ak" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 102;
-	teleport_y = 2;
-	teleport_z = 4
+	destination = "bar_10"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "al" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 104;
-	teleport_y = 2;
-	teleport_z = 4
+	destination = "bar_11"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -345,10 +349,8 @@
 	icon_state = "border8";
 	tag = "icon-border8"
 	},
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 188;
-	teleport_y = 211;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_18"
 	},
 /turf/open/floor/iron/stairs{
 	dir = 1;
@@ -486,11 +488,9 @@
 	icon_state = "border2";
 	tag = "icon-border2"
 	},
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 182;
-	teleport_y = 226;
-	teleport_z = 6
+	destination = "svalka_19"
 	},
 /turf/open/floor/iron/stairs{
 	dir = 1;
@@ -980,11 +980,9 @@
 	icon_state = "border8";
 	tag = "icon-border8"
 	},
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 88;
-	teleport_y = 123;
-	teleport_z = 6
+	destination = "svalka_13"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/bandit)
@@ -1185,12 +1183,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "dR" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	icon_state = "up";
-	teleport_x = 216;
-	teleport_y = 105;
-	teleport_z = 6
+	destination = "svalka_21"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/mercenary)
@@ -1263,10 +1258,8 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "ef" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 233;
-	teleport_y = 111;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_20"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/mercenary)
@@ -3010,10 +3003,8 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 84;
-	teleport_y = 173;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_14"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings)
@@ -3349,11 +3340,9 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/kordon/banditbar)
 "ju" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 247;
-	teleport_y = 166;
-	teleport_z = 5
+	destination = "agroprom_57"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -3409,11 +3398,9 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/kordon/banditbar)
 "jH" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 247;
-	teleport_y = 165;
-	teleport_z = 5
+	destination = "agroprom_56"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -3936,10 +3923,8 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 131;
-	teleport_y = 47;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_16"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/svalka/tunnel)
@@ -3954,10 +3939,8 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 132;
-	teleport_y = 47;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_17"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/svalka/tunnel)
@@ -4006,10 +3989,8 @@
 	icon_state = "border2";
 	tag = "icon-border2"
 	},
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 131;
-	teleport_y = 54;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_15"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/svalka/tunnel)
@@ -4024,10 +4005,8 @@
 	icon_state = "border2";
 	tag = "icon-border2"
 	},
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 131;
-	teleport_y = 54;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_15"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/svalka/tunnel)
@@ -4481,10 +4460,8 @@
 	},
 /area/stalker/blowout/outdoor)
 "nx" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 117;
-	teleport_y = 247;
-	teleport_z = 3
+/obj/effect/step_trigger/named_teleporter{
+	destination = "kordon_34"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -4573,11 +4550,9 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/mercenary)
 "nX" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 91;
-	teleport_y = 240;
-	teleport_z = 2
+	destination = "under_91"
 	},
 /turf/open/stalker/floor/dirt,
 /area/stalker)
@@ -4623,11 +4598,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "oi" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 101;
-	teleport_y = 2;
-	teleport_z = 4
+	destination = "bar_9"
 	},
 /obj/structure/grille/stalker/beton{
 	icon_state = "l4";
@@ -4648,6 +4621,14 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
+"oo" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_5"
+	},
+/turf/open/stalker/floor/gryaz{
+	layer = 1.8
+	},
+/area/stalker/kordon/tunnel)
 "op" = (
 /obj/machinery/light,
 /turf/open/stalker/floor/sidor,
@@ -4814,6 +4795,22 @@
 /obj/structure/stalker/radiation,
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
+"pW" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_13"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border4";
+	tag = "icon-border4"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border8";
+	tag = "icon-border8"
+	},
+/turf/open/floor/iron/stairs,
+/area/stalker/buildings)
 "qb" = (
 /turf/closed/indestructible/riveted/boss{
 	name = "decrepid wall"
@@ -4842,10 +4839,8 @@
 /turf/closed/wall/rust,
 /area/stalker)
 "qr" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 62;
-	teleport_y = 253;
-	teleport_z = 3
+/obj/effect/step_trigger/named_teleporter{
+	destination = "kordon_31"
 	},
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
@@ -4920,6 +4915,14 @@
 /obj/structure/stalker/doski/doski_alt3,
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor)
+"qJ" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_4"
+	},
+/turf/open/stalker/floor/gryaz{
+	layer = 1.8
+	},
+/area/stalker/kordon/tunnel)
 "qK" = (
 /obj/effect/zona_anomaly/springboard,
 /obj/effect/abstract/radiation/medium,
@@ -5105,6 +5108,12 @@
 	layer = 1.8
 	},
 /area/stalker/blowout/outdoor)
+"rZ" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_2"
+	},
+/turf/open/stalker/floor/dirt,
+/area/stalker)
 "sb" = (
 /obj/effect/abstract/radiation/medium,
 /obj/structure/stalker/doski/doski_alt3,
@@ -5185,6 +5194,45 @@
 /obj/structure/stalker/blocks/block2,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
+"sE" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_19"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border4";
+	tag = "icon-border4"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border8";
+	tag = "icon-border8"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border2";
+	tag = "icon-border2"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border8";
+	tag = "icon-border8"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border4";
+	tag = "icon-border4"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border2";
+	tag = "icon-border2"
+	},
+/turf/open/floor/iron/stairs{
+	dir = 1;
+	tag = "icon-stairs (NORTH)"
+	},
+/area/stalker/svalka/cellar)
 "sF" = (
 /obj/structure/stalker/bigyashik{
 	icon_state = "bigyashik 1,0";
@@ -5572,6 +5620,12 @@
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/kordon/banditbar)
+"vK" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_9"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "vP" = (
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/wood/grey,
@@ -5669,6 +5723,12 @@
 /obj/structure/stalker/cacheable/shina3,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
+"wL" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_20"
+	},
+/turf/open/floor/iron/stairs,
+/area/stalker/buildings/mercenary)
 "wN" = (
 /obj/effect/abstract/radiation/low,
 /turf/closed/mineral,
@@ -5808,6 +5868,42 @@
 /obj/structure/stalker/cacheable/musor_yashik/red,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
+"xV" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_14"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border4";
+	tag = "icon-border4"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border4";
+	tag = "icon-border4"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border8";
+	tag = "icon-border8"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border8";
+	tag = "icon-border8"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border1";
+	tag = "icon-border1"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border1";
+	tag = "icon-border1"
+	},
+/turf/open/floor/iron/stairs,
+/area/stalker/buildings/bandit)
 "xY" = (
 /obj/effect/abstract/radiation/low,
 /obj/effect/zona_anomaly/fruit_punch,
@@ -6038,11 +6134,9 @@
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "zZ" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 108;
-	teleport_y = 215;
-	teleport_z = 2
+	destination = "under_90"
 	},
 /turf/open/stalker/floor/dirt,
 /area/stalker)
@@ -6157,12 +6251,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Be" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	opacity = 1;
-	teleport_x = 3;
-	teleport_y = 121;
-	teleport_z = 12
+	destination = "darkdolina_1"
 	},
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
@@ -6430,11 +6521,9 @@
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "Dg" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 105;
-	teleport_y = 2;
-	teleport_z = 4
+	destination = "bar_12"
 	},
 /obj/structure/grille/stalker/beton{
 	icon_state = "|";
@@ -6705,10 +6794,8 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/kordon/banditbar)
 "Fh" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 63;
-	teleport_y = 253;
-	teleport_z = 3
+/obj/effect/step_trigger/named_teleporter{
+	destination = "kordon_32"
 	},
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
@@ -7024,6 +7111,25 @@
 /obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
+"HP" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_18"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border4";
+	tag = "icon-border4"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border8";
+	tag = "icon-border8"
+	},
+/turf/open/floor/iron/stairs{
+	dir = 1;
+	tag = "icon-stairs (NORTH)"
+	},
+/area/stalker/svalka/buildings)
 "HQ" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe3{
 	dir = 4
@@ -7091,6 +7197,14 @@
 	},
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
+"Ii" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_3"
+	},
+/turf/open/stalker/floor/gryaz{
+	layer = 1.8
+	},
+/area/stalker/kordon/tunnel)
 "Ij" = (
 /obj/structure/stalker/bigyashik/melkiy,
 /turf/open/stalker/floor/gryaz,
@@ -7233,6 +7347,12 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
+"JE" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_21"
+	},
+/turf/open/floor/iron/stairs,
+/area/stalker/buildings/mercenary)
 "JH" = (
 /obj/structure/stalker/cacheable/cover,
 /turf/open/stalker/floor/digable/grass/dump,
@@ -7275,6 +7395,12 @@
 /obj/structure/stalker/list,
 /turf/open/stalker/floor/lattice,
 /area/stalker/svalka/cellar)
+"JZ" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_12"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "Kc" = (
 /obj/structure/stalker/blocks/block3/m,
 /turf/open/stalker/floor/digable/grass/dump,
@@ -7372,6 +7498,12 @@
 	},
 /obj/structure/grille/stalker{
 	icon_state = "fence3"
+	},
+/turf/open/stalker/floor/digable/grass/dump,
+/area/stalker/blowout/outdoor)
+"KI" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_22"
 	},
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
@@ -7526,6 +7658,18 @@
 "LD" = (
 /obj/structure/stalker/blocks/block3/r,
 /turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
+"LG" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_16"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border8";
+	tag = "icon-border8"
+	},
+/obj/effect/abstract/radiation/low,
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "LJ" = (
 /obj/machinery/campfire/barrel,
@@ -7712,6 +7856,12 @@
 /obj/machinery/microwave/potbelly,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/kordon/banditbar)
+"Nm" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_10"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "Nn" = (
 /obj/structure/stalker/cacheable/televizor/broken,
 /obj/machinery/light/floor,
@@ -7827,6 +7977,18 @@
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/dirt,
 /area/stalker)
+"NO" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_17"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border4";
+	tag = "icon-border4"
+	},
+/obj/effect/abstract/radiation/low,
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor)
 "NV" = (
 /obj/structure/stalker/blocks/vanish/shlagbaum1/shlagbaum2{
 	dir = 1;
@@ -7875,6 +8037,18 @@
 /obj/structure/stalker/blocks/vanish/sandbags,
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
+"Oy" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_15"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border8";
+	tag = "icon-border8"
+	},
+/obj/effect/abstract/radiation/medium,
+/turf/open/stalker/floor/gryaz,
+/area/stalker/svalka/tunnel)
 "OC" = (
 /obj/structure/stalker/car/mi24{
 	icon_state = "4,1"
@@ -8380,10 +8554,8 @@
 	},
 /area/stalker/blowout/outdoor)
 "RO" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 64;
-	teleport_y = 253;
-	teleport_z = 3
+/obj/effect/step_trigger/named_teleporter{
+	destination = "kordon_33"
 	},
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
@@ -9209,6 +9381,12 @@
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
+"Xn" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_8"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "Xr" = (
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
@@ -9400,11 +9578,23 @@
 /obj/structure/stalker/doski/doski_alt4,
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor)
+"YY" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_7"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "YZ" = (
 /obj/structure/closet/stalker/shkaf,
 /obj/effect/spawner/random/stalker/food,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/mercenary)
+"Za" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_6"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "Zb" = (
 /obj/structure/stalker/bigyashik{
 	dir = 8;
@@ -9456,6 +9646,12 @@
 "Zt" = (
 /obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/agroprom/gryaz,
+/area/stalker/blowout/outdoor)
+"Zv" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "svalka_11"
+	},
+/turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Zw" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
@@ -11462,8 +11658,8 @@ PJ
 PJ
 PJ
 PJ
-ad
-ad
+JZ
+Zv
 ad
 ad
 ad
@@ -21514,7 +21710,7 @@ MN
 aa
 WQ
 aa
-WQ
+rZ
 WQ
 MN
 MN
@@ -30933,7 +31129,7 @@ bs
 bs
 pt
 do
-dq
+xV
 cM
 pt
 bs
@@ -32011,7 +32207,7 @@ hy
 HN
 Ku
 Ku
-No
+pW
 iy
 HN
 iK
@@ -35472,7 +35668,7 @@ Av
 Po
 Po
 Po
-Po
+Ii
 qr
 aa
 "}
@@ -35729,7 +35925,7 @@ Av
 AB
 Av
 Av
-Po
+qJ
 Fh
 aa
 "}
@@ -35986,7 +36182,7 @@ Av
 Av
 Av
 Po
-Po
+oo
 RO
 aa
 "}
@@ -42666,7 +42862,7 @@ MN
 aa
 WQ
 aa
-CV
+ab
 CV
 xx
 zL
@@ -43131,14 +43327,14 @@ bu
 bu
 lu
 bu
-kj
+Oy
 lx
 bs
 bs
 bs
 bs
 lJ
-kG
+LG
 bH
 bH
 mS
@@ -43395,7 +43591,7 @@ bs
 bs
 bs
 lK
-bx
+NO
 bH
 bH
 mp
@@ -46786,7 +46982,7 @@ aa
 "}
 (146,1,1) = {"
 oi
-ad
+YY
 ad
 ad
 ad
@@ -47043,7 +47239,7 @@ aa
 "}
 (147,1,1) = {"
 ak
-ad
+Xn
 ad
 ad
 ad
@@ -47300,7 +47496,7 @@ aa
 "}
 (148,1,1) = {"
 al
-ad
+vK
 ad
 ad
 ad
@@ -47557,7 +47753,7 @@ aa
 "}
 (149,1,1) = {"
 Dg
-ad
+Nm
 ad
 ad
 ad
@@ -49602,7 +49798,7 @@ ad
 ad
 ad
 ad
-ad
+Za
 nx
 ad
 ad
@@ -56066,7 +56262,7 @@ ag
 ba
 bb
 bh
-bj
+sE
 bl
 ba
 aa
@@ -57623,7 +57819,7 @@ PJ
 PJ
 pN
 bI
-bP
+HP
 Mn
 pN
 Mn
@@ -64925,7 +65121,7 @@ Rj
 Rj
 Rj
 QF
-sr
+JE
 ef
 cw
 dh
@@ -69288,7 +69484,7 @@ dh
 dh
 YH
 dR
-sr
+wL
 SF
 SF
 WK
@@ -73041,7 +73237,7 @@ PJ
 PJ
 dA
 PJ
-PJ
+KI
 PJ
 PJ
 PJ

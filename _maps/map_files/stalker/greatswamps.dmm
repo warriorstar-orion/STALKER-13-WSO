@@ -289,11 +289,9 @@
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)
 "OX" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 9;
-	teleport_y = 167;
-	teleport_z = 3
+	destination = "kordon_35"
 	},
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)

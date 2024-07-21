@@ -1,9 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 195;
-	teleport_y = 207;
-	teleport_z = 9
+/obj/effect/step_trigger/named_teleporter{
+	destination = "armywarehouses_4"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -1205,10 +1203,8 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "dF" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 5;
-	teleport_y = 96;
-	teleport_z = 7
+/obj/effect/step_trigger/named_teleporter{
+	destination = "radar_1"
 	},
 /obj/effect/abstract/radiation/high,
 /turf/open/floor/fakepit,
@@ -1306,10 +1302,8 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings)
 "dV" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 18;
-	teleport_y = 87;
-	teleport_z = 7
+/obj/effect/step_trigger/named_teleporter{
+	destination = "radar_9"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
@@ -1849,11 +1843,9 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/buildings)
 "fN" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 200;
-	teleport_y = 121;
-	teleport_z = 7
+	destination = "radar_3"
 	},
 /turf/open/stalker/floor/water,
 /area/stalker/buildings)
@@ -2021,10 +2013,8 @@
 /area/stalker/buildings)
 "gr" = (
 /obj/effect/abstract/radiation/medium,
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 20;
-	teleport_y = 87;
-	teleport_z = 7
+/obj/effect/step_trigger/named_teleporter{
+	destination = "radar_11"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
@@ -2117,6 +2107,12 @@
 	dir = 4
 	},
 /turf/open/stalker/floor/plasteel/plitka,
+/area/stalker/buildings)
+"gJ" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_1"
+	},
+/turf/open/stalker/floor/dirt,
 /area/stalker/buildings)
 "gK" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
@@ -2409,11 +2405,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "hD" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 91;
-	teleport_y = 117;
-	teleport_z = 7
+	destination = "radar_7"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
@@ -2862,11 +2856,9 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "jg" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 5;
-	teleport_y = 96;
-	teleport_z = 7
+	destination = "radar_1"
 	},
 /obj/effect/abstract/radiation/high,
 /turf/open/floor/fakepit,
@@ -2890,6 +2882,16 @@
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
+"jm" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_12"
+	},
+/obj/effect/step_trigger/named_teleporter{
+	dir = 1;
+	destination = "radar_4"
+	},
+/turf/open/stalker/floor/agroprom/gryaz,
+/area/stalker/buildings)
 "jn" = (
 /obj/effect/abstract/radiation/medium,
 /obj/effect/zona_anomaly/electro,
@@ -4231,11 +4233,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "nI" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 200;
-	teleport_y = 121;
-	teleport_z = 7
+	destination = "radar_3"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
@@ -5603,6 +5603,13 @@
 /obj/structure/stalker/broke_table,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
+"sj" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_10"
+	},
+/obj/effect/abstract/radiation/medium,
+/turf/open/stalker/floor/asphalt,
+/area/stalker/buildings)
 "sk" = (
 /obj/structure/barricade/wooden,
 /turf/closed/mineral,
@@ -6003,6 +6010,12 @@
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings/radar)
+"ty" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_6"
+	},
+/turf/open/stalker/floor/agroprom/gryaz,
+/area/stalker/buildings)
 "tz" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
 	dir = 8;
@@ -7063,11 +7076,9 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "wI" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 113;
-	teleport_y = 224;
-	teleport_z = 7
+	destination = "radar_6"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
@@ -9067,6 +9078,12 @@
 /obj/structure/flora/tree/jungle/small,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
+"DA" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_13"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "DB" = (
 /obj/structure/stalker/doski/doski_alt,
 /obj/effect/abstract/radiation/low,
@@ -9714,6 +9731,13 @@
 /obj/structure/sign/poster/official/cohiba_robusto_ad,
 /turf/closed/wall/r_wall/rust,
 /area/stalker/buildings)
+"FD" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_9"
+	},
+/obj/effect/abstract/radiation/medium,
+/turf/open/stalker/floor/asphalt,
+/area/stalker/buildings)
 "FE" = (
 /obj/structure/stalker/cacheable/shina3{
 	pixel_x = -6
@@ -9727,11 +9751,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "FG" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 5;
-	teleport_y = 96;
-	teleport_z = 7
+	destination = "radar_1"
 	},
 /obj/effect/abstract/radiation/high,
 /turf/open/floor/fakepit,
@@ -9877,11 +9899,9 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/buildings)
 "Gh" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 219;
-	teleport_y = 3;
-	teleport_z = 7
+	destination = "radar_2"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
@@ -10950,10 +10970,8 @@
 /area/stalker/blowout/outdoor)
 "JD" = (
 /obj/effect/abstract/radiation/medium,
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 19;
-	teleport_y = 87;
-	teleport_z = 7
+/obj/effect/step_trigger/named_teleporter{
+	destination = "radar_10"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
@@ -11116,11 +11134,9 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Ke" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 5;
-	teleport_y = 96;
-	teleport_z = 7
+	destination = "radar_1"
 	},
 /obj/effect/abstract/radiation/high,
 /turf/open/floor/fakepit,
@@ -11442,6 +11458,12 @@
 	icon_state = "ends-s-n"
 	},
 /turf/open/stalker/floor/digable/grass,
+/area/stalker/blowout/outdoor)
+"Li" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_3"
+	},
+/turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "Lj" = (
 /obj/structure/table/stalker/wood,
@@ -11771,10 +11793,8 @@
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "Mm" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 105;
-	teleport_y = 96;
-	teleport_z = 7
+/obj/effect/step_trigger/named_teleporter{
+	destination = "radar_5"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
@@ -11850,11 +11870,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "MD" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 93;
-	teleport_y = 161;
-	teleport_z = 7
+	destination = "radar_8"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
@@ -12194,6 +12212,12 @@
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
+"NY" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_7"
+	},
+/turf/open/floor/wood/cold,
+/area/stalker/buildings)
 "Oa" = (
 /obj/machinery/door/poddoor/shuttledock,
 /turf/open/stalker/floor/asphalt,
@@ -12410,6 +12434,12 @@
 "OM" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/stalker/floor/agroprom/gryaz,
+/area/stalker/buildings)
+"ON" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_8"
+	},
+/turf/open/floor/wood/cold,
 /area/stalker/buildings)
 "OO" = (
 /obj/effect/decal/cleanable/blood/footprints,
@@ -12841,6 +12871,12 @@
 /obj/structure/barricade/stalker/woodalt,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/buildings)
+"Ql" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_5"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings)
 "Qm" = (
 /obj/structure/stalker/cacheable/shina3,
 /turf/open/stalker/floor/agroprom/gryaz,
@@ -13024,6 +13060,14 @@
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
+"QR" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_2"
+	},
+/obj/structure/stalker/doski,
+/obj/effect/abstract/radiation/medium,
+/turf/open/stalker/floor/asphalt,
+/area/stalker/buildings)
 "QS" = (
 /obj/item/trash/cigs_trash4,
 /turf/open/stalker/floor/gryaz,
@@ -13074,6 +13118,17 @@
 	},
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/plasteel/plita/orange,
+/area/stalker/buildings)
+"QZ" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_4"
+	},
+/obj/effect/abstract/radiation/medium,
+/obj/effect/step_trigger/named_teleporter{
+	dir = 4;
+	destination = "radar_12"
+	},
+/turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "Ra" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a{
@@ -13931,6 +13986,13 @@
 /obj/structure/spacevine,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/cave)
+"TF" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "radar_11"
+	},
+/obj/effect/abstract/radiation/medium,
+/turf/open/stalker/floor/asphalt,
+/area/stalker/buildings)
 "TG" = (
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "6";
@@ -17009,7 +17071,7 @@ jR
 jR
 wR
 vJ
-jR
+gJ
 vW
 NT
 NT
@@ -20359,7 +20421,7 @@ NT
 ER
 Oa
 Gh
-bg
+FD
 bg
 bg
 bg
@@ -20616,7 +20678,7 @@ NT
 ER
 SE
 Gh
-bg
+sj
 bg
 hT
 bg
@@ -20873,7 +20935,7 @@ NT
 Kr
 Oa
 Gh
-bg
+TF
 iJ
 yw
 bg
@@ -30101,7 +30163,7 @@ Xc
 NT
 NT
 vW
-ek
+jm
 Mv
 Mv
 Mv
@@ -39090,7 +39152,7 @@ Nm
 Nm
 Nm
 Nm
-Nm
+NY
 Mm
 vW
 NT
@@ -39560,7 +39622,7 @@ NT
 NT
 vW
 wI
-Nm
+ON
 Nm
 PP
 Rk
@@ -42709,7 +42771,7 @@ VO
 HS
 FM
 Cd
-Cd
+Ql
 vW
 NT
 NT
@@ -44637,7 +44699,7 @@ NT
 NT
 NT
 MD
-Mv
+ty
 Mv
 Mv
 Xs
@@ -67099,7 +67161,7 @@ Xc
 Vt
 Xg
 pD
-XI
+Li
 zB
 XI
 XI
@@ -72100,7 +72162,7 @@ mK
 Hd
 zr
 bg
-MV
+QR
 JD
 ZV
 "}
@@ -75479,7 +75541,7 @@ ac
 Kr
 Fu
 bg
-qp
+QZ
 bi
 Kr
 ac
@@ -76464,7 +76526,7 @@ pP
 YF
 YF
 YF
-YF
+DA
 aa
 XK
 YF

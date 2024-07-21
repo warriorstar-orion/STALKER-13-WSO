@@ -212,12 +212,9 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "aU" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	icon_state = "up";
-	teleport_x = 169;
-	teleport_y = 246;
-	teleport_z = 1
+	destination = "backwater_44"
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 8;
@@ -247,12 +244,9 @@
 	},
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "aY" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	icon_state = "up";
-	teleport_x = 113;
-	teleport_y = 124;
-	teleport_z = 1
+	destination = "backwater_46"
 	},
 /turf/open/floor/plasteel/stairs/left/stalker{
 	dir = 8
@@ -279,12 +273,9 @@
 	},
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "bc" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	icon_state = "up";
-	teleport_x = 113;
-	teleport_y = 123;
-	teleport_z = 1
+	destination = "backwater_45"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -547,6 +538,14 @@
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
+"cl" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_45"
+	},
+/turf/open/floor/plasteel/stairs/right/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/backwater/skadovsk)
 "cm" = (
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
@@ -604,11 +603,9 @@
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "cy" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 64;
-	teleport_y = 254;
-	teleport_z = 2
+	destination = "under_9"
 	},
 /turf/open/floor/plasteel/stairs/medium/stalker{
 	dir = 8
@@ -812,6 +809,12 @@
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater)
+"dq" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_36"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "dr" = (
 /obj/structure/stalker/car/gryzovik/east{
 	icon_state = "7";
@@ -893,11 +896,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings/backwater/burntfarm)
 "dK" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 55;
-	teleport_y = 248;
-	teleport_z = 1
+	destination = "backwater_21"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -1099,11 +1100,9 @@
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "eR" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 3;
-	teleport_y = 252;
-	teleport_z = 1
+	destination = "backwater_6"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -1123,11 +1122,9 @@
 	},
 /area/stalker/blowout/buildings/backwater/burntfarm)
 "eV" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 3;
-	teleport_y = 251;
-	teleport_z = 1
+	destination = "backwater_5"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -1138,10 +1135,8 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings/backwater/burntfarm)
 "eX" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 74;
-	teleport_y = 253;
-	teleport_z = 2
+/obj/effect/step_trigger/named_teleporter{
+	destination = "under_12"
 	},
 /turf/open/floor/iron/stairs{
 	dir = 1
@@ -1160,13 +1155,16 @@
 /turf/open/chasm/lavaland,
 /area/stalker)
 "fb" = (
-/obj/effect/step_trigger/teleporter{
-	icon_state = "up";
-	teleport_x = 16;
-	teleport_y = 229;
-	teleport_z = 1
+/obj/effect/step_trigger/named_teleporter{
+	destination = "backwater_1"
 	},
 /turf/open/floor/iron/stairs,
+/area/stalker/buildings/backwater/sawmill)
+"fd" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_10"
+	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
 "fe" = (
 /obj/structure/stalker/cacheable/polka,
@@ -1440,6 +1438,12 @@
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater)
+"gi" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_11"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings/backwater/sawmill)
 "gj" = (
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/outdoor/backwater)
@@ -1942,6 +1946,21 @@
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/shevchenko)
+"is" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_19"
+	},
+/obj/structure/stalker/cacheable/body,
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
+"iw" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_46"
+	},
+/turf/open/floor/plasteel/stairs/left/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/backwater/skadovsk)
 "ix" = (
 /obj/structure/barricade/stalker/box,
 /turf/open/stalker/floor/lattice,
@@ -1953,6 +1972,14 @@
 /obj/structure/stalker/cacheable/polka,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/clearsky)
+"iB" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_38"
+	},
+/turf/open/floor/plasteel/stairs/left/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/backwater/skadovsk_respawn)
 "iD" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -1984,6 +2011,12 @@
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/shevchenko)
+"iJ" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_52"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor/backwater)
 "iK" = (
 /obj/structure/stalker/propane/dual,
 /turf/open/stalker/floor/lattice,
@@ -1998,26 +2031,20 @@
 	},
 /area/stalker/blowout/outdoor/backwater/shevchenko)
 "iN" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 39;
-	teleport_y = 166;
-	teleport_z = 2
+/obj/effect/step_trigger/named_teleporter{
+	destination = "under_1"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "iO" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 40;
-	teleport_y = 166;
-	teleport_z = 2
+/obj/effect/step_trigger/named_teleporter{
+	destination = "under_2"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "iP" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 41;
-	teleport_y = 166;
-	teleport_z = 2
+/obj/effect/step_trigger/named_teleporter{
+	destination = "under_3"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
@@ -2211,11 +2238,9 @@
 	},
 /area/stalker/buildings/backwater/shevchenko)
 "jz" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 109;
-	teleport_y = 253;
-	teleport_z = 1
+	destination = "backwater_24"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -3147,6 +3172,12 @@
 /obj/structure/stalker/propane,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/clearsky)
+"nv" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_23"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "nw" = (
 /obj/item/cigbutt,
 /obj/structure/sign/warning/no_smoking{
@@ -3445,11 +3476,9 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "oD" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 37;
-	teleport_y = 134;
-	teleport_z = 2
+	destination = "under_8"
 	},
 /turf/open/floor/plasteel/stairs/left/stalker{
 	dir = 8
@@ -3568,11 +3597,9 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "oY" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 37;
-	teleport_y = 133;
-	teleport_z = 2
+	destination = "under_7"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -3659,11 +3686,9 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk)
 "pl" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 192;
-	teleport_y = 247;
-	teleport_z = 1
+	destination = "backwater_38"
 	},
 /turf/open/floor/plasteel/stairs/left/stalker{
 	dir = 8
@@ -3738,11 +3763,9 @@
 	},
 /area/stalker/buildings/backwater/skadovsk)
 "py" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 192;
-	teleport_y = 246;
-	teleport_z = 1
+	destination = "backwater_37"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -3959,11 +3982,9 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater)
 "qj" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 80;
-	teleport_y = 254;
-	teleport_z = 2
+	destination = "under_24"
 	},
 /turf/open/floor/plasteel/stairs/left/stalker{
 	dir = 8
@@ -4108,11 +4129,9 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ranger)
 "qE" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 80;
-	teleport_y = 253;
-	teleport_z = 2
+	destination = "under_23"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -4517,29 +4536,23 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/buildings/clearsky)
 "sa" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 42;
-	teleport_y = 105;
-	teleport_z = 2
+	destination = "under_4"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "sb" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 43;
-	teleport_y = 105;
-	teleport_z = 2
+	destination = "under_5"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "sc" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 44;
-	teleport_y = 105;
-	teleport_z = 2
+	destination = "under_6"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
@@ -4613,11 +4626,9 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor/backwater)
 "sv" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 76;
-	teleport_y = 220;
-	teleport_z = 2
+	destination = "under_19"
 	},
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/claw)
@@ -4647,11 +4658,9 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater)
 "sC" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 76;
-	teleport_y = 219;
-	teleport_z = 2
+	destination = "under_18"
 	},
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/claw)
@@ -4805,11 +4814,9 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater)
 "tg" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 68;
-	teleport_y = 215;
-	teleport_z = 2
+	destination = "under_15"
 	},
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/claw)
@@ -4826,11 +4833,9 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor/backwater)
 "tk" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 68;
-	teleport_y = 214;
-	teleport_z = 2
+	destination = "under_14"
 	},
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/claw)
@@ -4886,20 +4891,16 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater)
 "tu" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 71;
-	teleport_y = 209;
-	teleport_z = 2
+	destination = "under_16"
 	},
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/claw)
 "tv" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 72;
-	teleport_y = 209;
-	teleport_z = 2
+	destination = "under_17"
 	},
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/claw)
@@ -5571,42 +5572,30 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
 "wb" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	icon_state = "up";
-	teleport_x = 156;
-	teleport_y = 39;
-	teleport_z = 1
+	destination = "backwater_39"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater/plateau)
 "wc" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	icon_state = "up";
-	teleport_x = 157;
-	teleport_y = 39;
-	teleport_z = 1
+	destination = "backwater_40"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater/plateau)
 "wd" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	icon_state = "up";
-	teleport_x = 158;
-	teleport_y = 39;
-	teleport_z = 1
+	destination = "backwater_41"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater/plateau)
 "we" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	icon_state = "up";
-	teleport_x = 159;
-	teleport_y = 39;
-	teleport_z = 1
+	destination = "backwater_42"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater/plateau)
@@ -6255,11 +6244,9 @@
 /turf/closed/mineral,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "yv" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 14;
-	teleport_y = 56;
-	teleport_z = 2
+	destination = "under_11"
 	},
 /turf/open/floor/plasteel/stairs/left/stalker{
 	dir = 8
@@ -6341,11 +6328,9 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/ironforest)
 "yJ" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 14;
-	teleport_y = 55;
-	teleport_z = 2
+	destination = "under_10"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -7115,18 +7100,14 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/waste)
 "BL" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 96;
-	teleport_y = 247;
-	teleport_z = 2
+/obj/effect/step_trigger/named_teleporter{
+	destination = "under_20"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/waste)
 "BM" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 97;
-	teleport_y = 247;
-	teleport_z = 2
+/obj/effect/step_trigger/named_teleporter{
+	destination = "under_21"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/waste)
@@ -7155,18 +7136,14 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/buildings/backwater/waste)
 "BS" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 128;
-	teleport_y = 247;
-	teleport_z = 2
+/obj/effect/step_trigger/named_teleporter{
+	destination = "under_22"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/waste)
 "BT" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 129;
-	teleport_y = 247;
-	teleport_z = 2
+/obj/effect/step_trigger/named_teleporter{
+	destination = "under_25"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/waste)
@@ -7278,10 +7255,8 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/substation)
 "Cr" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 141;
-	teleport_y = 249;
-	teleport_z = 2
+/obj/effect/step_trigger/named_teleporter{
+	destination = "under_13"
 	},
 /turf/open/floor/iron/stairs{
 	dir = 1
@@ -7369,6 +7344,19 @@
 /obj/structure/stalker/cacheable/radio,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/substation)
+"CN" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_29"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
+"CP" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_22"
+	},
+/obj/structure/stalker/cacheable/body,
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "CQ" = (
 /obj/structure/chair/stool/bar,
 /obj/effect/landmark/stalker/renegades/renegade,
@@ -7381,6 +7369,12 @@
 /obj/structure/chair/sofa,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
+"Dj" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_5"
+	},
+/turf/open/stalker/floor/wood/oldgor,
+/area/stalker/buildings/backwater/sawmill)
 "Dl" = (
 /obj/machinery/door/poddoor/shutters/preopen,
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big{
@@ -7388,12 +7382,15 @@
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
+"Dq" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_30"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "Ds" = (
-/obj/effect/step_trigger/teleporter{
-	icon_state = "up";
-	teleport_x = 17;
-	teleport_y = 229;
-	teleport_z = 1
+/obj/effect/step_trigger/named_teleporter{
+	destination = "backwater_4"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/sawmill)
@@ -7402,6 +7399,14 @@
 	icon_state = "hull2"
 	},
 /area/stalker)
+"DH" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_49"
+	},
+/turf/open/floor/plasteel/stairs/right/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/backwater/krug)
 "DI" = (
 /mob/living/simple_animal/hostile/mutant/controller,
 /turf/open/stalker/floor/lattice{
@@ -7409,21 +7414,16 @@
 	},
 /area/stalker)
 "DJ" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 98;
-	teleport_y = 253;
-	teleport_z = 1
+	destination = "backwater_33"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "DK" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	icon_state = "up";
-	teleport_x = 44;
-	teleport_y = 48;
-	teleport_z = 3
+	destination = "kordon_2"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
@@ -7455,12 +7455,9 @@
 /area/stalker)
 "DT" = (
 /obj/effect/abstract/radiation/low,
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	icon_state = "up";
-	teleport_x = 76;
-	teleport_y = 3;
-	teleport_z = 3
+	destination = "kordon_3"
 	},
 /turf/open/stalker/floor/water,
 /area/stalker)
@@ -7490,12 +7487,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings/renegade)
 "Ep" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	icon_state = "up";
-	teleport_x = 26;
-	teleport_y = 217;
-	teleport_z = 1
+	destination = "backwater_7"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -7505,11 +7499,35 @@
 /obj/structure/grille/stalker,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings/backwater/sawmill)
+"Ew" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_58"
+	},
+/turf/closed/wall/stalker/bricks_yellow,
+/area/stalker/buildings/backwater/sawmill)
 "Ex" = (
 /obj/structure/table/stalker/wood,
 /obj/effect/spawner/random/stalker/weapon/raresmgs,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater)
+"Ey" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_13"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings/backwater/sawmill)
+"EF" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_12"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
+"EI" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_32"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "EO" = (
 /obj/structure/bed/stalker/mattress_bloodstain,
 /obj/effect/landmark/stalker/renegades/renegade,
@@ -7526,6 +7544,30 @@
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings/backwater/sawmill)
+"EY" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_37"
+	},
+/turf/open/floor/plasteel/stairs/right/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/backwater/skadovsk_respawn)
+"Fa" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_50"
+	},
+/turf/open/floor/plasteel/stairs/left/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/backwater/krug)
+"Fd" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_66"
+	},
+/turf/open/floor/plasteel/stairs/left/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/clearsky)
 "Fg" = (
 /obj/structure/stalker/cacheable/polka,
 /obj/effect/spawner/random/stalker/junk,
@@ -7547,6 +7589,12 @@
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker)
+"FL" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_2"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings/backwater/sawmill)
 "FM" = (
 /obj/structure/stalker/modification_table,
 /turf/open/stalker/floor/gryaz,
@@ -7567,21 +7615,38 @@
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
 "FZ" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 85;
-	teleport_y = 252;
-	teleport_z = 1
+	destination = "backwater_28"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
+"Gb" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_1"
+	},
+/turf/open/floor/iron/stairs,
+/area/stalker/buildings/renegade)
 "Gc" = (
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
+"Gg" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_14"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings/backwater/sawmill)
 "Gh" = (
 /obj/structure/table/stalker/wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
+"Gi" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_42"
+	},
+/obj/structure/flora/stalker/bush,
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor/backwater)
 "Gn" = (
 /obj/machinery/button/door{
 	id = "regsafe";
@@ -7633,20 +7698,16 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/buildings/backwater/sawmill)
 "GE" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 44;
-	teleport_y = 250;
-	teleport_z = 1
+	destination = "backwater_18"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "GI" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 89;
-	teleport_y = 252;
-	teleport_z = 1
+	destination = "backwater_30"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -7684,6 +7745,20 @@
 /obj/machinery/microwave/barrelstove,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/backwater)
+"Hm" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_47"
+	},
+/turf/open/floor/plasteel/stairs/right/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/backwater/ironforest)
+"Hn" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_51"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor/backwater)
 "Hq" = (
 /obj/structure/stalker/car/btrgrimy,
 /turf/open/stalker/floor/lattice{
@@ -7696,12 +7771,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
 "HB" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	icon_state = "up";
-	teleport_x = 44;
-	teleport_y = 49;
-	teleport_z = 3
+	destination = "kordon_1"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
@@ -7741,6 +7813,12 @@
 /obj/effect/zona_anomaly/vortex,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
+"HR" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_63"
+	},
+/turf/open/stalker/floor/gryaz/gryaz3,
+/area/stalker/blowout/buildings/backwater/claw)
 "HX" = (
 /mob/living/simple_animal/hostile/mutant/poltergeist,
 /turf/open/stalker/floor/wood/oldgor,
@@ -7778,11 +7856,25 @@
 	},
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
+"Iy" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_65"
+	},
+/turf/open/floor/plasteel/stairs/right/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/clearsky)
 "IF" = (
 /obj/item/throwing_star,
 /obj/structure/stalker/cacheable/body,
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
+"IH" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_16"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings/backwater/sawmill)
 "IL" = (
 /obj/structure/closet/crate/stalker/blue,
 /turf/open/stalker/floor/wood/oldgor,
@@ -7792,17 +7884,21 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "IN" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 45;
-	teleport_y = 248;
-	teleport_z = 1
+	destination = "backwater_19"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker/buildings/backwater/sawmill)
 "IU" = (
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor/backwater/ironforest)
+"IY" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_67"
+	},
+/turf/open/floor/iron/stairs,
+/area/stalker/buildings/backwater/waste)
 "IZ" = (
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings/renegade)
@@ -7813,6 +7909,12 @@
 	},
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/renegade)
+"Jd" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_59"
+	},
+/turf/open/stalker/floor/gryaz/gryaz3,
+/area/stalker/blowout/buildings/backwater/claw)
 "Je" = (
 /obj/structure/table/stalker/wood/bar,
 /turf/open/stalker/floor/tropa,
@@ -7822,6 +7924,26 @@
 /obj/item/clothing/accessory/medal/bronze_heart,
 /turf/open/stalker/floor/gryaz,
 /area/stalker)
+"Ji" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_18"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker/buildings/backwater/sawmill)
+"Jm" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_34"
+	},
+/obj/structure/stalker/cacheable/body,
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
+"Jq" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_41"
+	},
+/obj/structure/flora/stalker/bush,
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor/backwater)
 "Jr" = (
 /obj/effect/zona_anomaly/vortex,
 /turf/closed/mineral,
@@ -7832,6 +7954,16 @@
 	icon_state = "lattice_new2"
 	},
 /area/stalker)
+"JG" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_43"
+	},
+/turf/open/floor/plasteel/stairs/stalker{
+	dir = 8;
+	icon_state = "ladder_right";
+	tag = "icon-ladder (EAST)"
+	},
+/area/stalker/buildings/backwater/skadovsk_respawn)
 "JI" = (
 /obj/structure/grille/stalker{
 	icon_state = "fence3"
@@ -7843,11 +7975,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "JR" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 64;
-	teleport_y = 251;
-	teleport_z = 1
+	destination = "backwater_26"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -7859,12 +7989,9 @@
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "JU" = (
 /obj/effect/abstract/radiation/low,
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	icon_state = "up";
-	teleport_x = 77;
-	teleport_y = 3;
-	teleport_z = 3
+	destination = "kordon_4"
 	},
 /turf/open/stalker/floor/water,
 /area/stalker)
@@ -7891,12 +8018,9 @@
 	},
 /area/stalker/buildings/backwater/sawmill)
 "Kd" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	icon_state = "up";
-	teleport_x = 4;
-	teleport_y = 247;
-	teleport_z = 1
+	destination = "backwater_3"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -7904,6 +8028,12 @@
 /area/stalker/buildings/backwater/sawmill)
 "Ke" = (
 /obj/structure/chair/sofa/right,
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings/backwater/sawmill)
+"Kf" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_17"
+	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
 "Kh" = (
@@ -7992,11 +8122,9 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/shevchenko)
 "Lh" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 103;
-	teleport_y = 252;
-	teleport_z = 1
+	destination = "backwater_35"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -8006,22 +8134,25 @@
 	icon_state = "lattice_new2"
 	},
 /area/stalker/blowout/outdoor/backwater/sawmill)
+"Ln" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_71"
+	},
+/turf/open/floor/iron/stairs{
+	dir = 1
+	},
+/area/stalker/buildings/backwater/substation)
 "Lo" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 85;
-	teleport_y = 249;
-	teleport_z = 1
+	destination = "backwater_31"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "Lq" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	icon_state = "up";
-	teleport_x = 4;
-	teleport_y = 246;
-	teleport_z = 1
+	destination = "backwater_2"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -8073,6 +8204,26 @@
 	icon_state = "lattice_new2"
 	},
 /area/stalker/buildings/backwater/sawmill)
+"LE" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_48"
+	},
+/turf/open/floor/plasteel/stairs/left/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/backwater/ironforest)
+"LF" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_73"
+	},
+/obj/effect/turf_decal/stripes/full{
+	density = 1;
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border4";
+	tag = "icon-border4"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/kordon/tunnel)
 "LH" = (
 /obj/effect/spawner/random/bustedcigs,
 /turf/open/stalker/floor/lattice,
@@ -8092,6 +8243,19 @@
 	},
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
+"LU" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_57"
+	},
+/obj/effect/abstract/radiation/medium,
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor/backwater/ironforest)
+"LX" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_56"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor/backwater)
 "LY" = (
 /obj/effect/zona_anomaly/vortex,
 /turf/open/lava,
@@ -8119,10 +8283,8 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
 "Mc" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 61;
-	teleport_y = 249;
-	teleport_z = 1
+/obj/effect/step_trigger/named_teleporter{
+	destination = "backwater_20"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -8134,11 +8296,9 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "Ml" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 68;
-	teleport_y = 251;
-	teleport_z = 1
+	destination = "backwater_25"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -8158,6 +8318,12 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/water,
 /area/stalker)
+"MH" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_68"
+	},
+/turf/open/floor/iron/stairs,
+/area/stalker/buildings/backwater/waste)
 "MP" = (
 /obj/structure/fluff/paper/stack/reactor,
 /turf/open/stalker/floor/digable/grass,
@@ -8167,12 +8333,9 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/backwater/sawmill)
 "MW" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	icon_state = "up";
-	teleport_x = 26;
-	teleport_y = 247;
-	teleport_z = 1
+	destination = "backwater_8"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
@@ -8195,6 +8358,18 @@
 /obj/machinery/light/small,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/renegade)
+"Nn" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_72"
+	},
+/obj/effect/turf_decal/stripes/full{
+	density = 1;
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border4";
+	tag = "icon-border4"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/kordon/tunnel)
 "Nu" = (
 /obj/machinery/light/small{
 	dir = 4;
@@ -8233,6 +8408,12 @@
 /obj/structure/grille/stalker,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings/renegade)
+"NW" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_61"
+	},
+/turf/open/stalker/floor/gryaz/gryaz3,
+/area/stalker/blowout/buildings/backwater/claw)
 "NX" = (
 /obj/structure/stalker/cacheable/shina3,
 /turf/open/stalker/floor/agroprom/beton,
@@ -8240,6 +8421,12 @@
 "NZ" = (
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/ironforest)
+"Oc" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_64"
+	},
+/turf/open/stalker/floor/gryaz/gryaz3,
+/area/stalker/blowout/buildings/backwater/claw)
 "Oe" = (
 /obj/structure/stalker/car/btrgrimy{
 	icon_state = "3"
@@ -8283,13 +8470,17 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings/backwater/sawmill)
 "Os" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 58;
-	teleport_y = 250;
-	teleport_z = 1
+/obj/effect/step_trigger/named_teleporter{
+	destination = "backwater_22"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
+"Ox" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_54"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor/backwater)
 "OB" = (
 /obj/structure/stalker/cacheable/polka,
 /obj/effect/spawner/random/stalker/kitchencondiments,
@@ -8301,6 +8492,12 @@
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
+"OG" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_27"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "OJ" = (
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/buildings/backwater/sawmill)
@@ -8334,11 +8531,9 @@
 	},
 /area/stalker/buildings/backwater/sawmill)
 "Pp" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 61;
-	teleport_y = 249;
-	teleport_z = 1
+	destination = "backwater_20"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -8347,12 +8542,16 @@
 /obj/effect/spawner/random/stalker/flasks,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater)
+"Pz" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_9"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings/backwater/sawmill)
 "PB" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 39;
-	teleport_y = 251;
-	teleport_z = 1
+	destination = "backwater_14"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
@@ -8414,6 +8613,20 @@
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/ironforest)
+"Qo" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_62"
+	},
+/turf/open/stalker/floor/gryaz/gryaz3,
+/area/stalker/blowout/buildings/backwater/claw)
+"Qr" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_7"
+	},
+/obj/structure/bed/stalker/mattress_bloody,
+/obj/effect/landmark/stalker/renegades/renegade,
+/turf/open/stalker/floor/wood/oldgor,
+/area/stalker/buildings/backwater/sawmill)
 "Qt" = (
 /obj/effect/zona_anomaly/burnt_fuzz,
 /obj/effect/zona_anomaly/burnt_fuzz,
@@ -8421,11 +8634,9 @@
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "Qu" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 102;
-	teleport_y = 253;
-	teleport_z = 1
+	destination = "backwater_32"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -8450,13 +8661,17 @@
 	},
 /area/stalker/buildings/backwater/sawmill)
 "QJ" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 37;
-	teleport_y = 248;
-	teleport_z = 1
+/obj/effect/step_trigger/named_teleporter{
+	destination = "backwater_16"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
+"QP" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_28"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "QQ" = (
 /obj/structure/stalker/cacheable/polka,
 /obj/effect/spawner/random/stalker/kitchencondiments,
@@ -8466,6 +8681,19 @@
 /obj/structure/chair/sofa/right,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
+"Rd" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_20"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
+"Re" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_74"
+	},
+/obj/effect/abstract/radiation/low,
+/turf/open/stalker/floor/water,
+/area/stalker)
 "Rg" = (
 /obj/structure/closet/stalker/shkaf{
 	pixel_y = 16
@@ -8519,11 +8747,15 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/clearsky)
 "RK" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 107;
-	teleport_y = 253;
-	teleport_z = 1
+	destination = "backwater_34"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
+"RL" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_35"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -8531,11 +8763,9 @@
 /turf/closed/wall/stalker/bricks,
 /area/stalker/buildings/backwater/sawmill)
 "RP" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 2;
-	teleport_y = 245;
-	teleport_z = 1
+	destination = "backwater_9"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/renegade)
@@ -8546,12 +8776,9 @@
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
 "RX" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	icon_state = "up";
-	teleport_x = 189;
-	teleport_y = 247;
-	teleport_z = 1
+	destination = "backwater_43"
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 4;
@@ -8574,6 +8801,16 @@
 /obj/item/throwing_star,
 /obj/item/throwing_star,
 /turf/open/stalker/floor/wood/oldgor,
+/area/stalker)
+"Sj" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_44"
+	},
+/turf/open/floor/plasteel/stairs/stalker{
+	dir = 4;
+	icon_state = "ladder_left";
+	tag = "icon-ladder (EAST)"
+	},
 /area/stalker)
 "Sm" = (
 /mob/living/simple_animal/hostile/mutant/poltergeist,
@@ -8628,20 +8865,16 @@
 	},
 /area/stalker/buildings/backwater/sawmill)
 "Ta" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 56;
-	teleport_y = 251;
-	teleport_z = 1
+	destination = "backwater_23"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "Tc" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 3;
-	teleport_y = 245;
-	teleport_z = 1
+	destination = "backwater_10"
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/renegade)
@@ -8679,6 +8912,12 @@
 "Tr" = (
 /turf/open/lava,
 /area/stalker)
+"Tt" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_6"
+	},
+/turf/open/stalker/floor/wood/oldgor,
+/area/stalker/buildings/backwater/sawmill)
 "Tx" = (
 /obj/structure/stalker/bar_plitka,
 /obj/structure/chair/brevno/log2{
@@ -8688,11 +8927,9 @@
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
 "TH" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 81;
-	teleport_y = 251;
-	teleport_z = 1
+	destination = "backwater_29"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -8705,17 +8942,21 @@
 "TR" = (
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker)
+"TV" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_8"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings/backwater/sawmill)
 "Ub" = (
 /obj/structure/table/stalker/wood,
 /obj/item/stack/cable_coil,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings/backwater/sawmill)
 "Uc" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 66;
-	teleport_y = 248;
-	teleport_z = 1
+	destination = "backwater_36"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -8751,24 +8992,37 @@
 /obj/structure/stalker/cacheable/bochka/red,
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor/backwater/sawmill)
+"UM" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_69"
+	},
+/turf/open/floor/iron/stairs,
+/area/stalker/buildings/backwater/waste)
+"Vb" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_55"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor/backwater)
 "Vc" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	icon_state = "up";
-	teleport_x = 32;
-	teleport_y = 247;
-	teleport_z = 1
+	destination = "backwater_17"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
 "Ve" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 9;
-	teleport_y = 242;
-	teleport_z = 1
+/obj/effect/step_trigger/named_teleporter{
+	destination = "backwater_13"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
+"Vf" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_60"
+	},
+/turf/open/stalker/floor/gryaz/gryaz3,
+/area/stalker/blowout/buildings/backwater/claw)
 "Vi" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
 /turf/open/stalker/floor/agroprom/beton,
@@ -8785,6 +9039,13 @@
 "Vm" = (
 /obj/effect/spawner/random/stalker/junk,
 /turf/open/stalker/floor/digable/grass,
+/area/stalker/blowout/outdoor/backwater)
+"Vq" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_39"
+	},
+/obj/structure/flora/stalker/bush,
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "Vr" = (
 /obj/machinery/door/airlock/stalker,
@@ -8805,6 +9066,12 @@
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
+"VI" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_21"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "VJ" = (
 /obj/effect/zona_anomaly/fruit_punch,
 /turf/open/misc/asteroid/basalt/lava,
@@ -8814,22 +9081,38 @@
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "VN" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 80;
-	teleport_y = 249;
-	teleport_z = 1
+	destination = "backwater_12"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
+"VR" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_4"
+	},
+/turf/open/floor/iron/stairs,
+/area/stalker/buildings/renegade)
 "VZ" = (
 /obj/structure/stalker/stolb,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor/backwater/sawmill)
+"Wb" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_33"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "Wc" = (
 /obj/machinery/door/poddoor/shutters/preopen,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
+"Wf" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_26"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "Wg" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -8848,16 +9131,20 @@
 	},
 /area/stalker/buildings/renegade)
 "Wv" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 8;
-	teleport_y = 236;
-	teleport_z = 1
+	destination = "backwater_11"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
 	},
 /area/stalker/buildings/backwater/sawmill)
+"Ww" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_70"
+	},
+/turf/open/floor/iron/stairs,
+/area/stalker/buildings/backwater/waste)
 "WD" = (
 /obj/structure/stalker/water/bochka/kap,
 /turf/open/stalker/floor/gryaz,
@@ -8874,11 +9161,9 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/waste)
 "WJ" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 26;
-	teleport_y = 251;
-	teleport_z = 1
+	destination = "backwater_27"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -8944,16 +9229,25 @@
 "Xr" = (
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker/buildings/backwater/sawmill)
+"Xx" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_24"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "Xz" = (
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
+"XM" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_31"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
 "XN" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	icon_state = "up";
-	teleport_x = 39;
-	teleport_y = 248;
-	teleport_z = 1
+	destination = "backwater_15"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
@@ -9002,6 +9296,12 @@
 /obj/effect/zona_anomaly/springboard,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
+"YA" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_75"
+	},
+/turf/closed/mineral,
+/area/stalker)
 "YE" = (
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/renegade)
@@ -9014,6 +9314,13 @@
 	icon_state = "lattice_new2"
 	},
 /area/stalker/buildings/backwater/sawmill)
+"YT" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_40"
+	},
+/obj/structure/flora/stalker/bush,
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor/backwater)
 "YX" = (
 /turf/open/stalker/floor/lattice,
 /area/stalker)
@@ -9022,11 +9329,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings/backwater/sawmill)
 "Zb" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 61;
-	teleport_y = 249;
-	teleport_z = 1
+	destination = "backwater_20"
 	},
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
@@ -9036,10 +9341,28 @@
 	icon_state = "lattice_new2"
 	},
 /area/stalker/buildings/backwater/sawmill)
+"Zk" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_25"
+	},
+/turf/open/misc/asteroid/basalt/lava,
+/area/stalker)
+"Zm" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_15"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings/backwater/sawmill)
 "Zn" = (
 /obj/structure/closet/stalker/shkaf,
 /turf/open/stalker/floor/lattice,
 /area/stalker)
+"Zs" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_3"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/buildings/backwater/sawmill)
 "Zu" = (
 /obj/effect/abstract/blowout_spawner/zombiesimp,
 /turf/open/stalker/floor/digable/grass,
@@ -9089,6 +9412,12 @@
 "ZX" = (
 /turf/open/stalker/floor/water,
 /area/stalker/kordon/tunnel)
+"ZY" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "backwater_53"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor/backwater)
 
 (1,1,1) = {"
 aa
@@ -9356,7 +9685,7 @@ eF
 aa
 cm
 cm
-SL
+Pz
 fb
 eF
 aa
@@ -9605,14 +9934,14 @@ aa
 (3,1,1) = {"
 eF
 cQ
-cm
-cm
+Tt
+Dj
 eE
 eF
 aa
 cm
 SL
-SL
+fd
 Ds
 eF
 aa
@@ -9866,8 +10195,8 @@ cm
 JV
 eF
 aa
-SL
-SL
+Zs
+FL
 eF
 eF
 aa
@@ -10901,7 +11230,7 @@ aa
 aa
 SL
 SL
-SL
+gi
 aa
 aa
 aa
@@ -11151,7 +11480,7 @@ SL
 aa
 aa
 MW
-SL
+Ey
 aa
 fa
 aa
@@ -12246,7 +12575,7 @@ aw
 bk
 ac
 bk
-bk
+Hn
 iN
 iy
 aa
@@ -12502,7 +12831,7 @@ aw
 bk
 ac
 bk
-bk
+iJ
 iO
 iy
 aa
@@ -12758,7 +13087,7 @@ aw
 bk
 ac
 bk
-bk
+ZY
 iP
 iy
 aa
@@ -12956,7 +13285,7 @@ aQ
 aQ
 cV
 RP
-YE
+Gb
 cm
 Xa
 Xa
@@ -13081,7 +13410,7 @@ ab
 ab
 iy
 sa
-bk
+Ox
 ac
 Ru
 Ru
@@ -13212,7 +13541,7 @@ aQ
 aQ
 cV
 Tc
-YE
+VR
 cm
 Xa
 cV
@@ -13337,7 +13666,7 @@ ab
 ab
 iy
 sb
-bk
+Vb
 ac
 Ru
 Ru
@@ -13593,7 +13922,7 @@ ab
 ab
 iy
 sc
-bk
+LX
 ac
 Ru
 bG
@@ -14084,8 +14413,8 @@ mJ
 mJ
 mJ
 lT
-oE
-oZ
+Fa
+DH
 lT
 Gc
 Gc
@@ -15494,11 +15823,11 @@ aa
 aa
 Ed
 Ed
-Ed
+OG
 aa
 aa
 aa
-SL
+TV
 Ve
 aa
 aI
@@ -15528,7 +15857,7 @@ Ye
 Ye
 YP
 YP
-es
+Qr
 cV
 eQ
 cs
@@ -17034,7 +17363,7 @@ aa
 SL
 SL
 aa
-SL
+Kf
 aa
 aI
 aS
@@ -18313,7 +18642,7 @@ aa
 SL
 aa
 XN
-SL
+IH
 aa
 aa
 aI
@@ -18822,10 +19151,10 @@ aa
 aa
 Mf
 aa
-SL
+Gg
 aa
 SL
-SL
+Zm
 QJ
 aI
 bd
@@ -20103,7 +20432,7 @@ aa
 Yw
 aa
 aa
-Xr
+Ji
 aa
 GE
 aa
@@ -20361,7 +20690,7 @@ aa
 aa
 IN
 aa
-Eh
+is
 aa
 aI
 bd
@@ -21106,7 +21435,7 @@ tC
 yu
 tC
 XR
-XR
+LU
 tV
 IM
 tV
@@ -21139,7 +21468,7 @@ bD
 bD
 cd
 cm
-cc
+Ew
 cy
 cc
 cE
@@ -21868,8 +22197,8 @@ tJ
 tJ
 tG
 ug
-yw
-yK
+LE
+Hm
 fu
 zs
 zw
@@ -22921,7 +23250,7 @@ aa
 Ed
 aa
 aa
-Ed
+VI
 aa
 ab
 bh
@@ -23174,7 +23503,7 @@ tC
 aa
 Ed
 aa
-Ed
+nv
 Mc
 aa
 Zb
@@ -23687,7 +24016,7 @@ aa
 Ed
 aa
 Pp
-Eh
+CP
 DM
 Jr
 aa
@@ -24456,7 +24785,7 @@ Ed
 aa
 aa
 Ta
-Ed
+Rd
 Os
 aa
 aa
@@ -25222,7 +25551,7 @@ tC
 aa
 Ed
 aa
-Ed
+Wf
 aa
 aa
 aa
@@ -25737,7 +26066,7 @@ aa
 aa
 aa
 aa
-Ed
+dq
 aa
 aa
 XO
@@ -26246,7 +26575,7 @@ tC
 aa
 Ed
 aa
-Ed
+Zk
 Ed
 aa
 aa
@@ -29320,7 +29649,7 @@ fa
 aa
 Ed
 aa
-Ed
+EF
 Ed
 aa
 ab
@@ -29574,7 +29903,7 @@ ad
 aa
 db
 aa
-Ed
+CN
 aa
 WJ
 aa
@@ -30597,10 +30926,10 @@ ab
 (85,1,1) = {"
 aa
 fa
+QP
 Ed
 Ed
-Ed
-Ed
+XM
 aa
 ab
 ac
@@ -31621,7 +31950,7 @@ ab
 (89,1,1) = {"
 aa
 aa
-Ed
+Dq
 Ed
 Ed
 aa
@@ -33924,7 +34253,7 @@ aa
 "}
 (98,1,1) = {"
 aa
-Ed
+Wb
 Ed
 aa
 ab
@@ -34948,7 +35277,7 @@ aa
 "}
 (102,1,1) = {"
 aa
-Ed
+EI
 DM
 aa
 ab
@@ -35205,7 +35534,7 @@ aa
 (103,1,1) = {"
 aa
 Ed
-Ed
+RL
 aa
 ab
 aw
@@ -36228,7 +36557,7 @@ aa
 "}
 (107,1,1) = {"
 aa
-Eh
+Jm
 aa
 ab
 aw
@@ -36473,7 +36802,7 @@ Bi
 Bi
 Bi
 Bi
-Ck
+Ln
 Cr
 Cu
 Cz
@@ -36740,7 +37069,7 @@ aa
 "}
 (109,1,1) = {"
 aa
-Ed
+Xx
 aa
 ab
 aw
@@ -37893,8 +38222,8 @@ nD
 of
 nD
 ap
-pm
-pz
+iw
+cl
 ap
 qv
 nQ
@@ -41604,8 +41933,8 @@ ab
 "}
 (128,1,1) = {"
 lM
-NJ
-NJ
+LF
+Nn
 lM
 aw
 aw
@@ -42554,8 +42883,8 @@ sw
 sl
 sl
 sw
-sw
-sw
+Vf
+Jd
 sl
 sl
 sl
@@ -43327,7 +43656,7 @@ sl
 sl
 sl
 tu
-sw
+NW
 sw
 sw
 sl
@@ -43583,7 +43912,7 @@ sl
 sl
 sl
 tv
-sw
+Qo
 sw
 sw
 sw
@@ -44339,8 +44668,8 @@ sk
 ab
 sl
 sl
-sw
-sw
+Oc
+HR
 sl
 sl
 sl
@@ -48986,7 +49315,7 @@ Ru
 Ru
 Ru
 bk
-ac
+Vq
 vR
 vR
 wb
@@ -49242,7 +49571,7 @@ Ru
 Ru
 Ru
 bk
-ac
+YT
 vR
 vR
 wc
@@ -49498,7 +49827,7 @@ Ru
 Ru
 Ru
 bk
-ac
+Jq
 vR
 vR
 wd
@@ -49754,7 +50083,7 @@ bG
 Ru
 Ru
 bk
-ac
+Gi
 vR
 vR
 we
@@ -50053,7 +50382,7 @@ yP
 (161,1,1) = {"
 aa
 DT
-MD
+Re
 MD
 MD
 Wl
@@ -50565,7 +50894,7 @@ yP
 (163,1,1) = {"
 aa
 aa
-aa
+YA
 aa
 XO
 XO
@@ -52107,7 +52436,7 @@ Xh
 FG
 JY
 aN
-ZD
+Sj
 YX
 aN
 aa
@@ -57226,7 +57555,7 @@ ai
 ai
 at
 ae
-aV
+JG
 ai
 ae
 aT
@@ -57994,8 +58323,8 @@ ae
 aD
 al
 ae
-aX
-bb
+iB
+EY
 ae
 al
 aD
@@ -59765,7 +60094,7 @@ At
 As
 As
 Bw
-Bw
+IY
 BL
 yQ
 yD
@@ -60021,7 +60350,7 @@ Au
 As
 As
 Bw
-Bw
+MH
 BM
 yQ
 yD
@@ -67957,7 +68286,7 @@ As
 As
 As
 Bw
-Bw
+UM
 BS
 yQ
 yD
@@ -68103,8 +68432,8 @@ QE
 QE
 NX
 nh
-qk
-qF
+Fd
+Iy
 nh
 ZU
 rp
@@ -68213,7 +68542,7 @@ AE
 As
 As
 Bw
-Bw
+Ww
 BT
 yQ
 yD

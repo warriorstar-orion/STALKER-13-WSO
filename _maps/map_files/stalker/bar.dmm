@@ -3,11 +3,9 @@
 /turf/closed/mineral,
 /area/stalker)
 "ab" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 2;
-	teleport_y = 33;
-	teleport_z = 9
+	destination = "armywarehouses_1"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -15,11 +13,9 @@
 /turf/closed/mineral,
 /area/stalker/blowout/outdoor)
 "ah" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 2;
-	teleport_y = 32;
-	teleport_z = 9
+	destination = "armywarehouses_2"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -30,11 +26,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "am" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 2;
-	teleport_y = 31;
-	teleport_z = 9
+	destination = "armywarehouses_3"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -278,11 +272,9 @@
 /area/stalker/buildings/bar/rentgen)
 "bK" = (
 /obj/structure/stalker/bar_plitka,
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 196;
-	teleport_y = 165;
-	teleport_z = 13
+	destination = "wildterritory_1"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -538,11 +530,9 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 46;
-	teleport_y = 83;
-	teleport_z = 4
+	destination = "bar_8"
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 8
@@ -728,11 +718,9 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bar/rentgen)
 "dg" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 47;
-	teleport_y = 83;
-	teleport_z = 4
+	destination = "bar_7"
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 8
@@ -961,6 +949,21 @@
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
+"eJ" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_14"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
+"eP" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_4"
+	},
+/turf/open/floor/plasteel/stairs/stalker{
+	dir = 1;
+	tag = "icon-ladder (EAST)"
+	},
+/area/stalker/buildings/duty)
 "eR" = (
 /obj/structure/stalker/cacheable/vanna,
 /turf/open/stalker/floor/gryaz,
@@ -982,11 +985,9 @@
 /turf/open/stalker/floor/road,
 /area/stalker/buildings/duty)
 "fc" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 97;
-	teleport_y = 104;
-	teleport_z = 4
+	destination = "bar_4"
 	},
 /obj/machinery/light/small{
 	dir = 1
@@ -1031,6 +1032,12 @@
 /obj/machinery/door/poddoor/shutters/preopen,
 /turf/open/stalker/floor/road,
 /area/stalker/buildings/duty)
+"fC" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_11"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "fJ" = (
 /turf/open/floor/plasteel/stairs/stalker,
 /area/stalker/buildings/duty)
@@ -1094,6 +1101,22 @@
 /obj/machinery/light/small,
 /turf/open/stalker/floor/road,
 /area/stalker/buildings/duty)
+"gq" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_7"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border4";
+	tag = "icon-border4"
+	},
+/obj/effect/turf_decal/stripes/full{
+	icon = "icons/stalker/warning_stripes.dmi";
+	icon_state = "border8";
+	tag = "icon-border8"
+	},
+/turf/open/floor/plasteel/stairs/stalker,
+/area/stalker/buildings/bar/rentgen)
 "gs" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
 /turf/open/stalker/floor/wood/oldgor,
@@ -1618,12 +1641,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "iG" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	opacity = 1;
-	teleport_x = 90;
-	teleport_y = 86;
-	teleport_z = 4
+	destination = "bar_6"
 	},
 /obj/machinery/light/small{
 	dir = 1
@@ -1818,10 +1838,8 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "jP" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 92;
-	teleport_y = 118;
-	teleport_z = 4
+/obj/effect/step_trigger/named_teleporter{
+	destination = "bar_5"
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 1;
@@ -1884,6 +1902,12 @@
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
+"kD" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_15"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "kF" = (
 /obj/structure/stalker/doski/doski3,
 /turf/open/stalker/floor/gryaz,
@@ -2074,6 +2098,12 @@
 /obj/machinery/door/airlock/stalker,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
+"pD" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_12"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "pG" = (
 /obj/structure/stalker/cacheable/yashik,
 /turf/open/stalker/floor/road,
@@ -2182,6 +2212,12 @@
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
+"sL" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_8"
+	},
+/turf/open/floor/plasteel/stairs/stalker,
+/area/stalker/buildings/bar/rentgen)
 "sO" = (
 /obj/structure/stalker/water/bochka,
 /turf/open/stalker/floor/digable/grass,
@@ -2306,6 +2342,18 @@
 /obj/structure/stalker/doski/doski_alt4,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
+"vG" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_16"
+	},
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor)
+"vH" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_3"
+	},
+/turf/open/stalker/floor/wood/oldgor,
+/area/stalker/buildings/duty)
 "vJ" = (
 /obj/structure/stalker/car/moskvich/south/hyi{
 	icon_state = "20";
@@ -2313,6 +2361,14 @@
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
+"vK" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_2"
+	},
+/turf/open/floor/plasteel/stairs/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/bar/rentgen)
 "vT" = (
 /obj/structure/stalker/car/moskvich/south/hyi{
 	icon_state = "21";
@@ -2353,6 +2409,15 @@
 /obj/structure/stalker/cacheable/polka,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
+"wn" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_5"
+	},
+/turf/open/floor/plasteel/stairs/stalker{
+	dir = 1;
+	tag = "icon-ladder (EAST)"
+	},
+/area/stalker/buildings/duty)
 "wt" = (
 /obj/machinery/light/small{
 	dir = 4;
@@ -2628,6 +2693,12 @@
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
+"Bj" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_13"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "Bo" = (
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
@@ -2662,11 +2733,9 @@
 	dir = 4;
 	tag = "icon-bulb1 (EAST)"
 	},
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 101;
-	teleport_y = 106;
-	teleport_z = 4
+	destination = "bar_3"
 	},
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/duty)
@@ -2864,11 +2933,15 @@
 /obj/structure/stalker/stolb,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
+"Fi" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_9"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "Fk" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 111;
-	teleport_y = 125;
-	teleport_z = 4
+/obj/effect/step_trigger/named_teleporter{
+	destination = "bar_1"
 	},
 /turf/open/floor/plasteel/stairs/stalker,
 /area/stalker/buildings/bar/rentgen)
@@ -2903,10 +2976,8 @@
 	icon_state = "border1";
 	tag = "icon-border1"
 	},
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 111;
-	teleport_y = 124;
-	teleport_z = 4
+/obj/effect/step_trigger/named_teleporter{
+	destination = "bar_2"
 	},
 /turf/open/floor/plasteel/stairs/stalker,
 /area/stalker/buildings/bar/rentgen)
@@ -2971,6 +3042,12 @@
 "FX" = (
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor/bar)
+"Gb" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_6"
+	},
+/turf/open/stalker/floor/wood/oldvert,
+/area/stalker/buildings/duty)
 "Gd" = (
 /obj/machinery/door/poddoor/shutters,
 /turf/open/stalker/floor/agroprom/beton,
@@ -3235,6 +3312,14 @@
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
+"KN" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_1"
+	},
+/turf/open/floor/plasteel/stairs/stalker{
+	dir = 8
+	},
+/area/stalker/buildings/bar/rentgen)
 "Lc" = (
 /obj/structure/grille/stalker/beton{
 	icon_state = "|";
@@ -3698,34 +3783,26 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "TL" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 146;
-	teleport_y = 254;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_7"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "TM" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 147;
-	teleport_y = 254;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_8"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Uh" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 148;
-	teleport_y = 254;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_9"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Up" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 149;
-	teleport_y = 254;
-	teleport_z = 6
+/obj/effect/step_trigger/named_teleporter{
+	destination = "svalka_10"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -3750,6 +3827,12 @@
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/bar/rentgen)
+"We" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "bar_10"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "Xv" = (
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/buildings/duty)
@@ -5174,7 +5257,7 @@ aI
 aI
 aI
 bz
-oi
+vG
 oi
 ZP
 cI
@@ -6178,7 +6261,7 @@ Km
 aa
 aa
 ab
-ZP
+kD
 ZP
 ZP
 ZP
@@ -6435,7 +6518,7 @@ Km
 aa
 aa
 ah
-ZP
+eJ
 ZP
 ZP
 ZP
@@ -6692,7 +6775,7 @@ Km
 aa
 aa
 am
-ZP
+Bj
 ZP
 ZP
 ZP
@@ -15498,7 +15581,7 @@ gD
 AQ
 BU
 Dn
-Ep
+sL
 Fk
 YM
 aa
@@ -15755,7 +15838,7 @@ gD
 AQ
 BU
 Dn
-Eu
+gq
 Fr
 YM
 aa
@@ -26803,7 +26886,7 @@ yi
 yi
 Xv
 AM
-AJ
+Gb
 aI
 aI
 aI
@@ -27285,7 +27368,7 @@ aa
 aa
 Xv
 fc
-eT
+wn
 eT
 Xv
 aa
@@ -28584,7 +28667,7 @@ aa
 Xv
 eT
 jz
-eT
+eP
 jP
 Xv
 aa
@@ -29610,7 +29693,7 @@ aa
 aa
 iu
 iG
-so
+vH
 jA
 Xv
 aa
@@ -29714,7 +29797,7 @@ rU
 rU
 rU
 rU
-rU
+Fi
 TL
 "}
 (102,1,1) = {"
@@ -29971,7 +30054,7 @@ rU
 rU
 rU
 rU
-rU
+We
 TL
 "}
 (103,1,1) = {"
@@ -30485,7 +30568,7 @@ rU
 rU
 rU
 rU
-rU
+fC
 Uh
 "}
 (105,1,1) = {"
@@ -30742,7 +30825,7 @@ rU
 rU
 rU
 rU
-rU
+pD
 Up
 "}
 (106,1,1) = {"
@@ -32161,8 +32244,8 @@ aY
 ff
 ff
 YM
-cx
-cx
+KN
+vK
 YM
 dK
 cJ

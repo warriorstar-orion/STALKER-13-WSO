@@ -284,6 +284,12 @@
 	layer = 1.8
 	},
 /area/stalker/blowout/outdoor)
+"cE" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_6"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "cG" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/food/meat/slab/meatproduct,
@@ -291,10 +297,8 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "cI" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 53;
-	teleport_y = 283;
-	teleport_z = 11
+/obj/effect/step_trigger/named_teleporter{
+	destination = "deadcity_14"
 	},
 /turf/open/floor/plasteel/stairs/medium/stalker,
 /area/stalker/buildings/mercenary)
@@ -802,11 +806,9 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "gH" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 1;
-	teleport_y = 171;
-	teleport_z = 9
+	destination = "armywarehouses_20"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -876,10 +878,8 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "hu" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 180;
-	teleport_y = 107;
-	teleport_z = 11
+/obj/effect/step_trigger/named_teleporter{
+	destination = "deadcity_16"
 	},
 /turf/open/floor/plasteel/stairs/left/stalker,
 /area/stalker/blowout/buildings)
@@ -893,6 +893,18 @@
 /obj/item/trash/binding_material/wire,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
+"hC" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_12"
+	},
+/turf/open/floor/plasteel/stairs/left/stalker,
+/area/stalker/blowout/buildings)
+"hD" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_3"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "hF" = (
 /obj/effect/abstract/radiation/low,
 /turf/closed/wall/stalker/bricks_white,
@@ -982,11 +994,9 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "io" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 1;
-	teleport_y = 168;
-	teleport_z = 9
+	destination = "armywarehouses_17"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -1017,6 +1027,18 @@
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
+"iF" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_5"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
+"iG" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_10"
+	},
+/turf/open/stalker/floor/plasteel/plitochka,
+/area/stalker/buildings/mercenary)
 "iH" = (
 /obj/machinery/light{
 	dir = 1;
@@ -1111,6 +1133,12 @@
 /obj/machinery/door/poddoor/shutters,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
+"jy" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_4"
+	},
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "jC" = (
 /obj/item/toy/basketball,
 /turf/open/stalker/floor/asphalt,
@@ -1188,6 +1216,12 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
+"kd" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_2"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "kf" = (
 /obj/structure/stalker/car/uaz{
 	icon_state = "0,2";
@@ -1253,6 +1287,12 @@
 /obj/structure/closet/stalker/shkaf,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/mercenary)
+"kG" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_1"
+	},
+/turf/open/stalker/floor/asphalt,
+/area/stalker/blowout/outdoor)
 "kI" = (
 /obj/structure/fence/corner{
 	dir = 1
@@ -1390,6 +1430,12 @@
 /obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
+"lC" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_11"
+	},
+/turf/open/stalker/floor/plasteel/plita/orange,
+/area/stalker/buildings/mercenary)
 "lE" = (
 /obj/effect/abstract/radiation/low,
 /turf/closed/wall/stalker/beton_agro,
@@ -1405,11 +1451,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "lI" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 1;
-	teleport_y = 169;
-	teleport_z = 9
+	destination = "armywarehouses_18"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -1683,11 +1727,9 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "og" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 102;
-	teleport_y = 294;
-	teleport_z = 11
+	destination = "deadcity_7"
 	},
 /turf/open/floor/plasteel/stairs/left/stalker{
 	dir = 8
@@ -2259,6 +2301,12 @@
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
+"sz" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_13"
+	},
+/turf/open/stalker/floor/plasteel/plitochka,
+/area/stalker/blowout/buildings)
 "sA" = (
 /obj/structure/stalker/cacheable/cover,
 /turf/open/stalker/floor/wood/oldgor,
@@ -2423,6 +2471,13 @@
 /obj/structure/chair/stalker/divan/divan2,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
+"tP" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_15"
+	},
+/obj/effect/abstract/radiation/low,
+/turf/open/floor/plasteel/stairs/left/stalker,
+/area/stalker/blowout/buildings)
 "tS" = (
 /obj/structure/stalker/cacheable/televizor,
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -2462,6 +2517,13 @@
 	},
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/skadovsk)
+"ui" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_16"
+	},
+/obj/effect/abstract/radiation/low,
+/turf/open/floor/plasteel/stairs/left/stalker,
+/area/stalker/blowout/buildings)
 "uk" = (
 /obj/item/trash/metalparts/busdoor,
 /turf/open/stalker/floor/plasteel,
@@ -2508,11 +2570,9 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "uz" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 1;
-	teleport_y = 170;
-	teleport_z = 9
+	destination = "armywarehouses_19"
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
@@ -3249,11 +3309,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "AB" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 223;
-	teleport_y = 41;
-	teleport_z = 11
+	destination = "deadcity_13"
 	},
 /obj/effect/abstract/radiation/low,
 /turf/open/floor/plasteel/stairs/left/stalker,
@@ -3553,6 +3611,12 @@
 /obj/structure/stalker/cacheable/box,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/mercenary)
+"Da" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_8"
+	},
+/turf/open/stalker/floor/wood/oldgor,
+/area/stalker/blowout/buildings)
 "Db" = (
 /obj/structure/stalker/cacheable/shina3a,
 /turf/open/stalker/floor/asphalt,
@@ -3765,11 +3829,9 @@
 	},
 /area/stalker/buildings/mercenary)
 "EK" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 41;
-	teleport_y = 179;
-	teleport_z = 11
+	destination = "deadcity_8"
 	},
 /turf/open/floor/plasteel/stairs/left/stalker{
 	dir = 8
@@ -4148,11 +4210,9 @@
 /turf/closed/wall/stalker/bricks,
 /area/stalker/blowout/buildings)
 "HS" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 1;
-	teleport_x = 194;
-	teleport_y = 299;
-	teleport_z = 11
+	destination = "deadcity_11"
 	},
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
@@ -4504,6 +4564,12 @@
 /obj/item/trash/woodenrods,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
+"KE" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_14"
+	},
+/turf/closed/indestructible/rock,
+/area/awaymission)
 "KF" = (
 /obj/structure/chair/comfy{
 	dir = 8
@@ -4701,10 +4767,8 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
 "Mw" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 68;
-	teleport_y = 215;
-	teleport_z = 8
+/obj/effect/step_trigger/named_teleporter{
+	destination = "yantar_14"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -4919,11 +4983,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "NZ" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 129;
-	teleport_y = 202;
-	teleport_z = 11
+	destination = "deadcity_10"
 	},
 /turf/open/floor/plasteel/stairs/left/stalker{
 	dir = 8
@@ -5041,11 +5103,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "OM" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 8;
-	teleport_x = 129;
-	teleport_y = 201;
-	teleport_z = 11
+	destination = "deadcity_9"
 	},
 /turf/open/floor/plasteel/stairs/right/stalker{
 	dir = 8
@@ -5476,11 +5536,9 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "Sm" = (
-/obj/effect/step_trigger/teleporter{
+/obj/effect/step_trigger/named_teleporter{
 	dir = 4;
-	teleport_x = 102;
-	teleport_y = 294;
-	teleport_z = 11
+	destination = "deadcity_7"
 	},
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/low,
@@ -5671,10 +5729,8 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "TN" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 235;
-	teleport_y = 20;
-	teleport_z = 11
+/obj/effect/step_trigger/named_teleporter{
+	destination = "deadcity_12"
 	},
 /obj/effect/abstract/radiation/low,
 /turf/open/floor/plasteel/stairs/left/stalker,
@@ -5942,10 +5998,8 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Wd" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 180;
-	teleport_y = 130;
-	teleport_z = 11
+/obj/effect/step_trigger/named_teleporter{
+	destination = "deadcity_15"
 	},
 /turf/open/floor/plasteel/stairs/left/stalker{
 	dir = 1
@@ -6018,6 +6072,12 @@
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
+"WJ" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_9"
+	},
+/turf/open/stalker/floor/plasteel/plitochka,
+/area/stalker/buildings/mercenary)
 "WL" = (
 /obj/item/trash/papershreds,
 /obj/structure/bed/stalker/metal,
@@ -6139,10 +6199,8 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "XJ" = (
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 68;
-	teleport_y = 216;
-	teleport_z = 8
+/obj/effect/step_trigger/named_teleporter{
+	destination = "yantar_15"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -6194,6 +6252,14 @@
 /obj/effect/decal/cleanable/ash/large,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
+"Yk" = (
+/obj/effect/landmark/named_teleport_destination{
+	id = "deadcity_7"
+	},
+/turf/open/floor/plasteel/stairs/left/stalker{
+	dir = 8
+	},
+/area/stalker/blowout/buildings)
 "Yo" = (
 /obj/machinery/light,
 /obj/structure/stalker/cacheable/polka,
@@ -18633,7 +18699,7 @@ Mm
 Mm
 lf
 kO
-kO
+Da
 kO
 kO
 lf
@@ -22153,7 +22219,7 @@ Hz
 Hz
 Hz
 Hz
-Hz
+KE
 Hz
 Hz
 Hz
@@ -36940,7 +37006,7 @@ Hz
 Hz
 Hz
 lf
-Iu
+Yk
 Li
 lf
 Hz
@@ -43271,7 +43337,7 @@ FU
 FU
 FU
 jK
-FU
+kd
 FU
 Mw
 "}
@@ -43573,7 +43639,7 @@ FU
 FU
 FU
 FU
-FU
+kG
 FU
 XJ
 "}
@@ -45186,8 +45252,8 @@ qd
 qd
 qd
 MU
-bl
-bl
+iG
+WJ
 bl
 rf
 ei
@@ -60660,7 +60726,7 @@ vi
 xr
 pW
 AB
-UC
+tP
 UC
 UC
 vi
@@ -60683,7 +60749,7 @@ eo
 vi
 UC
 UC
-UC
+ui
 TN
 pW
 eq
@@ -64719,7 +64785,7 @@ Bt
 "}
 (194,1,1) = {"
 rf
-Ot
+lC
 cI
 gK
 Hz
@@ -73735,7 +73801,7 @@ sQ
 xN
 ct
 xR
-xR
+sz
 ct
 sQ
 xR
@@ -77380,7 +77446,7 @@ dG
 xR
 LB
 LB
-LB
+hC
 hu
 sQ
 FV
@@ -82355,10 +82421,10 @@ eI
 eI
 eI
 fC
-eI
-eI
-eI
-eI
+cE
+iF
+jy
+hD
 QA
 eI
 Mm
