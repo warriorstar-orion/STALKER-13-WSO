@@ -3,14 +3,17 @@
 #define TIMEOFDAY_EVENING	"evening"
 #define TIMEOFDAY_NIGHTTIME	"nighttime"
 
-#define CYCLE_SUNRISE 	198000  // 05:30
-#define CYCLE_DAYTIME	324000	// 09:00
+#define CYCLE_SUNRISE 	183000  // 05:05
+#define CYCLE_DAYTIME	336000	// 09:20
 #define CYCLE_EVENING	603000	// 16:45
 #define CYCLE_NIGHTTIME 810000	// 22:30
 
+/proc/most_populated_zlevels_asc(a, b)
+	return cmp_numeric_asc(SSmobs.clients_by_zlevel[a].len, SSmobs.clients_by_zlevel[b].len)
+
 SUBSYSTEM_DEF(nightcycle)
 	name = "Day/Night Cycle"
-	wait = 10 // This thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
+	wait = 7 // This thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
 	can_fire = TRUE
 	init_order = INIT_ORDER_NIGHTCYCLE
 
@@ -24,24 +27,22 @@ SUBSYSTEM_DEF(nightcycle)
 	VAR_PRIVATE/max_turfs_per_fire = 255
 
 /datum/controller/subsystem/nightcycle/Initialize()
+	// Call this on init so that the SS doesn't immediately start updating turfs
+	// and instead waits until the next cycle.
 	nextBracket()
 	return SS_INIT_SUCCESS
 
-/datum/controller/subsystem/nightcycle/proc/has_work()
-	if(length(z_turfs) > 0)
-		return TRUE
-	if(length(z_level_queue))
-		return TRUE
-
-	return FALSE
+/datum/controller/subsystem/nightcycle/proc/still_busy()
+	return length(z_turfs) || length(z_level_queue)
 
 /datum/controller/subsystem/nightcycle/fire(resumed)
-	if(!resumed && nextBracket())
+	if((!still_busy()) && (!resumed) && nextBracket())
 		logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle prepping next run.")
 		z_level_queue.Cut()
 		z_turfs.Cut()
 		for(var/datum/space_level/zlevel in SSmapping.z_list)
 			z_level_queue += zlevel.z_value
+		z_level_queue = sort_list(z_level_queue, cmp=GLOBAL_PROC_REF(most_populated_zlevels_asc))
 
 	if(!length(z_turfs) && length(z_level_queue))
 		var/next_z_level = z_level_queue[z_level_queue.len]
