@@ -389,6 +389,10 @@
 	desc = "The sign says: \"Stop! Forbidden zone! No enterance!\"."
 	icon_state = "stop_sign"
 
+/obj/structure/stalker/radiation/stop/stalker
+	name = "STOP"
+	desc = "The sign says: \"Get out of here, Stalker!\"."
+
 /obj/structure/stalker/radiation/cafe
 	name = "sign"
 	desc = "This sign indicates there is a cafe nearby!"

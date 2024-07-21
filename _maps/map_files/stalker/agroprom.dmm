@@ -5947,10 +5947,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/kordon/tunnel)
 "Eb" = (
-/obj/structure/stalker/radiation/stop{
-	desc = "The sign says: \"GET OUT OF HERE, STALKER!!\".";
-	name = "STOP"
-	},
+/obj/structure/stalker/radiation/stop/stalker,
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/kordon/tunnel)
 "Ec" = (

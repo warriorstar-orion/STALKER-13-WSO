@@ -241,11 +241,7 @@
 /area/stalker/blowout/outdoor)
 "aP" = (
 /obj/structure/stalker/cacheable/brokenmachine7,
-/obj/structure/fluff/paper/stack{
-	desc = "A piece of paper chained to a strange machine unknown to you by a magnet. It says: \"Johnny,please,I'LLREMEMBERTHECODEALREADY.Sinceyouforgotitagain,I'llwriteittoyoufortheLASTTIME!!8978!Justfuckingtrytoforget.\" Moreover, the large letters are underlined with a red felt-tip pen, and the numbers are blue. The number 9 was crossed out with a black marker, and \"6-9\" is written above it.";
-	pixel_x = -9;
-	pixel_y = -6
-	},
+/obj/structure/fluff/paper/stack/strange_machine,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings)
 "aQ" = (
@@ -1348,14 +1344,6 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings)
-"eb" = (
-/obj/structure/stalker/brokenbed{
-	dir = 1;
-	icon_state = "krovat_s";
-	tag = "icon-krovat_s (NORTH)"
-	},
-/turf/open/stalker/floor/plasteel/plita/orange,
-/area/stalker/buildings)
 "ec" = (
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "8";
@@ -1983,7 +1971,6 @@
 "gh" = (
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube";
 	tag = "icon-tube1 (WEST)"
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -2217,7 +2204,6 @@
 "gY" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 1;
-	icon_state = "truba2";
 	tag = "icon-truba2 (NORTH)"
 	},
 /obj/effect/abstract/radiation/low,
@@ -2553,8 +2539,6 @@
 "ia" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 8;
-	icon_state = "truba2";
-	pixel_y = 0;
 	tag = "icon-truba2 (WEST)"
 	},
 /obj/effect/abstract/radiation/medium,
@@ -3466,7 +3450,6 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/machinery/light/broken,
@@ -3562,9 +3545,6 @@
 "ls" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /turf/open/stalker/floor/digable/grass,
@@ -4300,16 +4280,10 @@
 "nP" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /turf/open/stalker/floor/digable/grass,
@@ -4541,7 +4515,6 @@
 	},
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube";
 	tag = "icon-tube1 (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
@@ -5031,7 +5004,6 @@
 "qh" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 1;
-	icon_state = "truba2";
 	tag = "icon-truba2 (NORTH)"
 	},
 /turf/open/stalker/floor/plasteel/plita,
@@ -5318,7 +5290,6 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube";
 	tag = "icon-tube1 (WEST)"
 	},
 /turf/open/stalker/floor/lattice,
@@ -5736,7 +5707,6 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /turf/open/stalker/floor/asphalt,
@@ -6632,7 +6602,6 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/machinery/light/broken{
@@ -7028,13 +6997,10 @@
 /turf/open/stalker/floor/water,
 /area/stalker/buildings)
 "ww" = (
-/obj/structure/fluff/paper/stack{
-	desc = "\"Yes,yes,YES!I'mwritingthisinahurry,wefinallyloadedthisthing!Ha-ha-ha!Themanagementwillbehappy!Itwillbenecessary...\" The text breaks off.";
-	dir = 1;
-	pixel_x = 1;
-	pixel_y = 9
-	},
 /obj/effect/abstract/radiation/medium,
+/obj/structure/fluff/paper/stack/reactor{
+	pixel_x = 1
+	},
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings)
 "wx" = (
@@ -7482,8 +7448,6 @@
 "xY" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 8;
-	icon_state = "truba2";
-	pixel_y = 0;
 	tag = "icon-truba2 (WEST)"
 	},
 /obj/effect/abstract/radiation/medium,
@@ -7493,7 +7457,6 @@
 /obj/structure/table,
 /obj/structure/stalker/cacheable/radio{
 	dir = 1;
-	icon_state = "radio";
 	pixel_x = -6;
 	pixel_y = 11;
 	tag = "icon-radio (NORTH)"
@@ -7695,7 +7658,6 @@
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "border8";
-	pixel_x = 0;
 	tag = "icon-border8"
 	},
 /obj/effect/abstract/radiation/low,
@@ -7936,9 +7898,6 @@
 "zy" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /turf/open/stalker/floor/asphalt,
@@ -8097,9 +8056,7 @@
 /area/stalker/blowout/outdoor)
 "zZ" = (
 /obj/effect/abstract/radiation/high,
-/obj/structure/stalker/car/btrgrimy{
-	icon_state = "1"
-	},
+/obj/structure/stalker/car/btrgrimy,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Aa" = (
@@ -8669,7 +8626,6 @@
 "Cb" = (
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube";
 	tag = "icon-tube1 (WEST)"
 	},
 /turf/open/stalker/floor/lattice,
@@ -8875,7 +8831,6 @@
 "CJ" = (
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "5";
-	pixel_x = 0;
 	tag = "icon-5"
 	},
 /turf/open/stalker/floor/gryaz,
@@ -9236,7 +9191,6 @@
 "DY" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 1;
-	icon_state = "truba2";
 	tag = "icon-truba2 (NORTH)"
 	},
 /turf/open/stalker/floor/road,
@@ -9729,14 +9683,6 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
-"Fw" = (
-/obj/structure/stalker/brokenbed{
-	dir = 1;
-	icon_state = "krovat_s";
-	tag = "icon-krovat_s (NORTH)"
-	},
-/turf/open/stalker/floor/wood/brown,
-/area/stalker/buildings)
 "Fx" = (
 /obj/machinery/vending/cigarette/bustedfour,
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -9922,7 +9868,6 @@
 "Gf" = (
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube";
 	tag = "icon-tube1 (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
@@ -10335,9 +10280,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "Hw" = (
-/obj/structure/stalker/shinaold{
-	icon_state = "shina_old"
-	},
+/obj/structure/stalker/shinaold,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Hx" = (
@@ -10683,14 +10626,6 @@
 /mob/living/simple_animal/hostile/mutant/rat,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings)
-"Iy" = (
-/obj/structure/stalker/blocks/vanish/pipe/pipe2{
-	dir = 1;
-	icon_state = "truba2";
-	tag = "icon-truba2 (NORTH)"
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "Iz" = (
 /obj/structure/stalker/cacheable/polka,
 /obj/effect/spawner/random/stalker/weapon/pistolstier2,
@@ -10846,13 +10781,6 @@
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
-"Ja" = (
-/obj/structure/stalker/car/btrgrimy{
-	icon_state = "1"
-	},
-/obj/effect/abstract/radiation/high,
-/turf/open/stalker/floor/asphalt,
-/area/stalker/buildings)
 "Jb" = (
 /obj/structure/stalker/cacheable/polka,
 /obj/effect/abstract/radiation/medium,
@@ -11534,9 +11462,6 @@
 "Lm" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /obj/effect/abstract/radiation/medium,
@@ -11631,8 +11556,6 @@
 "LB" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 8;
-	icon_state = "truba2";
-	pixel_y = 0;
 	tag = "icon-truba2 (WEST)"
 	},
 /turf/open/stalker/floor/digable/grass,
@@ -11739,8 +11662,6 @@
 "LU" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 8;
-	icon_state = "truba2";
-	pixel_y = 0;
 	tag = "icon-truba2 (WEST)"
 	},
 /turf/open/stalker/floor/gryaz,
@@ -12023,9 +11944,6 @@
 "MR" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /turf/open/stalker/floor/road,
@@ -12050,7 +11968,6 @@
 "MW" = (
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube";
 	tag = "icon-tube1 (WEST)"
 	},
 /obj/effect/abstract/radiation/medium,
@@ -12488,7 +12405,6 @@
 "OL" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 1;
-	icon_state = "truba2";
 	tag = "icon-truba2 (NORTH)"
 	},
 /turf/open/stalker/floor/digable/grass,
@@ -12790,8 +12706,6 @@
 "PL" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 8;
-	icon_state = "truba2";
-	pixel_y = 0;
 	tag = "icon-truba2 (WEST)"
 	},
 /obj/effect/abstract/radiation/low,
@@ -12902,8 +12816,6 @@
 "Qf" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 8;
-	icon_state = "truba2";
-	pixel_y = 0;
 	tag = "icon-truba2 (WEST)"
 	},
 /turf/open/stalker/floor/road,
@@ -13331,7 +13243,6 @@
 /obj/effect/abstract/radiation/low,
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube";
 	tag = "icon-tube1 (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
@@ -13884,7 +13795,6 @@
 "Tk" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 1;
-	icon_state = "truba2";
 	tag = "icon-truba2 (NORTH)"
 	},
 /turf/open/stalker/floor/asphalt,
@@ -14118,7 +14028,6 @@
 /obj/effect/spawner/random/stalker/food,
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube";
 	tag = "icon-tube1 (WEST)"
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -14179,9 +14088,6 @@
 "Uh" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /turf/open/stalker/floor/gryaz,
@@ -14322,16 +14228,10 @@
 "UM" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4;
-	icon_state = "truba2";
-	pixel_x = 0;
-	pixel_y = 0;
 	tag = "icon-truba2 (EAST)"
 	},
 /obj/effect/abstract/radiation/medium,
@@ -15772,7 +15672,6 @@
 	},
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube";
 	tag = "icon-tube1 (WEST)"
 	},
 /turf/open/stalker/floor/asphalt,
@@ -21180,7 +21079,7 @@ Ku
 Cd
 eP
 sh
-Fw
+ds
 UB
 Cd
 Ku
@@ -31068,7 +30967,7 @@ Nt
 Nt
 Nt
 ym
-Ja
+YA
 bg
 AP
 UF
@@ -32351,7 +32250,7 @@ Nt
 Nt
 Nt
 Nt
-Ja
+YA
 TZ
 bg
 Su
@@ -41655,7 +41554,7 @@ ER
 Ss
 Kr
 IE
-eb
+UA
 IE
 mJ
 wL
@@ -50148,7 +50047,7 @@ NT
 NT
 Xc
 Xc
-Iy
+sJ
 Ym
 Ym
 Ym
@@ -56588,7 +56487,7 @@ Vt
 Vt
 Vt
 Vt
-Iy
+sJ
 Ym
 Ym
 Ym
@@ -67717,7 +67616,7 @@ zt
 Xc
 Vt
 Vt
-Iy
+sJ
 Ym
 vd
 Vt
@@ -68156,7 +68055,7 @@ WS
 WS
 WS
 WS
-Iy
+sJ
 Ym
 qn
 qn
