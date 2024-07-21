@@ -1,7 +1,6 @@
 SUBSYSTEM_DEF(blowouts)
 	name = "Blowouts"
 	wait = 2 SECONDS
-	flags = SS_NO_INIT
 	priority = FIRE_PRIORITY_BLOWOUTS
 	runlevels = RUNLEVEL_GAME
 	/// Amount of blowouts we have had so far
@@ -61,6 +60,12 @@ SUBSYSTEM_DEF(blowouts)
 		'sound/stalker/blowout/blowout_wind_02.ogg',
 		'sound/stalker/blowout/blowout_wind_03.ogg',
 	)
+
+/datum/controller/subsystem/blowouts/Initialize()
+	var/cooldown_amount = rand(cooldown_duration_min, cooldown_duration_max)
+	COOLDOWN_START(src, cooldown, cooldown_amount)
+
+	return SS_INIT_SUCCESS
 
 /datum/controller/subsystem/blowouts/fire(resumed)
 	if(!COOLDOWN_FINISHED(src, cooldown))
