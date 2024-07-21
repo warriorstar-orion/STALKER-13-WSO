@@ -165,33 +165,37 @@ GLOBAL_LIST_EMPTY(named_teleport_destinations)
 /* Fancy teleporter, creates sparks and smokes when used */
 
 /obj/effect/landmark/named_teleport_destination
-	var/destination_name
+	name = "named teleport destination"
+	var/id
 
 /obj/effect/landmark/named_teleport_destination/Initialize(mapload)
 	. = ..()
-	if(destination_name in GLOB.named_teleport_destinations)
-		logger.Log(LOG_CATEGORY_DEBUG, "More than two teleport destinations with name [destination_name] found! Clobbering previous.")
-	GLOB.named_teleport_destinations[destination_name] = src
+	if(id in GLOB.named_teleport_destinations)
+		logger.Log(LOG_CATEGORY_DEBUG, "More than two teleport destinations with name [id] found! Clobbering previous.")
+	GLOB.named_teleport_destinations[id] = src
 
 /obj/effect/landmark/named_teleport_destination/Destroy()
 	. = ..()
-	if(GLOB.named_teleport_destinations[destination_name] == src)
-		qdel(GLOB.named_teleport_destinations[destination_name])
+	if(GLOB.named_teleport_destinations[id] == src)
+		qdel(GLOB.named_teleport_destinations[id])
 
 /obj/effect/step_trigger/named_teleporter
-	var/teleporter_name
+	name = "named teleporter"
+	var/destination
+	icon = 'icons/stalker/perehod.dmi'
+	icon_state = "down"
 
 // TODO(wso): Maybe late initialize and check the list so we can get messages at
 // roundstart about unlinked teleporters
 
 /obj/effect/step_trigger/named_teleporter/Trigger(atom/movable/A)
-	if(teleporter_name && GLOB.named_teleport_destinations[teleporter_name])
-		var/obj/effect/landmark/named_teleport_destination/dest = GLOB.named_teleport_destinations[teleporter_name]
+	if(destination && GLOB.named_teleport_destinations[destination])
+		var/obj/effect/landmark/named_teleport_destination/dest = GLOB.named_teleport_destinations[destination]
 		var/turf/T = get_turf(dest)
 		A.forceMove(T)
 		return
 
-	logger.Log(LOG_CATEGORY_DEBUG, "No destination found for named teleported [teleporter_name]!")
+	logger.Log(LOG_CATEGORY_DEBUG, "No destination found for named teleporter [destination]!")
 
 /obj/effect/step_trigger/teleport_fancy
 	var/locationx
