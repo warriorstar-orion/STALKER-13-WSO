@@ -4164,6 +4164,10 @@
 /obj/structure/closet/crate/stalker/blue/stash/low,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
+"Ga" = (
+/obj/structure/fluff/paper/stack/reactor,
+/turf/open/stalker/floor/road,
+/area/stalker/blowout/outdoor)
 "Gf" = (
 /obj/structure/fence{
 	dir = 8;
@@ -12735,7 +12739,7 @@ hP
 hP
 hP
 hP
-Oe
+Ga
 Oe
 Oe
 Oe

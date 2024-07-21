@@ -6356,6 +6356,10 @@
 /obj/machinery/hydroponics/soil,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
+"ZJ" = (
+/obj/structure/fluff/paper/stack/reactor,
+/turf/open/stalker/floor/digable/grass/dump,
+/area/stalker/blowout/outdoor)
 "ZQ" = (
 /obj/structure/chair/stalker/divan/divan2{
 	desc = "I hate criminal scum like you.";
@@ -13274,7 +13278,7 @@ Nb
 LI
 NW
 to
-VO
+ZJ
 XZ
 XZ
 XZ

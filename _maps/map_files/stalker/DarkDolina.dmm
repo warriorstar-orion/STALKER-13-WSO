@@ -2309,9 +2309,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings)
 "Bl" = (
-/obj/machinery/light{
-	dir = 2
-	},
+/obj/machinery/light,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "Bo" = (
@@ -2530,6 +2528,10 @@
 	},
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
+"EA" = (
+/obj/structure/fluff/paper/stack/reactor,
+/turf/open/stalker/floor/gryaz/gryaz3,
+/area/stalker/blowout/outdoor)
 "EI" = (
 /obj/effect/step_trigger/teleporter{
 	dir = 4;
@@ -11074,7 +11076,7 @@ HV
 HV
 HV
 HV
-HV
+EA
 HV
 HV
 HV

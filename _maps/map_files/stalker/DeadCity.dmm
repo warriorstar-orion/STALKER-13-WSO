@@ -4375,6 +4375,10 @@
 /mob/living/basic/mouse/gray,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
+"Jx" = (
+/obj/structure/fluff/paper/stack/reactor,
+/turf/open/stalker/floor/gryaz,
+/area/stalker/blowout/outdoor)
 "Jy" = (
 /obj/structure/fence{
 	dir = 4
@@ -12422,7 +12426,7 @@ Mm
 Mm
 Mm
 Mm
-Mm
+Jx
 Mm
 Mm
 uc

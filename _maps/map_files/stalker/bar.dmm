@@ -2056,6 +2056,10 @@
 /obj/structure/stalker/okno/window1,
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/blowout/outdoor)
+"or" = (
+/obj/structure/fluff/paper/stack/reactor,
+/turf/closed/mineral,
+/area/stalker)
 "oF" = (
 /turf/closed/wall/stalker/bricks_yellow,
 /area/stalker/blowout/outdoor)
@@ -12449,7 +12453,7 @@ aa
 aa
 aa
 aa
-aa
+or
 aa
 aa
 aa

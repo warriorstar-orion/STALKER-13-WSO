@@ -611,8 +611,7 @@
 	teleport_z = 2
 	},
 /turf/open/floor/plasteel/stairs/medium/stalker{
-	dir = 8;
-	icon_state = "ladder_middle"
+	dir = 8
 	},
 /area/stalker/buildings/backwater/sawmill)
 "cz" = (
@@ -4983,9 +4982,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "tN" = (
-/obj/structure/grille/stalker/beton{
-	opacity = 1
-	},
+/obj/structure/grille/stalker/beton,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater/ironforest)
 "tO" = (
@@ -6167,9 +6164,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/substation)
 "yc" = (
-/obj/structure/grille/stalker/beton{
-	opacity = 1
-	},
+/obj/structure/grille/stalker/beton,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater)
 "yd" = (
@@ -6177,9 +6172,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor/backwater)
 "ye" = (
-/obj/structure/grille/stalker/beton{
-	opacity = 1
-	},
+/obj/structure/grille/stalker/beton,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "yf" = (
@@ -7529,7 +7522,6 @@
 "EX" = (
 /obj/machinery/light/small{
 	dir = 4;
-	icon_state = "bulb";
 	tag = "icon-bulb1 (EAST)"
 	},
 /turf/open/stalker/floor/digable/grass,
@@ -7756,7 +7748,6 @@
 "Ic" = (
 /obj/machinery/light/small{
 	dir = 4;
-	icon_state = "bulb";
 	tag = "icon-bulb1 (EAST)"
 	},
 /turf/open/stalker/floor/tropa,
@@ -8167,6 +8158,10 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/water,
 /area/stalker)
+"MP" = (
+/obj/structure/fluff/paper/stack/reactor,
+/turf/open/stalker/floor/digable/grass,
+/area/stalker/blowout/outdoor/backwater/ironforest)
 "MU" = (
 /obj/machinery/door/poddoor/shutters/preopen,
 /turf/open/stalker/floor/gryaz/gryaz2,
@@ -16986,7 +16981,7 @@ tG
 tG
 tJ
 tJ
-tG
+MP
 tG
 tG
 tG

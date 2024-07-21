@@ -206,6 +206,10 @@
 /obj/structure/stalker/car/moskvich/south/three,
 /turf/open/stalker/floor/digable/swamp,
 /area/stalker/blowout/outdoor)
+"Il" = (
+/obj/structure/fluff/paper/stack/reactor,
+/turf/open/stalker/floor/water,
+/area/stalker/blowout/outdoor)
 "IG" = (
 /turf/closed/wall/stalker/log,
 /area/stalker/blowout/outdoor)
@@ -9834,7 +9838,7 @@ fw
 fw
 fw
 fw
-fw
+Il
 fw
 fw
 fw
