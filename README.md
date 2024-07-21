@@ -34,6 +34,7 @@ Future tasks:
 - [ ] Set up leaders as "head" roles for factions.
 - [ ] Add descriptions for all jobs to stop causing runtimes.
 - [ ] Everything with Sidomat, UIs, user accounts, buying and selling, stalker rank...
+- [ ] Get environmental sounds ported over to /area/ambientsounds.
 
 The below links are documentation originally written for /tg/.
 
