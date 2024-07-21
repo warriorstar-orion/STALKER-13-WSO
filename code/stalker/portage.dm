@@ -97,6 +97,7 @@
 	name = "wall"
 	desc = "A huge chunk of wall"
 	icon = 'icons/stalker/walls/beton_tg.dmi'
+	smoothing_flags = SMOOTH_DIAGONAL_CORNERS
 	icon_state = "beton"
 	// canSmoothWith = list(
 	// /turf/closed/wall/stalker/beton,
@@ -108,6 +109,7 @@
 	desc = "A huge chunk of wall"
 	icon = 'icons/stalker/walls/bricks_tg.dmi'
 	icon_state = "bricks"
+	smoothing_flags = SMOOTH_DIAGONAL_CORNERS
 	// canSmoothWith = list(
 	// /turf/closed/wall/stalker/bricks
 	// )
@@ -116,6 +118,7 @@
 	name = "wall"
 	desc = "A huge chunk of wall"
 	icon = 'icons/stalker/walls/bricks_tg_yellow.dmi'
+	smoothing_flags = SMOOTH_DIAGONAL_CORNERS
 	icon_state = "bricks"
 	// canSmoothWith = list(
 	// /turf/closed/wall/stalker/bricks_yellow
