@@ -6673,12 +6673,10 @@
 	pixel_x = -3;
 	pixel_y = -13
 	},
-/obj/item/reagent_containers/pill/tox{
-	desc = "\"LSD\" is scrawled on a thin capsule with a carnation.";
-	name = "sugar pill";
-	pixel_y = 6
-	},
 /obj/effect/abstract/radiation/low,
+/obj/item/reagent_containers/pill/tox/mislabelled{
+	pixel_x = 6
+	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "vv" = (
