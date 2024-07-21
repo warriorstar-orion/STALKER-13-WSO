@@ -59,7 +59,7 @@ SUBSYSTEM_DEF(nightcycle)
 	// add that columns turfs to the queue and decrement the column.
 	if(!length(z_turfs) && current_column)
 		z_turfs = block(current_column, 1, current_z_level, current_column, world.maxy)
-		logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle retrieved column ([current_column], z=[current_z_level])")
+		logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle retrieved column ([current_column], z=[current_z_level], z_turfs=[z_turfs.len])")
 		current_column--
 
 	// While we have turfs in the queue, transform them.
@@ -69,7 +69,8 @@ SUBSYSTEM_DEF(nightcycle)
 			T.set_light(MINIMUM_USEFUL_LIGHT_RANGE, sun_power, sun_color)
 		z_turfs.len--
 
-		MC_TICK_CHECK
+		if(MC_TICK_CHECK)
+			logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle turfs left = [z_turfs.len]")
 
 /datum/controller/subsystem/nightcycle/proc/nextBracket()
 	var/time = station_time()
