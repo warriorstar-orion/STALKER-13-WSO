@@ -181,11 +181,17 @@ GLOBAL_LIST_EMPTY(named_teleport_destinations)
 /obj/effect/step_trigger/named_teleporter
 	var/teleporter_name
 
+// TODO(wso): Maybe late initialize and check the list so we can get messages at
+// roundstart about unlinked teleporters
+
 /obj/effect/step_trigger/named_teleporter/Trigger(atom/movable/A)
 	if(teleporter_name && GLOB.named_teleport_destinations[teleporter_name])
 		var/obj/effect/landmark/named_teleport_destination/dest = GLOB.named_teleport_destinations[teleporter_name]
 		var/turf/T = get_turf(dest)
 		A.forceMove(T)
+		return
+
+	logger.Log(LOG_CATEGORY_DEBUG, "No destination found for named teleported [teleporter_name]!")
 
 /obj/effect/step_trigger/teleport_fancy
 	var/locationx
