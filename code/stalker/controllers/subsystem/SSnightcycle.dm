@@ -3,7 +3,7 @@
 #define TIMEOFDAY_EVENING	"evening"
 #define TIMEOFDAY_NIGHTTIME	"nighttime"
 
-#define CYCLE_SUNRISE 	183000  // 05:05
+#define CYCLE_SUNRISE  189000  // 05:15
 #define CYCLE_DAYTIME	336000	// 09:20
 #define CYCLE_EVENING	603000	// 16:45
 #define CYCLE_NIGHTTIME 810000	// 22:30
@@ -13,27 +13,26 @@
 
 SUBSYSTEM_DEF(nightcycle)
 	name = "Day/Night Cycle"
-	wait = 7 // This thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
+	wait = 5 // This thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
+	flags = SS_NO_INIT
 	can_fire = TRUE
 	init_order = INIT_ORDER_NIGHTCYCLE
 
-	VAR_PRIVATE/current_time
+	VAR_PRIVATE/current_time = TIMEOFDAY_NIGHTTIME
 	VAR_PRIVATE/sun_color
 	VAR_PRIVATE/sun_power
 	VAR_PRIVATE/sun_range
 	VAR_PRIVATE/new_time
+	VAR_PRIVATE/current_column = 0
+	VAR_PRIVATE/current_z_level
+	VAR_PRIVATE/list/skip_levels = list(16, 15)
 	VAR_PRIVATE/list/z_level_queue = list()
 	VAR_PRIVATE/list/z_turfs = list()
 	VAR_PRIVATE/max_turfs_per_fire = 255
-
-/datum/controller/subsystem/nightcycle/Initialize()
-	// Call this on init so that the SS doesn't immediately start updating turfs
-	// and instead waits until the next cycle.
-	nextBracket()
-	return SS_INIT_SUCCESS
+	VAR_PRIVATE/column_turfs_remaining = 0
 
 /datum/controller/subsystem/nightcycle/proc/still_busy()
-	return length(z_turfs) || length(z_level_queue)
+	return current_column || length(z_turfs) || length(z_level_queue)
 
 /datum/controller/subsystem/nightcycle/fire(resumed)
 	if((!still_busy()) && (!resumed) && nextBracket())
@@ -41,26 +40,36 @@ SUBSYSTEM_DEF(nightcycle)
 		z_level_queue.Cut()
 		z_turfs.Cut()
 		for(var/datum/space_level/zlevel in SSmapping.z_list)
+			if(zlevel.z_value in skip_levels)
+				continue
+
 			z_level_queue += zlevel.z_value
 		z_level_queue = sort_list(z_level_queue, cmp=GLOBAL_PROC_REF(most_populated_zlevels_asc))
 
-	if(!length(z_turfs) && length(z_level_queue))
-		var/next_z_level = z_level_queue[z_level_queue.len]
-		z_turfs = get_area_turfs(/area/stalker/blowout/outdoor, target_z = next_z_level, subtypes = TRUE)
-		logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle retrieved next_z_level=[next_z_level].")
+	// If we don't have any turfs in the queue but we still have z-levels,
+	// grab the next one and reset the column count.
+	if(!length(z_turfs) && !(current_column) && length(z_level_queue))
+		current_z_level = z_level_queue[z_level_queue.len]
+		// z_turfs = get_area_turfs(/area/stalker/blowout/outdoor, target_z = next_z_level, subtypes = TRUE)
+		logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle retrieved next_z_level=[current_z_level].")
 		z_level_queue.len--
+		current_column = world.maxx
 
-	var/current_turfs = 0
-	while(length(z_turfs) && current_turfs < max_turfs_per_fire)
+	// If we don't have any turfs in the queue but we have a current column,
+	// add that columns turfs to the queue and decrement the column.
+	if(!length(z_turfs) && current_column)
+		z_turfs = block(current_column, 1, current_z_level, current_column, world.maxy)
+		logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle retrieved column ([current_column], z=[current_z_level])")
+		current_column--
+
+	// While we have turfs in the queue, transform them.
+	while(length(z_turfs))
 		var/turf/T = z_turfs[z_turfs.len]
-		if(istype(T, /turf/open) && !QDELETED(T))
+		if(!QDELETED(T) && istype(get_area(T), /area/stalker/blowout/outdoor) && istype(T, /turf/open))
 			T.set_light(MINIMUM_USEFUL_LIGHT_RANGE, sun_power, sun_color)
-			current_turfs++
 		z_turfs.len--
 
-		if(MC_TICK_CHECK)
-			logger.Log(LOG_CATEGORY_DEBUG, "SSnightcycle ran and applied [current_turfs] turfs.")
-			return
+		MC_TICK_CHECK
 
 /datum/controller/subsystem/nightcycle/proc/nextBracket()
 	var/time = station_time()
