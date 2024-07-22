@@ -1,8 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ab" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "4";
-	tag = "icon-4"
+	icon_state = "4"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
@@ -18,8 +17,7 @@
 /area/stalker/blowout/outdoor)
 "ap" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
-	dir = 8;
-	tag = "icon-truba2 (WEST)"
+	dir = 8
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -34,15 +32,13 @@
 /area/stalker/blowout/outdoor)
 "ax" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "4";
-	tag = "icon-4"
+	icon_state = "4"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "az" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "5";
-	tag = "icon-5"
+	icon_state = "5"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -53,8 +49,7 @@
 /area/stalker/blowout/outdoor)
 "aG" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "4";
-	tag = "icon-4"
+	icon_state = "4"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -134,22 +129,19 @@
 /area/stalker/blowout/outdoor)
 "bn" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "2";
-	tag = "icon-2"
+	icon_state = "2"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "bo" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "3";
-	tag = "icon-3"
+	icon_state = "3"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "bp" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "4";
-	tag = "icon-4"
+	icon_state = "4"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -167,8 +159,7 @@
 /area/stalker/blowout/outdoor)
 "bw" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "5";
-	tag = "icon-5"
+	icon_state = "5"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -212,8 +203,7 @@
 /area/stalker/blowout/outdoor)
 "bY" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "6";
-	tag = "icon-6"
+	icon_state = "6"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -250,8 +240,7 @@
 /area/stalker/blowout/outdoor)
 "ct" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "7";
-	tag = "icon-7"
+	icon_state = "7"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -266,8 +255,7 @@
 /area/stalker/blowout/outdoor)
 "cw" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "8";
-	tag = "icon-8"
+	icon_state = "8"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -277,8 +265,7 @@
 /area/stalker/blowout/outdoor)
 "cB" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "7";
-	tag = "icon-7"
+	icon_state = "7"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
@@ -291,8 +278,7 @@
 /area/space)
 "cJ" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,0";
-	tag = "icon-0,0"
+	icon_state = "0,0"
 	},
 /obj/structure/table/stalker/wood,
 /turf/open/stalker/floor/agroprom/gryaz,
@@ -317,8 +303,7 @@
 /area/stalker/blowout/outdoor)
 "de" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "3";
-	tag = "icon-3"
+	icon_state = "3"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
@@ -381,8 +366,7 @@
 /area/stalker/blowout/outdoor)
 "dP" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,1";
-	tag = "icon-1,1"
+	icon_state = "1,1"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -574,8 +558,7 @@
 /area/stalker/buildings)
 "gw" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "7";
-	tag = "icon-7"
+	icon_state = "7"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -661,8 +644,7 @@
 /area/stalker/blowout/outdoor)
 "hc" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "8";
-	tag = "icon-8"
+	icon_state = "8"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
@@ -758,8 +740,7 @@
 /area/stalker/buildings)
 "hY" = (
 /obj/structure/stalker/bigyashik{
-	icon_state = "bigyashik 0,1";
-	tag = "icon-bigyashik 0,1"
+	icon_state = "bigyashik 0,1"
 	},
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
@@ -1012,8 +993,7 @@
 /area/stalker/blowout/outdoor)
 "ki" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "6";
-	tag = "icon-6"
+	icon_state = "6"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
@@ -1036,8 +1016,7 @@
 /area/stalker/blowout/outdoor)
 "kq" = (
 /obj/structure/stalker/car/gryzovik/west{
-	icon_state = "2";
-	tag = "icon-2"
+	icon_state = "2"
 	},
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
@@ -1057,8 +1036,7 @@
 /area/stalker/blowout/outdoor)
 "kx" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "5";
-	tag = "icon-5"
+	icon_state = "5"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
@@ -1101,15 +1079,13 @@
 /area/stalker/blowout/outdoor)
 "lf" = (
 /obj/structure/stalker/car/gryzovik/south{
-	icon_state = "3";
-	tag = "icon-3"
+	icon_state = "3"
 	},
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
 "lg" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "6";
-	tag = "icon-6"
+	icon_state = "6"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
@@ -1170,8 +1146,7 @@
 /area/stalker/buildings/ecologist)
 "lT" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,2";
-	tag = "icon-0,2"
+	icon_state = "0,2"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1194,8 +1169,7 @@
 /area/stalker/blowout/outdoor)
 "mb" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
-	dir = 1;
-	tag = "icon-truba2 (NORTH)"
+	dir = 1
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1256,8 +1230,7 @@
 /area/stalker/blowout/outdoor)
 "mE" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,1";
-	tag = "icon-1,1"
+	icon_state = "1,1"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
@@ -1327,8 +1300,7 @@
 /area/stalker/blowout/outdoor)
 "nL" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "2";
-	tag = "icon-2"
+	icon_state = "2"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
@@ -1355,8 +1327,7 @@
 /area/stalker/blowout/outdoor)
 "od" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "8";
-	tag = "icon-8"
+	icon_state = "8"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1378,8 +1349,7 @@
 /area/stalker/buildings)
 "ov" = (
 /obj/structure/stalker/car/gryzovik/west{
-	icon_state = "2";
-	tag = "icon-2"
+	icon_state = "2"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1421,8 +1391,7 @@
 /area/stalker/blowout/outdoor)
 "oS" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,2";
-	tag = "icon-0,2"
+	icon_state = "0,2"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
@@ -1679,8 +1648,7 @@
 /area/stalker/cave)
 "ri" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,2";
-	tag = "icon-0,2"
+	icon_state = "0,2"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1745,8 +1713,7 @@
 /area/stalker/blowout/outdoor)
 "rQ" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,1";
-	tag = "icon-0,1"
+	icon_state = "0,1"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1766,8 +1733,7 @@
 /area/stalker/blowout/outdoor)
 "sb" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,0";
-	tag = "icon-1,0"
+	icon_state = "1,0"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1791,8 +1757,7 @@
 /area/stalker/kordon/tunnel)
 "sq" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,0";
-	tag = "icon-1,0"
+	icon_state = "1,0"
 	},
 /obj/structure/table/stalker/wood,
 /turf/open/stalker/floor/agroprom/gryaz,
@@ -1805,8 +1770,7 @@
 /area/stalker/blowout/outdoor)
 "sw" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,2";
-	tag = "icon-1,2"
+	icon_state = "1,2"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
@@ -1816,8 +1780,7 @@
 /area/stalker/buildings)
 "sC" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "6";
-	tag = "icon-6"
+	icon_state = "6"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -1986,8 +1949,7 @@
 /area/stalker/buildings)
 "ue" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "7";
-	tag = "icon-7"
+	icon_state = "7"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
@@ -2022,8 +1984,7 @@
 /area/stalker/buildings)
 "us" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,1";
-	tag = "icon-0,1"
+	icon_state = "0,1"
 	},
 /obj/structure/table/stalker/wood,
 /turf/open/stalker/floor/agroprom/gryaz,
@@ -2036,8 +1997,7 @@
 /area/stalker/blowout/outdoor)
 "uz" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
-	dir = 8;
-	tag = "icon-truba2 (WEST)"
+	dir = 8
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -2101,8 +2061,7 @@
 	icon_state = "border8"
 	},
 /obj/machinery/light{
-	dir = 1;
-	tag = "icon-tube1 (EAST)"
+	dir = 1
 	},
 /turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
@@ -2128,8 +2087,7 @@
 /area/stalker/blowout/outdoor)
 "vn" = (
 /obj/structure/stalker/car/gryzovik/south{
-	icon_state = "2";
-	tag = "icon-2"
+	icon_state = "2"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -2173,8 +2131,7 @@
 /area/stalker/buildings/ecologist)
 "vM" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,2";
-	tag = "icon-1,2"
+	icon_state = "1,2"
 	},
 /obj/structure/table/stalker/wood,
 /turf/open/stalker/floor/agroprom/gryaz,
@@ -2209,8 +2166,7 @@
 /area/stalker/blowout/outdoor)
 "wd" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "8";
-	tag = "icon-8"
+	icon_state = "8"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
@@ -2264,8 +2220,7 @@
 /area/stalker/buildings)
 "wE" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,1";
-	tag = "icon-1,1"
+	icon_state = "1,1"
 	},
 /obj/structure/table/stalker/wood,
 /turf/open/stalker/floor/gryaz,
@@ -2376,8 +2331,7 @@
 /area/stalker/buildings)
 "xO" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,0";
-	tag = "icon-1,0"
+	icon_state = "1,0"
 	},
 /obj/structure/stalker/cacheable/shina3{
 	pixel_x = 21;
@@ -2449,8 +2403,7 @@
 /area/stalker/blowout/outdoor)
 "yG" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "2";
-	tag = "icon-2"
+	icon_state = "2"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -2492,8 +2445,7 @@
 /area/stalker/blowout/outdoor)
 "yZ" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "2";
-	tag = "icon-2"
+	icon_state = "2"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
@@ -2524,15 +2476,13 @@
 /area/stalker/blowout/outdoor)
 "zu" = (
 /obj/structure/chair/brevno{
-	dir = 1;
-	tag = "icon-log1 (NORTH)"
+	dir = 1
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "zz" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,1";
-	tag = "icon-0,1"
+	icon_state = "0,1"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
@@ -2615,8 +2565,7 @@
 /area/stalker/blowout/outdoor)
 "As" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,2";
-	tag = "icon-1,2"
+	icon_state = "1,2"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -2628,8 +2577,7 @@
 /area/stalker/blowout/outdoor)
 "Av" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "5";
-	tag = "icon-5"
+	icon_state = "5"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
@@ -2690,8 +2638,7 @@
 /area/stalker/buildings)
 "Br" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
-	dir = 1;
-	tag = "icon-truba2 (NORTH)"
+	dir = 1
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -2778,8 +2725,7 @@
 /area/stalker/buildings/ecologist)
 "Cy" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,0";
-	tag = "icon-0,0"
+	icon_state = "0,0"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
@@ -2902,8 +2848,7 @@
 /area/stalker/buildings)
 "Ed" = (
 /obj/structure/stalker/car/gryzovik/west{
-	icon_state = "6";
-	tag = "icon-7"
+	icon_state = "6"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -2913,8 +2858,7 @@
 /area/stalker/blowout/outdoor)
 "Eg" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
-	dir = 4;
-	tag = "icon-truba2 (EAST)"
+	dir = 4
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -2956,8 +2900,7 @@
 /area/stalker/cave)
 "Ex" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,2";
-	tag = "icon-1,2"
+	icon_state = "1,2"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -2983,15 +2926,12 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "EG" = (
-/obj/machinery/light/small{
-	tag = "icon-bulb1 (NORTH)"
-	},
+/obj/machinery/light/small,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings)
 "EI" = (
 /obj/structure/grille/stalker/beton{
-	icon_state = "l4";
-	tag = "icon-l4"
+	icon_state = "l4"
 	},
 /turf/closed/wall/stalker/bricks,
 /area/stalker/blowout/outdoor)
@@ -3114,8 +3054,7 @@
 /area/stalker/cave)
 "Fa" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "3";
-	tag = "icon-3"
+	icon_state = "3"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -3232,8 +3171,7 @@
 /area/stalker/buildings)
 "Gj" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,2";
-	tag = "icon-0,2"
+	icon_state = "0,2"
 	},
 /obj/structure/table/stalker/wood,
 /turf/open/stalker/floor/asphalt,
@@ -3314,8 +3252,7 @@
 /obj/structure/grille/stalker/beton{
 	density = 0;
 	icon_state = "-|2";
-	layer = 5;
-	tag = "icon--|2"
+	layer = 5
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -3354,8 +3291,7 @@
 /area/stalker/blowout/outdoor)
 "Hw" = (
 /obj/structure/stalker/bigyashik{
-	icon_state = "bigyashik 1,0";
-	tag = "icon-bigyashik 1,0"
+	icon_state = "bigyashik 1,0"
 	},
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
@@ -3410,8 +3346,7 @@
 /area/stalker/blowout/outdoor)
 "Id" = (
 /obj/structure/stalker/car/gryzovik/west{
-	icon_state = "7";
-	tag = "icon-7"
+	icon_state = "7"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -3521,8 +3456,7 @@
 /area/stalker/blowout/outdoor)
 "Jq" = (
 /obj/structure/stalker/car/gryzovik2/south{
-	icon_state = "3";
-	tag = "icon-3"
+	icon_state = "3"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
@@ -3550,8 +3484,7 @@
 /area/stalker/buildings/ecologist)
 "JI" = (
 /obj/structure/stalker/bigyashik{
-	icon_state = "bigyashik 1,1";
-	tag = "icon-bigyashik 1,1"
+	icon_state = "bigyashik 1,1"
 	},
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
@@ -3569,8 +3502,7 @@
 /area/stalker/cave)
 "JQ" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "1,0";
-	tag = "icon-1,0"
+	icon_state = "1,0"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
@@ -3595,8 +3527,7 @@
 "Kd" = (
 /obj/machinery/light{
 	dir = 8;
-	invisibility = 1;
-	tag = "icon-tube1 (WEST)"
+	invisibility = 1
 	},
 /turf/open/stalker/floor/water,
 /area/stalker/blowout/outdoor)
@@ -3843,8 +3774,7 @@
 /area/stalker/blowout/outdoor)
 "LK" = (
 /obj/structure/stalker/bigyashik{
-	icon_state = "bigyashik 0,0";
-	tag = "icon-bigyashik 0,0"
+	icon_state = "bigyashik 0,0"
 	},
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
@@ -4178,8 +4108,7 @@
 /area/stalker/blowout/outdoor)
 "PQ" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,0";
-	tag = "icon-0,0"
+	icon_state = "0,0"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -4192,8 +4121,7 @@
 /area/stalker/blowout/outdoor)
 "PU" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "2";
-	tag = "icon-2"
+	icon_state = "2"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -4293,8 +4221,7 @@
 /area/stalker/buildings)
 "QR" = (
 /obj/structure/stalker/car/gryzovik/west{
-	icon_state = "4";
-	tag = "icon-4"
+	icon_state = "4"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -4366,8 +4293,7 @@
 /area/stalker/blowout/outdoor)
 "Sc" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "8";
-	tag = "icon-8"
+	icon_state = "8"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
@@ -4460,8 +4386,7 @@
 /area/stalker/buildings)
 "Tj" = (
 /obj/structure/stalker/car/uaz{
-	icon_state = "0,1";
-	tag = "icon-0,1"
+	icon_state = "0,1"
 	},
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -4639,8 +4564,7 @@
 /area/stalker/blowout/outdoor)
 "Un" = (
 /obj/structure/stalker/car/gryzovik/west{
-	icon_state = "4";
-	tag = "icon-4"
+	icon_state = "4"
 	},
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/outdoor)
@@ -4718,8 +4642,7 @@
 "UT" = (
 /obj/machinery/light{
 	dir = 8;
-	invisibility = 1;
-	tag = "icon-tube1 (WEST)"
+	invisibility = 1
 	},
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
@@ -4961,8 +4884,7 @@
 /area/stalker/blowout/outdoor)
 "WJ" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "3";
-	tag = "icon-3"
+	icon_state = "3"
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)

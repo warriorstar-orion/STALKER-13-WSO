@@ -218,15 +218,13 @@
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 8;
-	icon_state = "ladder_right";
-	tag = "icon-ladder (EAST)"
+	icon_state = "ladder_right"
 	},
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "aV" = (
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 8;
-	icon_state = "ladder_right";
-	tag = "icon-ladder (EAST)"
+	icon_state = "ladder_right"
 	},
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "aW" = (
@@ -262,8 +260,7 @@
 "ba" = (
 /obj/structure/table/stalker/wood/bar100rentgen{
 	dir = 4;
-	pixel_x = -6;
-	tag = "icon-table (EAST)"
+	pixel_x = -6
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
@@ -441,8 +438,7 @@
 "bP" = (
 /obj/structure/stalker/cacheable/polka{
 	dir = 4;
-	pixel_x = 24;
-	tag = "icon-polka (EAST)"
+	pixel_x = 24
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
@@ -713,8 +709,7 @@
 "cW" = (
 /obj/structure/grille/stalker{
 	density = 0;
-	icon_state = "fence4";
-	tag = "icon-fence4"
+	icon_state = "fence4"
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/sawmill)
@@ -764,8 +759,7 @@
 "dg" = (
 /obj/structure/grille/stalker{
 	density = 0;
-	icon_state = "fence4";
-	tag = "icon-fence4"
+	icon_state = "fence4"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
@@ -777,8 +771,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "di" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "5";
-	tag = "icon-5"
+	icon_state = "5"
 	},
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
@@ -816,8 +809,7 @@
 /area/stalker)
 "dr" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "7";
-	tag = "icon-7"
+	icon_state = "7"
 	},
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
@@ -832,8 +824,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "du" = (
 /obj/machinery/light/small{
-	dir = 1;
-	tag = "icon-bulb1 (NORTH)"
+	dir = 1
 	},
 /obj/machinery/microwave/barrelstove,
 /turf/open/stalker/floor/wood/oldgor,
@@ -1226,8 +1217,7 @@
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fr" = (
 /obj/structure/stalker/car/moskvich/south{
-	icon_state = "2";
-	tag = "icon-2"
+	icon_state = "2"
 	},
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/tropa,
@@ -1247,16 +1237,14 @@
 /area/stalker/buildings/backwater/ironforest)
 "fv" = (
 /obj/structure/stalker/car/moskvich/south{
-	icon_state = "3";
-	tag = "icon-3"
+	icon_state = "3"
 	},
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fw" = (
 /obj/structure/stalker/car/moskvich/south{
-	icon_state = "4";
-	tag = "icon-4"
+	icon_state = "4"
 	},
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
@@ -1287,16 +1275,14 @@
 /area/stalker/buildings/backwater)
 "fC" = (
 /obj/structure/stalker/car/moskvich/south{
-	icon_state = "5";
-	tag = "icon-5"
+	icon_state = "5"
 	},
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "fD" = (
 /obj/structure/stalker/car/moskvich/south{
-	icon_state = "6";
-	tag = "icon-6"
+	icon_state = "6"
 	},
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass,
@@ -2085,8 +2071,7 @@
 /area/stalker/buildings/backwater/shevchenko)
 "iX" = (
 /turf/open/floor/iron/stairs{
-	dir = 8;
-	tag = "icon-stairs (WEST)"
+	dir = 8
 	},
 /area/stalker/buildings/backwater/shevchenko)
 "iY" = (
@@ -2266,8 +2251,7 @@
 /area/stalker/buildings/backwater/shevchenko)
 "jD" = (
 /obj/machinery/light{
-	dir = 8;
-	tag = "icon-tube1 (WEST)"
+	dir = 8
 	},
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
@@ -3346,8 +3330,7 @@
 /area/stalker/buildings/backwater/skadovsk)
 "od" = (
 /obj/structure/stalker/cacheable/battery{
-	dir = 4;
-	tag = "icon-gazovaya_truba (EAST)"
+	dir = 4
 	},
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
@@ -4155,8 +4138,7 @@
 /area/stalker/buildings/backwater/krug)
 "qJ" = (
 /obj/structure/stalker/cacheable/battery{
-	dir = 4;
-	tag = "icon-gazovaya_truba (EAST)"
+	dir = 4
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk)
@@ -5536,8 +5518,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "vU" = (
 /obj/structure/stalker/cacheable/porog/porog2{
-	dir = 4;
-	tag = "icon-porog2 (EAST)"
+	dir = 4
 	},
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
@@ -5565,8 +5546,7 @@
 /obj/structure/table/stalker/wood,
 /obj/item/kitchen/fork,
 /obj/machinery/light{
-	dir = 8;
-	tag = "icon-tube1 (WEST)"
+	dir = 8
 	},
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/ironforest)
@@ -5975,8 +5955,7 @@
 /area/stalker/buildings/backwater/ironforest)
 "xt" = (
 /obj/structure/stalker/cacheable/porog/porog2{
-	dir = 4;
-	tag = "icon-porog2 (EAST)"
+	dir = 4
 	},
 /obj/structure/barricade/stalker/wood,
 /obj/effect/turf_decal/stripes/line{
@@ -7531,8 +7510,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "EX" = (
 /obj/machinery/light/small{
-	dir = 4;
-	tag = "icon-bulb1 (EAST)"
+	dir = 4
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings/backwater/sawmill)
@@ -7678,8 +7656,7 @@
 /area/stalker/buildings/backwater/sawmill)
 "GC" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "3";
-	tag = "icon-3"
+	icon_state = "3"
 	},
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
@@ -7817,8 +7794,7 @@
 /area/stalker)
 "Ic" = (
 /obj/machinery/light/small{
-	dir = 4;
-	tag = "icon-bulb1 (EAST)"
+	dir = 4
 	},
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
@@ -7843,8 +7819,7 @@
 "Iw" = (
 /obj/structure/stalker/bar_plitka,
 /obj/structure/chair/brevno{
-	dir = 1;
-	tag = "icon-log1 (NORTH)"
+	dir = 1
 	},
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
@@ -7952,8 +7927,7 @@
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 8;
-	icon_state = "ladder_right";
-	tag = "icon-ladder (EAST)"
+	icon_state = "ladder_right"
 	},
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "JI" = (
@@ -8040,8 +8014,7 @@
 /area/stalker/buildings/backwater/krug)
 "Kq" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "4";
-	tag = "icon-4"
+	icon_state = "4"
 	},
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
@@ -8056,8 +8029,7 @@
 /area/stalker/buildings/renegade)
 "Kw" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "6";
-	tag = "icon-6"
+	icon_state = "6"
 	},
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
@@ -8229,8 +8201,7 @@
 "LS" = (
 /obj/structure/stalker/bar_plitka,
 /obj/structure/chair/wood{
-	dir = 8;
-	tag = "icon-wooden_chair (WEST)"
+	dir = 8
 	},
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
@@ -8362,8 +8333,7 @@
 /area/stalker/kordon/tunnel)
 "Nu" = (
 /obj/machinery/light/small{
-	dir = 4;
-	tag = "icon-bulb1 (EAST)"
+	dir = 4
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/sawmill)
@@ -8579,8 +8549,7 @@
 /area/stalker)
 "Qg" = (
 /obj/structure/stalker/car/gryzovik/east{
-	icon_state = "8";
-	tag = "icon-8"
+	icon_state = "8"
 	},
 /turf/open/stalker/floor/lattice{
 	icon_state = "lattice_new2"
@@ -8592,8 +8561,7 @@
 /area/stalker/blowout/outdoor/backwater/substation)
 "Qk" = (
 /obj/machinery/light/small{
-	dir = 1;
-	tag = "icon-bulb1 (NORTH)"
+	dir = 1
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/buildings/backwater/sawmill)
@@ -8771,8 +8739,7 @@
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 4;
-	icon_state = "ladder_left";
-	tag = "icon-ladder (EAST)"
+	icon_state = "ladder_left"
 	},
 /area/stalker)
 "RY" = (
@@ -8797,8 +8764,7 @@
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 4;
-	icon_state = "ladder_left";
-	tag = "icon-ladder (EAST)"
+	icon_state = "ladder_left"
 	},
 /area/stalker)
 "Sm" = (
@@ -8897,8 +8863,7 @@
 "Tx" = (
 /obj/structure/stalker/bar_plitka,
 /obj/structure/chair/brevno/log2{
-	dir = 1;
-	tag = "icon-log2 (NORTH)"
+	dir = 1
 	},
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings/backwater/sawmill)
@@ -9343,8 +9308,7 @@
 "ZD" = (
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 4;
-	icon_state = "ladder_left";
-	tag = "icon-ladder (EAST)"
+	icon_state = "ladder_left"
 	},
 /area/stalker)
 "ZI" = (
