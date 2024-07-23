@@ -571,16 +571,11 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "gE" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 12
+	},
 /obj/effect/landmark/named_teleport_destination{
 	id = "yantar_8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = "icons/stalker/warning_stripes.dmi";
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = "icons/stalker/warning_stripes.dmi";
-	icon_state = "border8"
 	},
 /turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
@@ -2044,21 +2039,12 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "uU" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 13
+	},
 /obj/effect/step_trigger/named_teleporter{
 	dir = 1;
 	destination = "agroprom_58"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
 	},
 /obj/machinery/light{
 	dir = 1
@@ -3816,13 +3802,8 @@
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "Ma" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 12
 	},
 /turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)

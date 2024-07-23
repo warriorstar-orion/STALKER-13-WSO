@@ -8177,13 +8177,11 @@
 	},
 /area/stalker/buildings/backwater/ironforest)
 "LF" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
+	},
 /obj/effect/landmark/named_teleport_destination{
 	id = "backwater_73"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = "icons/stalker/warning_stripes.dmi";
-	icon_state = "border4"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
@@ -8321,13 +8319,11 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/renegade)
 "Nn" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
+	},
 /obj/effect/landmark/named_teleport_destination{
 	id = "backwater_72"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = "icons/stalker/warning_stripes.dmi";
-	icon_state = "border4"
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
@@ -8356,10 +8352,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker)
 "NJ" = (
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
@@ -8834,10 +8828,8 @@
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/renegade)
 "Th" = (
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
@@ -8993,10 +8985,8 @@
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
 "Vu" = (
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)

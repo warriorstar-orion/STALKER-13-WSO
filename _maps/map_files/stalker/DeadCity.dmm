@@ -106,11 +106,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "aX" = (
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
+/obj/effect/turf_decal/turf_shading,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)

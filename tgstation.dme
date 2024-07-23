@@ -6445,6 +6445,7 @@
 #include "code\stalker\objects\donat-items.dm"
 #include "code\stalker\objects\lootspawners.dm"
 #include "code\stalker\objects\effects\faction_spawners.dm"
+#include "code\stalker\objects\effects\decals\turf_decal\markings.dm"
 #include "code\stalker\objects\effects\spawners\radiation.dm"
 #include "code\stalker\objects\effects\spawners\blowout\blowout_spawner.dm"
 #include "code\stalker\objects\effects\spawners\blowout\blowout_spawner_types.dm"

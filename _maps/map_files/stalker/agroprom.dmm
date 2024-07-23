@@ -2792,16 +2792,11 @@
 	},
 /area/stalker/blowout/agroprom/buildings)
 "rP" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 12
+	},
 /obj/effect/landmark/named_teleport_destination{
 	id = "agroprom_58"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = "icons/stalker/warning_stripes.dmi";
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = "icons/stalker/warning_stripes.dmi";
-	icon_state = "border8"
 	},
 /turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
@@ -3091,13 +3086,8 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/agroprom/buildings)
 "Jd" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 12
 	},
 /turf/open/floor/iron/stairs/old,
 /area/stalker/blowout/buildings)
@@ -3302,21 +3292,12 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/agroprom/buildings)
 "TM" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 13
+	},
 /obj/effect/step_trigger/named_teleporter{
 	dir = 1;
 	destination = "yantar_8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
 	},
 /obj/machinery/light{
 	dir = 1

@@ -34,6 +34,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "am" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
@@ -47,15 +50,6 @@
 	pixel_x = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "an" = (
@@ -1104,25 +1098,15 @@
 	},
 /area/stalker/buildings/backwater/ranger)
 "eg" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 14
+	},
 /obj/structure/stalker/cacheable/porog{
 	dir = 1
 	},
 /obj/effect/step_trigger/named_teleporter{
 	dir = 1;
 	destination = "under_68"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/ranger)
@@ -1555,15 +1539,14 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "fS" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
+	},
 /obj/machinery/door/poddoor/shutters/preopen,
 /obj/structure/sign/warning{
 	pixel_y = 32
 	},
 /obj/structure/stalker/blocks/vanish/block2/r,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /obj/effect/turf_decal/stripes/full{
 	icon = 'icons/stalker/warning_stripes.dmi';
 	icon_state = "E-corner"
@@ -2682,10 +2665,8 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "jZ" = (
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
 /obj/structure/stalker/cacheable/porog{
 	dir = 8
@@ -3832,6 +3813,9 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/kordon/tunnel)
 "ob" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
@@ -3844,15 +3828,6 @@
 	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "od" = (
@@ -3953,6 +3928,9 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "oI" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/structure/grille/stalker{
 	dir = 8;
 	icon = 'icons/stalker/decor.dmi';
@@ -3966,15 +3944,6 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "oK" = (
@@ -3995,6 +3964,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings/backwater/krug)
 "oN" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 14
+	},
 /obj/structure/grille/stalker{
 	dir = 8;
 	icon = 'icons/stalker/decor.dmi';
@@ -4002,19 +3974,6 @@
 	pixel_x = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "oQ" = (
@@ -4026,6 +3985,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/kordon/tunnel)
 "oV" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
+	},
 /obj/structure/grille/stalker{
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
@@ -4038,15 +4000,6 @@
 	pixel_x = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "oW" = (
@@ -4073,6 +4026,9 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings/backwater/claw)
 "pc" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
@@ -4083,22 +4039,6 @@
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = -5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
@@ -4137,13 +4077,8 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/backwater/krug)
 "pl" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
@@ -4153,13 +4088,8 @@
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "po" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/plasteel/plitka,
@@ -4393,6 +4323,9 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings/backwater/krug)
 "qL" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 13
+	},
 /obj/structure/grille/stalker{
 	dir = 8;
 	icon = 'icons/stalker/decor.dmi';
@@ -4400,34 +4333,14 @@
 	pixel_x = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "qO" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 12
+	},
 /obj/structure/stalker/bar_plitka,
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "qP" = (
@@ -4435,6 +4348,9 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "qQ" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 7
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
@@ -4442,19 +4358,6 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "qR" = (
@@ -4488,13 +4391,8 @@
 /turf/open/floor/plasteel/stairs/stalker,
 /area/stalker/agroprom/buildings)
 "qX" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldvert,
@@ -4567,27 +4465,14 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/burntfarm)
 "rr" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /obj/structure/grille/stalker{
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = -5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
 	},
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
@@ -4691,16 +4576,10 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "rW" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "rX" = (
@@ -4765,13 +4644,8 @@
 /turf/closed/wall/stalker/beton,
 /area/stalker/kordon/tunnel)
 "sr" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
@@ -4784,6 +4658,9 @@
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "sz" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
@@ -4797,14 +4674,6 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "sB" = (
@@ -4816,13 +4685,8 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/confined)
 "sH" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
@@ -4951,27 +4815,14 @@
 	},
 /area/stalker/kordon/tunnel)
 "tC" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /obj/structure/grille/stalker{
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = -5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
 	},
 /obj/structure/grille/stalker{
 	dir = 4;
@@ -5061,16 +4912,10 @@
 /turf/open/floor/plating/foam,
 /area/stalker/kordon/tunnel)
 "tX" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "tY" = (
@@ -5277,6 +5122,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "vm" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 11
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
@@ -5284,19 +5132,6 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "vn" = (
@@ -5347,15 +5182,10 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "vE" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "vF" = (
@@ -5480,6 +5310,9 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "wo" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 1
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
@@ -5487,10 +5320,6 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "wp" = (
@@ -5584,9 +5413,8 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "wP" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldvert,
@@ -5606,6 +5434,9 @@
 /turf/open/floor/iron/dark,
 /area/stalker)
 "wV" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
@@ -5613,15 +5444,6 @@
 	pixel_x = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "wW" = (
@@ -5681,15 +5503,10 @@
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/kordon/tunnel)
 "xi" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/effect/zona_anomaly/electro,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 4
 	},
@@ -5707,19 +5524,14 @@
 /turf/closed/mineral,
 /area/stalker/confined)
 "xn" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = 5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/plasteel/plitka,
@@ -5760,19 +5572,14 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "xD" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_x = 5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
@@ -5826,20 +5633,10 @@
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "xT" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 13
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 1
 	},
@@ -5859,6 +5656,9 @@
 /turf/open/floor/plasteel/stairs/stalker,
 /area/stalker/agroprom/buildings)
 "ye" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
+	},
 /obj/structure/grille/stalker{
 	dir = 8;
 	icon = 'icons/stalker/decor.dmi';
@@ -5871,15 +5671,6 @@
 	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "yj" = (
@@ -5897,6 +5688,9 @@
 	},
 /area/stalker/kordon/tunnel)
 "yo" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 14
+	},
 /obj/structure/stalker/bar_plitka,
 /obj/structure/grille/stalker{
 	icon = 'icons/stalker/decor.dmi';
@@ -5904,19 +5698,6 @@
 	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "yp" = (
@@ -5924,11 +5705,10 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/sawmill)
 "ys" = (
-/obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
 	},
+/obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "yv" = (
@@ -5962,10 +5742,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "yI" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
+/obj/effect/turf_decal/turf_shading,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/water,
 /area/stalker/buildings/backwater/krug)
@@ -6010,26 +5787,13 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/kordon/tunnel)
 "yW" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
+	},
 /obj/structure/grille/stalker{
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = -5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
@@ -6153,9 +5917,8 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "zO" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/kordon/tunnel)
@@ -6223,6 +5986,9 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "Al" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
@@ -6230,10 +5996,6 @@
 	pixel_x = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "Am" = (
@@ -6284,10 +6046,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "Az" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
+/obj/effect/turf_decal/turf_shading,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
 "AA" = (
@@ -6314,15 +6073,10 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/agroprom/buildings)
 "AG" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "AH" = (
@@ -6454,9 +6208,8 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "Bj" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
+/obj/effect/turf_decal/turf_shading{
+	dir = 1
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 4
@@ -6495,6 +6248,9 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "Bz" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
@@ -6508,15 +6264,6 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "BC" = (
@@ -6750,16 +6497,10 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "CJ" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "CL" = (
@@ -6849,34 +6590,16 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "Dk" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
+	},
 /obj/structure/grille/stalker{
 	dir = 8;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_x = -5
 	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
 "Dl" = (
@@ -6892,9 +6615,8 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "Do" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
@@ -6929,13 +6651,8 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/buildings)
 "Dv" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /obj/structure/grille/stalker{
@@ -6962,13 +6679,8 @@
 	},
 /area/stalker/agroprom/tunnel)
 "Dx" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/plasteel/plitka,
@@ -7009,12 +6721,9 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings/backwater/krug)
 "DK" = (
+/obj/effect/turf_decal/turf_shading,
 /obj/effect/landmark/named_teleport_destination{
 	id = "agroprom_30"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = "icons/stalker/warning_stripes.dmi";
-	icon_state = "border1"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
@@ -7053,12 +6762,11 @@
 /turf/open/floor/iron/dark,
 /area/stalker)
 "DV" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
+	},
 /obj/effect/landmark/named_teleport_destination{
 	id = "agroprom_34"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = "icons/stalker/warning_stripes.dmi";
-	icon_state = "border8"
 	},
 /obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/lattice,
@@ -7086,28 +6794,22 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Ec" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
 	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 8
 	},
 /area/stalker/kordon/tunnel)
 "Ef" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 1
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = 5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
@@ -7138,16 +6840,10 @@
 /turf/closed/wall/rust,
 /area/stalker/buildings/backwater/claw)
 "Ep" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 12
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "Eu" = (
@@ -7288,13 +6984,8 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/backwater/krug)
 "Fm" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
@@ -7308,10 +6999,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "Fq" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
+/obj/effect/turf_decal/turf_shading,
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
@@ -7325,20 +7013,14 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "Fu" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = 5
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /obj/structure/grille/stalker{
@@ -7431,11 +7113,8 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/kordon/tunnel)
 "FQ" = (
+/obj/effect/turf_decal/turf_shading,
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "FV" = (
@@ -7509,16 +7188,10 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Gw" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "Gx" = (
@@ -7545,6 +7218,9 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "GG" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
@@ -7557,14 +7233,6 @@
 	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "GJ" = (
@@ -7667,6 +7335,9 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "Hk" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
+	},
 /obj/structure/grille/stalker{
 	dir = 8;
 	icon = 'icons/stalker/decor.dmi';
@@ -7674,11 +7345,6 @@
 	pixel_x = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "Hl" = (
@@ -7728,16 +7394,11 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "Hy" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 3
+	},
 /obj/structure/stalker/bar_plitka,
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "Hz" = (
@@ -7760,20 +7421,14 @@
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/clearsky)
 "HI" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = 5
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/plasteel/plitka,
@@ -7799,13 +7454,8 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/buildings/backwater/krug)
 "HQ" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /obj/structure/grille/stalker{
@@ -7818,19 +7468,6 @@
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_x = -5
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
 	},
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
@@ -7848,9 +7485,8 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/kordon/tunnel)
 "HY" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
 /obj/structure/stalker/cacheable/body,
 /turf/open/stalker/floor/lattice,
@@ -7900,6 +7536,9 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "Ir" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
@@ -7911,14 +7550,6 @@
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_x = 5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/plasteel/plitka,
@@ -7987,20 +7618,10 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings/backwater/krug)
 "IK" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 11
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "IL" = (
@@ -8034,24 +7655,10 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "IS" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
 "IT" = (
@@ -8121,27 +7728,14 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "Jn" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = 5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
@@ -8182,9 +7776,8 @@
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "Jx" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
@@ -8242,12 +7835,11 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "JM" = (
-/obj/structure/stalker/trubas{
+/obj/effect/turf_decal/turf_shading{
 	dir = 8
 	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/structure/stalker/trubas{
+	dir = 8
 	},
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/kordon/tunnel)
@@ -8327,6 +7919,9 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/backwater/krug)
 "Kk" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
+	},
 /obj/structure/grille/stalker{
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
@@ -8344,22 +7939,6 @@
 	icon_state = "porog2";
 	pixel_y = 5
 	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
@@ -8376,20 +7955,15 @@
 	},
 /area/stalker/kordon/tunnel)
 "Km" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 3
+	},
 /obj/structure/grille/stalker{
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "Kn" = (
@@ -8412,23 +7986,14 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings/backwater/krug)
 "Kq" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 13
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_x = 5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
@@ -8500,15 +8065,10 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "KQ" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 3
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "KR" = (
@@ -8521,20 +8081,10 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "KS" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 11
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "KU" = (
@@ -8621,16 +8171,10 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/burntfarm)
 "Lq" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "Lr" = (
@@ -8658,19 +8202,14 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings/backwater/krug)
 "LE" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/structure/grille/stalker{
 	dir = 8;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_x = -5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/floor/plasteel/stairs/stalker{
@@ -8715,13 +8254,8 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/kordon/tunnel)
 "LS" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
@@ -8736,10 +8270,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "LX" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
+/obj/effect/turf_decal/turf_shading,
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 4
 	},
@@ -8758,11 +8289,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Mb" = (
+/obj/effect/turf_decal/turf_shading,
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "Mc" = (
@@ -8825,13 +8353,8 @@
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "Mz" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
@@ -8878,9 +8401,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "MN" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
@@ -8915,13 +8437,8 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/burntfarm)
 "MU" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /obj/structure/grille/stalker{
@@ -9106,13 +8623,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "NY" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
 	},
 /obj/structure/grille/stalker{
 	dir = 4;
@@ -9198,20 +8710,10 @@
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/kordon/tunnel)
 "OF" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 14
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "OG" = (
@@ -9235,11 +8737,10 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "OM" = (
-/obj/effect/zona_anomaly/fruit_punch,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "ON" = (
@@ -9278,24 +8779,15 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "OU" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 7
+	},
 /obj/structure/grille/stalker{
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "OV" = (
@@ -9341,10 +8833,7 @@
 /turf/open/stalker/floor/dirt,
 /area/stalker)
 "Pr" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
+/obj/effect/turf_decal/turf_shading,
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/water,
@@ -9375,6 +8864,9 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "PA" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
@@ -9391,22 +8883,6 @@
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = -5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
@@ -9425,23 +8901,10 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "PK" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
 "PL" = (
@@ -9525,24 +8988,10 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "Qh" = (
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
+/obj/effect/turf_decal/turf_shading{
+	dir = 15
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
 "Qk" = (
@@ -9574,16 +9023,10 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Qz" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "QA" = (
@@ -9597,9 +9040,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "QD" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
@@ -9664,6 +9106,9 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "QV" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/structure/grille/stalker{
 	dir = 8;
 	icon = 'icons/stalker/decor.dmi';
@@ -9671,14 +9116,6 @@
 	pixel_x = -5
 	},
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/kordon/tunnel)
 "QW" = (
@@ -9714,27 +9151,21 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "Rn" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 1
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = 5
 	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
 /obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
 "Ro" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /obj/structure/grille/stalker{
@@ -9852,6 +9283,9 @@
 /turf/open/floor/iron/chapel,
 /area/stalker)
 "RY" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 14
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
@@ -9859,19 +9293,6 @@
 	pixel_x = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "Sb" = (
@@ -9880,41 +9301,27 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
 "Sc" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 12
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "Sf" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
+	},
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/kordon/tunnel)
 "Sg" = (
+/obj/effect/turf_decal/turf_shading,
 /obj/structure/grille/stalker{
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "Si" = (
@@ -9938,6 +9345,9 @@
 /turf/open/floor/plasteel/stairs/stalker,
 /area/stalker/buildings/backwater/krug)
 "Sk" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 5
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
@@ -9945,40 +9355,24 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "Sl" = (
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/agroprom/buildings)
 "Sm" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 12
+	},
 /obj/effect/decal/cleanable/glitter/white,
 /obj/structure/stalker/bar_plitka,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "Sn" = (
-/obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
+/obj/effect/turf_decal/turf_shading{
+	dir = 1
 	},
+/obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "Sp" = (
@@ -10010,19 +9404,14 @@
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/agroprom/buildings)
 "Sz" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
+	},
 /obj/structure/grille/stalker{
 	dir = 8;
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_x = -5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldvert,
@@ -10104,11 +9493,10 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "SR" = (
-/obj/structure/stalker/cacheable/yashik/yaskik_a,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
+/obj/structure/stalker/cacheable/yashik/yaskik_a,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "SS" = (
@@ -10149,20 +9537,16 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "Ti" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
+	},
 /obj/structure/stalker/trubas{
 	dir = 10
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
 	},
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/kordon/tunnel)
 "Tj" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
+/obj/effect/turf_decal/turf_shading,
 /obj/effect/abstract/radiation/low,
 /obj/effect/zona_anomaly/electro,
 /turf/open/stalker/floor/gryaz,
@@ -10371,9 +9755,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Ur" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
@@ -10406,10 +9789,7 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
 "Uw" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
+/obj/effect/turf_decal/turf_shading,
 /obj/effect/abstract/radiation/medium,
 /obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/lattice,
@@ -10505,19 +9885,10 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
 "Vb" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 7
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
 /turf/open/floor/plasteel/stairs/stalker{
 	dir = 8
 	},
@@ -10545,13 +9916,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Vm" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/kordon/tunnel)
@@ -10618,6 +9984,9 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "VD" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 7
+	},
 /obj/structure/grille/stalker{
 	dir = 4;
 	icon = 'icons/stalker/decor.dmi';
@@ -10634,18 +10003,6 @@
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = -5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/wood/oldgor,
@@ -10786,9 +10143,8 @@
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/backwater/ranger)
 "Ws" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
+/obj/effect/turf_decal/turf_shading{
+	dir = 4
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
@@ -10815,21 +10171,15 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "Wy" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
+	},
 /obj/structure/grille/stalker{
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "WA" = (
@@ -10837,6 +10187,9 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/buildings)
 "WD" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/structure/grille/stalker{
 	dir = 8;
 	icon = 'icons/stalker/decor.dmi';
@@ -10848,14 +10201,6 @@
 	icon = 'icons/stalker/decor.dmi';
 	icon_state = "porog2";
 	pixel_y = 5
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/plasteel/plitka,
@@ -10929,12 +10274,10 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/kordon/tunnel)
 "Xe" = (
-/obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
+/obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "Xh" = (
@@ -10988,6 +10331,9 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "Xw" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/structure/grille/stalker{
 	dir = 1;
 	icon = 'icons/stalker/decor.dmi';
@@ -11001,23 +10347,13 @@
 	icon_state = "porog2";
 	pixel_x = -5
 	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
-	},
-/obj/effect/turf_decal/stripes/full{
-	density = 1;
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "Xy" = (
-/obj/effect/zona_anomaly/fruit_punch,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/effect/turf_decal/turf_shading{
+	dir = 8
 	},
+/obj/effect/zona_anomaly/fruit_punch,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/kordon/tunnel)
 "Xz" = (
@@ -11126,16 +10462,11 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "Yk" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 9
+	},
 /obj/effect/landmark/named_teleport_destination{
 	id = "agroprom_35"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = "icons/stalker/warning_stripes.dmi";
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = "icons/stalker/warning_stripes.dmi";
-	icon_state = "border2"
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
@@ -11184,13 +10515,8 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/burntfarm)
 "Yt" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
+/obj/effect/turf_decal/turf_shading{
+	dir = 10
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/stalker/floor/plasteel/plitka,
@@ -11219,12 +10545,11 @@
 /turf/open/stalker/floor/water,
 /area/stalker/kordon/tunnel)
 "YH" = (
-/obj/structure/stalker/trubas{
+/obj/effect/turf_decal/turf_shading{
 	dir = 8
 	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border8"
+/obj/structure/stalker/trubas{
+	dir = 8
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
@@ -11299,15 +10624,10 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings/backwater/krug)
 "Zd" = (
+/obj/effect/turf_decal/turf_shading{
+	dir = 6
+	},
 /obj/effect/decal/cleanable/glitter/white,
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border1"
-	},
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border4"
-	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/agroprom/tunnel)
 "Zf" = (
@@ -11389,9 +10709,8 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
 "ZF" = (
-/obj/effect/turf_decal/stripes/full{
-	icon = 'icons/stalker/warning_stripes.dmi';
-	icon_state = "border2"
+/obj/effect/turf_decal/turf_shading{
+	dir = 1
 	},
 /obj/effect/decal/cleanable/glitter/white,
 /turf/open/floor/plasteel/stairs/stalker{
