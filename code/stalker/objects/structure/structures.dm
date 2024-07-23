@@ -2,13 +2,13 @@
 	desc = "A simple table."
 	icon = 'icons/stalker/structure/stol_stalker.dmi'
 	icon_state = "stol"
-	smoothing_flags = SMOOTH_DIAGONAL_CORNERS
+	smoothing_flags = SMOOTH_CORNERS
 
 /obj/structure/table/stalker/wood/bar
 	desc = "A homemade bar counter."
 	icon = 'icons/stalker/structure/stol_stalker_bar.dmi'
 	icon_state = "bar"
-	smoothing_flags = SMOOTH_DIAGONAL_CORNERS
+	smoothing_flags = SMOOTH_CORNERS
 
 /obj/structure/table/stalker/wood/bar100rentgen
 	desc = "A quality bar counter."
