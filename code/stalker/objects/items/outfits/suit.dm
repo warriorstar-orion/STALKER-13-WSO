@@ -7,21 +7,22 @@
 
 /obj/item/clothing/examine(mob/user)
 	..()
-	var/msg = ""
-	var/list/arm = get_armor()
+	// TODO(wso): use the right /datum/armor methods
+	// var/msg = ""
+	// var/list/arm = get_armor()
 
-	var/melee = arm["melee"]
-	var/bullet = arm["bullet"]
-	var/bomb = arm["bomb"]
-	var/fire = arm["fire"]
-	var/rad = arm["rad"]
-	var/psy = arm["psy"]
+	// var/melee = arm["melee"]
+	// var/bullet = arm["bullet"]
+	// var/bomb = arm["bomb"]
+	// var/fire = arm["fire"]
+	// var/rad = arm["rad"]
+	// var/psy = arm["psy"]
 
-	msg += "<span class='info'><b>Defense:</b>\n"
-	msg += "Melee: [melee] | Bullet: [bullet] | Explosion: [bomb]\n"
-	msg += "Fire: [fire] | Rad: [rad] | Psy: [psy]\n"
-	msg += "</span>"
-	to_chat(user, msg)
+	// msg += "<span class='info'><b>Defense:</b>\n"
+	// msg += "Melee: [melee] | Bullet: [bullet] | Explosion: [bomb]\n"
+	// msg += "Fire: [fire] | Rad: [rad] | Psy: [psy]\n"
+	// msg += "</span>"
+	// to_chat(user, msg)
 
 /obj/item/clothing/head/examine(mob/user)
 	..()
@@ -601,9 +602,9 @@
 	icon_state = "ecolog_helmet"
 
 /obj/item/clothing/head/hooded/stalker/sealed/ecolog/Initialize(mapload)
+	. = ..()
 	AttachNVG()
 	//nvg = new /obj/item/nightvision(src)
-	..()
 
 /obj/item/clothing/suit/hooded/sealed/ecologm
 	name = "SSP-99M"
@@ -639,9 +640,9 @@
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/head/hooded/stalker/sealed/ecologm/Initialize(mapload)
+	. = ..()
 	AttachNVG()
 	//nvg = new /obj/item/nightvision(src)
-	..()
 
 /obj/item/clothing/suit/hooded/sealed/seva
 	name = "SEVA"
