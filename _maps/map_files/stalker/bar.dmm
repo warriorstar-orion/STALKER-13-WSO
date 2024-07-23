@@ -2991,9 +2991,7 @@
 /turf/closed/wall/stalker/bricks_yellow,
 /area/stalker)
 "MZ" = (
-/turf/closed/wall/stalker/bricks_yellow{
-	layer = 5.1
-	},
+/turf/closed/wall/stalker/bricks_yellow,
 /area/stalker/blowout/outdoor)
 "Na" = (
 /obj/structure/bed/stalker/matras{

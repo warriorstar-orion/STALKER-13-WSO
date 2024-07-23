@@ -4604,9 +4604,7 @@
 /area/stalker)
 "si" = (
 /obj/effect/abstract/radiation/low,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker)
 "sl" = (
 /obj/effect/landmark/named_teleport_destination{

@@ -11,9 +11,7 @@
 	dir = 8;
 	icon_state = "bigyashik 0,0"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ag" = (
 /obj/structure/stalker/cacheable/sovietsoda,
@@ -26,9 +24,7 @@
 /obj/structure/stalker/car/moskvich/south/hyi{
 	icon_state = "01"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "ar" = (
 /mob/living/simple_animal/hostile/mutant/pseudog{
@@ -303,9 +299,7 @@
 /area/stalker/blowout/outdoor)
 "cV" = (
 /obj/structure/stalker/cacheable/cover,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "cX" = (
 /obj/structure/stalker/bigyashik{
@@ -434,17 +428,13 @@
 /obj/structure/stalker/car/uaz{
 	icon_state = "1,0"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "eA" = (
 /obj/structure/stalker/car/uaz{
 	icon_state = "0,2"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "eK" = (
 /obj/structure/stalker/car/mi24{
@@ -500,9 +490,7 @@
 /area/stalker/blowout/buildings)
 "fm" = (
 /obj/effect/decal/cleanable/oil,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "fq" = (
 /obj/structure/chair/brevno{
@@ -583,9 +571,7 @@
 /area/stalker/blowout/outdoor)
 "gc" = (
 /obj/effect/zona_anomaly/electro,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "gd" = (
 /obj/structure/stalker/car/gryzovik/west{
@@ -732,9 +718,7 @@
 /area/stalker/blowout/outdoor)
 "ho" = (
 /obj/structure/stalker/cacheable/junk_locker,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "hs" = (
 /obj/structure/stalker/tree{
@@ -759,9 +743,7 @@
 /obj/structure/stalker/car/moskvich/south/hyi{
 	icon_state = "11"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "hw" = (
 /obj/effect/turf_decal/turf_shading{
@@ -914,9 +896,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "iI" = (
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "iR" = (
 /obj/effect/turf_decal/turf_shading{
@@ -1032,9 +1012,7 @@
 /obj/structure/stalker/car/uaz{
 	icon_state = "1,1"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "jD" = (
 /obj/effect/decal/cleanable/blood/tracks,
@@ -1137,9 +1115,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "7"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "kx" = (
 /obj/structure/stalker/rails{
@@ -1166,9 +1142,7 @@
 	dir = 8;
 	icon_state = "bigyashik 0,1"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "kC" = (
 /obj/structure/stalker/car/mi24{
@@ -1212,9 +1186,7 @@
 "kO" = (
 /obj/effect/abstract/radiation/high,
 /obj/effect/abstract/radiation/high,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "kQ" = (
 /obj/structure/stalker/car/mi24{
@@ -1505,9 +1477,7 @@
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "5"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "nj" = (
 /obj/structure/stalker/rails{
@@ -1659,9 +1629,7 @@
 /area/stalker/blowout/buildings)
 "od" = (
 /obj/effect/abstract/radiation/medium,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "of" = (
 /obj/structure/stalker/rails{
@@ -1779,9 +1747,7 @@
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 8
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "pr" = (
 /obj/effect/zona_anomaly/burner,
@@ -1878,9 +1844,7 @@
 /area/stalker/blowout/outdoor)
 "qm" = (
 /obj/structure/stalker/cacheable/body,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "qq" = (
 /obj/structure/stalker/car/gryzovik/west{
@@ -1904,18 +1868,14 @@
 	dir = 8;
 	icon_state = "bigyashik 0,1"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "qz" = (
 /obj/structure/stalker/bigyashik{
 	dir = 8;
 	icon_state = "bigyashik 1,0"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "qD" = (
 /obj/structure/stalker/car/gryzovik2/south,
@@ -2173,9 +2133,7 @@
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "7"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "ts" = (
 /obj/structure/spawner/stalker/boar,
@@ -2190,9 +2148,7 @@
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "8"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "tJ" = (
 /obj/effect/turf_decal/turf_shading{
@@ -2388,9 +2344,7 @@
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "3"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "vf" = (
 /obj/structure/stalker/broke_table/right,
@@ -2793,17 +2747,13 @@
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
 	dir = 4
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "zu" = (
 /obj/structure/stalker/car/uaz{
 	icon_state = "0,1"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "zw" = (
 /obj/structure/stalker/bar_plitka{
@@ -2904,9 +2854,7 @@
 	dir = 8;
 	icon_state = "bigyashik 1,1"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "Ak" = (
 /obj/structure/stalker/car/gryzovik/west{
@@ -2925,9 +2873,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "2"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "As" = (
 /obj/structure/stalker/cacheable/porog{
@@ -2942,9 +2888,7 @@
 /obj/structure/stalker/blocks/vanish/pipe/pipe3{
 	dir = 4
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "Az" = (
 /obj/structure/stalker/cacheable/polka,
@@ -3294,9 +3238,7 @@
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "6"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "Dw" = (
 /obj/effect/abstract/radiation/medium,
@@ -3453,9 +3395,7 @@
 /area/stalker/blowout/buildings)
 "EV" = (
 /obj/structure/closet/crate/stalker/blue/stash/medium,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "Fa" = (
 /obj/effect/turf_decal/turf_shading{
@@ -3622,9 +3562,7 @@
 /obj/structure/stalker/car/uaz{
 	icon_state = "1,2"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "GN" = (
 /obj/structure/stalker/car/moskvich/south/hyi{
@@ -3667,9 +3605,7 @@
 /area/stalker/blowout/outdoor)
 "Hh" = (
 /obj/structure/stalker/cacheable/shina3,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Hj" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe3{
@@ -4217,9 +4153,7 @@
 	dir = 8;
 	icon_state = "bigyashik 0,0"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "Mn" = (
 /obj/structure/stalker/car/mi24{
@@ -4270,9 +4204,7 @@
 /obj/structure/stalker/car/gryzovik2/south{
 	icon_state = "4"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "MC" = (
 /obj/structure/stalker/blocks/vanish/pipe/pipe2{
@@ -4438,9 +4370,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "5"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "NJ" = (
 /obj/effect/abstract/radiation/medium,
@@ -4676,9 +4606,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "3"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "PR" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
@@ -4827,9 +4755,7 @@
 /obj/structure/stalker/blocks/vanish/pipe/pipe3{
 	dir = 4
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "RX" = (
 /obj/structure/stalker/car/gryzovik/west{
@@ -4854,9 +4780,7 @@
 /area/stalker/blowout/outdoor)
 "Sc" = (
 /obj/structure/stalker/car/gryzovik/west,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "Sg" = (
 /obj/structure/grille/stalker/beton{
@@ -4946,9 +4870,7 @@
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "4"
 	},
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "Ta" = (
 /obj/structure/stalker/bar_plitka{
@@ -5665,9 +5587,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "YW" = (
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "YY" = (
 /obj/structure/stalker/bigyashik{
@@ -5702,9 +5622,7 @@
 /area/stalker/blowout/outdoor)
 "Zq" = (
 /obj/machinery/campfire,
-/turf/open/stalker/floor/gryaz{
-	layer = 1.8
-	},
+/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "Zr" = (
 /obj/effect/abstract/radiation/high,
