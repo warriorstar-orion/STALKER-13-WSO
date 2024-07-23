@@ -2,26 +2,26 @@
 
 /datum/crafting_recipe/echo
 	name = "echo detector"
-	reqs = list(/obj/item/trash/oldcircuitboard = 4, /obj/item/trash/brokedevice/echobroke = 2, /obj/item/trash/binding_material = 1)
+	reqs = list(/obj/item/trash/stalker/oldcircuitboard = 4, /obj/item/trash/stalker/brokedevice/echobroke = 2, /obj/item/trash/stalker/binding_material = 1)
 	result = /obj/item/t_scanner/artifact_detector/blink
 	category = CAT_MISC
 
 /datum/crafting_recipe/bear
 	name = "bear detector"
-	reqs = list(/obj/item/trash/oldcircuitboard = 4, /obj/item/trash/brokedevice/bearbroken = 2, /obj/item/trash/binding_material = 1)
+	reqs = list(/obj/item/trash/stalker/oldcircuitboard = 4, /obj/item/trash/stalker/brokedevice/bearbroken = 2, /obj/item/trash/stalker/binding_material = 1)
 	result = /obj/item/t_scanner/artifact_detector/bear
 	category = CAT_MISC
 
 /datum/crafting_recipe/veles
 	name = "veles detector"
-	reqs = list(/obj/item/trash/oldcircuitboard = 4, /obj/item/trash/brokedevice/velesbroke = 2, /obj/item/trash/binding_material = 1)
+	reqs = list(/obj/item/trash/stalker/oldcircuitboard = 4, /obj/item/trash/stalker/brokedevice/velesbroke = 2, /obj/item/trash/stalker/binding_material = 1)
 	result = /obj/item/t_scanner/artifact_detector/veles
 	category = CAT_MISC
 
 /*
 /datum/crafting_recipe/svarog
 	name = "Svarog Detector"
-	reqs[] = list(/obj/item/trash/oldcircuitboard = 4, /obj/item/t_scanner/artifact_detector/veles = 2, /obj/item/trash/binding_material/wire)
+	reqs[] = list(/obj/item/trash/stalker/oldcircuitboard = 4, /obj/item/t_scanner/artifact_detector/veles = 2, /obj/item/trash/stalker/binding_material/wire)
 	result = /obj/item/t_scanner/artifact_detector/svarog
 	category = CAT_MISC
 */
@@ -29,15 +29,15 @@
 /// ADDONS ///
 /datum/crafting_recipe/suppressor
 	name = "Universal Suppressor"
-	reqs = list(/obj/item/trash/binding_material/duct_tape, /obj/item/trash/paintcan, /obj/item/trash/binding_material/steelwire)
+	reqs = list(/obj/item/trash/stalker/binding_material/duct_tape, /obj/item/trash/stalker/paintcan, /obj/item/trash/stalker/binding_material/steelwire)
 	result = /obj/item/attachment/suppressor
 	category = CAT_MISC
 
 /// WEAPONS ///
 /datum/crafting_recipe/pipe
 	name = "pipe"
-	reqs = list(/obj/item/trash/metalparts/metaljunk = 1,
-				/obj/item/trash/binding_material = 1,)
+	reqs = list(/obj/item/trash/stalker/metalparts/metaljunk = 1,
+				/obj/item/trash/stalker/binding_material = 1,)
 	result = /obj/item/melee/pipe
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
@@ -45,8 +45,8 @@
 /datum/crafting_recipe/nailbat
 	name = "nail bat"
 	reqs = list(/obj/item/melee/baseball_bat = 1,
-				/obj/item/trash/binding_material = 1,
-				/obj/item/trash/nail = 2)
+				/obj/item/trash/stalker/binding_material = 1,
+				/obj/item/trash/stalker/nail = 2)
 	result = /obj/item/melee/baseball_bat/nail
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
@@ -54,8 +54,8 @@
 /datum/crafting_recipe/barbbat
 	name = "barbed bat"
 	reqs = list(/obj/item/melee/baseball_bat = 1,
-				/obj/item/trash/binding_material = 1,
-				/obj/item/trash/barbwire = 2,)
+				/obj/item/trash/stalker/binding_material = 1,
+				/obj/item/trash/stalker/barbwire = 2,)
 	result = /obj/item/melee/baseball_bat/barbed
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
@@ -63,11 +63,11 @@
 /datum/crafting_recipe/makeshiftak
 	name = "makeshift ak"
 	reqs = list(/obj/item/melee/pipe = 1,
-				/obj/item/trash/binding_material = 5,
-				/obj/item/trash/metalparts = 5,
-				/obj/item/trash/igniter = 1,
-				/obj/item/trash/oldplank = 3,
-				/obj/item/trash/nail = 3
+				/obj/item/trash/stalker/binding_material = 5,
+				/obj/item/trash/stalker/metalparts = 5,
+				/obj/item/trash/stalker/igniter = 1,
+				/obj/item/trash/stalker/oldplank = 3,
+				/obj/item/trash/stalker/nail = 3
 				)
 	result = /obj/item/gun/ballistic/automatic/makeshiftak
 	category = CAT_WEAPONRY
@@ -77,11 +77,11 @@
 /datum/crafting_recipe/makeshiftbolt
 	name = "makeshift bolt-action rifle"
 	reqs = list(/obj/item/melee/pipe = 1,
-				/obj/item/trash/binding_material = 3,
-				/obj/item/trash/metalparts = 5,
-				/obj/item/trash/igniter = 1,
-				/obj/item/trash/oldplank = 3,
-				/obj/item/trash/nail = 3
+				/obj/item/trash/stalker/binding_material = 3,
+				/obj/item/trash/stalker/metalparts = 5,
+				/obj/item/trash/stalker/igniter = 1,
+				/obj/item/trash/stalker/oldplank = 3,
+				/obj/item/trash/stalker/nail = 3
 				)
 	result = /obj/item/gun/ballistic/rifle/boltaction/makeshiftbolt
 	category = CAT_WEAPONRY
@@ -368,7 +368,7 @@
 /datum/crafting_recipe/kebab/mutantmeatkebab
 	name = "mutant meat shishkebab"
 	reqs = list(
-		/obj/item/trash/metalparts = 1,
+		/obj/item/trash/stalker/metalparts = 1,
 		/obj/item/food/meat/steak/mutant = 1
 	)
 	result = /obj/item/food/stalker/kebab/mutantmeat
@@ -378,7 +378,7 @@
 /datum/crafting_recipe/kebab/mutantonionmeat
 	name = "mutant meat shishkebab"
 	reqs = list(
-		/obj/item/trash/metalparts = 1,
+		/obj/item/trash/stalker/metalparts = 1,
 		/obj/item/food/meat/steak/mutant = 1,
 		/obj/item/food/grown/onion =1
 	)
@@ -510,7 +510,7 @@
 	name = "jar of sauerkraut"
 	reqs = list(
 		/obj/item/reagent_containers/condiment/saltshaker,
-		/obj/item/trash/fermentingjar = 1,
+		/obj/item/trash/stalker/fermentingjar = 1,
 		/obj/item/food/grown/cabbage = 3
 	)
 	result = /obj/item/food/stalker/fermented/sauerkraut
@@ -521,7 +521,7 @@
 	name = "jar of pickled tomatoes"
 	reqs = list(
 		//datum/reagent/consumable/sodiumchloride = 10,
-		/obj/item/trash/fermentingjar = 1,
+		/obj/item/trash/stalker/fermentingjar = 1,
 		/obj/item/food/grown/tomato = 3
 	)
 	result = /obj/item/food/stalker/fermented/tomaty
