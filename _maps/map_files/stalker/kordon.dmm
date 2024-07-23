@@ -15,11 +15,6 @@
 /obj/structure/stalker/tree,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
-"af" = (
-/obj/effect/spawner/random/stalker/weapon/melee,
-/turf/open/stalker/floor/tropa,
-/turf/open/stalker/floor/gryaz,
-/area/stalker/kordon/buildings)
 "ag" = (
 /obj/effect/step_trigger/named_teleporter{
 	dir = 1;
@@ -156,7 +151,6 @@
 /obj/structure/stalker/bigyashik{
 	icon_state = "bigyashik 0,1"
 	},
-/turf/open/stalker/floor/tropa,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/buildings)
 "aH" = (
@@ -165,7 +159,6 @@
 /area/stalker/blowout/outdoor)
 "aI" = (
 /obj/machinery/campfire/barrel,
-/turf/open/stalker/floor/tropa,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/buildings)
 "aJ" = (
@@ -192,7 +185,6 @@
 	dir = 8;
 	pixel_x = 2
 	},
-/turf/open/stalker/floor/tropa,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/buildings)
 "aP" = (
@@ -210,11 +202,6 @@
 	},
 /obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/plasteel/plitka,
-/area/stalker/blowout/outdoor)
-"aS" = (
-/obj/structure/stalker/blocks/block2/l,
-/turf/open/stalker/floor/digable/grass,
-/turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor)
 "aT" = (
 /obj/structure/closet/crate/stalker/blue/stash/low,
@@ -247,14 +234,8 @@
 /obj/structure/stalker/bigyashik{
 	icon_state = "bigyashik 1,0"
 	},
-/turf/open/stalker/floor/tropa,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/buildings)
-"aZ" = (
-/obj/structure/stalker/tree,
-/turf/open/stalker/floor/tropa,
-/turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
 "ba" = (
 /obj/machinery/light/small,
 /obj/effect/abstract/radiation/high,
@@ -280,11 +261,6 @@
 	icon_state = "4"
 	},
 /turf/open/stalker/floor/asphalt,
-/area/stalker/blowout/outdoor)
-"be" = (
-/obj/effect/abstract/radiation/low,
-/turf/open/stalker/floor/asphalt,
-/turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "bf" = (
 /obj/structure/stalker/car/gryzovik2/south{
@@ -863,10 +839,6 @@
 /obj/structure/stalker/okno/window1,
 /turf/closed/wall/stalker/bricks,
 /area/stalker/blowout/outdoor)
-"dB" = (
-/turf/open/stalker/floor/tropa,
-/turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
 "dC" = (
 /turf/closed/wall/stalker/beton,
 /area/stalker/blowout/outdoor)
@@ -1312,12 +1284,6 @@
 /obj/structure/stalker/okno/window4,
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/kordon/tunnel)
-"ff" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 10
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "fg" = (
 /obj/structure/barricade/stalker/box,
 /obj/machinery/light/small{
@@ -1900,10 +1866,6 @@
 	},
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
-"hi" = (
-/turf/open/stalker/floor/tropa,
-/turf/open/stalker/floor/gryaz,
-/area/stalker/kordon/buildings)
 "hj" = (
 /obj/structure/stalker/blocks/block3/l,
 /turf/open/stalker/floor/digable/grass,
@@ -2457,15 +2419,6 @@
 /obj/structure/stalker/broke_table,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
-"jg" = (
-/obj/structure/stairs,
-/obj/effect/step_trigger/teleporter{
-	teleport_x = 164;
-	teleport_y = 19;
-	teleport_z = 3
-	},
-/turf/open/stalker/floor/wood/oldgor,
-/area/stalker/buildings/military)
 "jh" = (
 /obj/structure/stalker/broke_table/right,
 /turf/open/stalker/floor/wood/oldvert,
@@ -5297,9 +5250,6 @@
 	},
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
-"DY" = (
-/turf/open/floor/plasteel/stairs/stalker,
-/area/stalker/buildings/backwater/skadovsk)
 "DZ" = (
 /obj/structure/table/stalker/wood,
 /obj/effect/spawner/random/stalker/kitchencondiments,
@@ -6441,16 +6391,6 @@
 /obj/effect/spawner/random/stalker/bureaucracy,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/buildings)
-"Nn" = (
-/obj/structure/stairs,
-/obj/effect/step_trigger/teleporter{
-	dir = 1;
-	teleport_x = 129;
-	teleport_y = 28;
-	teleport_z = 3
-	},
-/turf/open/stalker/floor/wood/oldgor,
-/area/stalker/buildings/military)
 "Np" = (
 /obj/effect/turf_decal/turf_shading{
 	dir = 8
@@ -6494,12 +6434,6 @@
 /obj/structure/table/stalker/wood,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
-"NI" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 12
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/kordon/buildings)
 "NK" = (
 /obj/structure/chair/brevno/log2{
 	dir = 1
@@ -12750,7 +12684,7 @@ fx
 fx
 mu
 mu
-aZ
+js
 aJ
 aJ
 aJ
@@ -31735,7 +31669,7 @@ fx
 mu
 mu
 mu
-dB
+mu
 mu
 mu
 mu
@@ -31866,8 +31800,8 @@ mu
 mu
 am
 ho
-be
-be
+ho
+ho
 ho
 ab
 aa
@@ -31990,7 +31924,7 @@ fx
 fx
 fx
 fS
-dB
+mu
 mu
 mu
 mu
@@ -32124,7 +32058,7 @@ mu
 am
 ho
 aH
-be
+ho
 ho
 ab
 aa
@@ -32247,7 +32181,7 @@ aH
 aH
 mu
 mu
-dB
+mu
 fx
 fx
 fx
@@ -32381,7 +32315,7 @@ mu
 am
 ho
 aH
-be
+ho
 ho
 ab
 aa
@@ -34820,7 +34754,7 @@ fV
 mu
 mu
 mu
-dB
+mu
 mu
 mu
 mu
@@ -35076,7 +35010,7 @@ ho
 ho
 fx
 fx
-dB
+mu
 mu
 mu
 mu
@@ -35591,7 +35525,7 @@ mu
 mu
 mu
 mu
-dB
+mu
 mu
 mu
 mu
@@ -40998,7 +40932,7 @@ gt
 gt
 an
 aq
-dB
+mu
 mu
 mu
 mu
@@ -41255,7 +41189,7 @@ az
 iR
 an
 KX
-dB
+mu
 mu
 mu
 fx
@@ -50971,7 +50905,7 @@ mu
 fx
 mu
 mu
-dB
+mu
 fx
 fx
 fx
@@ -51228,7 +51162,7 @@ mu
 fx
 mu
 mu
-dB
+mu
 fx
 mu
 mu
@@ -59244,7 +59178,7 @@ Un
 fu
 ac
 mu
-aS
+kV
 gM
 kX
 kY
@@ -68238,7 +68172,7 @@ mu
 mu
 jI
 cp
-hi
+cp
 cp
 gX
 kz
@@ -68495,7 +68429,7 @@ ab
 ab
 jI
 gX
-af
+Ct
 cp
 cp
 cp
@@ -68752,7 +68686,7 @@ aa
 aa
 jI
 UT
-hi
+cp
 cp
 cp
 UT
@@ -69009,7 +68943,7 @@ aa
 aa
 jI
 cp
-hi
+cp
 cp
 cp
 gX
@@ -70037,7 +69971,7 @@ aa
 aa
 jI
 cp
-hi
+cp
 cp
 Ct
 aQ

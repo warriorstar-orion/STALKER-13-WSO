@@ -4092,10 +4092,6 @@
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
-"KM" = (
-/turf/open/stalker/floor/gryaz,
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "KP" = (
 /obj/structure/closet/stalker/shkaf,
 /obj/effect/spawner/random/stalker/weapon/rarepistols,
@@ -39343,7 +39339,7 @@ Or
 Or
 eQ
 YZ
-KM
+hP
 hP
 Zd
 hP
@@ -39546,7 +39542,7 @@ Or
 eQ
 YZ
 eQ
-KM
+hP
 hP
 hP
 hP

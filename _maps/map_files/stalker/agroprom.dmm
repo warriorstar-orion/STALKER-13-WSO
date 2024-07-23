@@ -210,10 +210,6 @@
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
-"bf" = (
-/turf/open/stalker/floor/plasteel,
-/turf/open/stalker/floor/road,
-/area/stalker/blowout/outdoor)
 "bg" = (
 /obj/structure/grille/stalker/beton{
 	icon_state = "|"
@@ -2883,10 +2879,6 @@
 "uu" = (
 /obj/structure/stalker/cacheable/bochka/red,
 /turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
-"uQ" = (
-/turf/open/stalker/floor/road,
-/turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "vd" = (
 /obj/structure/barricade/stalker/box,
@@ -27570,9 +27562,9 @@ Ms
 Ms
 Ms
 Ms
-uQ
-bf
-bf
+kE
+kE
+kE
 kE
 hn
 Ms
@@ -27778,9 +27770,9 @@ fx
 kE
 kE
 kE
-uQ
-bf
-bf
+kE
+kE
+kE
 kE
 kE
 kE
@@ -27986,13 +27978,13 @@ fy
 kE
 kE
 kE
-uQ
-bf
-bf
 kE
 kE
 kE
-bf
+kE
+kE
+kE
+kE
 kE
 kE
 kE
@@ -28194,9 +28186,9 @@ fA
 kE
 kE
 kE
-uQ
-bf
-bf
+kE
+kE
+kE
 kE
 kE
 kE
@@ -28402,9 +28394,9 @@ Ms
 Ms
 Ms
 Ms
-uQ
-bf
-bf
+kE
+kE
+kE
 kE
 kE
 kE

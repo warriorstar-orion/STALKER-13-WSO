@@ -281,14 +281,6 @@
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/svalka/cellar)
-"bj" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 13
-	},
-/turf/open/floor/iron/stairs{
-	dir = 1
-	},
-/area/stalker/svalka/cellar)
 "bk" = (
 /obj/structure/stalker/cacheable/bochka{
 	density = 0;
@@ -346,13 +338,6 @@
 /obj/structure/stalker/tree,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass/dump,
-/area/stalker/blowout/outdoor)
-"bx" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 4
-	},
-/obj/effect/abstract/radiation/low,
-/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "by" = (
 /obj/structure/stalker/tree/leafless,
@@ -442,18 +427,6 @@
 /obj/item/storage/box/matches,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/svalka/buildings)
-"bP" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 12
-	},
-/turf/open/floor/iron/stairs{
-	dir = 1
-	},
-/area/stalker/svalka/buildings)
-"bQ" = (
-/turf/open/stalker/floor/digable/grass/dump,
-/turf/open/stalker/floor/asphalt,
-/area/stalker/blowout/outdoor)
 "bR" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -863,12 +836,6 @@
 /obj/structure/barricade/stalker/wood,
 /obj/structure/stalker/cacheable/porog/porog2,
 /turf/open/stalker/floor/agroprom/beton,
-/area/stalker/buildings/bandit)
-"dq" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 14
-	},
-/turf/open/floor/iron/stairs,
 /area/stalker/buildings/bandit)
 "dr" = (
 /obj/structure/stalker/cacheable/bochka{
@@ -2869,13 +2836,6 @@
 	layer = 1.8
 	},
 /area/stalker/blowout/outdoor)
-"kj" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 8
-	},
-/obj/effect/abstract/radiation/medium,
-/turf/open/stalker/floor/gryaz,
-/area/stalker/svalka/tunnel)
 "kk" = (
 /obj/effect/turf_decal/turf_shading{
 	dir = 4
@@ -2988,13 +2948,6 @@
 /obj/structure/stalker/stolb,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/grass/dump,
-/area/stalker/blowout/outdoor)
-"kG" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 8
-	},
-/obj/effect/abstract/radiation/low,
-/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "kH" = (
 /obj/structure/barricade/stalker/box,
@@ -4377,9 +4330,6 @@
 	},
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker)
-"sr" = (
-/turf/open/floor/iron/stairs,
-/area/stalker/buildings/mercenary)
 "st" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/stalker/floor/dirt,
@@ -6873,12 +6823,6 @@
 /obj/machinery/light/floor,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/mercenary)
-"No" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 12
-	},
-/turf/open/floor/iron/stairs,
-/area/stalker/buildings)
 "Np" = (
 /obj/structure/stalker/car/mi24{
 	icon_state = "2,3"
@@ -52073,13 +52017,13 @@ dA
 PJ
 PJ
 PJ
-bQ
+ad
 PJ
 dA
 PJ
 PJ
 PJ
-bQ
+ad
 PJ
 PJ
 PJ
