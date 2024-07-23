@@ -21,7 +21,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/mercenary)
 "ah" = (
-/obj/item/trash/oldplank/two,
+/obj/item/trash/stalker/oldplank/two,
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -157,11 +157,11 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "bu" = (
-/obj/item/trash/binding_material/coil,
+/obj/item/trash/stalker/binding_material/coil,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "bw" = (
-/obj/item/trash/brokecrate/two,
+/obj/item/trash/stalker/brokecrate/two,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "bE" = (
@@ -625,7 +625,7 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "fq" = (
-/obj/item/trash/metalparts/busdoor,
+/obj/item/trash/stalker/metalparts/busdoor,
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -636,14 +636,14 @@
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/blowout/buildings)
 "fs" = (
-/obj/item/trash/metalparts/metaljunk/three,
+/obj/item/trash/stalker/metalparts/metaljunk/three,
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "ft" = (
-/obj/item/trash/oldplank/three,
+/obj/item/trash/stalker/oldplank/three,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
@@ -865,7 +865,7 @@
 	},
 /area/stalker/blowout/buildings)
 "hz" = (
-/obj/item/trash/binding_material/wire,
+/obj/item/trash/stalker/binding_material/wire,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "hC" = (
@@ -1041,7 +1041,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "iS" = (
-/obj/item/trash/pornmagazine,
+/obj/item/trash/stalker/pornmagazine,
 /obj/effect/abstract/radiation,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1066,7 +1066,7 @@
 /turf/open/floor/plasteel/stairs/right/stalker,
 /area/stalker/blowout/outdoor)
 "jg" = (
-/obj/item/trash/oldplank,
+/obj/item/trash/stalker/oldplank,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "ji" = (
@@ -1132,7 +1132,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "jH" = (
-/obj/item/trash/pornmagazine,
+/obj/item/trash/stalker/pornmagazine,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "jK" = (
@@ -1239,7 +1239,7 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "kx" = (
-/obj/item/trash/papershreds,
+/obj/item/trash/stalker/papershreds,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "kz" = (
@@ -1364,7 +1364,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "lv" = (
-/obj/item/trash/papershreds,
+/obj/item/trash/stalker/papershreds,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
@@ -1442,7 +1442,7 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "lS" = (
-/obj/item/trash/papershreds,
+/obj/item/trash/stalker/papershreds,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "lT" = (
@@ -1568,7 +1568,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "mY" = (
-/obj/item/trash/metalparts/metaljunk/two,
+/obj/item/trash/stalker/metalparts/metaljunk/two,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "mZ" = (
@@ -1673,7 +1673,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "ob" = (
-/obj/item/trash/metalparts/metaljunk/three,
+/obj/item/trash/stalker/metalparts/metaljunk/three,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "oe" = (
@@ -1724,7 +1724,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "ov" = (
-/obj/item/trash/claybricks,
+/obj/item/trash/stalker/claybricks,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
 "ow" = (
@@ -1740,7 +1740,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "oz" = (
-/obj/item/trash/cigs_trash,
+/obj/item/trash/stalker/cigs_trash,
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1858,7 +1858,7 @@
 	},
 /area/stalker/blowout/buildings)
 "pD" = (
-/obj/item/trash/oldplank/three,
+/obj/item/trash/stalker/oldplank/three,
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -1969,12 +1969,6 @@
 "qd" = (
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings)
-"qf" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/stalker/floor/plasteel/plitochka,
-/area/stalker/buildings/mercenary)
 "qh" = (
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
@@ -2019,7 +2013,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "qA" = (
-/obj/item/trash/papershreds,
+/obj/item/trash/stalker/papershreds,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/mercenary)
 "qD" = (
@@ -2127,7 +2121,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "rA" = (
-/obj/item/trash/woodscrap,
+/obj/item/trash/stalker/woodscrap,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
@@ -2389,7 +2383,7 @@
 "tF" = (
 /obj/effect/abstract/radiation/medium,
 /obj/effect/abstract/radiation/medium,
-/obj/item/trash/teapot,
+/obj/item/trash/stalker/teapot,
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
 	},
@@ -2455,7 +2449,7 @@
 /turf/open/floor/plasteel/stairs/left/stalker,
 /area/stalker/blowout/buildings)
 "uk" = (
-/obj/item/trash/metalparts/busdoor,
+/obj/item/trash/stalker/metalparts/busdoor,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "ul" = (
@@ -2466,7 +2460,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "uo" = (
-/obj/item/trash/brokecrate,
+/obj/item/trash/stalker/brokecrate,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "ur" = (
@@ -2487,7 +2481,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/outdoor)
 "uv" = (
-/obj/item/trash/rustedbadge,
+/obj/item/trash/stalker/rustedbadge,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "uw" = (
@@ -2629,7 +2623,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "vr" = (
-/obj/item/trash/fueltank/large,
+/obj/item/trash/stalker/fueltank/large,
 /turf/open/floor/plasteel/stairs/left/stalker{
 	dir = 8
 	},
@@ -2689,7 +2683,7 @@
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "vU" = (
-/obj/item/trash/brokedevice/echobroke/one,
+/obj/item/trash/stalker/brokedevice/echobroke/one,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "vW" = (
@@ -2849,7 +2843,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "xw" = (
-/obj/item/trash/meshwirepatch/three,
+/obj/item/trash/stalker/meshwirepatch/three,
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -2870,7 +2864,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "xH" = (
-/obj/item/trash/metalparts/metaljunk/three,
+/obj/item/trash/stalker/metalparts/metaljunk/three,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "xK" = (
@@ -2985,12 +2979,6 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
-"yF" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/stalker/floor/agroprom/beton,
-/area/stalker/blowout/buildings)
 "yG" = (
 /obj/structure/closet/stalker/shkaf,
 /turf/open/stalker/floor/wood/oldvert,
@@ -3270,7 +3258,7 @@
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/blowout/outdoor)
 "AZ" = (
-/obj/item/trash/woodenrods,
+/obj/item/trash/stalker/woodenrods,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
@@ -3824,7 +3812,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "FD" = (
-/obj/item/trash/metalparts/metalplate/one,
+/obj/item/trash/stalker/metalparts/metalplate/one,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "FF" = (
@@ -3895,12 +3883,6 @@
 /obj/structure/stalker/cacheable/plita,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
-"Gq" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/stalker/floor/plasteel/plitka,
-/area/stalker/blowout/outdoor)
 "Gr" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/stalker/floor/digable/swamp,
@@ -4016,12 +3998,6 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
-"Hf" = (
-/obj/structure/stalker/cacheable/battery{
-	dir = 4
-	},
-/turf/open/stalker/floor/wood/oldgor,
-/area/stalker/blowout/buildings)
 "Hj" = (
 /obj/effect/abstract/radiation/high,
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big{
@@ -4057,12 +4033,6 @@
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
-"Hx" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/stalker/floor/dirt/dark,
-/area/stalker/buildings/mercenary)
 "Hy" = (
 /obj/structure/grille/stalker/beton,
 /turf/open/stalker/floor/agroprom/beton,
@@ -4071,7 +4041,7 @@
 /turf/closed/indestructible/rock,
 /area/awaymission)
 "HF" = (
-/obj/item/trash/oldcircuitboard/four,
+/obj/item/trash/stalker/oldcircuitboard/four,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "HJ" = (
@@ -4112,7 +4082,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "Ic" = (
-/obj/item/trash/fueltank,
+/obj/item/trash/stalker/fueltank,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Id" = (
@@ -4231,7 +4201,7 @@
 	},
 /area/stalker/blowout/outdoor)
 "IT" = (
-/obj/item/trash/metalparts/metalplate,
+/obj/item/trash/stalker/metalparts/metalplate/one,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "IU" = (
@@ -4298,7 +4268,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Jt" = (
-/obj/item/trash/woodscrap/two,
+/obj/item/trash/stalker/woodscrap/two,
 /obj/structure/stalker/cacheable/battery{
 	dir = 4
 	},
@@ -4320,7 +4290,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/outdoor)
 "Jz" = (
-/obj/item/trash/metalparts/metalplate,
+/obj/item/trash/stalker/metalparts/metalplate/one,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "JA" = (
@@ -4336,7 +4306,7 @@
 	},
 /area/stalker/blowout/outdoor)
 "JD" = (
-/obj/item/trash/woodscrap,
+/obj/item/trash/stalker/woodscrap,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "JI" = (
@@ -4404,7 +4374,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Kq" = (
-/obj/item/trash/barbwire/barbedwirejumble,
+/obj/item/trash/stalker/barbwire/barbedwirejumble,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "Kt" = (
@@ -4422,7 +4392,7 @@
 /turf/open/stalker/floor/wood/grey,
 /area/stalker/buildings/mercenary)
 "Kw" = (
-/obj/item/trash/claybricks,
+/obj/item/trash/stalker/claybricks,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "Ky" = (
@@ -4434,7 +4404,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "KC" = (
-/obj/item/trash/woodenrods,
+/obj/item/trash/stalker/woodenrods,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/buildings/mercenary)
 "KE" = (
@@ -4455,7 +4425,7 @@
 	},
 /area/stalker/blowout/outdoor)
 "KM" = (
-/obj/item/trash/binding_material/wire,
+/obj/item/trash/stalker/binding_material/wire,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "KO" = (
@@ -4533,23 +4503,11 @@
 	},
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
-"LN" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/buildings/mercenary)
 "LP" = (
 /obj/structure/stalker/cacheable/junk_tv,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
-"LQ" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/stalker/floor/wood/oldgor,
-/area/stalker/buildings/mercenary)
 "LR" = (
 /obj/structure/stalker/cacheable/porog/porog2{
 	dir = 1
@@ -4633,7 +4591,7 @@
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
 "Mt" = (
-/obj/item/trash/woodenrods,
+/obj/item/trash/stalker/woodenrods,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/outdoor)
 "Mw" = (
@@ -4828,12 +4786,6 @@
 /obj/effect/spawner/random/stalker/rarefirearms,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
-"NU" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/stalker/floor/plasteel/plitochka,
-/area/stalker/buildings/mercenary)
 "NV" = (
 /obj/effect/zona_anomaly/electro,
 /obj/effect/abstract/radiation/medium,
@@ -4950,12 +4902,6 @@
 	},
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
-"OI" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/stalker/floor/wood/oldgor,
-/area/stalker/buildings/mercenary)
 "OK" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/stalker/floor/asphalt,
@@ -4986,7 +4932,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "OY" = (
-/obj/item/trash/claybricks,
+/obj/item/trash/stalker/claybricks,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Pb" = (
@@ -5053,7 +4999,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "Pz" = (
-/obj/item/trash/oldplank/two,
+/obj/item/trash/stalker/oldplank/two,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "PB" = (
@@ -5065,7 +5011,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "PH" = (
-/obj/item/trash/oldplank/three,
+/obj/item/trash/stalker/oldplank/three,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "PJ" = (
@@ -5088,7 +5034,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "PW" = (
-/obj/item/trash/binding_material/wire,
+/obj/item/trash/stalker/binding_material/wire,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "PY" = (
@@ -5098,15 +5044,8 @@
 /obj/effect/abstract/blowout_spawner/zombiesimp,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
-"Qe" = (
-/obj/structure/stalker/blocks/vanish/sandbags{
-	dir = 6;
-	icon_state = "corners"
-	},
-/turf/open/stalker/floor/road,
-/area/stalker/blowout/outdoor)
 "Qh" = (
-/obj/item/trash/oldplank/two,
+/obj/item/trash/stalker/oldplank/two,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
 "Qi" = (
@@ -5173,7 +5112,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "QL" = (
-/obj/item/trash/binding_material/steelwire1,
+/obj/item/trash/stalker/binding_material/steelwire1,
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
 	},
@@ -5298,19 +5237,13 @@
 /obj/effect/zona_anomaly/springboard,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
-"RB" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/stalker/floor/asphalt,
-/area/stalker/blowout/outdoor)
 "RE" = (
 /obj/effect/abstract/radiation/low,
 /obj/effect/abstract/radiation/low,
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/blowout/buildings)
 "RF" = (
-/obj/item/trash/binding_material/wire,
+/obj/item/trash/stalker/binding_material/wire,
 /turf/open/stalker/floor/gryaz{
 	layer = 1.8
 	},
@@ -5349,7 +5282,7 @@
 /area/stalker/blowout/outdoor)
 "RW" = (
 /obj/structure/stalker/cacheable/shina3,
-/obj/item/trash/teapot,
+/obj/item/trash/stalker/teapot,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "RY" = (
@@ -5404,7 +5337,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Ss" = (
-/obj/item/trash/brokecrate/two,
+/obj/item/trash/stalker/brokecrate/two,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "St" = (
@@ -5449,7 +5382,7 @@
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "SJ" = (
-/obj/item/trash/woodenrods,
+/obj/item/trash/stalker/woodenrods,
 /obj/machinery/light,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
@@ -5528,13 +5461,6 @@
 /obj/item/flashlight/lamp,
 /turf/open/stalker/floor/plasteel/plita/orange,
 /area/stalker/buildings/mercenary)
-"TB" = (
-/obj/structure/stalker/blocks/vanish/sandbags{
-	dir = 4;
-	icon_state = "ends-s-n"
-	},
-/turf/open/stalker/floor/plasteel/plitochka,
-/area/stalker/buildings/mercenary)
 "TC" = (
 /obj/structure/stalker/panel0,
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -5556,7 +5482,7 @@
 /turf/open/stalker/floor/digable/grass/dump,
 /area/stalker/blowout/outdoor)
 "TK" = (
-/obj/item/trash/oldplank,
+/obj/item/trash/stalker/oldplank,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/buildings/mercenary)
 "TM" = (
@@ -5728,7 +5654,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Vj" = (
-/obj/item/trash/woodenrods,
+/obj/item/trash/stalker/woodenrods,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "Vl" = (
@@ -5842,12 +5768,6 @@
 	dir = 1
 	},
 /area/stalker/blowout/buildings)
-"Wg" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/stalker/floor/wood/oldgor,
-/area/stalker/blowout/buildings)
 "Wh" = (
 /obj/machinery/light,
 /turf/open/stalker/floor/plasteel/plitochka,
@@ -5913,7 +5833,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/buildings/mercenary)
 "WL" = (
-/obj/item/trash/papershreds,
+/obj/item/trash/stalker/papershreds,
 /obj/structure/bed/stalker/metal,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
@@ -5946,14 +5866,8 @@
 /obj/effect/abstract/radiation/high,
 /turf/open/stalker/floor/plasteel/plitka,
 /area/stalker/blowout/outdoor)
-"Xd" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/stalker/floor/plasteel/plitochka,
-/area/stalker/buildings/mercenary)
 "Xe" = (
-/obj/item/trash/binding_material/wire,
+/obj/item/trash/stalker/binding_material/wire,
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
@@ -6022,7 +5936,7 @@
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
 "XI" = (
-/obj/item/trash/woodscrap/two,
+/obj/item/trash/stalker/woodscrap/two,
 /obj/structure/stalker/cacheable/battery{
 	dir = 4
 	},
@@ -6039,7 +5953,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "XN" = (
-/obj/item/trash/metalparts/metalplate/one,
+/obj/item/trash/stalker/metalparts/metalplate/one,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "XO" = (
@@ -6063,12 +5977,6 @@
 "XU" = (
 /obj/structure/stalker/cacheable/shina3a,
 /turf/open/stalker/floor/wood/oldgor,
-/area/stalker/blowout/buildings)
-"Yb" = (
-/obj/structure/stalker/cacheable/battery{
-	dir = 4
-	},
-/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "Yc" = (
 /obj/structure/stalker/cacheable/porog/porog2{
@@ -6127,11 +6035,11 @@
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/buildings)
 "YD" = (
-/obj/item/trash/woodenrods,
+/obj/item/trash/stalker/woodenrods,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "YG" = (
-/obj/item/trash/oldplank/two,
+/obj/item/trash/stalker/oldplank/two,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
@@ -6173,7 +6081,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "YU" = (
-/obj/item/trash/metalparts/metaljunk,
+/obj/item/trash/stalker/metalparts/metaljunk,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/mercenary)
 "Za" = (
@@ -6184,12 +6092,6 @@
 "Zg" = (
 /obj/structure/table/wood,
 /obj/item/stack/spacecash/c500,
-/turf/open/stalker/floor/plasteel,
-/area/stalker/blowout/buildings)
-"Zi" = (
-/obj/machinery/light{
-	dir = 1
-	},
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "Zk" = (
@@ -16551,7 +16453,7 @@ PH
 kO
 lf
 kO
-Hf
+fc
 kO
 lf
 kO
@@ -18274,7 +18176,7 @@ Ma
 Ma
 WG
 sQ
-Zi
+iH
 UW
 JI
 bZ
@@ -19482,7 +19384,7 @@ WG
 Ma
 Ma
 sQ
-Zi
+iH
 JI
 JI
 JI
@@ -20690,7 +20592,7 @@ Ma
 mU
 Ma
 sQ
-Zi
+iH
 UW
 JI
 wq
@@ -25556,7 +25458,7 @@ FU
 FU
 lf
 FU
-RB
+fP
 FU
 FU
 FU
@@ -27365,7 +27267,7 @@ lf
 lf
 lf
 lf
-yF
+ba
 Li
 op
 lf
@@ -27728,7 +27630,7 @@ JI
 kg
 kO
 kO
-Wg
+Ou
 kg
 Pn
 kO
@@ -27939,7 +27841,7 @@ QC
 Li
 lf
 ve
-Wg
+Ou
 kO
 lf
 kO
@@ -29967,20 +29869,20 @@ bl
 bl
 bl
 cc
-Xd
+El
 bl
 uN
 nn
 rV
 hP
 eA
-LN
+eu
 bl
 uN
 cc
 uN
 uN
-LN
+eu
 dd
 nn
 MU
@@ -33586,7 +33488,7 @@ qd
 qd
 qd
 MU
-NU
+MP
 bl
 dd
 dd
@@ -35177,7 +35079,7 @@ FU
 FU
 sg
 sg
-Gq
+eL
 sg
 sg
 eL
@@ -36928,7 +36830,7 @@ dd
 Rr
 Rr
 bl
-TB
+ow
 qo
 PJ
 oI
@@ -38735,7 +38637,7 @@ oi
 nn
 rf
 rf
-NU
+MP
 bl
 bl
 Bd
@@ -40532,7 +40434,7 @@ qd
 qd
 qd
 MU
-NU
+MP
 br
 bl
 bl
@@ -41138,7 +41040,7 @@ qd
 MU
 bl
 lk
-qf
+ax
 bl
 nn
 Cg
@@ -44472,7 +44374,7 @@ qd
 qd
 qd
 MU
-NU
+MP
 bl
 FT
 rf
@@ -73643,7 +73545,7 @@ ve
 xR
 ve
 sQ
-Yb
+vI
 ve
 ct
 xR
@@ -81037,7 +80939,7 @@ eI
 Is
 UT
 UT
-Qe
+nx
 eI
 eI
 eI
@@ -108785,7 +108687,7 @@ xK
 xK
 xK
 rf
-OI
+BE
 ia
 ia
 ia
@@ -108799,7 +108701,7 @@ GI
 GI
 GI
 oi
-Hx
+sD
 oi
 GI
 ia
@@ -110295,7 +110197,7 @@ xK
 xK
 xK
 rf
-OI
+BE
 pJ
 ia
 pJ
@@ -111805,7 +111707,7 @@ xK
 xK
 xK
 rf
-OI
+BE
 pJ
 ia
 pJ
@@ -118149,9 +118051,9 @@ xK
 rf
 Sj
 ia
-LQ
+KR
 ia
-LQ
+KR
 ia
 OQ
 ia
@@ -119053,7 +118955,7 @@ xK
 xK
 xK
 rf
-NU
+MP
 bl
 Tp
 bl
@@ -119073,7 +118975,7 @@ rf
 EJ
 Po
 rf
-NU
+MP
 rf
 xK
 xK

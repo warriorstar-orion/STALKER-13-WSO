@@ -660,7 +660,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "gO" = (
-/obj/item/trash/metalparts/metaljunk/one,
+/obj/item/trash/stalker/metalparts/metaljunk/one,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
@@ -723,9 +723,9 @@
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
 "hm" = (
-/obj/item/trash/binding_material/coil,
-/obj/item/trash/meshwirepatch,
-/obj/item/trash/metalparts/brokenladder,
+/obj/item/trash/stalker/binding_material/coil,
+/obj/item/trash/stalker/meshwirepatch,
+/obj/item/trash/stalker/metalparts/brokenladder,
 /obj/structure/stalker/cacheable/body,
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
@@ -744,8 +744,8 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "ht" = (
-/obj/item/trash/metalparts/scrap,
-/obj/item/trash/fueltank,
+/obj/item/trash/stalker/metalparts/scrap,
+/obj/item/trash/stalker/fueltank,
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1303,7 +1303,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "ls" = (
-/obj/item/trash/metalparts/metaljunk/one,
+/obj/item/trash/stalker/metalparts/metaljunk/one,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1398,7 +1398,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/buildings)
 "mj" = (
-/obj/item/trash/metalparts/brokenpipes,
+/obj/item/trash/stalker/metalparts/brokenpipes,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
@@ -1430,7 +1430,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "mx" = (
-/obj/item/trash/gear,
+/obj/item/trash/stalker/gear,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1653,7 +1653,7 @@
 	},
 /obj/structure/flora/rock,
 /obj/structure/flora/rock/pile,
-/obj/item/trash/oldplank,
+/obj/item/trash/stalker/oldplank,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
@@ -1862,10 +1862,10 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "qf" = (
-/obj/item/trash/metalparts/scrap,
-/obj/item/trash/metalparts,
-/obj/item/trash/metalparts/busdoor,
-/obj/item/trash/metalparts/metaljunk/one,
+/obj/item/trash/stalker/metalparts/scrap,
+/obj/item/trash/stalker/metalparts,
+/obj/item/trash/stalker/metalparts/busdoor,
+/obj/item/trash/stalker/metalparts/metaljunk/one,
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -1955,12 +1955,6 @@
 /obj/structure/stalker/blocks/vanish/pipe/pipe3,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
-"rp" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 6
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "rr" = (
 /obj/effect/abstract/radiation/high,
 /obj/structure/stalker/car/btrgrimy,
@@ -2016,12 +2010,6 @@
 	icon_state = "6"
 	},
 /turf/open/stalker/floor/lattice,
-/area/stalker/blowout/buildings)
-"rO" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
 "rP" = (
 /obj/effect/turf_decal/turf_shading{
@@ -2496,15 +2484,9 @@
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
-"wh" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 12
-	},
-/turf/open/floor/plasteel/stairs/stalker,
-/area/stalker/blowout/outdoor)
 "wi" = (
 /obj/structure/flora/rock/pile,
-/obj/item/trash/oldplank/two,
+/obj/item/trash/stalker/oldplank/two,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
@@ -2682,8 +2664,8 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "ym" = (
-/obj/item/trash/binding_material/brokechain,
-/obj/item/trash/metalparts/metaljunk,
+/obj/item/trash/stalker/binding_material/brokechain,
+/obj/item/trash/stalker/metalparts/metaljunk,
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -3520,7 +3502,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
 "FA" = (
-/obj/item/trash/metalparts/brokenturbine,
+/obj/item/trash/stalker/metalparts/brokenturbine,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -3541,7 +3523,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "FH" = (
-/obj/item/trash/fueltank/large,
+/obj/item/trash/stalker/fueltank/large,
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -3679,7 +3661,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/buildings)
 "Hf" = (
-/obj/item/trash/meshwirepatch/three,
+/obj/item/trash/stalker/meshwirepatch/three,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -4265,12 +4247,12 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Mq" = (
-/obj/item/trash/meshwirepatch,
+/obj/item/trash/stalker/meshwirepatch,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/digable/gryaz_rocky,
 /area/stalker/blowout/outdoor)
 "Mr" = (
-/obj/item/trash/claybricks,
+/obj/item/trash/stalker/claybricks,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/buildings)
 "Mt" = (
@@ -4365,7 +4347,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "Nc" = (
-/obj/item/trash/metalparts/brokenladder,
+/obj/item/trash/stalker/metalparts/brokenladder,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -4993,21 +4975,9 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
-"Ti" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 9
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "Tk" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/stalker/floor/agroprom/beton,
-/area/stalker/blowout/outdoor)
-"Tn" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 4
-	},
-/turf/open/floor/plasteel/stairs/stalker,
 /area/stalker/blowout/outdoor)
 "Tr" = (
 /obj/structure/stalker/car/mi24{
@@ -5527,7 +5497,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/buildings)
 "XJ" = (
-/obj/item/trash/gear,
+/obj/item/trash/stalker/gear,
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -12110,9 +12080,9 @@ pa
 pa
 pa
 pa
-Tn
-Tn
-Tn
+NN
+NN
+NN
 Oe
 Oe
 Oe
@@ -16556,7 +16526,7 @@ pa
 pa
 cc
 cc
-wh
+cc
 Oe
 Oe
 Oe
@@ -21608,7 +21578,7 @@ hP
 eQ
 eQ
 eQ
-Ti
+Fa
 hP
 Sj
 hP
@@ -23362,7 +23332,7 @@ SN
 BN
 pz
 fE
-rO
+nN
 Vz
 WG
 SN
@@ -23430,7 +23400,7 @@ hP
 GI
 hP
 yK
-rp
+nT
 eQ
 eQ
 Fl
@@ -24574,7 +24544,7 @@ Vq
 Vq
 pz
 fE
-rO
+nN
 Vz
 WG
 SN
@@ -25786,7 +25756,7 @@ BG
 gZ
 pz
 fE
-rO
+nN
 Vq
 Vq
 Vq
@@ -26790,13 +26760,13 @@ eQ
 eQ
 eQ
 bz
-rO
+nN
 ir
 ir
 ir
 ir
 bz
-rO
+nN
 ir
 ir
 ir

@@ -3059,12 +3059,6 @@
 /obj/structure/grille/stalker/beton,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
-"Ht" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/agroprom/buildings)
 "Ie" = (
 /obj/structure/stalker/cacheable/bochka{
 	density = 0;
@@ -25686,7 +25680,7 @@ kE
 kE
 Ms
 aq
-Ht
+sI
 tg
 aq
 tg
@@ -26518,7 +26512,7 @@ kE
 kE
 Ms
 aq
-Ht
+sI
 tg
 aq
 tg

@@ -1124,12 +1124,6 @@
 "gD" = (
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/blowout/outdoor/bar)
-"gK" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 5
-	},
-/turf/open/stalker/floor/road,
-/area/stalker/blowout/outdoor)
 "gM" = (
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/buildings)
@@ -1149,12 +1143,6 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "gP" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 6
-	},
-/turf/open/stalker/floor/road,
-/area/stalker/blowout/outdoor)
-"gQ" = (
 /obj/effect/turf_decal/turf_shading{
 	dir = 6
 	},
@@ -2046,7 +2034,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "vy" = (
-/obj/item/trash/cigs_trash,
+/obj/item/trash/stalker/cigs_trash,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/buildings)
 "vC" = (
@@ -2221,7 +2209,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "yR" = (
-/obj/item/trash/cigs_trash,
+/obj/item/trash/stalker/cigs_trash,
 /turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "yT" = (
@@ -2306,7 +2294,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/buildings)
 "zP" = (
-/obj/item/trash/cigs_trash2,
+/obj/item/trash/stalker/cigs_trash2,
 /turf/open/stalker/floor/dirt,
 /area/stalker/blowout/buildings)
 "Af" = (
@@ -2607,12 +2595,6 @@
 "FC" = (
 /obj/structure/stalker/cacheable/bochka{
 	pixel_x = -12
-	},
-/turf/open/stalker/floor/agroprom/beton,
-/area/stalker/blowout/buildings)
-"FH" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 12
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
@@ -2971,7 +2953,7 @@
 /area/stalker/blowout/outdoor)
 "Ms" = (
 /obj/machinery/campfire,
-/obj/item/trash/cigs_trash2,
+/obj/item/trash/stalker/cigs_trash2,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Mt" = (
@@ -3227,7 +3209,7 @@
 /area/stalker/blowout/outdoor)
 "RG" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
-/obj/item/trash/cigs_trash2{
+/obj/item/trash/stalker/cigs_trash2{
 	pixel_y = -16
 	},
 /turf/open/stalker/floor/asphalt,
@@ -10912,7 +10894,7 @@ rQ
 eR
 rQ
 aI
-gK
+gB
 gP
 aI
 hv
@@ -11068,8 +11050,8 @@ aI
 as
 as
 aI
-gK
-gQ
+gB
+gP
 aI
 hw
 hC
@@ -13910,7 +13892,7 @@ Bc
 zg
 zg
 zg
-FH
+Bi
 nV
 Gr
 oh

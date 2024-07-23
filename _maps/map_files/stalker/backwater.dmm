@@ -8827,12 +8827,6 @@
 	},
 /turf/open/floor/iron/stairs,
 /area/stalker/buildings/renegade)
-"Th" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 4
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/kordon/tunnel)
 "Tj" = (
 /obj/structure/chair/sofa{
 	dir = 8
@@ -8984,12 +8978,6 @@
 /obj/machinery/door/airlock/stalker,
 /turf/open/misc/asteroid/basalt/lava,
 /area/stalker)
-"Vu" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 4
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/kordon/tunnel)
 "VI" = (
 /obj/effect/landmark/named_teleport_destination{
 	id = "backwater_21"
@@ -41344,8 +41332,8 @@ ab
 "}
 (126,1,1) = {"
 lM
-Th
-Th
+NJ
+NJ
 lM
 aw
 aw
@@ -41600,8 +41588,8 @@ ab
 "}
 (127,1,1) = {"
 lM
-Vu
-Vu
+NJ
+NJ
 ab
 aw
 aw

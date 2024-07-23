@@ -308,12 +308,6 @@
 /obj/structure/stalker/doski/doski4,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/burntfarm)
-"bm" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/stalker/floor/plasteel/plitka,
-/area/stalker/buildings/clearsky)
 "bn" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -3663,12 +3657,6 @@
 "ny" = (
 /turf/closed/wall/stalker/beton_agro,
 /area/stalker/buildings/clearsky)
-"nz" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/stalker/floor/wood/oldvert,
-/area/stalker/buildings/clearsky)
 "nA" = (
 /obj/effect/abstract/radiation/low,
 /turf/closed/wall/stalker/bricks,
@@ -4911,13 +4899,6 @@
 /obj/effect/zona_anomaly/vortex,
 /turf/open/floor/plating/foam,
 /area/stalker/kordon/tunnel)
-"tX" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 9
-	},
-/obj/effect/decal/cleanable/glitter/white,
-/turf/open/stalker/floor/lattice,
-/area/stalker/agroprom/tunnel)
 "tY" = (
 /obj/effect/abstract/radiation/high,
 /obj/structure/stalker/brainscorchertower{
@@ -5037,7 +5018,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/krug)
 "uO" = (
-/obj/item/trash/metalparts/brokenpipes,
+/obj/item/trash/stalker/metalparts/brokenpipes,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/burntfarm)
 "uQ" = (
@@ -6072,13 +6053,6 @@
 /obj/effect/spawner/random/stalker/weapon/meleetier3,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/agroprom/buildings)
-"AG" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 5
-	},
-/obj/effect/decal/cleanable/glitter/white,
-/turf/open/stalker/floor/lattice,
-/area/stalker/agroprom/tunnel)
 "AH" = (
 /obj/structure/table/stalker,
 /obj/effect/spawner/random/stalker/weapon/rifles_and_shotgunstier2,
@@ -6247,25 +6221,6 @@
 /obj/effect/zona_anomaly/burnt_fuzz,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
-"Bz" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 5
-	},
-/obj/structure/grille/stalker{
-	dir = 4;
-	icon = 'icons/stalker/decor.dmi';
-	icon_state = "porog2";
-	pixel_x = 5
-	},
-/obj/structure/grille/stalker{
-	dir = 1;
-	icon = 'icons/stalker/decor.dmi';
-	icon_state = "porog2";
-	pixel_y = 5
-	},
-/obj/effect/decal/cleanable/glitter/white,
-/turf/open/stalker/floor/agroprom/beton,
-/area/stalker/blowout/outdoor)
 "BC" = (
 /obj/structure/stalker/panel,
 /obj/machinery/light{
@@ -7217,24 +7172,6 @@
 	},
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
-"GG" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 6
-	},
-/obj/structure/grille/stalker{
-	dir = 4;
-	icon = 'icons/stalker/decor.dmi';
-	icon_state = "porog2";
-	pixel_x = 5
-	},
-/obj/structure/grille/stalker{
-	icon = 'icons/stalker/decor.dmi';
-	icon_state = "porog2";
-	pixel_y = -5
-	},
-/obj/effect/decal/cleanable/glitter/white,
-/turf/open/stalker/floor/agroprom/beton,
-/area/stalker/blowout/outdoor)
 "GJ" = (
 /obj/item/cigbutt/roach,
 /turf/open/stalker/floor/wood/oldgor,
@@ -8080,13 +8017,6 @@
 	},
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/krug)
-"KS" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 11
-	},
-/obj/effect/decal/cleanable/glitter/white,
-/turf/open/stalker/floor/lattice,
-/area/stalker/agroprom/tunnel)
 "KU" = (
 /obj/effect/landmark/named_teleport_destination{
 	id = "under_90"
@@ -8170,13 +8100,6 @@
 /obj/structure/stalker/cacheable/komod,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings/backwater/burntfarm)
-"Lq" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 9
-	},
-/obj/effect/decal/cleanable/glitter/white,
-/turf/open/stalker/floor/agroprom/beton,
-/area/stalker/blowout/outdoor)
 "Lr" = (
 /obj/structure/barricade/stalker/wood,
 /turf/open/stalker/floor/lattice,
@@ -8900,13 +8823,6 @@
 "PH" = (
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
-"PK" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 15
-	},
-/obj/effect/decal/cleanable/glitter/white,
-/turf/open/stalker/floor/plasteel/plitka,
-/area/stalker/blowout/outdoor)
 "PL" = (
 /obj/structure/stalker/trubas{
 	dir = 10
@@ -8987,13 +8903,6 @@
 /obj/structure/grille/stalker,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/kordon/tunnel)
-"Qh" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 15
-	},
-/obj/effect/decal/cleanable/glitter/white,
-/turf/open/stalker/floor/plasteel/plitka,
-/area/stalker/blowout/outdoor)
 "Qk" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/stalker/cacheable/gasstove2,
@@ -9300,13 +9209,6 @@
 /obj/effect/spawner/random/stalker/equipment,
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/buildings/backwater/ironforest)
-"Sc" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 12
-	},
-/obj/effect/decal/cleanable/glitter/white,
-/turf/open/stalker/floor/lattice,
-/area/stalker/agroprom/tunnel)
 "Sf" = (
 /obj/effect/turf_decal/turf_shading{
 	dir = 5
@@ -10514,13 +10416,6 @@
 /obj/effect/decal/cleanable/insectguts,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/backwater/burntfarm)
-"Yt" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 10
-	},
-/obj/effect/decal/cleanable/glitter/white,
-/turf/open/stalker/floor/plasteel/plitka,
-/area/stalker/blowout/outdoor)
 "Yw" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a/big,
 /obj/effect/abstract/radiation/low,
@@ -30556,7 +30451,7 @@ sE
 aj
 cC
 cC
-bm
+aO
 cC
 cC
 aj
@@ -31339,7 +31234,7 @@ aj
 dn
 cY
 cY
-nz
+aM
 dl
 aj
 ad
@@ -58488,7 +58383,7 @@ ad
 ad
 ad
 Am
-PK
+IS
 IS
 wz
 Am
@@ -58745,7 +58640,7 @@ ad
 ad
 ad
 Am
-Qh
+IS
 tC
 Wl
 Am
@@ -58755,7 +58650,7 @@ Ax
 Am
 DV
 WD
-Yt
+po
 Xp
 hu
 xn
@@ -59006,7 +58901,7 @@ wz
 Fi
 Nb
 Am
-Qh
+IS
 rr
 IO
 Am
@@ -68831,7 +68726,7 @@ PH
 Xp
 ad
 Oz
-AG
+vE
 OP
 VC
 Sg
@@ -69089,7 +68984,7 @@ Xp
 ad
 ad
 Oz
-AG
+vE
 ys
 ys
 oN
@@ -70117,8 +70012,8 @@ ad
 ad
 ad
 Oz
-tX
-Sc
+rW
+Ep
 Sm
 OF
 Oz
@@ -70373,9 +70268,9 @@ ad
 ad
 ad
 Oz
-KS
+IK
 Vb
-Lq
+Gw
 Qz
 xT
 CJ
@@ -71403,7 +71298,7 @@ ad
 Oz
 OU
 yk
-Bz
+sz
 ob
 Le
 qQ
@@ -73715,7 +73610,7 @@ qb
 sz
 Wt
 Wt
-GG
+ob
 qb
 Bq
 ad

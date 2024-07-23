@@ -486,12 +486,6 @@
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
-"bR" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 9
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "bS" = (
 /obj/structure/chair/brevno,
 /obj/item/shovel,
@@ -500,12 +494,6 @@
 "bT" = (
 /obj/structure/chair/brevno/log2,
 /turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
-"bU" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 5
-	},
-/turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "bV" = (
 /obj/structure/stalker/okno/window1,
@@ -641,12 +629,6 @@
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/buildings)
-"cz" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 6
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "cA" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -902,24 +884,6 @@
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
-"dG" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 9
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
-"dH" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 1
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
-"dI" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 5
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "dJ" = (
 /obj/structure/stalker/blocks/vanish/sandbags{
 	dir = 9;
@@ -1014,10 +978,6 @@
 /obj/structure/grille/stalker{
 	icon_state = "fence3"
 	},
-/turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
-"dZ" = (
-/obj/effect/turf_decal/turf_shading,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "ea" = (
@@ -2203,10 +2163,6 @@
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
-"id" = (
-/obj/effect/turf_decal/turf_shading,
-/turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
 "ie" = (
 /obj/machinery/manned_turret/checkpoint,
 /turf/open/stalker/floor/wood/oldgor,
@@ -2274,7 +2230,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/kordon/buildings)
 "iq" = (
-/obj/item/trash/cigs_trash2,
+/obj/item/trash/stalker/cigs_trash2,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "ir" = (
@@ -2634,14 +2590,6 @@
 	},
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
-"jG" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 1
-	},
-/obj/effect/landmark/stalker/army/soldier,
-/obj/structure/bed/stalker/mattress_wood,
-/turf/open/stalker/floor/wood/oldgor,
-/area/stalker/buildings/military)
 "jH" = (
 /obj/structure/stalker/cacheable/pech{
 	icon_state = "pech3";
@@ -2771,7 +2719,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
 "kb" = (
-/obj/item/trash/cigs_trash,
+/obj/item/trash/stalker/cigs_trash,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "kc" = (
@@ -2793,12 +2741,6 @@
 /obj/structure/stalker/modification_table,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings/military)
-"kg" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 4
-	},
-/turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
 "kh" = (
 /obj/structure/stalker/cacheable/radio{
 	dir = 8;
@@ -2807,12 +2749,6 @@
 	},
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/kordon/buildings)
-"ki" = (
-/obj/effect/turf_decal/turf_shading{
-	dir = 8
-	},
-/turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
 "kj" = (
 /obj/effect/turf_decal/turf_shading,
 /obj/effect/step_trigger/named_teleporter{
@@ -3718,12 +3654,6 @@
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
-"ph" = (
-/obj/structure/chair/brevno/log2{
-	dir = 1
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "pi" = (
 /obj/structure/mineral_door/wood,
 /obj/structure/barricade/stalker/wood,
@@ -4094,12 +4024,6 @@
 /obj/structure/stalker/doski/doski_alt3,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
-"sE" = (
-/obj/structure/chair/brevno/log2{
-	dir = 1
-	},
-/turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
 "sF" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
 /turf/open/stalker/floor/digable/grass,
@@ -4871,7 +4795,7 @@
 /turf/open/stalker/floor/lattice,
 /area/stalker/blowout/outdoor)
 "zD" = (
-/obj/item/trash/cigs_trash2,
+/obj/item/trash/stalker/cigs_trash2,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "zF" = (
@@ -4993,7 +4917,7 @@
 /turf/open/stalker/floor/dirt,
 /area/stalker/kordon/buildings)
 "AC" = (
-/obj/item/trash/cigs_trash2,
+/obj/item/trash/stalker/cigs_trash2,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
 "AF" = (
@@ -5031,7 +4955,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "AT" = (
-/obj/item/trash/cigs_trash,
+/obj/item/trash/stalker/cigs_trash,
 /obj/effect/spawner/random/stalker/junk,
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
@@ -5318,7 +5242,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "Dx" = (
-/obj/item/trash/ashtray2,
+/obj/item/trash/stalker/ashtray2,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
 "Dy" = (
@@ -5624,12 +5548,6 @@
 	},
 /turf/closed/mineral/ash_rock,
 /area/stalker/blowout/outdoor)
-"FZ" = (
-/obj/structure/chair/brevno/log2{
-	dir = 1
-	},
-/turf/open/stalker/floor/agroprom/gryaz,
-/area/stalker/blowout/outdoor)
 "Gb" = (
 /obj/structure/stalker/cacheable/musor_yashik/green/full,
 /turf/open/stalker/floor/wood/oldgor,
@@ -5915,7 +5833,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "Ip" = (
-/obj/item/trash/cigs_trash2,
+/obj/item/trash/stalker/cigs_trash2,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "It" = (
@@ -6828,7 +6746,7 @@
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker)
 "PR" = (
-/obj/item/trash/cigs_trash,
+/obj/item/trash/stalker/cigs_trash,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "PV" = (
@@ -7514,7 +7432,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/kordon/tunnel)
 "We" = (
-/obj/item/trash/cigs_trash,
+/obj/item/trash/stalker/cigs_trash,
 /turf/open/stalker/floor/tropa,
 /area/stalker/blowout/outdoor)
 "Wf" = (
@@ -7619,7 +7537,7 @@
 /area/stalker/buildings/backwater/skadovsk)
 "WL" = (
 /obj/structure/stalker/tree,
-/obj/item/trash/cigs_trash,
+/obj/item/trash/stalker/cigs_trash,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "WN" = (
@@ -12768,7 +12686,7 @@ fx
 dD
 mu
 mu
-dZ
+dD
 mr
 es
 ey
@@ -13025,7 +12943,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ey
@@ -13282,7 +13200,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -13539,7 +13457,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -13796,7 +13714,7 @@ ae
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -14053,7 +13971,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -14310,7 +14228,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -14567,7 +14485,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -14824,7 +14742,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -15081,7 +14999,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -15338,7 +15256,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -15434,7 +15352,7 @@ mu
 mu
 mu
 ck
-sE
+cv
 mu
 mu
 mu
@@ -15595,7 +15513,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -15852,7 +15770,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -16109,7 +16027,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -16366,7 +16284,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -16623,7 +16541,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -16880,7 +16798,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -17137,7 +17055,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -17394,7 +17312,7 @@ ae
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -17651,7 +17569,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -17908,7 +17826,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -18165,7 +18083,7 @@ mu
 dD
 mu
 mu
-dZ
+dD
 mr
 et
 ez
@@ -18933,7 +18851,7 @@ mu
 mu
 fx
 bQ
-bR
+bG
 TP
 dO
 dC
@@ -19001,7 +18919,7 @@ hV
 mu
 bq
 QW
-ph
+br
 fx
 mu
 aJ
@@ -19256,7 +19174,7 @@ mu
 mu
 mu
 mu
-ph
+br
 fx
 ti
 hW
@@ -19704,7 +19622,7 @@ mu
 fx
 fx
 cl
-bU
+bH
 Xx
 dR
 dC
@@ -35772,8 +35690,8 @@ mu
 mu
 mu
 mu
-kg
-kg
+cx
+cx
 am
 an
 fk
@@ -36028,7 +35946,7 @@ mu
 mu
 mu
 mu
-id
+dD
 dJ
 hg
 an
@@ -36285,7 +36203,7 @@ mu
 mu
 mu
 mu
-id
+dD
 gB
 ie
 mE
@@ -36542,7 +36460,7 @@ mu
 mu
 mu
 mu
-id
+dD
 gC
 ip
 an
@@ -36800,8 +36718,8 @@ mu
 mu
 mu
 mu
-ki
-ki
+dK
+dK
 kk
 ar
 kn
@@ -37959,7 +37877,7 @@ fx
 fx
 wV
 Ca
-FZ
+qm
 Se
 fx
 fx
@@ -38214,7 +38132,7 @@ dU
 fx
 fx
 Se
-FZ
+qm
 Se
 fx
 PV
@@ -42818,7 +42736,7 @@ bi
 Se
 Ca
 Se
-FZ
+qm
 fx
 fx
 dx
@@ -42989,7 +42907,7 @@ jD
 qJ
 Mk
 rI
-jG
+jE
 nu
 jT
 ny
@@ -44531,7 +44449,7 @@ lx
 NH
 Pk
 rI
-jG
+jE
 nv
 jW
 nv
@@ -61804,7 +61722,7 @@ mu
 mu
 mu
 mu
-bR
+bG
 fx
 Bw
 fx
@@ -63865,7 +63783,7 @@ xW
 xW
 xW
 VG
-cz
+cw
 mu
 mu
 mu
@@ -64888,7 +64806,7 @@ mu
 mu
 mu
 mu
-bR
+bG
 mu
 mu
 mu

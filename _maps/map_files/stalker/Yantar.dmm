@@ -773,7 +773,7 @@
 /turf/closed/wall/stalker/bricks_white,
 /area/stalker/buildings/ecologist_entrance)
 "im" = (
-/obj/item/trash/cigs_trash2,
+/obj/item/trash/stalker/cigs_trash2,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings)
 "io" = (
@@ -1391,7 +1391,7 @@
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "oW" = (
-/obj/item/trash/cigs_trash2,
+/obj/item/trash/stalker/cigs_trash2,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "oX" = (
@@ -2026,7 +2026,7 @@
 /turf/open/stalker/floor/tropa,
 /area/stalker/buildings)
 "uR" = (
-/obj/item/trash/cigs_trash,
+/obj/item/trash/stalker/cigs_trash,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "uT" = (
@@ -2226,7 +2226,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/outdoor)
 "wV" = (
-/obj/item/trash/cigs_trash,
+/obj/item/trash/stalker/cigs_trash,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "wY" = (
@@ -2684,7 +2684,7 @@
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "BY" = (
-/obj/item/trash/cigs_trash2,
+/obj/item/trash/stalker/cigs_trash2,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
 "Cf" = (
@@ -2694,7 +2694,7 @@
 /area/stalker/buildings)
 "Cj" = (
 /obj/structure/table/stalker/wood,
-/obj/item/trash/pornmagazine/three,
+/obj/item/trash/stalker/pornmagazine/three,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings)
 "Co" = (

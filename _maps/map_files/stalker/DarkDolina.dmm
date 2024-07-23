@@ -209,7 +209,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "cK" = (
-/obj/item/trash/metalparts/metaljunk/five,
+/obj/item/trash/stalker/metalparts/metaljunk/five,
 /obj/effect/spawner/random/stalker/junk,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
@@ -324,7 +324,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "eg" = (
-/obj/item/trash/metalparts/metaljunk/two,
+/obj/item/trash/stalker/metalparts/metaljunk/two,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/buildings)
 "eh" = (
@@ -443,7 +443,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bandit)
 "fY" = (
-/obj/item/trash/metalparts/metaljunk/two,
+/obj/item/trash/stalker/metalparts/metaljunk/two,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "ga" = (
@@ -657,7 +657,7 @@
 /turf/open/stalker/floor/agroprom/beton,
 /area/stalker/blowout/buildings)
 "iI" = (
-/obj/item/trash/metalparts/metaljunk/two,
+/obj/item/trash/stalker/metalparts/metaljunk/two,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
@@ -837,7 +837,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "lC" = (
-/obj/item/trash/metalparts/metaljunk,
+/obj/item/trash/stalker/metalparts/metaljunk,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "lE" = (
@@ -867,12 +867,6 @@
 	icon_state = "2"
 	},
 /turf/open/stalker/floor/plasteel,
-/area/stalker/blowout/outdoor)
-"mb" = (
-/obj/structure/stalker/blocks/vanish/sandbags{
-	icon_state = "centers"
-	},
-/turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "me" = (
 /obj/structure/stalker/cacheable/yashik,
@@ -1211,7 +1205,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/kordon/banditbar)
 "pO" = (
-/obj/item/trash/metalparts/metaljunk/four,
+/obj/item/trash/stalker/metalparts/metaljunk/four,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "pQ" = (
@@ -1476,7 +1470,7 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "tp" = (
-/obj/item/trash/metalparts/metaljunk,
+/obj/item/trash/stalker/metalparts/metaljunk,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
@@ -1851,7 +1845,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "xU" = (
-/obj/item/trash/metalparts/metaljunk/four,
+/obj/item/trash/stalker/metalparts/metaljunk/four,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/buildings)
 "xW" = (
@@ -1978,7 +1972,7 @@
 /turf/open/stalker/floor/plasteel/plitochka,
 /area/stalker/blowout/buildings)
 "zQ" = (
-/obj/item/trash/metalparts/metaljunk/three,
+/obj/item/trash/stalker/metalparts/metaljunk/three,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/buildings)
 "zS" = (
@@ -2099,12 +2093,6 @@
 "BM" = (
 /obj/structure/grille/stalker/beton{
 	icon_state = "=1"
-	},
-/turf/open/stalker/floor/plasteel,
-/area/stalker/blowout/outdoor)
-"BN" = (
-/obj/structure/stalker/blocks/vanish/sandbags{
-	icon_state = "centers"
 	},
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
@@ -2308,7 +2296,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "Fz" = (
-/obj/item/trash/metalparts/metaljunk/five,
+/obj/item/trash/stalker/metalparts/metaljunk/five,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "FF" = (
@@ -2324,7 +2312,7 @@
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
 "FN" = (
-/obj/item/trash/metalparts/metaljunk/two,
+/obj/item/trash/stalker/metalparts/metaljunk/two,
 /obj/effect/spawner/random/stalker/junk,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plita,
@@ -2431,12 +2419,6 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
-"Hn" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/stalker/floor/wood/oldvert,
-/area/stalker/buildings/kordon/banditbar)
 "Ho" = (
 /obj/effect/abstract/radiation/low,
 /obj/structure/barricade/stalker/box,
@@ -2480,7 +2462,7 @@
 /turf/closed/indestructible/rock,
 /area/stalker/blowout/outdoor)
 "HH" = (
-/obj/item/trash/metalparts/metaljunk,
+/obj/item/trash/stalker/metalparts/metaljunk,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/buildings)
 "HM" = (
@@ -2906,15 +2888,9 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "Ob" = (
-/obj/item/trash/metalparts/metaljunk/three,
+/obj/item/trash/stalker/metalparts/metaljunk/three,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
-"Oh" = (
-/obj/structure/stalker/blocks/vanish/pipe/pipe2{
-	dir = 4
-	},
-/turf/open/stalker/floor/plasteel,
-/area/stalker/blowout/outdoor)
 "Or" = (
 /obj/structure/flora/tree/jungle/small,
 /turf/open/stalker/floor/digable/grass,
@@ -2952,7 +2928,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/outdoor)
 "OK" = (
-/obj/item/trash/metalparts/metaljunk/six,
+/obj/item/trash/stalker/metalparts/metaljunk/six,
 /turf/open/stalker/floor/dirt/dark,
 /area/stalker/blowout/buildings)
 "OQ" = (
@@ -3030,7 +3006,7 @@
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "Qb" = (
-/obj/item/trash/metalparts/metaljunk/five,
+/obj/item/trash/stalker/metalparts/metaljunk/five,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
@@ -3072,8 +3048,8 @@
 /area/stalker/blowout/buildings)
 "Ra" = (
 /obj/effect/spawner/random/stalker/junk,
-/obj/item/trash/metalparts/metaljunk,
-/obj/item/trash/metalparts/metaljunk/two,
+/obj/item/trash/stalker/metalparts/metaljunk,
+/obj/item/trash/stalker/metalparts/metaljunk/two,
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/plasteel/plita,
 /area/stalker/blowout/buildings)
@@ -3420,7 +3396,7 @@
 /turf/open/stalker/floor/gryaz/gryaz3,
 /area/stalker/blowout/buildings)
 "Vc" = (
-/obj/item/trash/metalparts/metaljunk/six,
+/obj/item/trash/stalker/metalparts/metaljunk/six,
 /turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/buildings)
 "Vd" = (
@@ -3549,12 +3525,6 @@
 /area/stalker/buildings/bandit)
 "WS" = (
 /turf/open/stalker/floor/road,
-/area/stalker/blowout/outdoor)
-"WW" = (
-/obj/structure/stalker/blocks/vanish/pipe/pipe3{
-	dir = 4
-	},
-/turf/open/stalker/floor/plasteel,
 /area/stalker/blowout/outdoor)
 "WZ" = (
 /obj/structure/bed/stalker/mattress_bloodblots,
@@ -3694,12 +3664,6 @@
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/buildings)
-"Yx" = (
-/obj/structure/stalker/blocks/vanish/pipe/pipe2{
-	dir = 8
-	},
-/turf/open/stalker/floor/plasteel,
-/area/stalker/blowout/outdoor)
 "Yy" = (
 /obj/structure/stalker/car/uaz{
 	icon_state = "1,0"
@@ -8102,7 +8066,7 @@ HV
 HV
 HV
 HV
-mb
+dp
 HV
 HV
 HV
@@ -8151,7 +8115,7 @@ HV
 HV
 HV
 HV
-mb
+dp
 HV
 HV
 HV
@@ -8553,7 +8517,7 @@ HV
 HV
 HV
 HV
-mb
+dp
 HV
 HV
 HV
@@ -8955,13 +8919,13 @@ HV
 HV
 HV
 HV
-mb
+dp
 HV
 HV
 HV
 HV
 HV
-mb
+dp
 HV
 HV
 HV
@@ -9363,7 +9327,7 @@ HV
 HV
 HV
 HV
-mb
+dp
 HV
 HV
 HV
@@ -10122,7 +10086,7 @@ HV
 HV
 HV
 HV
-mb
+dp
 HV
 HV
 HV
@@ -10524,7 +10488,7 @@ Rp
 HV
 HV
 HV
-mb
+dp
 HV
 HV
 HV
@@ -59653,7 +59617,7 @@ HV
 HV
 HV
 HV
-BN
+ri
 ex
 SC
 SC
@@ -60055,13 +60019,13 @@ SC
 SC
 SC
 SC
-BN
+ri
 SC
 SC
 SC
 SC
 SC
-BN
+ri
 SC
 SC
 SC
@@ -60463,7 +60427,7 @@ SC
 SC
 SC
 SC
-BN
+ri
 SC
 SC
 SC
@@ -61252,7 +61216,7 @@ SC
 SC
 SC
 SC
-Oh
+oq
 SC
 SC
 SC
@@ -61686,7 +61650,7 @@ SC
 SC
 SC
 SC
-BN
+ri
 SC
 SC
 SC
@@ -62866,7 +62830,7 @@ SC
 SC
 SC
 SC
-BN
+ri
 SC
 Vf
 SC
@@ -62880,7 +62844,7 @@ SC
 SC
 SC
 SC
-BN
+ri
 SC
 SC
 SC
@@ -67436,7 +67400,7 @@ SC
 SC
 SC
 SC
-Oh
+oq
 SC
 SC
 SC
@@ -67838,7 +67802,7 @@ SC
 SC
 SC
 SC
-WW
+Jl
 SC
 SC
 SC
@@ -68240,7 +68204,7 @@ SC
 SC
 SC
 SC
-WW
+Jl
 SC
 SC
 SC
@@ -68642,7 +68606,7 @@ SC
 SC
 SC
 SC
-WW
+Jl
 SC
 SC
 SC
@@ -69044,7 +69008,7 @@ SC
 SC
 SC
 SC
-WW
+Jl
 SC
 SC
 SC
@@ -69426,7 +69390,7 @@ Ha
 Uf
 Uf
 Ha
-Hn
+oy
 Uf
 Uf
 Lg
@@ -69446,7 +69410,7 @@ SC
 SC
 SC
 SC
-Yx
+df
 SC
 SC
 SC
@@ -79900,7 +79864,7 @@ SC
 SC
 SC
 SC
-BN
+ri
 SC
 SC
 SC
@@ -80302,7 +80266,7 @@ SC
 SC
 SC
 SC
-BN
+ri
 SC
 SC
 SC
@@ -83519,7 +83483,7 @@ SC
 SC
 SC
 SC
-BN
+ri
 SC
 SC
 SC
@@ -83921,7 +83885,7 @@ SC
 SC
 SC
 SC
-BN
+ri
 SC
 SC
 SC
@@ -99336,7 +99300,7 @@ HV
 SC
 SC
 SC
-Yx
+df
 SC
 SC
 SC
