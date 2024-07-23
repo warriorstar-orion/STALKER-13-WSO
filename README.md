@@ -35,6 +35,7 @@ Future tasks:
 - [ ] Add descriptions for all jobs to stop causing runtimes.
 - [ ] Everything with Sidomat, UIs, user accounts, buying and selling, stalker rank...
 - [ ] Get environmental sounds ported over to /area/ambientsounds.
+- [ ] Vortex anomalies follow ghosts.
 
 The below links are documentation originally written for /tg/.
 
