@@ -115,7 +115,7 @@ GLOBAL_LIST_EMPTY(zona_anomalies)
 		random_move_item(loot_spawn)
 
 /obj/effect/zona_anomaly/proc/random_move_item(atom/movable/spawned)
-	var/list/available_turfs = view(1, src)
+	var/list/available_turfs = RANGE_TURFS(1, src)
 	if(!length(available_turfs))
 		return FALSE
 	var/turf/new_turf = pick(available_turfs)

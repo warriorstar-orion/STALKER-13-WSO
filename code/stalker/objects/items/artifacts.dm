@@ -37,6 +37,7 @@ GLOBAL_LIST_EMPTY(zona_artifacts)
 
 /obj/item/artifact/equipped(mob/user, slot, initial)
 	. = ..()
+	LAZYREMOVE(update_on_z, detector_appearance)
 	if(!has_been_picked)
 		has_been_picked = TRUE
 		invisibility = 0
