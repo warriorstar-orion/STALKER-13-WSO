@@ -5212,7 +5212,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/buildings)
 "DB" = (
-/obj/machinery/smartfridge/drying_rack,
+/obj/machinery/smartfridge/drying/rack,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/buildings)
 "DC" = (
