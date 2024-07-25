@@ -2990,9 +2990,6 @@
 "MX" = (
 /turf/closed/wall/stalker/bricks_yellow,
 /area/stalker)
-"MZ" = (
-/turf/closed/wall/stalker/bricks_yellow,
-/area/stalker/blowout/outdoor)
 "Na" = (
 /obj/structure/bed/stalker/matras{
 	dir = 4
@@ -17822,7 +17819,7 @@ ej
 OI
 OI
 MT
-MZ
+oF
 oF
 oF
 oF

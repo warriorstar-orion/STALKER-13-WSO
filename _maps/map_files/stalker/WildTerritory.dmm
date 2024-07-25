@@ -895,9 +895,6 @@
 	},
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
-"iI" = (
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "iR" = (
 /obj/effect/turf_decal/turf_shading{
 	dir = 8
@@ -1627,10 +1624,6 @@
 /obj/effect/abstract/radiation/low,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
-"od" = (
-/obj/effect/abstract/radiation/medium,
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "of" = (
 /obj/structure/stalker/rails{
 	icon_state = "r"
@@ -3163,13 +3156,6 @@
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
-"CG" = (
-/obj/structure/stalker/bigyashik{
-	dir = 8;
-	icon_state = "bigyashik 0,0"
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/outdoor)
 "CH" = (
 /obj/machinery/campfire/barrel,
 /turf/open/stalker/floor/agroprom/gryaz,
@@ -4148,13 +4134,6 @@
 /obj/structure/mineral_door/wood,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/blowout/outdoor)
-"Mg" = (
-/obj/structure/stalker/bigyashik{
-	dir = 8;
-	icon_state = "bigyashik 0,0"
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/buildings)
 "Mn" = (
 /obj/structure/stalker/car/mi24{
 	icon_state = "1,1"
@@ -4309,13 +4288,6 @@
 /obj/effect/abstract/radiation/medium,
 /turf/open/stalker/floor/agroprom/gryaz,
 /area/stalker/blowout/outdoor)
-"Nq" = (
-/obj/structure/stalker/bigyashik{
-	dir = 8;
-	icon_state = "bigyashik 1,1"
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/buildings)
 "Nr" = (
 /obj/structure/stalker/car/gryzovik/west{
 	icon_state = "5"
@@ -4879,13 +4851,6 @@
 	},
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker/blowout/outdoor)
-"Tf" = (
-/obj/structure/stalker/bigyashik{
-	dir = 8;
-	icon_state = "bigyashik 1,0"
-	},
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/buildings)
 "Th" = (
 /obj/effect/turf_decal/turf_shading{
 	dir = 8
@@ -5586,9 +5551,6 @@
 	},
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/outdoor)
-"YW" = (
-/turf/open/stalker/floor/gryaz,
-/area/stalker/blowout/buildings)
 "YY" = (
 /obj/structure/stalker/bigyashik{
 	icon_state = "bigyashik 1,0"
@@ -6761,7 +6723,7 @@ hP
 hP
 iB
 KS
-CG
+ab
 hP
 hP
 hP
@@ -8428,7 +8390,7 @@ hP
 hP
 hP
 Uj
-YW
+Gh
 jA
 CP
 eY
@@ -9035,8 +8997,8 @@ hP
 hP
 Uj
 ho
-YW
-YW
+Gh
+Gh
 it
 jA
 VS
@@ -9237,13 +9199,13 @@ hP
 hP
 Uj
 ho
-YW
-YW
+Gh
+Gh
 jA
 jA
-YW
+Gh
 jA
-YW
+Gh
 Uj
 hP
 hP
@@ -9441,9 +9403,9 @@ Uj
 Uj
 jA
 gc
-YW
+Gh
 jA
-YW
+Gh
 it
 Uj
 Uj
@@ -9641,11 +9603,11 @@ hP
 hP
 Uj
 Uj
-YW
+Gh
 jA
-YW
-YW
-YW
+Gh
+Gh
+Gh
 Zq
 Uj
 Uj
@@ -9843,11 +9805,11 @@ hP
 hP
 Uj
 gc
-YW
+Gh
 jA
 ah
 ah
-YW
+Gh
 gc
 cV
 Uj
@@ -10044,14 +10006,14 @@ hP
 hP
 hP
 Uj
-YW
+Gh
 zn
 nk
 ah
 ah
-YW
+Gh
 qm
-YW
+Gh
 Uj
 hP
 hP
@@ -10251,9 +10213,9 @@ Au
 mn
 ah
 ah
-YW
+Gh
 qy
-Mg
+cX
 Uj
 hP
 hP
@@ -10451,9 +10413,9 @@ Uj
 Uj
 RV
 OU
-YW
-YW
-YW
+Gh
+Gh
+Gh
 Ai
 qz
 Uj
@@ -10650,14 +10612,14 @@ hP
 hP
 hP
 Uj
-YW
+Gh
 Au
 mn
 it
 Ap
 Sc
 jA
-YW
+Gh
 Uj
 hP
 hP
@@ -10852,14 +10814,14 @@ hP
 hP
 hP
 Uj
-YW
+Gh
 Au
 Au
 jA
 SZ
 PM
 jA
-YW
+Gh
 Uj
 hP
 hP
@@ -11262,7 +11224,7 @@ pn
 jA
 kv
 iz
-YW
+Gh
 Uj
 Uj
 hP
@@ -11458,14 +11420,14 @@ hP
 hP
 hP
 Uj
-YW
+Gh
 jA
 jA
 gc
-YW
+Gh
 jA
 gc
-YW
+Gh
 Uj
 hP
 hP
@@ -11664,10 +11626,10 @@ eA
 zu
 Ou
 jA
-YW
+Gh
 jA
-YW
-YW
+Gh
+Gh
 Uj
 hP
 hP
@@ -11822,7 +11784,7 @@ ir
 gy
 Ls
 Gh
-Nq
+Ai
 Ya
 ir
 It
@@ -12022,7 +11984,7 @@ ir
 ir
 ir
 PK
-Tf
+qz
 Gh
 ir
 ir
@@ -12064,10 +12026,10 @@ hP
 hP
 hP
 Uj
-YW
-YW
-YW
-YW
+Gh
+Gh
+Gh
+Gh
 pR
 MA
 Du
@@ -12230,10 +12192,10 @@ ir
 ir
 ir
 PK
-Tf
+qz
 Gh
-Nq
-Tf
+Ai
+qz
 Gh
 MV
 hP
@@ -12267,12 +12229,12 @@ hP
 hP
 Uj
 Uj
-YW
+Gh
 gc
-YW
-YW
-YW
-YW
+Gh
+Gh
+Gh
+Gh
 Uj
 Uj
 hP
@@ -12469,12 +12431,12 @@ hP
 hP
 Uj
 Uj
-YW
-YW
+Gh
+Gh
 ah
 ah
-YW
-YW
+Gh
+Gh
 Uj
 Uj
 hP
@@ -12670,14 +12632,14 @@ hP
 hP
 hP
 Uj
-YW
+Gh
 EO
 EO
 ah
 ah
-YW
-YW
-YW
+Gh
+Gh
+Gh
 Uj
 hP
 hP
@@ -12872,14 +12834,14 @@ hP
 hP
 hP
 Uj
-YW
-YW
-YW
+Gh
+Gh
+Gh
 ah
 ah
 EO
 gc
-YW
+Gh
 Uj
 hP
 hP
@@ -13076,11 +13038,11 @@ hP
 Uj
 EO
 EO
-YW
-YW
+Gh
+Gh
 EO
 EO
-YW
+Gh
 EO
 Uj
 hP
@@ -13278,11 +13240,11 @@ hP
 Uj
 EO
 EV
-YW
-YW
-YW
-YW
-YW
+Gh
+Gh
+Gh
+Gh
+Gh
 EO
 Uj
 hP
@@ -24413,8 +24375,8 @@ Gh
 Uj
 hP
 hP
-iI
-od
+hP
+me
 uG
 Xb
 WS
@@ -24615,7 +24577,7 @@ Gh
 hP
 hP
 eQ
-iI
+hP
 Mn
 FO
 zY
@@ -25226,7 +25188,7 @@ tS
 ps
 Tz
 rF
-od
+me
 eQ
 eQ
 bz
@@ -25428,7 +25390,7 @@ wN
 WS
 wN
 fm
-iI
+hP
 eQ
 eQ
 bz
@@ -25629,7 +25591,7 @@ WS
 wN
 Hh
 Hh
-iI
+hP
 NQ
 eQ
 eQ
@@ -27023,8 +26985,8 @@ SV
 YY
 SV
 YY
-Nq
-Tf
+Ai
+qz
 Gh
 di
 Gh
@@ -27625,8 +27587,8 @@ Oe
 Oe
 Oe
 Uj
-Nq
-Tf
+Ai
+qz
 Gh
 Gh
 Gh
