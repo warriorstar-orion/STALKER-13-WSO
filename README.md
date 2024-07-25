@@ -1,43 +1,24 @@
-## STALKER-13 (WSO)
+## /tg/station codebase
 
-This is a fork of the STALKER-13 codebase, rebuilt onto a more recent version of /tg/station. It is currently heavily in development and not production-ready. The `WSO` suffix is to distinguish it from the other existing STALKER-13 repositories:
+[![Build Status](https://github.com/tgstation/tgstation/workflows/CI%20Suite/badge.svg)](https://github.com/tgstation/tgstation/actions?query=workflow%3A%22CI+Suite%22)
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/tgstation/tgstation.svg)](https://isitmaintained.com/project/tgstation/tgstation "Percentage of issues still open")
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/tgstation/tgstation.svg)](https://isitmaintained.com/project/tgstation/tgstation "Average time to resolve an issue")
+![Coverage](https://img.shields.io/badge/coverage---4%25-red.svg)
 
-- `STALKER-13`, the current production codebase built on /tg/ from 2020.
-- `STALKER-NEW-REBASE`, relatively modern implementation of several features built on /tg/ from May 2023.
+[![resentment](.github/images/badges/built-with-resentment.svg)](.github/images/comics/131-bug-free.png) [![technical debt](.github/images/badges/contains-technical-debt.svg)](.github/images/comics/106-tech-debt-modified.png) [![forinfinityandbyond](.github/images/badges/made-in-byond.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
-This fork pulls the existing production codebase directly onto /tg/station's history and modernizes it. It also includes several features from the `STALKER-NEW-REBASE` fork, namely the implementations for anomalies, artifacts, the blowout subsystem, and radiation.
+| Website                   | Link                                           |
+|---------------------------|------------------------------------------------|
+| Website                   | [https://www.tgstation13.org](https://www.tgstation13.org)          |
+| Code                      | [https://github.com/tgstation/tgstation](https://github.com/tgstation/tgstation)    |
+| Wiki                      | [https://tgstation13.org/wiki/Main_Page](https://tgstation13.org/wiki/Main_Page)   |
+| Codedocs                  | [https://codedocs.tgstation13.org/](https://codedocs.tgstation13.org/)       |
+| /tg/station Discord       | [https://tgstation13.org/phpBB/viewforum.php?f=60](https://tgstation13.org/phpBB/viewforum.php?f=60) |
+| Coderbus Discord          | [https://discord.gg/Vh8TJp9](https://discord.gg/Vh8TJp9)               |
 
-This fork tries to minimize changes to /tg/'s code as much as possible, adding new implementations to a separate `stalker/` subdirectory, to hopefully make it easier to merge new /tg/ commits as time goes on.
+This is the codebase for the /tg/station flavoured fork of SpaceStation 13.
 
-In-progress tasks:
-
-- [ ] Confirming medicine and reagent replacements and making new reagents when /tg/'s deviates from the Stalker setting (e.g. charcoal)
-- [ ] Map conformance, linting, and performance.
-- [ ] Porting mobs to /tg/'s basic mobs and AI controllers.
-- [ ] Pulling out all icons from the STALKER-13 icon files, which just added them to TG's existing files, and making proper subtypes for clothing/weapons to reduce confusion and redundance specifying icon files.
-- [ ] Trying to get SSnightcycle to be a bit faster and nicer looking.
-- [ ] Treating factions as departments and making sure loadouts work as expected in game preferences.
-- [ ] Modernize smoothing tiles for furniture and walls (currently a lot of furniture is straight-up invisible).
-- [ ] Migrating the PDA network off the old datacore implementation.
-- [ ] Migrating PDA's UI to TGUI or something.
-- [ ] Move spawners to use `spawn_loot_chance` isntead of having a chance to spawn an `/obj/nothing`.
-- [ ] Get equipment upgrade system working properly.
-
-Future tasks:
-- [ ] Testing effects of all meds and all anomalies
-- [ ] Profiling and performance.
-- [ ] Pull HUD from `STALKER-NEW-RELEASE`.
-- [ ] Fix gates to not just instantiate random /atom/movables and cause runtimes.
-- [ ] Find out why mobs are spawning with low health.
-- [ ] Creating teleporting step_triggers that have IDs instead of arbitrary world coordinates.
-- [ ] Find out why Monolith isn't showing up in job preferences.
-- [ ] Set up leaders as "head" roles for factions.
-- [ ] Add descriptions for all jobs to stop causing runtimes.
-- [ ] Everything with Sidomat, UIs, user accounts, buying and selling, stalker rank...
-- [ ] Get environmental sounds ported over to /area/ambientsounds.
-- [ ] Vortex anomalies follow ghosts.
-
-The below links are documentation originally written for /tg/.
+Space Station 13 is a paranoia-laden round-based roleplaying game set against the backdrop of a nonsensical, metal death trap masquerading as a space station, with charming spritework designed to represent the sci-fi setting and its dangerous undertones. Have fun, and survive!
 
 ## DOWNLOADING
 [Downloading](.github/guides/DOWNLOADING.md)
