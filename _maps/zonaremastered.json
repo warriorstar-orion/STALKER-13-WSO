@@ -1,8 +1,9 @@
 {
 	"version": 1,
-    "map_name": "Zona Remastered",
-    "map_path": "map_files/stalker",
-    "map_file": [
+	"map_name": "Zona Remastered",
+	"map_path": "map_files/stalker",
+	"map_file": [
+		"DarkDolina.dmm",
 		"backwater.dmm",
 		"under.dmm",
 		"kordon.dmm",
@@ -14,87 +15,105 @@
 		"ArmyWarehouses.dmm",
 		"greatswamps.dmm",
 		"DeadCity.dmm",
-		"DarkDolina.dmm",
 		"WildTerritory.dmm"
 	],
 	"traits": [
+		{
+			"//": "Dark Valley",
+			"Linkage": null,
+			"Gravity": true,
+			"Station": true,
+			"No Parallax": true,
+			"Blowouts": true
+		},
 		{
 			"//": "Backwater (Zaton)",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Underground",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Kordon",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Rostok (Bar)",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Agroprom",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Svalka (Garbage)",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Radar",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Yantar",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Army Warehouses",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Great Swamps",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
-			"//": "Dead City Z-1" ,
+			"//": "Dead City Z-1",
 			"Up": true,
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Dead City Z-2",
@@ -102,21 +121,16 @@
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
-		},
-		{
-			"//": "Dark Valley",
-			"Linkage": null,
-			"Gravity": true,
-			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		},
 		{
 			"//": "Wild Territory",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
-			"No Parallax": true
+			"No Parallax": true,
+			"Blowouts": true
 		}
 	],
 	"space_ruin_levels": 0,

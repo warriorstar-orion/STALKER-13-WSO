@@ -389,6 +389,11 @@ Used by the AI doomsday and the self-destruct nuke.
 			continue
 		parsed_maps[pm] = total_z  // save the start Z of this file
 		total_z += bounds[MAP_MAXZ] - bounds[MAP_MINZ] + 1
+		// Most SS13 servers expect station maps to all be the same size,
+		// so the boundary fitting can truncate the world size with
+		// station maps of different sizes.
+		world.increase_max_x(bounds[MAP_MAXX])
+		world.increase_max_y(bounds[MAP_MAXY])
 
 	if (!length(traits))  // null or empty - default
 		for (var/i in 1 to total_z)

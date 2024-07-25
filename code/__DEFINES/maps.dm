@@ -152,22 +152,8 @@ Always compile, always use that verb, and always make sure that it works for wha
 	list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE, ZTRAIT_NOPARALLAX = TRUE, ZTRAIT_BLOWOUTS = TRUE))
 
 // must correspond to _basemap.dm for things to work correctly
-#define DEFAULT_MAP_TRAITS list(\
-	DECLARE_STALKER_REGION("backwater"),\
-	DECLARE_LEVEL("under", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE, ZTRAIT_NOPARALLAX = TRUE)),\
-	DECLARE_STALKER_REGION("kordon"),\
-	DECLARE_STALKER_REGION("bar"),\
-	DECLARE_STALKER_REGION("agroprom"),\
-	DECLARE_STALKER_REGION("svalka"),\
-	DECLARE_STALKER_REGION("radar"),\
-	DECLARE_STALKER_REGION("Yantar"),\
-	DECLARE_STALKER_REGION("ArmyWarehouses"),\
-	DECLARE_STALKER_REGION("greatswamps"),\
-	DECLARE_LEVEL("DeadCity_Z1", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE, ZTRAIT_NOPARALLAX = TRUE, ZTRAIT_UP = TRUE)),\
-	DECLARE_LEVEL("DeadCity_Z2", list(ZTRAIT_GRAVITY = TRUE, ZTRAIT_STATION = TRUE, ZTRAIT_NOPARALLAX = TRUE, ZTRAIT_DOWN = TRUE)),\
-	DECLARE_STALKER_REGION("DarkDolina"),\
-	DECLARE_STALKER_REGION("WildTerritory"),\
-)
+// TODO(wso): Add some kind of admin level eventually
+#define DEFAULT_MAP_TRAITS list()
 
 // Camera lock flags
 #define CAMERA_LOCK_STATION 1
