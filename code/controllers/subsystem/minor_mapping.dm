@@ -4,7 +4,7 @@
 SUBSYSTEM_DEF(minor_mapping)
 	name = "Minor Mapping"
 	init_order = INIT_ORDER_MINOR_MAPPING
-	flags = SS_NO_FIRE
+	flags = SS_NO_INIT | SS_NO_FIRE
 
 /datum/controller/subsystem/minor_mapping/Initialize()
 // This whole subsystem just introduces a lot of odd confounding variables into unit test situations,
