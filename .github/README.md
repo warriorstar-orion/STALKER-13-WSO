@@ -9,59 +9,7 @@ This fork pulls the existing production codebase directly onto /tg/station's his
 
 This fork tries to minimize changes to /tg/'s code as much as possible, adding new implementations to a separate `stalker/` subdirectory, to hopefully make it easier to merge new /tg/ commits as time goes on.
 
-In-progress tasks:
-
-- [ ] Confirming medicine and reagent replacements and making new reagents when /tg/'s deviates from the Stalker setting (e.g. charcoal)
-- [ ] Map conformance, linting, and performance.
-- [ ] Porting mobs to /tg/'s basic mobs and AI controllers.
-- [ ] Pulling out all icons from the STALKER-13 icon files, which just added them to TG's existing files, and making proper subtypes for clothing/weapons to reduce confusion and redundance specifying icon files.
-- [ ] Trying to get SSnightcycle to be a bit faster and nicer looking.
-- [ ] Treating factions as departments and making sure loadouts work as expected in game preferences.
-- [ ] Modernize smoothing tiles for furniture and walls (currently a lot of furniture is straight-up invisible).
-- [ ] Migrating the PDA network off the old datacore implementation.
-- [ ] Migrating PDA's UI to TGUI or something.
-- [ ] Move spawners to use `spawn_loot_chance` isntead of having a chance to spawn an `/obj/nothing`.
-- [ ] Get equipment upgrade system working properly.
-
-Future tasks:
-- [ ] Testing effects of all meds and all anomalies
-- [ ] Profiling and performance.
-- [ ] Pull HUD from `STALKER-NEW-RELEASE`.
-- [ ] Fix gates to not just instantiate random /atom/movables and cause runtimes.
-- [ ] Find out why mobs are spawning with low health.
-- [ ] Creating teleporting step_triggers that have IDs instead of arbitrary world coordinates.
-- [ ] Find out why Monolith isn't showing up in job preferences.
-- [ ] Set up leaders as "head" roles for factions.
-- [ ] Add descriptions for all jobs to stop causing runtimes.
-- [ ] Everything with Sidomat, UIs, user accounts, buying and selling, stalker rank...
-- [ ] Get environmental sounds ported over to /area/ambientsounds.
-- [ ] Vortex anomalies follow ghosts.
-
-The below links are documentation originally written for /tg/.
-
-## DOWNLOADING
-[Downloading](.github/guides/DOWNLOADING.md)
-
-[Running a server](.github/guides/RUNNING_A_SERVER.md)
-
-[Maps and Away Missions](.github/guides/MAPS_AND_AWAY_MISSIONS.md)
-
-## Compilation
-
-**The quick way**. Find `bin/server.cmd` in this folder and double click it to automatically build and host the server on port 1337.
-
-**The long way**. Find `bin/build.cmd` in this folder, and double click it to initiate the build. It consists of multiple steps and might take around 1-5 minutes to compile. If it closes, it means it has finished its job. You can then [setup the server](.github/guides/RUNNING_A_SERVER.md) normally by opening `tgstation.dmb` in DreamDaemon.
-
-**Building tgstation in DreamMaker directly is deprecated and might produce errors**, such as `'tgui.bundle.js': cannot find file`.
-
-**[How to compile in VSCode and other build options](tools/build/README.md).**
-
-## Contributors
-[Guides for Contributors](.github/CONTRIBUTING.md)
-
-[/tg/station HACKMD account](https://hackmd.io/@tgstation) - Design documentation here
-
-[Interested in some starting lore?](https://github.com/tgstation/common_core)
+For a list of current and upcoming tasks, [TODO.md](/.github/TODO.md).
 
 ## LICENSE
 
