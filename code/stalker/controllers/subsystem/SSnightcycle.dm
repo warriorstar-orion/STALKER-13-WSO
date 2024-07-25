@@ -18,7 +18,7 @@ SUBSYSTEM_DEF(nightcycle)
 	wait = 30 SECONDS // This thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
 	init_order = INIT_ORDER_NIGHTCYCLE
 
-	VAR_PRIVATE/current_time = TIMEOFDAY_NIGHTTIME
+	VAR_PRIVATE/current_time
 	VAR_PRIVATE/sun_color
 	VAR_PRIVATE/sun_power
 	VAR_PRIVATE/sun_range
@@ -93,7 +93,7 @@ SUBSYSTEM_DEF(nightcycle)
 			sun_power = 0.3
 		if(TIMEOFDAY_NIGHTTIME)
 			sun_color = "#00111a"
-			sun_power = 0.20
+			sun_power = 0
 
 /datum/controller/subsystem/nightcycle/proc/is_daylight()
 	switch(current_time)
