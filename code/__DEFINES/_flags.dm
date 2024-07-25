@@ -97,6 +97,7 @@ GLOBAL_LIST_INIT(bitflags, list(1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 204
 #define NO_CLEARING (1<<7)
 /// This atom is a pseudo-floor that blocks map generation's checkPlaceAtom() from placing things like trees ontop of it.
 #define TURF_BLOCKS_POPULATE_TERRAIN_FLORAFEATURES (1<<8)
+#define TURF_RECEIVES_STARLIGHT (1<<9)
 
 
 ////////////////Area flags\\\\\\\\\\\\\\

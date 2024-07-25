@@ -3,6 +3,9 @@
 #define EAST_EDGING		"east"
 #define WEST_EDGING		"west"
 
+/area
+	var/emits_starlight = FALSE
+
 /turf/open/floor/plating/asteroid/snow/lite
 	name = "snow"
 	desc = "Looks cold."
@@ -105,6 +108,19 @@
 	icon_state = "grass1"
 	//overlay_priority = 0
 	footstep = FOOTSTEP_TILE
+
+/turf/open/stalker/floor/Initialize(mapload)
+	var/area/A = get_area(src)
+	if(A.emits_starlight)
+		light_power = 1
+		light_range = 2
+		light_color = COLOR_STARLIGHT
+		light_height = LIGHTING_HEIGHT_SPACE
+		light_on = FALSE
+		space_lit = TRUE
+		turf_flags |= TURF_RECEIVES_STARLIGHT
+
+	. = ..()
 
 /turf/open/stalker/floor/digable
 	footstep = FOOTSTEP_GRASS

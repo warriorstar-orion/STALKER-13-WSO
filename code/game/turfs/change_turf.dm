@@ -85,6 +85,7 @@ GLOBAL_LIST_INIT(blacklisted_automated_baseturfs, typecacheof(list(
 	// We get just the bits of explosive_resistance that aren't the turf
 	var/old_explosive_resistance = explosive_resistance - get_explosive_block()
 	var/old_lattice_underneath = lattice_underneath
+	var/old_flags = flags
 
 	var/old_bp = blueprint_data
 	blueprint_data = null
@@ -156,27 +157,22 @@ GLOBAL_LIST_INIT(blacklisted_automated_baseturfs, typecacheof(list(
 			lighting_object.update()
 
 	// If we're space, then we're either lit, or not, and impacting our neighbors, or not
-	if(isspaceturf(src))
-		var/turf/open/space/lit_turf = src
+	var/area/A = get_area(src)
+	if(A.emits_starlight)
 		// This also counts as a removal, so we need to do a full rebuild
-		if(!ispath(old_type, /turf/open/space))
-			lit_turf.update_starlight()
-			for(var/turf/open/space/space_tile in RANGE_TURFS(1, src) - src)
-				space_tile.update_starlight()
+		if(!(old_flags & TURF_RECEIVES_STARLIGHT))
+			update_starlight()
+			for(var/turf/T in RANGE_TURFS(1, src) - src)
+				T.update_starlight()
 		else if(old_light_range)
-			lit_turf.enable_starlight()
+			enable_starlight()
 
 	// If we're a cordon we count against a light, but also don't produce any ourselves
 	else if (istype(src, /turf/cordon))
 		// This counts as removing a source of starlight, so we need to update the space tile to inform it
-		if(!ispath(old_type, /turf/open/space))
-			for(var/turf/open/space/space_tile in RANGE_TURFS(1, src))
+		if(!(old_flags & TURF_RECEIVES_STARLIGHT))
+			for(var/turf/space_tile in RANGE_TURFS(1, src))
 				space_tile.update_starlight()
-
-	// If we're not either, but were formerly a space turf, then we want light
-	else if(ispath(old_type, /turf/open/space))
-		for(var/turf/open/space/space_tile in RANGE_TURFS(1, src))
-			space_tile.enable_starlight()
 
 	if(old_opacity != opacity && SSticker)
 		GLOB.cameranet.bareMajorChunkChange(src)

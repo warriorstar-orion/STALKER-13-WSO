@@ -28,7 +28,7 @@ GLOBAL_VAR_INIT(starlight_power, default_starlight_power())
 	var/old_star_color = GLOB.starlight_color
 	GLOB.starlight_color = star_color
 	// set light color on all lit turfs
-	for(var/turf/open/space/spess as anything in GLOB.starlight)
+	for(var/turf/spess as anything in GLOB.starlight)
 		spess.set_light(l_range = range, l_power = power, l_color = star_color)
 
 	if(star_color == old_star_color)
@@ -109,11 +109,9 @@ GLOBAL_LIST_EMPTY(starlight)
 
 /// Updates starlight. Called when we're unsure of a turf's starlight state
 /// Returns TRUE if we succeed, FALSE otherwise
-/turf/open/space/proc/update_starlight()
-	for(var/t in RANGE_TURFS(1, src)) //RANGE_TURFS is in code\__HELPERS\game.dm
-		// I've got a lot of cordons near spaceturfs, be good kids
-		if(isspaceturf(t) || istype(t, /turf/cordon))
-			//let's NOT update this that much pls
+/turf/proc/update_starlight()
+	for(var/turf/t in RANGE_TURFS(1, src)) //RANGE_TURFS is in code\__HELPERS\game.dm
+		if(t.turf_flags & TURF_RECEIVES_STARLIGHT)
 			continue
 		enable_starlight()
 		return TRUE
@@ -122,7 +120,7 @@ GLOBAL_LIST_EMPTY(starlight)
 	return FALSE
 
 /// Turns on the stars, if they aren't already
-/turf/open/space/proc/enable_starlight()
+/turf/proc/enable_starlight()
 	if(!light_on)
 		set_light(l_on = TRUE, l_range = GLOB.starlight_range, l_power = GLOB.starlight_power, l_color = GLOB.starlight_color)
 		GLOB.starlight += src
