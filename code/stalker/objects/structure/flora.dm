@@ -63,6 +63,7 @@
 	icon_state = "derevored[rand(1, 5)]l"
 
 /obj/structure/flora/bush/wildplant
+	icon = 'icons/stalker/fallout/flora.dmi'
 	name = "wild weeds"
 	desc = "A useless weed which serves no purpose but to steal from other plants."
 	icon_state = "wild_root1"
