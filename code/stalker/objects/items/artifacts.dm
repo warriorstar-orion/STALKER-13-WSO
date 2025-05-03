@@ -25,7 +25,6 @@ GLOBAL_LIST_EMPTY(zona_artifacts)
 	detector_appearance = new(src)
 	detector_appearance.alpha = 100
 	detector_appearance.invisibility = 0
-	detector_appearance.loc = src
 	detector_appearance.override = TRUE
 	LAZYADD(update_on_z, detector_appearance)
 

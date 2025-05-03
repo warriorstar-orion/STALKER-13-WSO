@@ -3,7 +3,7 @@
 	var/debriss_type
 	var/loot = list()
 	var/lootcount = 0
-	var/list/hit_sounds = list('sound/weapons/genhit1.ogg', 'sound/weapons/genhit2.ogg', 'sound/weapons/genhit3.ogg')
+	var/list/hit_sounds = list('sound/items/weapons/genhit1.ogg', 'sound/items/weapons/genhit2.ogg', 'sound/items/weapons/genhit3.ogg')
 
 /obj/structure/barricade/stalker/take_damage(damage, leave_debris=1, message)
 	atom_integrity -= damage

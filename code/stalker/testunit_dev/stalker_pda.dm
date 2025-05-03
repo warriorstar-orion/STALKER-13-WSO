@@ -958,7 +958,7 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 	if(href_list["invite"])
 
 		var/sid_ = text2num(href_list["invite"])
-		var/datum/job/J = SSjob.GetJob(get_job_title(eng_faction_s))
+		var/datum/job/J = SSjob.get_job(get_job_title(eng_faction_s))
 
 		if(!J)
 			return
@@ -978,13 +978,13 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 	if(href_list["remove"])
 
 		var/sid_ = text2num(href_list["remove"])
-		var/datum/job/J = SSjob.GetJob(get_job_title(eng_faction_s))
+		var/datum/job/J = SSjob.get_job(get_job_title(eng_faction_s))
 
 		var/datum/data/record/sk_removed = find_record("sid", sid_, GLOB.data_core.stalkers)
 		if(!sk_removed)
 			return
 
-		SSjob.AssignRole(owner, "Loner", 1)
+		SSjob.assign_role(owner, "Loner", 1)
 		sk_removed.fields["faction_s"] = "Loners"
 		J.current_positions--
 
@@ -997,10 +997,10 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 
 	if(href_list["changefaction"])
 
-		var/new_eng_faction_s =  SSjob.GetJob(href_list["changefaction"]).faction_s
+		var/new_eng_faction_s =  SSjob.get_job(href_list["changefaction"]).faction_s
 		var/confirm = alert(H, "Do you want to change your faction from [eng_faction_s] to [new_eng_faction_s]?", "PDA", "Yes", "No")
 		if(confirm == "Yes")
-			var/datum/job/J =  SSjob.GetJob(href_list["changefaction"])
+			var/datum/job/J =  SSjob.get_job(href_list["changefaction"])
 
 			if(!J)
 				return
@@ -1008,7 +1008,7 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 			if((J.current_positions >= J.total_positions) && J.total_positions != -1)
 				return
 
-			SSjob.AssignRole(owner, href_list["changefaction"], 1)
+			SSjob.assign_role(owner, href_list["changefaction"], 1)
 
 			profile.fields["faction_s"] = J.faction_s
 			set_owner_info(profile)

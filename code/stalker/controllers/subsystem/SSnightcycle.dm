@@ -16,7 +16,10 @@
 SUBSYSTEM_DEF(nightcycle)
 	name = "Day/Night Cycle"
 	wait = 30 SECONDS // This thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
-	init_order = INIT_ORDER_NIGHTCYCLE
+	dependencies = list(
+		/datum/controller/subsystem/atoms,
+		/datum/controller/subsystem/mapping,
+	)
 
 	VAR_PRIVATE/current_time
 	VAR_PRIVATE/sun_color

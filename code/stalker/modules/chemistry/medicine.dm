@@ -8,7 +8,6 @@
 	name = "Anabiotic"
 	id = "anabiotic"
 	description = "An experimental drug that shuts down the user's central nervous system allowing them to survive blowouts while out of shelter."
-	reagent_state = LIQUID
 	color = "#800000"
 	metabolization_rate = 0.25 * REAGENTS_METABOLISM
 
@@ -32,7 +31,6 @@
 	name = "Indraline"
 	id = "indraline"
 	description = "A powerful radioprotectant that protects the user from accumulating additional radiation during exposure."
-	reagent_state = LIQUID
 	color = "#C39B77"
 	metabolization_rate = 0.55 * REAGENTS_METABOLISM
 
@@ -49,7 +47,7 @@
 	name = "Viksolum"
 	id = "viksolum"
 	description = "An artificial equivalent of vitamin K. The main purpose of this drug is to increase blood coagulation speed."
-	reagent_state = LIQUID
+
 	color = "#FF00FF"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 
@@ -66,7 +64,7 @@
 	name = "Hercules"
 	id = "hercules"
 	description = "An artificial steroid similar to testosterone that allows one to recover from fatigue faster."
-	reagent_state = LIQUID
+
 	color = "#FF00FF"
 	metabolization_rate = 0.75 * REAGENTS_METABOLISM
 
@@ -79,7 +77,7 @@
 	name = "Psy-block"
 	id = "psyblock"
 	description = "A chemical developed for use exclusively in the zone that shield against the effects of anomalous psy-fields."
-	reagent_state = LIQUID
+
 	color = "#770000"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 
@@ -91,7 +89,7 @@
 /datum/reagent/drug/cocaine
 	name = "Cocaine"
 	description = "Reduces stun times by about 200%. If overdosed or addicted it will deal significant Toxin, Brute and Brain damage."
-	reagent_state = LIQUID
+
 	color = "#FA00C8"
 	overdose_threshold = 20
 	addiction_types = list(/datum/addiction/cocaine = 10)
@@ -126,7 +124,7 @@
 	Because of the huge number of side effects, such as headache, dizziness, drowsiness, and in some cases memory disorders, disorientation, irritability, it is not\
 	 used for medicinal purposes in most countries. However, in the Zone it has become popular due to a side effect expressed in violation of the sensitivity of the \
 	 central nervous system, which allows it to withstand severe injuries, such as gunshot and shrapnel wounds."
-	reagent_state = LIQUID
+
 	color = "#A9FBFB"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	overdose_threshold = 30
@@ -175,7 +173,7 @@
 	name = "Axyltallisal"
 	id = "axyltallisal"
 	description = "This powerful mixture contained in a small syringe will make you lose consciousness. But when you wake up (if you wake up), you will feel reborn."
-	reagent_state = LIQUID
+
 	color = "#A9FBFB"
 	overdose_threshold = 30
 
@@ -231,7 +229,7 @@
 	name = "Combat-Stimulant"
 	id = "combat_stim"
 	description = "Powerful and fast-acting. Combat stimulants are considered a grey-area in terms of user safety within the zone."
-	reagent_state = LIQUID
+
 	color = "#4f0000"
 	metabolization_rate = 0.2 * REAGENTS_METABOLISM
 
@@ -278,7 +276,7 @@
 	name = "Promedol solution"
 	id = "promedolsolution"
 	description = "A simple solution of low-grade opiods that promotes healing. It works extremely slowly and can be overdosed!"
-	reagent_state = LIQUID
+
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
 	overdose_threshold = 20
@@ -300,7 +298,7 @@
 	name = "Low-Grade Radioprotectant"
 	id = "ai2rp"
 	description = "A weak radioprotectant that protects the user from accumulating additional radiation during exposure."
-	reagent_state = LIQUID
+
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
 
@@ -318,7 +316,7 @@
 	name = "Low-Grade Antiradiation"
 	id = "ai2ar"
 	description = "Ineffectively treats radiation sickness."
-	reagent_state = LIQUID
+
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
 
@@ -332,7 +330,7 @@
 	name = "Army Medical Solution"
 	id = "armysolution"
 	description = "Potent and reliable medicine containing clotting agents."
-	reagent_state = LIQUID
+
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
 	overdose_threshold = 20
@@ -354,7 +352,7 @@
 	name = "Advanced Solution"
 	id = "scisolution"
 	description = "An extremely potent and powerful mixture of chemicals!"
-	reagent_state = LIQUID
+
 	color = "#e6eaff"
 	metabolization_rate = 1 * REAGENTS_METABOLISM
 	overdose_threshold = 20
@@ -375,7 +373,7 @@
 	name = "Advanced Rad Solution"
 	id = "sciradsolution"
 	description = "An extremely potent and powerful mixture of chemicals!"
-	reagent_state = LIQUID
+
 	color = "#e6eaff"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	overdose_threshold = 20
@@ -398,7 +396,7 @@
 	name = "Improvised Stim"
 	id = "impstim"
 	description = "You're pretty sure this shit will kill you."
-	reagent_state = LIQUID
+
 	color = "#e6eaff"
 	metabolization_rate = 2 * REAGENTS_METABOLISM
 	overdose_threshold = 6
@@ -420,7 +418,7 @@
 	name = "Army Stim"
 	id = "stimarmypack"
 	description = "Promotes rapid healing in soft-tissues."
-	reagent_state = LIQUID
+
 	color = "#e6eaff"
 	metabolization_rate = 2 * REAGENTS_METABOLISM
 	overdose_threshold = 6
@@ -441,7 +439,7 @@
 	name = "Scientific Stim"
 	id = "scistim"
 	description = "An unknown concoction of medical fluids. It apparently tastes like cherries."
-	reagent_state = LIQUID
+
 	color = "#e6eaff"
 	metabolization_rate = 2 * REAGENTS_METABOLISM
 	overdose_threshold = 6

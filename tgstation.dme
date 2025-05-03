@@ -6814,7 +6814,6 @@
 #include "code\stalker\turfs\areas.dm"
 #include "code\stalker\turfs\ship_hull.dm"
 #include "code\stalker\turfs\stalkerturfs.dm"
-#include "code\ze_genesis_call\genesis_call.dm"
 #include "interface\interface.dm"
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"

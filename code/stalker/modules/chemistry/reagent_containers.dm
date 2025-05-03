@@ -1,42 +1,42 @@
 //// PILLS ////
 
-/obj/item/reagent_containers/pill/potassium_iodide
+/obj/item/reagent_containers/applicator/pill/potassium_iodide
 	name = "potassium iodide pill"
 	desc = "A common anti-radiation medication used by Stalkers after minor radiation exposure."
 	icon_state = "pill11"
 	list_reagents = list(/datum/reagent/medicine/potass_iodide = 20)
 
-/obj/item/reagent_containers/pill/radioprotectant
+/obj/item/reagent_containers/applicator/pill/radioprotectant
 	name = "radioprotectant pill"
 	desc = "A powerful radioprotectant that prevents the user from accumulating additional radiation during exposure."
 	icon_state = "pill17"
 	list_reagents = list(/datum/reagent/medicine/indraline = 20)
 
-/obj/item/reagent_containers/pill/vinca
+/obj/item/reagent_containers/applicator/pill/vinca
 	name = "vinca pill"
 	desc = "An artificial equivalent of vitamin K that rapidly accelerates blood coagulation in the body."
 	icon_state = "pill7"
 	list_reagents = list(/datum/reagent/medicine/viksolum = 20)
 
-/obj/item/reagent_containers/pill/psyblock
+/obj/item/reagent_containers/applicator/pill/psyblock
 	name = "psy-block pill"
 	desc = "An experimental drug that protects against the strange psionic energies found in the Zone."
 	icon_state = "pill12"
 	list_reagents = list(/datum/reagent/medicine/psyblock = 20)
 
-/obj/item/reagent_containers/pill/cocaine
+/obj/item/reagent_containers/applicator/pill/cocaine
 	name = "cocaine pill"
 	desc = "Cocaine compressed into pill form for easier consumption. It provides alertness and reduces fatigue after ingestion."
 	icon_state = "pill9"
 	list_reagents = list(/datum/reagent/drug/cocaine = 10)
 
-/obj/item/reagent_containers/pill/analgesic
+/obj/item/reagent_containers/applicator/pill/analgesic
 	name = "diclofenac sodium pill"
 	desc = "A popular painkiller in the Zone which allows Stalkers to withstand severe injuries, such as gunshot and shrapnel wounds. Users may experience extreme side effects."
 	icon_state = "pill8"
 	list_reagents = list(/datum/reagent/medicine/analgesic = 10)
 
-/obj/item/reagent_containers/pill/caffeine
+/obj/item/reagent_containers/applicator/pill/caffeine
 	name = "caffeine pill"
 	desc = "Caffeine and sodium benzoate which cause central nervous to work with highest effectiveness possible at a given time. Reduce sleepiness to a large degree."
 	icon_state = "pill0"

@@ -538,13 +538,13 @@
 	name = "stalker medicine"
 	icon_state = "med_pill_loot"
 	spawn_loot_count = 1
-	loot = list(/obj/item/reagent_containers/pill/potassium_iodide = 20,
-/obj/item/reagent_containers/pill/radioprotectant = 20,
-/obj/item/reagent_containers/pill/vinca = 5,
-/obj/item/reagent_containers/pill/psyblock = 5,
-/obj/item/reagent_containers/pill/cocaine = 5,
-/obj/item/reagent_containers/pill/analgesic = 15,
-/obj/item/reagent_containers/pill/caffeine = 10,
+	loot = list(/obj/item/reagent_containers/applicator/pill/potassium_iodide = 20,
+/obj/item/reagent_containers/applicator/pill/radioprotectant = 20,
+/obj/item/reagent_containers/applicator/pill/vinca = 5,
+/obj/item/reagent_containers/applicator/pill/psyblock = 5,
+/obj/item/reagent_containers/applicator/pill/cocaine = 5,
+/obj/item/reagent_containers/applicator/pill/analgesic = 15,
+/obj/item/reagent_containers/applicator/pill/caffeine = 10,
 				/obj/nothing = 20)
 
 /obj/effect/spawner/random/stalker/medicine/hypospray

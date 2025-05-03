@@ -675,9 +675,9 @@
 	speak_emote = list("squeaks", "SQUEAKS")
 	emote_see = list("squeaks!","SQUEAKS!")
 	faction = list("stalker_mutants1")
-	attack_sound = 'sound/creatures/mousesqueek.ogg'
-	idle_sounds = list('sound/creatures/mousesqueek.ogg')
-	deathsound = 'sound/creatures/mousesqueek.ogg'
+	attack_sound = 'sound/mobs/non-humanoids/mouse/mousesqueek.ogg'
+	idle_sounds = list('sound/mobs/non-humanoids/mouse/mousesqueek.ogg')
+	deathsound = 'sound/mobs/non-humanoids/mouse/mousesqueek.ogg'
 	melee_damage_lower = 5
 	melee_damage_upper = 10
 	maxHealth = 20
@@ -730,7 +730,7 @@
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	attack_verb_continuous = list("claws")
-	attack_sound = 'sound/weapons/punch1.ogg'
+	attack_sound = 'sound/items/weapons/punch1.ogg'
 	idle_sounds =	list('sound/stalker/mobs/mutants/idle/zombie_idle_1.ogg',
 						'sound/stalker/mobs/mutants/idle/zombie_idle_2.ogg',
 						'sound/stalker/mobs/mutants/idle/zombie_idle_3.ogg',
@@ -883,7 +883,7 @@
 	melee_damage_lower = 5
 	melee_damage_upper = 10
 	attack_verb_continuous = list("claws")
-	attack_sound = 'sound/weapons/punch1.ogg'
+	attack_sound = 'sound/items/weapons/punch1.ogg'
 	a_intent = INTENT_HARM
 	faction = list("stalker_mutants1", "monolith_forces")
 	check_friendly_fire = 1
@@ -1008,7 +1008,7 @@
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	attack_verb_continuous = list("claws")
-	attack_sound = 'sound/weapons/punch1.ogg'
+	attack_sound = 'sound/items/weapons/punch1.ogg'
 	a_intent = INTENT_HARM
 	faction = list("stalker_mutants1", "monolith_forces")
 	check_friendly_fire = 1
@@ -1050,7 +1050,7 @@
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	attack_verb_continuous = list("claws")
-	attack_sound = 'sound/weapons/punch1.ogg'
+	attack_sound = 'sound/items/weapons/punch1.ogg'
 	a_intent = INTENT_HARM
 	faction = list("stalker_mutants1", "monolith_forces")
 	check_friendly_fire = 1
@@ -1092,7 +1092,7 @@
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	attack_verb_continuous = list("claws")
-	attack_sound = 'sound/weapons/punch1.ogg'
+	attack_sound = 'sound/items/weapons/punch1.ogg'
 	a_intent = INTENT_HARM
 	faction = list("stalker_mutants1", "monolith_forces")
 	check_friendly_fire = 1

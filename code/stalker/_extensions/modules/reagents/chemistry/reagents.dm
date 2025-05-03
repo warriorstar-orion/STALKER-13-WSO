@@ -5,7 +5,6 @@
 	name = "Bicaridine"
 	id = "bicaridine"
 	description = "Restores bruising. Overdose causes it instead."
-	reagent_state = LIQUID
 	color = "#C8A5DC"
 	overdose_threshold = 30
 
@@ -23,7 +22,6 @@
 	name = "Kelotane"
 	id = "kelotane"
 	description = "Restores fire damage. Overdose causes it instead."
-	reagent_state = LIQUID
 	color = "#C8A5DC"
 	overdose_threshold = 30
 
@@ -42,4 +40,3 @@
 	description = "A mixture of waste and rotten plant matter that nurtures plants and keeps them free of pests."
 	color = "#44341F"
 	taste_description = "rot"
-	reagent_state = "SOLID"

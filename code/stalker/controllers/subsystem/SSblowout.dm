@@ -120,7 +120,7 @@ SUBSYSTEM_DEF(blowouts)
 
 /datum/controller/subsystem/blowouts/proc/blowout_affect_mobs()
 	for(var/mob/living/blowie as anything in blowout_affected_mobs)
-		if(HAS_TRAIT(blowie, TRAIT_BLOWOUT_IMMUNE) || (blowie.status_flags & GODMODE))
+		if(HAS_TRAIT(blowie, TRAIT_BLOWOUT_IMMUNE) || HAS_TRAIT(blowie, TRAIT_GODMODE))
 			continue
 		if(ishuman(blowie))
 			var/mob/living/carbon/human/zomboid = blowie

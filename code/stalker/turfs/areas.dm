@@ -2,7 +2,7 @@
 	icon = 'icons/stalker/areas.dmi'
 	name = "Strange Location"
 	icon_state = "away"
-	has_gravity = STANDARD_GRAVITY
+	default_gravity = STANDARD_GRAVITY
 
 /area/stalker/confined
 	static_lighting = FALSE

@@ -5,13 +5,13 @@
 	icon_deny = "med-deny"
 //	product_ads = "Go save some lives!;The best stuff for your infirmary!.;Only the finest tools.;Natural chemicals!;This stuff saves lives.;Don't you want some?;Ping!"
 //	req_access = list(ACCESS_MEDICAL)
-	products = list(/obj/item/reagent_containers/pill/potassium_iodide = 1,
-/obj/item/reagent_containers/pill/radioprotectant = 1,
-/obj/item/reagent_containers/pill/vinca = 1,
-/obj/item/reagent_containers/pill/psyblock = 0,
-/obj/item/reagent_containers/pill/cocaine = 1,
-/obj/item/reagent_containers/pill/analgesic = 0,
-/obj/item/reagent_containers/pill/caffeine = 1,
+	products = list(/obj/item/reagent_containers/applicator/pill/potassium_iodide = 1,
+/obj/item/reagent_containers/applicator/pill/radioprotectant = 1,
+/obj/item/reagent_containers/applicator/pill/vinca = 1,
+/obj/item/reagent_containers/applicator/pill/psyblock = 0,
+/obj/item/reagent_containers/applicator/pill/cocaine = 1,
+/obj/item/reagent_containers/applicator/pill/analgesic = 0,
+/obj/item/reagent_containers/applicator/pill/caffeine = 1,
 /obj/item/reagent_containers/hypospray/medipen/stalker/anabiotic = 0,
 /obj/item/reagent_containers/hypospray/medipen/stalker/hercules = 0,
 /obj/item/reagent_containers/hypospray/medipen/stalker/metamizole = 0,

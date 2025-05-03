@@ -228,11 +228,11 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		new /datum/data/stalker_equipment("IFAK",						"IFAK",						/obj/item/storage/firstaid/ifak,								4000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,sale_price = 700),
 		new /datum/data/stalker_equipment("Advanced Scientific Kit",	"Advanced Scientific Kit",	/obj/item/storage/firstaid/ecologists,							20000,	VETERAN,initial_stock = RIFLE_AMOUNT,faction = "Ecologist",sale_price = 3000),
 		new /datum/data/stalker_equipment("Scientific medkit",			"Scientific medkit",		/obj/item/storage/firstaid/sciencemedkit,						7000,	EXPERIENCED,initial_stock = RIFLE_AMOUNT,faction = "Ecologist",sale_price = 1000),
-		new /datum/data/stalker_equipment("Improvised Stim",			"Improvised Stim",			/obj/item/reagent_containers/pill/stalker/injector/improvisedstim,		6000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,sale_price = 2000),
-		new /datum/data/stalker_equipment("Army Stim",					"Army Stim",				/obj/item/reagent_containers/pill/stalker/injector/armystim,			14000,	VETERAN,initial_stock = PISTOL_AMOUNT,sale_price = 5000),
-		new /datum/data/stalker_equipment("Scientific Stim",			"Scientific Stim",			/obj/item/reagent_containers/pill/stalker/injector/scistim,				24000,	EXPERT,initial_stock = RIFLE_AMOUNT,faction = "Ecologist",sale_price = 10000),
+		new /datum/data/stalker_equipment("Improvised Stim",			"Improvised Stim",			/obj/item/reagent_containers/applicator/pill/stalker/injector/improvisedstim,		6000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT,sale_price = 2000),
+		new /datum/data/stalker_equipment("Army Stim",					"Army Stim",				/obj/item/reagent_containers/applicator/pill/stalker/injector/armystim,			14000,	VETERAN,initial_stock = PISTOL_AMOUNT,sale_price = 5000),
+		new /datum/data/stalker_equipment("Scientific Stim",			"Scientific Stim",			/obj/item/reagent_containers/applicator/pill/stalker/injector/scistim,				24000,	EXPERT,initial_stock = RIFLE_AMOUNT,faction = "Ecologist",sale_price = 10000),
 		new /datum/data/stalker_equipment("Bandage",					"Bandage",					/obj/item/stack/medical/gauze/bint,								750,	ROOKIE,initial_stock = PISTOL_AMOUNT),
-		new /datum/data/stalker_equipment("Anti-rad",					"Anti-rad",					/obj/item/reagent_containers/pill/stalker/injector/antirad,		1000,	ROOKIE,initial_stock = PISTOL_AMOUNT*2,			sale_price = 1000),
+		new /datum/data/stalker_equipment("Anti-rad",					"Anti-rad",					/obj/item/reagent_containers/applicator/pill/stalker/injector/antirad,		1000,	ROOKIE,initial_stock = PISTOL_AMOUNT*2,			sale_price = 1000),
 		new /datum/data/stalker_equipment("LSD Pills",					"LSD Pills",				/obj/item/storage/pill_bottle/lsd,								10000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Happines Pills",				"Happines Pills",			/obj/item/storage/pill_bottle/happinesspsych,						5000,	EXPERIENCED,initial_stock = PISTOL_AMOUNT),
 		new /datum/data/stalker_equipment("Epinephrine Pills",			"Epinephrine Pills",		/obj/item/storage/pill_bottle/epinephrine,						5000,	ROOKIE,initial_stock = PISTOL_AMOUNT)
@@ -411,20 +411,20 @@ GLOBAL_LIST_INIT(global_sidormat_list, list(
 		new /datum/data/stalker_equipment("Ointment",					"Ointment",						/obj/item/stack/medical/ointment,									25,		ROOKIE,	sale_price = 25),
 		new /datum/data/stalker_equipment("Bruise Pack",				"Bruise Pack",					/obj/item/stack/medical/bruise_pack,								25,		ROOKIE,	sale_price = 25),
 		// TODO(wso): Figure out what should replace this
-		// new /datum/data/stalker_equipment("Charcoal Pill",				"Charcoal Pill",				/obj/item/reagent_containers/pill/charcoal,							125,	ROOKIE,	sale_price = 125),
-		new /datum/data/stalker_equipment("Epipen",						"Epipen",						/obj/item/reagent_containers/pill/stalker/injector/epinephrine,		125,	ROOKIE,	sale_price = 125),
+		// new /datum/data/stalker_equipment("Charcoal Pill",				"Charcoal Pill",				/obj/item/reagent_containers/applicator/pill/charcoal,							125,	ROOKIE,	sale_price = 125),
+		new /datum/data/stalker_equipment("Epipen",						"Epipen",						/obj/item/reagent_containers/applicator/pill/stalker/injector/epinephrine,		125,	ROOKIE,	sale_price = 125),
 		// TODO(wso): Figure out what should replace this
-		// new /datum/data/stalker_equipment("Brute Patch",				"Brute Patch",					/obj/item/reagent_containers/pill/patch/styptic,					250,	ROOKIE,	sale_price = 250),
+		// new /datum/data/stalker_equipment("Brute Patch",				"Brute Patch",					/obj/item/reagent_containers/applicator/pill/patch/styptic,					250,	ROOKIE,	sale_price = 250),
 		// TODO(wso): Figure out what should replace this
-		// new /datum/data/stalker_equipment("Burn Patch",					"Burn Patch",					/obj/item/reagent_containers/pill/patch/silver_sulf,				250,	ROOKIE,	sale_price = 250),
-		new /datum/data/stalker_equipment("Combat Patch",				"Combat Patch",					/obj/item/reagent_containers/pill/patch/synthflesh,					250,	ROOKIE,	sale_price = 250),
-		new /datum/data/stalker_equipment("Brute Injector",				"Brute Injector",				/obj/item/reagent_containers/pill/stalker/injector/brute,			250,	ROOKIE,	sale_price = 250),
-		new /datum/data/stalker_equipment("Burn Injector",				"Burn Injector",				/obj/item/reagent_containers/pill/stalker/injector/burn,			250,	ROOKIE,	sale_price = 250),
-		new /datum/data/stalker_equipment("Blood Injector",				"Blood Injector",				/obj/item/reagent_containers/pill/stalker/injector/blood,			250,	ROOKIE,	sale_price = 150),
-		new /datum/data/stalker_equipment("Painkillers Injector",		"Painkillers Injector",			/obj/item/reagent_containers/pill/stalker/injector/painkiller,		250,	ROOKIE,	sale_price = 150),
-		new /datum/data/stalker_equipment("Antitoxin Injector",			"Antitoxin Injector",			/obj/item/reagent_containers/pill/stalker/injector/toxin,			250,	ROOKIE,	sale_price = 150),
-		new /datum/data/stalker_equipment("Oxygen Injector",			"Oxygen Injector",				/obj/item/reagent_containers/pill/stalker/injector/oxygen,			250,	ROOKIE,	sale_price = 150),
-		new /datum/data/stalker_equipment("Antirad Injector",			"Antirad Injector",				/obj/item/reagent_containers/pill/stalker/injector/antirad,			250,	ROOKIE,	sale_price = 150),
+		// new /datum/data/stalker_equipment("Burn Patch",					"Burn Patch",					/obj/item/reagent_containers/applicator/pill/patch/silver_sulf,				250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Combat Patch",				"Combat Patch",					/obj/item/reagent_containers/applicator/patch/synthflesh,					250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Brute Injector",				"Brute Injector",				/obj/item/reagent_containers/applicator/pill/stalker/injector/brute,			250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Burn Injector",				"Burn Injector",				/obj/item/reagent_containers/applicator/pill/stalker/injector/burn,			250,	ROOKIE,	sale_price = 250),
+		new /datum/data/stalker_equipment("Blood Injector",				"Blood Injector",				/obj/item/reagent_containers/applicator/pill/stalker/injector/blood,			250,	ROOKIE,	sale_price = 150),
+		new /datum/data/stalker_equipment("Painkillers Injector",		"Painkillers Injector",			/obj/item/reagent_containers/applicator/pill/stalker/injector/painkiller,		250,	ROOKIE,	sale_price = 150),
+		new /datum/data/stalker_equipment("Antitoxin Injector",			"Antitoxin Injector",			/obj/item/reagent_containers/applicator/pill/stalker/injector/toxin,			250,	ROOKIE,	sale_price = 150),
+		new /datum/data/stalker_equipment("Oxygen Injector",			"Oxygen Injector",				/obj/item/reagent_containers/applicator/pill/stalker/injector/oxygen,			250,	ROOKIE,	sale_price = 150),
+		new /datum/data/stalker_equipment("Antirad Injector",			"Antirad Injector",				/obj/item/reagent_containers/applicator/pill/stalker/injector/antirad,			250,	ROOKIE,	sale_price = 150),
 
 
 		/////////////////////////////////Rare Firearms	//////////////////////////////////////////////////

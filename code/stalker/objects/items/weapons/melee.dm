@@ -7,7 +7,7 @@
 	force = 20
 	throwforce = 15
 	w_class = WEIGHT_CLASS_SMALL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
 	sharpness = SHARP_POINTY
 	//butcher_speed = 1
@@ -21,7 +21,7 @@
 	force = 25
 	throwforce = 20
 	w_class = WEIGHT_CLASS_NORMAL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 	// TODO(wso): /datum/component/bayonet_attachable should be enough
@@ -37,9 +37,9 @@
 	force = 8
 	throwforce = 24
 	throw_speed = 4
-	embed_type = /datum/embed_data/throwing_star
+	embed_type = /datum/embedding/throwing_star
 	w_class = WEIGHT_CLASS_SMALL
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("penetrated", "stabbed", "skewered", "pierced")
 	sharpness = SHARP_POINTY
 
@@ -174,7 +174,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 //	bayonet = TRUE
@@ -192,7 +192,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 //	bayonet = TRUE
@@ -210,7 +210,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 //	bayonet = TRUE
@@ -228,7 +228,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 //	bayonet = TRUE
@@ -246,7 +246,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/melee_righthand.dmi'
-	hitsound = 'sound/weapons/bladeslice.ogg'
+	hitsound = 'sound/items/weapons/bladeslice.ogg'
 	attack_verb_continuous = list("attacked", "stabbed", "torn", "ripped")
 	sharpness = SHARP_POINTY
 //	bayonet = TRUE

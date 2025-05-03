@@ -303,7 +303,7 @@ var/sid_generator = 0
 
 		var/datum/job/J = null
 		if(H.mind.assigned_role)
-			J = SSjob.GetJob(H.mind.assigned_role)
+			J = SSjob.get_job(H.mind.assigned_role)
 
 		if(J)
 			if(J.real_rank == "Lieutenant")

@@ -21,7 +21,7 @@
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 	atom_storage.max_slots = 7
 	atom_storage.set_holdable(list(/obj/item/stack/medical,
-								/obj/item/reagent_containers/pill))
+								/obj/item/reagent_containers/applicator/pill))
 
 /obj/item/storage/firstaid/ifak/PopulateContents()
 	if(empty)
@@ -30,20 +30,20 @@
 		/obj/item/stack/medical/gauze/bint = 1,
 		/obj/item/stack/medical/suture = 1,
 		/obj/item/stack/medical/mesh = 1,
-		/obj/item/reagent_containers/pill/stalker/injector/blood = 1,
-		/obj/item/reagent_containers/pill/stalker/injector/painkiller = 1,
-		/obj/item/reagent_containers/pill/stalker/injector/oxygen = 1,
-		/obj/item/reagent_containers/pill/stalker/injector/epinephrine = 1)
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/blood = 1,
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/painkiller = 1,
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/oxygen = 1,
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/epinephrine = 1)
 	generate_items_inside(items_inside,src)
 
-/obj/item/reagent_containers/pill/iron
+/obj/item/reagent_containers/applicator/pill/iron
 	name = "iron pill"
 	desc = "Used to accelerate the treatment of blood deficiency."
 	icon_state = "pill17"
 	list_reagents = list(/datum/reagent/iron = 20)
 	rename_with_volume = FALSE
 
-/obj/item/reagent_containers/pill/painkiller
+/obj/item/reagent_containers/applicator/pill/painkiller
 	name = "analgesic pill"
 	desc = "Used to suppress pain. Causes stomach cramps after ingestion, eat beforehand!"
 	icon_state = "pill17"
@@ -56,7 +56,7 @@
 
 /obj/item/storage/pill_bottle/iron/PopulateContents()
 	for(var/i in 1 to 7)
-		new /obj/item/reagent_containers/pill/iron(src)
+		new /obj/item/reagent_containers/applicator/pill/iron(src)
 
 /obj/item/storage/pill_bottle/bicaridine
 	name = "bottle of bicaridine pills"
@@ -64,15 +64,13 @@
 
 /obj/item/storage/pill_bottle/bicaridine/PopulateContents()
 	for(var/i in 1 to 7)
-		new /obj/item/reagent_containers/pill/bicaridine(src)
+		new /obj/item/reagent_containers/applicator/pill/bicaridine(src)
 
 /obj/item/storage/pill_bottle/kelotane
 	name = "bottle of kelotane pills"
 	desc = "Contains pills used to counter burn damage."
-
-/obj/item/storage/pill_bottle/kelotane/PopulateContents()
-	for(var/i in 1 to 7)
-		new /obj/item/reagent_containers/pill/kelotane(src)
+	spawn_type = /obj/item/reagent_containers/applicator/pill/kelotane
+	spawn_count = 7
 
 /obj/item/storage/pill_bottle/salbutamol
 	name = "bottle of salbutamol pills"
@@ -80,7 +78,7 @@
 
 /obj/item/storage/pill_bottle/salbutamol/PopulateContents()
 	for(var/i in 1 to 7)
-		new /obj/item/reagent_containers/pill/salbutamol(src)
+		new /obj/item/reagent_containers/applicator/pill/salbutamol(src)
 
 /obj/item/storage/pill_bottle/painkiller
 	name = "bottle of analgesic pills"
@@ -88,16 +86,16 @@
 
 /obj/item/storage/pill_bottle/painkiller/PopulateContents()
 	for(var/i in 1 to 7)
-		new /obj/item/reagent_containers/pill/painkiller(src)
+		new /obj/item/reagent_containers/applicator/pill/painkiller(src)
 
-/obj/item/reagent_containers/pill/bicaridine
+/obj/item/reagent_containers/applicator/pill/bicaridine
 	name = "bicaridine pill"
 	desc = "Used to treat brute damage."
 	icon_state = "pill17"
 	list_reagents = list(/datum/reagent/medicine/bicaridine = 20)
 	rename_with_volume = FALSE
 
-/obj/item/reagent_containers/pill/kelotane
+/obj/item/reagent_containers/applicator/pill/kelotane
 	name = "kelotane pill"
 	desc = "Used to treat burn damage."
 	icon_state = "pill19"
@@ -118,16 +116,16 @@
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 	atom_storage.max_slots = 12
 	atom_storage.set_holdable(list(/obj/item/stack/medical,
-									/obj/item/reagent_containers/pill,
-									/obj/item/reagent_containers/pill/stalker/injector,
+									/obj/item/reagent_containers/applicator/pill,
+									/obj/item/reagent_containers/applicator/pill/stalker/injector,
 									/obj/item/storage/pill_bottle))
 
 /obj/item/storage/firstaid/ecologists/PopulateContents()
 	if(empty)
 		return
 	var/static/items_inside = list(
-		/obj/item/reagent_containers/pill/stalker/injector/scimedicalinjector = 2,
-		/obj/item/reagent_containers/pill/stalker/injector/blood = 2,
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/scimedicalinjector = 2,
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/blood = 2,
 		/obj/item/storage/pill_bottle/bicaridine = 1,
 		/obj/item/storage/pill_bottle/kelotane = 1,
 		/obj/item/storage/pill_bottle/salbutamol = 1,
@@ -153,16 +151,16 @@
 	. = ..()
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 	atom_storage.max_slots = 3
-	atom_storage.set_holdable(list(/obj/item/reagent_containers/pill/stalker/injector,
-									/obj/item/reagent_containers/pill/stalker/pillbottle))
+	atom_storage.set_holdable(list(/obj/item/reagent_containers/applicator/pill/stalker/injector,
+									/obj/item/reagent_containers/applicator/pill/stalker/pillbottle))
 
 /obj/item/storage/firstaid/ai2/PopulateContents()
 	if(empty)
 		return
 	var/static/items_inside = list(
-		/obj/item/reagent_containers/pill/stalker/injector/ai2 = 1,
-		/obj/item/reagent_containers/pill/stalker/pillbottle/radprotectorai2 = 1,
-		/obj/item/reagent_containers/pill/stalker/pillbottle/antiradai2 = 1)
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/ai2 = 1,
+		/obj/item/reagent_containers/applicator/pill/stalker/pillbottle/radprotectorai2 = 1,
+		/obj/item/reagent_containers/applicator/pill/stalker/pillbottle/antiradai2 = 1)
 	generate_items_inside(items_inside,src)
 
 // ARMY-MEDKIT
@@ -178,16 +176,16 @@
 	. = ..()
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 	atom_storage.max_slots = 3
-	atom_storage.set_holdable(list(/obj/item/reagent_containers/pill/stalker/injector,
-									/obj/item/reagent_containers/pill/stalker/pillbottle))
+	atom_storage.set_holdable(list(/obj/item/reagent_containers/applicator/pill/stalker/injector,
+									/obj/item/reagent_containers/applicator/pill/stalker/pillbottle))
 
 /obj/item/storage/firstaid/armymedkit/PopulateContents()
 	if(empty)
 		return
 	var/static/items_inside = list(
-		/obj/item/reagent_containers/pill/stalker/injector/blood = 1,
-		/obj/item/reagent_containers/pill/stalker/injector/armymedicalinjector = 1,
-		/obj/item/reagent_containers/pill/stalker/injector/painkiller = 1)
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/blood = 1,
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/armymedicalinjector = 1,
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/painkiller = 1)
 	generate_items_inside(items_inside,src)
 
 // SCIENTIFIC MEDKIT
@@ -203,14 +201,14 @@
 	. = ..()
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 	atom_storage.max_slots = 3
-	atom_storage.set_holdable(list(/obj/item/reagent_containers/pill/stalker/injector,
-									/obj/item/reagent_containers/pill/stalker/pillbottle))
+	atom_storage.set_holdable(list(/obj/item/reagent_containers/applicator/pill/stalker/injector,
+									/obj/item/reagent_containers/applicator/pill/stalker/pillbottle))
 
 /obj/item/storage/firstaid/sciencemedkit/PopulateContents()
 	if(empty)
 		return
 	var/static/items_inside = list(
-		/obj/item/reagent_containers/pill/stalker/injector/scimedicalinjector = 1,
-		/obj/item/reagent_containers/pill/stalker/injector/sciradinjector = 1,
-		/obj/item/reagent_containers/pill/stalker/injector/oxygen = 1)
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/scimedicalinjector = 1,
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/sciradinjector = 1,
+		/obj/item/reagent_containers/applicator/pill/stalker/injector/oxygen = 1)
 	generate_items_inside(items_inside,src)

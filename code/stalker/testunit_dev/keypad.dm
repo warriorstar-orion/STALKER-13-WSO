@@ -27,7 +27,7 @@ GLOBAL_LIST_EMPTY(all_faction_keypads)
 	if(correctcode == keycode)
 		keypadhtml += "<p><a href='byond://?src=\ref[src];choice=setup'>\[ Change \]</a>	\
 		<a href='byond://?src=\ref[src];choice=pulse'>\[ Use \]</a></p>"
-		playsound(loc, 'sound/machines/defib_success.ogg', 30, 1)
+		playsound(loc, 'sound/machines/defib/defib_success.ogg', 30, 1)
 
 	playsound(loc, 'sound/items/megaphone.ogg', 30, 1)
 	return
