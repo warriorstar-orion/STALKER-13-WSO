@@ -87,6 +87,10 @@
 	clothing_flags = SNUG_FIT
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
 
+/obj/item/clothing/head/costume/lobsterhat/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/speechmod, replacements = strings("crustacean_replacement.json", "crustacean"))
+
 /obj/item/clothing/head/costume/drfreezehat
 	name = "doctor freeze's wig"
 	desc = "A cool wig for cool people."
@@ -115,14 +119,10 @@
 /obj/item/clothing/head/costume/cardborg/equipped(mob/living/user, slot)
 	..()
 	if(ishuman(user) && (slot & ITEM_SLOT_HEAD))
-		var/mob/living/carbon/human/H = user
-		if(istype(H.wear_suit, /obj/item/clothing/suit/costume/cardborg))
-			var/obj/item/clothing/suit/costume/cardborg/CB = H.wear_suit
-			CB.disguise(user, src)
-
-/obj/item/clothing/head/costume/cardborg/dropped(mob/living/user)
-	..()
-	user.remove_alt_appearance("standard_borg_disguise")
+		var/mob/living/carbon/human/human_user = user
+		if(istype(human_user.wear_suit, /obj/item/clothing/suit/costume/cardborg))
+			var/obj/item/clothing/suit/costume/cardborg/suit = human_user.wear_suit
+			suit.disguise(user, src)
 
 /obj/item/clothing/head/costume/bronze
 	name = "bronze hat"
@@ -184,6 +184,9 @@
 	desc = "A neon-blue pair of headphones. They look neo-futuristic."
 	icon_state = "decker_hat"
 	inhand_icon_state = null
+	equip_sound = SFX_HEADSET_EQUIP
+	pickup_sound = SFX_HEADSET_PICKUP
+	drop_sound = 'sound/items/handling/headset/headset_drop1.ogg'
 
 /obj/item/clothing/head/costume/yuri
 	name = "yuri initiate helmet"
@@ -205,3 +208,22 @@
 	desc = "A delicate hairpin normally paired with traditional clothing"
 	icon_state = "hairpin_fancy"
 	inhand_icon_state = "hairpin_fancy"
+
+
+/obj/item/clothing/head/costume/snakeeater
+	name = "strange bandana"
+	desc = "A bandana. It seems to have a little carp embroidered on the inside, as well as the kanji '魚'."
+	icon_state = "snake_eater"
+	inhand_icon_state = null
+	clothing_traits = list(TRAIT_FISH_EATER)
+
+/obj/item/clothing/head/costume/knight
+	name = "fake medieval helmet"
+	desc = "A classic metal helmet. Though, this one seems to be very obviously fake..."
+	icon = 'icons/obj/clothing/head/helmet.dmi'
+	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
+	icon_state = "knight_green"
+	inhand_icon_state = "knight_helmet"
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDESNOUT
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	dog_fashion = null

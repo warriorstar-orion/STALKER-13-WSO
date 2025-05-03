@@ -73,7 +73,7 @@
 	to_chat(user, span_notice("You screw the battery case on [src] [open ? "open" : "closed"] ."))
 	update_appearance()
 
-/obj/item/reagent_containers/cup/maunamug/attackby(obj/item/I, mob/user, params)
+/obj/item/reagent_containers/cup/maunamug/attackby(obj/item/I, mob/user, list/modifiers)
 	add_fingerprint(user)
 	if(!istype(I, /obj/item/stock_parts/power_store/cell))
 		return ..()
@@ -91,7 +91,6 @@
 
 /obj/item/reagent_containers/cup/maunamug/attack_hand(mob/living/user, list/modifiers)
 	if(cell && open)
-		cell.update_appearance()
 		user.put_in_hands(cell)
 		cell = null
 		to_chat(user, span_notice("You remove the power cell from [src]."))
@@ -129,6 +128,7 @@
 	has_variable_transfer_amount = FALSE
 	volume = 5
 	spillable = FALSE
+	reagent_container_liquid_sound = null
 
 /obj/item/reagent_containers/cup/rag/Initialize(mapload)
 	. = ..()
