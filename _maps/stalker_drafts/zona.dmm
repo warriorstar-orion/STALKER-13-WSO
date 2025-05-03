@@ -34,7 +34,7 @@
 /turf/closed/wall/stalker/bricks_yellow,
 /area/stalker/blowout/outdoor/backwater/sawmill)
 "aaj" = (
-/obj/item/reagent_containers/pill/stalker/aptechka/civilian,
+/obj/item/reagent_containers/applicator/pill/stalker/aptechka/civilian,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor/backwater)
 "aak" = (
@@ -6180,14 +6180,14 @@
 	pixel_y = 32
 	},
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/epinephrine,
-/obj/item/reagent_containers/pill/epinephrine,
-/obj/item/reagent_containers/pill/epinephrine,
-/obj/item/reagent_containers/pill/epinephrine,
-/obj/item/reagent_containers/pill/epinephrine,
-/obj/item/reagent_containers/pill/epinephrine,
-/obj/item/reagent_containers/pill/epinephrine,
-/obj/item/reagent_containers/pill/epinephrine,
+/obj/item/reagent_containers/applicator/pill/epinephrine,
+/obj/item/reagent_containers/applicator/pill/epinephrine,
+/obj/item/reagent_containers/applicator/pill/epinephrine,
+/obj/item/reagent_containers/applicator/pill/epinephrine,
+/obj/item/reagent_containers/applicator/pill/epinephrine,
+/obj/item/reagent_containers/applicator/pill/epinephrine,
+/obj/item/reagent_containers/applicator/pill/epinephrine,
+/obj/item/reagent_containers/applicator/pill/epinephrine,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk)
 "awe" = (
@@ -7626,19 +7626,19 @@
 /area/stalker/blowout/outdoor)
 "aBs" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/happinesspsych,
-/obj/item/reagent_containers/pill/happinesspsych,
-/obj/item/reagent_containers/pill/happinesspsych,
-/obj/item/reagent_containers/pill/happinesspsych,
-/obj/item/reagent_containers/pill/happinesspsych,
-/obj/item/reagent_containers/pill/happinesspsych,
-/obj/item/reagent_containers/pill/happinesspsych,
-/obj/item/reagent_containers/pill/happinesspsych,
-/obj/item/reagent_containers/pill/happy,
-/obj/item/reagent_containers/pill/happy,
-/obj/item/reagent_containers/pill/happy,
-/obj/item/reagent_containers/pill/happy,
-/obj/item/reagent_containers/pill/happy,
+/obj/item/reagent_containers/applicator/pill/happinesspsych,
+/obj/item/reagent_containers/applicator/pill/happinesspsych,
+/obj/item/reagent_containers/applicator/pill/happinesspsych,
+/obj/item/reagent_containers/applicator/pill/happinesspsych,
+/obj/item/reagent_containers/applicator/pill/happinesspsych,
+/obj/item/reagent_containers/applicator/pill/happinesspsych,
+/obj/item/reagent_containers/applicator/pill/happinesspsych,
+/obj/item/reagent_containers/applicator/pill/happinesspsych,
+/obj/item/reagent_containers/applicator/pill/happy,
+/obj/item/reagent_containers/applicator/pill/happy,
+/obj/item/reagent_containers/applicator/pill/happy,
+/obj/item/reagent_containers/applicator/pill/happy,
+/obj/item/reagent_containers/applicator/pill/happy,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk)
 "aBt" = (
@@ -10285,14 +10285,14 @@
 /area/stalker/buildings/kordon/domik)
 "aJH" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/lsd,
-/obj/item/reagent_containers/pill/lsd,
-/obj/item/reagent_containers/pill/lsd,
-/obj/item/reagent_containers/pill/lsd,
-/obj/item/reagent_containers/pill/lsd,
-/obj/item/reagent_containers/pill/lsd,
-/obj/item/reagent_containers/pill/lsd,
-/obj/item/reagent_containers/pill/lsd,
+/obj/item/reagent_containers/applicator/pill/lsd,
+/obj/item/reagent_containers/applicator/pill/lsd,
+/obj/item/reagent_containers/applicator/pill/lsd,
+/obj/item/reagent_containers/applicator/pill/lsd,
+/obj/item/reagent_containers/applicator/pill/lsd,
+/obj/item/reagent_containers/applicator/pill/lsd,
+/obj/item/reagent_containers/applicator/pill/lsd,
+/obj/item/reagent_containers/applicator/pill/lsd,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk)
 "aJI" = (
@@ -11730,7 +11730,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "aOa" = (
-/obj/machinery/vending/boozeomat/all_access,
+/obj/machinery/vending/boozeomat,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk)
 "aOb" = (
@@ -17361,7 +17361,7 @@
 "bfp" = (
 /obj/effect/abstract/radiation/high,
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/stalker/aptechka/army,
+/obj/item/reagent_containers/applicator/pill/stalker/aptechka/army,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/blowout/buildings)
 "bfq" = (
@@ -18494,7 +18494,7 @@
 /area/stalker/blowout/buildings)
 "biK" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/stalker/aptechka/civilian,
+/obj/item/reagent_containers/applicator/pill/stalker/aptechka/civilian,
 /turf/open/stalker/floor/road,
 /area/stalker/blowout/buildings)
 "biL" = (
@@ -18673,7 +18673,7 @@
 /area/stalker/buildings/bar/rentgen)
 "bjs" = (
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/stalker/aptechka/army,
+/obj/item/reagent_containers/applicator/pill/stalker/aptechka/army,
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker/buildings/bar/rentgen)
 "bjt" = (
@@ -20917,7 +20917,7 @@
 	tumbler_2_pos = 20
 	},
 /obj/item/gun/ballistic/shotgun/bm16/toz34,
-/obj/item/reagent_containers/pill/stalker/aptechka/army,
+/obj/item/reagent_containers/applicator/pill/stalker/aptechka/army,
 /turf/open/stalker/floor/lattice,
 /area/stalker/buildings/backwater/skadovsk_respawn)
 "bpO" = (
@@ -21099,7 +21099,7 @@
 "bqt" = (
 /obj/effect/abstract/radiation/high,
 /obj/structure/closet/stalker/shkaf,
-/obj/item/reagent_containers/pill/stalker/aptechka/army,
+/obj/item/reagent_containers/applicator/pill/stalker/aptechka/army,
 /obj/item/reagent_containers/hypospray/medipen/stalker/antirad,
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
@@ -21547,7 +21547,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/stalker/buildings/backwater/skadovsk)
 "brO" = (
-/obj/machinery/vending/autodrobe/all_access,
+/obj/machinery/vending/autodrobe,
 /obj/machinery/light{
 	dir = 8
 	},

@@ -7,15 +7,13 @@
 		"backwater.dmm",
 		"under.dmm",
 		"kordon.dmm",
-		"bar.dmm",
 		"agroprom.dmm",
 		"svalka.dmm",
 		"radar.dmm",
 		"Yantar.dmm",
 		"ArmyWarehouses.dmm",
 		"greatswamps.dmm",
-		"DeadCity.dmm",
-		"WildTerritory.dmm"
+		"DeadCity.dmm"
 	],
 	"traits": [
 		{
@@ -51,15 +49,7 @@
 			"Blowouts": true
 		},
 		{
-			"//": "Rostok (Bar)",
-			"Linkage": null,
-			"Gravity": true,
-			"Station": true,
-			"No Parallax": true,
-			"Blowouts": true
-		},
-		{
-			"//": "Agroprom",
+			"//": "Agroprom / Bar / Wild Territory",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,
@@ -118,14 +108,6 @@
 		{
 			"//": "Dead City Z-2",
 			"Down": true,
-			"Linkage": null,
-			"Gravity": true,
-			"Station": true,
-			"No Parallax": true,
-			"Blowouts": true
-		},
-		{
-			"//": "Wild Territory",
 			"Linkage": null,
 			"Gravity": true,
 			"Station": true,

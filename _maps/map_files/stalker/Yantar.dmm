@@ -664,7 +664,7 @@
 /obj/structure/table/stalker/wood/bar,
 /obj/item/storage/box/MRE,
 /obj/item/stack/medical/gauze/bint,
-/obj/item/reagent_containers/pill/stalker/injector/painkiller,
+/obj/item/reagent_containers/applicator/pill/stalker/injector/painkiller,
 /turf/open/stalker/floor/wood/oldgor,
 /area/stalker/buildings)
 "hp" = (

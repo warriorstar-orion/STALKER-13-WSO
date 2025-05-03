@@ -18,7 +18,9 @@ SUBSYSTEM_DEF(nightcycle)
 	wait = 30 SECONDS // This thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
 	dependencies = list(
 		/datum/controller/subsystem/atoms,
+		/datum/controller/subsystem/lighting,
 		/datum/controller/subsystem/mapping,
+		/datum/controller/subsystem/ticker,
 	)
 
 	VAR_PRIVATE/current_time

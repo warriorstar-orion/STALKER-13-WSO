@@ -6361,19 +6361,19 @@
 	pixel_x = -13;
 	pixel_y = -7
 	},
-/obj/item/reagent_containers/pill/psyblock{
+/obj/item/reagent_containers/applicator/pill/psyblock{
 	pixel_x = -4
 	},
-/obj/item/reagent_containers/pill/radioprotectant{
+/obj/item/reagent_containers/applicator/pill/radioprotectant{
 	pixel_x = -11;
 	pixel_y = 5
 	},
-/obj/item/reagent_containers/pill/patch/synthflesh{
+/obj/item/reagent_containers/applicator/patch/synthflesh{
 	pixel_x = -3;
 	pixel_y = -13
 	},
 /obj/effect/abstract/radiation/low,
-/obj/item/reagent_containers/pill/tox/mislabelled{
+/obj/item/reagent_containers/applicator/pill/tox/mislabelled{
 	pixel_x = 6
 	},
 /turf/open/stalker/floor/asphalt,
@@ -8853,18 +8853,18 @@
 	pixel_x = 7;
 	pixel_y = -12
 	},
-/obj/item/organ/internal/eyes{
+/obj/item/organ/eyes{
 	pixel_y = 9
 	},
-/obj/item/organ/internal/heart{
+/obj/item/organ/heart{
 	pixel_x = -1;
 	pixel_y = 2
 	},
-/obj/item/organ/internal/liver{
+/obj/item/organ/liver{
 	pixel_x = -2;
 	pixel_y = -2
 	},
-/obj/item/organ/internal/stomach{
+/obj/item/organ/stomach{
 	pixel_x = 1;
 	pixel_y = -2
 	},
@@ -10531,14 +10531,14 @@
 /area/stalker/buildings)
 "JH" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
-/obj/item/organ/internal/heart{
+/obj/item/organ/heart{
 	pixel_x = -1
 	},
-/obj/item/organ/internal/liver{
+/obj/item/organ/liver{
 	pixel_x = -5;
 	pixel_y = -5
 	},
-/obj/item/organ/internal/stomach{
+/obj/item/organ/stomach{
 	pixel_y = -3
 	},
 /turf/open/stalker/floor/road,
@@ -13338,7 +13338,7 @@
 "Ty" = (
 /obj/structure/table/stalker/wood/bar,
 /obj/effect/decal/cleanable/blood/bubblegum,
-/obj/item/organ/internal/liver{
+/obj/item/organ/liver{
 	desc = "yummy.";
 	pixel_x = -5;
 	pixel_y = 9
@@ -13362,7 +13362,7 @@
 /area/stalker/buildings)
 "TB" = (
 /obj/structure/stalker/blocks/vanish/block1,
-/obj/item/reagent_containers/pill/stalker/injector/painkiller{
+/obj/item/reagent_containers/applicator/pill/stalker/injector/painkiller{
 	pixel_x = -6
 	},
 /obj/item/shovel{
@@ -14877,10 +14877,10 @@
 /area/stalker/buildings)
 "YK" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
-/obj/item/organ/internal/liver{
+/obj/item/organ/liver{
 	pixel_y = -9
 	},
-/obj/item/organ/internal/stomach{
+/obj/item/organ/stomach{
 	pixel_x = 3;
 	pixel_y = -12
 	},

@@ -846,7 +846,7 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker)
 "gz" = (
-/obj/effect/decal/cleanable/trail_holder{
+/obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 8
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -1344,7 +1344,7 @@
 /obj/effect/landmark/named_teleport_destination{
 	id = "armywarehouses_6"
 	},
-/obj/effect/decal/cleanable/trail_holder{
+/obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 8
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -2869,7 +2869,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "vR" = (
-/obj/effect/decal/cleanable/trail_holder{
+/obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 6
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -3432,7 +3432,7 @@
 /turf/open/stalker/floor/gryaz/gryaz2,
 /area/stalker)
 "AY" = (
-/obj/effect/decal/cleanable/trail_holder{
+/obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 5
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -4121,7 +4121,7 @@
 /turf/open/stalker/floor/gryaz,
 /area/stalker/blowout/outdoor)
 "GV" = (
-/obj/effect/decal/cleanable/trail_holder{
+/obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 9
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
@@ -4318,7 +4318,7 @@
 /area/stalker/blowout/outdoor)
 "II" = (
 /obj/effect/spawner/random/stalker/metalparts,
-/obj/effect/decal/cleanable/trail_holder{
+/obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 9
 	},
 /turf/open/stalker/floor/wood/oldgor,
@@ -5430,7 +5430,7 @@
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
 "SD" = (
-/obj/effect/decal/cleanable/trail_holder{
+/obj/effect/decal/cleanable/blood/trail_holder{
 	dir = 5
 	},
 /turf/open/stalker/floor/plasteel/plita/orange,
