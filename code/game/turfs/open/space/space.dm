@@ -1,7 +1,7 @@
 ///The base color of light space emits
-GLOBAL_VAR_INIT(base_starlight_color, default_starlight_color())
+GLOBAL_VAR_INIT(base_starlight_color, "#ffd1b3")
 ///The color of light space is currently emitting
-GLOBAL_VAR_INIT(starlight_color, default_starlight_color())
+GLOBAL_VAR_INIT(starlight_color, "#ffd1b3")
 /proc/default_starlight_color()
 	var/turf/open/space/read_from = /turf/open/space
 	return initial(read_from.light_color)

@@ -1,3 +1,5 @@
+#define VV_HK_SSNIGHTCYCLE_SET_TIME "ssnightcycle_set_time"
+
 #define TIMEOFDAY_SUNRISE	"sunrise"
 #define TIMEOFDAY_MORNING	"morning"
 #define TIMEOFDAY_DAYTIME	"daytime"
@@ -15,7 +17,7 @@
 /// Nightcycle uses the starlight lighting system to simulate the time of day.
 SUBSYSTEM_DEF(nightcycle)
 	name = "Day/Night Cycle"
-	wait = 30 SECONDS // This thing doesn't need to fire so fast, as it's tied to gameclock not its own ticker
+	wait = 1 SECONDS
 	dependencies = list(
 		/datum/controller/subsystem/atoms,
 		/datum/controller/subsystem/lighting,
@@ -31,9 +33,32 @@ SUBSYSTEM_DEF(nightcycle)
 /datum/controller/subsystem/nightcycle/Initialize()
 	return SS_INIT_SUCCESS
 
+/datum/controller/subsystem/nightcycle/vv_get_dropdown()
+	. = ..()
+	VV_DROPDOWN_OPTION(VV_HK_SSNIGHTCYCLE_SET_TIME, "Set Time")
+
+/datum/controller/subsystem/nightcycle/vv_do_topic(list/href_list)
+	. = ..()
+	if(href_list[VV_HK_SSNIGHTCYCLE_SET_TIME])
+		var/new_time = tgui_input_list(
+			usr, "Set Time", "Set Time",
+			list(
+				TIMEOFDAY_SUNRISE,
+				TIMEOFDAY_MORNING,
+				TIMEOFDAY_DAYTIME,
+				TIMEOFDAY_AFTERNOON,
+				TIMEOFDAY_SUNSET,
+				TIMEOFDAY_NIGHTTIME,
+			)
+		)
+		if(isnull(new_time))
+			return
+		set_time_of_day(new_time)
+		log_admin("[key_name(usr)] set the current time to [new_time].")
+
 /datum/controller/subsystem/nightcycle/fire(resumed)
 	if(next_bracket())
-		set_base_starlight(sun_color, sun_power, sun_range)
+		set_starlight_colour(sun_color, 3 SECONDS)
 
 /datum/controller/subsystem/nightcycle/proc/next_bracket()
 	var/time = station_time()

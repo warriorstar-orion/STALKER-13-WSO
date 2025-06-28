@@ -460,3 +460,27 @@
 	appearance_flags = PLANE_MASTER|NO_CLIENT_COLOR
 	render_relay_planes = list(RENDER_PLANE_MASTER)
 	offsetting_flags = BLOCKS_PLANE_OFFSETTING|OFFSET_RELAYS_MATCH_HIGHEST
+
+/**
+ * Renders extremely blurred white stuff over space to give the effect of starlight lighting.
+ */
+
+/atom/movable/screen/plane_master/starlight
+	name = "starlight plane master"
+	plane = STARLIGHT_PLANE
+	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+	render_relay_planes = list(LIGHTING_PLANE)
+	blend_mode_override = BLEND_OVERLAY
+	color = "#bcdaf7"
+
+/atom/movable/screen/plane_master/starlight/Initialize(mapload)
+	. = ..()
+	add_filter("guassian_blur", 1, gauss_blur_filter(6))
+	// Default the colour to whatever the parallax is currently
+	transition_colour(src, GLOB.starlight_color, 0, FALSE)
+	// Transition the colour to whatever the global tells us to go to
+	RegisterSignal(SSdcs, COMSIG_GLOB_STARLIGHT_COLOUR_CHANGE, PROC_REF(transition_colour))
+
+/atom/movable/screen/plane_master/starlight/proc/transition_colour(datum/source, new_colour, transition_time = 5 SECONDS)
+	SIGNAL_HANDLER
+	animate(src, time = transition_time, color = new_colour)

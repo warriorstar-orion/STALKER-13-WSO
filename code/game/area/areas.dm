@@ -127,6 +127,17 @@
 	/// Are shuttles allowed to dock in this area
 	var/allow_shuttle_docking = FALSE
 
+	var/fullbright_type = FULLBRIGHT_NONE
+
+	//Lighting overlay
+	var/obj/effect/lighting_overlay
+	var/lighting_overlay_colour = "#FFFFFF"
+	var/lighting_overlay_opacity = 0
+	var/lighting_overlay_matrix_cr = 0
+	var/lighting_overlay_matrix_cg = 0
+	var/lighting_overlay_matrix_cb = 0
+	var/lighting_overlay_cached_darkening_matrix
+
 /**
  * A list of teleport locations
  *
@@ -190,19 +201,53 @@ GLOBAL_LIST_EMPTY(teleportlocs)
 		power_equip = TRUE
 		power_environ = TRUE
 
-		if(static_lighting)
-			luminosity = 0
-
 	. = ..()
 
-	if(!static_lighting)
-		blend_mode = BLEND_MULTIPLY
+	if(static_lighting)
+		blend_mode = BLEND_MULTIPLY // Putting this in the constructor so that it stops the icons being screwed up in the map editor.
+		if (fullbright_type == FULLBRIGHT_STARLIGHT)
+			add_overlay(GLOB.starlight_overlay)
+		else
+			add_overlay(GLOB.fullbright_overlay)
+	else if(lighting_overlay_opacity && lighting_overlay_colour)
+		generate_lighting_overlay()
 
 	reg_in_areas_in_z()
 
 	update_base_lighting()
 
 	return INITIALIZE_HINT_LATELOAD
+
+/**
+ * Performs initial setup of the lighting overlays.
+ */
+/area/proc/generate_lighting_overlay()
+	if(lighting_overlay)
+		//Remove the old lighting overlay
+		cut_overlay(lighting_overlay)
+		//Delete the old lighting overlay object
+		QDEL_NULL(lighting_overlay)
+	//Create the lighting overlay object for this area
+	update_lighting_overlay()
+	//Areas with a lighting overlay should be fully visible, and the tiles adjacent to them should also
+	//be luminous
+	set_base_luminosity(src, 1)
+	//Add the lighting overlay
+	add_overlay(lighting_overlay)
+
+/area/proc/update_lighting_overlay()
+	lighting_overlay = new /obj/effect/fullbright
+	lighting_overlay.color = lighting_overlay_colour
+	lighting_overlay.alpha = lighting_overlay_opacity
+	if(length(lighting_overlay_colour) != 7)
+		return
+	var/r = hex2num(copytext(lighting_overlay_colour, 2, 4))/255
+	var/g = hex2num(copytext(lighting_overlay_colour, 4, 6))/255
+	var/b = hex2num(copytext(lighting_overlay_colour, 6, 8))/255
+	lighting_overlay_matrix_cr = r * (lighting_overlay_opacity/255)
+	lighting_overlay_matrix_cg = g * (lighting_overlay_opacity/255)
+	lighting_overlay_matrix_cb = b * (lighting_overlay_opacity/255)
+	lighting_overlay_cached_darkening_matrix = null // Clear cached list
 
 /**
  * Sets machine power levels in the area

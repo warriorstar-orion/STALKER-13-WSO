@@ -96,6 +96,9 @@
 /// Global signal when starlight color is changed (old_star, new_star)
 #define COMSIG_STARLIGHT_COLOR_CHANGED "!starlight_color_changed"
 
+/// Called when the parallax background changes colour. (new_colour, transition_time)
+#define COMSIG_GLOB_STARLIGHT_COLOUR_CHANGE "!starlight_colour_change"
+
 /// Global signal sent when a religious sect is chosen
 #define COMSIG_RELIGIOUS_SECT_CHANGED "!religious_sect_changed"
 /// Global signal sent when a religious sect is reset

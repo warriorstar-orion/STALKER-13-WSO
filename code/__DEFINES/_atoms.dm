@@ -10,3 +10,10 @@
 #define PROFILE_INIT_ATOM_BEGIN(...)
 #define PROFILE_INIT_ATOM_END(...)
 #endif
+
+
+#define set_base_luminosity(target, new_value)\
+if (UNLINT(target.base_luminosity != new_value)) {\
+	UNLINT(target.base_luminosity = new_value);\
+	target.update_luminosity();\
+}

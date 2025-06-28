@@ -17,9 +17,8 @@
 	icon = 'icons/stalker/areas_outdoor_blowout.dmi'
 	icon_state = "outdoor"
 	environment = 15
-	emits_starlight = TRUE
-	base_lighting_color = COLOR_STARLIGHT
-	static_lighting = FALSE
+	fullbright_type = FULLBRIGHT_STARLIGHT
+	luminosity = 2
 
 /area/stalker/sidor
 	name = "Sidorovich Basement"

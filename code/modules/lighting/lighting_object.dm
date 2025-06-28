@@ -30,11 +30,6 @@ GLOBAL_LIST_EMPTY(default_lighting_underlays_by_z)
 	// Default to fullbright, so things can "see" if they use view() before we update
 	affected_turf.luminosity = 1
 
-	// This path is really hot. this is faster
-	// Really this should be a global var or something, but lets not think about that yes?
-	for(var/turf/T in RANGE_TURFS(1, affected_turf))
-		T.enable_starlight()
-
 	needs_update = TRUE
 	SSlighting.objects_queue += src
 
@@ -44,7 +39,7 @@ GLOBAL_LIST_EMPTY(default_lighting_underlays_by_z)
 	SSlighting.objects_queue -= src
 	if (isturf(affected_turf))
 		affected_turf.lighting_object = null
-		affected_turf.luminosity = 1
+		affected_turf.luminosity = initial(affected_turf.luminosity)
 		affected_turf.underlays -= current_underlay
 	affected_turf = null
 	return ..()

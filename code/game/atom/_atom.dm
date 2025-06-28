@@ -133,6 +133,14 @@
 	/// Flags to check for in can_perform_action for mouse drag & drop checks. To bypass checks see interaction_flags_atom mouse drop flags
 	var/interaction_flags_mouse_drop = NONE
 
+	/// What is our default level of luminosity, if you want inherent luminosity
+	/// withing an atom's type, set luminosity instead and we will manage it for you.
+	/// Always use set_base_luminosity instead of directly modifying this
+	VAR_PRIVATE/base_luminosity = 0
+	/// DO NOT EDIT THIS, USE ADD_LUM_SOURCE INSTEAD
+	VAR_PRIVATE/_emissive_count = 0
+
+
 /**
  * Top level of the destroy chain for most atoms
  *
@@ -968,3 +976,21 @@
 	if(pass_info.pass_flags & pass_flags_self)
 		return TRUE
 	. = !density
+
+/atom/proc/update_luminosity()
+	if (isnull(base_luminosity))
+		base_luminosity = initial(luminosity)
+
+	if (_emissive_count)
+		luminosity = max(1, base_luminosity)
+	else
+		luminosity = base_luminosity
+
+/atom/movable/update_luminosity()
+	if (isnull(base_luminosity))
+		base_luminosity = initial(luminosity)
+
+	if (UNLINT(_emissive_count))
+		UNLINT(luminosity = max(max(base_luminosity, affecting_dynamic_lumi), 1))
+	else
+		UNLINT(luminosity = max(base_luminosity, affecting_dynamic_lumi))
