@@ -36,8 +36,6 @@ SUBSYSTEM_DEF(lighting)
 			continue
 		for (var/list/zlevel_turfs as anything in area.get_zlevel_turf_lists())
 			for(var/turf/area_turf as anything in zlevel_turfs)
-				if(area.fullbright_type)
-					continue
 				new /datum/lighting_object(area_turf)
 			CHECK_TICK
 		CHECK_TICK

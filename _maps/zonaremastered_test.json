@@ -1,9 +1,9 @@
 {
 	"version": 1,
-    "map_name": "Zona Remastered",
-    "map_path": "map_files/stalker",
-    "map_file": [
-		"greatswamps.dmm"
+	"map_name": "Zona Remastered",
+	"map_path": "map_files/stalker",
+	"map_file": [
+		"ArmyWarehouses.dmm"
 	],
 	"traits": [
 		{

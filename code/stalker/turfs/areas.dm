@@ -18,6 +18,7 @@
 	icon_state = "outdoor"
 	environment = 15
 	fullbright_type = FULLBRIGHT_STARLIGHT
+	static_lighting = FALSE
 	luminosity = 2
 
 /area/stalker/sidor

@@ -470,7 +470,7 @@
 	plane = STARLIGHT_PLANE
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 	render_relay_planes = list(LIGHTING_PLANE)
-	blend_mode_override = BLEND_OVERLAY
+	blend_mode_override = BLEND_ADD
 	color = "#bcdaf7"
 
 /atom/movable/screen/plane_master/starlight/Initialize(mapload)

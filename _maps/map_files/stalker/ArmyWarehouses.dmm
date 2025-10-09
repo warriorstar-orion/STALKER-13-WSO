@@ -846,11 +846,8 @@
 /turf/open/stalker/floor/wood/oldvert,
 /area/stalker)
 "gz" = (
-/obj/effect/decal/cleanable/blood/trail_holder{
-	dir = 8
-	},
-/turf/open/stalker/floor/wood/oldgor,
-/area/stalker)
+/turf/closed/wall/stalker/beton,
+/area/stalker/blowout/buildings)
 "gB" = (
 /obj/structure/stalker/car/gryzovik_army/north{
 	icon_state = "4"
@@ -907,19 +904,6 @@
 	},
 /turf/open/stalker/floor/digable/grass,
 /area/stalker/blowout/outdoor)
-"hi" = (
-/obj/effect/step_trigger/teleporter{
-	dir = 8;
-	teleport_x = 252;
-	teleport_y = 177;
-	teleport_z = 11
-	},
-/turf/open/stalker/floor/asphalt,
-/area/stalker/blowout/outdoor)
-"hk" = (
-/mob/living/simple_animal/hostile/mutant/snork,
-/turf/open/stalker/floor/gryaz/gryaz2,
-/area/stalker)
 "hl" = (
 /obj/effect/landmark/named_teleport_destination{
 	id = "armywarehouses_17"
@@ -1479,7 +1463,7 @@
 "kV" = (
 /obj/structure/stalker/okno/window2,
 /turf/closed/wall/stalker/beton_agro,
-/area/stalker/blowout/outdoor)
+/area/stalker/buildings/freedom)
 "kW" = (
 /obj/structure/stalker/car/btrgrimy,
 /turf/open/stalker/floor/plasteel,
@@ -1532,15 +1516,6 @@
 	icon_state = "3"
 	},
 /turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
-"lp" = (
-/obj/effect/step_trigger/teleporter{
-	dir = 8;
-	teleport_x = 252;
-	teleport_y = 179;
-	teleport_z = 11
-	},
-/turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "ls" = (
 /obj/structure/stalker/car/moskvich/south{
@@ -3309,15 +3284,6 @@
 	icon_state = "bigyashik 1,0"
 	},
 /turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
-"Aa" = (
-/obj/effect/step_trigger/teleporter{
-	dir = 8;
-	teleport_x = 252;
-	teleport_y = 176;
-	teleport_z = 11
-	},
-/turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "Ab" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
@@ -5342,18 +5308,6 @@
 /obj/structure/stalker/cacheable/bochka/red,
 /turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
-"RB" = (
-/obj/effect/step_trigger/teleporter{
-	dir = 8;
-	teleport_x = 172;
-	teleport_y = 22;
-	teleport_z = 9
-	},
-/turf/open/floor/plasteel/stairs/stalker{
-	dir = 4;
-	icon_state = "ladder_left"
-	},
-/area/stalker/blowout/buildings)
 "RE" = (
 /obj/structure/stalker/cacheable/yashik/yaskik_a,
 /turf/open/stalker/floor/tropa,
@@ -6240,15 +6194,6 @@
 "ZJ" = (
 /obj/structure/stalker/car/moskvich/south,
 /turf/open/stalker/floor/digable/grass,
-/area/stalker/blowout/outdoor)
-"ZL" = (
-/obj/effect/step_trigger/teleporter{
-	dir = 8;
-	teleport_x = 252;
-	teleport_y = 178;
-	teleport_z = 11
-	},
-/turf/open/stalker/floor/asphalt,
 /area/stalker/blowout/outdoor)
 "ZO" = (
 /obj/structure/sign/warning/radiation,
@@ -50181,23 +50126,23 @@ SF
 gu
 cd
 gu
-bx
-bx
+Ni
+Ni
 kV
-bx
+Ni
 kV
-bx
-bx
-bx
-bx
-bx
-bx
-bx
+Ni
+Ni
+Ni
+Ni
+Ni
+Ni
+Ni
 kV
-bx
+Ni
 kV
-bx
-bx
+Ni
+Ni
 SF
 ZG
 ZG
@@ -50438,7 +50383,7 @@ SF
 gu
 cd
 gu
-bx
+Ni
 fE
 Id
 ko
@@ -50454,7 +50399,7 @@ Ym
 Jy
 Ym
 Vb
-bx
+Ni
 SF
 ZG
 ZG
@@ -50711,7 +50656,7 @@ Id
 Id
 Id
 Id
-bx
+Ni
 SF
 ZG
 ZG
@@ -50952,7 +50897,7 @@ SF
 gu
 cd
 gu
-bx
+Ni
 ET
 Id
 Id
@@ -50968,7 +50913,7 @@ Ni
 zi
 Ni
 Ni
-bx
+Ni
 SF
 ZG
 ZG
@@ -51209,7 +51154,7 @@ SF
 gu
 cd
 gu
-bx
+Ni
 Ni
 Ni
 zi
@@ -51225,7 +51170,7 @@ Id
 Id
 Id
 Id
-bx
+Ni
 SF
 ZG
 ZG
@@ -51466,7 +51411,7 @@ SF
 SF
 gu
 gu
-bx
+Ni
 Id
 Id
 Id
@@ -51482,7 +51427,7 @@ Id
 Id
 Id
 Id
-bx
+Ni
 SF
 ZG
 ZG
@@ -51723,7 +51668,7 @@ SF
 gu
 cd
 gu
-bx
+Ni
 Id
 Id
 Id
@@ -51739,7 +51684,7 @@ Ni
 zi
 Ni
 Ni
-bx
+Ni
 SF
 ZG
 ZG
@@ -51980,7 +51925,7 @@ SF
 gu
 gu
 SF
-bx
+Ni
 Ni
 Ni
 zi
@@ -51996,7 +51941,7 @@ Id
 Id
 Id
 jO
-bx
+Ni
 SF
 ZG
 ZG
@@ -52237,7 +52182,7 @@ nT
 nT
 gf
 SF
-bx
+Ni
 lM
 Id
 Id
@@ -52253,7 +52198,7 @@ Id
 Id
 Id
 uq
-bx
+Ni
 SF
 ZG
 ZG
@@ -52494,7 +52439,7 @@ kq
 nT
 gf
 SF
-bx
+Ni
 TU
 Ym
 TU
@@ -52510,7 +52455,7 @@ jO
 jO
 Id
 jO
-bx
+Ni
 SF
 ZG
 ZG
@@ -52751,23 +52696,23 @@ nT
 nT
 gf
 SF
-bx
-bx
+Ni
+Ni
 kV
-bx
+Ni
 kV
-bx
-bx
-bx
-bB
-bx
-bx
-bx
+Ni
+Ni
+Ni
+zi
+Ni
+Ni
+Ni
 kV
-bx
+Ni
 kV
-bx
-bx
+Ni
+Ni
 SF
 ZG
 ZG
@@ -55072,14 +55017,14 @@ GP
 GP
 SF
 SF
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
+kX
+kX
+kX
+kX
+kX
+kX
+kX
+kX
 SF
 GE
 ZG
@@ -55317,26 +55262,26 @@ ZG
 ZG
 ZG
 zv
-rl
-rl
-rl
-rl
-rl
-rl
+gz
+gz
+gz
+gz
+gz
+gz
 IS
 ZG
 ZG
 ZG
 qv
 SF
-bx
+kX
 OY
 OY
 OY
 dE
 OY
 dE
-bx
+kX
 GP
 SF
 ZG
@@ -55574,7 +55519,7 @@ ZG
 ZG
 ZG
 SF
-rl
+gz
 UQ
 EY
 UQ
@@ -55586,7 +55531,7 @@ Cr
 ZG
 qv
 SF
-bx
+kX
 OY
 dE
 Ui
@@ -55831,7 +55776,7 @@ ZG
 ZG
 ZG
 SF
-rl
+gz
 Bn
 vO
 vO
@@ -55843,7 +55788,7 @@ mr
 ZG
 qv
 SF
-bx
+kX
 OY
 OY
 sn
@@ -56097,17 +56042,17 @@ XU
 KC
 YQ
 mr
-rl
+gz
 SF
 SF
-bx
+kX
 eX
 OY
 OY
 OY
 OY
 OY
-bx
+kX
 dP
 SF
 ZG
@@ -56354,17 +56299,17 @@ xa
 hM
 hM
 vO
-rl
+gz
 SF
 SF
-bx
+kX
 tA
 OY
 dE
 OY
 dE
 OY
-bx
+kX
 jq
 bH
 ZG
@@ -56611,17 +56556,17 @@ zg
 vO
 xf
 hM
-rl
+gz
 SF
 SF
-bx
+kX
 Wz
 OY
 dE
 OY
 OY
 OY
-bx
+kX
 RQ
 zN
 ZG
@@ -56868,17 +56813,17 @@ hM
 vO
 Gf
 vO
-rl
+gz
 SF
 SF
-bx
+kX
 tA
 OY
 OY
 OY
 dE
 OY
-bx
+kX
 SF
 gH
 ZG
@@ -57116,7 +57061,7 @@ ZG
 ZG
 ZG
 SF
-rl
+gz
 hM
 vO
 hM
@@ -57125,17 +57070,17 @@ wx
 FM
 pv
 hM
-rl
+gz
 SF
 SF
-bx
+kX
 OY
 OY
 OY
 OY
 OY
 OY
-bx
+kX
 GP
 jq
 ZG
@@ -57373,7 +57318,7 @@ ZG
 ZG
 ZG
 SF
-rl
+gz
 pp
 hM
 vO
@@ -57382,10 +57327,10 @@ UN
 hM
 hM
 uu
-rl
+gz
 SF
 SF
-bx
+kX
 dE
 OY
 cM
@@ -57630,19 +57575,19 @@ ZG
 ZG
 ZG
 SF
-rl
-rl
-rl
-rl
+gz
+gz
+gz
+gz
 oz
 rr
 eS
-rl
-rl
-rl
+gz
+gz
+gz
 SF
 SF
-bx
+kX
 OY
 OY
 DI
@@ -57899,14 +57844,14 @@ SF
 SF
 SF
 SF
-bx
+kX
 OY
 dE
 OY
 OY
 dE
 dE
-bx
+kX
 dP
 SF
 ZG
@@ -58156,14 +58101,14 @@ SF
 SF
 SF
 SF
-bx
-bx
-bx
-bx
-bx
-bx
-bx
-bx
+kX
+kX
+kX
+kX
+kX
+kX
+kX
+kX
 SF
 SF
 ZG
